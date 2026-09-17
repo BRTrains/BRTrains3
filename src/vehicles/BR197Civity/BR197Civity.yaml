@@ -2,10 +2,11 @@ classification: diesel_mu
 model_life: 0
 vehicle_life: null
 loading_speed: 25
-additional_text: 'Type: Diesel Multiple Unit{}Usage: Suburban Passenger{}Withdrawal: --{}Liveries: TfW Rail'
+special_tags:
+  - operator/TfW Rail
 
 info:
-  identifier: br_class_197
+  identifier: br_197
   name: BR Class 197 Civity
   sub_name: Diesel multiple unit
   based_on: Siemens Civity
@@ -27,11 +28,11 @@ dates:
   introduction_date: 2019-07-01
 
 profiles:
-  - identifier: class_197_0
+  - identifier: 197_0
     name: 'BR Class 197/0 "Civity" (2-Car)'
     num_vehicles: 2
     capacity: 62
-  - identifier: class_197_1
+  - identifier: 197_1
     name: 'BR Class 197/1 "Civity" (3-Car)'
     num_vehicles: 3
     capacity: 68
@@ -39,5 +40,5 @@ profiles:
 liveries:
   - name: TfW Rail
     profiles:
-      - class_197_0
-      - class_197_1
+      - 197_0
+      - 197_1

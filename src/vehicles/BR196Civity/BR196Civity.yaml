@@ -2,10 +2,12 @@ classification: diesel_mu
 model_life: 0
 vehicle_life: null
 loading_speed: 25
-additional_text: 'Type: Diesel Multiple Unit{}Usage: Suburban Passenger{}Withdrawal: --{}Liveries: West Midlands Railway, Chiltern Railways'
+special_tags:
+  - operator/West Midlands Railway
+  - operator/Chiltern Railways
 
 info:
-  identifier: br_class_196
+  identifier: br_196
   name: BR Class 196 Civity
   sub_name: Diesel multiple unit
   based_on: Siemens Civity
@@ -27,11 +29,11 @@ dates:
   introduction_date: 2021-07-01
 
 profiles:
-  - identifier: class_196_0
+  - identifier: 196_0
     name: 'BR Class 196/0 "Civity" (2-Car)'
     num_vehicles: 2
     capacity: 62
-  - identifier: class_196_1
+  - identifier: 196_1
     name: 'BR Class 196/1 "Civity" (4-Car)'
     num_vehicles: 4
     capacity: 71
@@ -39,8 +41,8 @@ profiles:
 liveries:
   - name: West Midlands Railway
     profiles:
-      - class_196_0
-      - class_196_1
+      - 196_0
+      - 196_1
   - name: Chiltern Railways
     profiles:
-      - class_196_0
+      - 196_0
