@@ -1,0 +1,43 @@
+classification: diesel_mu
+model_life: 0
+vehicle_life: null
+loading_speed: 25
+additional_text: 'Type: Diesel Multiple Unit{}Usage: Suburban Passenger{}Withdrawal: --{}Liveries: Northern'
+
+info:
+  identifier: br_class_195
+  name: BR Class 195 Civity
+  sub_name: Diesel multiple unit
+  based_on: Siemens Desiro City / Civity
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 87.4
+  length: 8
+  power: 1036
+  speed: 100
+  tractive_effort: 0.3
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 2019-07-01
+
+profiles:
+  - identifier: class_195_0
+    name: 'BR Class 195/0 "Civity" (2-Car)'
+    num_vehicles: 2
+    capacity: 62
+  - identifier: class_195_1
+    name: 'BR Class 195/1 "Civity" (3-Car)'
+    num_vehicles: 3
+    capacity: 68
+
+liveries:
+  - name: Northern
+    profiles:
+      - class_195_0
+      - class_195_1

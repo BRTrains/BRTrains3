@@ -7,3 +7,7 @@ Build/
 build.log
 .venv/
 .DS_Store
+legacy_fixed.png
+*_original.png
+*_working.png
+
