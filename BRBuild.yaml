@@ -1,0 +1,7 @@
+project:
+  name: BRTrains3
+  build: true
+  target_folders:
+    - src/vehicles
+  palette: /Users/jon/Dev/BRBuild/Sprites/ttd-newgrf-dos.gpl
+  template_folder: src/templates

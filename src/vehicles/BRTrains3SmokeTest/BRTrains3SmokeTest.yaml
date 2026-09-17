@@ -1,0 +1,34 @@
+classification: prototype
+introduction_date: 2025
+model_life: 0
+vehicle_life: null
+
+info:
+  identifier: brtrains3_smoke_test
+  name: BRTrains3 Smoke Test Vehicle
+  sub_name: Temporary build fixture
+  based_on: None
+  operator: null
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 1
+  length: 1
+  power: 1
+  speed: 1
+  tractive_effort: 1
+
+cargo:
+  cargo_classes:
+    - passengers
+
+profiles:
+  - identifier: standard
+    name: Standard
+    capacity: 1
+
+liveries:
+  - name: Default
+    profiles:
+      - standard

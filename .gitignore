@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+WorkingData/
+Build/
+*.grf
+*.nml
+build.log
+.venv/
+.DS_Store

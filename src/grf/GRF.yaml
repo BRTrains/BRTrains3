@@ -1,0 +1,21 @@
+grf:
+  grfid: BRT3
+  short_name: BRTrains3
+  name: BRTrains 3
+  description: UK railway vehicles for OpenTTD
+
+versioning:
+  version: 1
+  compatible_version: 1
+
+params:
+  - identifier: param_passenger_multiplier
+    name_str: Passenger Capacity Multiplier
+    desc_str: Temporary smoke-test capacity multiplier
+    min_value: 1
+    max_value: 1
+    def_value: 1
+    names:
+      1: 1x
+
+global_vehicle_switches: []
