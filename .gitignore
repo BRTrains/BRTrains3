@@ -10,4 +10,6 @@ build.log
 legacy_fixed.png
 *_original.png
 *_working.png
+*.png.cache
+*.png.cacheindex
 
