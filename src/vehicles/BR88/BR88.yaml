@@ -1,0 +1,41 @@
+
+
+info:
+  identifier: br_88
+  name: 'BR Class 88'
+  sub_name: Bi-mode mixed-traffic locomotive
+  based_on: Stadler UKLight Class 88
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 86
+  length: 8
+  power: 5400
+  speed: 100
+  tractive_effort: 0.37
+  power_type:
+    - diesel
+    - electric
+
+cargo:
+  cargo_classes:
+    - freight
+
+dates:
+  introduction_date: 2017-06-11
+
+profiles:
+  - identifier: 88
+    name: Bi-Mode
+    num_vehicles: 1
+    capacity: 0
+    sprite_override: [1]
+    special_tags:
+      - formation/1-car
+      - subclass/88
+
+liveries:
+  - name: DRS
+    special_tags: [operator/DRS]
+    profiles: [88]

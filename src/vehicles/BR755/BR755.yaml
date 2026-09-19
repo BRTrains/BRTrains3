@@ -1,0 +1,51 @@
+
+
+info:
+  identifier: br_755
+  name: 'BR Class 755 FLIRT'
+  sub_name: Diesel-electric multiple unit
+  based_on: Stadler FLIRT UK Class 755
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 104.55
+  length: 8
+  power: 3500
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+    - electric
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 2019-07-29
+
+profiles:
+  - identifier: 755_3
+    name: '755/3 (4-Car with Power Pack)'
+    num_vehicles: 4
+    capacity: 55.67
+    sprite_override: [1, 5, 4, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/755_3
+  - identifier: 755_4
+    name: '755/4 (5-Car with Power Pack)'
+    num_vehicles: 5
+    capacity: 57.25
+    sprite_override: [1, 3, 5, 4, 2]
+    special_tags:
+      - formation/5-car
+      - subclass/755_4
+
+liveries:
+  - name: 'Greater Anglia'
+    special_tags: [operator/Greater Anglia]
+    profiles:
+      - 755_3
+      - 755_4

@@ -1,0 +1,8 @@
+ nmlc info: 907 sprites, 0 cached, 0 orphaned, 0 duplicates, 907 newly encoded (python)
+ nmlc info: Train items: 58/65420
+ nmlc info: Road Vehicle items: 1/65448
+ nmlc info: Badge items: 62/64001
+ nmlc info: Concurrent spritegroups: 7/256 (None)
+ nmlc info: Concurrent ActionD registers: 5/64 ("Build/BRTrains3.nml", line 969)
+ nmlc info: GRF parameter registers: 1/64
+ nmlc info: Badge translation table: 62/65535

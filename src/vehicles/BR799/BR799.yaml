@@ -1,0 +1,40 @@
+
+
+info:
+  identifier: br_799
+  name: 'BR Class 799 Hydrogen Prototype'
+  sub_name: Hydrogen multiple unit
+  based_on: Porterbrook Class 799 HydroFLEX
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 168
+  length: 8
+  power: 1438
+  speed: 75
+  tractive_effort: 0.08
+  power_type:
+    - hydrogen
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 2019-04-01
+
+profiles:
+  - identifier: 799_4
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 61
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/799_4
+
+liveries:
+  - name: 'Porterbrook Hydroflex Green and White'
+    special_tags: [operator/Porterbrook]
+    profiles: [799_4]

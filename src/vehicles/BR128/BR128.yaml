@@ -1,0 +1,43 @@
+
+special_tags:
+  - subclass/128
+
+info:
+  identifier: br_128
+  name: 'BR Class 128 "Post Office Motor Parcels Van"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 128
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 42
+  length: 8
+  power: 460
+  speed: 70
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo:
+  cargo_classes:
+    - mail
+
+dates:
+  introduction_date: 1959-04-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 35
+    special_tags:
+      - formation/1-car
+      - subclass/128
+
+liveries:
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'Royal Mail'
+    special_tags: [operator/Royal Mail]

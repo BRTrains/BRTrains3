@@ -1,0 +1,34 @@
+
+
+info:
+  identifier: br_conflat_a
+  name: 'BR Conflat A Container Wagon'
+  sub_name: Freight wagon
+  based_on: British Rail Conflat A
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 10
+  length: 3
+  power: 0
+  speed: 0
+  tractive_effort: 0.08
+
+cargo:
+  cargo_classes:
+    - freight
+
+dates:
+  introduction_date: 1950-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 25
+    special_tags:
+      - formation/1-car
+      - subclass/conflat_a
+
+liveries:
+  - name: Default

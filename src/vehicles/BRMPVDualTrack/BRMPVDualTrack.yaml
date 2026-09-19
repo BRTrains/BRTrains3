@@ -1,0 +1,49 @@
+
+
+info:
+  identifier: br_mpv_dualtrack
+  name: 'British Rail MPV Dual-Track'
+  sub_name: Departmental multiple unit
+  based_on: British Rail Multi-Purpose Vehicle
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 25
+  length: 8
+  power: 710
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 1999-04-21
+
+profiles:
+  - identifier: dualtrack_2
+    name: Pair
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/dualtrack
+
+liveries:
+  - name: 'Network Rail Yellow Empty'
+    special_tags: [operator/Network Rail, cargo/empty]
+    profiles: [dualtrack_2]
+  - name: 'Network Rail Yellow Leaf'
+    special_tags: [operator/Network Rail, cargo/leaf]
+    profiles: [dualtrack_2]
+  - name: 'Network Rail Blue Empty'
+    special_tags: [operator/Network Rail, cargo/empty]
+    profiles: [dualtrack_2]
+  - name: 'Network Rail Blue Leaf'
+    special_tags: [operator/Network Rail, cargo/leaf]
+    profiles: [dualtrack_2]

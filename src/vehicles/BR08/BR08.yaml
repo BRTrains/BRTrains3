@@ -1,0 +1,68 @@
+
+special_tags:
+  - subclass/08
+
+info:
+  identifier: br_08
+  name: 'BR Class 08 "Gronk"'
+  sub_name: Shunter
+  based_on: British Rail Class 08
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 52
+  length: 4
+  power: 350
+  speed: 20
+  tractive_effort: 0.31
+  power_type:
+    - diesel
+
+cargo:
+  cargo_classes:
+    - freight
+
+dates:
+  introduction_date: 1952-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/08
+
+liveries:
+  # Ordered by the source sprite y-coordinates in BRTrains2/src/trains/diesel_loco/08.pnml.
+  # The PNML spriteset declarations are intentionally out of livery order.
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Red'
+    special_tags: [operator/BR]
+  - name: 'Network Rail Yellow'
+    special_tags: [operator/Network Rail]
+  - name: Purple
+  - name: 'BR Black'
+    special_tags: [operator/BR]
+  - name: 'InterCity Swallow'
+    special_tags: [operator/InterCity]
+  - name: 'BR General Grey'
+    special_tags: [operator/BR]
+  - name: 'EWS Red and Gold'
+    special_tags: [operator/EWS]
+  - name: 'DB Schenker'
+    special_tags: [operator/DB Schenker]
+  - name: EMT
+    special_tags: [operator/EMT]
+  - name: GBRf
+    special_tags: [operator/GB Railfreight]
+  - name: 'Freightliner Orange'
+    special_tags: [operator/Freightliner]
+  - name: 'Freightliner Green'
+    special_tags: [operator/Freightliner]
+  - name: NSE
+    special_tags: [operator/Network SouthEast]

@@ -1,0 +1,2656 @@
+version: 1
+variants:
+- id: 1001
+  vehicle: br_196
+  profile: '1960'
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1001_br_196_1960_west_midlands_railway_train.gnml
+  identifier: br_196_1960_west_midlands_railway_train
+  name_string: str_br_196_1960_west_midlands_railway_train_name
+  strings:
+    str_br_196_1960_west_midlands_railway_train_name: 2-Car - West Midlands Railway
+    str_br_196_1960_west_midlands_railway_train_group_name: BR Class 196 Civity -
+      2-Car
+- id: 1002
+  vehicle: br_196
+  profile: '1960'
+  livery: chiltern railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1002_br_196_1960_chiltern_railways_train.gnml
+  identifier: br_196_1960_chiltern_railways_train
+  name_string: str_br_196_1960_chiltern_railways_train_name
+  strings:
+    str_br_196_1960_chiltern_railways_train_name: 2-Car - Chiltern Railways
+    str_br_196_1960_chiltern_railways_train_group_name: BR Class 196 Civity - 2-Car
+- id: 1003
+  vehicle: br_196
+  profile: '1961'
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1003_br_196_1961_west_midlands_railway_train.gnml
+  identifier: br_196_1961_west_midlands_railway_train
+  name_string: str_br_196_1961_west_midlands_railway_train_name
+  strings:
+    str_br_196_1961_west_midlands_railway_train_name: 4-Car - West Midlands Railway
+    str_br_196_1961_west_midlands_railway_train_single_livery_name: BR Class 196 Civity
+      - 4-Car - West Midlands Railway
+- id: null
+  vehicle: br_196
+  profile: '1961'
+  livery: chiltern railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1004_br_196_1961_chiltern_railways_train.gnml
+  identifier: br_196_1961_chiltern_railways_train
+  name_string: str_br_196_1961_chiltern_railways_train_name
+  strings:
+    str_br_196_1961_chiltern_railways_train_name: 4-Car - Chiltern Railways
+- id: null
+  vehicle: lu_1992
+  profile: '19922'
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1005_lu_1992_19922_london_underground_train.gnml
+  identifier: lu_1992_19922_london_underground_train
+  name_string: str_lu_1992_19922_london_underground_train_name
+  strings:
+    str_lu_1992_19922_london_underground_train_name: 2-Car - London Underground
+    str_lu_1992_19922_london_underground_train_group_name: London Underground 1992
+      Stock - 2-Car
+- id: null
+  vehicle: lu_1992
+  profile: '19922'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1006_lu_1992_19922_network_southeast_train.gnml
+  identifier: lu_1992_19922_network_southeast_train
+  name_string: str_lu_1992_19922_network_southeast_train_name
+  strings:
+    str_lu_1992_19922_network_southeast_train_name: 2-Car - Network SouthEast
+    str_lu_1992_19922_network_southeast_train_group_name: London Underground 1992
+      Stock - 2-Car
+- id: null
+  vehicle: lu_1992
+  profile: '19924'
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1007_lu_1992_19924_london_underground_train.gnml
+  identifier: lu_1992_19924_london_underground_train
+  name_string: str_lu_1992_19924_london_underground_train_name
+  strings:
+    str_lu_1992_19924_london_underground_train_name: 4-Car - London Underground
+    str_lu_1992_19924_london_underground_train_group_name: London Underground 1992
+      Stock - 4-Car
+- id: null
+  vehicle: lu_1992
+  profile: '19924'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1008_lu_1992_19924_network_southeast_train.gnml
+  identifier: lu_1992_19924_network_southeast_train
+  name_string: str_lu_1992_19924_network_southeast_train_name
+  strings:
+    str_lu_1992_19924_network_southeast_train_name: 4-Car - Network SouthEast
+    str_lu_1992_19924_network_southeast_train_group_name: London Underground 1992
+      Stock - 4-Car
+- id: null
+  vehicle: br_conflat_a
+  profile: conflat_a
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 25
+    articulated_count: 1
+    lengths:
+    - 3
+  archive: generated_variants/1009_br_conflat_a_conflat_a_default_train.gnml
+  identifier: br_conflat_a_conflat_a_default_train
+  name_string: str_br_conflat_a_conflat_a_default_train_name
+  strings:
+    str_br_conflat_a_conflat_a_default_train_name: BR Conflat A Container Wagon -
+      Standard - Default
+- id: null
+  vehicle: br_mk3_sleeper
+  profile: mk3_sleeper
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1010_br_mk3_sleeper_mk3_sleeper_br_blue_train.gnml
+  identifier: br_mk3_sleeper_mk3_sleeper_br_blue_train
+  name_string: str_br_mk3_sleeper_mk3_sleeper_br_blue_train_name
+  strings:
+    str_br_mk3_sleeper_mk3_sleeper_br_blue_train_name: BR Mk3 Sleeper - Standard -
+      BR Blue
+- id: null
+  vehicle: br_mk3_sleeper
+  profile: mk3_sleeper
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1011_br_mk3_sleeper_mk3_sleeper_intercity_train.gnml
+  identifier: br_mk3_sleeper_mk3_sleeper_intercity_train
+  name_string: str_br_mk3_sleeper_mk3_sleeper_intercity_train_name
+  strings:
+    str_br_mk3_sleeper_mk3_sleeper_intercity_train_name: BR Mk3 Sleeper - Standard
+      - InterCity
+- id: null
+  vehicle: br_mk3_sleeper
+  profile: mk3_sleeper
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1012_br_mk3_sleeper_mk3_sleeper_first_scotrail_train.gnml
+  identifier: br_mk3_sleeper_mk3_sleeper_first_scotrail_train
+  name_string: str_br_mk3_sleeper_mk3_sleeper_first_scotrail_train_name
+  strings:
+    str_br_mk3_sleeper_mk3_sleeper_first_scotrail_train_name: BR Mk3 Sleeper - Standard
+      - First ScotRail
+- id: null
+  vehicle: br_mk3_sleeper
+  profile: mk3_sleeper
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1013_br_mk3_sleeper_mk3_sleeper_scotrail_train.gnml
+  identifier: br_mk3_sleeper_mk3_sleeper_scotrail_train
+  name_string: str_br_mk3_sleeper_mk3_sleeper_scotrail_train_name
+  strings:
+    str_br_mk3_sleeper_mk3_sleeper_scotrail_train_name: BR Mk3 Sleeper - Standard
+      - ScotRail
+- id: null
+  vehicle: br_mk3_sleeper
+  profile: mk3_sleeper
+  livery: caledonian sleeper
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1014_br_mk3_sleeper_mk3_sleeper_caledonian_sleeper_train.gnml
+  identifier: br_mk3_sleeper_mk3_sleeper_caledonian_sleeper_train
+  name_string: str_br_mk3_sleeper_mk3_sleeper_caledonian_sleeper_train_name
+  strings:
+    str_br_mk3_sleeper_mk3_sleeper_caledonian_sleeper_train_name: BR Mk3 Sleeper -
+      Standard - Caledonian Sleeper
+- id: null
+  vehicle: br_mk3_sleeper
+  profile: mk3_sleeper
+  livery: great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1015_br_mk3_sleeper_mk3_sleeper_great_western_train.gnml
+  identifier: br_mk3_sleeper_mk3_sleeper_great_western_train
+  name_string: str_br_mk3_sleeper_mk3_sleeper_great_western_train_name
+  strings:
+    str_br_mk3_sleeper_mk3_sleeper_great_western_train_name: BR Mk3 Sleeper - Standard
+      - Great Western
+- id: null
+  vehicle: br_mk3_sleeper
+  profile: mk3_sleeper
+  livery: gwr
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1016_br_mk3_sleeper_mk3_sleeper_gwr_train.gnml
+  identifier: br_mk3_sleeper_mk3_sleeper_gwr_train
+  name_string: str_br_mk3_sleeper_mk3_sleeper_gwr_train_name
+  strings:
+    str_br_mk3_sleeper_mk3_sleeper_gwr_train_name: BR Mk3 Sleeper - Standard - GWR
+- id: null
+  vehicle: br_mk3_sleeper
+  profile: mk3_sleeper
+  livery: stagecoach
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1017_br_mk3_sleeper_mk3_sleeper_stagecoach_train.gnml
+  identifier: br_mk3_sleeper_mk3_sleeper_stagecoach_train
+  name_string: str_br_mk3_sleeper_mk3_sleeper_stagecoach_train_name
+  strings:
+    str_br_mk3_sleeper_mk3_sleeper_stagecoach_train_name: BR Mk3 Sleeper - Standard
+      - Stagecoach
+- id: null
+  vehicle: br_320
+  profile: '3200'
+  livery: strathclyde pte orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1018_br_320_3200_strathclyde_pte_orange_train.gnml
+  identifier: br_320_3200_strathclyde_pte_orange_train
+  name_string: str_br_320_3200_strathclyde_pte_orange_train_name
+  strings:
+    str_br_320_3200_strathclyde_pte_orange_train_name: BR Class 320/0 - 3-Car - Strathclyde
+      PTE Orange
+- id: null
+  vehicle: br_320
+  profile: '3200'
+  livery: strathclyde pte carmine & cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1019_br_320_3200_strathclyde_pte_carmine___cream_train.gnml
+  identifier: br_320_3200_strathclyde_pte_carmine___cream_train
+  name_string: str_br_320_3200_strathclyde_pte_carmine___cream_train_name
+  strings:
+    str_br_320_3200_strathclyde_pte_carmine___cream_train_name: BR Class 320/0 - 3-Car
+      - Strathclyde PTE Carmine & Cream
+- id: null
+  vehicle: br_320
+  profile: '3200'
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1020_br_320_3200_scotrail_saltire_train.gnml
+  identifier: br_320_3200_scotrail_saltire_train
+  name_string: str_br_320_3200_scotrail_saltire_train_name
+  strings:
+    str_br_320_3200_scotrail_saltire_train_name: BR Class 320/0 - 3-Car - ScotRail
+      Saltire
+- id: 1021
+  vehicle: br_195
+  profile: '1950'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1021_br_195_1950_northern_train.gnml
+  identifier: br_195_1950_northern_train
+  name_string: str_br_195_1950_northern_train_name
+  strings:
+    str_br_195_1950_northern_train_name: 2-Car - Northern
+    str_br_195_1950_northern_train_single_livery_name: BR Class 195 Civity - 2-Car
+      - Northern
+- id: 1022
+  vehicle: br_195
+  profile: '1951'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1022_br_195_1951_northern_train.gnml
+  identifier: br_195_1951_northern_train
+  name_string: str_br_195_1951_northern_train_name
+  strings:
+    str_br_195_1951_northern_train_name: 3-Car - Northern
+    str_br_195_1951_northern_train_single_livery_name: BR Class 195 Civity - 3-Car
+      - Northern
+- id: 1023
+  vehicle: br_197
+  profile: '1970'
+  livery: tfw rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1023_br_197_1970_tfw_rail_train.gnml
+  identifier: br_197_1970_tfw_rail_train
+  name_string: str_br_197_1970_tfw_rail_train_name
+  strings:
+    str_br_197_1970_tfw_rail_train_name: 2-Car - TfW Rail
+    str_br_197_1970_tfw_rail_train_single_livery_name: BR Class 197 Civity - 2-Car
+      - TfW Rail
+- id: 1024
+  vehicle: br_197
+  profile: '1971'
+  livery: tfw rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1024_br_197_1971_tfw_rail_train.gnml
+  identifier: br_197_1971_tfw_rail_train
+  name_string: str_br_197_1971_tfw_rail_train_name
+  strings:
+    str_br_197_1971_tfw_rail_train_name: 3-Car - TfW Rail
+    str_br_197_1971_tfw_rail_train_single_livery_name: BR Class 197 Civity - 3-Car
+      - TfW Rail
+- id: null
+  vehicle: br_standard_9f
+  profile: standard_9f
+  livery: br black unnamed
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 4
+  archive: generated_variants/1025_br_standard_9f_standard_9f_br_black_unnamed_train.gnml
+  identifier: br_standard_9f_standard_9f_br_black_unnamed_train
+  name_string: str_br_standard_9f_standard_9f_br_black_unnamed_train_name
+  strings:
+    str_br_standard_9f_standard_9f_br_black_unnamed_train_name: BR Standard Class
+      9F - With Tender - BR Black Unnamed
+- id: null
+  vehicle: br_standard_9f
+  profile: standard_9f
+  livery: br green unnamed
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 4
+  archive: generated_variants/1026_br_standard_9f_standard_9f_br_green_unnamed_train.gnml
+  identifier: br_standard_9f_standard_9f_br_green_unnamed_train
+  name_string: str_br_standard_9f_standard_9f_br_green_unnamed_train_name
+  strings:
+    str_br_standard_9f_standard_9f_br_green_unnamed_train_name: BR Standard Class
+      9F - With Tender - BR Green Unnamed
+- id: null
+  vehicle: br_standard_9f
+  profile: standard_9f
+  livery: br black named
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 4
+  archive: generated_variants/1027_br_standard_9f_standard_9f_br_black_named_train.gnml
+  identifier: br_standard_9f_standard_9f_br_black_named_train
+  name_string: str_br_standard_9f_standard_9f_br_black_named_train_name
+  strings:
+    str_br_standard_9f_standard_9f_br_black_named_train_name: BR Standard Class 9F
+      - With Tender - BR Black Named
+- id: null
+  vehicle: br_standard_9f
+  profile: standard_9f
+  livery: br green named
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 4
+  archive: generated_variants/1028_br_standard_9f_standard_9f_br_green_named_train.gnml
+  identifier: br_standard_9f_standard_9f_br_green_named_train
+  name_string: str_br_standard_9f_standard_9f_br_green_named_train_name
+  strings:
+    str_br_standard_9f_standard_9f_br_green_named_train_name: BR Standard Class 9F
+      - With Tender - BR Green Named
+- id: null
+  vehicle: br_555
+  profile: '555'
+  livery: tyne and wear metro
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1029_br_555_555_tyne_and_wear_metro_tram.gnml
+  identifier: br_555_555_tyne_and_wear_metro_tram
+  name_string: str_br_555_555_tyne_and_wear_metro_tram_name
+  strings:
+    str_br_555_555_tyne_and_wear_metro_tram_name: BR Class 555 Metro - 5-Car Set -
+      Tyne and Wear Metro
+- id: null
+  vehicle: br_88
+  profile: '88'
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1030_br_88_88_drs_train.gnml
+  identifier: br_88_88_drs_train
+  name_string: str_br_88_88_drs_train_name
+  strings:
+    str_br_88_88_drs_train_name: BR Class 88 - Bi-Mode - DRS
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1031_br_08_08_br_green_train.gnml
+  identifier: br_08_08_br_green_train
+  name_string: str_br_08_08_br_green_train_name
+  strings:
+    str_br_08_08_br_green_train_name: BR Class 08 "Gronk" - Standard - BR Green
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1032_br_08_08_br_blue_train.gnml
+  identifier: br_08_08_br_blue_train
+  name_string: str_br_08_08_br_blue_train_name
+  strings:
+    str_br_08_08_br_blue_train_name: BR Class 08 "Gronk" - Standard - BR Blue
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1033_br_08_08_br_black_train.gnml
+  identifier: br_08_08_br_black_train
+  name_string: str_br_08_08_br_black_train_name
+  strings:
+    str_br_08_08_br_black_train_name: BR Class 08 "Gronk" - Standard - BR Black
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: br red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1034_br_08_08_br_red_train.gnml
+  identifier: br_08_08_br_red_train
+  name_string: str_br_08_08_br_red_train_name
+  strings:
+    str_br_08_08_br_red_train_name: BR Class 08 "Gronk" - Standard - BR Red
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: br general grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1035_br_08_08_br_general_grey_train.gnml
+  identifier: br_08_08_br_general_grey_train
+  name_string: str_br_08_08_br_general_grey_train_name
+  strings:
+    str_br_08_08_br_general_grey_train_name: BR Class 08 "Gronk" - Standard - BR General
+      Grey
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: network rail yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1036_br_08_08_network_rail_yellow_train.gnml
+  identifier: br_08_08_network_rail_yellow_train
+  name_string: str_br_08_08_network_rail_yellow_train_name
+  strings:
+    str_br_08_08_network_rail_yellow_train_name: BR Class 08 "Gronk" - Standard -
+      Network Rail Yellow
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: purple
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1037_br_08_08_purple_train.gnml
+  identifier: br_08_08_purple_train
+  name_string: str_br_08_08_purple_train_name
+  strings:
+    str_br_08_08_purple_train_name: BR Class 08 "Gronk" - Standard - Purple
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1038_br_08_08_intercity_swallow_train.gnml
+  identifier: br_08_08_intercity_swallow_train
+  name_string: str_br_08_08_intercity_swallow_train_name
+  strings:
+    str_br_08_08_intercity_swallow_train_name: BR Class 08 "Gronk" - Standard - InterCity
+      Swallow
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1039_br_08_08_ews_red_and_gold_train.gnml
+  identifier: br_08_08_ews_red_and_gold_train
+  name_string: str_br_08_08_ews_red_and_gold_train_name
+  strings:
+    str_br_08_08_ews_red_and_gold_train_name: BR Class 08 "Gronk" - Standard - EWS
+      Red and Gold
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1040_br_08_08_db_schenker_train.gnml
+  identifier: br_08_08_db_schenker_train
+  name_string: str_br_08_08_db_schenker_train_name
+  strings:
+    str_br_08_08_db_schenker_train_name: BR Class 08 "Gronk" - Standard - DB Schenker
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1041_br_08_08_emt_train.gnml
+  identifier: br_08_08_emt_train
+  name_string: str_br_08_08_emt_train_name
+  strings:
+    str_br_08_08_emt_train_name: BR Class 08 "Gronk" - Standard - EMT
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1042_br_08_08_gbrf_train.gnml
+  identifier: br_08_08_gbrf_train
+  name_string: str_br_08_08_gbrf_train_name
+  strings:
+    str_br_08_08_gbrf_train_name: BR Class 08 "Gronk" - Standard - GBRf
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: freightliner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1043_br_08_08_freightliner_green_train.gnml
+  identifier: br_08_08_freightliner_green_train
+  name_string: str_br_08_08_freightliner_green_train_name
+  strings:
+    str_br_08_08_freightliner_green_train_name: BR Class 08 "Gronk" - Standard - Freightliner
+      Green
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: freightliner orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1044_br_08_08_freightliner_orange_train.gnml
+  identifier: br_08_08_freightliner_orange_train
+  name_string: str_br_08_08_freightliner_orange_train_name
+  strings:
+    str_br_08_08_freightliner_orange_train_name: BR Class 08 "Gronk" - Standard -
+      Freightliner Orange
+- id: null
+  vehicle: br_08
+  profile: 08
+  livery: nse
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1045_br_08_08_nse_train.gnml
+  identifier: br_08_08_nse_train
+  name_string: str_br_08_08_nse_train_name
+  strings:
+    str_br_08_08_nse_train_name: BR Class 08 "Gronk" - Standard - NSE
+- id: null
+  vehicle: br_128
+  profile: '128'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1046_br_128_128_br_green_train.gnml
+  identifier: br_128_128_br_green_train
+  name_string: str_br_128_128_br_green_train_name
+  strings:
+    str_br_128_128_br_green_train_name: BR Class 128 "Post Office Motor Parcels Van"
+      - 1-Car - BR Green
+- id: null
+  vehicle: br_128
+  profile: '128'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1047_br_128_128_br_blue_train.gnml
+  identifier: br_128_128_br_blue_train
+  name_string: str_br_128_128_br_blue_train_name
+  strings:
+    str_br_128_128_br_blue_train_name: BR Class 128 "Post Office Motor Parcels Van"
+      - 1-Car - BR Blue
+- id: null
+  vehicle: br_128
+  profile: '128'
+  livery: royal mail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1048_br_128_128_royal_mail_train.gnml
+  identifier: br_128_128_royal_mail_train
+  name_string: str_br_128_128_royal_mail_train_name
+  strings:
+    str_br_128_128_royal_mail_train_name: BR Class 128 "Post Office Motor Parcels
+      Van" - 1-Car - Royal Mail
+- id: 1049
+  vehicle: br_755
+  profile: '7553'
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 55
+    articulated_count: 4
+    lengths:
+    - 7
+    - 5
+    - 6
+    - 7
+  archive: generated_variants/1049_br_755_7553_greater_anglia_train.gnml
+  identifier: br_755_7553_greater_anglia_train
+  name_string: str_br_755_7553_greater_anglia_train_name
+  strings:
+    str_br_755_7553_greater_anglia_train_name: 755/3 4-Car with Power Pack - Greater
+      Anglia
+    str_br_755_7553_greater_anglia_train_single_livery_name: BR Class 755 FLIRT -
+      755/3 4-Car with Power Pack - Greater Anglia
+- id: 1050
+  vehicle: br_755
+  profile: '7554'
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 5
+    - 6
+    - 7
+  archive: generated_variants/1050_br_755_7554_greater_anglia_train.gnml
+  identifier: br_755_7554_greater_anglia_train
+  name_string: str_br_755_7554_greater_anglia_train_name
+  strings:
+    str_br_755_7554_greater_anglia_train_name: 755/4 5-Car with Power Pack - Greater
+      Anglia
+    str_br_755_7554_greater_anglia_train_single_livery_name: BR Class 755 FLIRT -
+      755/4 5-Car with Power Pack - Greater Anglia
+- id: null
+  vehicle: br_799
+  profile: '7994'
+  livery: porterbrook hydroflex green and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 61
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1051_br_799_7994_porterbrook_hydroflex_green_and_white_train.gnml
+  identifier: br_799_7994_porterbrook_hydroflex_green_and_white_train
+  name_string: str_br_799_7994_porterbrook_hydroflex_green_and_white_train_name
+  strings:
+    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_name: BR Class 799
+      Hydrogen Prototype - 4-Car - Porterbrook Hydroflex Green and White
+- id: null
+  vehicle: br_76
+  profile: '76'
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1052_br_76_76_br_black_train.gnml
+  identifier: br_76_76_br_black_train
+  name_string: str_br_76_76_br_black_train_name
+  strings:
+    str_br_76_76_br_black_train_name: BR Class 76 LNER Gresley "EM1" - Standard -
+      BR Black
+- id: null
+  vehicle: br_76
+  profile: '76'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1053_br_76_76_br_green_train.gnml
+  identifier: br_76_76_br_green_train
+  name_string: str_br_76_76_br_green_train_name
+  strings:
+    str_br_76_76_br_green_train_name: BR Class 76 LNER Gresley "EM1" - Standard -
+      BR Green
+- id: null
+  vehicle: br_76
+  profile: '76'
+  livery: br green (warning panels)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1054_br_76_76_br_green__warning_panels__train.gnml
+  identifier: br_76_76_br_green__warning_panels__train
+  name_string: str_br_76_76_br_green__warning_panels__train_name
+  strings:
+    str_br_76_76_br_green__warning_panels__train_name: BR Class 76 LNER Gresley "EM1"
+      - Standard - BR Green Warning Panels
+- id: null
+  vehicle: br_76
+  profile: '76'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1055_br_76_76_br_blue_train.gnml
+  identifier: br_76_76_br_blue_train
+  name_string: str_br_76_76_br_blue_train_name
+  strings:
+    str_br_76_76_br_blue_train_name: BR Class 76 LNER Gresley "EM1" - Standard - BR
+      Blue
+- id: null
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail yellow empty
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1056_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_name: British
+      Rail MPV Dual-Track - Pair - Network Rail Yellow Empty
+- id: null
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail yellow leaf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1057_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_name: British
+      Rail MPV Dual-Track - Pair - Network Rail Yellow Leaf
+- id: null
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail blue empty
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1058_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_name: British Rail
+      MPV Dual-Track - Pair - Network Rail Blue Empty
+- id: null
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail blue leaf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1059_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_name: British Rail
+      MPV Dual-Track - Pair - Network Rail Blue Leaf
+- id: null
+  vehicle: br_kestrel
+  profile: kestrel
+  livery: kestrel black and yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1060_br_kestrel_kestrel_kestrel_black_and_yellow_train.gnml
+  identifier: br_kestrel_kestrel_kestrel_black_and_yellow_train
+  name_string: str_br_kestrel_kestrel_kestrel_black_and_yellow_train_name
+  strings:
+    str_br_kestrel_kestrel_kestrel_black_and_yellow_train_name: Kestrel - Standard
+      - Kestrel Black and Yellow
+- id: 1061
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_1
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1061_br_variant_nesting_dummy_dummy_1_br_blue_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_1_br_blue_train
+  name_string: str_br_variant_nesting_dummy_dummy_1_br_blue_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_1_br_blue_train_name: Dummy Profile 1 1-Car
+      - BR Blue
+    str_br_variant_nesting_dummy_dummy_1_br_blue_train_group_name: BRTrains3 Variant
+      Nesting Dummy - Dummy Profile 1 1-Car
+- id: 1062
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_1
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1062_br_variant_nesting_dummy_dummy_1_intercity_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_1_intercity_train
+  name_string: str_br_variant_nesting_dummy_dummy_1_intercity_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_1_intercity_train_name: Dummy Profile 1 1-Car
+      - InterCity
+    str_br_variant_nesting_dummy_dummy_1_intercity_train_group_name: BRTrains3 Variant
+      Nesting Dummy - Dummy Profile 1 1-Car
+- id: 1063
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_1
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1063_br_variant_nesting_dummy_dummy_1_first_scotrail_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_1_first_scotrail_train
+  name_string: str_br_variant_nesting_dummy_dummy_1_first_scotrail_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_1_first_scotrail_train_name: Dummy Profile
+      1 1-Car - First ScotRail
+    str_br_variant_nesting_dummy_dummy_1_first_scotrail_train_group_name: BRTrains3
+      Variant Nesting Dummy - Dummy Profile 1 1-Car
+- id: 1064
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_2
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 52
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1064_br_variant_nesting_dummy_dummy_2_br_blue_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_2_br_blue_train
+  name_string: str_br_variant_nesting_dummy_dummy_2_br_blue_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_2_br_blue_train_name: Dummy Profile 2 2-Car
+      - BR Blue
+    str_br_variant_nesting_dummy_dummy_2_br_blue_train_group_name: BRTrains3 Variant
+      Nesting Dummy - Dummy Profile 2 2-Car
+- id: 1065
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_2
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 52
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1065_br_variant_nesting_dummy_dummy_2_intercity_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_2_intercity_train
+  name_string: str_br_variant_nesting_dummy_dummy_2_intercity_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_2_intercity_train_name: Dummy Profile 2 2-Car
+      - InterCity
+    str_br_variant_nesting_dummy_dummy_2_intercity_train_group_name: BRTrains3 Variant
+      Nesting Dummy - Dummy Profile 2 2-Car
+- id: 1066
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_2
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 52
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1066_br_variant_nesting_dummy_dummy_2_first_scotrail_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_2_first_scotrail_train
+  name_string: str_br_variant_nesting_dummy_dummy_2_first_scotrail_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_2_first_scotrail_train_name: Dummy Profile
+      2 2-Car - First ScotRail
+    str_br_variant_nesting_dummy_dummy_2_first_scotrail_train_group_name: BRTrains3
+      Variant Nesting Dummy - Dummy Profile 2 2-Car
+- id: 1067
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_3
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1067_br_variant_nesting_dummy_dummy_3_br_blue_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_3_br_blue_train
+  name_string: str_br_variant_nesting_dummy_dummy_3_br_blue_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_3_br_blue_train_name: Dummy Profile 3 3-Car
+      - BR Blue
+    str_br_variant_nesting_dummy_dummy_3_br_blue_train_group_name: BRTrains3 Variant
+      Nesting Dummy - Dummy Profile 3 3-Car
+- id: 1068
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_3
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1068_br_variant_nesting_dummy_dummy_3_intercity_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_3_intercity_train
+  name_string: str_br_variant_nesting_dummy_dummy_3_intercity_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_3_intercity_train_name: Dummy Profile 3 3-Car
+      - InterCity
+    str_br_variant_nesting_dummy_dummy_3_intercity_train_group_name: BRTrains3 Variant
+      Nesting Dummy - Dummy Profile 3 3-Car
+- id: 1069
+  vehicle: br_variant_nesting_dummy
+  profile: dummy_3
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1069_br_variant_nesting_dummy_dummy_3_first_scotrail_train.gnml
+  identifier: br_variant_nesting_dummy_dummy_3_first_scotrail_train
+  name_string: str_br_variant_nesting_dummy_dummy_3_first_scotrail_train_name
+  strings:
+    str_br_variant_nesting_dummy_dummy_3_first_scotrail_train_name: Dummy Profile
+      3 3-Car - First ScotRail
+    str_br_variant_nesting_dummy_dummy_3_first_scotrail_train_group_name: BRTrains3
+      Variant Nesting Dummy - Dummy Profile 3 3-Car
+- id: 1009
+  vehicle: br_kestrel
+  profile: default
+  livery: kestrel black and yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1009_br_kestrel_default_kestrel_black_and_yellow_train.gnml
+  identifier: br_kestrel_default_kestrel_black_and_yellow_train
+  name_string: str_br_kestrel_default_kestrel_black_and_yellow_train_name
+  strings:
+    str_br_kestrel_default_kestrel_black_and_yellow_train_name: Kestrel Black and
+      Yellow
+    str_br_kestrel_default_kestrel_black_and_yellow_train_single_livery_name: Kestrel
+      - Kestrel Black and Yellow
+- id: 1010
+  vehicle: br_conflat_a
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 25
+    articulated_count: 1
+    lengths:
+    - 3
+  archive: generated_variants/1010_br_conflat_a_default_default_train.gnml
+  identifier: br_conflat_a_default_default_train
+  name_string: str_br_conflat_a_default_default_train_name
+  strings:
+    str_br_conflat_a_default_default_train_name: Default
+    str_br_conflat_a_default_default_train_single_livery_name: BR Conflat A Container
+      Wagon - Default
+- id: 1011
+  vehicle: br_mk3_sleeper
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1011_br_mk3_sleeper_default_br_blue_train.gnml
+  identifier: br_mk3_sleeper_default_br_blue_train
+  name_string: str_br_mk3_sleeper_default_br_blue_train_name
+  strings:
+    str_br_mk3_sleeper_default_br_blue_train_name: BR Blue
+    str_br_mk3_sleeper_default_br_blue_train_group_name: BR Mk3 Sleeper
+- id: 1012
+  vehicle: br_mk3_sleeper
+  profile: default
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1012_br_mk3_sleeper_default_intercity_train.gnml
+  identifier: br_mk3_sleeper_default_intercity_train
+  name_string: str_br_mk3_sleeper_default_intercity_train_name
+  strings:
+    str_br_mk3_sleeper_default_intercity_train_name: InterCity
+    str_br_mk3_sleeper_default_intercity_train_group_name: BR Mk3 Sleeper
+- id: 1013
+  vehicle: br_mk3_sleeper
+  profile: default
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1013_br_mk3_sleeper_default_first_scotrail_train.gnml
+  identifier: br_mk3_sleeper_default_first_scotrail_train
+  name_string: str_br_mk3_sleeper_default_first_scotrail_train_name
+  strings:
+    str_br_mk3_sleeper_default_first_scotrail_train_name: First ScotRail
+    str_br_mk3_sleeper_default_first_scotrail_train_group_name: BR Mk3 Sleeper
+- id: 1014
+  vehicle: br_mk3_sleeper
+  profile: default
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1014_br_mk3_sleeper_default_scotrail_train.gnml
+  identifier: br_mk3_sleeper_default_scotrail_train
+  name_string: str_br_mk3_sleeper_default_scotrail_train_name
+  strings:
+    str_br_mk3_sleeper_default_scotrail_train_name: ScotRail
+    str_br_mk3_sleeper_default_scotrail_train_group_name: BR Mk3 Sleeper
+- id: 1015
+  vehicle: br_mk3_sleeper
+  profile: default
+  livery: caledonian sleeper
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1015_br_mk3_sleeper_default_caledonian_sleeper_train.gnml
+  identifier: br_mk3_sleeper_default_caledonian_sleeper_train
+  name_string: str_br_mk3_sleeper_default_caledonian_sleeper_train_name
+  strings:
+    str_br_mk3_sleeper_default_caledonian_sleeper_train_name: Caledonian Sleeper
+    str_br_mk3_sleeper_default_caledonian_sleeper_train_group_name: BR Mk3 Sleeper
+- id: 1016
+  vehicle: br_mk3_sleeper
+  profile: default
+  livery: great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1016_br_mk3_sleeper_default_great_western_train.gnml
+  identifier: br_mk3_sleeper_default_great_western_train
+  name_string: str_br_mk3_sleeper_default_great_western_train_name
+  strings:
+    str_br_mk3_sleeper_default_great_western_train_name: Great Western
+    str_br_mk3_sleeper_default_great_western_train_group_name: BR Mk3 Sleeper
+- id: 1017
+  vehicle: br_mk3_sleeper
+  profile: default
+  livery: gwr
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1017_br_mk3_sleeper_default_gwr_train.gnml
+  identifier: br_mk3_sleeper_default_gwr_train
+  name_string: str_br_mk3_sleeper_default_gwr_train_name
+  strings:
+    str_br_mk3_sleeper_default_gwr_train_name: GWR
+    str_br_mk3_sleeper_default_gwr_train_group_name: BR Mk3 Sleeper
+- id: 1018
+  vehicle: br_mk3_sleeper
+  profile: default
+  livery: stagecoach
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1018_br_mk3_sleeper_default_stagecoach_train.gnml
+  identifier: br_mk3_sleeper_default_stagecoach_train
+  name_string: str_br_mk3_sleeper_default_stagecoach_train_name
+  strings:
+    str_br_mk3_sleeper_default_stagecoach_train_name: Stagecoach
+    str_br_mk3_sleeper_default_stagecoach_train_group_name: BR Mk3 Sleeper
+- id: 1019
+  vehicle: br_320
+  profile: default
+  livery: strathclyde pte orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1019_br_320_default_strathclyde_pte_orange_train.gnml
+  identifier: br_320_default_strathclyde_pte_orange_train
+  name_string: str_br_320_default_strathclyde_pte_orange_train_name
+  strings:
+    str_br_320_default_strathclyde_pte_orange_train_name: Strathclyde PTE Orange
+    str_br_320_default_strathclyde_pte_orange_train_group_name: BR Class 320/0
+- id: 1020
+  vehicle: br_320
+  profile: default
+  livery: strathclyde pte carmine & cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1020_br_320_default_strathclyde_pte_carmine___cream_train.gnml
+  identifier: br_320_default_strathclyde_pte_carmine___cream_train
+  name_string: str_br_320_default_strathclyde_pte_carmine___cream_train_name
+  strings:
+    str_br_320_default_strathclyde_pte_carmine___cream_train_name: Strathclyde PTE
+      Carmine & Cream
+    str_br_320_default_strathclyde_pte_carmine___cream_train_group_name: BR Class
+      320/0
+- id: 1025
+  vehicle: br_320
+  profile: default
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1025_br_320_default_scotrail_saltire_train.gnml
+  identifier: br_320_default_scotrail_saltire_train
+  name_string: str_br_320_default_scotrail_saltire_train_name
+  strings:
+    str_br_320_default_scotrail_saltire_train_name: ScotRail Saltire
+    str_br_320_default_scotrail_saltire_train_group_name: BR Class 320/0
+- id: null
+  vehicle: br_mpv_dualtrack
+  profile: default
+  livery: network rail yellow empty
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1026_br_mpv_dualtrack_default_network_rail_yellow_empty_train.gnml
+  identifier: br_mpv_dualtrack_default_network_rail_yellow_empty_train
+  name_string: str_br_mpv_dualtrack_default_network_rail_yellow_empty_train_name
+  strings:
+    str_br_mpv_dualtrack_default_network_rail_yellow_empty_train_name: British Rail
+      MPV Dual-Track - Network Rail Yellow Empty
+- id: null
+  vehicle: br_mpv_dualtrack
+  profile: default
+  livery: network rail yellow leaf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1027_br_mpv_dualtrack_default_network_rail_yellow_leaf_train.gnml
+  identifier: br_mpv_dualtrack_default_network_rail_yellow_leaf_train
+  name_string: str_br_mpv_dualtrack_default_network_rail_yellow_leaf_train_name
+  strings:
+    str_br_mpv_dualtrack_default_network_rail_yellow_leaf_train_name: British Rail
+      MPV Dual-Track - Network Rail Yellow Leaf
+- id: null
+  vehicle: br_mpv_dualtrack
+  profile: default
+  livery: network rail blue empty
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1028_br_mpv_dualtrack_default_network_rail_blue_empty_train.gnml
+  identifier: br_mpv_dualtrack_default_network_rail_blue_empty_train
+  name_string: str_br_mpv_dualtrack_default_network_rail_blue_empty_train_name
+  strings:
+    str_br_mpv_dualtrack_default_network_rail_blue_empty_train_name: British Rail
+      MPV Dual-Track - Network Rail Blue Empty
+- id: null
+  vehicle: br_mpv_dualtrack
+  profile: default
+  livery: network rail blue leaf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1029_br_mpv_dualtrack_default_network_rail_blue_leaf_train.gnml
+  identifier: br_mpv_dualtrack_default_network_rail_blue_leaf_train
+  name_string: str_br_mpv_dualtrack_default_network_rail_blue_leaf_train_name
+  strings:
+    str_br_mpv_dualtrack_default_network_rail_blue_leaf_train_name: British Rail MPV
+      Dual-Track - Network Rail Blue Leaf
+- id: 1030
+  vehicle: br_standard_9f
+  profile: default
+  livery: br black unnamed
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 4
+  archive: generated_variants/1030_br_standard_9f_default_br_black_unnamed_train.gnml
+  identifier: br_standard_9f_default_br_black_unnamed_train
+  name_string: str_br_standard_9f_default_br_black_unnamed_train_name
+  strings:
+    str_br_standard_9f_default_br_black_unnamed_train_name: BR Black Unnamed
+    str_br_standard_9f_default_br_black_unnamed_train_group_name: BR Standard Class
+      9F
+- id: 1031
+  vehicle: br_standard_9f
+  profile: default
+  livery: br green unnamed
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 4
+  archive: generated_variants/1031_br_standard_9f_default_br_green_unnamed_train.gnml
+  identifier: br_standard_9f_default_br_green_unnamed_train
+  name_string: str_br_standard_9f_default_br_green_unnamed_train_name
+  strings:
+    str_br_standard_9f_default_br_green_unnamed_train_name: BR Green Unnamed
+    str_br_standard_9f_default_br_green_unnamed_train_group_name: BR Standard Class
+      9F
+- id: 1032
+  vehicle: br_standard_9f
+  profile: default
+  livery: br black named
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 4
+  archive: generated_variants/1032_br_standard_9f_default_br_black_named_train.gnml
+  identifier: br_standard_9f_default_br_black_named_train
+  name_string: str_br_standard_9f_default_br_black_named_train_name
+  strings:
+    str_br_standard_9f_default_br_black_named_train_name: BR Black Named
+    str_br_standard_9f_default_br_black_named_train_group_name: BR Standard Class
+      9F
+- id: 1033
+  vehicle: br_standard_9f
+  profile: default
+  livery: br green named
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 4
+  archive: generated_variants/1033_br_standard_9f_default_br_green_named_train.gnml
+  identifier: br_standard_9f_default_br_green_named_train
+  name_string: str_br_standard_9f_default_br_green_named_train_name
+  strings:
+    str_br_standard_9f_default_br_green_named_train_name: BR Green Named
+    str_br_standard_9f_default_br_green_named_train_group_name: BR Standard Class
+      9F
+- id: 1034
+  vehicle: br_555
+  profile: default
+  livery: tyne and wear metro
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1034_br_555_default_tyne_and_wear_metro_tram.gnml
+  identifier: br_555_default_tyne_and_wear_metro_tram
+  name_string: str_br_555_default_tyne_and_wear_metro_tram_name
+  strings:
+    str_br_555_default_tyne_and_wear_metro_tram_name: Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_tram_single_livery_name: BR Class 555 Metro
+      - Tyne and Wear Metro
+- id: null
+  vehicle: br_88
+  profile: default
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1035_br_88_default_drs_train.gnml
+  identifier: br_88_default_drs_train
+  name_string: str_br_88_default_drs_train_name
+  strings:
+    str_br_88_default_drs_train_name: BR Class 88 - DRS
+- id: 1036
+  vehicle: br_08
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1036_br_08_default_br_green_train.gnml
+  identifier: br_08_default_br_green_train
+  name_string: str_br_08_default_br_green_train_name
+  strings:
+    str_br_08_default_br_green_train_name: BR Green
+    str_br_08_default_br_green_train_group_name: BR Class 08 "Gronk"
+- id: 1037
+  vehicle: br_08
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1037_br_08_default_br_blue_train.gnml
+  identifier: br_08_default_br_blue_train
+  name_string: str_br_08_default_br_blue_train_name
+  strings:
+    str_br_08_default_br_blue_train_name: BR Blue
+    str_br_08_default_br_blue_train_group_name: BR Class 08 "Gronk"
+- id: 1038
+  vehicle: br_08
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1038_br_08_default_br_black_train.gnml
+  identifier: br_08_default_br_black_train
+  name_string: str_br_08_default_br_black_train_name
+  strings:
+    str_br_08_default_br_black_train_name: BR Black
+    str_br_08_default_br_black_train_group_name: BR Class 08 "Gronk"
+- id: 1039
+  vehicle: br_08
+  profile: default
+  livery: br red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1039_br_08_default_br_red_train.gnml
+  identifier: br_08_default_br_red_train
+  name_string: str_br_08_default_br_red_train_name
+  strings:
+    str_br_08_default_br_red_train_name: BR Red
+    str_br_08_default_br_red_train_group_name: BR Class 08 "Gronk"
+- id: 1040
+  vehicle: br_08
+  profile: default
+  livery: br general grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1040_br_08_default_br_general_grey_train.gnml
+  identifier: br_08_default_br_general_grey_train
+  name_string: str_br_08_default_br_general_grey_train_name
+  strings:
+    str_br_08_default_br_general_grey_train_name: BR General Grey
+    str_br_08_default_br_general_grey_train_group_name: BR Class 08 "Gronk"
+- id: 1041
+  vehicle: br_08
+  profile: default
+  livery: network rail yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1041_br_08_default_network_rail_yellow_train.gnml
+  identifier: br_08_default_network_rail_yellow_train
+  name_string: str_br_08_default_network_rail_yellow_train_name
+  strings:
+    str_br_08_default_network_rail_yellow_train_name: Network Rail Yellow
+    str_br_08_default_network_rail_yellow_train_group_name: BR Class 08 "Gronk"
+- id: 1042
+  vehicle: br_08
+  profile: default
+  livery: purple
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1042_br_08_default_purple_train.gnml
+  identifier: br_08_default_purple_train
+  name_string: str_br_08_default_purple_train_name
+  strings:
+    str_br_08_default_purple_train_name: Purple
+    str_br_08_default_purple_train_group_name: BR Class 08 "Gronk"
+- id: 1043
+  vehicle: br_08
+  profile: default
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1043_br_08_default_intercity_swallow_train.gnml
+  identifier: br_08_default_intercity_swallow_train
+  name_string: str_br_08_default_intercity_swallow_train_name
+  strings:
+    str_br_08_default_intercity_swallow_train_name: InterCity Swallow
+    str_br_08_default_intercity_swallow_train_group_name: BR Class 08 "Gronk"
+- id: 1044
+  vehicle: br_08
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1044_br_08_default_ews_red_and_gold_train.gnml
+  identifier: br_08_default_ews_red_and_gold_train
+  name_string: str_br_08_default_ews_red_and_gold_train_name
+  strings:
+    str_br_08_default_ews_red_and_gold_train_name: EWS Red and Gold
+    str_br_08_default_ews_red_and_gold_train_group_name: BR Class 08 "Gronk"
+- id: 1045
+  vehicle: br_08
+  profile: default
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1045_br_08_default_db_schenker_train.gnml
+  identifier: br_08_default_db_schenker_train
+  name_string: str_br_08_default_db_schenker_train_name
+  strings:
+    str_br_08_default_db_schenker_train_name: DB Schenker
+    str_br_08_default_db_schenker_train_group_name: BR Class 08 "Gronk"
+- id: 1046
+  vehicle: br_08
+  profile: default
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1046_br_08_default_emt_train.gnml
+  identifier: br_08_default_emt_train
+  name_string: str_br_08_default_emt_train_name
+  strings:
+    str_br_08_default_emt_train_name: EMT
+    str_br_08_default_emt_train_group_name: BR Class 08 "Gronk"
+- id: 1047
+  vehicle: br_08
+  profile: default
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1047_br_08_default_gbrf_train.gnml
+  identifier: br_08_default_gbrf_train
+  name_string: str_br_08_default_gbrf_train_name
+  strings:
+    str_br_08_default_gbrf_train_name: GBRf
+    str_br_08_default_gbrf_train_group_name: BR Class 08 "Gronk"
+- id: 1048
+  vehicle: br_08
+  profile: default
+  livery: freightliner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1048_br_08_default_freightliner_green_train.gnml
+  identifier: br_08_default_freightliner_green_train
+  name_string: str_br_08_default_freightliner_green_train_name
+  strings:
+    str_br_08_default_freightliner_green_train_name: Freightliner Green
+    str_br_08_default_freightliner_green_train_group_name: BR Class 08 "Gronk"
+- id: 1051
+  vehicle: br_08
+  profile: default
+  livery: freightliner orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1051_br_08_default_freightliner_orange_train.gnml
+  identifier: br_08_default_freightliner_orange_train
+  name_string: str_br_08_default_freightliner_orange_train_name
+  strings:
+    str_br_08_default_freightliner_orange_train_name: Freightliner Orange
+    str_br_08_default_freightliner_orange_train_group_name: BR Class 08 "Gronk"
+- id: 1052
+  vehicle: br_08
+  profile: default
+  livery: nse
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1052_br_08_default_nse_train.gnml
+  identifier: br_08_default_nse_train
+  name_string: str_br_08_default_nse_train_name
+  strings:
+    str_br_08_default_nse_train_name: NSE
+    str_br_08_default_nse_train_group_name: BR Class 08 "Gronk"
+- id: 1053
+  vehicle: br_128
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1053_br_128_default_br_green_train.gnml
+  identifier: br_128_default_br_green_train
+  name_string: str_br_128_default_br_green_train_name
+  strings:
+    str_br_128_default_br_green_train_name: BR Green
+    str_br_128_default_br_green_train_group_name: BR Class 128 "Post Office Motor
+      Parcels Van"
+- id: 1054
+  vehicle: br_128
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1054_br_128_default_br_blue_train.gnml
+  identifier: br_128_default_br_blue_train
+  name_string: str_br_128_default_br_blue_train_name
+  strings:
+    str_br_128_default_br_blue_train_name: BR Blue
+    str_br_128_default_br_blue_train_group_name: BR Class 128 "Post Office Motor Parcels
+      Van"
+- id: 1055
+  vehicle: br_128
+  profile: default
+  livery: royal mail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1055_br_128_default_royal_mail_train.gnml
+  identifier: br_128_default_royal_mail_train
+  name_string: str_br_128_default_royal_mail_train_name
+  strings:
+    str_br_128_default_royal_mail_train_name: Royal Mail
+    str_br_128_default_royal_mail_train_group_name: BR Class 128 "Post Office Motor
+      Parcels Van"
+- id: null
+  vehicle: br_799
+  profile: default
+  livery: porterbrook hydroflex green and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 61
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1056_br_799_default_porterbrook_hydroflex_green_and_white_train.gnml
+  identifier: br_799_default_porterbrook_hydroflex_green_and_white_train
+  name_string: str_br_799_default_porterbrook_hydroflex_green_and_white_train_name
+  strings:
+    str_br_799_default_porterbrook_hydroflex_green_and_white_train_name: BR Class
+      799 Hydrogen Prototype - Porterbrook Hydroflex Green and White
+- id: 1057
+  vehicle: br_76
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1057_br_76_default_br_black_train.gnml
+  identifier: br_76_default_br_black_train
+  name_string: str_br_76_default_br_black_train_name
+  strings:
+    str_br_76_default_br_black_train_name: BR Black
+    str_br_76_default_br_black_train_group_name: BR Class 76 LNER Gresley "EM1"
+- id: 1058
+  vehicle: br_76
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1058_br_76_default_br_green_train.gnml
+  identifier: br_76_default_br_green_train
+  name_string: str_br_76_default_br_green_train_name
+  strings:
+    str_br_76_default_br_green_train_name: BR Green
+    str_br_76_default_br_green_train_group_name: BR Class 76 LNER Gresley "EM1"
+- id: 1059
+  vehicle: br_76
+  profile: default
+  livery: br green (warning panels)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1059_br_76_default_br_green__warning_panels__train.gnml
+  identifier: br_76_default_br_green__warning_panels__train
+  name_string: str_br_76_default_br_green__warning_panels__train_name
+  strings:
+    str_br_76_default_br_green__warning_panels__train_name: BR Green Warning Panels
+    str_br_76_default_br_green__warning_panels__train_group_name: BR Class 76 LNER
+      Gresley "EM1"
+- id: 1060
+  vehicle: br_76
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1060_br_76_default_br_blue_train.gnml
+  identifier: br_76_default_br_blue_train
+  name_string: str_br_76_default_br_blue_train_name
+  strings:
+    str_br_76_default_br_blue_train_name: BR Blue
+    str_br_76_default_br_blue_train_group_name: BR Class 76 LNER Gresley "EM1"
+- id: 1026
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail yellow empty
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1026_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2_name: Pair
+      - Network Rail Yellow Empty
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2_group_name: British
+      Rail MPV Dual-Track - Pair
+- id: 1027
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail yellow leaf
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1027_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2_name: Pair
+      - Network Rail Yellow Leaf
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2_group_name: British
+      Rail MPV Dual-Track - Pair
+- id: 1028
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail blue empty
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1028_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2_name: Pair -
+      Network Rail Blue Empty
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2_group_name: British
+      Rail MPV Dual-Track - Pair
+- id: 1029
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail blue leaf
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1029_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2_name: Pair -
+      Network Rail Blue Leaf
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2_group_name: British
+      Rail MPV Dual-Track - Pair
+- id: 1035
+  vehicle: br_88
+  profile: '88'
+  livery: drs
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1035_br_88_88_drs_train_v2.gnml
+  identifier: br_88_88_drs_train_v2
+  name_string: str_br_88_88_drs_train_v2_name
+  strings:
+    str_br_88_88_drs_train_v2_name: Bi-Mode - DRS
+    str_br_88_88_drs_train_v2_single_livery_name: BR Class 88 - Bi-Mode - DRS
+- id: 1056
+  vehicle: br_799
+  profile: '7994'
+  livery: porterbrook hydroflex green and white
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 61
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1056_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2.gnml
+  identifier: br_799_7994_porterbrook_hydroflex_green_and_white_train_v2
+  name_string: str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_name
+  strings:
+    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_name: 4-Car - Porterbrook
+      Hydroflex Green and White
+    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_single_livery_name: BR
+      Class 799 Hydrogen Prototype - 4-Car - Porterbrook Hydroflex Green and White
+- id: 1004
+  vehicle: lu_1992
+  profile: '1992_4'
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1004_lu_1992_1992_4_london_underground_train.gnml
+  identifier: lu_1992_1992_4_london_underground_train
+  name_string: str_lu_1992_1992_4_london_underground_train_name
+  strings:
+    str_lu_1992_1992_4_london_underground_train_name: 4-Car - London Underground
+    str_lu_1992_1992_4_london_underground_train_group_name: London Underground 1992
+      Stock - 4-Car
+- id: 1005
+  vehicle: lu_1992
+  profile: '1992_4'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1005_lu_1992_1992_4_network_southeast_train.gnml
+  identifier: lu_1992_1992_4_network_southeast_train
+  name_string: str_lu_1992_1992_4_network_southeast_train_name
+  strings:
+    str_lu_1992_1992_4_network_southeast_train_name: 4-Car - Network SouthEast
+    str_lu_1992_1992_4_network_southeast_train_group_name: London Underground 1992
+      Stock - 4-Car
+- id: 1006
+  vehicle: lu_1992
+  profile: '1992_8'
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1006_lu_1992_1992_8_london_underground_train.gnml
+  identifier: lu_1992_1992_8_london_underground_train
+  name_string: str_lu_1992_1992_8_london_underground_train_name
+  strings:
+    str_lu_1992_1992_8_london_underground_train_name: 8-Car - London Underground
+    str_lu_1992_1992_8_london_underground_train_group_name: London Underground 1992
+      Stock - 8-Car
+- id: 1007
+  vehicle: lu_1992
+  profile: '1992_8'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1007_lu_1992_1992_8_network_southeast_train.gnml
+  identifier: lu_1992_1992_8_network_southeast_train
+  name_string: str_lu_1992_1992_8_network_southeast_train_name
+  strings:
+    str_lu_1992_1992_8_network_southeast_train_name: 8-Car - Network SouthEast
+    str_lu_1992_1992_8_network_southeast_train_group_name: London Underground 1992
+      Stock - 8-Car

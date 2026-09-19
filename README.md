@@ -15,6 +15,21 @@ uv pip install --python .venv/bin/python pillow pyyaml nml
 .venv/bin/python build.py --log
 ```
 
+The project-local launcher is the simplest path:
+
+```bash
+.venv/bin/python build.py --log
+```
+
+It can also be built from the BRBuild checkout:
+
+```bash
+cd /Users/jon/Dev/BRBuild
+.venv/bin/python ./Run.py BRTrains3 --log
+```
+
+`BRBuild.yaml` keeps `grf_folder: src/grf` explicit because the BRBuild project finder does not apply the same default as the project-local launcher.
+
 The project currently expects BRBuild at `/Users/jon/Dev/BRBuild`. Override that location with `BRBUILD_DIR`:
 
 ```bash

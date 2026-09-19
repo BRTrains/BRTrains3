@@ -1,9 +1,3 @@
-classification: diesel_mu
-model_life: 0
-vehicle_life: null
-loading_speed: 25
-special_tags:
-  - operator/Northern
 
 info:
   identifier: br_195
@@ -29,16 +23,22 @@ dates:
 
 profiles:
   - identifier: 195_0
-    name: 'BR Class 195/0 "Civity" (2-Car)'
+    name: 2-Car
     num_vehicles: 2
     capacity: 62
+    special_tags:
+      - formation/2-car
   - identifier: 195_1
-    name: 'BR Class 195/1 "Civity" (3-Car)'
+    name: 3-Car
     num_vehicles: 3
     capacity: 68
+    special_tags:
+      - formation/3-car
 
 liveries:
   - name: Northern
+    special_tags:
+      - operator/Northern
     profiles:
       - 195_0
       - 195_1

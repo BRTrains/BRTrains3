@@ -1,0 +1,43 @@
+
+
+info:
+  identifier: br_76
+  name: 'BR Class 76 (LNER Gresley "EM1")'
+  sub_name: Electric locomotive
+  based_on: LNER Gresley EM1 / British Rail Class 76
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 89
+  length: 6
+  power: 1300
+  speed: 65
+  tractive_effort: 0.229
+  power_type:
+    - electric
+
+cargo:
+  cargo_classes:
+    - freight
+
+dates:
+  introduction_date: 1950-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/76
+
+liveries:
+  - name: 'BR Black'
+    special_tags: [operator/BR]
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Green (Warning Panels)'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]

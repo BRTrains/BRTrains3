@@ -1,0 +1,41 @@
+
+
+info:
+  identifier: br_320
+  name: 'BR Class 320/0'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 320/0
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 114
+  length: 8
+  power: 1328
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - electric
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 1990-03-17
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 3
+    capacity: 71
+    special_tags:
+      - formation/3-car
+      - subclass/320_0
+
+liveries:
+  - name: 'Strathclyde PTE Orange'
+    special_tags: [operator/Strathclyde PTE]
+  - name: 'Strathclyde PTE Carmine & Cream'
+    special_tags: [operator/Strathclyde PTE]
+  - name: 'ScotRail Saltire'
+    special_tags: [operator/ScotRail]
