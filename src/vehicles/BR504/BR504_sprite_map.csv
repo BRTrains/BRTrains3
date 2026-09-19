@@ -1,0 +1,11 @@
+output_row,livery,role,source_image,source_y,template,reused
+0,BR Blue,a,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,13,template_train24px,false
+1,BR Blue,b,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,38,template_train24px,false
+2,GMPTE,a,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,88,template_train24px,false
+3,GMPTE,b,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,113,template_train24px,false
+4,BR Green,a,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,163,template_train24px,false
+5,BR Green,b,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,188,template_train24px,false
+6,BR Blue (Alternate),a,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,238,template_train24px,false
+7,BR Blue (Alternate),b,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,263,template_train24px,false
+8,BR Blue (Wraparound),a,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,313,template_train24px,false
+9,BR Blue (Wraparound),b,/Users/jon/Dev/BRTrains2/gfx/BR504_24px.png,338,template_train24px,false

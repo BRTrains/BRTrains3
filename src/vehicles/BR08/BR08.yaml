@@ -4,7 +4,7 @@ special_tags:
 
 info:
   identifier: br_08
-  name: 'BR Class 08 "Gronk"'
+  name: 'Class 08 "Gronk"'
   sub_name: Shunter
   based_on: British Rail Class 08
 
@@ -35,23 +35,23 @@ profiles:
       - subclass/08
 
 liveries:
-  # Ordered by the source sprite y-coordinates in BRTrains2/src/trains/diesel_loco/08.pnml.
-  # The PNML spriteset declarations are intentionally out of livery order.
+  # Ordered by the PNML graphics switch, not by spriteset declaration or source y.
+  # The composite and this list are both generated from the 0..15 switch cases.
   - name: 'BR Green'
     special_tags: [operator/BR]
   - name: 'BR Blue'
     special_tags: [operator/BR]
+  - name: 'BR Black'
+    special_tags: [operator/BR]
   - name: 'BR Red'
+    special_tags: [operator/BR]
+  - name: 'BR General Grey'
     special_tags: [operator/BR]
   - name: 'Network Rail Yellow'
     special_tags: [operator/Network Rail]
   - name: Purple
-  - name: 'BR Black'
-    special_tags: [operator/BR]
   - name: 'InterCity Swallow'
     special_tags: [operator/InterCity]
-  - name: 'BR General Grey'
-    special_tags: [operator/BR]
   - name: 'EWS Red and Gold'
     special_tags: [operator/EWS]
   - name: 'DB Schenker'
@@ -60,9 +60,11 @@ liveries:
     special_tags: [operator/EMT]
   - name: GBRf
     special_tags: [operator/GB Railfreight]
-  - name: 'Freightliner Orange'
-    special_tags: [operator/Freightliner]
   - name: 'Freightliner Green'
+    special_tags: [operator/Freightliner]
+  - name: 'Freightliner Orange'
     special_tags: [operator/Freightliner]
   - name: NSE
     special_tags: [operator/Network SouthEast]
+  - name: 'Progress Rail'
+    special_tags: [operator/Progress Rail]

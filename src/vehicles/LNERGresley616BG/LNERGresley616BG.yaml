@@ -1,0 +1,40 @@
+info:
+  identifier: lner_gresley_616bg
+  name: "LNER Gresley 61' 6\" BG"
+  sub_name: Sorting van
+  based_on: "LNER Gresley 61' 6\" BG"
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 38
+  length: 8
+  power: 0
+  speed: 100
+  tractive_effort: 0.08
+
+cargo:
+  cargo_classes:
+    - mail
+
+dates:
+  introduction_date: 1926-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 50
+    sprite_override: [1]
+    special_tags:
+      - formation/1-car
+      - subclass/gresley_616bg
+
+liveries:
+  - name: 'LNER Teak'
+    special_tags: [operator/LNER]
+  - name: 'BR Blood and Custard'
+    special_tags: [operator/BR]
+  - name: 'BR Maroon'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]

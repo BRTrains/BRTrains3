@@ -1,0 +1,58 @@
+info:
+  identifier: br_221
+  name: 'Class 221 Voyager'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 221 Super Voyager
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 283
+  length: 8
+  power: 3000
+  speed: 125
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 2001-04-21
+
+profiles:
+  - identifier: '221_5'
+    name: '5-Car'
+    num_vehicles: 5
+    capacity: 42
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/221_5
+  - identifier: '221_4'
+    name: '4-Car'
+    num_vehicles: 4
+    capacity: 42
+    sprite_override: [1, 2, 2, 3]
+    special_tags:
+      - formation/4-car
+      - subclass/221_4
+
+liveries:
+  - name: 'Virgin Trains'
+    special_tags: [operator/Virgin Trains]
+    profiles: ['221_5', '221_4']
+  - name: 'Avanti West Coast'
+    special_tags: [operator/Avanti West Coast]
+    profiles: ['221_5']
+  - name: 'Grand Central'
+    special_tags: [operator/Grand Central]
+    profiles: ['221_5']
+  - name: 'CrossCountry'
+    special_tags: [operator/CrossCountry]
+    profiles: ['221_5', '221_4']
+  - name: 'CrossCountry refurbished'
+    special_tags: [operator/CrossCountry]
+    profiles: ['221_5', '221_4']

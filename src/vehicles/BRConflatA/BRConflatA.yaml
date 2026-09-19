@@ -2,7 +2,7 @@
 
 info:
   identifier: br_conflat_a
-  name: 'BR Conflat A Container Wagon'
+  name: 'Conflat A Container Wagon'
   sub_name: Freight wagon
   based_on: British Rail Conflat A
 
