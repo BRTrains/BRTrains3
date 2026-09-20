@@ -12,7 +12,6 @@ legacy_fixed.png
 *_working.png
 *.png.cache
 *.png.cacheindex
-**/working/
 
 /tools
 /src/grf/generated_variants
