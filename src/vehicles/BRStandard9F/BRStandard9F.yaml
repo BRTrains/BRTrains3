@@ -1,5 +1,5 @@
 
-sound effect: steam_generic
+sound_effect: SOUND_DEPARTURE_STEAM
 
 info:
   identifier: br_standard_9f

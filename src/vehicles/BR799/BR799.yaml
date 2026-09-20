@@ -6,6 +6,9 @@ info:
   sub_name: Hydrogen multiple unit
   based_on: Porterbrook Class 799 HydroFLEX
 
+# Hydrogen has no OpenTTD sound of its own; the legacy unit used the electric sound.
+sound_effect: SOUND_DEPARTURE_TRAIN
+
 stats:
   vehicle_type: train
   train_type: multiple_unit

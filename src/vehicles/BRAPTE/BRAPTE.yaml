@@ -12,12 +12,9 @@ stats:
   power: 2700
   speed: 152
   tractive_effort: 0.4
-  # The legacy unit was gas-turbine-electric. BRBuild's power types have no gas
-  # turbine token, so diesel_electric is used; it lands the same diesel engine
-  # class, visual effect and multi-mode classification the legacy item had.
   tilt: extreme
   power_type:
-    - diesel_electric
+    - gas_turbine
 
 cargo:
   cargo_classes:
