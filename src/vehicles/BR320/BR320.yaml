@@ -30,6 +30,11 @@ profiles:
     name: 3-Car (75 mph)
     introduction_date: 1990-08-01
     sprite_group: 320_3_pre2010 # the two profiles share one set of drawings
+    # The sheet holds one four-row block per livery - front, rear, an unused plain
+    # middle car, then the pantograph middle - so a 3-car unit needs rows 1, 4, 2 in
+    # that order (front, middle, rear as the legacy articulated switch ordered them).
+    # group_size becomes 4, which consumes the block exactly and skips the unused row.
+    sprite_override: [1, 4, 2]
     num_vehicles: 3
     capacity: 71
     speed: 75
@@ -41,6 +46,7 @@ profiles:
     name: 3-Car (90 mph)
     introduction_date: 2010-01-01
     sprite_group: 320_3_pre2010
+    sprite_override: [1, 4, 2]
     num_vehicles: 3
     capacity: 71
     speed: 90
@@ -50,9 +56,11 @@ profiles:
       - subclass/320_3_post2010
 
 liveries:
-  - name: 'Strathclyde PTE Orange'
-    special_tags: [operator/Strathclyde PTE]
-  - name: 'Strathclyde PTE Carmine & Cream'
-    special_tags: [operator/Strathclyde PTE]
+  # Liveries are consumed in sheet order: the sheet's blocks are Saltire, Carmine,
+  # Orange. The purchase list sorts by name, so this order is only about the sheet.
   - name: 'ScotRail Saltire'
     special_tags: [operator/ScotRail]
+  - name: 'Strathclyde PTE Carmine & Cream'
+    special_tags: [operator/Strathclyde PTE]
+  - name: 'Strathclyde PTE Orange'
+    special_tags: [operator/Strathclyde PTE]
