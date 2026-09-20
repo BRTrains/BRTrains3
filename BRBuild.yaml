@@ -4,4 +4,4 @@ project:
   target_folders:
     - src/vehicles
   grf_folder: src/grf
-  palette: /Users/jon/Dev/BRBuild/Sprites/ttd-newgrf-dos.gpl
+  palette: Sprites/ttd-newgrf-dos.gpl

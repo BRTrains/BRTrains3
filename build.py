@@ -29,6 +29,14 @@ def main() -> None:
 
     config = yaml.safe_load((PROJECT_DIR / "BRBuild.yaml").read_text(encoding="utf-8"))
     project_config = config["project"]
+
+    palette = project_config.get("palette", "Sprites/ttd-newgrf-dos.gpl")
+    palette_path = Path(palette).expanduser()
+    if not palette_path.is_absolute():
+        # A relative palette is resolved against the BRBuild checkout so the
+        # project manifest stays portable between machines and checkouts.
+        palette_path = BRBUILD_DIR / palette_path
+
     project = Project({
         "path": str(PROJECT_DIR),
         "name": project_config["name"],
@@ -36,7 +44,7 @@ def main() -> None:
         "targetFolders": project_config.get("target_folders", []),
         "grfFolder": project_config.get("grf_folder", "src/grf"),
         "soundFolder": project_config.get("sound_folder", "src/sound"),
-        "palette": project_config.get("palette", "Sprites/ttd-newgrf-dos.gpl"),
+        "palette": str(palette_path),
         "template_folder": project_config.get("template_folder"),
     })
 

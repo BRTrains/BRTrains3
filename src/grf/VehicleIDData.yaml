@@ -1248,14 +1248,14 @@ variants:
   strings:
     str_br_kestrel_kestrel_kestrel_black_and_yellow_train_name: Kestrel - Standard
       - Kestrel Black and Yellow
-- id: 1061
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_1
   livery: br blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1270,14 +1270,14 @@ variants:
       - BR Blue
     str_br_variant_nesting_dummy_dummy_1_br_blue_train_group_name: BRTrains3 Variant
       Nesting Dummy - Dummy Profile 1 1-Car
-- id: 1062
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_1
   livery: intercity
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1292,14 +1292,14 @@ variants:
       - InterCity
     str_br_variant_nesting_dummy_dummy_1_intercity_train_group_name: BRTrains3 Variant
       Nesting Dummy - Dummy Profile 1 1-Car
-- id: 1063
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_1
   livery: first scotrail
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1314,14 +1314,14 @@ variants:
       1 1-Car - First ScotRail
     str_br_variant_nesting_dummy_dummy_1_first_scotrail_train_group_name: BRTrains3
       Variant Nesting Dummy - Dummy Profile 1 1-Car
-- id: 1064
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_2
   livery: br blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 52
@@ -1337,14 +1337,14 @@ variants:
       - BR Blue
     str_br_variant_nesting_dummy_dummy_2_br_blue_train_group_name: BRTrains3 Variant
       Nesting Dummy - Dummy Profile 2 2-Car
-- id: 1065
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_2
   livery: intercity
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 52
@@ -1360,14 +1360,14 @@ variants:
       - InterCity
     str_br_variant_nesting_dummy_dummy_2_intercity_train_group_name: BRTrains3 Variant
       Nesting Dummy - Dummy Profile 2 2-Car
-- id: 1066
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_2
   livery: first scotrail
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 52
@@ -1383,14 +1383,14 @@ variants:
       2 2-Car - First ScotRail
     str_br_variant_nesting_dummy_dummy_2_first_scotrail_train_group_name: BRTrains3
       Variant Nesting Dummy - Dummy Profile 2 2-Car
-- id: 1067
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_3
   livery: br blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 78
@@ -1407,14 +1407,14 @@ variants:
       - BR Blue
     str_br_variant_nesting_dummy_dummy_3_br_blue_train_group_name: BRTrains3 Variant
       Nesting Dummy - Dummy Profile 3 3-Car
-- id: 1068
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_3
   livery: intercity
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 78
@@ -1431,14 +1431,14 @@ variants:
       - InterCity
     str_br_variant_nesting_dummy_dummy_3_intercity_train_group_name: BRTrains3 Variant
       Nesting Dummy - Dummy Profile 3 3-Car
-- id: 1069
+- id: null
   vehicle: br_variant_nesting_dummy
   profile: dummy_3
   livery: first scotrail
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 78
