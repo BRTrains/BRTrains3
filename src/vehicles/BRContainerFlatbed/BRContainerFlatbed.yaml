@@ -13,16 +13,7 @@ stats:
   speed: 0
   tractive_effort: 0.08
 
-cargo:
-  cargo_classes:
-    - piece_goods
-    - express
-    - hazardous
-    - refrigerated
-    - non_pourable
-    - neo_bulk
-    - oversized
-  default_cargo_type: DEFAULT_CARGO_FIRST_REFITTABLE
+cargo: containerised
 autorefit: true
 
 loading_speed: 25

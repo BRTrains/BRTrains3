@@ -16,9 +16,7 @@ stats:
   power_type:
     - diesel
 
-cargo:
-  cargo_classes:
-    - passengers
+cargo: passenger
 
 dates:
   introduction_date: 2001-04-21

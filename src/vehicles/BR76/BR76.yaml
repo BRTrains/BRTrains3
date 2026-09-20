@@ -17,8 +17,7 @@ stats:
   power_type:
     - electric
 
-cargo:
-  cargo_classes: none
+cargo: none
 
 dates:
   introduction_date: 1950-01-01
