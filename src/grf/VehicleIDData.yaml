@@ -19,7 +19,8 @@ variants:
   identifier: br_196_1960_west_midlands_railway_train
   name_string: str_br_196_1960_west_midlands_railway_train_name
   strings:
-    str_br_196_1960_west_midlands_railway_train_name: 2-Car - West Midlands Railway
+    str_br_196_1960_west_midlands_railway_train_name: Class 196 Civity - 2-Car - West
+      Midlands Railway
     str_br_196_1960_west_midlands_railway_train_group_name: Class 196 Civity - 2-Car
 - id: 1002
   vehicle: br_196
@@ -40,7 +41,8 @@ variants:
   identifier: br_196_1960_chiltern_railways_train
   name_string: str_br_196_1960_chiltern_railways_train_name
   strings:
-    str_br_196_1960_chiltern_railways_train_name: 2-Car - Chiltern Railways
+    str_br_196_1960_chiltern_railways_train_name: Class 196 Civity - 2-Car - Chiltern
+      Railways
     str_br_196_1960_chiltern_railways_train_group_name: Class 196 Civity - 2-Car
 - id: 1003
   vehicle: br_196
@@ -63,7 +65,8 @@ variants:
   identifier: br_196_1961_west_midlands_railway_train
   name_string: str_br_196_1961_west_midlands_railway_train_name
   strings:
-    str_br_196_1961_west_midlands_railway_train_name: 4-Car - West Midlands Railway
+    str_br_196_1961_west_midlands_railway_train_name: Class 196 Civity - 4-Car - West
+      Midlands Railway
     str_br_196_1961_west_midlands_railway_train_single_livery_name: Class 196 Civity
       - 4-Car - West Midlands Railway
 - id: null
@@ -442,7 +445,7 @@ variants:
   identifier: br_195_1950_northern_train
   name_string: str_br_195_1950_northern_train_name
   strings:
-    str_br_195_1950_northern_train_name: 2-Car - Northern
+    str_br_195_1950_northern_train_name: Class 195 Civity - 2-Car - Northern
     str_br_195_1950_northern_train_single_livery_name: Class 195 Civity - 2-Car -
       Northern
 - id: 1022
@@ -465,7 +468,7 @@ variants:
   identifier: br_195_1951_northern_train
   name_string: str_br_195_1951_northern_train_name
   strings:
-    str_br_195_1951_northern_train_name: 3-Car - Northern
+    str_br_195_1951_northern_train_name: Class 195 Civity - 3-Car - Northern
     str_br_195_1951_northern_train_single_livery_name: Class 195 Civity - 3-Car -
       Northern
 - id: 1023
@@ -487,7 +490,7 @@ variants:
   identifier: br_197_1970_tfw_rail_train
   name_string: str_br_197_1970_tfw_rail_train_name
   strings:
-    str_br_197_1970_tfw_rail_train_name: 2-Car - TfW Rail
+    str_br_197_1970_tfw_rail_train_name: Class 197 Civity - 2-Car - TfW Rail
     str_br_197_1970_tfw_rail_train_single_livery_name: Class 197 Civity - 2-Car -
       TfW Rail
 - id: 1024
@@ -510,7 +513,7 @@ variants:
   identifier: br_197_1971_tfw_rail_train
   name_string: str_br_197_1971_tfw_rail_train_name
   strings:
-    str_br_197_1971_tfw_rail_train_name: 3-Car - TfW Rail
+    str_br_197_1971_tfw_rail_train_name: Class 197 Civity - 3-Car - TfW Rail
     str_br_197_1971_tfw_rail_train_single_livery_name: Class 197 Civity - 3-Car -
       TfW Rail
 - id: null
@@ -1012,8 +1015,8 @@ variants:
   identifier: br_755_7553_greater_anglia_train
   name_string: str_br_755_7553_greater_anglia_train_name
   strings:
-    str_br_755_7553_greater_anglia_train_name: 755/3 4-Car with Power Pack - Greater
-      Anglia
+    str_br_755_7553_greater_anglia_train_name: Class 755 FLIRT - 755/3 4-Car with
+      Power Pack - Greater Anglia
     str_br_755_7553_greater_anglia_train_single_livery_name: Class 755 FLIRT - 755/3
       4-Car with Power Pack - Greater Anglia
 - id: 1050
@@ -1038,8 +1041,8 @@ variants:
   identifier: br_755_7554_greater_anglia_train
   name_string: str_br_755_7554_greater_anglia_train_name
   strings:
-    str_br_755_7554_greater_anglia_train_name: 755/4 5-Car with Power Pack - Greater
-      Anglia
+    str_br_755_7554_greater_anglia_train_name: Class 755 FLIRT - 755/4 5-Car with
+      Power Pack - Greater Anglia
     str_br_755_7554_greater_anglia_train_single_livery_name: Class 755 FLIRT - 755/4
       5-Car with Power Pack - Greater Anglia
 - id: null
@@ -1473,8 +1476,8 @@ variants:
   identifier: br_kestrel_default_kestrel_black_and_yellow_train
   name_string: str_br_kestrel_default_kestrel_black_and_yellow_train_name
   strings:
-    str_br_kestrel_default_kestrel_black_and_yellow_train_name: Kestrel Black and
-      Yellow
+    str_br_kestrel_default_kestrel_black_and_yellow_train_name: Kestrel - Kestrel
+      Black and Yellow
     str_br_kestrel_default_kestrel_black_and_yellow_train_single_livery_name: Kestrel
       - Kestrel Black and Yellow
 - id: 1010
@@ -1495,9 +1498,9 @@ variants:
   identifier: br_conflat_a_default_default_train
   name_string: str_br_conflat_a_default_default_train_name
   strings:
-    str_br_conflat_a_default_default_train_name: Default
+    str_br_conflat_a_default_default_train_name: Conflat A Container Wagon
     str_br_conflat_a_default_default_train_single_livery_name: Conflat A Container
-      Wagon - Default
+      Wagon
 - id: 1011
   vehicle: br_mk3_sleeper
   profile: default
@@ -1516,7 +1519,7 @@ variants:
   identifier: br_mk3_sleeper_default_br_blue_train
   name_string: str_br_mk3_sleeper_default_br_blue_train_name
   strings:
-    str_br_mk3_sleeper_default_br_blue_train_name: BR Blue
+    str_br_mk3_sleeper_default_br_blue_train_name: Mk3 Sleeper - BR Blue
     str_br_mk3_sleeper_default_br_blue_train_group_name: Mk3 Sleeper
 - id: 1012
   vehicle: br_mk3_sleeper
@@ -1536,7 +1539,7 @@ variants:
   identifier: br_mk3_sleeper_default_intercity_train
   name_string: str_br_mk3_sleeper_default_intercity_train_name
   strings:
-    str_br_mk3_sleeper_default_intercity_train_name: InterCity
+    str_br_mk3_sleeper_default_intercity_train_name: Mk3 Sleeper - InterCity
     str_br_mk3_sleeper_default_intercity_train_group_name: Mk3 Sleeper
 - id: 1013
   vehicle: br_mk3_sleeper
@@ -1556,7 +1559,7 @@ variants:
   identifier: br_mk3_sleeper_default_first_scotrail_train
   name_string: str_br_mk3_sleeper_default_first_scotrail_train_name
   strings:
-    str_br_mk3_sleeper_default_first_scotrail_train_name: First ScotRail
+    str_br_mk3_sleeper_default_first_scotrail_train_name: Mk3 Sleeper - First ScotRail
     str_br_mk3_sleeper_default_first_scotrail_train_group_name: Mk3 Sleeper
 - id: 1014
   vehicle: br_mk3_sleeper
@@ -1576,7 +1579,7 @@ variants:
   identifier: br_mk3_sleeper_default_scotrail_train
   name_string: str_br_mk3_sleeper_default_scotrail_train_name
   strings:
-    str_br_mk3_sleeper_default_scotrail_train_name: ScotRail
+    str_br_mk3_sleeper_default_scotrail_train_name: Mk3 Sleeper - ScotRail
     str_br_mk3_sleeper_default_scotrail_train_group_name: Mk3 Sleeper
 - id: 1015
   vehicle: br_mk3_sleeper
@@ -1596,7 +1599,8 @@ variants:
   identifier: br_mk3_sleeper_default_caledonian_sleeper_train
   name_string: str_br_mk3_sleeper_default_caledonian_sleeper_train_name
   strings:
-    str_br_mk3_sleeper_default_caledonian_sleeper_train_name: Caledonian Sleeper
+    str_br_mk3_sleeper_default_caledonian_sleeper_train_name: Mk3 Sleeper - Caledonian
+      Sleeper
     str_br_mk3_sleeper_default_caledonian_sleeper_train_group_name: Mk3 Sleeper
 - id: 1016
   vehicle: br_mk3_sleeper
@@ -1616,7 +1620,7 @@ variants:
   identifier: br_mk3_sleeper_default_great_western_train
   name_string: str_br_mk3_sleeper_default_great_western_train_name
   strings:
-    str_br_mk3_sleeper_default_great_western_train_name: Great Western
+    str_br_mk3_sleeper_default_great_western_train_name: Mk3 Sleeper - Great Western
     str_br_mk3_sleeper_default_great_western_train_group_name: Mk3 Sleeper
 - id: 1017
   vehicle: br_mk3_sleeper
@@ -1636,7 +1640,7 @@ variants:
   identifier: br_mk3_sleeper_default_gwr_train
   name_string: str_br_mk3_sleeper_default_gwr_train_name
   strings:
-    str_br_mk3_sleeper_default_gwr_train_name: GWR
+    str_br_mk3_sleeper_default_gwr_train_name: Mk3 Sleeper - GWR
     str_br_mk3_sleeper_default_gwr_train_group_name: Mk3 Sleeper
 - id: 1018
   vehicle: br_mk3_sleeper
@@ -1656,7 +1660,7 @@ variants:
   identifier: br_mk3_sleeper_default_stagecoach_train
   name_string: str_br_mk3_sleeper_default_stagecoach_train_name
   strings:
-    str_br_mk3_sleeper_default_stagecoach_train_name: Stagecoach
+    str_br_mk3_sleeper_default_stagecoach_train_name: Mk3 Sleeper - Stagecoach
     str_br_mk3_sleeper_default_stagecoach_train_group_name: Mk3 Sleeper
 - id: 1019
   vehicle: br_320
@@ -1678,7 +1682,8 @@ variants:
   identifier: br_320_default_strathclyde_pte_orange_train
   name_string: str_br_320_default_strathclyde_pte_orange_train_name
   strings:
-    str_br_320_default_strathclyde_pte_orange_train_name: Strathclyde PTE Orange
+    str_br_320_default_strathclyde_pte_orange_train_name: Class 320/0 - Strathclyde
+      PTE Orange
     str_br_320_default_strathclyde_pte_orange_train_group_name: Class 320/0
 - id: 1020
   vehicle: br_320
@@ -1700,8 +1705,8 @@ variants:
   identifier: br_320_default_strathclyde_pte_carmine___cream_train
   name_string: str_br_320_default_strathclyde_pte_carmine___cream_train_name
   strings:
-    str_br_320_default_strathclyde_pte_carmine___cream_train_name: Strathclyde PTE
-      Carmine & Cream
+    str_br_320_default_strathclyde_pte_carmine___cream_train_name: Class 320/0 - Strathclyde
+      PTE Carmine & Cream
     str_br_320_default_strathclyde_pte_carmine___cream_train_group_name: Class 320/0
 - id: 1025
   vehicle: br_320
@@ -1723,7 +1728,7 @@ variants:
   identifier: br_320_default_scotrail_saltire_train
   name_string: str_br_320_default_scotrail_saltire_train_name
   strings:
-    str_br_320_default_scotrail_saltire_train_name: ScotRail Saltire
+    str_br_320_default_scotrail_saltire_train_name: Class 320/0 - ScotRail Saltire
     str_br_320_default_scotrail_saltire_train_group_name: Class 320/0
 - id: null
   vehicle: br_mpv_dualtrack
@@ -1828,7 +1833,8 @@ variants:
   identifier: br_standard_9f_default_br_black_unnamed_train
   name_string: str_br_standard_9f_default_br_black_unnamed_train_name
   strings:
-    str_br_standard_9f_default_br_black_unnamed_train_name: BR Black Unnamed
+    str_br_standard_9f_default_br_black_unnamed_train_name: Standard Class 9F - BR
+      Black Unnamed
     str_br_standard_9f_default_br_black_unnamed_train_group_name: Standard Class 9F
 - id: 1031
   vehicle: br_standard_9f
@@ -1849,7 +1855,8 @@ variants:
   identifier: br_standard_9f_default_br_green_unnamed_train
   name_string: str_br_standard_9f_default_br_green_unnamed_train_name
   strings:
-    str_br_standard_9f_default_br_green_unnamed_train_name: BR Green Unnamed
+    str_br_standard_9f_default_br_green_unnamed_train_name: Standard Class 9F - BR
+      Green Unnamed
     str_br_standard_9f_default_br_green_unnamed_train_group_name: Standard Class 9F
 - id: 1032
   vehicle: br_standard_9f
@@ -1870,7 +1877,8 @@ variants:
   identifier: br_standard_9f_default_br_black_named_train
   name_string: str_br_standard_9f_default_br_black_named_train_name
   strings:
-    str_br_standard_9f_default_br_black_named_train_name: BR Black Named
+    str_br_standard_9f_default_br_black_named_train_name: Standard Class 9F - BR Black
+      Named
     str_br_standard_9f_default_br_black_named_train_group_name: Standard Class 9F
 - id: 1033
   vehicle: br_standard_9f
@@ -1891,7 +1899,8 @@ variants:
   identifier: br_standard_9f_default_br_green_named_train
   name_string: str_br_standard_9f_default_br_green_named_train_name
   strings:
-    str_br_standard_9f_default_br_green_named_train_name: BR Green Named
+    str_br_standard_9f_default_br_green_named_train_name: Standard Class 9F - BR Green
+      Named
     str_br_standard_9f_default_br_green_named_train_group_name: Standard Class 9F
 - id: null
   vehicle: br_555
@@ -1955,7 +1964,7 @@ variants:
   identifier: br_08_default_br_green_train
   name_string: str_br_08_default_br_green_train_name
   strings:
-    str_br_08_default_br_green_train_name: BR Green
+    str_br_08_default_br_green_train_name: Class 08 "Gronk" - BR Green
     str_br_08_default_br_green_train_group_name: Class 08 "Gronk"
 - id: 1037
   vehicle: br_08
@@ -1975,7 +1984,7 @@ variants:
   identifier: br_08_default_br_blue_train
   name_string: str_br_08_default_br_blue_train_name
   strings:
-    str_br_08_default_br_blue_train_name: BR Blue
+    str_br_08_default_br_blue_train_name: Class 08 "Gronk" - BR Blue
     str_br_08_default_br_blue_train_group_name: Class 08 "Gronk"
 - id: 1038
   vehicle: br_08
@@ -1995,7 +2004,7 @@ variants:
   identifier: br_08_default_br_black_train
   name_string: str_br_08_default_br_black_train_name
   strings:
-    str_br_08_default_br_black_train_name: BR Black
+    str_br_08_default_br_black_train_name: Class 08 "Gronk" - BR Black
     str_br_08_default_br_black_train_group_name: Class 08 "Gronk"
 - id: 1039
   vehicle: br_08
@@ -2015,7 +2024,7 @@ variants:
   identifier: br_08_default_br_red_train
   name_string: str_br_08_default_br_red_train_name
   strings:
-    str_br_08_default_br_red_train_name: BR Red
+    str_br_08_default_br_red_train_name: Class 08 "Gronk" - BR Red
     str_br_08_default_br_red_train_group_name: Class 08 "Gronk"
 - id: 1040
   vehicle: br_08
@@ -2035,7 +2044,7 @@ variants:
   identifier: br_08_default_br_general_grey_train
   name_string: str_br_08_default_br_general_grey_train_name
   strings:
-    str_br_08_default_br_general_grey_train_name: BR General Grey
+    str_br_08_default_br_general_grey_train_name: Class 08 "Gronk" - BR General Grey
     str_br_08_default_br_general_grey_train_group_name: Class 08 "Gronk"
 - id: 1041
   vehicle: br_08
@@ -2055,7 +2064,8 @@ variants:
   identifier: br_08_default_network_rail_yellow_train
   name_string: str_br_08_default_network_rail_yellow_train_name
   strings:
-    str_br_08_default_network_rail_yellow_train_name: Network Rail Yellow
+    str_br_08_default_network_rail_yellow_train_name: Class 08 "Gronk" - Network Rail
+      Yellow
     str_br_08_default_network_rail_yellow_train_group_name: Class 08 "Gronk"
 - id: 1042
   vehicle: br_08
@@ -2075,7 +2085,7 @@ variants:
   identifier: br_08_default_purple_train
   name_string: str_br_08_default_purple_train_name
   strings:
-    str_br_08_default_purple_train_name: Purple
+    str_br_08_default_purple_train_name: Class 08 "Gronk" - Purple
     str_br_08_default_purple_train_group_name: Class 08 "Gronk"
 - id: 1043
   vehicle: br_08
@@ -2095,7 +2105,7 @@ variants:
   identifier: br_08_default_intercity_swallow_train
   name_string: str_br_08_default_intercity_swallow_train_name
   strings:
-    str_br_08_default_intercity_swallow_train_name: InterCity Swallow
+    str_br_08_default_intercity_swallow_train_name: Class 08 "Gronk" - InterCity Swallow
     str_br_08_default_intercity_swallow_train_group_name: Class 08 "Gronk"
 - id: 1044
   vehicle: br_08
@@ -2115,7 +2125,8 @@ variants:
   identifier: br_08_default_ews_red_and_gold_train
   name_string: str_br_08_default_ews_red_and_gold_train_name
   strings:
-    str_br_08_default_ews_red_and_gold_train_name: EWS Red and Gold
+    str_br_08_default_ews_red_and_gold_train_name: Class 08 "Gronk" - EWS Red and
+      Gold
     str_br_08_default_ews_red_and_gold_train_group_name: Class 08 "Gronk"
 - id: 1045
   vehicle: br_08
@@ -2135,7 +2146,7 @@ variants:
   identifier: br_08_default_db_schenker_train
   name_string: str_br_08_default_db_schenker_train_name
   strings:
-    str_br_08_default_db_schenker_train_name: DB Schenker
+    str_br_08_default_db_schenker_train_name: Class 08 "Gronk" - DB Schenker
     str_br_08_default_db_schenker_train_group_name: Class 08 "Gronk"
 - id: 1046
   vehicle: br_08
@@ -2155,7 +2166,7 @@ variants:
   identifier: br_08_default_emt_train
   name_string: str_br_08_default_emt_train_name
   strings:
-    str_br_08_default_emt_train_name: EMT
+    str_br_08_default_emt_train_name: Class 08 "Gronk" - EMT
     str_br_08_default_emt_train_group_name: Class 08 "Gronk"
 - id: 1047
   vehicle: br_08
@@ -2175,7 +2186,7 @@ variants:
   identifier: br_08_default_gbrf_train
   name_string: str_br_08_default_gbrf_train_name
   strings:
-    str_br_08_default_gbrf_train_name: GBRf
+    str_br_08_default_gbrf_train_name: Class 08 "Gronk" - GBRf
     str_br_08_default_gbrf_train_group_name: Class 08 "Gronk"
 - id: 1048
   vehicle: br_08
@@ -2195,7 +2206,8 @@ variants:
   identifier: br_08_default_freightliner_green_train
   name_string: str_br_08_default_freightliner_green_train_name
   strings:
-    str_br_08_default_freightliner_green_train_name: Freightliner Green
+    str_br_08_default_freightliner_green_train_name: Class 08 "Gronk" - Freightliner
+      Green
     str_br_08_default_freightliner_green_train_group_name: Class 08 "Gronk"
 - id: 1051
   vehicle: br_08
@@ -2215,7 +2227,8 @@ variants:
   identifier: br_08_default_freightliner_orange_train
   name_string: str_br_08_default_freightliner_orange_train_name
   strings:
-    str_br_08_default_freightliner_orange_train_name: Freightliner Orange
+    str_br_08_default_freightliner_orange_train_name: Class 08 "Gronk" - Freightliner
+      Orange
     str_br_08_default_freightliner_orange_train_group_name: Class 08 "Gronk"
 - id: 1052
   vehicle: br_08
@@ -2235,7 +2248,7 @@ variants:
   identifier: br_08_default_nse_train
   name_string: str_br_08_default_nse_train_name
   strings:
-    str_br_08_default_nse_train_name: NSE
+    str_br_08_default_nse_train_name: Class 08 "Gronk" - NSE
     str_br_08_default_nse_train_group_name: Class 08 "Gronk"
 - id: 1053
   vehicle: br_128
@@ -2255,7 +2268,8 @@ variants:
   identifier: br_128_default_br_green_train
   name_string: str_br_128_default_br_green_train_name
   strings:
-    str_br_128_default_br_green_train_name: BR Green
+    str_br_128_default_br_green_train_name: Class 128 "Post Office Motor Parcels Van"
+      - BR Green
     str_br_128_default_br_green_train_group_name: Class 128 "Post Office Motor Parcels
       Van"
 - id: 1054
@@ -2276,7 +2290,8 @@ variants:
   identifier: br_128_default_br_blue_train
   name_string: str_br_128_default_br_blue_train_name
   strings:
-    str_br_128_default_br_blue_train_name: BR Blue
+    str_br_128_default_br_blue_train_name: Class 128 "Post Office Motor Parcels Van"
+      - BR Blue
     str_br_128_default_br_blue_train_group_name: Class 128 "Post Office Motor Parcels
       Van"
 - id: 1055
@@ -2297,7 +2312,8 @@ variants:
   identifier: br_128_default_royal_mail_train
   name_string: str_br_128_default_royal_mail_train_name
   strings:
-    str_br_128_default_royal_mail_train_name: Royal Mail
+    str_br_128_default_royal_mail_train_name: Class 128 "Post Office Motor Parcels
+      Van" - Royal Mail
     str_br_128_default_royal_mail_train_group_name: Class 128 "Post Office Motor Parcels
       Van"
 - id: null
@@ -2341,7 +2357,7 @@ variants:
   identifier: br_76_default_br_black_train
   name_string: str_br_76_default_br_black_train_name
   strings:
-    str_br_76_default_br_black_train_name: BR Black
+    str_br_76_default_br_black_train_name: Class 76 LNER Gresley "EM1" - BR Black
     str_br_76_default_br_black_train_group_name: Class 76 LNER Gresley "EM1"
 - id: 1058
   vehicle: br_76
@@ -2361,7 +2377,7 @@ variants:
   identifier: br_76_default_br_green_train
   name_string: str_br_76_default_br_green_train_name
   strings:
-    str_br_76_default_br_green_train_name: BR Green
+    str_br_76_default_br_green_train_name: Class 76 LNER Gresley "EM1" - BR Green
     str_br_76_default_br_green_train_group_name: Class 76 LNER Gresley "EM1"
 - id: 1059
   vehicle: br_76
@@ -2381,7 +2397,8 @@ variants:
   identifier: br_76_default_br_green__warning_panels__train
   name_string: str_br_76_default_br_green__warning_panels__train_name
   strings:
-    str_br_76_default_br_green__warning_panels__train_name: BR Green Warning Panels
+    str_br_76_default_br_green__warning_panels__train_name: Class 76 LNER Gresley
+      "EM1" - BR Green Warning Panels
     str_br_76_default_br_green__warning_panels__train_group_name: Class 76 LNER Gresley
       "EM1"
 - id: 1060
@@ -2402,7 +2419,7 @@ variants:
   identifier: br_76_default_br_blue_train
   name_string: str_br_76_default_br_blue_train_name
   strings:
-    str_br_76_default_br_blue_train_name: BR Blue
+    str_br_76_default_br_blue_train_name: Class 76 LNER Gresley "EM1" - BR Blue
     str_br_76_default_br_blue_train_group_name: Class 76 LNER Gresley "EM1"
 - id: 1026
   vehicle: br_mpv_dualtrack
@@ -2423,8 +2440,8 @@ variants:
   identifier: br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2
   name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2_name
   strings:
-    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2_name: Pair
-      - Network Rail Yellow Empty
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2_name: British
+      Rail MPV Dual-Track - Pair - Network Rail Yellow Empty
     str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2_group_name: British
       Rail MPV Dual-Track - Pair
 - id: 1027
@@ -2446,8 +2463,8 @@ variants:
   identifier: br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2
   name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2_name
   strings:
-    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2_name: Pair
-      - Network Rail Yellow Leaf
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2_name: British
+      Rail MPV Dual-Track - Pair - Network Rail Yellow Leaf
     str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2_group_name: British
       Rail MPV Dual-Track - Pair
 - id: 1028
@@ -2469,8 +2486,8 @@ variants:
   identifier: br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2
   name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2_name
   strings:
-    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2_name: Pair -
-      Network Rail Blue Empty
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2_name: British
+      Rail MPV Dual-Track - Pair - Network Rail Blue Empty
     str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2_group_name: British
       Rail MPV Dual-Track - Pair
 - id: 1029
@@ -2492,8 +2509,8 @@ variants:
   identifier: br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2
   name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2_name
   strings:
-    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2_name: Pair -
-      Network Rail Blue Leaf
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2_name: British
+      Rail MPV Dual-Track - Pair - Network Rail Blue Leaf
     str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2_group_name: British
       Rail MPV Dual-Track - Pair
 - id: 1035
@@ -2514,7 +2531,7 @@ variants:
   identifier: br_88_88_drs_train_v2
   name_string: str_br_88_88_drs_train_v2_name
   strings:
-    str_br_88_88_drs_train_v2_name: Bi-Mode - DRS
+    str_br_88_88_drs_train_v2_name: Class 88 - Bi-Mode - DRS
     str_br_88_88_drs_train_v2_single_livery_name: Class 88 - Bi-Mode - DRS
 - id: 1056
   vehicle: br_799
@@ -2537,8 +2554,8 @@ variants:
   identifier: br_799_7994_porterbrook_hydroflex_green_and_white_train_v2
   name_string: str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_name
   strings:
-    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_name: 4-Car - Porterbrook
-      Hydroflex Green and White
+    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_name: Class 799
+      Hydrogen Prototype - 4-Car - Porterbrook Hydroflex Green and White
     str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_single_livery_name: Class
       799 Hydrogen Prototype - 4-Car - Porterbrook Hydroflex Green and White
 - id: 1004
@@ -2562,7 +2579,8 @@ variants:
   identifier: lu_1992_1992_4_london_underground_train
   name_string: str_lu_1992_1992_4_london_underground_train_name
   strings:
-    str_lu_1992_1992_4_london_underground_train_name: 4-Car - London Underground
+    str_lu_1992_1992_4_london_underground_train_name: London Underground 1992 Stock
+      - 4-Car - London Underground
     str_lu_1992_1992_4_london_underground_train_group_name: London Underground 1992
       Stock - 4-Car
 - id: 1005
@@ -2586,7 +2604,8 @@ variants:
   identifier: lu_1992_1992_4_network_southeast_train
   name_string: str_lu_1992_1992_4_network_southeast_train_name
   strings:
-    str_lu_1992_1992_4_network_southeast_train_name: 4-Car - Network SouthEast
+    str_lu_1992_1992_4_network_southeast_train_name: London Underground 1992 Stock
+      - 4-Car - Network SouthEast
     str_lu_1992_1992_4_network_southeast_train_group_name: London Underground 1992
       Stock - 4-Car
 - id: 1006
@@ -2614,7 +2633,8 @@ variants:
   identifier: lu_1992_1992_8_london_underground_train
   name_string: str_lu_1992_1992_8_london_underground_train_name
   strings:
-    str_lu_1992_1992_8_london_underground_train_name: 8-Car - London Underground
+    str_lu_1992_1992_8_london_underground_train_name: London Underground 1992 Stock
+      - 8-Car - London Underground
     str_lu_1992_1992_8_london_underground_train_group_name: London Underground 1992
       Stock - 8-Car
 - id: 1007
@@ -2642,7 +2662,8 @@ variants:
   identifier: lu_1992_1992_8_network_southeast_train
   name_string: str_lu_1992_1992_8_network_southeast_train_name
   strings:
-    str_lu_1992_1992_8_network_southeast_train_name: 8-Car - Network SouthEast
+    str_lu_1992_1992_8_network_southeast_train_name: London Underground 1992 Stock
+      - 8-Car - Network SouthEast
     str_lu_1992_1992_8_network_southeast_train_group_name: London Underground 1992
       Stock - 8-Car
 - id: 1008
@@ -2667,7 +2688,8 @@ variants:
   identifier: br_221_221_5_virgin_trains_train
   name_string: str_br_221_221_5_virgin_trains_train_name
   strings:
-    str_br_221_221_5_virgin_trains_train_name: 5-Car - Virgin Trains
+    str_br_221_221_5_virgin_trains_train_name: Class 221 Voyager - 5-Car - Virgin
+      Trains
     str_br_221_221_5_virgin_trains_train_group_name: Class 221 Voyager - 5-Car
 - id: 1070
   vehicle: br_221
@@ -2691,7 +2713,8 @@ variants:
   identifier: br_221_221_5_avanti_west_coast_train
   name_string: str_br_221_221_5_avanti_west_coast_train_name
   strings:
-    str_br_221_221_5_avanti_west_coast_train_name: 5-Car - Avanti West Coast
+    str_br_221_221_5_avanti_west_coast_train_name: Class 221 Voyager - 5-Car - Avanti
+      West Coast
     str_br_221_221_5_avanti_west_coast_train_group_name: Class 221 Voyager - 5-Car
 - id: 1071
   vehicle: br_221
@@ -2715,7 +2738,7 @@ variants:
   identifier: br_221_221_5_grand_central_train
   name_string: str_br_221_221_5_grand_central_train_name
   strings:
-    str_br_221_221_5_grand_central_train_name: 5-Car - Grand Central
+    str_br_221_221_5_grand_central_train_name: Class 221 Voyager - 5-Car - Grand Central
     str_br_221_221_5_grand_central_train_group_name: Class 221 Voyager - 5-Car
 - id: 1072
   vehicle: br_221
@@ -2739,7 +2762,7 @@ variants:
   identifier: br_221_221_5_crosscountry_train
   name_string: str_br_221_221_5_crosscountry_train_name
   strings:
-    str_br_221_221_5_crosscountry_train_name: 5-Car - CrossCountry
+    str_br_221_221_5_crosscountry_train_name: Class 221 Voyager - 5-Car - CrossCountry
     str_br_221_221_5_crosscountry_train_group_name: Class 221 Voyager - 5-Car
 - id: 1073
   vehicle: br_221
@@ -2763,7 +2786,8 @@ variants:
   identifier: br_221_221_5_crosscountry_refurbished_train
   name_string: str_br_221_221_5_crosscountry_refurbished_train_name
   strings:
-    str_br_221_221_5_crosscountry_refurbished_train_name: 5-Car - CrossCountry refurbished
+    str_br_221_221_5_crosscountry_refurbished_train_name: Class 221 Voyager - 5-Car
+      - CrossCountry refurbished
     str_br_221_221_5_crosscountry_refurbished_train_group_name: Class 221 Voyager
       - 5-Car
 - id: 1074
@@ -2787,7 +2811,8 @@ variants:
   identifier: br_221_221_4_virgin_trains_train
   name_string: str_br_221_221_4_virgin_trains_train_name
   strings:
-    str_br_221_221_4_virgin_trains_train_name: 4-Car - Virgin Trains
+    str_br_221_221_4_virgin_trains_train_name: Class 221 Voyager - 4-Car - Virgin
+      Trains
     str_br_221_221_4_virgin_trains_train_group_name: Class 221 Voyager - 4-Car
 - id: 1075
   vehicle: br_221
@@ -2810,7 +2835,7 @@ variants:
   identifier: br_221_221_4_crosscountry_train
   name_string: str_br_221_221_4_crosscountry_train_name
   strings:
-    str_br_221_221_4_crosscountry_train_name: 4-Car - CrossCountry
+    str_br_221_221_4_crosscountry_train_name: Class 221 Voyager - 4-Car - CrossCountry
     str_br_221_221_4_crosscountry_train_group_name: Class 221 Voyager - 4-Car
 - id: 1076
   vehicle: br_221
@@ -2833,7 +2858,8 @@ variants:
   identifier: br_221_221_4_crosscountry_refurbished_train
   name_string: str_br_221_221_4_crosscountry_refurbished_train_name
   strings:
-    str_br_221_221_4_crosscountry_refurbished_train_name: 4-Car - CrossCountry refurbished
+    str_br_221_221_4_crosscountry_refurbished_train_name: Class 221 Voyager - 4-Car
+      - CrossCountry refurbished
     str_br_221_221_4_crosscountry_refurbished_train_group_name: Class 221 Voyager
       - 4-Car
 - id: 1077
@@ -2860,7 +2886,8 @@ variants:
   identifier: br_flying_banana_default_network_rail_train
   name_string: str_br_flying_banana_default_network_rail_train_name
   strings:
-    str_br_flying_banana_default_network_rail_train_name: Network Rail
+    str_br_flying_banana_default_network_rail_train_name: Flying Banana - Network
+      Rail
     str_br_flying_banana_default_network_rail_train_single_livery_name: Flying Banana
       - Network Rail
 - id: 1078
@@ -2881,7 +2908,8 @@ variants:
   identifier: br_76_prototype_default_lner_green_train
   name_string: str_br_76_prototype_default_lner_green_train_name
   strings:
-    str_br_76_prototype_default_lner_green_train_name: LNER Green
+    str_br_76_prototype_default_lner_green_train_name: LNER Gresley "EM1" Class 76
+      Prototype - LNER Green
     str_br_76_prototype_default_lner_green_train_group_name: LNER Gresley "EM1" Class
       76 Prototype
 - id: 1079
@@ -2902,7 +2930,8 @@ variants:
   identifier: br_76_prototype_default_br_black_train
   name_string: str_br_76_prototype_default_br_black_train_name
   strings:
-    str_br_76_prototype_default_br_black_train_name: BR Black
+    str_br_76_prototype_default_br_black_train_name: LNER Gresley "EM1" Class 76 Prototype
+      - BR Black
     str_br_76_prototype_default_br_black_train_group_name: LNER Gresley "EM1" Class
       76 Prototype
 - id: 1080
@@ -2923,7 +2952,8 @@ variants:
   identifier: br_76_prototype_default_br_green_train
   name_string: str_br_76_prototype_default_br_green_train_name
   strings:
-    str_br_76_prototype_default_br_green_train_name: BR Green
+    str_br_76_prototype_default_br_green_train_name: LNER Gresley "EM1" Class 76 Prototype
+      - BR Green
     str_br_76_prototype_default_br_green_train_group_name: LNER Gresley "EM1" Class
       76 Prototype
 - id: 1081
@@ -2944,8 +2974,8 @@ variants:
   identifier: br_76_prototype_default_br_green__warning_panels__train
   name_string: str_br_76_prototype_default_br_green__warning_panels__train_name
   strings:
-    str_br_76_prototype_default_br_green__warning_panels__train_name: BR Green Warning
-      Panels
+    str_br_76_prototype_default_br_green__warning_panels__train_name: LNER Gresley
+      "EM1" Class 76 Prototype - BR Green Warning Panels
     str_br_76_prototype_default_br_green__warning_panels__train_group_name: LNER Gresley
       "EM1" Class 76 Prototype
 - id: 1082
@@ -2966,7 +2996,8 @@ variants:
   identifier: br_76_prototype_default_br_blue_train
   name_string: str_br_76_prototype_default_br_blue_train_name
   strings:
-    str_br_76_prototype_default_br_blue_train_name: BR Blue
+    str_br_76_prototype_default_br_blue_train_name: LNER Gresley "EM1" Class 76 Prototype
+      - BR Blue
     str_br_76_prototype_default_br_blue_train_group_name: LNER Gresley "EM1" Class
       76 Prototype
 - id: 1083
@@ -2988,7 +3019,7 @@ variants:
   identifier: br_504_504_2_br_blue_train
   name_string: str_br_504_504_2_br_blue_train_name
   strings:
-    str_br_504_504_2_br_blue_train_name: 2-Car - BR Blue
+    str_br_504_504_2_br_blue_train_name: Class 504 - 2-Car - BR Blue
     str_br_504_504_2_br_blue_train_group_name: Class 504 - 2-Car
 - id: 1084
   vehicle: br_504
@@ -3009,7 +3040,7 @@ variants:
   identifier: br_504_504_2_gmpte_train
   name_string: str_br_504_504_2_gmpte_train_name
   strings:
-    str_br_504_504_2_gmpte_train_name: 2-Car - GMPTE
+    str_br_504_504_2_gmpte_train_name: Class 504 - 2-Car - GMPTE
     str_br_504_504_2_gmpte_train_group_name: Class 504 - 2-Car
 - id: 1085
   vehicle: br_504
@@ -3030,7 +3061,7 @@ variants:
   identifier: br_504_504_2_br_green_train
   name_string: str_br_504_504_2_br_green_train_name
   strings:
-    str_br_504_504_2_br_green_train_name: 2-Car - BR Green
+    str_br_504_504_2_br_green_train_name: Class 504 - 2-Car - BR Green
     str_br_504_504_2_br_green_train_group_name: Class 504 - 2-Car
 - id: 1086
   vehicle: br_504
@@ -3051,7 +3082,7 @@ variants:
   identifier: br_504_504_2_br_blue__alternate__train
   name_string: str_br_504_504_2_br_blue__alternate__train_name
   strings:
-    str_br_504_504_2_br_blue__alternate__train_name: 2-Car - BR Blue Alternate
+    str_br_504_504_2_br_blue__alternate__train_name: Class 504 - 2-Car - BR Blue Alternate
     str_br_504_504_2_br_blue__alternate__train_group_name: Class 504 - 2-Car
 - id: 1087
   vehicle: br_504
@@ -3072,7 +3103,8 @@ variants:
   identifier: br_504_504_2_br_blue__wraparound__train
   name_string: str_br_504_504_2_br_blue__wraparound__train_name
   strings:
-    str_br_504_504_2_br_blue__wraparound__train_name: 2-Car - BR Blue Wraparound
+    str_br_504_504_2_br_blue__wraparound__train_name: Class 504 - 2-Car - BR Blue
+      Wraparound
     str_br_504_504_2_br_blue__wraparound__train_group_name: Class 504 - 2-Car
 - id: 1088
   vehicle: lner_gresley_616bg
@@ -3092,7 +3124,8 @@ variants:
   identifier: lner_gresley_616bg_default_lner_teak_train
   name_string: str_lner_gresley_616bg_default_lner_teak_train_name
   strings:
-    str_lner_gresley_616bg_default_lner_teak_train_name: LNER Teak
+    str_lner_gresley_616bg_default_lner_teak_train_name: LNER Gresley 61' 6" BG -
+      LNER Teak
     str_lner_gresley_616bg_default_lner_teak_train_group_name: LNER Gresley 61' 6"
       BG
 - id: 1089
@@ -3113,7 +3146,8 @@ variants:
   identifier: lner_gresley_616bg_default_br_blood_and_custard_train
   name_string: str_lner_gresley_616bg_default_br_blood_and_custard_train_name
   strings:
-    str_lner_gresley_616bg_default_br_blood_and_custard_train_name: BR Blood and Custard
+    str_lner_gresley_616bg_default_br_blood_and_custard_train_name: LNER Gresley 61'
+      6" BG - BR Blood and Custard
     str_lner_gresley_616bg_default_br_blood_and_custard_train_group_name: LNER Gresley
       61' 6" BG
 - id: 1090
@@ -3134,7 +3168,8 @@ variants:
   identifier: lner_gresley_616bg_default_br_maroon_train
   name_string: str_lner_gresley_616bg_default_br_maroon_train_name
   strings:
-    str_lner_gresley_616bg_default_br_maroon_train_name: BR Maroon
+    str_lner_gresley_616bg_default_br_maroon_train_name: LNER Gresley 61' 6" BG -
+      BR Maroon
     str_lner_gresley_616bg_default_br_maroon_train_group_name: LNER Gresley 61' 6"
       BG
 - id: 1091
@@ -3155,7 +3190,8 @@ variants:
   identifier: lner_gresley_616bg_default_br_blue_train
   name_string: str_lner_gresley_616bg_default_br_blue_train_name
   strings:
-    str_lner_gresley_616bg_default_br_blue_train_name: BR Blue
+    str_lner_gresley_616bg_default_br_blue_train_name: LNER Gresley 61' 6" BG - BR
+      Blue
     str_lner_gresley_616bg_default_br_blue_train_group_name: LNER Gresley 61' 6" BG
 - id: 1092
   vehicle: br_08
@@ -3175,7 +3211,7 @@ variants:
   identifier: br_08_default_progress_rail_train
   name_string: str_br_08_default_progress_rail_train_name
   strings:
-    str_br_08_default_progress_rail_train_name: Progress Rail
+    str_br_08_default_progress_rail_train_name: Class 08 "Gronk" - Progress Rail
     str_br_08_default_progress_rail_train_group_name: Class 08 "Gronk"
 - id: 1093
   vehicle: lu_2009
@@ -3202,7 +3238,8 @@ variants:
   identifier: lu_2009_2009_8_london_underground_train
   name_string: str_lu_2009_2009_8_london_underground_train_name
   strings:
-    str_lu_2009_2009_8_london_underground_train_name: 8-Car - London Underground
+    str_lu_2009_2009_8_london_underground_train_name: London Underground 2009 Stock
+      - 8-Car - London Underground
     str_lu_2009_2009_8_london_underground_train_single_livery_name: London Underground
       2009 Stock - 8-Car - London Underground
 - id: 1061
@@ -3231,7 +3268,8 @@ variants:
   identifier: br_390_390_9_virgin_trains__9_car__train
   name_string: str_br_390_390_9_virgin_trains__9_car__train_name
   strings:
-    str_br_390_390_9_virgin_trains__9_car__train_name: 9-Car - Virgin Trains 9-car
+    str_br_390_390_9_virgin_trains__9_car__train_name: Class 390 Pendolino - 9-Car
+      - Virgin Trains 9-car
     str_br_390_390_9_virgin_trains__9_car__train_group_name: Class 390 Pendolino -
       9-Car
 - id: 1062
@@ -3260,8 +3298,8 @@ variants:
   identifier: br_390_390_9_virgin_trains_silk__9_car__train
   name_string: str_br_390_390_9_virgin_trains_silk__9_car__train_name
   strings:
-    str_br_390_390_9_virgin_trains_silk__9_car__train_name: 9-Car - Virgin Trains
-      Silk 9-car
+    str_br_390_390_9_virgin_trains_silk__9_car__train_name: Class 390 Pendolino -
+      9-Car - Virgin Trains Silk 9-car
     str_br_390_390_9_virgin_trains_silk__9_car__train_group_name: Class 390 Pendolino
       - 9-Car
 - id: 1063
@@ -3290,8 +3328,8 @@ variants:
   identifier: br_390_390_9_virgin_trains_pride__9_car__train
   name_string: str_br_390_390_9_virgin_trains_pride__9_car__train_name
   strings:
-    str_br_390_390_9_virgin_trains_pride__9_car__train_name: 9-Car - Virgin Trains
-      Pride 9-car
+    str_br_390_390_9_virgin_trains_pride__9_car__train_name: Class 390 Pendolino -
+      9-Car - Virgin Trains Pride 9-car
     str_br_390_390_9_virgin_trains_pride__9_car__train_group_name: Class 390 Pendolino
       - 9-Car
 - id: 1064
@@ -3320,8 +3358,8 @@ variants:
   identifier: br_390_390_9_avanti_west_coast__9_car__train
   name_string: str_br_390_390_9_avanti_west_coast__9_car__train_name
   strings:
-    str_br_390_390_9_avanti_west_coast__9_car__train_name: 9-Car - Avanti West Coast
-      9-car
+    str_br_390_390_9_avanti_west_coast__9_car__train_name: Class 390 Pendolino - 9-Car
+      - Avanti West Coast 9-car
     str_br_390_390_9_avanti_west_coast__9_car__train_group_name: Class 390 Pendolino
       - 9-Car
 - id: 1065
@@ -3352,7 +3390,8 @@ variants:
   identifier: br_390_390_11_virgin_trains__11_car__train
   name_string: str_br_390_390_11_virgin_trains__11_car__train_name
   strings:
-    str_br_390_390_11_virgin_trains__11_car__train_name: 11-Car - Virgin Trains 11-car
+    str_br_390_390_11_virgin_trains__11_car__train_name: Class 390 Pendolino - 11-Car
+      - Virgin Trains 11-car
     str_br_390_390_11_virgin_trains__11_car__train_group_name: Class 390 Pendolino
       - 11-Car
 - id: 1066
@@ -3383,8 +3422,8 @@ variants:
   identifier: br_390_390_11_virgin_trains_silk__11_car__train
   name_string: str_br_390_390_11_virgin_trains_silk__11_car__train_name
   strings:
-    str_br_390_390_11_virgin_trains_silk__11_car__train_name: 11-Car - Virgin Trains
-      Silk 11-car
+    str_br_390_390_11_virgin_trains_silk__11_car__train_name: Class 390 Pendolino
+      - 11-Car - Virgin Trains Silk 11-car
     str_br_390_390_11_virgin_trains_silk__11_car__train_group_name: Class 390 Pendolino
       - 11-Car
 - id: 1067
@@ -3415,8 +3454,8 @@ variants:
   identifier: br_390_390_11_virgin_trains_pride__11_car__train
   name_string: str_br_390_390_11_virgin_trains_pride__11_car__train_name
   strings:
-    str_br_390_390_11_virgin_trains_pride__11_car__train_name: 11-Car - Virgin Trains
-      Pride 11-car
+    str_br_390_390_11_virgin_trains_pride__11_car__train_name: Class 390 Pendolino
+      - 11-Car - Virgin Trains Pride 11-car
     str_br_390_390_11_virgin_trains_pride__11_car__train_group_name: Class 390 Pendolino
       - 11-Car
 - id: 1068
@@ -3447,8 +3486,8 @@ variants:
   identifier: br_390_390_11_avanti_west_coast__11_car__train
   name_string: str_br_390_390_11_avanti_west_coast__11_car__train_name
   strings:
-    str_br_390_390_11_avanti_west_coast__11_car__train_name: 11-Car - Avanti West
-      Coast 11-car
+    str_br_390_390_11_avanti_west_coast__11_car__train_name: Class 390 Pendolino -
+      11-Car - Avanti West Coast 11-car
     str_br_390_390_11_avanti_west_coast__11_car__train_group_name: Class 390 Pendolino
       - 11-Car
 - id: 1069
@@ -3479,8 +3518,8 @@ variants:
   identifier: br_390_390_11_avanti_west_coast_pride__11_car__train
   name_string: str_br_390_390_11_avanti_west_coast_pride__11_car__train_name
   strings:
-    str_br_390_390_11_avanti_west_coast_pride__11_car__train_name: 11-Car - Avanti
-      West Coast Pride 11-car
+    str_br_390_390_11_avanti_west_coast_pride__11_car__train_name: Class 390 Pendolino
+      - 11-Car - Avanti West Coast Pride 11-car
     str_br_390_390_11_avanti_west_coast_pride__11_car__train_group_name: Class 390
       Pendolino - 11-Car
 - id: 1094
@@ -3504,7 +3543,7 @@ variants:
   identifier: br_apt_e_apt_e_4_br_blue_train
   name_string: str_br_apt_e_apt_e_4_br_blue_train_name
   strings:
-    str_br_apt_e_apt_e_4_br_blue_train_name: 4-Car - BR Blue
+    str_br_apt_e_apt_e_4_br_blue_train_name: APT-E - 4-Car - BR Blue
     str_br_apt_e_apt_e_4_br_blue_train_single_livery_name: APT-E - 4-Car - BR Blue
 - id: 1095
   vehicle: br_apt_p
@@ -3537,7 +3576,7 @@ variants:
   identifier: br_apt_p_apt_p_14_intercity_train
   name_string: str_br_apt_p_apt_p_14_intercity_train_name
   strings:
-    str_br_apt_p_apt_p_14_intercity_train_name: 14-Car - InterCity
+    str_br_apt_p_apt_p_14_intercity_train_name: APT-P - 14-Car - InterCity
     str_br_apt_p_apt_p_14_intercity_train_single_livery_name: APT-P - 14-Car - InterCity
 - id: null
   vehicle: br_555
@@ -3596,7 +3635,8 @@ variants:
   identifier: br_555_default_tyne_and_wear_metro_train_v2
   name_string: str_br_555_default_tyne_and_wear_metro_train_v2_name
   strings:
-    str_br_555_default_tyne_and_wear_metro_train_v2_name: Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_train_v2_name: Class 555 Metro - Tyne and
+      Wear Metro
     str_br_555_default_tyne_and_wear_metro_train_v2_single_livery_name: Class 555
       Metro - Tyne and Wear Metro
 - id: 1096
@@ -3621,7 +3661,8 @@ variants:
   identifier: br_555_default_tyne_and_wear_metro_tram_v2
   name_string: str_br_555_default_tyne_and_wear_metro_tram_v2_name
   strings:
-    str_br_555_default_tyne_and_wear_metro_tram_v2_name: Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_tram_v2_name: Class 555 Metro - Tyne and
+      Wear Metro
     str_br_555_default_tyne_and_wear_metro_tram_v2_single_livery_name: Class 555 Metro
       - Tyne and Wear Metro
 - id: 1097
@@ -3645,7 +3686,7 @@ variants:
   identifier: br_777_default_merseyrail_train_v2
   name_string: str_br_777_default_merseyrail_train_v2_name
   strings:
-    str_br_777_default_merseyrail_train_v2_name: Merseyrail
+    str_br_777_default_merseyrail_train_v2_name: Class 777 METRO - Merseyrail
     str_br_777_default_merseyrail_train_v2_single_livery_name: Class 777 METRO - Merseyrail
 - id: 1098
   vehicle: br_777
@@ -3668,7 +3709,7 @@ variants:
   identifier: br_777_default_merseyrail_tram
   name_string: str_br_777_default_merseyrail_tram_name
   strings:
-    str_br_777_default_merseyrail_tram_name: Merseyrail
+    str_br_777_default_merseyrail_tram_name: Class 777 METRO - Merseyrail
     str_br_777_default_merseyrail_tram_single_livery_name: Class 777 METRO - Merseyrail
 - id: 1099
   vehicle: br_container
@@ -3688,6 +3729,6 @@ variants:
   identifier: br_container_default_default_train
   name_string: str_br_container_default_default_train_name
   strings:
-    str_br_container_default_default_train_name: Default
+    str_br_container_default_default_train_name: BR Container Flatbed Wagon
     str_br_container_default_default_train_single_livery_name: BR Container Flatbed
-      Wagon - Default
+      Wagon
