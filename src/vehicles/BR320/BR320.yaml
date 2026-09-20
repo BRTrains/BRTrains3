@@ -13,9 +13,8 @@ stats:
   length: 8
   power: 1328
   # The 320/3s were built to 75 mph (hence no yaw dampers); dampers were fitted
-  # across the class in 2010, clearing them for 90 mph in service.
-  speed: 90
-  design_speed: 75
+  # across the class in 2010, clearing them for 90 mph in service. Both figures
+  # belong to a profile rather than to the vehicle, so they are set there.
   tractive_effort: 0.3
   power_type:
     - electric
@@ -23,15 +22,31 @@ stats:
 cargo: passenger
 
 dates:
-  introduction_date: 1990-03-17
+  introduction_date: 1990-08-01
 
 profiles:
-  - identifier: DEFAULT
+  - identifier: 320_3_pre2010
+    name: 3-Car (75 mph)
+    introduction_date: 1990-08-01
+    sprite_group: 320_3_pre2010 # the two profiles share one set of drawings
     num_vehicles: 3
     capacity: 71
+    speed: 75
+    design_speed: 75
     special_tags:
       - formation/3-car
-      - subclass/320_3
+      - subclass/320_3_pre2010
+  - identifier: 320_3_post2010
+    name: 3-Car (90 mph)
+    introduction_date: 2010-01-01
+    sprite_group: 320_3_pre2010
+    num_vehicles: 3
+    capacity: 71
+    speed: 90
+    design_speed: 75
+    special_tags:
+      - formation/3-car
+      - subclass/320_3_post2010
 
 liveries:
   - name: 'Strathclyde PTE Orange'

@@ -1662,14 +1662,14 @@ variants:
   strings:
     str_br_mk3_sleeper_default_stagecoach_train_name: Mk3 Sleeper - Stagecoach
     str_br_mk3_sleeper_default_stagecoach_train_group_name: Mk3 Sleeper
-- id: 1019
+- id: null
   vehicle: br_320
   profile: default
   livery: strathclyde pte orange
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 71
@@ -1685,14 +1685,14 @@ variants:
     str_br_320_default_strathclyde_pte_orange_train_name: Class 320/3 - Strathclyde
       PTE Orange
     str_br_320_default_strathclyde_pte_orange_train_group_name: Class 320/3
-- id: 1020
+- id: null
   vehicle: br_320
   profile: default
   livery: strathclyde pte carmine & cream
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 71
@@ -1708,14 +1708,14 @@ variants:
     str_br_320_default_strathclyde_pte_carmine___cream_train_name: Class 320/3 - Strathclyde
       PTE Carmine & Cream
     str_br_320_default_strathclyde_pte_carmine___cream_train_group_name: Class 320/3
-- id: 1025
+- id: null
   vehicle: br_320
   profile: default
   livery: scotrail saltire
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 71
@@ -3732,3 +3732,147 @@ variants:
     str_br_container_default_default_train_name: FEA Container Flat Wagon
     str_br_container_default_default_train_single_livery_name: FEA Container Flat
       Wagon
+- id: 1019
+  vehicle: br_320
+  profile: 320_3_pre2010
+  livery: strathclyde pte orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1019_br_320_320_3_pre2010_strathclyde_pte_orange_train.gnml
+  identifier: br_320_320_3_pre2010_strathclyde_pte_orange_train
+  name_string: str_br_320_320_3_pre2010_strathclyde_pte_orange_train_name
+  strings:
+    str_br_320_320_3_pre2010_strathclyde_pte_orange_train_name: Class 320/3 - 3-Car
+      75 mph - Strathclyde PTE Orange
+    str_br_320_320_3_pre2010_strathclyde_pte_orange_train_group_name: Class 320/3
+      - 3-Car 75 mph
+- id: 1020
+  vehicle: br_320
+  profile: 320_3_pre2010
+  livery: strathclyde pte carmine & cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1020_br_320_320_3_pre2010_strathclyde_pte_carmine___cream_train.gnml
+  identifier: br_320_320_3_pre2010_strathclyde_pte_carmine___cream_train
+  name_string: str_br_320_320_3_pre2010_strathclyde_pte_carmine___cream_train_name
+  strings:
+    str_br_320_320_3_pre2010_strathclyde_pte_carmine___cream_train_name: Class 320/3
+      - 3-Car 75 mph - Strathclyde PTE Carmine & Cream
+    str_br_320_320_3_pre2010_strathclyde_pte_carmine___cream_train_group_name: Class
+      320/3 - 3-Car 75 mph
+- id: 1025
+  vehicle: br_320
+  profile: 320_3_pre2010
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1025_br_320_320_3_pre2010_scotrail_saltire_train.gnml
+  identifier: br_320_320_3_pre2010_scotrail_saltire_train
+  name_string: str_br_320_320_3_pre2010_scotrail_saltire_train_name
+  strings:
+    str_br_320_320_3_pre2010_scotrail_saltire_train_name: Class 320/3 - 3-Car 75 mph
+      - ScotRail Saltire
+    str_br_320_320_3_pre2010_scotrail_saltire_train_group_name: Class 320/3 - 3-Car
+      75 mph
+- id: 1100
+  vehicle: br_320
+  profile: 320_3_post2010
+  livery: strathclyde pte orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1100_br_320_320_3_post2010_strathclyde_pte_orange_train.gnml
+  identifier: br_320_320_3_post2010_strathclyde_pte_orange_train
+  name_string: str_br_320_320_3_post2010_strathclyde_pte_orange_train_name
+  strings:
+    str_br_320_320_3_post2010_strathclyde_pte_orange_train_name: Class 320/3 - 3-Car
+      90 mph - Strathclyde PTE Orange
+    str_br_320_320_3_post2010_strathclyde_pte_orange_train_group_name: Class 320/3
+      - 3-Car 90 mph
+- id: 1101
+  vehicle: br_320
+  profile: 320_3_post2010
+  livery: strathclyde pte carmine & cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1101_br_320_320_3_post2010_strathclyde_pte_carmine___cream_train.gnml
+  identifier: br_320_320_3_post2010_strathclyde_pte_carmine___cream_train
+  name_string: str_br_320_320_3_post2010_strathclyde_pte_carmine___cream_train_name
+  strings:
+    str_br_320_320_3_post2010_strathclyde_pte_carmine___cream_train_name: Class 320/3
+      - 3-Car 90 mph - Strathclyde PTE Carmine & Cream
+    str_br_320_320_3_post2010_strathclyde_pte_carmine___cream_train_group_name: Class
+      320/3 - 3-Car 90 mph
+- id: 1102
+  vehicle: br_320
+  profile: 320_3_post2010
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1102_br_320_320_3_post2010_scotrail_saltire_train.gnml
+  identifier: br_320_320_3_post2010_scotrail_saltire_train
+  name_string: str_br_320_320_3_post2010_scotrail_saltire_train_name
+  strings:
+    str_br_320_320_3_post2010_scotrail_saltire_train_name: Class 320/3 - 3-Car 90
+      mph - ScotRail Saltire
+    str_br_320_320_3_post2010_scotrail_saltire_train_group_name: Class 320/3 - 3-Car
+      90 mph
