@@ -3205,3 +3205,281 @@ variants:
     str_lu_2009_2009_8_london_underground_train_name: 8-Car - London Underground
     str_lu_2009_2009_8_london_underground_train_single_livery_name: London Underground
       2009 Stock - 8-Car - London Underground
+- id: 1061
+  vehicle: br_390
+  profile: '390_9'
+  livery: virgin trains (9-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 451
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1061_br_390_390_9_virgin_trains__9_car__train.gnml
+  identifier: br_390_390_9_virgin_trains__9_car__train
+  name_string: str_br_390_390_9_virgin_trains__9_car__train_name
+  strings:
+    str_br_390_390_9_virgin_trains__9_car__train_name: 9-Car - Virgin Trains 9-car
+    str_br_390_390_9_virgin_trains__9_car__train_group_name: Class 390 Pendolino -
+      9-Car
+- id: 1062
+  vehicle: br_390
+  profile: '390_9'
+  livery: virgin trains silk (9-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 451
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1062_br_390_390_9_virgin_trains_silk__9_car__train.gnml
+  identifier: br_390_390_9_virgin_trains_silk__9_car__train
+  name_string: str_br_390_390_9_virgin_trains_silk__9_car__train_name
+  strings:
+    str_br_390_390_9_virgin_trains_silk__9_car__train_name: 9-Car - Virgin Trains
+      Silk 9-car
+    str_br_390_390_9_virgin_trains_silk__9_car__train_group_name: Class 390 Pendolino
+      - 9-Car
+- id: 1063
+  vehicle: br_390
+  profile: '390_9'
+  livery: virgin trains pride (9-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 451
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1063_br_390_390_9_virgin_trains_pride__9_car__train.gnml
+  identifier: br_390_390_9_virgin_trains_pride__9_car__train
+  name_string: str_br_390_390_9_virgin_trains_pride__9_car__train_name
+  strings:
+    str_br_390_390_9_virgin_trains_pride__9_car__train_name: 9-Car - Virgin Trains
+      Pride 9-car
+    str_br_390_390_9_virgin_trains_pride__9_car__train_group_name: Class 390 Pendolino
+      - 9-Car
+- id: 1064
+  vehicle: br_390
+  profile: '390_9'
+  livery: avanti west coast (9-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 451
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1064_br_390_390_9_avanti_west_coast__9_car__train.gnml
+  identifier: br_390_390_9_avanti_west_coast__9_car__train
+  name_string: str_br_390_390_9_avanti_west_coast__9_car__train_name
+  strings:
+    str_br_390_390_9_avanti_west_coast__9_car__train_name: 9-Car - Avanti West Coast
+      9-car
+    str_br_390_390_9_avanti_west_coast__9_car__train_group_name: Class 390 Pendolino
+      - 9-Car
+- id: 1065
+  vehicle: br_390
+  profile: '390_11'
+  livery: virgin trains (11-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 601
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1065_br_390_390_11_virgin_trains__11_car__train.gnml
+  identifier: br_390_390_11_virgin_trains__11_car__train
+  name_string: str_br_390_390_11_virgin_trains__11_car__train_name
+  strings:
+    str_br_390_390_11_virgin_trains__11_car__train_name: 11-Car - Virgin Trains 11-car
+    str_br_390_390_11_virgin_trains__11_car__train_group_name: Class 390 Pendolino
+      - 11-Car
+- id: 1066
+  vehicle: br_390
+  profile: '390_11'
+  livery: virgin trains silk (11-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 601
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1066_br_390_390_11_virgin_trains_silk__11_car__train.gnml
+  identifier: br_390_390_11_virgin_trains_silk__11_car__train
+  name_string: str_br_390_390_11_virgin_trains_silk__11_car__train_name
+  strings:
+    str_br_390_390_11_virgin_trains_silk__11_car__train_name: 11-Car - Virgin Trains
+      Silk 11-car
+    str_br_390_390_11_virgin_trains_silk__11_car__train_group_name: Class 390 Pendolino
+      - 11-Car
+- id: 1067
+  vehicle: br_390
+  profile: '390_11'
+  livery: virgin trains pride (11-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 601
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1067_br_390_390_11_virgin_trains_pride__11_car__train.gnml
+  identifier: br_390_390_11_virgin_trains_pride__11_car__train
+  name_string: str_br_390_390_11_virgin_trains_pride__11_car__train_name
+  strings:
+    str_br_390_390_11_virgin_trains_pride__11_car__train_name: 11-Car - Virgin Trains
+      Pride 11-car
+    str_br_390_390_11_virgin_trains_pride__11_car__train_group_name: Class 390 Pendolino
+      - 11-Car
+- id: 1068
+  vehicle: br_390
+  profile: '390_11'
+  livery: avanti west coast (11-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 601
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1068_br_390_390_11_avanti_west_coast__11_car__train.gnml
+  identifier: br_390_390_11_avanti_west_coast__11_car__train
+  name_string: str_br_390_390_11_avanti_west_coast__11_car__train_name
+  strings:
+    str_br_390_390_11_avanti_west_coast__11_car__train_name: 11-Car - Avanti West
+      Coast 11-car
+    str_br_390_390_11_avanti_west_coast__11_car__train_group_name: Class 390 Pendolino
+      - 11-Car
+- id: 1069
+  vehicle: br_390
+  profile: '390_11'
+  livery: avanti west coast pride (11-car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 601
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1069_br_390_390_11_avanti_west_coast_pride__11_car__train.gnml
+  identifier: br_390_390_11_avanti_west_coast_pride__11_car__train
+  name_string: str_br_390_390_11_avanti_west_coast_pride__11_car__train_name
+  strings:
+    str_br_390_390_11_avanti_west_coast_pride__11_car__train_name: 11-Car - Avanti
+      West Coast Pride 11-car
+    str_br_390_390_11_avanti_west_coast_pride__11_car__train_group_name: Class 390
+      Pendolino - 11-Car

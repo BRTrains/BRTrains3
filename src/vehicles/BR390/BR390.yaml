@@ -1,0 +1,80 @@
+info:
+  identifier: br_390
+  name: Class 390 Pendolino
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 390 Pendolino
+  operator: Avanti West Coast
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 466
+  length: 8
+  power: 6840
+  speed: 125
+  tractive_effort: 0.3
+  power_type:
+    - electric
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 2001-04-21
+
+profiles:
+  - identifier: '390_9'
+    name: 9-Car
+    num_vehicles: 9
+    capacity: 451
+
+    special_tags:
+      - formation/9-car
+      - subclass/390_9
+  - identifier: '390_11'
+    name: 11-Car
+    num_vehicles: 11
+    capacity: 601
+
+    special_tags:
+      - formation/11-car
+      - subclass/390_11
+
+liveries:
+  - name: Virgin Trains (9-car)
+    profiles: ['390_9']
+    sprite_override: [1, 2, 3, 2, 2, 2, 4, 2, 5]
+    special_tags: [operator/Virgin Trains]
+  - name: Virgin Trains Silk (9-car)
+    profiles: ['390_9']
+    sprite_override: [1, 2, 3, 2, 2, 2, 4, 2, 5]
+    special_tags: [operator/Virgin Trains]
+  - name: Virgin Trains Pride (9-car)
+    profiles: ['390_9']
+    sprite_override: [1, 2, 3, 2, 2, 2, 4, 2, 5]
+    special_tags: [operator/Virgin Trains]
+  - name: Avanti West Coast (9-car)
+    profiles: ['390_9']
+    sprite_override: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    special_tags: [operator/Avanti West Coast]
+  - name: Virgin Trains (11-car)
+    profiles: ['390_11']
+    sprite_override: [1, 2, 3, 2, 2, 2, 2, 2, 4, 2, 5]
+    special_tags: [operator/Virgin Trains]
+  - name: Virgin Trains Silk (11-car)
+    profiles: ['390_11']
+    sprite_override: [1, 2, 3, 2, 2, 2, 2, 2, 4, 2, 5]
+    special_tags: [operator/Virgin Trains]
+  - name: Virgin Trains Pride (11-car)
+    profiles: ['390_11']
+    sprite_override: [1, 2, 3, 2, 2, 2, 2, 2, 4, 2, 5]
+    special_tags: [operator/Virgin Trains]
+  - name: Avanti West Coast (11-car)
+    profiles: ['390_11']
+    sprite_override: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    special_tags: [operator/Avanti West Coast]
+  - name: Avanti West Coast Pride (11-car)
+    profiles: ['390_11']
+    sprite_override: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    special_tags: [operator/Avanti West Coast]
