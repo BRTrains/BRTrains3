@@ -1833,9 +1833,9 @@ variants:
   identifier: br_standard_9f_default_br_black_unnamed_train
   name_string: str_br_standard_9f_default_br_black_unnamed_train_name
   strings:
-    str_br_standard_9f_default_br_black_unnamed_train_name: Standard Class 9F - BR
-      Black Unnamed
-    str_br_standard_9f_default_br_black_unnamed_train_group_name: Standard Class 9F
+    str_br_standard_9f_default_br_black_unnamed_train_name: Class 9F BR Standard -
+      BR Black Unnamed
+    str_br_standard_9f_default_br_black_unnamed_train_group_name: Class 9F BR Standard
 - id: 1031
   vehicle: br_standard_9f
   profile: default
@@ -1855,9 +1855,9 @@ variants:
   identifier: br_standard_9f_default_br_green_unnamed_train
   name_string: str_br_standard_9f_default_br_green_unnamed_train_name
   strings:
-    str_br_standard_9f_default_br_green_unnamed_train_name: Standard Class 9F - BR
-      Green Unnamed
-    str_br_standard_9f_default_br_green_unnamed_train_group_name: Standard Class 9F
+    str_br_standard_9f_default_br_green_unnamed_train_name: Class 9F BR Standard -
+      BR Green Unnamed
+    str_br_standard_9f_default_br_green_unnamed_train_group_name: Class 9F BR Standard
 - id: 1032
   vehicle: br_standard_9f
   profile: default
@@ -1877,9 +1877,9 @@ variants:
   identifier: br_standard_9f_default_br_black_named_train
   name_string: str_br_standard_9f_default_br_black_named_train_name
   strings:
-    str_br_standard_9f_default_br_black_named_train_name: Standard Class 9F - BR Black
-      Named
-    str_br_standard_9f_default_br_black_named_train_group_name: Standard Class 9F
+    str_br_standard_9f_default_br_black_named_train_name: Class 9F BR Standard - BR
+      Black Named
+    str_br_standard_9f_default_br_black_named_train_group_name: Class 9F BR Standard
 - id: 1033
   vehicle: br_standard_9f
   profile: default
@@ -1899,9 +1899,9 @@ variants:
   identifier: br_standard_9f_default_br_green_named_train
   name_string: str_br_standard_9f_default_br_green_named_train_name
   strings:
-    str_br_standard_9f_default_br_green_named_train_name: Standard Class 9F - BR Green
-      Named
-    str_br_standard_9f_default_br_green_named_train_group_name: Standard Class 9F
+    str_br_standard_9f_default_br_green_named_train_name: Class 9F BR Standard - BR
+      Green Named
+    str_br_standard_9f_default_br_green_named_train_group_name: Class 9F BR Standard
 - id: null
   vehicle: br_555
   profile: default
@@ -2908,10 +2908,10 @@ variants:
   identifier: br_76_prototype_default_lner_green_train
   name_string: str_br_76_prototype_default_lner_green_train_name
   strings:
-    str_br_76_prototype_default_lner_green_train_name: LNER Gresley "EM1" Class 76
-      Prototype - LNER Green
-    str_br_76_prototype_default_lner_green_train_group_name: LNER Gresley "EM1" Class
-      76 Prototype
+    str_br_76_prototype_default_lner_green_train_name: Class 76 Prototype LNER Gresley
+      "EM1" - LNER Green
+    str_br_76_prototype_default_lner_green_train_group_name: Class 76 Prototype LNER
+      Gresley "EM1"
 - id: 1079
   vehicle: br_76_prototype
   profile: default
@@ -2930,10 +2930,10 @@ variants:
   identifier: br_76_prototype_default_br_black_train
   name_string: str_br_76_prototype_default_br_black_train_name
   strings:
-    str_br_76_prototype_default_br_black_train_name: LNER Gresley "EM1" Class 76 Prototype
-      - BR Black
-    str_br_76_prototype_default_br_black_train_group_name: LNER Gresley "EM1" Class
-      76 Prototype
+    str_br_76_prototype_default_br_black_train_name: Class 76 Prototype LNER Gresley
+      "EM1" - BR Black
+    str_br_76_prototype_default_br_black_train_group_name: Class 76 Prototype LNER
+      Gresley "EM1"
 - id: 1080
   vehicle: br_76_prototype
   profile: default
@@ -2952,10 +2952,10 @@ variants:
   identifier: br_76_prototype_default_br_green_train
   name_string: str_br_76_prototype_default_br_green_train_name
   strings:
-    str_br_76_prototype_default_br_green_train_name: LNER Gresley "EM1" Class 76 Prototype
-      - BR Green
-    str_br_76_prototype_default_br_green_train_group_name: LNER Gresley "EM1" Class
-      76 Prototype
+    str_br_76_prototype_default_br_green_train_name: Class 76 Prototype LNER Gresley
+      "EM1" - BR Green
+    str_br_76_prototype_default_br_green_train_group_name: Class 76 Prototype LNER
+      Gresley "EM1"
 - id: 1081
   vehicle: br_76_prototype
   profile: default
@@ -2974,10 +2974,10 @@ variants:
   identifier: br_76_prototype_default_br_green__warning_panels__train
   name_string: str_br_76_prototype_default_br_green__warning_panels__train_name
   strings:
-    str_br_76_prototype_default_br_green__warning_panels__train_name: LNER Gresley
-      "EM1" Class 76 Prototype - BR Green Warning Panels
-    str_br_76_prototype_default_br_green__warning_panels__train_group_name: LNER Gresley
-      "EM1" Class 76 Prototype
+    str_br_76_prototype_default_br_green__warning_panels__train_name: Class 76 Prototype
+      LNER Gresley "EM1" - BR Green Warning Panels
+    str_br_76_prototype_default_br_green__warning_panels__train_group_name: Class
+      76 Prototype LNER Gresley "EM1"
 - id: 1082
   vehicle: br_76_prototype
   profile: default
@@ -2996,10 +2996,10 @@ variants:
   identifier: br_76_prototype_default_br_blue_train
   name_string: str_br_76_prototype_default_br_blue_train_name
   strings:
-    str_br_76_prototype_default_br_blue_train_name: LNER Gresley "EM1" Class 76 Prototype
-      - BR Blue
-    str_br_76_prototype_default_br_blue_train_group_name: LNER Gresley "EM1" Class
-      76 Prototype
+    str_br_76_prototype_default_br_blue_train_name: Class 76 Prototype LNER Gresley
+      "EM1" - BR Blue
+    str_br_76_prototype_default_br_blue_train_group_name: Class 76 Prototype LNER
+      Gresley "EM1"
 - id: 1083
   vehicle: br_504
   profile: '504_2'
@@ -3576,8 +3576,9 @@ variants:
   identifier: br_apt_p_apt_p_14_intercity_train
   name_string: str_br_apt_p_apt_p_14_intercity_train_name
   strings:
-    str_br_apt_p_apt_p_14_intercity_train_name: APT-P - 14-Car - InterCity
-    str_br_apt_p_apt_p_14_intercity_train_single_livery_name: APT-P - 14-Car - InterCity
+    str_br_apt_p_apt_p_14_intercity_train_name: Class 370 APT-P - 14-Car - InterCity
+    str_br_apt_p_apt_p_14_intercity_train_single_livery_name: Class 370 APT-P - 14-Car
+      - InterCity
 - id: null
   vehicle: br_555
   profile: default
