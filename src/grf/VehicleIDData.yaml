@@ -1893,14 +1893,14 @@ variants:
   strings:
     str_br_standard_9f_default_br_green_named_train_name: BR Green Named
     str_br_standard_9f_default_br_green_named_train_group_name: Standard Class 9F
-- id: 1034
+- id: null
   vehicle: br_555
   profile: default
   livery: tyne and wear metro
   vehicle_type: tram
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 120
@@ -3539,3 +3539,134 @@ variants:
   strings:
     str_br_apt_p_apt_p_14_intercity_train_name: 14-Car - InterCity
     str_br_apt_p_apt_p_14_intercity_train_single_livery_name: APT-P - 14-Car - InterCity
+- id: null
+  vehicle: br_555
+  profile: default
+  livery: tyne and wear metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 6
+    - 7
+- id: null
+  vehicle: br_777
+  profile: default
+  livery: merseyrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 121
+    articulated_count: 4
+    lengths:
+    - 7
+    - 7
+    - 7
+    - 6
+- id: 1034
+  vehicle: br_555
+  profile: default
+  livery: tyne and wear metro
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1034_br_555_default_tyne_and_wear_metro_train_v2.gnml
+  identifier: br_555_default_tyne_and_wear_metro_train_v2
+  name_string: str_br_555_default_tyne_and_wear_metro_train_v2_name
+  strings:
+    str_br_555_default_tyne_and_wear_metro_train_v2_name: Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_train_v2_single_livery_name: Class 555
+      Metro - Tyne and Wear Metro
+- id: 1096
+  vehicle: br_555
+  profile: default
+  livery: tyne and wear metro
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1096_br_555_default_tyne_and_wear_metro_tram_v2.gnml
+  identifier: br_555_default_tyne_and_wear_metro_tram_v2
+  name_string: str_br_555_default_tyne_and_wear_metro_tram_v2_name
+  strings:
+    str_br_555_default_tyne_and_wear_metro_tram_v2_name: Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_tram_v2_single_livery_name: Class 555 Metro
+      - Tyne and Wear Metro
+- id: 1097
+  vehicle: br_777
+  profile: default
+  livery: merseyrail
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 121
+    articulated_count: 4
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1097_br_777_default_merseyrail_train_v2.gnml
+  identifier: br_777_default_merseyrail_train_v2
+  name_string: str_br_777_default_merseyrail_train_v2_name
+  strings:
+    str_br_777_default_merseyrail_train_v2_name: Merseyrail
+    str_br_777_default_merseyrail_train_v2_single_livery_name: Class 777 METRO - Merseyrail
+- id: 1098
+  vehicle: br_777
+  profile: default
+  livery: merseyrail
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 121
+    articulated_count: 4
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1098_br_777_default_merseyrail_tram.gnml
+  identifier: br_777_default_merseyrail_tram
+  name_string: str_br_777_default_merseyrail_tram_name
+  strings:
+    str_br_777_default_merseyrail_tram_name: Merseyrail
+    str_br_777_default_merseyrail_tram_single_livery_name: Class 777 METRO - Merseyrail

@@ -1,0 +1,38 @@
+info:
+  identifier: br_777
+  name: 'Class 777 METRO'
+  sub_name: Electric multiple unit / tram
+  based_on: Stadler METRO Class 777
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 99
+  length: 7
+  power: 2550
+  speed: 75
+  tractive_effort: 0.08
+  power_type:
+    - electric
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 2023-01-23
+
+profiles:
+  - identifier: DEFAULT
+    name: 4-Car Set
+    num_vehicles: 4
+    capacity: 121
+    sprite_override: [1, 3, 3, 2]
+    types: [train, tram]
+    special_tags:
+      - formation/4-car
+      - subclass/777
+
+liveries:
+  - name: 'Merseyrail'
+    special_tags: [operator/Merseyrail]
