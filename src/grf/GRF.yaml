@@ -9,7 +9,7 @@ versioning:
   compatible_version: 1
 
 params:
-  - identifier: param_passenger_multiplier
+  - identifier: param_capacity_scaling
     name_str: Capacity Scaling
     desc_str: Scale vehicle capacities
     min_value: 1
