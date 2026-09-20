@@ -8,7 +8,6 @@ build.log
 .venv/
 .DS_Store
 legacy_fixed.png
-*_original.png
 *_working.png
 *.png.cache
 *.png.cacheindex
