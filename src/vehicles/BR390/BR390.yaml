@@ -3,7 +3,6 @@ info:
   name: Class 390 Pendolino
   sub_name: Electric multiple unit
   based_on: British Rail Class 390 Pendolino
-  operator: Avanti West Coast
 
 stats:
   vehicle_type: train
