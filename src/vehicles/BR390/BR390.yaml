@@ -27,6 +27,8 @@ profiles:
     name: 9-Car
     num_vehicles: 9
     capacity: 451
+    power: 6840
+    weight: 466
 
     special_tags:
       - formation/9-car
@@ -35,6 +37,8 @@ profiles:
     name: 11-Car
     num_vehicles: 11
     capacity: 601
+    power: 7980
+    weight: 567
 
     special_tags:
       - formation/11-car

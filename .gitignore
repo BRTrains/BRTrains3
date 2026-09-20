@@ -5,6 +5,7 @@ Build/
 *.grf
 *.nml
 build.log
+nmlc.log
 .venv/
 .DS_Store
 legacy_fixed.png
