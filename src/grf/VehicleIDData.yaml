@@ -3483,3 +3483,59 @@ variants:
       West Coast Pride 11-car
     str_br_390_390_11_avanti_west_coast_pride__11_car__train_group_name: Class 390
       Pendolino - 11-Car
+- id: 1094
+  vehicle: br_apt_e
+  profile: apt_e_4
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 150
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1094_br_apt_e_apt_e_4_br_blue_train.gnml
+  identifier: br_apt_e_apt_e_4_br_blue_train
+  name_string: str_br_apt_e_apt_e_4_br_blue_train_name
+  strings:
+    str_br_apt_e_apt_e_4_br_blue_train_name: 4-Car - BR Blue
+    str_br_apt_e_apt_e_4_br_blue_train_single_livery_name: APT-E - 4-Car - BR Blue
+- id: 1095
+  vehicle: br_apt_p
+  profile: apt_p_14
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 52
+    articulated_count: 14
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1095_br_apt_p_apt_p_14_intercity_train.gnml
+  identifier: br_apt_p_apt_p_14_intercity_train
+  name_string: str_br_apt_p_apt_p_14_intercity_train_name
+  strings:
+    str_br_apt_p_apt_p_14_intercity_train_name: 14-Car - InterCity
+    str_br_apt_p_apt_p_14_intercity_train_single_livery_name: APT-P - 14-Car - InterCity

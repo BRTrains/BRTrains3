@@ -12,6 +12,7 @@ stats:
   power: 3000
   speed: 125
   tractive_effort: 0.3
+  tilt: modest
   power_type:
     - diesel
 

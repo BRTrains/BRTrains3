@@ -12,6 +12,7 @@ stats:
   power: 6840
   speed: 125
   tractive_effort: 0.3
+  tilt: strong
   power_type:
     - electric
 

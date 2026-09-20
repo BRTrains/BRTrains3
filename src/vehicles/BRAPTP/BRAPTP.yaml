@@ -1,0 +1,38 @@
+info:
+  identifier: br_apt_p
+  name: 'APT-P'
+  sub_name: Advanced Passenger Train prototype, electric multiple unit
+  based_on: British Rail Class 370 APT-P
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 434
+  length: 8
+  power: 8000
+  speed: 125
+  tractive_effort: 0.3
+  tilt: extreme
+  power_type:
+    - electric
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 1979-04-21
+
+profiles:
+  - identifier: 'apt_p_14'
+    name: 14-Car
+    num_vehicles: 14
+    capacity: 52
+    special_tags:
+      - formation/14-car
+      - subclass/apt_p
+
+liveries:
+  - name: InterCity
+    special_tags: [operator/InterCity]
+    sprite_override: [1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 3, 2, 1, 3]

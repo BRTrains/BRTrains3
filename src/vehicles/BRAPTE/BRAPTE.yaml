@@ -1,0 +1,41 @@
+info:
+  identifier: br_apt_e
+  name: 'APT-E'
+  sub_name: Experimental gas turbine multiple unit
+  based_on: British Rail APT-E
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 186
+  length: 8
+  power: 2700
+  speed: 152
+  tractive_effort: 0.4
+  # The legacy unit was gas-turbine-electric. BRBuild's power types have no gas
+  # turbine token, so diesel_electric is used; it lands the same diesel engine
+  # class, visual effect and multi-mode classification the legacy item had.
+  tilt: extreme
+  power_type:
+    - diesel_electric
+
+cargo:
+  cargo_classes:
+    - passengers
+
+dates:
+  introduction_date: 1972-04-21
+
+profiles:
+  - identifier: 'apt_e_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 150
+    special_tags:
+      - formation/4-car
+      - subclass/apt_e
+
+liveries:
+  - name: BR Blue
+    special_tags: [operator/BR]
+    sprite_override: [1, 2, 2, 3]
