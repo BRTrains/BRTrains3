@@ -3670,3 +3670,24 @@ variants:
   strings:
     str_br_777_default_merseyrail_tram_name: Merseyrail
     str_br_777_default_merseyrail_tram_single_livery_name: Class 777 METRO - Merseyrail
+- id: 1099
+  vehicle: br_container
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1099_br_container_default_default_train.gnml
+  identifier: br_container_default_default_train
+  name_string: str_br_container_default_default_train_name
+  strings:
+    str_br_container_default_default_train_name: Default
+    str_br_container_default_default_train_single_livery_name: BR Container Flatbed
+      Wagon - Default

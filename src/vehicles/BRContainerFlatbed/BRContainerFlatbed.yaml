@@ -1,0 +1,48 @@
+info:
+  identifier: br_container
+  name: 'BR Container Flatbed Wagon'
+  sub_name: Freight wagon
+  based_on: British Rail container flat wagon
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 28
+  length: 8
+  power: 0
+  speed: 0
+  tractive_effort: 0.08
+
+cargo:
+  cargo_classes:
+    - piece_goods
+    - express
+    - hazardous
+    - refrigerated
+    - non_pourable
+    - neo_bulk
+    - oversized
+  default_cargo_type: DEFAULT_CARGO_FIRST_REFITTABLE
+autorefit: true
+
+loading_speed: 25
+
+# The wagon's graphics depend on how loaded it is and pick one of eleven container
+# liveries at random, which the YAML model cannot express. BRContainerFlatbed.pnml
+# supplies that chain; this points the item's `default` callback at its entry switch.
+nml_override:
+  default: sw_br_container_root
+
+dates:
+  introduction_date: 1966-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 72
+    special_tags:
+      - formation/1-car
+      - subclass/container
+
+liveries:
+  - name: Default

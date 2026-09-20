@@ -17,7 +17,15 @@ stats:
 
 cargo:
   cargo_classes:
-    - freight
+    - piece_goods
+    - express
+    - hazardous
+    - refrigerated
+    - non_pourable
+    - neo_bulk
+    - oversized
+  default_cargo_type: DEFAULT_CARGO_FIRST_REFITTABLE
+autorefit: true
 
 dates:
   introduction_date: 1950-01-01

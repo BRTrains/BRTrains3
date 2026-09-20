@@ -18,8 +18,7 @@ stats:
     - electric
 
 cargo:
-  cargo_classes:
-    - freight
+  cargo_classes: none
 
 dates:
   introduction_date: 1950-01-01

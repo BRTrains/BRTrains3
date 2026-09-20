@@ -1,0 +1,74 @@
+// Hand-written graphics chain for the BR Container Flatbed Wagon.
+//
+// Ported from BRTrains2's `src/trains/freight_wagon/BR/BRContainerFlatbed.pnml`, which
+// picked its sprites at runtime from how loaded the wagon was and, when loaded, chose one
+// of eleven container liveries at random. Neither is expressible as BRBuild fields, so the
+// chain lives here and the YAML points `default` at `sw_br_container_root` with
+// `nml_override`.
+//
+// Row order matches the spritesheet top to bottom, on its 26px pitch:
+//   0 y=0 empty   1 y=26 maersk   2 y=52 blue    3 y=78  orange
+//   4 y=104 green 5 y=130 purple  6 y=156 blue2   7 y=182 red
+//   8 y=208 yellow 9 y=234 grey   10 y=260 black  11 y=286 tesco
+//
+// NML resolves identifiers before generating output, so the leaves come first.
+
+spriteset(spriteset_br_container_row0, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 0)
+}
+spriteset(spriteset_br_container_row1, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 26)
+}
+spriteset(spriteset_br_container_row2, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 52)
+}
+spriteset(spriteset_br_container_row3, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 78)
+}
+spriteset(spriteset_br_container_row4, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 104)
+}
+spriteset(spriteset_br_container_row5, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 130)
+}
+spriteset(spriteset_br_container_row6, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 156)
+}
+spriteset(spriteset_br_container_row7, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 182)
+}
+spriteset(spriteset_br_container_row8, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 208)
+}
+spriteset(spriteset_br_container_row9, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 234)
+}
+spriteset(spriteset_br_container_row10, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 260)
+}
+spriteset(spriteset_br_container_row11, "BRContainerFlatbed.png") {
+	tmpl_train_8(0, 286)
+}
+
+// Which container turns up when the wagon is loaded. Maersk and Tesco are common in the
+// legacy set, so they get a larger share of the draw than the nine others.
+random_switch (FEAT_TRAINS, SELF, sw_br_container_random) {
+	2: spriteset_br_container_row1;
+	3: spriteset_br_container_row11;
+	1: spriteset_br_container_row2;
+	1: spriteset_br_container_row3;
+	1: spriteset_br_container_row4;
+	1: spriteset_br_container_row5;
+	1: spriteset_br_container_row6;
+	1: spriteset_br_container_row7;
+	1: spriteset_br_container_row8;
+	1: spriteset_br_container_row9;
+	1: spriteset_br_container_row10;
+}
+
+// Empty until the wagon takes on a worthwhile load, then a container (legacy threshold
+// was 20 of the wagon's 72 units, i.e. the flatbed reads as bare while it is barely loaded).
+switch (FEAT_TRAINS, SELF, sw_br_container_root, cargo_count) {
+	0 .. 19: spriteset_br_container_row0;
+	sw_br_container_random;
+}

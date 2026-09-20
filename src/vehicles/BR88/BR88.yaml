@@ -19,8 +19,7 @@ stats:
     - electric
 
 cargo:
-  cargo_classes:
-    - freight
+  cargo_classes: none
 
 dates:
   introduction_date: 2017-06-11
