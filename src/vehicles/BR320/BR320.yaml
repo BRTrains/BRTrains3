@@ -13,8 +13,9 @@ stats:
   length: 8
   power: 1328
   # The 320/3s were built to 75 mph (hence no yaw dampers); dampers were fitted
-  # across the class in 2010, clearing them for 90 mph in service. Both figures
-  # belong to a profile rather than to the vehicle, so they are set there.
+  # across the class in 2010, clearing them for 90 mph in service. The design speed
+  # is 90 either way, so the split is the service limit: 75 before the dampers, 90
+  # after. Both figures belong to a profile rather than to the vehicle.
   tractive_effort: 0.3
   power_type:
     - electric
@@ -32,7 +33,7 @@ profiles:
     num_vehicles: 3
     capacity: 71
     speed: 75
-    design_speed: 75
+    design_speed: 90
     special_tags:
       - formation/3-car
       - subclass/320_3_pre2010
@@ -43,7 +44,7 @@ profiles:
     num_vehicles: 3
     capacity: 71
     speed: 90
-    design_speed: 75
+    design_speed: 90
     special_tags:
       - formation/3-car
       - subclass/320_3_post2010
