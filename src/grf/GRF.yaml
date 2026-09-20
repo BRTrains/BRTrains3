@@ -9,6 +9,16 @@ versioning:
   compatible_version: 1
 
 params:
+  - identifier: param_speed_mode
+    name_str: Speed Mode
+    desc_str: Use each unit's design speed, or its permitted service speed
+    min_value: 0
+    max_value: 1
+    def_value: 1
+    names:
+      0: Service Speed
+      1: Design Speed
+
   - identifier: param_capacity_scaling
     name_str: Capacity Scaling
     desc_str: Scale vehicle capacities
