@@ -34,4 +34,6 @@ profiles:
 liveries:
   - name: BR Blue
     special_tags: [operator/BR]
-    sprite_override: [1, 2, 2, 3]
+    # The sheet stacks front, rear, middle, and the legacy articulated switch read the
+    # 4-car set as front, middle, middle, rear, so the pattern is row 1, 3, 3, 2.
+    sprite_override: [1, 3, 3, 2]
