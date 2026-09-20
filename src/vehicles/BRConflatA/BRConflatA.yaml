@@ -12,7 +12,7 @@ stats:
   weight: 10
   length: 3
   power: 0
-  speed: 0
+  speed: 40
   tractive_effort: 0.08
 
 cargo: containerised

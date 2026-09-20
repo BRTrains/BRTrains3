@@ -11,6 +11,7 @@ stats:
   length: 8
   power: 8000
   speed: 125
+  design_speed: 155
   tractive_effort: 0.3
   tilt: extreme
   power_type:

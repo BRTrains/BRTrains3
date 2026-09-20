@@ -14,7 +14,8 @@ stats:
   weight: 52
   length: 4
   power: 350
-  speed: 20
+  speed: 15
+  design_speed: 20
   tractive_effort: 0.31
   power_type:
     - diesel
