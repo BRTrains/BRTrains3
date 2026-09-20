@@ -2,9 +2,9 @@
 
 info:
   identifier: br_320
-  name: 'Class 320/0'
+  name: 'Class 320/3'
   sub_name: Electric multiple unit
-  based_on: British Rail Class 320/0
+  based_on: British Rail Class 320/3
 
 stats:
   vehicle_type: train
@@ -12,7 +12,10 @@ stats:
   weight: 114
   length: 8
   power: 1328
-  speed: 75
+  # The 320/3s were built to 75 mph (hence no yaw dampers); dampers were fitted
+  # across the class in 2010, clearing them for 90 mph in service.
+  speed: 90
+  design_speed: 75
   tractive_effort: 0.3
   power_type:
     - electric
@@ -28,7 +31,7 @@ profiles:
     capacity: 71
     special_tags:
       - formation/3-car
-      - subclass/320_0
+      - subclass/320_3
 
 liveries:
   - name: 'Strathclyde PTE Orange'

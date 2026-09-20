@@ -16,6 +16,7 @@ stats:
   length: 8
   power: 1438
   speed: 75
+  design_speed: 100
   tractive_effort: 0.08
   power_type:
     - hydrogen

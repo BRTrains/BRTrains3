@@ -1682,9 +1682,9 @@ variants:
   identifier: br_320_default_strathclyde_pte_orange_train
   name_string: str_br_320_default_strathclyde_pte_orange_train_name
   strings:
-    str_br_320_default_strathclyde_pte_orange_train_name: Class 320/0 - Strathclyde
+    str_br_320_default_strathclyde_pte_orange_train_name: Class 320/3 - Strathclyde
       PTE Orange
-    str_br_320_default_strathclyde_pte_orange_train_group_name: Class 320/0
+    str_br_320_default_strathclyde_pte_orange_train_group_name: Class 320/3
 - id: 1020
   vehicle: br_320
   profile: default
@@ -1705,9 +1705,9 @@ variants:
   identifier: br_320_default_strathclyde_pte_carmine___cream_train
   name_string: str_br_320_default_strathclyde_pte_carmine___cream_train_name
   strings:
-    str_br_320_default_strathclyde_pte_carmine___cream_train_name: Class 320/0 - Strathclyde
+    str_br_320_default_strathclyde_pte_carmine___cream_train_name: Class 320/3 - Strathclyde
       PTE Carmine & Cream
-    str_br_320_default_strathclyde_pte_carmine___cream_train_group_name: Class 320/0
+    str_br_320_default_strathclyde_pte_carmine___cream_train_group_name: Class 320/3
 - id: 1025
   vehicle: br_320
   profile: default
@@ -1728,8 +1728,8 @@ variants:
   identifier: br_320_default_scotrail_saltire_train
   name_string: str_br_320_default_scotrail_saltire_train_name
   strings:
-    str_br_320_default_scotrail_saltire_train_name: Class 320/0 - ScotRail Saltire
-    str_br_320_default_scotrail_saltire_train_group_name: Class 320/0
+    str_br_320_default_scotrail_saltire_train_name: Class 320/3 - ScotRail Saltire
+    str_br_320_default_scotrail_saltire_train_group_name: Class 320/3
 - id: null
   vehicle: br_mpv_dualtrack
   profile: default
@@ -3729,6 +3729,6 @@ variants:
   identifier: br_container_default_default_train
   name_string: str_br_container_default_default_train_name
   strings:
-    str_br_container_default_default_train_name: BR Container Flatbed Wagon
-    str_br_container_default_default_train_single_livery_name: BR Container Flatbed
+    str_br_container_default_default_train_name: FEA Container Flat Wagon
+    str_br_container_default_default_train_single_livery_name: FEA Container Flat
       Wagon

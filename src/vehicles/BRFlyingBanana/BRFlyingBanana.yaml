@@ -1,8 +1,8 @@
 info:
   identifier: br_flying_banana
   name: 'Flying Banana'
-  sub_name: Departmental diesel multiple unit
-  based_on: Network Rail Flying Banana
+  sub_name: New Measurement Train (HST departmental unit)
+  based_on: Network Rail New Measurement Train
 
 stats:
   vehicle_type: train

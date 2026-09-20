@@ -1,16 +1,17 @@
 info:
   identifier: br_container
-  name: 'BR Container Flatbed Wagon'
-  sub_name: Freight wagon
-  based_on: British Rail container flat wagon
+  name: 'FEA Container Flat Wagon'
+  sub_name: Intermodal flat wagon
+  based_on: FEA bogie container flat wagon (Marcroft/Greenbrier, 2003-2007)
 
 stats:
   vehicle_type: train
   train_type: wagon
-  weight: 28
+  weight: 20
   length: 8
   power: 0
-  speed: 0
+  speed: 75
+  design_speed: 75
   tractive_effort: 0.08
 
 cargo: containerised
@@ -25,7 +26,7 @@ nml_override:
   default: sw_br_container_root
 
 dates:
-  introduction_date: 1966-01-01
+  introduction_date: 2003-01-01
 
 profiles:
   - identifier: DEFAULT
