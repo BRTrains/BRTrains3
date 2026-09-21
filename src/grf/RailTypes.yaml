@@ -1,0 +1,15 @@
+# Logical track types and the railtype labels each one resolves to, best first.
+#
+# A vehicle names a logical type in its `track_type` list; what that becomes in a game
+# depends on which railtype NewGRFs are loaded, so the mapping lives here rather than in
+# each vehicle. The first label a loaded track set defines is the one used, which keeps a
+# unit available when no track set provides its own supply.
+#
+# Labels follow the Standardized Railtype Scheme: S = standard gauge, A = the train-set
+# speed class, A = the axle-load class, then the energy source (N none, E overhead,
+# 3 third rail, 4 fourth rail). Declaring this file replaces NML's default railtype
+# table, so every standard label still in use has to be listed.
+RAIL: [RAIL]                      # self-powered: steam, diesel, hydrogen, battery, gas turbine, wagons
+ELRL: [SAAA, SAAE, ELRL]          # overhead electric
+THIRD: [SAA3, 3RDR, ELRL]         # third rail, then older labels, then overhead as a fallback
+FOURTH: [SAA4, SAA3, 4RDR, ELRL]  # fourth rail, then third rail, then overhead
