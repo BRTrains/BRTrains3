@@ -28,4 +28,18 @@ params:
     names:
       1: 1x
 
+  - identifier: param_disable_default_vehicles
+    name_str: Hide Default OpenTTD vehicles?
+    desc_str: Hide the default OpenTTD vehicles from the vehicle list
+    min_value: 0
+    max_value: 1
+    def_value: 1
+    names:
+      0: Show Default OpenTTD vehicles
+      1: Hide Default OpenTTD vehicles
+
 global_vehicle_switches: []
+
+global_actions:
+  - condition: param_disable_default_vehicles == 1
+    action: disable_item(FEAT_TRAINS)
