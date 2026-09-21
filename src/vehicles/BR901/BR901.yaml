@@ -1,0 +1,40 @@
+special_tags:
+  - subclass/901
+  - operator/Network Rail
+
+info:
+  identifier: br_901
+  name: 'Class 901'
+  sub_name: Network Rail departmental DMU
+  based_on: British Rail Class 901 (formerly Class 960, ex-Class 101)
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 65
+  length: 8
+  power: 300
+  speed: 70
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  # The unit entered service as an ex-Class 101/Class 960 departmental train;
+  # 2004 is the later renumbering to Class 901, not its introduction date.
+  introduction_date: 1956-01-01
+
+profiles:
+  - identifier: 901_2
+    name: 2-Car
+    num_vehicles: 2
+    capacity: 0
+    special_tags:
+      - formation/2-car
+      - subclass/901
+
+liveries:
+  - name: 'Network Rail'
+    special_tags: [operator/Network Rail]

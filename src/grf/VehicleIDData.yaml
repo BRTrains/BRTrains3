@@ -3877,3 +3877,347 @@ variants:
       mph - ScotRail Saltire
     str_br_320_320_3_post2010_scotrail_saltire_train_group_name: Class 320/3 - 3-Car
       90 mph
+- id: 1103
+  vehicle: br_101
+  profile: '1012'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 128
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1103_br_101_1012_br_blue_train.gnml
+  identifier: br_101_1012_br_blue_train
+  name_string: str_br_101_1012_br_blue_train_name
+  strings:
+    str_br_101_1012_br_blue_train_name: Class 101/102 - Class 101 2-Car - BR Blue
+    str_br_101_1012_br_blue_train_group_name: Class 101/102 - Class 101 2-Car
+- id: 1104
+  vehicle: br_101
+  profile: '1012'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 128
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1104_br_101_1012_regional_railways_train.gnml
+  identifier: br_101_1012_regional_railways_train
+  name_string: str_br_101_1012_regional_railways_train_name
+  strings:
+    str_br_101_1012_regional_railways_train_name: Class 101/102 - Class 101 2-Car
+      - Regional Railways
+    str_br_101_1012_regional_railways_train_group_name: Class 101/102 - Class 101
+      2-Car
+- id: 1105
+  vehicle: br_101
+  profile: '1013'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1105_br_101_1013_network_south_east_train.gnml
+  identifier: br_101_1013_network_south_east_train
+  name_string: str_br_101_1013_network_south_east_train_name
+  strings:
+    str_br_101_1013_network_south_east_train_name: Class 101/102 - Class 101 3-Car
+      - Network South East
+    str_br_101_1013_network_south_east_train_group_name: Class 101/102 - Class 101
+      3-Car
+- id: 1106
+  vehicle: br_101
+  profile: '1013'
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1106_br_101_1013_br_blue_grey_train.gnml
+  identifier: br_101_1013_br_blue_grey_train
+  name_string: str_br_101_1013_br_blue_grey_train_name
+  strings:
+    str_br_101_1013_br_blue_grey_train_name: Class 101/102 - Class 101 3-Car - BR
+      Blue Grey
+    str_br_101_1013_br_blue_grey_train_group_name: Class 101/102 - Class 101 3-Car
+- id: 1107
+  vehicle: br_101
+  profile: '1013'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1107_br_101_1013_br_green_train.gnml
+  identifier: br_101_1013_br_green_train
+  name_string: str_br_101_1013_br_green_train_name
+  strings:
+    str_br_101_1013_br_green_train_name: Class 101/102 - Class 101 3-Car - BR Green
+    str_br_101_1013_br_green_train_group_name: Class 101/102 - Class 101 3-Car
+- id: 1108
+  vehicle: br_101
+  profile: '1013'
+  livery: br green (yellow front)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1108_br_101_1013_br_green__yellow_front__train.gnml
+  identifier: br_101_1013_br_green__yellow_front__train
+  name_string: str_br_101_1013_br_green__yellow_front__train_name
+  strings:
+    str_br_101_1013_br_green__yellow_front__train_name: Class 101/102 - Class 101
+      3-Car - BR Green Yellow Front
+    str_br_101_1013_br_green__yellow_front__train_group_name: Class 101/102 - Class
+      101 3-Car
+- id: 1109
+  vehicle: br_901
+  profile: '9012'
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1109_br_901_9012_network_rail_train.gnml
+  identifier: br_901_9012_network_rail_train
+  name_string: str_br_901_9012_network_rail_train_name
+  strings:
+    str_br_901_9012_network_rail_train_name: Class 901 - 2-Car - Network Rail
+    str_br_901_9012_network_rail_train_single_livery_name: Class 901 - 2-Car - Network
+      Rail
+- id: 1110
+  vehicle: br_101
+  profile: '1013'
+  livery: br green (headlamp)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1110_br_101_1013_br_green__headlamp__train.gnml
+  identifier: br_101_1013_br_green__headlamp__train
+  name_string: str_br_101_1013_br_green__headlamp__train_name
+  strings:
+    str_br_101_1013_br_green__headlamp__train_name: Class 101/102 - Class 101 3-Car
+      - BR Green Headlamp
+    str_br_101_1013_br_green__headlamp__train_group_name: Class 101/102 - Class 101
+      3-Car
+- id: 1111
+  vehicle: br_101
+  profile: '1022'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 128
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1111_br_101_1022_br_blue_train.gnml
+  identifier: br_101_1022_br_blue_train
+  name_string: str_br_101_1022_br_blue_train_name
+  strings:
+    str_br_101_1022_br_blue_train_name: Class 101/102 - Class 102 2-Car - BR Blue
+    str_br_101_1022_br_blue_train_group_name: Class 101/102 - Class 102 2-Car
+- id: 1112
+  vehicle: br_101
+  profile: '1022'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 128
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1112_br_101_1022_regional_railways_train.gnml
+  identifier: br_101_1022_regional_railways_train
+  name_string: str_br_101_1022_regional_railways_train_name
+  strings:
+    str_br_101_1022_regional_railways_train_name: Class 101/102 - Class 102 2-Car
+      - Regional Railways
+    str_br_101_1022_regional_railways_train_group_name: Class 101/102 - Class 102
+      2-Car
+- id: 1113
+  vehicle: br_101
+  profile: '1023'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1113_br_101_1023_network_south_east_train.gnml
+  identifier: br_101_1023_network_south_east_train
+  name_string: str_br_101_1023_network_south_east_train_name
+  strings:
+    str_br_101_1023_network_south_east_train_name: Class 101/102 - Class 102 3-Car
+      - Network South East
+    str_br_101_1023_network_south_east_train_group_name: Class 101/102 - Class 102
+      3-Car
+- id: 1114
+  vehicle: br_101
+  profile: '1023'
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1114_br_101_1023_br_blue_grey_train.gnml
+  identifier: br_101_1023_br_blue_grey_train
+  name_string: str_br_101_1023_br_blue_grey_train_name
+  strings:
+    str_br_101_1023_br_blue_grey_train_name: Class 101/102 - Class 102 3-Car - BR
+      Blue Grey
+    str_br_101_1023_br_blue_grey_train_group_name: Class 101/102 - Class 102 3-Car
+- id: 1115
+  vehicle: br_101
+  profile: '1023'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1115_br_101_1023_br_green_train.gnml
+  identifier: br_101_1023_br_green_train
+  name_string: str_br_101_1023_br_green_train_name
+  strings:
+    str_br_101_1023_br_green_train_name: Class 101/102 - Class 102 3-Car - BR Green
+    str_br_101_1023_br_green_train_group_name: Class 101/102 - Class 102 3-Car
+- id: 1116
+  vehicle: br_101
+  profile: '1023'
+  livery: br green (yellow front)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1116_br_101_1023_br_green__yellow_front__train.gnml
+  identifier: br_101_1023_br_green__yellow_front__train
+  name_string: str_br_101_1023_br_green__yellow_front__train_name
+  strings:
+    str_br_101_1023_br_green__yellow_front__train_name: Class 101/102 - Class 102
+      3-Car - BR Green Yellow Front
+    str_br_101_1023_br_green__yellow_front__train_group_name: Class 101/102 - Class
+      102 3-Car
+- id: 1117
+  vehicle: br_101
+  profile: '1023'
+  livery: br green (headlamp)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1117_br_101_1023_br_green__headlamp__train.gnml
+  identifier: br_101_1023_br_green__headlamp__train
+  name_string: str_br_101_1023_br_green__headlamp__train_name
+  strings:
+    str_br_101_1023_br_green__headlamp__train_name: Class 101/102 - Class 102 3-Car
+      - BR Green Headlamp
+    str_br_101_1023_br_green__headlamp__train_group_name: Class 101/102 - Class 102
+      3-Car
