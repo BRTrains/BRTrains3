@@ -1,0 +1,119 @@
+info:
+  identifier: br_378
+  name: 'Class 378 Capitalstar'
+  sub_name: Electric multiple unit
+  based_on: London Overground Class 378 Capitalstar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # The 378/1 (DC) units are third rail only; the dual-voltage formations override this.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 139
+
+model_life: 0
+
+dates:
+  introduction_date: 2009-04-21
+
+profiles:
+  # The legacy set kept the dual-voltage units in their own items (and, for the 377, in
+  # their own files); here they are profiles, so one class carries both DC and AC units.
+  # The 4-car is listed first because it consumes the Overground drawings; the 3-car and
+  # the dual-voltage 4-car share them.
+  - identifier: '378_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 210
+    power: 2012
+    weight: 176
+    introduction_date: 2011-04-21
+    sprite_override: [1, 3, 4, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/378_4
+  - identifier: '378_3'
+    name: 3-Car (Dual Voltage)
+    num_vehicles: 3
+    capacity: 210
+    power: 1341
+    weight: 132
+    introduction_date: 2009-04-21
+    track_type:
+      - THIRD
+      - ELRL
+    sprite_group: '378_4'
+    sprite_override: [1, 3, 2]
+    special_tags:
+      - formation/3-car
+      - subclass/378_3
+  - identifier: '378_4_dv'
+    name: 4-Car (Dual Voltage)
+    num_vehicles: 4
+    capacity: 210
+    power: 2012
+    weight: 176
+    introduction_date: 2011-04-21
+    track_type:
+      - THIRD
+      - ELRL
+    sprite_group: '378_4'
+    sprite_override: [1, 3, 4, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/378_4_dv
+  - identifier: '378_5'
+    name: 5-Car
+    num_vehicles: 5
+    capacity: 210
+    power: 2012
+    weight: 203
+    introduction_date: 2013-04-21
+    sprite_override: [1, 3, 4, 4, 2]
+    special_tags:
+      - formation/5-car
+      - subclass/378_5
+  - identifier: '378_5_dv'
+    name: 5-Car (Dual Voltage)
+    num_vehicles: 5
+    capacity: 210
+    power: 2012
+    weight: 203
+    introduction_date: 2013-04-21
+    track_type:
+      - THIRD
+      - ELRL
+    sprite_group: '378_5'
+    sprite_override: [1, 3, 4, 4, 2]
+    special_tags:
+      - formation/5-car
+      - subclass/378_5_dv
+
+liveries:
+  - name: 'London Overground'
+    special_tags: [operator/London Overground]
+    profiles: ['378_4', '378_3', '378_4_dv', '378_5', '378_5_dv']
+  # The 5-car liveries are the 378's celebration, Aventra-style and Pride drawings. The
+  # celebration livery also uses a dedicated unwrapped middle car, which is why it carries
+  # its own five-row pattern: the legacy switch swapped that drawing in at consist
+  # position 2 only.
+  - name: 'London Overground 5-Car Celebration'
+    special_tags: [operator/London Overground]
+    profiles: ['378_5', '378_5_dv']
+    sprite_override: [1, 3, 5, 4, 2]
+  - name: 'London Overground Fake Aventra'
+    special_tags: [operator/London Overground]
+    profiles: ['378_5', '378_5_dv']
+  - name: 'London Overground Pride'
+    special_tags: [operator/London Overground]
+    profiles: ['378_5', '378_5_dv']

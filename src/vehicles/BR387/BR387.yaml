@@ -1,0 +1,53 @@
+info:
+  identifier: br_387
+  name: 'Class 387 Electrostar'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 387 Electrostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 168
+  length: 8
+  power: 2012
+  speed: 110
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - THIRD
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2015-04-21
+
+profiles:
+  - identifier: '387_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 60
+    sprite_override: [1, 3, 4, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/387_4
+
+liveries:
+  - name: 'Govia Thameslink'
+    special_tags: [operator/Govia Thameslink]
+  - name: 'Gatwick Express Unbranded'
+    special_tags: [operator/Gatwick Express]
+  - name: 'Gatwick Express'
+    special_tags: [operator/Gatwick Express]
+  - name: 'GWR Green Unbranded'
+    special_tags: [operator/Great Western Railway]
+  - name: 'GWR Green'
+    special_tags: [operator/Great Western Railway]
+  - name: 'c2c'
+    special_tags: [operator/c2c]
+  - name: 'Heathrow Express Grey and Purple'
+    special_tags: [operator/Heathrow Express]

@@ -1,0 +1,44 @@
+info:
+  identifier: br_376
+  name: 'Class 376 Electrostar'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 376 Electrostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 191
+  length: 8
+  power: 2682
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 35
+cargo_age_period: 139
+
+dates:
+  introduction_date: 2004-04-21
+
+profiles:
+  - identifier: '376_5'
+    name: 5-Car
+    num_vehicles: 5
+    capacity: 60
+    # Each livery is four physical rows (a, b, c, d). The legacy articulation ran
+    # a, c, d, d, b, so the d car is drawn twice.
+    sprite_override: [1, 3, 4, 4, 2]
+    special_tags:
+      - formation/5-car
+      - subclass/376_5
+
+liveries:
+  - name: 'Southeastern Yellow'
+    special_tags: [operator/Southeastern]
+  - name: 'Southeastern Blue'
+    special_tags: [operator/Southeastern]

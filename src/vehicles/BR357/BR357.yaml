@@ -1,0 +1,54 @@
+info:
+  identifier: br_357
+  name: 'Class 357 Electrostar'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 357 Electrostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 191
+  length: 8
+  power: 2682
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 35
+cargo_age_period: 139
+
+dates:
+  introduction_date: 1999-01-01
+
+profiles:
+  - identifier: '357_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 68
+    # The sheet holds each livery as four physical rows - front, rear, middle, then the
+    # pantograph middle - while the legacy articulation ran front, pantograph middle,
+    # middle, rear. The indices address the sheet's physical rows, so the pantograph car
+    # is the fourth row, not the second.
+    sprite_override: [1, 4, 3, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/357_4
+
+liveries:
+  - name: 'c2c White'
+    special_tags: [operator/c2c]
+  - name: 'c2c Blue'
+    special_tags: [operator/c2c]
+  - name: 'c2c Go Gold'
+    special_tags: [operator/c2c]
+  - name: 'c2c Pink'
+    special_tags: [operator/c2c]
+  - name: 'c2c Green'
+    special_tags: [operator/c2c]
+  - name: 'LTS Rail'
+    special_tags: [operator/LTS Rail]

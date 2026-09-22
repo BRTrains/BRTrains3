@@ -4221,3 +4221,1084 @@ variants:
       - BR Green Headlamp
     str_br_101_1023_br_green__headlamp__train_group_name: Class 101/102 - Class 102
       3-Car
+- id: 1118
+  vehicle: br_378
+  profile: '378_4'
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1118_br_378_378_4_london_overground_train.gnml
+  identifier: br_378_378_4_london_overground_train
+  name_string: str_br_378_378_4_london_overground_train_name
+  strings:
+    str_br_378_378_4_london_overground_train_name: Class 378 Capitalstar - 4-Car -
+      London Overground
+    str_br_378_378_4_london_overground_train_single_livery_name: Class 378 Capitalstar
+      - 4-Car - London Overground
+- id: 1119
+  vehicle: br_387
+  profile: '387_4'
+  livery: govia thameslink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1119_br_387_387_4_govia_thameslink_train.gnml
+  identifier: br_387_387_4_govia_thameslink_train
+  name_string: str_br_387_387_4_govia_thameslink_train_name
+  strings:
+    str_br_387_387_4_govia_thameslink_train_name: Class 387 Electrostar - 4-Car -
+      Govia Thameslink
+    str_br_387_387_4_govia_thameslink_train_group_name: Class 387 Electrostar - 4-Car
+- id: 1120
+  vehicle: br_387
+  profile: '387_4'
+  livery: gatwick express unbranded
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1120_br_387_387_4_gatwick_express_unbranded_train.gnml
+  identifier: br_387_387_4_gatwick_express_unbranded_train
+  name_string: str_br_387_387_4_gatwick_express_unbranded_train_name
+  strings:
+    str_br_387_387_4_gatwick_express_unbranded_train_name: Class 387 Electrostar -
+      4-Car - Gatwick Express Unbranded
+    str_br_387_387_4_gatwick_express_unbranded_train_group_name: Class 387 Electrostar
+      - 4-Car
+- id: 1121
+  vehicle: br_387
+  profile: '387_4'
+  livery: gatwick express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1121_br_387_387_4_gatwick_express_train.gnml
+  identifier: br_387_387_4_gatwick_express_train
+  name_string: str_br_387_387_4_gatwick_express_train_name
+  strings:
+    str_br_387_387_4_gatwick_express_train_name: Class 387 Electrostar - 4-Car - Gatwick
+      Express
+    str_br_387_387_4_gatwick_express_train_group_name: Class 387 Electrostar - 4-Car
+- id: 1122
+  vehicle: br_387
+  profile: '387_4'
+  livery: gwr green unbranded
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1122_br_387_387_4_gwr_green_unbranded_train.gnml
+  identifier: br_387_387_4_gwr_green_unbranded_train
+  name_string: str_br_387_387_4_gwr_green_unbranded_train_name
+  strings:
+    str_br_387_387_4_gwr_green_unbranded_train_name: Class 387 Electrostar - 4-Car
+      - GWR Green Unbranded
+    str_br_387_387_4_gwr_green_unbranded_train_group_name: Class 387 Electrostar -
+      4-Car
+- id: 1123
+  vehicle: br_387
+  profile: '387_4'
+  livery: gwr green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1123_br_387_387_4_gwr_green_train.gnml
+  identifier: br_387_387_4_gwr_green_train
+  name_string: str_br_387_387_4_gwr_green_train_name
+  strings:
+    str_br_387_387_4_gwr_green_train_name: Class 387 Electrostar - 4-Car - GWR Green
+    str_br_387_387_4_gwr_green_train_group_name: Class 387 Electrostar - 4-Car
+- id: 1124
+  vehicle: br_387
+  profile: '387_4'
+  livery: c2c
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1124_br_387_387_4_c2c_train.gnml
+  identifier: br_387_387_4_c2c_train
+  name_string: str_br_387_387_4_c2c_train_name
+  strings:
+    str_br_387_387_4_c2c_train_name: Class 387 Electrostar - 4-Car - c2c
+    str_br_387_387_4_c2c_train_group_name: Class 387 Electrostar - 4-Car
+- id: 1125
+  vehicle: br_387
+  profile: '387_4'
+  livery: heathrow express grey and purple
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1125_br_387_387_4_heathrow_express_grey_and_purple_train.gnml
+  identifier: br_387_387_4_heathrow_express_grey_and_purple_train
+  name_string: str_br_387_387_4_heathrow_express_grey_and_purple_train_name
+  strings:
+    str_br_387_387_4_heathrow_express_grey_and_purple_train_name: Class 387 Electrostar
+      - 4-Car - Heathrow Express Grey and Purple
+    str_br_387_387_4_heathrow_express_grey_and_purple_train_group_name: Class 387
+      Electrostar - 4-Car
+- id: 1126
+  vehicle: br_357
+  profile: '357_4'
+  livery: c2c white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1126_br_357_357_4_c2c_white_train.gnml
+  identifier: br_357_357_4_c2c_white_train
+  name_string: str_br_357_357_4_c2c_white_train_name
+  strings:
+    str_br_357_357_4_c2c_white_train_name: Class 357 Electrostar - 4-Car - c2c White
+    str_br_357_357_4_c2c_white_train_group_name: Class 357 Electrostar - 4-Car
+- id: 1127
+  vehicle: br_357
+  profile: '357_4'
+  livery: c2c blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1127_br_357_357_4_c2c_blue_train.gnml
+  identifier: br_357_357_4_c2c_blue_train
+  name_string: str_br_357_357_4_c2c_blue_train_name
+  strings:
+    str_br_357_357_4_c2c_blue_train_name: Class 357 Electrostar - 4-Car - c2c Blue
+    str_br_357_357_4_c2c_blue_train_group_name: Class 357 Electrostar - 4-Car
+- id: 1128
+  vehicle: br_357
+  profile: '357_4'
+  livery: c2c go gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1128_br_357_357_4_c2c_go_gold_train.gnml
+  identifier: br_357_357_4_c2c_go_gold_train
+  name_string: str_br_357_357_4_c2c_go_gold_train_name
+  strings:
+    str_br_357_357_4_c2c_go_gold_train_name: Class 357 Electrostar - 4-Car - c2c Go
+      Gold
+    str_br_357_357_4_c2c_go_gold_train_group_name: Class 357 Electrostar - 4-Car
+- id: 1129
+  vehicle: br_357
+  profile: '357_4'
+  livery: c2c pink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1129_br_357_357_4_c2c_pink_train.gnml
+  identifier: br_357_357_4_c2c_pink_train
+  name_string: str_br_357_357_4_c2c_pink_train_name
+  strings:
+    str_br_357_357_4_c2c_pink_train_name: Class 357 Electrostar - 4-Car - c2c Pink
+    str_br_357_357_4_c2c_pink_train_group_name: Class 357 Electrostar - 4-Car
+- id: 1130
+  vehicle: br_357
+  profile: '357_4'
+  livery: c2c green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1130_br_357_357_4_c2c_green_train.gnml
+  identifier: br_357_357_4_c2c_green_train
+  name_string: str_br_357_357_4_c2c_green_train_name
+  strings:
+    str_br_357_357_4_c2c_green_train_name: Class 357 Electrostar - 4-Car - c2c Green
+    str_br_357_357_4_c2c_green_train_group_name: Class 357 Electrostar - 4-Car
+- id: 1131
+  vehicle: br_357
+  profile: '357_4'
+  livery: lts rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1131_br_357_357_4_lts_rail_train.gnml
+  identifier: br_357_357_4_lts_rail_train
+  name_string: str_br_357_357_4_lts_rail_train_name
+  strings:
+    str_br_357_357_4_lts_rail_train_name: Class 357 Electrostar - 4-Car - LTS Rail
+    str_br_357_357_4_lts_rail_train_group_name: Class 357 Electrostar - 4-Car
+- id: 1132
+  vehicle: br_376
+  profile: '376_5'
+  livery: southeastern yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1132_br_376_376_5_southeastern_yellow_train.gnml
+  identifier: br_376_376_5_southeastern_yellow_train
+  name_string: str_br_376_376_5_southeastern_yellow_train_name
+  strings:
+    str_br_376_376_5_southeastern_yellow_train_name: Class 376 Electrostar - 5-Car
+      - Southeastern Yellow
+    str_br_376_376_5_southeastern_yellow_train_group_name: Class 376 Electrostar -
+      5-Car
+- id: 1133
+  vehicle: br_376
+  profile: '376_5'
+  livery: southeastern blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1133_br_376_376_5_southeastern_blue_train.gnml
+  identifier: br_376_376_5_southeastern_blue_train
+  name_string: str_br_376_376_5_southeastern_blue_train_name
+  strings:
+    str_br_376_376_5_southeastern_blue_train_name: Class 376 Electrostar - 5-Car -
+      Southeastern Blue
+    str_br_376_376_5_southeastern_blue_train_group_name: Class 376 Electrostar - 5-Car
+- id: 1134
+  vehicle: br_377
+  profile: '377_4'
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1134_br_377_377_4_southern_train.gnml
+  identifier: br_377_377_4_southern_train
+  name_string: str_br_377_377_4_southern_train_name
+  strings:
+    str_br_377_377_4_southern_train_name: Class 377 Electrostar - 4-Car - Southern
+    str_br_377_377_4_southern_train_single_livery_name: Class 377 Electrostar - 4-Car
+      - Southern
+- id: 1135
+  vehicle: br_375
+  profile: '375_4'
+  livery: southeastern blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1135_br_375_375_4_southeastern_blue_train.gnml
+  identifier: br_375_375_4_southeastern_blue_train
+  name_string: str_br_375_375_4_southeastern_blue_train_name
+  strings:
+    str_br_375_375_4_southeastern_blue_train_name: Class 375 Electrostar - 4-Car -
+      Southeastern Blue
+    str_br_375_375_4_southeastern_blue_train_group_name: Class 375 Electrostar - 4-Car
+- id: 1136
+  vehicle: br_375
+  profile: '375_4'
+  livery: southeastern blue with stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1136_br_375_375_4_southeastern_blue_with_stripe_train.gnml
+  identifier: br_375_375_4_southeastern_blue_with_stripe_train
+  name_string: str_br_375_375_4_southeastern_blue_with_stripe_train_name
+  strings:
+    str_br_375_375_4_southeastern_blue_with_stripe_train_name: Class 375 Electrostar
+      - 4-Car - Southeastern Blue with Stripe
+    str_br_375_375_4_southeastern_blue_with_stripe_train_group_name: Class 375 Electrostar
+      - 4-Car
+- id: 1137
+  vehicle: br_375
+  profile: '375_4'
+  livery: southeastern yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1137_br_375_375_4_southeastern_yellow_train.gnml
+  identifier: br_375_375_4_southeastern_yellow_train
+  name_string: str_br_375_375_4_southeastern_yellow_train_name
+  strings:
+    str_br_375_375_4_southeastern_yellow_train_name: Class 375 Electrostar - 4-Car
+      - Southeastern Yellow
+    str_br_375_375_4_southeastern_yellow_train_group_name: Class 375 Electrostar -
+      4-Car
+- id: 1138
+  vehicle: br_375
+  profile: '375_4'
+  livery: southeastern yellow stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1138_br_375_375_4_southeastern_yellow_stripe_train.gnml
+  identifier: br_375_375_4_southeastern_yellow_stripe_train
+  name_string: str_br_375_375_4_southeastern_yellow_stripe_train_name
+  strings:
+    str_br_375_375_4_southeastern_yellow_stripe_train_name: Class 375 Electrostar
+      - 4-Car - Southeastern Yellow Stripe
+    str_br_375_375_4_southeastern_yellow_stripe_train_group_name: Class 375 Electrostar
+      - 4-Car
+- id: 1139
+  vehicle: br_375
+  profile: '375_4'
+  livery: southeastern refurbished blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1139_br_375_375_4_southeastern_refurbished_blue_train.gnml
+  identifier: br_375_375_4_southeastern_refurbished_blue_train
+  name_string: str_br_375_375_4_southeastern_refurbished_blue_train_name
+  strings:
+    str_br_375_375_4_southeastern_refurbished_blue_train_name: Class 375 Electrostar
+      - 4-Car - Southeastern Refurbished Blue
+    str_br_375_375_4_southeastern_refurbished_blue_train_group_name: Class 375 Electrostar
+      - 4-Car
+- id: 1140
+  vehicle: br_379
+  profile: '379_4'
+  livery: greater anglia white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1140_br_379_379_4_greater_anglia_white_train.gnml
+  identifier: br_379_379_4_greater_anglia_white_train
+  name_string: str_br_379_379_4_greater_anglia_white_train_name
+  strings:
+    str_br_379_379_4_greater_anglia_white_train_name: Class 379 Electrostar - 4-Car
+      - Greater Anglia White
+    str_br_379_379_4_greater_anglia_white_train_single_livery_name: Class 379 Electrostar
+      - 4-Car - Greater Anglia White
+- id: 1141
+  vehicle: br_378
+  profile: '378_3'
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1141_br_378_378_3_london_overground_train.gnml
+  identifier: br_378_378_3_london_overground_train
+  name_string: str_br_378_378_3_london_overground_train_name
+  strings:
+    str_br_378_378_3_london_overground_train_name: Class 378 Capitalstar - 3-Car Dual
+      Voltage - London Overground
+    str_br_378_378_3_london_overground_train_single_livery_name: Class 378 Capitalstar
+      - 3-Car Dual Voltage - London Overground
+- id: 1142
+  vehicle: br_378
+  profile: 378_4_dv
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1142_br_378_378_4_dv_london_overground_train.gnml
+  identifier: br_378_378_4_dv_london_overground_train
+  name_string: str_br_378_378_4_dv_london_overground_train_name
+  strings:
+    str_br_378_378_4_dv_london_overground_train_name: Class 378 Capitalstar - 4-Car
+      Dual Voltage - London Overground
+    str_br_378_378_4_dv_london_overground_train_single_livery_name: Class 378 Capitalstar
+      - 4-Car Dual Voltage - London Overground
+- id: 1143
+  vehicle: br_378
+  profile: '378_5'
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1143_br_378_378_5_london_overground_train.gnml
+  identifier: br_378_378_5_london_overground_train
+  name_string: str_br_378_378_5_london_overground_train_name
+  strings:
+    str_br_378_378_5_london_overground_train_name: Class 378 Capitalstar - 5-Car -
+      London Overground
+    str_br_378_378_5_london_overground_train_group_name: Class 378 Capitalstar - 5-Car
+- id: 1144
+  vehicle: br_378
+  profile: '378_5'
+  livery: london overground 5-car celebration
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1144_br_378_378_5_london_overground_5_car_celebration_train.gnml
+  identifier: br_378_378_5_london_overground_5_car_celebration_train
+  name_string: str_br_378_378_5_london_overground_5_car_celebration_train_name
+  strings:
+    str_br_378_378_5_london_overground_5_car_celebration_train_name: Class 378 Capitalstar
+      - 5-Car - London Overground 5-Car Celebration
+    str_br_378_378_5_london_overground_5_car_celebration_train_group_name: Class 378
+      Capitalstar - 5-Car
+- id: 1145
+  vehicle: br_378
+  profile: '378_5'
+  livery: london overground fake aventra
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1145_br_378_378_5_london_overground_fake_aventra_train.gnml
+  identifier: br_378_378_5_london_overground_fake_aventra_train
+  name_string: str_br_378_378_5_london_overground_fake_aventra_train_name
+  strings:
+    str_br_378_378_5_london_overground_fake_aventra_train_name: Class 378 Capitalstar
+      - 5-Car - London Overground Fake Aventra
+    str_br_378_378_5_london_overground_fake_aventra_train_group_name: Class 378 Capitalstar
+      - 5-Car
+- id: 1146
+  vehicle: br_378
+  profile: '378_5'
+  livery: london overground pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1146_br_378_378_5_london_overground_pride_train.gnml
+  identifier: br_378_378_5_london_overground_pride_train
+  name_string: str_br_378_378_5_london_overground_pride_train_name
+  strings:
+    str_br_378_378_5_london_overground_pride_train_name: Class 378 Capitalstar - 5-Car
+      - London Overground Pride
+    str_br_378_378_5_london_overground_pride_train_group_name: Class 378 Capitalstar
+      - 5-Car
+- id: 1147
+  vehicle: br_378
+  profile: 378_5_dv
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1147_br_378_378_5_dv_london_overground_train.gnml
+  identifier: br_378_378_5_dv_london_overground_train
+  name_string: str_br_378_378_5_dv_london_overground_train_name
+  strings:
+    str_br_378_378_5_dv_london_overground_train_name: Class 378 Capitalstar - 5-Car
+      Dual Voltage - London Overground
+    str_br_378_378_5_dv_london_overground_train_group_name: Class 378 Capitalstar
+      - 5-Car Dual Voltage
+- id: 1148
+  vehicle: br_378
+  profile: 378_5_dv
+  livery: london overground 5-car celebration
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1148_br_378_378_5_dv_london_overground_5_car_celebration_train.gnml
+  identifier: br_378_378_5_dv_london_overground_5_car_celebration_train
+  name_string: str_br_378_378_5_dv_london_overground_5_car_celebration_train_name
+  strings:
+    str_br_378_378_5_dv_london_overground_5_car_celebration_train_name: Class 378
+      Capitalstar - 5-Car Dual Voltage - London Overground 5-Car Celebration
+    str_br_378_378_5_dv_london_overground_5_car_celebration_train_group_name: Class
+      378 Capitalstar - 5-Car Dual Voltage
+- id: 1149
+  vehicle: br_378
+  profile: 378_5_dv
+  livery: london overground fake aventra
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1149_br_378_378_5_dv_london_overground_fake_aventra_train.gnml
+  identifier: br_378_378_5_dv_london_overground_fake_aventra_train
+  name_string: str_br_378_378_5_dv_london_overground_fake_aventra_train_name
+  strings:
+    str_br_378_378_5_dv_london_overground_fake_aventra_train_name: Class 378 Capitalstar
+      - 5-Car Dual Voltage - London Overground Fake Aventra
+    str_br_378_378_5_dv_london_overground_fake_aventra_train_group_name: Class 378
+      Capitalstar - 5-Car Dual Voltage
+- id: 1150
+  vehicle: br_378
+  profile: 378_5_dv
+  livery: london overground pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 210
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1150_br_378_378_5_dv_london_overground_pride_train.gnml
+  identifier: br_378_378_5_dv_london_overground_pride_train
+  name_string: str_br_378_378_5_dv_london_overground_pride_train_name
+  strings:
+    str_br_378_378_5_dv_london_overground_pride_train_name: Class 378 Capitalstar
+      - 5-Car Dual Voltage - London Overground Pride
+    str_br_378_378_5_dv_london_overground_pride_train_group_name: Class 378 Capitalstar
+      - 5-Car Dual Voltage
+- id: 1151
+  vehicle: br_377
+  profile: '377_3'
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1151_br_377_377_3_southern_train.gnml
+  identifier: br_377_377_3_southern_train
+  name_string: str_br_377_377_3_southern_train_name
+  strings:
+    str_br_377_377_3_southern_train_name: Class 377 Electrostar - 3-Car - Southern
+    str_br_377_377_3_southern_train_single_livery_name: Class 377 Electrostar - 3-Car
+      - Southern
+- id: 1152
+  vehicle: br_377
+  profile: '377_5'
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1152_br_377_377_5_southern_train.gnml
+  identifier: br_377_377_5_southern_train
+  name_string: str_br_377_377_5_southern_train_name
+  strings:
+    str_br_377_377_5_southern_train_name: Class 377 Electrostar - 5-Car - Southern
+    str_br_377_377_5_southern_train_single_livery_name: Class 377 Electrostar - 5-Car
+      - Southern
+- id: 1153
+  vehicle: br_377
+  profile: 377_4_dv
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1153_br_377_377_4_dv_southern_train.gnml
+  identifier: br_377_377_4_dv_southern_train
+  name_string: str_br_377_377_4_dv_southern_train_name
+  strings:
+    str_br_377_377_4_dv_southern_train_name: Class 377 Electrostar - 4-Car Dual Voltage
+      - Southern
+    str_br_377_377_4_dv_southern_train_group_name: Class 377 Electrostar - 4-Car Dual
+      Voltage
+- id: 1154
+  vehicle: br_377
+  profile: 377_4_dv
+  livery: first capital connect urban lights
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1154_br_377_377_4_dv_first_capital_connect_urban_lights_train.gnml
+  identifier: br_377_377_4_dv_first_capital_connect_urban_lights_train
+  name_string: str_br_377_377_4_dv_first_capital_connect_urban_lights_train_name
+  strings:
+    str_br_377_377_4_dv_first_capital_connect_urban_lights_train_name: Class 377 Electrostar
+      - 4-Car Dual Voltage - First Capital Connect Urban Lights
+    str_br_377_377_4_dv_first_capital_connect_urban_lights_train_group_name: Class
+      377 Electrostar - 4-Car Dual Voltage
+- id: 1155
+  vehicle: br_377
+  profile: 377_4_dv
+  livery: thameslink ex-first capital connect
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1155_br_377_377_4_dv_thameslink_ex_first_capital_connect_train.gnml
+  identifier: br_377_377_4_dv_thameslink_ex_first_capital_connect_train
+  name_string: str_br_377_377_4_dv_thameslink_ex_first_capital_connect_train_name
+  strings:
+    str_br_377_377_4_dv_thameslink_ex_first_capital_connect_train_name: Class 377
+      Electrostar - 4-Car Dual Voltage - Thameslink ex-First Capital Connect
+    str_br_377_377_4_dv_thameslink_ex_first_capital_connect_train_group_name: Class
+      377 Electrostar - 4-Car Dual Voltage
+- id: 1156
+  vehicle: br_377
+  profile: 377_5_dv
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1156_br_377_377_5_dv_southern_train.gnml
+  identifier: br_377_377_5_dv_southern_train
+  name_string: str_br_377_377_5_dv_southern_train_name
+  strings:
+    str_br_377_377_5_dv_southern_train_name: Class 377 Electrostar - 5-Car Dual Voltage
+      - Southern
+    str_br_377_377_5_dv_southern_train_single_livery_name: Class 377 Electrostar -
+      5-Car Dual Voltage - Southern
+- id: 1157
+  vehicle: br_375
+  profile: '375_3'
+  livery: southeastern blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1157_br_375_375_3_southeastern_blue_train.gnml
+  identifier: br_375_375_3_southeastern_blue_train
+  name_string: str_br_375_375_3_southeastern_blue_train_name
+  strings:
+    str_br_375_375_3_southeastern_blue_train_name: Class 375 Electrostar - 3-Car -
+      Southeastern Blue
+    str_br_375_375_3_southeastern_blue_train_group_name: Class 375 Electrostar - 3-Car
+- id: 1158
+  vehicle: br_375
+  profile: '375_3'
+  livery: southeastern blue with stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1158_br_375_375_3_southeastern_blue_with_stripe_train.gnml
+  identifier: br_375_375_3_southeastern_blue_with_stripe_train
+  name_string: str_br_375_375_3_southeastern_blue_with_stripe_train_name
+  strings:
+    str_br_375_375_3_southeastern_blue_with_stripe_train_name: Class 375 Electrostar
+      - 3-Car - Southeastern Blue with Stripe
+    str_br_375_375_3_southeastern_blue_with_stripe_train_group_name: Class 375 Electrostar
+      - 3-Car
+- id: 1159
+  vehicle: br_375
+  profile: '375_3'
+  livery: southeastern yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1159_br_375_375_3_southeastern_yellow_train.gnml
+  identifier: br_375_375_3_southeastern_yellow_train
+  name_string: str_br_375_375_3_southeastern_yellow_train_name
+  strings:
+    str_br_375_375_3_southeastern_yellow_train_name: Class 375 Electrostar - 3-Car
+      - Southeastern Yellow
+    str_br_375_375_3_southeastern_yellow_train_group_name: Class 375 Electrostar -
+      3-Car
+- id: 1160
+  vehicle: br_375
+  profile: '375_3'
+  livery: southeastern yellow stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1160_br_375_375_3_southeastern_yellow_stripe_train.gnml
+  identifier: br_375_375_3_southeastern_yellow_stripe_train
+  name_string: str_br_375_375_3_southeastern_yellow_stripe_train_name
+  strings:
+    str_br_375_375_3_southeastern_yellow_stripe_train_name: Class 375 Electrostar
+      - 3-Car - Southeastern Yellow Stripe
+    str_br_375_375_3_southeastern_yellow_stripe_train_group_name: Class 375 Electrostar
+      - 3-Car
+- id: 1161
+  vehicle: br_375
+  profile: '375_3'
+  livery: southeastern refurbished blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1161_br_375_375_3_southeastern_refurbished_blue_train.gnml
+  identifier: br_375_375_3_southeastern_refurbished_blue_train
+  name_string: str_br_375_375_3_southeastern_refurbished_blue_train_name
+  strings:
+    str_br_375_375_3_southeastern_refurbished_blue_train_name: Class 375 Electrostar
+      - 3-Car - Southeastern Refurbished Blue
+    str_br_375_375_3_southeastern_refurbished_blue_train_group_name: Class 375 Electrostar
+      - 3-Car

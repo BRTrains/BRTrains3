@@ -1,0 +1,110 @@
+info:
+  identifier: br_377
+  name: 'Class 377 Electrostar'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 377 Electrostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # Third rail is the class's normal diet; the dual-voltage formations override it below.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 198
+
+dates:
+  introduction_date: 2001-04-21
+
+profiles:
+  # The dual-voltage units were separate items in the legacy set, each with its own
+  # .pnml file; here they are profiles of the one class, which is what tells the game
+  # whether a formation may run on overhead line as well as third rail.
+  - identifier: '377_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 60
+    power: 2012
+    weight: 168
+    introduction_date: 2002-04-21
+    sprite_override: [1, 3, 4, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/377_4
+  # 377/3 and 377/5 share the 4-car's drawings: a, c, b for three cars and a, c, d, d, b
+  # for five.
+  - identifier: '377_3'
+    name: 3-Car
+    num_vehicles: 3
+    capacity: 60
+    power: 1341
+    weight: 136
+    introduction_date: 2001-04-21
+    sprite_group: '377_4'
+    sprite_override: [1, 3, 2]
+    special_tags:
+      - formation/3-car
+      - subclass/377_3
+  - identifier: '377_5'
+    name: 5-Car
+    num_vehicles: 5
+    capacity: 60
+    power: 2681
+    weight: 211
+    introduction_date: 2013-04-21
+    sprite_group: '377_4'
+    sprite_override: [1, 3, 4, 4, 2]
+    special_tags:
+      - formation/5-car
+      - subclass/377_5
+  # Dual voltage: third rail or overhead electric.
+  - identifier: '377_4_dv'
+    name: 4-Car (Dual Voltage)
+    num_vehicles: 4
+    capacity: 60
+    power: 2012
+    weight: 168
+    introduction_date: 2002-04-21
+    track_type:
+      - THIRD
+      - ELRL
+    sprite_override: [1, 3, 4, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/377_4_dv
+  - identifier: '377_5_dv'
+    name: 5-Car (Dual Voltage)
+    num_vehicles: 5
+    capacity: 60
+    power: 2681
+    weight: 211
+    introduction_date: 2014-04-21
+    track_type:
+      - THIRD
+      - ELRL
+    # Shares the dual-voltage 4-car's drawings.
+    sprite_group: '377_4_dv'
+    sprite_override: [1, 3, 4, 4, 2]
+    special_tags:
+      - formation/5-car
+      - subclass/377_5_dv
+
+liveries:
+  - name: 'Southern'
+    special_tags: [operator/Southern]
+    profiles: ['377_4', '377_3', '377_5', '377_4_dv', '377_5_dv']
+  # The First Capital Connect and ex-First Capital Connect drawings only ever ran on the
+  # dual-voltage 4-car units.
+  - name: 'First Capital Connect Urban Lights'
+    special_tags: [operator/First Capital Connect]
+    profiles: ['377_4_dv']
+  - name: 'Thameslink ex-First Capital Connect'
+    special_tags: [operator/Thameslink]
+    profiles: ['377_4_dv']
