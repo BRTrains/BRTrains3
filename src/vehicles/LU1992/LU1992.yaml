@@ -17,6 +17,8 @@ stats:
   tractive_effort: 0.08
   power_type:
     - electric
+  track_type:
+    - FOURTH
 
 cargo: passenger
 
