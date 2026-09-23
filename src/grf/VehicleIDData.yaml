@@ -5526,7 +5526,7 @@ variants:
     articulated_count: 2
     lengths:
     - 6
-    - 6
+    - 4
   archive: generated_variants/1172_lms_stanier_8f_default_lms_black_1935_train.gnml
   identifier: lms_stanier_8f_default_lms_black_1935_train
   name_string: str_lms_stanier_8f_default_lms_black_1935_train_name
@@ -5548,7 +5548,7 @@ variants:
     capacity: 0
     articulated_count: 2
     lengths:
-    - 4
+    - 6
     - 4
   archive: generated_variants/1173_lms_stanier_8f_default_br_black__lion_and_wheel__train.gnml
   identifier: lms_stanier_8f_default_br_black__lion_and_wheel__train
@@ -5572,7 +5572,7 @@ variants:
     articulated_count: 2
     lengths:
     - 6
-    - 6
+    - 4
   archive: generated_variants/1174_lms_stanier_8f_default_br_black__emblem__train.gnml
   identifier: lms_stanier_8f_default_br_black__emblem__train
   name_string: str_lms_stanier_8f_default_br_black__emblem__train_name
@@ -5594,7 +5594,7 @@ variants:
     capacity: 0
     articulated_count: 2
     lengths:
-    - 4
+    - 6
     - 4
   archive: generated_variants/1175_lms_stanier_8f_default_wd_grey_train.gnml
   identifier: lms_stanier_8f_default_wd_grey_train
