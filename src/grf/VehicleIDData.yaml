@@ -5302,3 +5302,282 @@ variants:
       - 3-Car - Southeastern Refurbished Blue
     str_br_375_375_3_southeastern_refurbished_blue_train_group_name: Class 375 Electrostar
       - 3-Car
+- id: 1162
+  vehicle: ger_class_l77
+  profile: default
+  livery: ger blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1162_ger_class_l77_default_ger_blue_train.gnml
+  identifier: ger_class_l77_default_ger_blue_train
+  name_string: str_ger_class_l77_default_ger_blue_train_name
+  strings:
+    str_ger_class_l77_default_ger_blue_train_name: GER Class L77 0-6-2T - GER Blue
+    str_ger_class_l77_default_ger_blue_train_group_name: GER Class L77 0-6-2T
+- id: 1163
+  vehicle: ger_class_l77
+  profile: default
+  livery: ger black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1163_ger_class_l77_default_ger_black_train.gnml
+  identifier: ger_class_l77_default_ger_black_train
+  name_string: str_ger_class_l77_default_ger_black_train_name
+  strings:
+    str_ger_class_l77_default_ger_black_train_name: GER Class L77 0-6-2T - GER Black
+    str_ger_class_l77_default_ger_black_train_group_name: GER Class L77 0-6-2T
+- id: 1164
+  vehicle: ger_class_l77
+  profile: default
+  livery: lner apple green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1164_ger_class_l77_default_lner_apple_green_train.gnml
+  identifier: ger_class_l77_default_lner_apple_green_train
+  name_string: str_ger_class_l77_default_lner_apple_green_train_name
+  strings:
+    str_ger_class_l77_default_lner_apple_green_train_name: GER Class L77 0-6-2T -
+      LNER Apple Green
+    str_ger_class_l77_default_lner_apple_green_train_group_name: GER Class L77 0-6-2T
+- id: 1165
+  vehicle: ger_class_l77
+  profile: default
+  livery: lner black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1165_ger_class_l77_default_lner_black_train.gnml
+  identifier: ger_class_l77_default_lner_black_train
+  name_string: str_ger_class_l77_default_lner_black_train_name
+  strings:
+    str_ger_class_l77_default_lner_black_train_name: GER Class L77 0-6-2T - LNER Black
+    str_ger_class_l77_default_lner_black_train_group_name: GER Class L77 0-6-2T
+- id: 1166
+  vehicle: ger_class_l77
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1166_ger_class_l77_default_br_black_train.gnml
+  identifier: ger_class_l77_default_br_black_train
+  name_string: str_ger_class_l77_default_br_black_train_name
+  strings:
+    str_ger_class_l77_default_br_black_train_name: GER Class L77 0-6-2T - BR Black
+    str_ger_class_l77_default_br_black_train_group_name: GER Class L77 0-6-2T
+- id: 1167
+  vehicle: ger_class_c53
+  profile: default
+  livery: lner teak
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1167_ger_class_c53_default_lner_teak_train.gnml
+  identifier: ger_class_c53_default_lner_teak_train
+  name_string: str_ger_class_c53_default_lner_teak_train_name
+  strings:
+    str_ger_class_c53_default_lner_teak_train_name: GER Class C53 0-6-0T - LNER Teak
+    str_ger_class_c53_default_lner_teak_train_single_livery_name: GER Class C53 0-6-0T
+      - LNER Teak
+- id: null
+  vehicle: lms_stanier_8f
+  profile: default
+  livery: lms black 1935
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1168_lms_stanier_8f_default_lms_black_1935_train.gnml
+  identifier: lms_stanier_8f_default_lms_black_1935_train
+  name_string: str_lms_stanier_8f_default_lms_black_1935_train_name
+  strings:
+    str_lms_stanier_8f_default_lms_black_1935_train_name: LMS Stanier Class 8F 2-8-0
+      - LMS Black 1935
+    str_lms_stanier_8f_default_lms_black_1935_train_group_name: LMS Stanier Class
+      8F 2-8-0
+- id: 1169
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: metropolitan crimson
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1169_metropolitan_g_class_default_metropolitan_crimson_train.gnml
+  identifier: metropolitan_g_class_default_metropolitan_crimson_train
+  name_string: str_metropolitan_g_class_default_metropolitan_crimson_train_name
+  strings:
+    str_metropolitan_g_class_default_metropolitan_crimson_train_name: Metropolitan
+      Railway G Class 0-6-4T - Metropolitan Crimson
+    str_metropolitan_g_class_default_metropolitan_crimson_train_group_name: Metropolitan
+      Railway G Class 0-6-4T
+- id: 1170
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: metropolitan black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1170_metropolitan_g_class_default_metropolitan_black_train.gnml
+  identifier: metropolitan_g_class_default_metropolitan_black_train
+  name_string: str_metropolitan_g_class_default_metropolitan_black_train_name
+  strings:
+    str_metropolitan_g_class_default_metropolitan_black_train_name: Metropolitan Railway
+      G Class 0-6-4T - Metropolitan Black
+    str_metropolitan_g_class_default_metropolitan_black_train_group_name: Metropolitan
+      Railway G Class 0-6-4T
+- id: 1171
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: lner apple green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1171_metropolitan_g_class_default_lner_apple_green_train.gnml
+  identifier: metropolitan_g_class_default_lner_apple_green_train
+  name_string: str_metropolitan_g_class_default_lner_apple_green_train_name
+  strings:
+    str_metropolitan_g_class_default_lner_apple_green_train_name: Metropolitan Railway
+      G Class 0-6-4T - LNER Apple Green
+    str_metropolitan_g_class_default_lner_apple_green_train_group_name: Metropolitan
+      Railway G Class 0-6-4T
+- id: 1172
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: lner black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1172_metropolitan_g_class_default_lner_black_train.gnml
+  identifier: metropolitan_g_class_default_lner_black_train
+  name_string: str_metropolitan_g_class_default_lner_black_train_name
+  strings:
+    str_metropolitan_g_class_default_lner_black_train_name: Metropolitan Railway G
+      Class 0-6-4T - LNER Black
+    str_metropolitan_g_class_default_lner_black_train_group_name: Metropolitan Railway
+      G Class 0-6-4T
+- id: null
+  vehicle: lms_stanier_8f
+  profile: default
+  livery: br black (lion and wheel)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1173_lms_stanier_8f_default_br_black__lion_and_wheel__train.gnml
+  identifier: lms_stanier_8f_default_br_black__lion_and_wheel__train
+  name_string: str_lms_stanier_8f_default_br_black__lion_and_wheel__train_name
+  strings:
+    str_lms_stanier_8f_default_br_black__lion_and_wheel__train_name: LMS Stanier Class
+      8F 2-8-0 - BR Black Lion and Wheel
+    str_lms_stanier_8f_default_br_black__lion_and_wheel__train_group_name: LMS Stanier
+      Class 8F 2-8-0
+- id: null
+  vehicle: lms_stanier_8f
+  profile: default
+  livery: br black (emblem)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 6
+  archive: generated_variants/1174_lms_stanier_8f_default_br_black__emblem__train.gnml
+  identifier: lms_stanier_8f_default_br_black__emblem__train
+  name_string: str_lms_stanier_8f_default_br_black__emblem__train_name
+  strings:
+    str_lms_stanier_8f_default_br_black__emblem__train_name: LMS Stanier Class 8F
+      2-8-0 - BR Black Emblem
+    str_lms_stanier_8f_default_br_black__emblem__train_group_name: LMS Stanier Class
+      8F 2-8-0

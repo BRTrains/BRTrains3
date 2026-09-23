@@ -1,0 +1,37 @@
+
+special_tags:
+  - subclass/j70
+
+info:
+  identifier: ger_class_c53
+  name: 'GER Class C53 0-6-0T'
+  sub_name: LNER Class J70
+  based_on: Great Eastern Railway Class C53 (LNER J70)
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 27
+  length: 4
+  power: 200
+  speed: 30
+  tractive_effort: 0.148
+  power_type:
+    - steam
+
+cargo: none
+dates:
+  introduction_date: 1903-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+
+liveries:
+  # The PNML switch declares one livery (cargo_subtype 0) and the sheet carries one
+  # loco row at y=13 plus a second at y=39 with no switch case reading it.
+  - name: 'LNER Teak'
+    special_tags: [operator/LNER]
