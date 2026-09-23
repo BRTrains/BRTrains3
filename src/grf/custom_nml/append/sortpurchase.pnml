@@ -1,6 +1,19 @@
 // Purchase-list order for trains.
+// Pre-1968 stock comes first, in introduction-date order; then the BR class grouping,
+// then anything else, then coaches, then wagons.
 // Keep each candidate contiguous; variants retain generated order within the candidate.
 sort(FEAT_TRAINS, [
+  // Class 76 Prototype (LNER Gresley "EM1") (1941-01-01)
+  br_76_prototype_default_br_black_train,
+  br_76_prototype_default_br_blue_train,
+  br_76_prototype_default_br_green__warning_panels__train,
+  br_76_prototype_default_br_green_train,
+  br_76_prototype_default_lner_green_train,
+  // Class 76 (LNER Gresley "EM1") (1950-01-01)
+  br_76_default_br_black_train,
+  br_76_default_br_blue_train,
+  br_76_default_br_green__warning_panels__train,
+  br_76_default_br_green_train,
   // Class 08 "Gronk" (1952-04-21)
   br_08_default_br_black_train,
   br_08_default_br_blue_train,
@@ -18,24 +31,11 @@ sort(FEAT_TRAINS, [
   br_08_default_nse_train,
   br_08_default_progress_rail_train,
   br_08_default_purple_train,
-  // Class 9F (BR Standard) (1954-02-04)
+  // Standard Class 9F (1954-02-04)
   br_standard_9f_default_br_black_named_train,
   br_standard_9f_default_br_black_unnamed_train,
   br_standard_9f_default_br_green_named_train,
   br_standard_9f_default_br_green_unnamed_train,
-  // Class 76 (LNER Gresley "EM1") (1950-01-01)
-  br_76_default_br_black_train,
-  br_76_default_br_blue_train,
-  br_76_default_br_green__warning_panels__train,
-  br_76_default_br_green_train,
-  // Class 76 Prototype (LNER Gresley "EM1") (1941-01-01)
-  br_76_prototype_default_br_black_train,
-  br_76_prototype_default_br_blue_train,
-  br_76_prototype_default_br_green__warning_panels__train,
-  br_76_prototype_default_br_green_train,
-  br_76_prototype_default_lner_green_train,
-  // Class 88 (2017-06-11)
-  br_88_88_drs_train_v2,
   // Class 101/102 (1956-01-01)
   br_101_1012_br_blue_train,
   br_101_1012_regional_railways_train,
@@ -51,10 +51,22 @@ sort(FEAT_TRAINS, [
   br_101_1023_br_green__yellow_front__train,
   br_101_1023_br_green_train,
   br_101_1023_network_south_east_train,
+  // Class 901 (1956-01-01)
+  br_901_9012_network_rail_train,
   // Class 128 "Post Office Motor Parcels Van" (1959-04-01)
   br_128_default_br_blue_train,
   br_128_default_br_green_train,
   br_128_default_royal_mail_train,
+  // Class 504 (1959-04-21)
+  br_504_504_2_br_blue__alternate__train,
+  br_504_504_2_br_blue__wraparound__train,
+  br_504_504_2_br_blue_train,
+  br_504_504_2_br_green_train,
+  br_504_504_2_gmpte_train,
+  // Kestrel (1967-01-01)
+  br_kestrel_default_kestrel_black_and_yellow_train,
+  // Class 88 (2017-06-11)
+  br_88_88_drs_train_v2,
   // Class 195 Civity (2019-07-01)
   br_195_1950_northern_train,
   br_195_1951_northern_train,
@@ -144,12 +156,6 @@ sort(FEAT_TRAINS, [
   br_390_390_9_virgin_trains__9_car__train,
   br_390_390_9_virgin_trains_pride__9_car__train,
   br_390_390_9_virgin_trains_silk__9_car__train,
-  // Class 504 (1959-04-21)
-  br_504_504_2_br_blue__alternate__train,
-  br_504_504_2_br_blue__wraparound__train,
-  br_504_504_2_br_blue_train,
-  br_504_504_2_br_green_train,
-  br_504_504_2_gmpte_train,
   // Class 555 Metro (2024-05-01)
   br_555_default_tyne_and_wear_metro_train_v2,
   // Class 755 FLIRT (2019-07-29)
@@ -159,10 +165,6 @@ sort(FEAT_TRAINS, [
   br_777_default_merseyrail_train_v2,
   // Class 799 Hydrogen Prototype (2019-04-01)
   br_799_7994_porterbrook_hydroflex_green_and_white_train_v2,
-  // Class 901 (1956-01-01)
-  br_901_9012_network_rail_train,
-  // Kestrel (1967-01-01)
-  br_kestrel_default_kestrel_black_and_yellow_train,
   // APT-E (1972-04-21)
   br_apt_e_apt_e_4_br_blue_train,
   // London Underground 1992 Stock (1992-01-01)
@@ -199,8 +201,7 @@ sort(FEAT_TRAINS, [
   br_container_default_default_train
 ]);
 
-// Purchase-list order for roadvehs.
-// Keep each candidate contiguous; variants retain generated order within the candidate.
+// Purchase-list order for trams. Each vehicle takes its introduction-date order.
 sort(FEAT_ROADVEHS, [
   // Class 555 Metro (2024-05-01)
   br_555_default_tyne_and_wear_metro_tram_v2,

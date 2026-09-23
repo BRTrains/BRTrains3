@@ -1833,9 +1833,9 @@ variants:
   identifier: br_standard_9f_default_br_black_unnamed_train
   name_string: str_br_standard_9f_default_br_black_unnamed_train_name
   strings:
-    str_br_standard_9f_default_br_black_unnamed_train_name: Class 9F BR Standard -
-      BR Black Unnamed
-    str_br_standard_9f_default_br_black_unnamed_train_group_name: Class 9F BR Standard
+    str_br_standard_9f_default_br_black_unnamed_train_name: Standard Class 9F - BR
+      Black Unnamed
+    str_br_standard_9f_default_br_black_unnamed_train_group_name: Standard Class 9F
 - id: 1031
   vehicle: br_standard_9f
   profile: default
@@ -1855,9 +1855,9 @@ variants:
   identifier: br_standard_9f_default_br_green_unnamed_train
   name_string: str_br_standard_9f_default_br_green_unnamed_train_name
   strings:
-    str_br_standard_9f_default_br_green_unnamed_train_name: Class 9F BR Standard -
-      BR Green Unnamed
-    str_br_standard_9f_default_br_green_unnamed_train_group_name: Class 9F BR Standard
+    str_br_standard_9f_default_br_green_unnamed_train_name: Standard Class 9F - BR
+      Green Unnamed
+    str_br_standard_9f_default_br_green_unnamed_train_group_name: Standard Class 9F
 - id: 1032
   vehicle: br_standard_9f
   profile: default
@@ -1877,9 +1877,9 @@ variants:
   identifier: br_standard_9f_default_br_black_named_train
   name_string: str_br_standard_9f_default_br_black_named_train_name
   strings:
-    str_br_standard_9f_default_br_black_named_train_name: Class 9F BR Standard - BR
-      Black Named
-    str_br_standard_9f_default_br_black_named_train_group_name: Class 9F BR Standard
+    str_br_standard_9f_default_br_black_named_train_name: Standard Class 9F - BR Black
+      Named
+    str_br_standard_9f_default_br_black_named_train_group_name: Standard Class 9F
 - id: 1033
   vehicle: br_standard_9f
   profile: default
@@ -1899,9 +1899,9 @@ variants:
   identifier: br_standard_9f_default_br_green_named_train
   name_string: str_br_standard_9f_default_br_green_named_train_name
   strings:
-    str_br_standard_9f_default_br_green_named_train_name: Class 9F BR Standard - BR
-      Green Named
-    str_br_standard_9f_default_br_green_named_train_group_name: Class 9F BR Standard
+    str_br_standard_9f_default_br_green_named_train_name: Standard Class 9F - BR Green
+      Named
+    str_br_standard_9f_default_br_green_named_train_group_name: Standard Class 9F
 - id: null
   vehicle: br_555
   profile: default

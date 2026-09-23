@@ -3,7 +3,7 @@ sound_effect: SOUND_DEPARTURE_STEAM
 
 info:
   identifier: br_standard_9f
-  name: 'Class 9F (BR Standard)'
+  name: 'Standard Class 9F'
   sub_name: Steam locomotive
   based_on: British Railways Standard Class 9F
 
