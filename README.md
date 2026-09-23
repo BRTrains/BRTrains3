@@ -24,13 +24,13 @@ The project-local launcher is the simplest path:
 It can also be built from the BRBuild checkout:
 
 ```bash
-cd /Users/jon/Dev/BRBuild
+cd /path/to/BRBuild
 .venv/bin/python ./Run.py BRTrains3 --log
 ```
 
 `BRBuild.yaml` keeps `grf_folder: src/grf` explicit because the BRBuild project finder does not apply the same default as the project-local launcher.
 
-The project currently expects BRBuild at `/Users/jon/Dev/BRBuild`. Override that location with `BRBUILD_DIR`:
+The launcher expects BRBuild as a sibling checkout (`../BRBuild`). Override the location with `BRBUILD_DIR`:
 
 ```bash
 BRBUILD_DIR=/path/to/BRBuild .venv/bin/python build.py

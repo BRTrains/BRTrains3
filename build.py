@@ -7,7 +7,8 @@ from pathlib import Path
 import yaml
 
 PROJECT_DIR = Path(__file__).resolve().parent
-BRBUILD_DIR = Path(os.environ.get("BRBUILD_DIR", "/Users/jon/Dev/BRBuild"))
+# BRBuild is a sibling checkout by default; BRBUILD_DIR overrides it for another layout.
+BRBUILD_DIR = Path(os.environ.get("BRBUILD_DIR") or PROJECT_DIR.parent / "BRBuild").expanduser()
 
 if not BRBUILD_DIR.is_dir():
     raise SystemExit(f"BRBuild directory not found: {BRBUILD_DIR}")
