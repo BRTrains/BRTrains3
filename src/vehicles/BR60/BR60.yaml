@@ -1,0 +1,62 @@
+info:
+  identifier: br_60
+  name: 'Class 60 "Tug"'
+  sub_name: Heavy freight diesel locomotive
+  based_on: British Rail Class 60
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 129
+  length: 8
+  power: 3100
+  speed: 60
+  tractive_effort: 0.37
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1989-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/60
+
+liveries:
+  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR60, cargo_subtype)` (0..8),
+  # then by the artist's 2026-09-23 drop top to bottom. compose_class60_sheet.py emits
+  # one band per livery in this order.
+  - name: 'Railfreight Grey'
+    special_tags: [operator/Railfreight]
+  - name: Mainline
+    special_tags: [operator/Mainline Freight]
+  - name: 'Loadhaul Grey'
+    special_tags: [operator/Loadhaul]
+  - name: Loadhaul
+    special_tags: [operator/Loadhaul]
+  - name: 'British Steel'
+    special_tags: [operator/British Steel]
+  - name: Corus
+    special_tags: [operator/Corus]
+  - name: EWS
+    special_tags: [operator/EWS]
+  - name: GWR
+    special_tags: [operator/GWR]
+  - name: 'Colas Rail'
+    special_tags: [operator/Colas Rail]
+  - name: Europhoenix
+    special_tags: [operator/Europhoenix]
+  - name: GBRf
+    special_tags: [operator/GB Railfreight]
+  - name: 'DC Rail Midland Railway Tribute'
+    special_tags: [operator/DC Rail]
+  - name: 'DC Rail Grey'
+    special_tags: [operator/DC Rail]
+  - name: 'DC Rail "Cappagh Group" Blue and Grey'
+    special_tags: [operator/DC Rail]

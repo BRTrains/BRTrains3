@@ -5604,3 +5604,286 @@ variants:
       2-8-0 - War Department Grey
     str_lms_stanier_8f_default_war_department_grey_train_group_name: LMS Stanier Class
       8F 2-8-0
+- id: 1176
+  vehicle: br_60
+  profile: default
+  livery: railfreight grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1176_br_60_default_railfreight_grey_train.gnml
+  identifier: br_60_default_railfreight_grey_train
+  name_string: str_br_60_default_railfreight_grey_train_name
+  strings:
+    str_br_60_default_railfreight_grey_train_name: Class 60 "Tug" - Railfreight Grey
+    str_br_60_default_railfreight_grey_train_group_name: Class 60 "Tug"
+- id: 1177
+  vehicle: br_60
+  profile: default
+  livery: mainline
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1177_br_60_default_mainline_train.gnml
+  identifier: br_60_default_mainline_train
+  name_string: str_br_60_default_mainline_train_name
+  strings:
+    str_br_60_default_mainline_train_name: Class 60 "Tug" - Mainline
+    str_br_60_default_mainline_train_group_name: Class 60 "Tug"
+- id: 1178
+  vehicle: br_60
+  profile: default
+  livery: loadhaul grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1178_br_60_default_loadhaul_grey_train.gnml
+  identifier: br_60_default_loadhaul_grey_train
+  name_string: str_br_60_default_loadhaul_grey_train_name
+  strings:
+    str_br_60_default_loadhaul_grey_train_name: Class 60 "Tug" - Loadhaul Grey
+    str_br_60_default_loadhaul_grey_train_group_name: Class 60 "Tug"
+- id: 1179
+  vehicle: br_60
+  profile: default
+  livery: loadhaul
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1179_br_60_default_loadhaul_train.gnml
+  identifier: br_60_default_loadhaul_train
+  name_string: str_br_60_default_loadhaul_train_name
+  strings:
+    str_br_60_default_loadhaul_train_name: Class 60 "Tug" - Loadhaul
+    str_br_60_default_loadhaul_train_group_name: Class 60 "Tug"
+- id: 1180
+  vehicle: br_60
+  profile: default
+  livery: british steel
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1180_br_60_default_british_steel_train.gnml
+  identifier: br_60_default_british_steel_train
+  name_string: str_br_60_default_british_steel_train_name
+  strings:
+    str_br_60_default_british_steel_train_name: Class 60 "Tug" - British Steel
+    str_br_60_default_british_steel_train_group_name: Class 60 "Tug"
+- id: 1181
+  vehicle: br_60
+  profile: default
+  livery: corus
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1181_br_60_default_corus_train.gnml
+  identifier: br_60_default_corus_train
+  name_string: str_br_60_default_corus_train_name
+  strings:
+    str_br_60_default_corus_train_name: Class 60 "Tug" - Corus
+    str_br_60_default_corus_train_group_name: Class 60 "Tug"
+- id: 1182
+  vehicle: br_60
+  profile: default
+  livery: ews
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1182_br_60_default_ews_train.gnml
+  identifier: br_60_default_ews_train
+  name_string: str_br_60_default_ews_train_name
+  strings:
+    str_br_60_default_ews_train_name: Class 60 "Tug" - EWS
+    str_br_60_default_ews_train_group_name: Class 60 "Tug"
+- id: 1183
+  vehicle: br_60
+  profile: default
+  livery: gwr
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1183_br_60_default_gwr_train.gnml
+  identifier: br_60_default_gwr_train
+  name_string: str_br_60_default_gwr_train_name
+  strings:
+    str_br_60_default_gwr_train_name: Class 60 "Tug" - GWR
+    str_br_60_default_gwr_train_group_name: Class 60 "Tug"
+- id: 1184
+  vehicle: br_60
+  profile: default
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1184_br_60_default_colas_rail_train.gnml
+  identifier: br_60_default_colas_rail_train
+  name_string: str_br_60_default_colas_rail_train_name
+  strings:
+    str_br_60_default_colas_rail_train_name: Class 60 "Tug" - Colas Rail
+    str_br_60_default_colas_rail_train_group_name: Class 60 "Tug"
+- id: 1185
+  vehicle: br_60
+  profile: default
+  livery: europhoenix
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1185_br_60_default_europhoenix_train.gnml
+  identifier: br_60_default_europhoenix_train
+  name_string: str_br_60_default_europhoenix_train_name
+  strings:
+    str_br_60_default_europhoenix_train_name: Class 60 "Tug" - Europhoenix
+    str_br_60_default_europhoenix_train_group_name: Class 60 "Tug"
+- id: 1186
+  vehicle: br_60
+  profile: default
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1186_br_60_default_gbrf_train.gnml
+  identifier: br_60_default_gbrf_train
+  name_string: str_br_60_default_gbrf_train_name
+  strings:
+    str_br_60_default_gbrf_train_name: Class 60 "Tug" - GBRf
+    str_br_60_default_gbrf_train_group_name: Class 60 "Tug"
+- id: 1187
+  vehicle: br_60
+  profile: default
+  livery: dc rail midland railway tribute
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1187_br_60_default_dc_rail_midland_railway_tribute_train.gnml
+  identifier: br_60_default_dc_rail_midland_railway_tribute_train
+  name_string: str_br_60_default_dc_rail_midland_railway_tribute_train_name
+  strings:
+    str_br_60_default_dc_rail_midland_railway_tribute_train_name: Class 60 "Tug" -
+      DC Rail Midland Railway Tribute
+    str_br_60_default_dc_rail_midland_railway_tribute_train_group_name: Class 60 "Tug"
+- id: 1188
+  vehicle: br_60
+  profile: default
+  livery: dc rail grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1188_br_60_default_dc_rail_grey_train.gnml
+  identifier: br_60_default_dc_rail_grey_train
+  name_string: str_br_60_default_dc_rail_grey_train_name
+  strings:
+    str_br_60_default_dc_rail_grey_train_name: Class 60 "Tug" - DC Rail Grey
+    str_br_60_default_dc_rail_grey_train_group_name: Class 60 "Tug"
+- id: 1189
+  vehicle: br_60
+  profile: default
+  livery: dc rail "cappagh group" blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1189_br_60_default_dc_rail__cappagh_group__blue_and_grey_train.gnml
+  identifier: br_60_default_dc_rail__cappagh_group__blue_and_grey_train
+  name_string: str_br_60_default_dc_rail__cappagh_group__blue_and_grey_train_name
+  strings:
+    str_br_60_default_dc_rail__cappagh_group__blue_and_grey_train_name: Class 60 "Tug"
+      - DC Rail "Cappagh Group" Blue and Grey
+    str_br_60_default_dc_rail__cappagh_group__blue_and_grey_train_group_name: Class
+      60 "Tug"
