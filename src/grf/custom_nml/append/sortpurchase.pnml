@@ -1,7 +1,33 @@
 // Purchase-list order for trains.
-// Standard Class locomotives are deliberately outside the Class X grouping.
+// 1. Everything else, by introduction date (Standard Class stock included).
+// 2. The BR/privatisation class grouping.
+// 3. Coaches.
+// 4. Wagons.
 // Keep each candidate contiguous; variants retain generated order within the candidate.
 sort(FEAT_TRAINS, [
+  // Standard Class 9F (1954-02-04)
+  br_standard_9f_default_br_black_named_train,
+  br_standard_9f_default_br_black_unnamed_train,
+  br_standard_9f_default_br_green_named_train,
+  br_standard_9f_default_br_green_unnamed_train,
+  // Kestrel (1967-01-01)
+  br_kestrel_default_kestrel_black_and_yellow_train,
+  // APT-E (1972-04-21)
+  br_apt_e_apt_e_4_br_blue_train,
+  // London Underground 1992 Stock (1992-01-01)
+  lu_1992_1992_4_london_underground_train,
+  lu_1992_1992_4_network_southeast_train,
+  lu_1992_1992_8_london_underground_train,
+  lu_1992_1992_8_network_southeast_train,
+  // British Rail MPV Dual-Track (1999-04-21)
+  br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2,
+  br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2,
+  br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2,
+  br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2,
+  // Flying Banana (2003-01-01)
+  br_flying_banana_default_network_rail_train,
+  // London Underground 2009 Stock (2009-01-01)
+  lu_2009_2009_8_london_underground_train,
   // Class 08 "Gronk" (1952-04-21)
   br_08_default_br_black_train,
   br_08_default_br_blue_train,
@@ -157,29 +183,6 @@ sort(FEAT_TRAINS, [
   br_799_7994_porterbrook_hydroflex_green_and_white_train_v2,
   // Class 901 (1956-01-01)
   br_901_9012_network_rail_train,
-  // Standard Class 9F (1954-02-04)
-  br_standard_9f_default_br_black_named_train,
-  br_standard_9f_default_br_black_unnamed_train,
-  br_standard_9f_default_br_green_named_train,
-  br_standard_9f_default_br_green_unnamed_train,
-  // Kestrel (1967-01-01)
-  br_kestrel_default_kestrel_black_and_yellow_train,
-  // APT-E (1972-04-21)
-  br_apt_e_apt_e_4_br_blue_train,
-  // London Underground 1992 Stock (1992-01-01)
-  lu_1992_1992_4_london_underground_train,
-  lu_1992_1992_4_network_southeast_train,
-  lu_1992_1992_8_london_underground_train,
-  lu_1992_1992_8_network_southeast_train,
-  // British Rail MPV Dual-Track (1999-04-21)
-  br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_v2,
-  br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_v2,
-  br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_v2,
-  br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_v2,
-  // Flying Banana (2003-01-01)
-  br_flying_banana_default_network_rail_train,
-  // London Underground 2009 Stock (2009-01-01)
-  lu_2009_2009_8_london_underground_train,
   // Mk3 Sleeper (1982-01-01)
   br_mk3_sleeper_default_br_blue_train,
   br_mk3_sleeper_default_caledonian_sleeper_train,
@@ -200,7 +203,7 @@ sort(FEAT_TRAINS, [
   br_container_default_default_train
 ]);
 
-// Purchase-list order for trams. Each vehicle takes its introduction-date order.
+// Purchase-list order for trams: introduction-date order.
 sort(FEAT_ROADVEHS, [
   // Class 555 Metro (2024-05-01)
   br_555_default_tyne_and_wear_metro_tram_v2,
