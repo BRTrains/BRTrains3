@@ -1,8 +1,8 @@
 output_row,profile,livery,position,sprite_role,source_image,source_x,source_y,template,reused,reverse_role
-0,DEFAULT,Network Rail,0,BR43_NetworkRail,/Users/jon/Dev/BRTrains2/gfx/Diesel/43.png,0,455,template_train32px,False,BR43_NetworkRail
-1,DEFAULT,Network Rail,1,BRMk3TRUK_NetworkRail,/Users/jon/Dev/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TRUK.png,0,438,template_train32px_old,False,BRMk3TRSB_NetworkRail
-2,DEFAULT,Network Rail,2,BRMk3TGS_NetworkRail,/Users/jon/Dev/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TGS.png,0,438,template_train32px_old,False,BRMk3TRUB_NetworkRail
-3,DEFAULT,Network Rail,3,BRMk3TF_NetworkRail,/Users/jon/Dev/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TF.png,0,438,template_train32px_old,False,BRMk3TF_NetworkRail
-4,DEFAULT,Network Rail,4,BRMk3TRUB_NetworkRail,/Users/jon/Dev/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TRUB.png,0,438,template_train32px_old,False,BRMk3TGS_NetworkRail
-5,DEFAULT,Network Rail,5,BRMk3TRSB_NetworkRail,/Users/jon/Dev/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TRSB.png,0,438,template_train32px_old,False,BRMk3TRUK_NetworkRail
-6,DEFAULT,Network Rail,6,BR43_rear_NetworkRail,/Users/jon/Dev/BRTrains2/gfx/Diesel/43.png,200,455,template_train32px,False,BR43_rear_NetworkRail
+0,DEFAULT,Network Rail,0,BR43_NetworkRail,/home/jon/BRTrains2/gfx/Diesel/43.png,0,455,template_train32px,False,BR43_NetworkRail
+1,DEFAULT,Network Rail,1,BRMk3TRUK_NetworkRail,/home/jon/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TRUK.png,0,438,template_train32px_old,False,BRMk3TRSB_NetworkRail
+2,DEFAULT,Network Rail,2,BRMk3TGS_NetworkRail,/home/jon/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TGS.png,0,438,template_train32px_old,False,BRMk3TRUB_NetworkRail
+3,DEFAULT,Network Rail,3,BRMk3TF_NetworkRail,/home/jon/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TF.png,0,438,template_train32px_old,False,BRMk3TF_NetworkRail
+4,DEFAULT,Network Rail,4,BRMk3TRUB_NetworkRail,/home/jon/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TRUB.png,0,438,template_train32px_old,False,BRMk3TGS_NetworkRail
+5,DEFAULT,Network Rail,5,BRMk3TRSB_NetworkRail,/home/jon/BRTrains2/gfx/Rolling Stock/Mk3/BRMk3TRSB.png,0,438,template_train32px_old,False,BRMk3TRUK_NetworkRail
+6,DEFAULT,Network Rail,6,BR43_rear_NetworkRail,/home/jon/BRTrains2/gfx/Diesel/43.png,200,455,template_train32px,False,BR43_rear_NetworkRail

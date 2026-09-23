@@ -1,6 +1,6 @@
 output_row,profile,livery,source_image,source_y,template,reused
-0,DEFAULT,LNER Green,/Users/jon/Dev/BRTrains2/gfx/Electric/76.png,117,template_train24px,false
-1,DEFAULT,BR Black,/Users/jon/Dev/BRTrains2/gfx/Electric/76.png,13,template_train24px,false
-2,DEFAULT,BR Green,/Users/jon/Dev/BRTrains2/gfx/Electric/76.png,39,template_train24px,false
-3,DEFAULT,BR Green (Warning Panels),/Users/jon/Dev/BRTrains2/gfx/Electric/76.png,65,template_train24px,false
-4,DEFAULT,BR Blue,/Users/jon/Dev/BRTrains2/gfx/Electric/76.png,91,template_train24px,false
+0,DEFAULT,LNER Green,/home/jon/BRTrains2/gfx/Electric/76.png,117,template_train24px,false
+1,DEFAULT,BR Black,/home/jon/BRTrains2/gfx/Electric/76.png,13,template_train24px,false
+2,DEFAULT,BR Green,/home/jon/BRTrains2/gfx/Electric/76.png,39,template_train24px,false
+3,DEFAULT,BR Green (Warning Panels),/home/jon/BRTrains2/gfx/Electric/76.png,65,template_train24px,false
+4,DEFAULT,BR Blue,/home/jon/BRTrains2/gfx/Electric/76.png,91,template_train24px,false

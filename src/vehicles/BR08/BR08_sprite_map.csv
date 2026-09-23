@@ -1,17 +1,17 @@
 output_row,pnml_case,livery,spriteset,source_image,source_x,source_y,template,reused
-0,0,BR Green,spriteset_BR08_BRGreen,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,13,template_train16px,false
-1,1,BR Blue,spriteset_BR08_BRBlue,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,39,template_train16px,false
-2,2,BR Black,spriteset_BR08_BRBlack,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,143,template_train16px,false
-3,3,BR Red,spriteset_BR08_BRRed,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,65,template_train16px,false
-4,4,BR General Grey,spriteset_BR08_BRGrey,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,247,template_train16px,false
-5,5,Network Rail Yellow,spriteset_BR08_NRYellow,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,91,template_train16px,false
-6,6,Purple,spriteset_BR08_Purple,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,117,template_train16px,false
-7,7,InterCity Swallow,spriteset_BR08_InterCitySwallow,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,221,template_train16px,false
-8,8,EWS Red and Gold,spriteset_BR08_EWSRed,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,273,template_train16px,false
-9,9,DB Schenker,spriteset_BR08_DB,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,299,template_train16px,false
-10,10,EMT,spriteset_BR08_EMT,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,325,template_train16px,false
-11,11,GBRf,spriteset_BR08_GBRf,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,351,template_train16px,false
-12,12,Freightliner Green,spriteset_BR08_FreightlinerGreen,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,403,template_train16px,false
-13,13,Freightliner Orange,spriteset_BR08_FreightlinerOrange,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,377,template_train16px,false
-14,14,NSE,spriteset_BR08_NSE,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,429,template_train16px,false
-15,15,Progress Rail,spriteset_BR08_ProgressRail,/Users/jon/Dev/BRTrains2/gfx/Diesel/08.png,0,455,template_train16px,false
+0,0,BR Green,spriteset_BR08_BRGreen,/home/jon/BRTrains2/gfx/Diesel/08.png,0,13,template_train16px,false
+1,1,BR Blue,spriteset_BR08_BRBlue,/home/jon/BRTrains2/gfx/Diesel/08.png,0,39,template_train16px,false
+2,2,BR Black,spriteset_BR08_BRBlack,/home/jon/BRTrains2/gfx/Diesel/08.png,0,143,template_train16px,false
+3,3,BR Red,spriteset_BR08_BRRed,/home/jon/BRTrains2/gfx/Diesel/08.png,0,65,template_train16px,false
+4,4,BR General Grey,spriteset_BR08_BRGrey,/home/jon/BRTrains2/gfx/Diesel/08.png,0,247,template_train16px,false
+5,5,Network Rail Yellow,spriteset_BR08_NRYellow,/home/jon/BRTrains2/gfx/Diesel/08.png,0,91,template_train16px,false
+6,6,Purple,spriteset_BR08_Purple,/home/jon/BRTrains2/gfx/Diesel/08.png,0,117,template_train16px,false
+7,7,InterCity Swallow,spriteset_BR08_InterCitySwallow,/home/jon/BRTrains2/gfx/Diesel/08.png,0,221,template_train16px,false
+8,8,EWS Red and Gold,spriteset_BR08_EWSRed,/home/jon/BRTrains2/gfx/Diesel/08.png,0,273,template_train16px,false
+9,9,DB Schenker,spriteset_BR08_DB,/home/jon/BRTrains2/gfx/Diesel/08.png,0,299,template_train16px,false
+10,10,EMT,spriteset_BR08_EMT,/home/jon/BRTrains2/gfx/Diesel/08.png,0,325,template_train16px,false
+11,11,GBRf,spriteset_BR08_GBRf,/home/jon/BRTrains2/gfx/Diesel/08.png,0,351,template_train16px,false
+12,12,Freightliner Green,spriteset_BR08_FreightlinerGreen,/home/jon/BRTrains2/gfx/Diesel/08.png,0,403,template_train16px,false
+13,13,Freightliner Orange,spriteset_BR08_FreightlinerOrange,/home/jon/BRTrains2/gfx/Diesel/08.png,0,377,template_train16px,false
+14,14,NSE,spriteset_BR08_NSE,/home/jon/BRTrains2/gfx/Diesel/08.png,0,429,template_train16px,false
+15,15,Progress Rail,spriteset_BR08_ProgressRail,/home/jon/BRTrains2/gfx/Diesel/08.png,0,455,template_train16px,false

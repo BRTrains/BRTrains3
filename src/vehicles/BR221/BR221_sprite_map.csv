@@ -1,25 +1,25 @@
 output_row,profile,livery,role,source_image,source_y,template,reused
-0,221_5,Virgin,a,/Users/jon/Dev/BRTrains2/gfx/BR220a.png,13,template_train32px_old,false
-1,221_5,Virgin,b,/Users/jon/Dev/BRTrains2/gfx/BR220b.png,13,template_train32px_old,false
-2,221_5,Virgin,c,/Users/jon/Dev/BRTrains2/gfx/BR220c.png,13,template_train32px_old,false
-3,221_5,Avanti West Coast,a,/Users/jon/Dev/BRTrains2/gfx/BR220a.png,63,template_train32px_old,false
-4,221_5,Avanti West Coast,b,/Users/jon/Dev/BRTrains2/gfx/BR220b.png,63,template_train32px_old,false
-5,221_5,Avanti West Coast,c,/Users/jon/Dev/BRTrains2/gfx/BR220c.png,63,template_train32px_old,false
-6,221_5,Grand Central,a,/Users/jon/Dev/BRTrains2/gfx/BR220a.png,88,template_train32px_old,false
-7,221_5,Grand Central,b,/Users/jon/Dev/BRTrains2/gfx/BR220b.png,88,template_train32px_old,false
-8,221_5,Grand Central,c,/Users/jon/Dev/BRTrains2/gfx/BR220c.png,88,template_train32px_old,false
-9,221_5,CrossCountry,a,/Users/jon/Dev/BRTrains2/gfx/BR220a.png,38,template_train32px_old,false
-10,221_5,CrossCountry,b,/Users/jon/Dev/BRTrains2/gfx/BR220b.png,38,template_train32px_old,false
-11,221_5,CrossCountry,c,/Users/jon/Dev/BRTrains2/gfx/BR220c.png,38,template_train32px_old,false
-12,221_5,CrossCountry Refurbished,a,/Users/jon/Dev/BRTrains2/gfx/BR220a.png,113,template_train32px_old,false
-13,221_5,CrossCountry Refurbished,b,/Users/jon/Dev/BRTrains2/gfx/BR220b.png,113,template_train32px_old,false
-14,221_5,CrossCountry Refurbished,c,/Users/jon/Dev/BRTrains2/gfx/BR220c.png,113,template_train32px_old,false
-15,221_4,Virgin,a,/Users/jon/Dev/BRTrains2/gfx/BR220a.png,13,template_train32px_old,true
-16,221_4,Virgin,b,/Users/jon/Dev/BRTrains2/gfx/BR220b.png,13,template_train32px_old,true
-17,221_4,Virgin,c,/Users/jon/Dev/BRTrains2/gfx/BR220c.png,13,template_train32px_old,true
-18,221_4,CrossCountry,a,/Users/jon/Dev/BRTrains2/gfx/BR220a.png,38,template_train32px_old,true
-19,221_4,CrossCountry,b,/Users/jon/Dev/BRTrains2/gfx/BR220b.png,38,template_train32px_old,true
-20,221_4,CrossCountry,c,/Users/jon/Dev/BRTrains2/gfx/BR220c.png,38,template_train32px_old,true
-21,221_4,CrossCountry Refurbished,a,/Users/jon/Dev/BRTrains2/gfx/BR220a.png,113,template_train32px_old,true
-22,221_4,CrossCountry Refurbished,b,/Users/jon/Dev/BRTrains2/gfx/BR220b.png,113,template_train32px_old,true
-23,221_4,CrossCountry Refurbished,c,/Users/jon/Dev/BRTrains2/gfx/BR220c.png,113,template_train32px_old,true
+0,221_5,Virgin,a,/home/jon/BRTrains2/gfx/BR220a.png,13,template_train32px_old,false
+1,221_5,Virgin,b,/home/jon/BRTrains2/gfx/BR220b.png,13,template_train32px_old,false
+2,221_5,Virgin,c,/home/jon/BRTrains2/gfx/BR220c.png,13,template_train32px_old,false
+3,221_5,Avanti West Coast,a,/home/jon/BRTrains2/gfx/BR220a.png,63,template_train32px_old,false
+4,221_5,Avanti West Coast,b,/home/jon/BRTrains2/gfx/BR220b.png,63,template_train32px_old,false
+5,221_5,Avanti West Coast,c,/home/jon/BRTrains2/gfx/BR220c.png,63,template_train32px_old,false
+6,221_5,Grand Central,a,/home/jon/BRTrains2/gfx/BR220a.png,88,template_train32px_old,false
+7,221_5,Grand Central,b,/home/jon/BRTrains2/gfx/BR220b.png,88,template_train32px_old,false
+8,221_5,Grand Central,c,/home/jon/BRTrains2/gfx/BR220c.png,88,template_train32px_old,false
+9,221_5,CrossCountry,a,/home/jon/BRTrains2/gfx/BR220a.png,38,template_train32px_old,false
+10,221_5,CrossCountry,b,/home/jon/BRTrains2/gfx/BR220b.png,38,template_train32px_old,false
+11,221_5,CrossCountry,c,/home/jon/BRTrains2/gfx/BR220c.png,38,template_train32px_old,false
+12,221_5,CrossCountry Refurbished,a,/home/jon/BRTrains2/gfx/BR220a.png,113,template_train32px_old,false
+13,221_5,CrossCountry Refurbished,b,/home/jon/BRTrains2/gfx/BR220b.png,113,template_train32px_old,false
+14,221_5,CrossCountry Refurbished,c,/home/jon/BRTrains2/gfx/BR220c.png,113,template_train32px_old,false
+15,221_4,Virgin,a,/home/jon/BRTrains2/gfx/BR220a.png,13,template_train32px_old,true
+16,221_4,Virgin,b,/home/jon/BRTrains2/gfx/BR220b.png,13,template_train32px_old,true
+17,221_4,Virgin,c,/home/jon/BRTrains2/gfx/BR220c.png,13,template_train32px_old,true
+18,221_4,CrossCountry,a,/home/jon/BRTrains2/gfx/BR220a.png,38,template_train32px_old,true
+19,221_4,CrossCountry,b,/home/jon/BRTrains2/gfx/BR220b.png,38,template_train32px_old,true
+20,221_4,CrossCountry,c,/home/jon/BRTrains2/gfx/BR220c.png,38,template_train32px_old,true
+21,221_4,CrossCountry Refurbished,a,/home/jon/BRTrains2/gfx/BR220a.png,113,template_train32px_old,true
+22,221_4,CrossCountry Refurbished,b,/home/jon/BRTrains2/gfx/BR220b.png,113,template_train32px_old,true
+23,221_4,CrossCountry Refurbished,c,/home/jon/BRTrains2/gfx/BR220c.png,113,template_train32px_old,true
