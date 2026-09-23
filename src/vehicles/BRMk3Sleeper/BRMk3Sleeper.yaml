@@ -8,7 +8,7 @@ info:
 
 stats:
   vehicle_type: train
-  train_type: wagon
+  train_type: coach
   weight: 43
   length: 8
   power: 0

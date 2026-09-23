@@ -8,6 +8,11 @@ versioning:
   version: 1
   compatible_version: 1
 
+# The purchase list is ordered by BRBuild: everything else by introduction date,
+# then the Class grouping, then coaches, then wagons (see BRBuild's docs/project.md).
+purchase_list:
+  order: grouped
+
 params:
   - identifier: param_speed_mode
     name_str: Speed Mode
