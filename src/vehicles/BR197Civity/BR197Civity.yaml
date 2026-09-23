@@ -13,6 +13,8 @@ stats:
   power: 1036
   speed: 100
   tractive_effort: 0.3
+  power_type:
+    - diesel
 
 cargo: passenger
 
