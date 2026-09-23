@@ -5584,7 +5584,7 @@ variants:
 - id: 1175
   vehicle: lms_stanier_8f
   profile: default
-  livery: wd grey
+  livery: war department grey
   vehicle_type: train
   generation: 1
   locked: false
@@ -5596,10 +5596,11 @@ variants:
     lengths:
     - 6
     - 4
-  archive: generated_variants/1175_lms_stanier_8f_default_wd_grey_train.gnml
-  identifier: lms_stanier_8f_default_wd_grey_train
-  name_string: str_lms_stanier_8f_default_wd_grey_train_name
+  archive: generated_variants/1175_lms_stanier_8f_default_war_department_grey_train.gnml
+  identifier: lms_stanier_8f_default_war_department_grey_train
+  name_string: str_lms_stanier_8f_default_war_department_grey_train_name
   strings:
-    str_lms_stanier_8f_default_wd_grey_train_name: LMS Stanier Class 8F 2-8-0 - WD
-      Grey
-    str_lms_stanier_8f_default_wd_grey_train_group_name: LMS Stanier Class 8F 2-8-0
+    str_lms_stanier_8f_default_war_department_grey_train_name: LMS Stanier Class 8F
+      2-8-0 - War Department Grey
+    str_lms_stanier_8f_default_war_department_grey_train_group_name: LMS Stanier Class
+      8F 2-8-0
