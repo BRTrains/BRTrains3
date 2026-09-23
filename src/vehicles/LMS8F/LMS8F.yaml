@@ -1,0 +1,45 @@
+
+special_tags:
+  - subclass/8f
+
+info:
+  identifier: lms_stanier_8f
+  name: 'LMS Stanier Class 8F 2-8-0'
+  sub_name: Steam locomotive
+  based_on: LMS Stanier Class 8F
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 130
+  length: 5
+  power: 1800
+  speed: 50
+  tractive_effort: 0.28
+  power_type:
+    - steam
+
+cargo: none
+dates:
+  introduction_date: 1935-02-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+
+liveries:
+  # Ordered by the PNML graphics switch (cargo_subtype 0..3), not by spriteset
+  # declaration or source y. compose_steam_sheets.py emits one loco+tender row pair per
+  # livery, in this order.
+  - name: 'LMS Black 1935'
+    special_tags: [operator/LMS]
+  - name: 'BR Black (Lion and Wheel)'
+    special_tags: [operator/BR]
+  - name: 'BR Black (Emblem)'
+    special_tags: [operator/BR]
+  - name: 'WD Grey'
+    special_tags: [operator/War Department]

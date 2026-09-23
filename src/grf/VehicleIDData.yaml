@@ -5424,30 +5424,7 @@ variants:
     str_ger_class_c53_default_lner_teak_train_name: GER Class C53 0-6-0T - LNER Teak
     str_ger_class_c53_default_lner_teak_train_single_livery_name: GER Class C53 0-6-0T
       - LNER Teak
-- id: null
-  vehicle: lms_stanier_8f
-  profile: default
-  livery: lms black 1935
-  vehicle_type: train
-  generation: 1
-  locked: false
-  active: false
-  deprecated: false
-  compatibility:
-    capacity: 0
-    articulated_count: 2
-    lengths:
-    - 6
-    - 4
-  archive: generated_variants/1168_lms_stanier_8f_default_lms_black_1935_train.gnml
-  identifier: lms_stanier_8f_default_lms_black_1935_train
-  name_string: str_lms_stanier_8f_default_lms_black_1935_train_name
-  strings:
-    str_lms_stanier_8f_default_lms_black_1935_train_name: LMS Stanier Class 8F 2-8-0
-      - LMS Black 1935
-    str_lms_stanier_8f_default_lms_black_1935_train_group_name: LMS Stanier Class
-      8F 2-8-0
-- id: 1169
+- id: 1168
   vehicle: metropolitan_g_class
   profile: default
   livery: metropolitan crimson
@@ -5461,7 +5438,7 @@ variants:
     articulated_count: 1
     lengths:
     - 6
-  archive: generated_variants/1169_metropolitan_g_class_default_metropolitan_crimson_train.gnml
+  archive: generated_variants/1168_metropolitan_g_class_default_metropolitan_crimson_train.gnml
   identifier: metropolitan_g_class_default_metropolitan_crimson_train
   name_string: str_metropolitan_g_class_default_metropolitan_crimson_train_name
   strings:
@@ -5469,7 +5446,7 @@ variants:
       Railway G Class 0-6-4T - Metropolitan Crimson
     str_metropolitan_g_class_default_metropolitan_crimson_train_group_name: Metropolitan
       Railway G Class 0-6-4T
-- id: 1170
+- id: 1169
   vehicle: metropolitan_g_class
   profile: default
   livery: metropolitan black
@@ -5483,7 +5460,7 @@ variants:
     articulated_count: 1
     lengths:
     - 6
-  archive: generated_variants/1170_metropolitan_g_class_default_metropolitan_black_train.gnml
+  archive: generated_variants/1169_metropolitan_g_class_default_metropolitan_black_train.gnml
   identifier: metropolitan_g_class_default_metropolitan_black_train
   name_string: str_metropolitan_g_class_default_metropolitan_black_train_name
   strings:
@@ -5491,7 +5468,7 @@ variants:
       G Class 0-6-4T - Metropolitan Black
     str_metropolitan_g_class_default_metropolitan_black_train_group_name: Metropolitan
       Railway G Class 0-6-4T
-- id: 1171
+- id: 1170
   vehicle: metropolitan_g_class
   profile: default
   livery: lner apple green
@@ -5505,7 +5482,7 @@ variants:
     articulated_count: 1
     lengths:
     - 6
-  archive: generated_variants/1171_metropolitan_g_class_default_lner_apple_green_train.gnml
+  archive: generated_variants/1170_metropolitan_g_class_default_lner_apple_green_train.gnml
   identifier: metropolitan_g_class_default_lner_apple_green_train
   name_string: str_metropolitan_g_class_default_lner_apple_green_train_name
   strings:
@@ -5513,7 +5490,7 @@ variants:
       G Class 0-6-4T - LNER Apple Green
     str_metropolitan_g_class_default_lner_apple_green_train_group_name: Metropolitan
       Railway G Class 0-6-4T
-- id: 1172
+- id: 1171
   vehicle: metropolitan_g_class
   profile: default
   livery: lner black
@@ -5527,7 +5504,7 @@ variants:
     articulated_count: 1
     lengths:
     - 6
-  archive: generated_variants/1172_metropolitan_g_class_default_lner_black_train.gnml
+  archive: generated_variants/1171_metropolitan_g_class_default_lner_black_train.gnml
   identifier: metropolitan_g_class_default_lner_black_train
   name_string: str_metropolitan_g_class_default_lner_black_train_name
   strings:
@@ -5535,20 +5512,43 @@ variants:
       Class 0-6-4T - LNER Black
     str_metropolitan_g_class_default_lner_black_train_group_name: Metropolitan Railway
       G Class 0-6-4T
-- id: null
+- id: 1172
   vehicle: lms_stanier_8f
   profile: default
-  livery: br black (lion and wheel)
+  livery: lms black 1935
   vehicle_type: train
   generation: 1
   locked: false
-  active: false
+  active: true
   deprecated: false
   compatibility:
     capacity: 0
     articulated_count: 2
     lengths:
     - 6
+    - 6
+  archive: generated_variants/1172_lms_stanier_8f_default_lms_black_1935_train.gnml
+  identifier: lms_stanier_8f_default_lms_black_1935_train
+  name_string: str_lms_stanier_8f_default_lms_black_1935_train_name
+  strings:
+    str_lms_stanier_8f_default_lms_black_1935_train_name: LMS Stanier Class 8F 2-8-0
+      - LMS Black 1935
+    str_lms_stanier_8f_default_lms_black_1935_train_group_name: LMS Stanier Class
+      8F 2-8-0
+- id: 1173
+  vehicle: lms_stanier_8f
+  profile: default
+  livery: br black (lion and wheel)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
     - 4
   archive: generated_variants/1173_lms_stanier_8f_default_br_black__lion_and_wheel__train.gnml
   identifier: lms_stanier_8f_default_br_black__lion_and_wheel__train
@@ -5558,14 +5558,14 @@ variants:
       8F 2-8-0 - BR Black Lion and Wheel
     str_lms_stanier_8f_default_br_black__lion_and_wheel__train_group_name: LMS Stanier
       Class 8F 2-8-0
-- id: null
+- id: 1174
   vehicle: lms_stanier_8f
   profile: default
   livery: br black (emblem)
   vehicle_type: train
   generation: 1
   locked: false
-  active: false
+  active: true
   deprecated: false
   compatibility:
     capacity: 0
@@ -5581,3 +5581,25 @@ variants:
       2-8-0 - BR Black Emblem
     str_lms_stanier_8f_default_br_black__emblem__train_group_name: LMS Stanier Class
       8F 2-8-0
+- id: 1175
+  vehicle: lms_stanier_8f
+  profile: default
+  livery: wd grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
+    - 4
+  archive: generated_variants/1175_lms_stanier_8f_default_wd_grey_train.gnml
+  identifier: lms_stanier_8f_default_wd_grey_train
+  name_string: str_lms_stanier_8f_default_wd_grey_train_name
+  strings:
+    str_lms_stanier_8f_default_wd_grey_train_name: LMS Stanier Class 8F 2-8-0 - WD
+      Grey
+    str_lms_stanier_8f_default_wd_grey_train_group_name: LMS Stanier Class 8F 2-8-0
