@@ -1,0 +1,53 @@
+info:
+  identifier: rm_tpo
+  name: 'Royal Mail TPO'
+  sub_name: Travelling Post Office
+  based_on: British Rail Mark 1 TPO / Propelling Control Vehicle
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 30
+  length: 8
+  power: 0
+  tractive_effort: 0
+
+cargo: parcels
+autorefit: true
+loading_speed: 10
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1963-04-21
+
+profiles:
+  # The TPO body. The artist drew three door configurations and the legacy item showed one at
+  # random per vehicle, which the schema does not express, so its chain is hand-written in
+  # RMTPO.pnml and pointed at from here.
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 50
+    nml_override:
+      default: sw_rm_tpo_root
+    special_tags:
+      - formation/1-car
+      - subclass/rm_tpo
+
+  # The Propelling Control Vehicle: an unpowered driving vehicle that propels a TPO rake under
+  # push-pull working, so it carries `has_cab` and keeps its drawings in a sheet of its own.
+  # It carries nothing itself, which is why it declares `cargo: none` (the Class 901 precedent).
+  - identifier: pcv
+    name: 'PCV'
+    num_vehicles: 1
+    capacity: 0
+    cargo: none
+    introduction_date: 1988-01-01
+    has_cab: true
+    spritesheet: RMTPOPCV.png
+    special_tags:
+      - formation/1-car
+      - subclass/rm_pcv
+
+liveries:
+  - name: 'Royal Mail'
+    special_tags: [operator/Royal Mail]

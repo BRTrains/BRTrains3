@@ -6671,3 +6671,45 @@ variants:
   strings:
     str_br_mk3_dvt_network_rail_train_name: Mk3 Coach - DVT - Network Rail
     str_br_mk3_dvt_network_rail_train_group_name: Mk3 Coach - DVT
+- id: 1221
+  vehicle: rm_tpo
+  profile: default
+  livery: royal mail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1221_rm_tpo_default_royal_mail_train.gnml
+  identifier: rm_tpo_default_royal_mail_train
+  name_string: str_rm_tpo_default_royal_mail_train_name
+  strings:
+    str_rm_tpo_default_royal_mail_train_name: Royal Mail TPO - Royal Mail
+    str_rm_tpo_default_royal_mail_train_single_livery_name: Royal Mail TPO - Royal
+      Mail
+- id: 1222
+  vehicle: rm_tpo
+  profile: pcv
+  livery: royal mail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1222_rm_tpo_pcv_royal_mail_train.gnml
+  identifier: rm_tpo_pcv_royal_mail_train
+  name_string: str_rm_tpo_pcv_royal_mail_train_name
+  strings:
+    str_rm_tpo_pcv_royal_mail_train_name: Royal Mail TPO - PCV - Royal Mail
+    str_rm_tpo_pcv_royal_mail_train_single_livery_name: Royal Mail TPO - PCV - Royal
+      Mail

@@ -1,0 +1,40 @@
+// The Royal Mail TPO body: the artist drew three door configurations and the legacy item showed
+// one of them at random per vehicle (`sw_RMTPO_Random`), which the YAML schema does not express.
+// So the chain is hand-written and the DEFAULT profile points its `default` callback at it with
+// `nml_override`; the builder's own default switch for that profile is skipped.
+//
+// Symbols in dependency order - the spritesets first, then the wrappers, then the switch the item
+// references. Each leaf stores PALETTE_USE_DEFAULT in register 0x100, the register the sprite-stack
+// machinery reads: it clears the "more sprites" bit, so a TPO body draws as a single layer whether
+// or not a lamp detection also set TRAIN_FLAG_SPRITE_STACK on the variant.
+
+spriteset(spriteset_rm_tpo_doors_none, "RMTPO.png") {
+	tmpl_train_8(0, 0)
+}
+
+spriteset(spriteset_rm_tpo_doors_two, "RMTPO.png") {
+	tmpl_train_8(0, 26)
+}
+
+spriteset(spriteset_rm_tpo_doors_three, "RMTPO.png") {
+	tmpl_train_8(0, 52)
+}
+
+switch (FEAT_TRAINS, SELF, sw_rm_tpo_doors_none, STORE_TEMP(PALETTE_USE_DEFAULT, 0x100)) {
+	spriteset_rm_tpo_doors_none;
+}
+
+switch (FEAT_TRAINS, SELF, sw_rm_tpo_doors_two, STORE_TEMP(PALETTE_USE_DEFAULT, 0x100)) {
+	spriteset_rm_tpo_doors_two;
+}
+
+switch (FEAT_TRAINS, SELF, sw_rm_tpo_doors_three, STORE_TEMP(PALETTE_USE_DEFAULT, 0x100)) {
+	spriteset_rm_tpo_doors_three;
+}
+
+// One case each, so a TPO rake mixes door configurations rather than repeating one.
+random_switch (FEAT_TRAINS, SELF, sw_rm_tpo_root) {
+	1: sw_rm_tpo_doors_none;
+	1: sw_rm_tpo_doors_two;
+	1: sw_rm_tpo_doors_three;
+}
