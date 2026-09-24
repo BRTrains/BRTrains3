@@ -26,7 +26,7 @@ profiles:
   - identifier: 'apt_e_4'
     name: 4-Car
     num_vehicles: 4
-    capacity: 150
+    capacity: 37
     special_tags:
       - formation/4-car
       - subclass/apt_e

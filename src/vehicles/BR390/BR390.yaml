@@ -26,7 +26,7 @@ profiles:
   - identifier: '390_9'
     name: 9-Car
     num_vehicles: 9
-    capacity: 451
+    capacity: 50
     power: 6840
     weight: 466
 
@@ -36,7 +36,7 @@ profiles:
   - identifier: '390_11'
     name: 11-Car
     num_vehicles: 11
-    capacity: 601
+    capacity: 54
     power: 7980
     weight: 567
 
