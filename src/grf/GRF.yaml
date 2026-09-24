@@ -28,10 +28,13 @@ params:
     name_str: Capacity Scaling
     desc_str: Scale vehicle capacities
     min_value: 1
-    max_value: 1
+    max_value: 4
     def_value: 1
     names:
       1: 1x
+      2: 2x
+      3: 3x
+      4: 4x
 
   - identifier: param_disable_default_trains
     name_str: Hide Default OpenTTD trains?
