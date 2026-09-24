@@ -1,0 +1,102 @@
+info:
+  identifier: br_mk3
+  name: 'Mk3 Coach'
+  sub_name: Passenger coach
+  based_on: British Rail Mk3
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 43
+  length: 8
+  power: 0
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 14
+
+dates:
+  # Fallback only: both profiles carry the date their own vehicle entered service.
+  introduction_date: 1982-01-01
+
+profiles:
+  # The sleeper draws rows 1-8 of the candidate's own sheet (BRMk3.png), in livery order.
+  - identifier: sleeper
+    name: 'Sleeper'
+    num_vehicles: 1
+    capacity: 26
+    speed: 125
+    introduction_date: 1982-01-01
+    special_tags:
+      - formation/1-car
+      - subclass/mk3_sleeper
+
+  # The DVT is an unpowered driving vehicle, so it keeps its own sheet: its rows are not
+  # intermingled with the coach rows the rest of the family will use. `has_cab` tells OpenTTD
+  # the van may lead a rake, so the train backs up rather than magic-flipping.
+  - identifier: dvt
+    name: 'DVT'
+    num_vehicles: 1
+    capacity: 0
+    speed: 140
+    introduction_date: 1989-01-01
+    has_cab: true
+    spritesheet: BRMk3DVT.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk3_dvt
+
+liveries:
+  - name: 'BR Blue'
+    profiles: [sleeper]
+    special_tags: [operator/BR]
+  - name: 'InterCity'
+    profiles: [sleeper]
+    special_tags: [operator/InterCity]
+  - name: 'First ScotRail'
+    profiles: [sleeper]
+    special_tags: [operator/FirstScotRail]
+  - name: 'ScotRail'
+    profiles: [sleeper]
+    special_tags: [operator/ScotRail]
+  - name: 'Caledonian Sleeper'
+    profiles: [sleeper]
+    special_tags: [operator/CaledonianSleeper]
+  - name: 'Great Western'
+    profiles: [sleeper]
+    special_tags: [operator/GreatWestern]
+  - name: 'GWR'
+    profiles: [sleeper]
+    special_tags: [operator/GWR]
+  - name: 'Stagecoach'
+    profiles: [sleeper]
+    special_tags: [operator/Stagecoach]
+
+  # The DVT's own sheet, in its row order.
+  - name: 'InterCity Swallow'
+    profiles: [dvt]
+    special_tags: [operator/InterCity]
+  - name: 'Virgin'
+    profiles: [dvt]
+    special_tags: [operator/Virgin Trains]
+  - name: 'One'
+    profiles: [dvt]
+    special_tags: [operator/One]
+  - name: 'Chiltern Railways'
+    profiles: [dvt]
+    special_tags: [operator/Chiltern Railways]
+  - name: 'Greater Anglia'
+    profiles: [dvt]
+    special_tags: [operator/Greater Anglia]
+  - name: 'Transport For Wales'
+    profiles: [dvt]
+    special_tags: [operator/TfW Rail]
+  - name: 'Virgin Pretendolino'
+    profiles: [dvt]
+    special_tags: [operator/Virgin Trains]
+  - name: 'Arriva Wales'
+    profiles: [dvt]
+    special_tags: [operator/Arriva Wales]
+  - name: 'Network Rail'
+    profiles: [dvt]
+    special_tags: [operator/Network Rail]

@@ -1501,14 +1501,14 @@ variants:
     str_br_conflat_a_default_default_train_name: Conflat A Container Wagon
     str_br_conflat_a_default_default_train_single_livery_name: Conflat A Container
       Wagon
-- id: 1011
+- id: null
   vehicle: br_mk3_sleeper
   profile: default
   livery: br blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1521,14 +1521,14 @@ variants:
   strings:
     str_br_mk3_sleeper_default_br_blue_train_name: Mk3 Sleeper - BR Blue
     str_br_mk3_sleeper_default_br_blue_train_group_name: Mk3 Sleeper
-- id: 1012
+- id: null
   vehicle: br_mk3_sleeper
   profile: default
   livery: intercity
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1541,14 +1541,14 @@ variants:
   strings:
     str_br_mk3_sleeper_default_intercity_train_name: Mk3 Sleeper - InterCity
     str_br_mk3_sleeper_default_intercity_train_group_name: Mk3 Sleeper
-- id: 1013
+- id: null
   vehicle: br_mk3_sleeper
   profile: default
   livery: first scotrail
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1561,14 +1561,14 @@ variants:
   strings:
     str_br_mk3_sleeper_default_first_scotrail_train_name: Mk3 Sleeper - First ScotRail
     str_br_mk3_sleeper_default_first_scotrail_train_group_name: Mk3 Sleeper
-- id: 1014
+- id: null
   vehicle: br_mk3_sleeper
   profile: default
   livery: scotrail
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1581,14 +1581,14 @@ variants:
   strings:
     str_br_mk3_sleeper_default_scotrail_train_name: Mk3 Sleeper - ScotRail
     str_br_mk3_sleeper_default_scotrail_train_group_name: Mk3 Sleeper
-- id: 1015
+- id: null
   vehicle: br_mk3_sleeper
   profile: default
   livery: caledonian sleeper
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1602,14 +1602,14 @@ variants:
     str_br_mk3_sleeper_default_caledonian_sleeper_train_name: Mk3 Sleeper - Caledonian
       Sleeper
     str_br_mk3_sleeper_default_caledonian_sleeper_train_group_name: Mk3 Sleeper
-- id: 1016
+- id: null
   vehicle: br_mk3_sleeper
   profile: default
   livery: great western
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1622,14 +1622,14 @@ variants:
   strings:
     str_br_mk3_sleeper_default_great_western_train_name: Mk3 Sleeper - Great Western
     str_br_mk3_sleeper_default_great_western_train_group_name: Mk3 Sleeper
-- id: 1017
+- id: null
   vehicle: br_mk3_sleeper
   profile: default
   livery: gwr
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -1642,14 +1642,14 @@ variants:
   strings:
     str_br_mk3_sleeper_default_gwr_train_name: Mk3 Sleeper - GWR
     str_br_mk3_sleeper_default_gwr_train_group_name: Mk3 Sleeper
-- id: 1018
+- id: null
   vehicle: br_mk3_sleeper
   profile: default
   livery: stagecoach
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 26
@@ -5887,3 +5887,787 @@ variants:
       - DC Rail "Cappagh Group" Blue and Grey
     str_br_60_default_dc_rail__cappagh_group__blue_and_grey_train_group_name: Class
       60 "Tug"
+- id: 1011
+  vehicle: br_mk5
+  profile: dvt
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1011_br_mk5_dvt_transpennine_express_train.gnml
+  identifier: br_mk5_dvt_transpennine_express_train
+  name_string: str_br_mk5_dvt_transpennine_express_train_name
+  strings:
+    str_br_mk5_dvt_transpennine_express_train_name: Mk5 Coach - DVT - Transpennine
+      Express
+    str_br_mk5_dvt_transpennine_express_train_group_name: Mk5 Coach - DVT
+- id: 1012
+  vehicle: br_mk5
+  profile: dvt
+  livery: chiltern blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1012_br_mk5_dvt_chiltern_blue_train.gnml
+  identifier: br_mk5_dvt_chiltern_blue_train
+  name_string: str_br_mk5_dvt_chiltern_blue_train_name
+  strings:
+    str_br_mk5_dvt_chiltern_blue_train_name: Mk5 Coach - DVT - Chiltern Blue
+    str_br_mk5_dvt_chiltern_blue_train_group_name: Mk5 Coach - DVT
+- id: 1013
+  vehicle: br_mk4
+  profile: dvt
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1013_br_mk4_dvt_intercity_swallow_train.gnml
+  identifier: br_mk4_dvt_intercity_swallow_train
+  name_string: str_br_mk4_dvt_intercity_swallow_train_name
+  strings:
+    str_br_mk4_dvt_intercity_swallow_train_name: Mk4 Coach - DVT - InterCity Swallow
+    str_br_mk4_dvt_intercity_swallow_train_group_name: Mk4 Coach - DVT
+- id: 1014
+  vehicle: br_mk4
+  profile: dvt
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1014_br_mk4_dvt_national_express_train.gnml
+  identifier: br_mk4_dvt_national_express_train
+  name_string: str_br_mk4_dvt_national_express_train_name
+  strings:
+    str_br_mk4_dvt_national_express_train_name: Mk4 Coach - DVT - National Express
+    str_br_mk4_dvt_national_express_train_group_name: Mk4 Coach - DVT
+- id: 1015
+  vehicle: br_mk4
+  profile: dvt
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1015_br_mk4_dvt_gner_train.gnml
+  identifier: br_mk4_dvt_gner_train
+  name_string: str_br_mk4_dvt_gner_train_name
+  strings:
+    str_br_mk4_dvt_gner_train_name: Mk4 Coach - DVT - GNER
+    str_br_mk4_dvt_gner_train_group_name: Mk4 Coach - DVT
+- id: 1016
+  vehicle: br_mk4
+  profile: dvt
+  livery: east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1016_br_mk4_dvt_east_coast_train.gnml
+  identifier: br_mk4_dvt_east_coast_train
+  name_string: str_br_mk4_dvt_east_coast_train_name
+  strings:
+    str_br_mk4_dvt_east_coast_train_name: Mk4 Coach - DVT - East Coast
+    str_br_mk4_dvt_east_coast_train_group_name: Mk4 Coach - DVT
+- id: 1017
+  vehicle: br_mk4
+  profile: dvt
+  livery: virgin east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1017_br_mk4_dvt_virgin_east_coast_train.gnml
+  identifier: br_mk4_dvt_virgin_east_coast_train
+  name_string: str_br_mk4_dvt_virgin_east_coast_train_name
+  strings:
+    str_br_mk4_dvt_virgin_east_coast_train_name: Mk4 Coach - DVT - Virgin East Coast
+    str_br_mk4_dvt_virgin_east_coast_train_group_name: Mk4 Coach - DVT
+- id: 1018
+  vehicle: br_mk4
+  profile: dvt
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1018_br_mk4_dvt_lner_train.gnml
+  identifier: br_mk4_dvt_lner_train
+  name_string: str_br_mk4_dvt_lner_train_name
+  strings:
+    str_br_mk4_dvt_lner_train_name: Mk4 Coach - DVT - LNER
+    str_br_mk4_dvt_lner_train_group_name: Mk4 Coach - DVT
+- id: 1190
+  vehicle: br_mk2
+  profile: dbso
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1190_br_mk2_dbso_br_blue_train.gnml
+  identifier: br_mk2_dbso_br_blue_train
+  name_string: str_br_mk2_dbso_br_blue_train_name
+  strings:
+    str_br_mk2_dbso_br_blue_train_name: Mk2 Coach - DBSO - BR Blue
+    str_br_mk2_dbso_br_blue_train_group_name: Mk2 Coach - DBSO
+- id: 1191
+  vehicle: br_mk2
+  profile: dbso
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1191_br_mk2_dbso_network_south_east_train.gnml
+  identifier: br_mk2_dbso_network_south_east_train
+  name_string: str_br_mk2_dbso_network_south_east_train_name
+  strings:
+    str_br_mk2_dbso_network_south_east_train_name: Mk2 Coach - DBSO - Network South
+      East
+    str_br_mk2_dbso_network_south_east_train_group_name: Mk2 Coach - DBSO
+- id: 1192
+  vehicle: br_mk2
+  profile: dbso
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1192_br_mk2_dbso_regional_railways_train.gnml
+  identifier: br_mk2_dbso_regional_railways_train
+  name_string: str_br_mk2_dbso_regional_railways_train_name
+  strings:
+    str_br_mk2_dbso_regional_railways_train_name: Mk2 Coach - DBSO - Regional Railways
+    str_br_mk2_dbso_regional_railways_train_group_name: Mk2 Coach - DBSO
+- id: 1193
+  vehicle: br_mk2
+  profile: dbso
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1193_br_mk2_dbso_scotrail_train.gnml
+  identifier: br_mk2_dbso_scotrail_train
+  name_string: str_br_mk2_dbso_scotrail_train_name
+  strings:
+    str_br_mk2_dbso_scotrail_train_name: Mk2 Coach - DBSO - ScotRail
+    str_br_mk2_dbso_scotrail_train_group_name: Mk2 Coach - DBSO
+- id: 1194
+  vehicle: br_mk2
+  profile: dbso
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1194_br_mk2_dbso_anglia_train.gnml
+  identifier: br_mk2_dbso_anglia_train
+  name_string: str_br_mk2_dbso_anglia_train_name
+  strings:
+    str_br_mk2_dbso_anglia_train_name: Mk2 Coach - DBSO - Anglia
+    str_br_mk2_dbso_anglia_train_group_name: Mk2 Coach - DBSO
+- id: 1195
+  vehicle: br_mk2
+  profile: dbso
+  livery: west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1195_br_mk2_dbso_west_coast_train.gnml
+  identifier: br_mk2_dbso_west_coast_train
+  name_string: str_br_mk2_dbso_west_coast_train_name
+  strings:
+    str_br_mk2_dbso_west_coast_train_name: Mk2 Coach - DBSO - West Coast
+    str_br_mk2_dbso_west_coast_train_group_name: Mk2 Coach - DBSO
+- id: 1196
+  vehicle: br_mk2
+  profile: dbso
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1196_br_mk2_dbso_one_train.gnml
+  identifier: br_mk2_dbso_one_train
+  name_string: str_br_mk2_dbso_one_train_name
+  strings:
+    str_br_mk2_dbso_one_train_name: Mk2 Coach - DBSO - One
+    str_br_mk2_dbso_one_train_group_name: Mk2 Coach - DBSO
+- id: 1197
+  vehicle: br_mk2
+  profile: dbso
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1197_br_mk2_dbso_intercity_train.gnml
+  identifier: br_mk2_dbso_intercity_train
+  name_string: str_br_mk2_dbso_intercity_train_name
+  strings:
+    str_br_mk2_dbso_intercity_train_name: Mk2 Coach - DBSO - InterCity
+    str_br_mk2_dbso_intercity_train_group_name: Mk2 Coach - DBSO
+- id: 1198
+  vehicle: br_mk2
+  profile: dbso
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1198_br_mk2_dbso_network_rail_train.gnml
+  identifier: br_mk2_dbso_network_rail_train
+  name_string: str_br_mk2_dbso_network_rail_train_name
+  strings:
+    str_br_mk2_dbso_network_rail_train_name: Mk2 Coach - DBSO - Network Rail
+    str_br_mk2_dbso_network_rail_train_group_name: Mk2 Coach - DBSO
+- id: 1199
+  vehicle: br_mk2
+  profile: dbso
+  livery: arriva wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1199_br_mk2_dbso_arriva_wales_train.gnml
+  identifier: br_mk2_dbso_arriva_wales_train
+  name_string: str_br_mk2_dbso_arriva_wales_train_name
+  strings:
+    str_br_mk2_dbso_arriva_wales_train_name: Mk2 Coach - DBSO - Arriva Wales
+    str_br_mk2_dbso_arriva_wales_train_group_name: Mk2 Coach - DBSO
+- id: 1200
+  vehicle: br_mk2
+  profile: dbso
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1200_br_mk2_dbso_drs_train.gnml
+  identifier: br_mk2_dbso_drs_train
+  name_string: str_br_mk2_dbso_drs_train_name
+  strings:
+    str_br_mk2_dbso_drs_train_name: Mk2 Coach - DBSO - DRS
+    str_br_mk2_dbso_drs_train_group_name: Mk2 Coach - DBSO
+- id: 1201
+  vehicle: br_mk2
+  profile: dbso
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1201_br_mk2_dbso_virgin_train.gnml
+  identifier: br_mk2_dbso_virgin_train
+  name_string: str_br_mk2_dbso_virgin_train_name
+  strings:
+    str_br_mk2_dbso_virgin_train_name: Mk2 Coach - DBSO - Virgin
+    str_br_mk2_dbso_virgin_train_group_name: Mk2 Coach - DBSO
+- id: 1202
+  vehicle: br_mk2
+  profile: dbso
+  livery: fgw
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1202_br_mk2_dbso_fgw_train.gnml
+  identifier: br_mk2_dbso_fgw_train
+  name_string: str_br_mk2_dbso_fgw_train_name
+  strings:
+    str_br_mk2_dbso_fgw_train_name: Mk2 Coach - DBSO - FGW
+    str_br_mk2_dbso_fgw_train_group_name: Mk2 Coach - DBSO
+- id: 1203
+  vehicle: br_mk2
+  profile: dbso
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1203_br_mk2_dbso_first_scotrail_train.gnml
+  identifier: br_mk2_dbso_first_scotrail_train
+  name_string: str_br_mk2_dbso_first_scotrail_train_name
+  strings:
+    str_br_mk2_dbso_first_scotrail_train_name: Mk2 Coach - DBSO - First ScotRail
+    str_br_mk2_dbso_first_scotrail_train_group_name: Mk2 Coach - DBSO
+- id: 1204
+  vehicle: br_mk3
+  profile: sleeper
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1204_br_mk3_sleeper_br_blue_train.gnml
+  identifier: br_mk3_sleeper_br_blue_train
+  name_string: str_br_mk3_sleeper_br_blue_train_name
+  strings:
+    str_br_mk3_sleeper_br_blue_train_name: Mk3 Coach - Sleeper - BR Blue
+    str_br_mk3_sleeper_br_blue_train_group_name: Mk3 Coach - Sleeper
+- id: 1205
+  vehicle: br_mk3
+  profile: sleeper
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1205_br_mk3_sleeper_intercity_train.gnml
+  identifier: br_mk3_sleeper_intercity_train
+  name_string: str_br_mk3_sleeper_intercity_train_name
+  strings:
+    str_br_mk3_sleeper_intercity_train_name: Mk3 Coach - Sleeper - InterCity
+    str_br_mk3_sleeper_intercity_train_group_name: Mk3 Coach - Sleeper
+- id: 1206
+  vehicle: br_mk3
+  profile: sleeper
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1206_br_mk3_sleeper_first_scotrail_train.gnml
+  identifier: br_mk3_sleeper_first_scotrail_train
+  name_string: str_br_mk3_sleeper_first_scotrail_train_name
+  strings:
+    str_br_mk3_sleeper_first_scotrail_train_name: Mk3 Coach - Sleeper - First ScotRail
+    str_br_mk3_sleeper_first_scotrail_train_group_name: Mk3 Coach - Sleeper
+- id: 1207
+  vehicle: br_mk3
+  profile: sleeper
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1207_br_mk3_sleeper_scotrail_train.gnml
+  identifier: br_mk3_sleeper_scotrail_train
+  name_string: str_br_mk3_sleeper_scotrail_train_name
+  strings:
+    str_br_mk3_sleeper_scotrail_train_name: Mk3 Coach - Sleeper - ScotRail
+    str_br_mk3_sleeper_scotrail_train_group_name: Mk3 Coach - Sleeper
+- id: 1208
+  vehicle: br_mk3
+  profile: sleeper
+  livery: caledonian sleeper
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1208_br_mk3_sleeper_caledonian_sleeper_train.gnml
+  identifier: br_mk3_sleeper_caledonian_sleeper_train
+  name_string: str_br_mk3_sleeper_caledonian_sleeper_train_name
+  strings:
+    str_br_mk3_sleeper_caledonian_sleeper_train_name: Mk3 Coach - Sleeper - Caledonian
+      Sleeper
+    str_br_mk3_sleeper_caledonian_sleeper_train_group_name: Mk3 Coach - Sleeper
+- id: 1209
+  vehicle: br_mk3
+  profile: sleeper
+  livery: great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1209_br_mk3_sleeper_great_western_train.gnml
+  identifier: br_mk3_sleeper_great_western_train
+  name_string: str_br_mk3_sleeper_great_western_train_name
+  strings:
+    str_br_mk3_sleeper_great_western_train_name: Mk3 Coach - Sleeper - Great Western
+    str_br_mk3_sleeper_great_western_train_group_name: Mk3 Coach - Sleeper
+- id: 1210
+  vehicle: br_mk3
+  profile: sleeper
+  livery: gwr
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1210_br_mk3_sleeper_gwr_train.gnml
+  identifier: br_mk3_sleeper_gwr_train
+  name_string: str_br_mk3_sleeper_gwr_train_name
+  strings:
+    str_br_mk3_sleeper_gwr_train_name: Mk3 Coach - Sleeper - GWR
+    str_br_mk3_sleeper_gwr_train_group_name: Mk3 Coach - Sleeper
+- id: 1211
+  vehicle: br_mk3
+  profile: sleeper
+  livery: stagecoach
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1211_br_mk3_sleeper_stagecoach_train.gnml
+  identifier: br_mk3_sleeper_stagecoach_train
+  name_string: str_br_mk3_sleeper_stagecoach_train_name
+  strings:
+    str_br_mk3_sleeper_stagecoach_train_name: Mk3 Coach - Sleeper - Stagecoach
+    str_br_mk3_sleeper_stagecoach_train_group_name: Mk3 Coach - Sleeper
+- id: 1212
+  vehicle: br_mk3
+  profile: dvt
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1212_br_mk3_dvt_intercity_swallow_train.gnml
+  identifier: br_mk3_dvt_intercity_swallow_train
+  name_string: str_br_mk3_dvt_intercity_swallow_train_name
+  strings:
+    str_br_mk3_dvt_intercity_swallow_train_name: Mk3 Coach - DVT - InterCity Swallow
+    str_br_mk3_dvt_intercity_swallow_train_group_name: Mk3 Coach - DVT
+- id: 1213
+  vehicle: br_mk3
+  profile: dvt
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1213_br_mk3_dvt_virgin_train.gnml
+  identifier: br_mk3_dvt_virgin_train
+  name_string: str_br_mk3_dvt_virgin_train_name
+  strings:
+    str_br_mk3_dvt_virgin_train_name: Mk3 Coach - DVT - Virgin
+    str_br_mk3_dvt_virgin_train_group_name: Mk3 Coach - DVT
+- id: 1214
+  vehicle: br_mk3
+  profile: dvt
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1214_br_mk3_dvt_one_train.gnml
+  identifier: br_mk3_dvt_one_train
+  name_string: str_br_mk3_dvt_one_train_name
+  strings:
+    str_br_mk3_dvt_one_train_name: Mk3 Coach - DVT - One
+    str_br_mk3_dvt_one_train_group_name: Mk3 Coach - DVT
+- id: 1215
+  vehicle: br_mk3
+  profile: dvt
+  livery: chiltern railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1215_br_mk3_dvt_chiltern_railways_train.gnml
+  identifier: br_mk3_dvt_chiltern_railways_train
+  name_string: str_br_mk3_dvt_chiltern_railways_train_name
+  strings:
+    str_br_mk3_dvt_chiltern_railways_train_name: Mk3 Coach - DVT - Chiltern Railways
+    str_br_mk3_dvt_chiltern_railways_train_group_name: Mk3 Coach - DVT
+- id: 1216
+  vehicle: br_mk3
+  profile: dvt
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1216_br_mk3_dvt_greater_anglia_train.gnml
+  identifier: br_mk3_dvt_greater_anglia_train
+  name_string: str_br_mk3_dvt_greater_anglia_train_name
+  strings:
+    str_br_mk3_dvt_greater_anglia_train_name: Mk3 Coach - DVT - Greater Anglia
+    str_br_mk3_dvt_greater_anglia_train_group_name: Mk3 Coach - DVT
+- id: 1217
+  vehicle: br_mk3
+  profile: dvt
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1217_br_mk3_dvt_transport_for_wales_train.gnml
+  identifier: br_mk3_dvt_transport_for_wales_train
+  name_string: str_br_mk3_dvt_transport_for_wales_train_name
+  strings:
+    str_br_mk3_dvt_transport_for_wales_train_name: Mk3 Coach - DVT - Transport For
+      Wales
+    str_br_mk3_dvt_transport_for_wales_train_group_name: Mk3 Coach - DVT
+- id: 1218
+  vehicle: br_mk3
+  profile: dvt
+  livery: virgin pretendolino
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1218_br_mk3_dvt_virgin_pretendolino_train.gnml
+  identifier: br_mk3_dvt_virgin_pretendolino_train
+  name_string: str_br_mk3_dvt_virgin_pretendolino_train_name
+  strings:
+    str_br_mk3_dvt_virgin_pretendolino_train_name: Mk3 Coach - DVT - Virgin Pretendolino
+    str_br_mk3_dvt_virgin_pretendolino_train_group_name: Mk3 Coach - DVT
+- id: 1219
+  vehicle: br_mk3
+  profile: dvt
+  livery: arriva wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1219_br_mk3_dvt_arriva_wales_train.gnml
+  identifier: br_mk3_dvt_arriva_wales_train
+  name_string: str_br_mk3_dvt_arriva_wales_train_name
+  strings:
+    str_br_mk3_dvt_arriva_wales_train_name: Mk3 Coach - DVT - Arriva Wales
+    str_br_mk3_dvt_arriva_wales_train_group_name: Mk3 Coach - DVT
+- id: 1220
+  vehicle: br_mk3
+  profile: dvt
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1220_br_mk3_dvt_network_rail_train.gnml
+  identifier: br_mk3_dvt_network_rail_train
+  name_string: str_br_mk3_dvt_network_rail_train_name
+  strings:
+    str_br_mk3_dvt_network_rail_train_name: Mk3 Coach - DVT - Network Rail
+    str_br_mk3_dvt_network_rail_train_group_name: Mk3 Coach - DVT

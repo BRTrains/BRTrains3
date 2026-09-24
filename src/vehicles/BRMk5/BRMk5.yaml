@@ -1,0 +1,40 @@
+info:
+  identifier: br_mk5
+  name: 'Mk5 Coach'
+  sub_name: Passenger coach
+  based_on: British Rail Mk5a
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 43
+  length: 8
+  power: 0
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 14
+
+dates:
+  introduction_date: 2019-08-04
+
+profiles:
+  # The DVT is an unpowered driving vehicle: its own sheet (cut from the Mk5a coach sheet, which
+  # is where the legacy art lives) and `has_cab`, so it may lead a rake.
+  - identifier: dvt
+    name: 'DVT'
+    num_vehicles: 1
+    capacity: 60
+    speed: 125
+    introduction_date: 2019-08-04
+    has_cab: true
+    spritesheet: BRMk5DVT.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk5_dvt
+
+liveries:
+  - name: 'Transpennine Express'
+    special_tags: [operator/Transpennine Express]
+  - name: 'Chiltern Blue'
+    special_tags: [operator/Chiltern Railways]

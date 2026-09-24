@@ -1,0 +1,48 @@
+info:
+  identifier: br_mk4
+  name: 'Mk4 Coach'
+  sub_name: Passenger coach
+  based_on: British Rail Mk4
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 43
+  length: 8
+  power: 0
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 14
+
+dates:
+  introduction_date: 1989-01-01
+
+profiles:
+  # The DVT is an unpowered driving vehicle: its own sheet (cut from the Class 91's, which is
+  # where the legacy art lives) and `has_cab`, so it may lead a rake.
+  - identifier: dvt
+    name: 'DVT'
+    num_vehicles: 1
+    capacity: 0
+    speed: 140
+    introduction_date: 1989-01-01
+    has_cab: true
+    spritesheet: BRMk4DVT.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk4_dvt
+
+liveries:
+  - name: 'InterCity Swallow'
+    special_tags: [operator/InterCity]
+  - name: 'National Express'
+    special_tags: [operator/National Express]
+  - name: 'GNER'
+    special_tags: [operator/GNER]
+  - name: 'East Coast'
+    special_tags: [operator/East Coast]
+  - name: 'Virgin East Coast'
+    special_tags: [operator/Virgin Trains]
+  - name: 'LNER'
+    special_tags: [operator/LNER]
