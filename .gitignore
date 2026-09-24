@@ -13,6 +13,7 @@ legacy_fixed.png
 *.png.cache
 *.png.cacheindex
 *.png.sheetcache.json
+*.lightcache.json
 
 /tools
 /src/grf/generated_variants
