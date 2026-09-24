@@ -3252,7 +3252,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 451
+    capacity: 50
     articulated_count: 9
     lengths:
     - 8
@@ -3282,7 +3282,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 451
+    capacity: 50
     articulated_count: 9
     lengths:
     - 8
@@ -3312,7 +3312,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 451
+    capacity: 50
     articulated_count: 9
     lengths:
     - 8
@@ -3342,7 +3342,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 451
+    capacity: 50
     articulated_count: 9
     lengths:
     - 8
@@ -3372,7 +3372,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 601
+    capacity: 54
     articulated_count: 11
     lengths:
     - 8
@@ -3404,7 +3404,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 601
+    capacity: 54
     articulated_count: 11
     lengths:
     - 8
@@ -3436,7 +3436,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 601
+    capacity: 54
     articulated_count: 11
     lengths:
     - 8
@@ -3468,7 +3468,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 601
+    capacity: 54
     articulated_count: 11
     lengths:
     - 8
@@ -3500,7 +3500,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 601
+    capacity: 54
     articulated_count: 11
     lengths:
     - 8
@@ -3532,7 +3532,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 150
+    capacity: 37
     articulated_count: 4
     lengths:
     - 8
