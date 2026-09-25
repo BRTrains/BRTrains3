@@ -13236,3 +13236,1069 @@ variants:
   strings:
     str_br_50_default_br_blue_train_group_name: Class 50
     str_br_50_default_railfreight_grey_train_name: Class 50 - Railfreight Grey
+- id: 1522
+  vehicle: br_37
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1522_br_37_default_br_green_train.gnml
+  identifier: br_37_default_br_green_train
+  name_string: str_br_37_default_br_green_train_name
+  strings:
+    str_br_37_default_br_green_train_name: Class 37 "Tractor" - BR Green
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+- id: 1523
+  vehicle: br_37
+  profile: default
+  livery: br green (centre headcode)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1523_br_37_default_br_green__centre_headcode__train.gnml
+  identifier: br_37_default_br_green__centre_headcode__train
+  name_string: str_br_37_default_br_green__centre_headcode__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_green__centre_headcode__train_name: Class 37 "Tractor" -
+      BR Green Centre Headcode
+- id: 1524
+  vehicle: br_37
+  profile: default
+  livery: br green (split box)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1524_br_37_default_br_green__split_box__train.gnml
+  identifier: br_37_default_br_green__split_box__train
+  name_string: str_br_37_default_br_green__split_box__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_green__split_box__train_name: Class 37 "Tractor" - BR Green
+      Split Box
+- id: 1525
+  vehicle: br_37
+  profile: default
+  livery: br large logo (split box)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1525_br_37_default_br_large_logo__split_box__train.gnml
+  identifier: br_37_default_br_large_logo__split_box__train
+  name_string: str_br_37_default_br_large_logo__split_box__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_large_logo__split_box__train_name: Class 37 "Tractor" - BR
+      Large Logo Split Box
+- id: 1526
+  vehicle: br_37
+  profile: default
+  livery: railfreight large logo (split box)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1526_br_37_default_railfreight_large_logo__split_box__train.gnml
+  identifier: br_37_default_railfreight_large_logo__split_box__train
+  name_string: str_br_37_default_railfreight_large_logo__split_box__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_railfreight_large_logo__split_box__train_name: Class 37 "Tractor"
+      - Railfreight Large Logo Split Box
+- id: 1527
+  vehicle: br_37
+  profile: default
+  livery: railfreight large logo (centre headcode)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1527_br_37_default_railfreight_large_logo__centre_headcode__train.gnml
+  identifier: br_37_default_railfreight_large_logo__centre_headcode__train
+  name_string: str_br_37_default_railfreight_large_logo__centre_headcode__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_railfreight_large_logo__centre_headcode__train_name: Class 37
+      "Tractor" - Railfreight Large Logo Centre Headcode
+- id: 1528
+  vehicle: br_37
+  profile: default
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1528_br_37_default_intercity_train.gnml
+  identifier: br_37_default_intercity_train
+  name_string: str_br_37_default_intercity_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_intercity_train_name: Class 37 "Tractor" - InterCity
+- id: 1529
+  vehicle: br_37
+  profile: default
+  livery: departmental grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1529_br_37_default_departmental_grey_train.gnml
+  identifier: br_37_default_departmental_grey_train
+  name_string: str_br_37_default_departmental_grey_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_departmental_grey_train_name: Class 37 "Tractor" - Departmental
+      Grey
+- id: 1530
+  vehicle: br_37
+  profile: default
+  livery: civil engineers dutch
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1530_br_37_default_civil_engineers_dutch_train.gnml
+  identifier: br_37_default_civil_engineers_dutch_train
+  name_string: str_br_37_default_civil_engineers_dutch_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_civil_engineers_dutch_train_name: Class 37 "Tractor" - Civil
+      Engineers Dutch
+- id: 1531
+  vehicle: br_37
+  profile: default
+  livery: br general grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1531_br_37_default_br_general_grey_train.gnml
+  identifier: br_37_default_br_general_grey_train
+  name_string: str_br_37_default_br_general_grey_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_general_grey_train_name: Class 37 "Tractor" - BR General
+      Grey
+- id: 1532
+  vehicle: br_37
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1532_br_37_default_regional_railways_train.gnml
+  identifier: br_37_default_regional_railways_train
+  name_string: str_br_37_default_regional_railways_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_regional_railways_train_name: Class 37 "Tractor" - Regional
+      Railways
+- id: 1533
+  vehicle: br_37
+  profile: default
+  livery: br blue (centre headcode)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1533_br_37_default_br_blue__centre_headcode__train.gnml
+  identifier: br_37_default_br_blue__centre_headcode__train
+  name_string: str_br_37_default_br_blue__centre_headcode__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_blue__centre_headcode__train_name: Class 37 "Tractor" - BR
+      Blue Centre Headcode
+- id: 1534
+  vehicle: br_37
+  profile: default
+  livery: br large logo (centre headcode)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1534_br_37_default_br_large_logo__centre_headcode__train.gnml
+  identifier: br_37_default_br_large_logo__centre_headcode__train
+  name_string: str_br_37_default_br_large_logo__centre_headcode__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_large_logo__centre_headcode__train_name: Class 37 "Tractor"
+      - BR Large Logo Centre Headcode
+- id: 1535
+  vehicle: br_37
+  profile: default
+  livery: br blue (split box)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1535_br_37_default_br_blue__split_box__train.gnml
+  identifier: br_37_default_br_blue__split_box__train
+  name_string: str_br_37_default_br_blue__split_box__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_blue__split_box__train_name: Class 37 "Tractor" - BR Blue
+      Split Box
+- id: 1536
+  vehicle: br_37
+  profile: default
+  livery: ews (centre headcode)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1536_br_37_default_ews__centre_headcode__train.gnml
+  identifier: br_37_default_ews__centre_headcode__train
+  name_string: str_br_37_default_ews__centre_headcode__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_ews__centre_headcode__train_name: Class 37 "Tractor" - EWS Centre
+      Headcode
+- id: 1537
+  vehicle: br_37
+  profile: default
+  livery: ews (split box)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1537_br_37_default_ews__split_box__train.gnml
+  identifier: br_37_default_ews__split_box__train
+  name_string: str_br_37_default_ews__split_box__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_ews__split_box__train_name: Class 37 "Tractor" - EWS Split Box
+- id: 1538
+  vehicle: br_37
+  profile: default
+  livery: drs (centre headcode)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1538_br_37_default_drs__centre_headcode__train.gnml
+  identifier: br_37_default_drs__centre_headcode__train
+  name_string: str_br_37_default_drs__centre_headcode__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_drs__centre_headcode__train_name: Class 37 "Tractor" - DRS Centre
+      Headcode
+- id: 1539
+  vehicle: br_37
+  profile: default
+  livery: drs (refurbished)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1539_br_37_default_drs__refurbished__train.gnml
+  identifier: br_37_default_drs__refurbished__train
+  name_string: str_br_37_default_drs__refurbished__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_drs__refurbished__train_name: Class 37 "Tractor" - DRS Refurbished
+- id: 1540
+  vehicle: br_37
+  profile: default
+  livery: royal scotsman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1540_br_37_default_royal_scotsman_train.gnml
+  identifier: br_37_default_royal_scotsman_train
+  name_string: str_br_37_default_royal_scotsman_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_royal_scotsman_train_name: Class 37 "Tractor" - Royal Scotsman
+- id: 1541
+  vehicle: br_37
+  profile: default
+  livery: loadhaul
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1541_br_37_default_loadhaul_train.gnml
+  identifier: br_37_default_loadhaul_train
+  name_string: str_br_37_default_loadhaul_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_loadhaul_train_name: Class 37 "Tractor" - Loadhaul
+- id: 1542
+  vehicle: br_37
+  profile: default
+  livery: railfreight petroleum
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1542_br_37_default_railfreight_petroleum_train.gnml
+  identifier: br_37_default_railfreight_petroleum_train
+  name_string: str_br_37_default_railfreight_petroleum_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_railfreight_petroleum_train_name: Class 37 "Tractor" - Railfreight
+      Petroleum
+- id: 1543
+  vehicle: br_37
+  profile: default
+  livery: railfreight distribution
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1543_br_37_default_railfreight_distribution_train.gnml
+  identifier: br_37_default_railfreight_distribution_train
+  name_string: str_br_37_default_railfreight_distribution_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_railfreight_distribution_train_name: Class 37 "Tractor" - Railfreight
+      Distribution
+- id: 1544
+  vehicle: br_37
+  profile: default
+  livery: railfreight construction
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1544_br_37_default_railfreight_construction_train.gnml
+  identifier: br_37_default_railfreight_construction_train
+  name_string: str_br_37_default_railfreight_construction_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_railfreight_construction_train_name: Class 37 "Tractor" - Railfreight
+      Construction
+- id: 1545
+  vehicle: br_37
+  profile: default
+  livery: harry needle railroad
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1545_br_37_default_harry_needle_railroad_train.gnml
+  identifier: br_37_default_harry_needle_railroad_train
+  name_string: str_br_37_default_harry_needle_railroad_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_harry_needle_railroad_train_name: Class 37 "Tractor" - Harry
+      Needle Railroad
+- id: 1546
+  vehicle: br_37
+  profile: default
+  livery: railfreight coal
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1546_br_37_default_railfreight_coal_train.gnml
+  identifier: br_37_default_railfreight_coal_train
+  name_string: str_br_37_default_railfreight_coal_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_railfreight_coal_train_name: Class 37 "Tractor" - Railfreight
+      Coal
+- id: 1547
+  vehicle: br_37
+  profile: default
+  livery: drs (compass)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1547_br_37_default_drs__compass__train.gnml
+  identifier: br_37_default_drs__compass__train
+  name_string: str_br_37_default_drs__compass__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_drs__compass__train_name: Class 37 "Tractor" - DRS Compass
+- id: 1548
+  vehicle: br_37
+  profile: default
+  livery: mainline freight
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1548_br_37_default_mainline_freight_train.gnml
+  identifier: br_37_default_mainline_freight_train
+  name_string: str_br_37_default_mainline_freight_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_mainline_freight_train_name: Class 37 "Tractor" - Mainline Freight
+- id: 1549
+  vehicle: br_37
+  profile: default
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1549_br_37_default_db_schenker_train.gnml
+  identifier: br_37_default_db_schenker_train
+  name_string: str_br_37_default_db_schenker_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_db_schenker_train_name: Class 37 "Tractor" - DB Schenker
+- id: 1550
+  vehicle: br_37
+  profile: default
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1550_br_37_default_colas_rail_train.gnml
+  identifier: br_37_default_colas_rail_train
+  name_string: str_br_37_default_colas_rail_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_colas_rail_train_name: Class 37 "Tractor" - Colas Rail
+- id: 1551
+  vehicle: br_37
+  profile: default
+  livery: banger blue (white stripe)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1551_br_37_default_banger_blue__white_stripe__train.gnml
+  identifier: br_37_default_banger_blue__white_stripe__train
+  name_string: str_br_37_default_banger_blue__white_stripe__train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_banger_blue__white_stripe__train_name: Class 37 "Tractor" -
+      Banger Blue White Stripe
+- id: 1552
+  vehicle: br_37
+  profile: default
+  livery: police
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1552_br_37_default_police_train.gnml
+  identifier: br_37_default_police_train
+  name_string: str_br_37_default_police_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_police_train_name: Class 37 "Tractor" - Police
+- id: 1553
+  vehicle: br_37
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1553_br_37_default_br_black_train.gnml
+  identifier: br_37_default_br_black_train
+  name_string: str_br_37_default_br_black_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_black_train_name: Class 37 "Tractor" - BR Black
+- id: 1554
+  vehicle: br_37
+  profile: default
+  livery: harry needle orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1554_br_37_default_harry_needle_orange_train.gnml
+  identifier: br_37_default_harry_needle_orange_train
+  name_string: str_br_37_default_harry_needle_orange_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_harry_needle_orange_train_name: Class 37 "Tractor" - Harry Needle
+      Orange
+- id: 1555
+  vehicle: br_37
+  profile: default
+  livery: br blue and red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1555_br_37_default_br_blue_and_red_train.gnml
+  identifier: br_37_default_br_blue_and_red_train
+  name_string: str_br_37_default_br_blue_and_red_train_name
+  strings:
+    str_br_37_default_br_green_train_group_name: Class 37 "Tractor"
+    str_br_37_default_br_blue_and_red_train_name: Class 37 "Tractor" - BR Blue and
+      Red
+- id: 1556
+  vehicle: br_33
+  profile: '0'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1556_br_33_0_br_green_train.gnml
+  identifier: br_33_0_br_green_train
+  name_string: str_br_33_0_br_green_train_name
+  strings:
+    str_br_33_0_br_green_train_name: Class 33 "Cromptons" - 0 - BR Green
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+- id: 1557
+  vehicle: br_33
+  profile: '0'
+  livery: br green yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1557_br_33_0_br_green_yellow_train.gnml
+  identifier: br_33_0_br_green_yellow_train
+  name_string: str_br_33_0_br_green_yellow_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_br_green_yellow_train_name: Class 33 "Cromptons" - 0 - BR Green Yellow
+- id: 1558
+  vehicle: br_33
+  profile: '0'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1558_br_33_0_br_blue_train.gnml
+  identifier: br_33_0_br_blue_train
+  name_string: str_br_33_0_br_blue_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_br_blue_train_name: Class 33 "Cromptons" - 0 - BR Blue
+- id: 1559
+  vehicle: br_33
+  profile: '0'
+  livery: br blue (yellow front)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1559_br_33_0_br_blue__yellow_front__train.gnml
+  identifier: br_33_0_br_blue__yellow_front__train
+  name_string: str_br_33_0_br_blue__yellow_front__train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_br_blue__yellow_front__train_name: Class 33 "Cromptons" - 0 - BR Blue
+      Yellow Front
+- id: 1560
+  vehicle: br_33
+  profile: '0'
+  livery: nse
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1560_br_33_0_nse_train.gnml
+  identifier: br_33_0_nse_train
+  name_string: str_br_33_0_nse_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_nse_train_name: Class 33 "Cromptons" - 0 - NSE
+- id: 1561
+  vehicle: br_33
+  profile: '0'
+  livery: fragonset
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1561_br_33_0_fragonset_train.gnml
+  identifier: br_33_0_fragonset_train
+  name_string: str_br_33_0_fragonset_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_fragonset_train_name: Class 33 "Cromptons" - 0 - Fragonset
+- id: 1562
+  vehicle: br_33
+  profile: '0'
+  livery: railfreight distribution
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1562_br_33_0_railfreight_distribution_train.gnml
+  identifier: br_33_0_railfreight_distribution_train
+  name_string: str_br_33_0_railfreight_distribution_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_railfreight_distribution_train_name: Class 33 "Cromptons" - 0 - Railfreight
+      Distribution
+- id: 1563
+  vehicle: br_33
+  profile: '0'
+  livery: railfreight construction
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1563_br_33_0_railfreight_construction_train.gnml
+  identifier: br_33_0_railfreight_construction_train
+  name_string: str_br_33_0_railfreight_construction_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_railfreight_construction_train_name: Class 33 "Cromptons" - 0 - Railfreight
+      Construction
+- id: 1564
+  vehicle: br_33
+  profile: '0'
+  livery: engineers
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1564_br_33_0_engineers_train.gnml
+  identifier: br_33_0_engineers_train
+  name_string: str_br_33_0_engineers_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_engineers_train_name: Class 33 "Cromptons" - 0 - Engineers
+- id: 1565
+  vehicle: br_33
+  profile: '0'
+  livery: fragonset ews
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1565_br_33_0_fragonset_ews_train.gnml
+  identifier: br_33_0_fragonset_ews_train
+  name_string: str_br_33_0_fragonset_ews_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_fragonset_ews_train_name: Class 33 "Cromptons" - 0 - Fragonset EWS
+- id: 1566
+  vehicle: br_33
+  profile: '0'
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1566_br_33_0_drs_train.gnml
+  identifier: br_33_0_drs_train
+  name_string: str_br_33_0_drs_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_drs_train_name: Class 33 "Cromptons" - 0 - DRS
+- id: 1567
+  vehicle: br_33
+  profile: '0'
+  livery: west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1567_br_33_0_west_coast_train.gnml
+  identifier: br_33_0_west_coast_train
+  name_string: str_br_33_0_west_coast_train_name
+  strings:
+    str_br_33_0_br_green_train_group_name: Class 33 "Cromptons" - 0
+    str_br_33_0_west_coast_train_name: Class 33 "Cromptons" - 0 - West Coast
+- id: 1568
+  vehicle: br_33
+  profile: '1'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1568_br_33_1_br_green_train.gnml
+  identifier: br_33_1_br_green_train
+  name_string: str_br_33_1_br_green_train_name
+  strings:
+    str_br_33_1_br_green_train_name: Class 33 "Cromptons" - 1 - BR Green
+    str_br_33_1_br_green_train_group_name: Class 33 "Cromptons" - 1
+- id: 1569
+  vehicle: br_33
+  profile: '1'
+  livery: br green yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1569_br_33_1_br_green_yellow_train.gnml
+  identifier: br_33_1_br_green_yellow_train
+  name_string: str_br_33_1_br_green_yellow_train_name
+  strings:
+    str_br_33_1_br_green_train_group_name: Class 33 "Cromptons" - 1
+    str_br_33_1_br_green_yellow_train_name: Class 33 "Cromptons" - 1 - BR Green Yellow
+- id: 1570
+  vehicle: br_33
+  profile: '1'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1570_br_33_1_br_blue_train.gnml
+  identifier: br_33_1_br_blue_train
+  name_string: str_br_33_1_br_blue_train_name
+  strings:
+    str_br_33_1_br_green_train_group_name: Class 33 "Cromptons" - 1
+    str_br_33_1_br_blue_train_name: Class 33 "Cromptons" - 1 - BR Blue
+- id: 1571
+  vehicle: br_33
+  profile: '1'
+  livery: br blue (yellow front)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1571_br_33_1_br_blue__yellow_front__train.gnml
+  identifier: br_33_1_br_blue__yellow_front__train
+  name_string: str_br_33_1_br_blue__yellow_front__train_name
+  strings:
+    str_br_33_1_br_green_train_group_name: Class 33 "Cromptons" - 1
+    str_br_33_1_br_blue__yellow_front__train_name: Class 33 "Cromptons" - 1 - BR Blue
+      Yellow Front
+- id: 1572
+  vehicle: br_33
+  profile: '1'
+  livery: nse
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1572_br_33_1_nse_train.gnml
+  identifier: br_33_1_nse_train
+  name_string: str_br_33_1_nse_train_name
+  strings:
+    str_br_33_1_br_green_train_group_name: Class 33 "Cromptons" - 1
+    str_br_33_1_nse_train_name: Class 33 "Cromptons" - 1 - NSE
+- id: 1573
+  vehicle: br_33
+  profile: '1'
+  livery: fragonset
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1573_br_33_1_fragonset_train.gnml
+  identifier: br_33_1_fragonset_train
+  name_string: str_br_33_1_fragonset_train_name
+  strings:
+    str_br_33_1_br_green_train_group_name: Class 33 "Cromptons" - 1
+    str_br_33_1_fragonset_train_name: Class 33 "Cromptons" - 1 - Fragonset
