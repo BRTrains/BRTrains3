@@ -1,0 +1,47 @@
+
+info:
+  identifier: br_13
+  name: 'Class 13'
+  sub_name: Shunter
+  based_on: British Rail Class 13
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 122
+  length: 4
+  power: 800
+  speed: 20
+  tractive_effort: 0.26046
+  power_type:
+    - diesel
+  # The legacy `item_BR13` (BRTrains2/src/trains/diesel_loco/13.pnml, 720) declares
+  # `track_type: RAIL`; the classifier emits the same for a self-powered unit, so it is
+  # left unset. There is no `param_max_speed` switch, so no `design_speed` was invented.
+
+cargo: none
+
+dates:
+  introduction_date: 1965-04-21
+
+profiles:
+  # The legacy pairs a "master" and a "slave" drawing through
+  # `switch_articulated_BR13` (parts 0 and 1) and `sw_BR13_BRGreen` /
+  # `sw_BR13_BRBlue`, so the formation is two articulated parts over a two-row group.
+  # YAML livery order is `sw_BR13`'s cargo-subtype order: 0 BR Green, 1 BR Blue.
+  - identifier: DEFAULT
+    num_vehicles: 2
+    # `item_BR13`'s callback is `return 0` and its `cargo_capacity` property is 1, i.e.
+    # the item carries nothing; the capacity is zero, as on the Class 08.
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/13
+
+liveries:
+  # Names from the legacy `sw_BR13_cargo_subtype_text` (`str_BRGreen`, `str_BRBlue`).
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]

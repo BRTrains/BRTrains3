@@ -12986,3 +12986,45 @@ variants:
     str_br_69_default_gbrf_railfreight_grey_train_name: Class 69 - GBRf Railfreight
       Grey
     str_br_69_default_gbrf_railfreight_grey_train_group_name: Class 69
+- id: 1505
+  vehicle: br_13
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
+    - 4
+  archive: generated_variants/1505_br_13_default_br_green_train.gnml
+  identifier: br_13_default_br_green_train
+  name_string: str_br_13_default_br_green_train_name
+  strings:
+    str_br_13_default_br_green_train_name: Class 13 - BR Green
+    str_br_13_default_br_green_train_group_name: Class 13
+- id: 1506
+  vehicle: br_13
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
+    - 4
+  archive: generated_variants/1506_br_13_default_br_blue_train.gnml
+  identifier: br_13_default_br_blue_train
+  name_string: str_br_13_default_br_blue_train_name
+  strings:
+    str_br_13_default_br_blue_train_name: Class 13 - BR Blue
+    str_br_13_default_br_blue_train_group_name: Class 13
