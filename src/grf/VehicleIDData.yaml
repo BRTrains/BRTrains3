@@ -18553,3 +18553,23 @@ variants:
     str_br_322_322_4_stansted_express_gold_train_group_name: Class 322 - 4-Car
     str_br_322_322_4_northern_rail___interim_2_train_name: Class 322 - 4-Car - Northern
       Rail - Interim 2
+- id: 1770
+  vehicle: br_eurotunnel_class9
+  profile: default
+  livery: eurotunnel blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1770_br_eurotunnel_class9_default_eurotunnel_blue_and_grey_train.gnml
+  identifier: br_eurotunnel_class9_default_eurotunnel_blue_and_grey_train
+  name_string: str_br_eurotunnel_class9_default_eurotunnel_blue_and_grey_train_name
+  strings:
+    str_br_eurotunnel_class9_default_eurotunnel_blue_and_grey_train_name: Eurotunnel
+      Class 9 - Eurotunnel Blue and Grey
