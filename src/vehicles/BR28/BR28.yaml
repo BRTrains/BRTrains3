@@ -1,0 +1,60 @@
+info:
+  identifier: br_28
+  name: 'Class 28 "Metrovick"'
+  sub_name: Diesel-electric locomotive
+  based_on: British Rail Class 28
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 97
+  length: 7
+  power: 1200
+  speed: 75
+  tractive_effort: 0.229
+  power_type:
+    - diesel
+  # The legacy `item_BR28` (BRTrains2/src/trains/diesel_loco/28.pnml, 692) declares
+  # `track_type: RAIL`; the classifier emits the same for a self-powered unit, so it is
+  # left unset here, as on the rest of the diesel locomotive imports.
+
+cargo: none
+
+loading_speed: 3
+
+dates:
+  introduction_date: 1959-01-01
+
+profiles:
+  # A one-car locomotive: `28.pnml` declares no `articulated_part` callback and no
+  # `num_vehicles`, so the unit is a single part. The legacy `sw_BR28` selects a
+  # `template_train28px_reversed` drawing at `position_in_consist` 1 to flip a second
+  # vehicle in a double-headed consist; BRBuild emits the reversal itself, so no
+  # `sprite_override` is authored here and only the five forward drawings are composited.
+  - identifier: DEFAULT
+    num_vehicles: 1
+    # `item_BR28`'s graphics callback is `return 0` (the legacy `cargo_capacity: 1`
+    # property is only the placeholder the callback overrides); the unit carries no cargo.
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/28
+
+liveries:
+  # Ordered by BRTrains2's `sw_BR28_cargo_subtype_text` (0..4), which is also
+  # `sw_BR28_normal`'s band order on `gfx/Diesel/28.png` (five bands at y = 13 + 26k on
+  # the legacy `template_train28px` = BRBuild's `tmpl_train_7`). The band-to-livery
+  # labelling was taken from the legacy spriteset names the switch selects
+  # (`spriteset_BR28_BRGreen` etc.), because the two green bands' colour censuses differ
+  # only in the count of a shared green - the panel/yellow detail is a narrow band of
+  # pixels the census cannot separate. See /home/jon/BRTrains3-import-oddities.md.
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Green Panel'
+    special_tags: [operator/BR]
+  - name: 'BR Green Yellow'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Research'
+    special_tags: [operator/BR]

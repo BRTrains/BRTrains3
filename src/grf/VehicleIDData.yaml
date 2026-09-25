@@ -12262,3 +12262,104 @@ variants:
   strings:
     str_br_150_2_default_northern_train_name: Class 150/2 "Sprinter" - Northern
     str_br_150_2_default_northern_train_group_name: Class 150/2 "Sprinter"
+- id: 1475
+  vehicle: br_28
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1475_br_28_default_br_green_train.gnml
+  identifier: br_28_default_br_green_train
+  name_string: str_br_28_default_br_green_train_name
+  strings:
+    str_br_28_default_br_green_train_name: Class 28 "Metrovick" - BR Green
+    str_br_28_default_br_green_train_group_name: Class 28 "Metrovick"
+- id: 1476
+  vehicle: br_28
+  profile: default
+  livery: br green panel
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1476_br_28_default_br_green_panel_train.gnml
+  identifier: br_28_default_br_green_panel_train
+  name_string: str_br_28_default_br_green_panel_train_name
+  strings:
+    str_br_28_default_br_green_panel_train_name: Class 28 "Metrovick" - BR Green Panel
+    str_br_28_default_br_green_panel_train_group_name: Class 28 "Metrovick"
+- id: 1477
+  vehicle: br_28
+  profile: default
+  livery: br green yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1477_br_28_default_br_green_yellow_train.gnml
+  identifier: br_28_default_br_green_yellow_train
+  name_string: str_br_28_default_br_green_yellow_train_name
+  strings:
+    str_br_28_default_br_green_yellow_train_name: Class 28 "Metrovick" - BR Green
+      Yellow
+    str_br_28_default_br_green_yellow_train_group_name: Class 28 "Metrovick"
+- id: 1478
+  vehicle: br_28
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1478_br_28_default_br_blue_train.gnml
+  identifier: br_28_default_br_blue_train
+  name_string: str_br_28_default_br_blue_train_name
+  strings:
+    str_br_28_default_br_blue_train_name: Class 28 "Metrovick" - BR Blue
+    str_br_28_default_br_blue_train_group_name: Class 28 "Metrovick"
+- id: 1479
+  vehicle: br_28
+  profile: default
+  livery: br research
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1479_br_28_default_br_research_train.gnml
+  identifier: br_28_default_br_research_train
+  name_string: str_br_28_default_br_research_train_name
+  strings:
+    str_br_28_default_br_research_train_name: Class 28 "Metrovick" - BR Research
+    str_br_28_default_br_research_train_group_name: Class 28 "Metrovick"
