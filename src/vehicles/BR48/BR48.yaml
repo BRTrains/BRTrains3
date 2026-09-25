@@ -1,0 +1,35 @@
+info:
+  identifier: br_48
+  name: Class 48
+  sub_name: Mixed traffic diesel locomotive
+  based_on: British Rail Class 48
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 112
+  length: 8
+  power: 2650
+  speed: 95
+  tractive_effort: 0.25
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1965-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/48
+
+liveries:
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]

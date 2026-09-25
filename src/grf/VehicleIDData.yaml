@@ -13028,3 +13028,43 @@ variants:
   strings:
     str_br_13_default_br_blue_train_name: Class 13 - BR Blue
     str_br_13_default_br_blue_train_group_name: Class 13
+- id: 1507
+  vehicle: br_48
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1507_br_48_default_br_green_train.gnml
+  identifier: br_48_default_br_green_train
+  name_string: str_br_48_default_br_green_train_name
+  strings:
+    str_br_48_default_br_green_train_name: Class 48 - BR Green
+    str_br_48_default_br_green_train_group_name: Class 48
+- id: 1508
+  vehicle: br_48
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1508_br_48_default_br_blue_train.gnml
+  identifier: br_48_default_br_blue_train
+  name_string: str_br_48_default_br_blue_train_name
+  strings:
+    str_br_48_default_br_blue_train_name: Class 48 - BR Blue
+    str_br_48_default_br_blue_train_group_name: Class 48
