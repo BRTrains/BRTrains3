@@ -1,0 +1,71 @@
+info:
+  identifier: br_31
+  name: 'Class 31 "Gurgler"'
+  sub_name: Express passenger diesel locomotive
+  based_on: British Rail Class 31
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 106
+  length: 8
+  power: 1470
+  speed: 90
+  tractive_effort: 0.275
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1957-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/31
+
+liveries:
+  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR31, cargo_subtype)` (0..16),
+  # whose `cargo_subtype_text` switch names each subtype. Every subtype has its own
+  # spriteset on gfx/BR31.png, so the sheet holds one band per livery and
+  # compose_br31_sheet.py re-stacks them in this order. The bands whose declared
+  # identity the artwork does not corroborate are listed in
+  # /home/jon/BRTrains3-import-oddities.md.
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue (Yellow Front)'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'Network Rail'
+    special_tags: [operator/Network Rail]
+  - name: 'Network Rail Infrastructure'
+    special_tags: [operator/Network Rail]
+  - name: 'Network Rail Top Gear'
+    special_tags: [operator/Network Rail, operator/Top Gear]
+  - name: InterCity
+    special_tags: [operator/InterCity]
+  - name: EWS
+    special_tags: [operator/EWS]
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'Wessex Trains'
+    special_tags: [operator/Wessex Trains]
+  - name: Freightliner
+    special_tags: [operator/Freightliner]
+  - name: 'DC Rail Grey'
+    special_tags: [operator/DC Rail]
+  - name: 'DC Rail Green'
+    special_tags: [operator/DC Rail]
+  - name: Railtrack
+    special_tags: [operator/Railtrack]
+  - name: 'Railfreight Distribution'
+    special_tags: [operator/Railfreight]
+  - name: 'Railfreight Construction'
+    special_tags: [operator/Railfreight]
+  - name: 'Civil Engineers Dutch'
+    special_tags: [operator/BR]

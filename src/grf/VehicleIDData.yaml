@@ -7879,3 +7879,350 @@ variants:
   strings:
     str_br_56_default_artemis_train_name: Class 56 "Gridiron" - Artemis
     str_br_56_default_artemis_train_group_name: Class 56 "Gridiron"
+- id: 1276
+  vehicle: br_31
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1276_br_31_default_br_green_train.gnml
+  identifier: br_31_default_br_green_train
+  name_string: str_br_31_default_br_green_train_name
+  strings:
+    str_br_31_default_br_green_train_name: Class 31 "Gurgler" - BR Green
+    str_br_31_default_br_green_train_group_name: Class 31 "Gurgler"
+- id: 1277
+  vehicle: br_31
+  profile: default
+  livery: br blue (yellow front)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1277_br_31_default_br_blue__yellow_front__train.gnml
+  identifier: br_31_default_br_blue__yellow_front__train
+  name_string: str_br_31_default_br_blue__yellow_front__train_name
+  strings:
+    str_br_31_default_br_blue__yellow_front__train_name: Class 31 "Gurgler" - BR Blue
+      Yellow Front
+    str_br_31_default_br_blue__yellow_front__train_group_name: Class 31 "Gurgler"
+- id: 1278
+  vehicle: br_31
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1278_br_31_default_br_blue_train.gnml
+  identifier: br_31_default_br_blue_train
+  name_string: str_br_31_default_br_blue_train_name
+  strings:
+    str_br_31_default_br_blue_train_name: Class 31 "Gurgler" - BR Blue
+    str_br_31_default_br_blue_train_group_name: Class 31 "Gurgler"
+- id: 1279
+  vehicle: br_31
+  profile: default
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1279_br_31_default_network_rail_train.gnml
+  identifier: br_31_default_network_rail_train
+  name_string: str_br_31_default_network_rail_train_name
+  strings:
+    str_br_31_default_network_rail_train_name: Class 31 "Gurgler" - Network Rail
+    str_br_31_default_network_rail_train_group_name: Class 31 "Gurgler"
+- id: 1280
+  vehicle: br_31
+  profile: default
+  livery: network rail infrastructure
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1280_br_31_default_network_rail_infrastructure_train.gnml
+  identifier: br_31_default_network_rail_infrastructure_train
+  name_string: str_br_31_default_network_rail_infrastructure_train_name
+  strings:
+    str_br_31_default_network_rail_infrastructure_train_name: Class 31 "Gurgler" -
+      Network Rail Infrastructure
+    str_br_31_default_network_rail_infrastructure_train_group_name: Class 31 "Gurgler"
+- id: 1281
+  vehicle: br_31
+  profile: default
+  livery: network rail top gear
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1281_br_31_default_network_rail_top_gear_train.gnml
+  identifier: br_31_default_network_rail_top_gear_train
+  name_string: str_br_31_default_network_rail_top_gear_train_name
+  strings:
+    str_br_31_default_network_rail_top_gear_train_name: Class 31 "Gurgler" - Network
+      Rail Top Gear
+    str_br_31_default_network_rail_top_gear_train_group_name: Class 31 "Gurgler"
+- id: 1282
+  vehicle: br_31
+  profile: default
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1282_br_31_default_intercity_train.gnml
+  identifier: br_31_default_intercity_train
+  name_string: str_br_31_default_intercity_train_name
+  strings:
+    str_br_31_default_intercity_train_name: Class 31 "Gurgler" - InterCity
+    str_br_31_default_intercity_train_group_name: Class 31 "Gurgler"
+- id: 1283
+  vehicle: br_31
+  profile: default
+  livery: ews
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1283_br_31_default_ews_train.gnml
+  identifier: br_31_default_ews_train
+  name_string: str_br_31_default_ews_train_name
+  strings:
+    str_br_31_default_ews_train_name: Class 31 "Gurgler" - EWS
+    str_br_31_default_ews_train_group_name: Class 31 "Gurgler"
+- id: 1284
+  vehicle: br_31
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1284_br_31_default_regional_railways_train.gnml
+  identifier: br_31_default_regional_railways_train
+  name_string: str_br_31_default_regional_railways_train_name
+  strings:
+    str_br_31_default_regional_railways_train_name: Class 31 "Gurgler" - Regional
+      Railways
+    str_br_31_default_regional_railways_train_group_name: Class 31 "Gurgler"
+- id: 1285
+  vehicle: br_31
+  profile: default
+  livery: wessex trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1285_br_31_default_wessex_trains_train.gnml
+  identifier: br_31_default_wessex_trains_train
+  name_string: str_br_31_default_wessex_trains_train_name
+  strings:
+    str_br_31_default_wessex_trains_train_name: Class 31 "Gurgler" - Wessex Trains
+    str_br_31_default_wessex_trains_train_group_name: Class 31 "Gurgler"
+- id: 1286
+  vehicle: br_31
+  profile: default
+  livery: freightliner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1286_br_31_default_freightliner_train.gnml
+  identifier: br_31_default_freightliner_train
+  name_string: str_br_31_default_freightliner_train_name
+  strings:
+    str_br_31_default_freightliner_train_name: Class 31 "Gurgler" - Freightliner
+    str_br_31_default_freightliner_train_group_name: Class 31 "Gurgler"
+- id: 1287
+  vehicle: br_31
+  profile: default
+  livery: dc rail grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1287_br_31_default_dc_rail_grey_train.gnml
+  identifier: br_31_default_dc_rail_grey_train
+  name_string: str_br_31_default_dc_rail_grey_train_name
+  strings:
+    str_br_31_default_dc_rail_grey_train_name: Class 31 "Gurgler" - DC Rail Grey
+    str_br_31_default_dc_rail_grey_train_group_name: Class 31 "Gurgler"
+- id: 1288
+  vehicle: br_31
+  profile: default
+  livery: dc rail green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1288_br_31_default_dc_rail_green_train.gnml
+  identifier: br_31_default_dc_rail_green_train
+  name_string: str_br_31_default_dc_rail_green_train_name
+  strings:
+    str_br_31_default_dc_rail_green_train_name: Class 31 "Gurgler" - DC Rail Green
+    str_br_31_default_dc_rail_green_train_group_name: Class 31 "Gurgler"
+- id: 1289
+  vehicle: br_31
+  profile: default
+  livery: railtrack
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1289_br_31_default_railtrack_train.gnml
+  identifier: br_31_default_railtrack_train
+  name_string: str_br_31_default_railtrack_train_name
+  strings:
+    str_br_31_default_railtrack_train_name: Class 31 "Gurgler" - Railtrack
+    str_br_31_default_railtrack_train_group_name: Class 31 "Gurgler"
+- id: 1290
+  vehicle: br_31
+  profile: default
+  livery: railfreight distribution
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1290_br_31_default_railfreight_distribution_train.gnml
+  identifier: br_31_default_railfreight_distribution_train
+  name_string: str_br_31_default_railfreight_distribution_train_name
+  strings:
+    str_br_31_default_railfreight_distribution_train_name: Class 31 "Gurgler" - Railfreight
+      Distribution
+    str_br_31_default_railfreight_distribution_train_group_name: Class 31 "Gurgler"
+- id: 1291
+  vehicle: br_31
+  profile: default
+  livery: railfreight construction
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1291_br_31_default_railfreight_construction_train.gnml
+  identifier: br_31_default_railfreight_construction_train
+  name_string: str_br_31_default_railfreight_construction_train_name
+  strings:
+    str_br_31_default_railfreight_construction_train_name: Class 31 "Gurgler" - Railfreight
+      Construction
+    str_br_31_default_railfreight_construction_train_group_name: Class 31 "Gurgler"
+- id: 1292
+  vehicle: br_31
+  profile: default
+  livery: civil engineers dutch
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1292_br_31_default_civil_engineers_dutch_train.gnml
+  identifier: br_31_default_civil_engineers_dutch_train
+  name_string: str_br_31_default_civil_engineers_dutch_train_name
+  strings:
+    str_br_31_default_civil_engineers_dutch_train_name: Class 31 "Gurgler" - Civil
+      Engineers Dutch
+    str_br_31_default_civil_engineers_dutch_train_group_name: Class 31 "Gurgler"
