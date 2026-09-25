@@ -15587,3 +15587,55 @@ variants:
       CC
     str_br_70og_default_br_blue_train_name: Class 70 Southern Railway Class CC - BR
       Blue
+- id: 1637
+  vehicle: br_68
+  profile: 68_5a
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1637_br_68_68_5a_transpennine_express_train.gnml
+  identifier: br_68_68_5a_transpennine_express_train
+  name_string: str_br_68_68_5a_transpennine_express_train_name
+  strings:
+    str_br_68_68_5a_transpennine_express_train_name: Class 68 - Mk5a Set - TransPennine
+      Express
+    str_br_68_68_5a_transpennine_express_train_group_name: Class 68 - Mk5a Set
+- id: 1638
+  vehicle: br_68
+  profile: 68_5a
+  livery: chiltern - blue 2 tone
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1638_br_68_68_5a_chiltern___blue_2_tone_train.gnml
+  identifier: br_68_68_5a_chiltern___blue_2_tone_train
+  name_string: str_br_68_68_5a_chiltern___blue_2_tone_train_name
+  strings:
+    str_br_68_68_5a_transpennine_express_train_group_name: Class 68 - Mk5a Set
+    str_br_68_68_5a_chiltern___blue_2_tone_train_name: Class 68 - Mk5a Set - Chiltern
+      - Blue 2 Tone

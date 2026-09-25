@@ -55,6 +55,42 @@ profiles:
       - formation/8-car
       - subclass/68_6Mk3
 
+  # The Class 68 family's third legacy item — again under `variant_group: header_68`.
+  # `item_BR68_5a` (BRTrains2 `src/trains/diesel_loco/BR068_Mk5a.pnml`, 442) is the
+  # TransPennine Express "Nova 2" Mk5a set: the locomotive plus
+  # `switch_BR68_5a_articulated`'s parts 1..5, i.e. the loco, four Mk5a coaches and a Mk5a
+  # DVT (six vehicles). A profile of this candidate rather than a candidate of its own, for
+  # the same one-purchase-entry reason as the Mk3 set above.
+  #
+  # Its own sheet (BR68_5a.png), packed in the row order `sprite_override` counts — the
+  # locomotive drawing, the Mk5a coach drawing, then the Mk5a DVT drawing — once per livery
+  # in `sw_BR68_5a_locomotive`'s cargo-subtype order (TransPennine Express, then
+  # Chiltern - Blue 2 Tone). The locomotive rows come from the Class 68's own sheet and the
+  # two Mk5a rows from the Mk5a coach sheet, because that is where the legacy item's own
+  # spritesets read them; the DVT rows use the legacy band each livery's
+  # `spriteset_BRMk5a_dvt_reversed_<livery>` declares, which is the drawing the as-authored
+  # car-position switch gives position 5 (the same choice `br_mk5`'s DVT profile made).
+  - identifier: '68_5a'
+    name: 'Mk5a Set'
+    num_vehicles: 6
+    # The legacy callback is `return (291/6 * param_pax)` — 48.5 per part, 291 for the set.
+    capacity: 48
+    weight: 299
+    speed: 100
+    tractive_effort: 0.37
+    cargo: passenger
+    introduction_date: 2019-08-04
+    spritesheet: BR68_5a.png
+    sprite_override: [1, 2, 2, 2, 2, 3]
+    # NOTE: a profile-level `tractive_effort` is currently invisible — BRBuild's VehicleLoader
+    # reads it from `stats` only (`Vehicle/Vehicle.py` carries the attribute, `Profile` does
+    # not), so the emitted `tractive_effort_coefficient` stays the vehicle's 0.31. Declared on
+    # this profile for fidelity with the legacy item and with the `68_6Mk3` profile above;
+    # flagged as a builder gap in the oddities file rather than worked around.
+    special_tags:
+      - formation/6-car
+      - subclass/68_5a
+
 liveries:
   # Ordered by sw_BR68 cargo subtype 0..4; the compositor re-stacks the
   # declared BR68 spriteset bands into this order. The five belong to the core
@@ -70,8 +106,8 @@ liveries:
     profiles: [DEFAULT, '68_6Mk3']
     special_tags: [operator/Chiltern Railways]
   - name: 'TransPennine Express'
-    profiles: [DEFAULT]
+    profiles: [DEFAULT, '68_5a']
     special_tags: [operator/TransPennine Express]
   - name: 'Chiltern - Blue 2 Tone'
-    profiles: [DEFAULT]
+    profiles: [DEFAULT, '68_5a']
     special_tags: [operator/Chiltern Railways]
