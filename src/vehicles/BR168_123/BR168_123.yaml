@@ -1,0 +1,57 @@
+info:
+  identifier: br_168_123
+  name: 'Class 168/1-3 "Clubman"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 168/1-3 Clubman
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 135
+  length: 8
+  power: 1266
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+loading_speed: 20
+cargo_age_period: 195
+
+dates:
+  introduction_date: 2000-04-01
+
+profiles:
+  - identifier: '168_123_2car'
+    name: '2-Car'
+    num_vehicles: 2
+    capacity: 50
+    power: 844
+    weight: 90
+    sprite_override: [1, 3]
+    special_tags: [formation/2-car]
+  - identifier: '168_123_3car'
+    name: '3-Car'
+    num_vehicles: 3
+    capacity: 50
+    sprite_group: '168_123_2car'
+    sprite_override: [1, 2, 3]
+    introduction_date: 2000-04-21
+    special_tags: [formation/3-car]
+  - identifier: '168_123_4car'
+    name: '4-Car'
+    num_vehicles: 4
+    capacity: 50
+    sprite_group: '168_123_2car'
+    sprite_override: [1, 2, 2, 3]
+    introduction_date: 2004-04-21
+    special_tags: [formation/4-car]
+
+liveries:
+  - name: 'Chiltern Blue (Blue Doors)'
+    special_tags: [operator/Chiltern Railways]
+  - name: 'Chiltern Blue (White Doors)'
+    special_tags: [operator/Chiltern Railways]
+  - name: 'Chiltern Grey'
+    special_tags: [operator/Chiltern Railways]

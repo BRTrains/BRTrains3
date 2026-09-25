@@ -19205,3 +19205,219 @@ variants:
   strings:
     str_br_165_166_network_south_east_train_group_name: Class 165 "Turbo" - 166
     str_br_165_166_gwr___green_train_name: Class 165 "Turbo" - 166 - GWR - Green
+- id: 1799
+  vehicle: br_168_123
+  profile: 168_123_2car
+  livery: chiltern blue (blue doors)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1799_br_168_123_168_123_2car_chiltern_blue__blue_doors__train.gnml
+  identifier: br_168_123_168_123_2car_chiltern_blue__blue_doors__train
+  name_string: str_br_168_123_168_123_2car_chiltern_blue__blue_doors__train_name
+  strings:
+    str_br_168_123_168_123_2car_chiltern_blue__blue_doors__train_name: Class 168/1-3
+      "Clubman" - 2-Car - Chiltern Blue Blue Doors
+    str_br_168_123_168_123_2car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 2-Car
+- id: 1800
+  vehicle: br_168_123
+  profile: 168_123_2car
+  livery: chiltern blue (white doors)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1800_br_168_123_168_123_2car_chiltern_blue__white_doors__train.gnml
+  identifier: br_168_123_168_123_2car_chiltern_blue__white_doors__train
+  name_string: str_br_168_123_168_123_2car_chiltern_blue__white_doors__train_name
+  strings:
+    str_br_168_123_168_123_2car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 2-Car
+    str_br_168_123_168_123_2car_chiltern_blue__white_doors__train_name: Class 168/1-3
+      "Clubman" - 2-Car - Chiltern Blue White Doors
+- id: 1801
+  vehicle: br_168_123
+  profile: 168_123_2car
+  livery: chiltern grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1801_br_168_123_168_123_2car_chiltern_grey_train.gnml
+  identifier: br_168_123_168_123_2car_chiltern_grey_train
+  name_string: str_br_168_123_168_123_2car_chiltern_grey_train_name
+  strings:
+    str_br_168_123_168_123_2car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 2-Car
+    str_br_168_123_168_123_2car_chiltern_grey_train_name: Class 168/1-3 "Clubman"
+      - 2-Car - Chiltern Grey
+- id: 1802
+  vehicle: br_168_123
+  profile: 168_123_3car
+  livery: chiltern blue (blue doors)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1802_br_168_123_168_123_3car_chiltern_blue__blue_doors__train.gnml
+  identifier: br_168_123_168_123_3car_chiltern_blue__blue_doors__train
+  name_string: str_br_168_123_168_123_3car_chiltern_blue__blue_doors__train_name
+  strings:
+    str_br_168_123_168_123_3car_chiltern_blue__blue_doors__train_name: Class 168/1-3
+      "Clubman" - 3-Car - Chiltern Blue Blue Doors
+    str_br_168_123_168_123_3car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 3-Car
+- id: 1803
+  vehicle: br_168_123
+  profile: 168_123_3car
+  livery: chiltern blue (white doors)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1803_br_168_123_168_123_3car_chiltern_blue__white_doors__train.gnml
+  identifier: br_168_123_168_123_3car_chiltern_blue__white_doors__train
+  name_string: str_br_168_123_168_123_3car_chiltern_blue__white_doors__train_name
+  strings:
+    str_br_168_123_168_123_3car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 3-Car
+    str_br_168_123_168_123_3car_chiltern_blue__white_doors__train_name: Class 168/1-3
+      "Clubman" - 3-Car - Chiltern Blue White Doors
+- id: 1804
+  vehicle: br_168_123
+  profile: 168_123_3car
+  livery: chiltern grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1804_br_168_123_168_123_3car_chiltern_grey_train.gnml
+  identifier: br_168_123_168_123_3car_chiltern_grey_train
+  name_string: str_br_168_123_168_123_3car_chiltern_grey_train_name
+  strings:
+    str_br_168_123_168_123_3car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 3-Car
+    str_br_168_123_168_123_3car_chiltern_grey_train_name: Class 168/1-3 "Clubman"
+      - 3-Car - Chiltern Grey
+- id: 1805
+  vehicle: br_168_123
+  profile: 168_123_4car
+  livery: chiltern blue (blue doors)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1805_br_168_123_168_123_4car_chiltern_blue__blue_doors__train.gnml
+  identifier: br_168_123_168_123_4car_chiltern_blue__blue_doors__train
+  name_string: str_br_168_123_168_123_4car_chiltern_blue__blue_doors__train_name
+  strings:
+    str_br_168_123_168_123_4car_chiltern_blue__blue_doors__train_name: Class 168/1-3
+      "Clubman" - 4-Car - Chiltern Blue Blue Doors
+    str_br_168_123_168_123_4car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 4-Car
+- id: 1806
+  vehicle: br_168_123
+  profile: 168_123_4car
+  livery: chiltern blue (white doors)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1806_br_168_123_168_123_4car_chiltern_blue__white_doors__train.gnml
+  identifier: br_168_123_168_123_4car_chiltern_blue__white_doors__train
+  name_string: str_br_168_123_168_123_4car_chiltern_blue__white_doors__train_name
+  strings:
+    str_br_168_123_168_123_4car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 4-Car
+    str_br_168_123_168_123_4car_chiltern_blue__white_doors__train_name: Class 168/1-3
+      "Clubman" - 4-Car - Chiltern Blue White Doors
+- id: 1807
+  vehicle: br_168_123
+  profile: 168_123_4car
+  livery: chiltern grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1807_br_168_123_168_123_4car_chiltern_grey_train.gnml
+  identifier: br_168_123_168_123_4car_chiltern_grey_train
+  name_string: str_br_168_123_168_123_4car_chiltern_grey_train_name
+  strings:
+    str_br_168_123_168_123_4car_chiltern_blue__blue_doors__train_group_name: Class
+      168/1-3 "Clubman" - 4-Car
+    str_br_168_123_168_123_4car_chiltern_grey_train_name: Class 168/1-3 "Clubman"
+      - 4-Car - Chiltern Grey
