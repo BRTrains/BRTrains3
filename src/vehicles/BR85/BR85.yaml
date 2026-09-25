@@ -1,0 +1,41 @@
+info:
+  identifier: br_85
+  name: 'Class 85 "AL5"'
+  sub_name: Electric mixed-traffic locomotive
+  based_on: British Rail Class 85
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 81
+  length: 8
+  power: 3200
+  speed: 100
+  tractive_effort: 0.3
+  track_type:
+    - ELRL
+  power_type:
+    - electric
+
+# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
+# cargo capacity callback, so cargo: none states the effective behaviour.
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1961-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/85
+
+# cargo_subtype 0 is BR Blue; subtype 1 is Railfreight Distribution.
+liveries:
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'Railfreight Distribution'
+    special_tags: [operator/Railfreight]
