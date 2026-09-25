@@ -1,0 +1,75 @@
+info:
+  identifier: br_701
+  name: 'Class 701 "Aventra"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 701 Aventra
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # Both legacy items declare `track_type: THIRD` (750 V DC third rail only, no
+  # overhead equipment), so the logical type is stated rather than left to the
+  # classifier's `power_type` default, which would give this DC unit `ELRL`.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2020-11-01
+
+profiles:
+  # Two legacy items under one `variant_group: header_Aventra`, drawing the three drawings
+  # declared in `src/trains/electric_mu/sprites/701.pnml` (front y=100, middle y=125,
+  # rear y=175 of the shared `gfx/Aventra.png`, on `template_train32px_old` = BRBuild's
+  # `tmpl_train_8_old`):
+  #   `701-0.pnml` item_br_701_0 "BR Class 701/0 \"Aventra\" (10-Car)" 428, 100 mph / 4200 hp / 330 t
+  #   `701-5.pnml` item_br_701_5 "BR Class 701/5 \"Aventra\" (5-Car)"  429, 100 mph / 2100 hp / 120 t
+  # The 10-car's own switch reads `position_in_articulated_veh % 10` (0 front, 9 rear,
+  # 1..8 middle) and the 5-car's `% 5` (0 front, 4 rear, 1..3 middle), so each group is
+  # packed front, middle, rear and the patterns below are the local order that switch
+  # reads. See /home/jon/BRTrains3-artwork-tools/compose_br701_sheet.py.
+  - identifier: '701_0'
+    name: '10-Car'
+    num_vehicles: 10
+    speed: 100
+    power: 4200
+    weight: 330
+    # `item_br_701_0` carries `cargo_capacity: (1296/10)` as a property and the callback
+    # `return(556/10 * param_pax)` — 55.6 per part, 556 in game. The callback is what the
+    # player actually saw (it overrides the property), so the quotient is the figure
+    # imported; BRBuild floors it to 55.
+    capacity: 55
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/10-car
+      - subclass/701_0
+
+  - identifier: '701_5'
+    name: '5-Car'
+    num_vehicles: 5
+    speed: 100
+    power: 2100
+    weight: 120
+    # `item_br_701_5`'s callback is `return(274/5 * param_pax)` — 54.8 per part, 274 in
+    # game — against its own `cargo_capacity: (599/5)` property, the same property/callback
+    # disagreement the 10-car has. Floored to 54.
+    capacity: 54
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/701_5
+
+liveries:
+  # The legacy's `STR_DSC_BR_701` (lang/partial/train_details.plng) lists one livery,
+  # "South Western Railway", and neither item carries a `cargo_subtype` switch, so the
+  # sheet holds one set of drawings per formation and there is nothing left to name.
+  - name: 'South Western Railway'
+    special_tags: [operator/South Western Railway]

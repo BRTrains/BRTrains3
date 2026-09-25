@@ -19822,3 +19822,56 @@ variants:
   strings:
     str_br_710_710_5car_london_overground_train_name: Class 710 "Aventra" - 5-Car
       - London Overground
+- id: 1826
+  vehicle: br_701
+  profile: '701_0'
+  livery: south western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 55
+    articulated_count: 10
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1826_br_701_701_0_south_western_railway_train.gnml
+  identifier: br_701_701_0_south_western_railway_train
+  name_string: str_br_701_701_0_south_western_railway_train_name
+  strings:
+    str_br_701_701_0_south_western_railway_train_name: Class 701 "Aventra" - 10-Car
+      - South Western Railway
+- id: 1827
+  vehicle: br_701
+  profile: '701_5'
+  livery: south western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1827_br_701_701_5_south_western_railway_train.gnml
+  identifier: br_701_701_5_south_western_railway_train
+  name_string: str_br_701_701_5_south_western_railway_train_name
+  strings:
+    str_br_701_701_5_south_western_railway_train_name: Class 701 "Aventra" - 5-Car
+      - South Western Railway
