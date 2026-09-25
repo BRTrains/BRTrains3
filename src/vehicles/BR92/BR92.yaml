@@ -1,0 +1,65 @@
+info:
+  identifier: br_92
+  name: 'Class 92 "Dyson"'
+  sub_name: Electric mixed-traffic locomotive
+  based_on: British Rail Class 92
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 126
+  length: 8
+  power: 6760
+  speed: 87
+  tractive_effort: 0.324
+  power_type:
+    - electric
+  # The legacy item declares `track_type: [THIRD, ELRL]` — the 92s are dual-voltage
+  # (750 V DC third rail and 25 kV AC overhead), which is what let them work both the
+  # WCML and the Southern third-rail network. Declared explicitly rather than left to
+  # `power_type`, which would give ELRL alone.
+  track_type:
+    - THIRD
+    - ELRL
+
+# The legacy item declares `refittable_cargo_classes: 0` (it carries no cargo of its
+# own) with a `cargo_allow_refit: [GOOD, FOOD]` list it cannot use, so `cargo: none`
+# states the same thing — it emits an explicit empty class list, as on the Class 60.
+cargo: none
+
+# `loading_speed: 3` is the legacy item's figure (same as the Class 47/56/89 freight
+# locomotives). `cargo_age_period` is not carried, as set-wide.
+loading_speed: 3
+
+dates:
+  introduction_date: 1993-01-01
+
+profiles:
+  # One 1-car locomotive: the legacy `item_BR92` has no articulated callback at all,
+  # so there are no parts and no `sprite_override`.
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/92
+
+liveries:
+  # Ordered by BRTrains2's `sw_BR92_cargo_subtype_text` `cargo_subtype` order (0..5),
+  # which is also `sw_BR92`'s graphics order: 0 RailFreightGrey, 1 EWS, 2 DBSchenker,
+  # 3 GBRf, 4 CaledonianSleeper, 5 StobartRail. Six bands on gfx/Electric/92.png at
+  # y = 13 + 26k on `template_train32px` (= BRBuild's `tmpl_train_8`), so
+  # compose_br92_sheet.py imports one band per livery in that switch's subtype order —
+  # y 39, 13, 117, 91, 65, 143 respectively. See /home/jon/BRTrains3-import-oddities.md.
+  - name: 'Railfreight Grey'
+    special_tags: [operator/Railfreight]
+  - name: 'EWS Red and Gold'
+    special_tags: [operator/EWS]
+  - name: 'DB Schenker'
+    special_tags: [operator/DB Schenker]
+  - name: 'GBRf'
+    special_tags: [operator/GB Railfreight]
+  - name: 'Caledonian Sleeper'
+    special_tags: [operator/CaledonianSleeper]
+  - name: 'Stobart Rail'
+    special_tags: [operator/Stobart Rail]

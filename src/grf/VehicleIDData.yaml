@@ -10133,3 +10133,126 @@ variants:
     str_br_325_325_4_royal_mail_plain_red_train_name: Class 325 - 4-Car - Royal Mail
       Plain Red
     str_br_325_325_4_royal_mail_plain_red_train_group_name: Class 325 - 4-Car
+- id: 1374
+  vehicle: br_92
+  profile: default
+  livery: railfreight grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1374_br_92_default_railfreight_grey_train.gnml
+  identifier: br_92_default_railfreight_grey_train
+  name_string: str_br_92_default_railfreight_grey_train_name
+  strings:
+    str_br_92_default_railfreight_grey_train_name: Class 92 "Dyson" - Railfreight
+      Grey
+    str_br_92_default_railfreight_grey_train_group_name: Class 92 "Dyson"
+- id: 1375
+  vehicle: br_92
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1375_br_92_default_ews_red_and_gold_train.gnml
+  identifier: br_92_default_ews_red_and_gold_train
+  name_string: str_br_92_default_ews_red_and_gold_train_name
+  strings:
+    str_br_92_default_ews_red_and_gold_train_name: Class 92 "Dyson" - EWS Red and
+      Gold
+    str_br_92_default_ews_red_and_gold_train_group_name: Class 92 "Dyson"
+- id: 1376
+  vehicle: br_92
+  profile: default
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1376_br_92_default_db_schenker_train.gnml
+  identifier: br_92_default_db_schenker_train
+  name_string: str_br_92_default_db_schenker_train_name
+  strings:
+    str_br_92_default_db_schenker_train_name: Class 92 "Dyson" - DB Schenker
+    str_br_92_default_db_schenker_train_group_name: Class 92 "Dyson"
+- id: 1377
+  vehicle: br_92
+  profile: default
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1377_br_92_default_gbrf_train.gnml
+  identifier: br_92_default_gbrf_train
+  name_string: str_br_92_default_gbrf_train_name
+  strings:
+    str_br_92_default_gbrf_train_name: Class 92 "Dyson" - GBRf
+    str_br_92_default_gbrf_train_group_name: Class 92 "Dyson"
+- id: 1378
+  vehicle: br_92
+  profile: default
+  livery: caledonian sleeper
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1378_br_92_default_caledonian_sleeper_train.gnml
+  identifier: br_92_default_caledonian_sleeper_train
+  name_string: str_br_92_default_caledonian_sleeper_train_name
+  strings:
+    str_br_92_default_caledonian_sleeper_train_name: Class 92 "Dyson" - Caledonian
+      Sleeper
+    str_br_92_default_caledonian_sleeper_train_group_name: Class 92 "Dyson"
+- id: 1379
+  vehicle: br_92
+  profile: default
+  livery: stobart rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1379_br_92_default_stobart_rail_train.gnml
+  identifier: br_92_default_stobart_rail_train
+  name_string: str_br_92_default_stobart_rail_train_name
+  strings:
+    str_br_92_default_stobart_rail_train_name: Class 92 "Dyson" - Stobart Rail
+    str_br_92_default_stobart_rail_train_group_name: Class 92 "Dyson"
