@@ -7000,3 +7000,139 @@ variants:
   strings:
     str_br_121_default_silverlink_train_name: Class 121 - Silverlink
     str_br_121_default_silverlink_train_group_name: Class 121
+- id: 1237
+  vehicle: br_230
+  profile: 2car
+  livery: vivarail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1237_br_230_2car_vivarail_train.gnml
+  identifier: br_230_2car_vivarail_train
+  name_string: str_br_230_2car_vivarail_train_name
+  strings:
+    str_br_230_2car_vivarail_train_name: Class 230 'D-Train' - 2-Car - VivaRail
+    str_br_230_2car_vivarail_train_group_name: Class 230 'D-Train' - 2-Car
+- id: 1238
+  vehicle: br_230
+  profile: 2car
+  livery: london north western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1238_br_230_2car_london_north_western_railway_green_train.gnml
+  identifier: br_230_2car_london_north_western_railway_green_train
+  name_string: str_br_230_2car_london_north_western_railway_green_train_name
+  strings:
+    str_br_230_2car_london_north_western_railway_green_train_name: Class 230 'D-Train'
+      - 2-Car - London North Western Railway Green
+    str_br_230_2car_london_north_western_railway_green_train_group_name: Class 230
+      'D-Train' - 2-Car
+- id: 1239
+  vehicle: br_230
+  profile: 2car
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1239_br_230_2car_great_western_railway_green_train.gnml
+  identifier: br_230_2car_great_western_railway_green_train
+  name_string: str_br_230_2car_great_western_railway_green_train_name
+  strings:
+    str_br_230_2car_great_western_railway_green_train_name: Class 230 'D-Train' -
+      2-Car - Great Western Railway Green
+    str_br_230_2car_great_western_railway_green_train_group_name: Class 230 'D-Train'
+      - 2-Car
+- id: 1240
+  vehicle: br_230
+  profile: 3car
+  livery: vivarail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1240_br_230_3car_vivarail_train.gnml
+  identifier: br_230_3car_vivarail_train
+  name_string: str_br_230_3car_vivarail_train_name
+  strings:
+    str_br_230_3car_vivarail_train_name: Class 230 'D-Train' - 3-Car - VivaRail
+    str_br_230_3car_vivarail_train_group_name: Class 230 'D-Train' - 3-Car
+- id: 1241
+  vehicle: br_230
+  profile: 3car
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1241_br_230_3car_great_western_railway_green_train.gnml
+  identifier: br_230_3car_great_western_railway_green_train
+  name_string: str_br_230_3car_great_western_railway_green_train_name
+  strings:
+    str_br_230_3car_great_western_railway_green_train_name: Class 230 'D-Train' -
+      3-Car - Great Western Railway Green
+    str_br_230_3car_great_western_railway_green_train_group_name: Class 230 'D-Train'
+      - 3-Car
+- id: 1242
+  vehicle: br_230
+  profile: 3car
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1242_br_230_3car_transport_for_wales_train.gnml
+  identifier: br_230_3car_transport_for_wales_train
+  name_string: str_br_230_3car_transport_for_wales_train_name
+  strings:
+    str_br_230_3car_transport_for_wales_train_name: Class 230 'D-Train' - 3-Car -
+      Transport for Wales
+    str_br_230_3car_transport_for_wales_train_group_name: Class 230 'D-Train' - 3-Car
