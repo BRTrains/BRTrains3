@@ -11337,3 +11337,90 @@ variants:
       "Adelante" - 5-Car - East Midlands Railway Maroon and White
     str_br_180_180_5car_east_midlands_railway_maroon_and_white_train_group_name: Class
       180 "Adelante" - 5-Car
+- id: 1432
+  vehicle: br_155
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1432_br_155_default_regional_railways_train.gnml
+  identifier: br_155_default_regional_railways_train
+  name_string: str_br_155_default_regional_railways_train_name
+  strings:
+    str_br_155_default_regional_railways_train_name: Class 155 "Super Sprinter" -
+      Regional Railways
+    str_br_155_default_regional_railways_train_group_name: Class 155 "Super Sprinter"
+- id: 1433
+  vehicle: br_155
+  profile: default
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1433_br_155_default_wypte_metro_train.gnml
+  identifier: br_155_default_wypte_metro_train
+  name_string: str_br_155_default_wypte_metro_train_name
+  strings:
+    str_br_155_default_wypte_metro_train_name: Class 155 "Super Sprinter" - WYPTE
+      Metro
+    str_br_155_default_wypte_metro_train_group_name: Class 155 "Super Sprinter"
+- id: 1434
+  vehicle: br_155
+  profile: default
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1434_br_155_default_northern_rail_train.gnml
+  identifier: br_155_default_northern_rail_train
+  name_string: str_br_155_default_northern_rail_train_name
+  strings:
+    str_br_155_default_northern_rail_train_name: Class 155 "Super Sprinter" - Northern
+      Rail
+    str_br_155_default_northern_rail_train_group_name: Class 155 "Super Sprinter"
+- id: 1435
+  vehicle: br_155
+  profile: default
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1435_br_155_default_northern_train.gnml
+  identifier: br_155_default_northern_train
+  name_string: str_br_155_default_northern_train_name
+  strings:
+    str_br_155_default_northern_train_name: Class 155 "Super Sprinter" - Northern
+    str_br_155_default_northern_train_group_name: Class 155 "Super Sprinter"
