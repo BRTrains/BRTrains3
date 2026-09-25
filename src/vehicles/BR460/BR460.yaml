@@ -1,0 +1,51 @@
+info:
+  identifier: br_460
+  name: 'Class 460 "8-GAT"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 460 (Gatwick Express)
+  # The legacy name is "BR Class 460 \"8-GAT\"" (see the import oddities file for the
+  # nickname question).
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 352
+  length: 8
+  power: 3620
+  speed: 100
+  tractive_effort: 0.07
+  power_type:
+    - electric
+  # The legacy item declares track_type THIRD explicitly (the 460s were 750 V DC
+  # third-rail units working the Gatwick Express route).
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+
+dates:
+  introduction_date: 1999-04-21
+
+profiles:
+  # One 8-car unit: the legacy root item plus `switch_articulated_BR460`'s parts 1..6
+  # (item_BR460b, the middle drawing) and part 7 (item_BR460c, the trailing drawing).
+  # The leading and trailing drawings are the legacy spritesets y=13 and y=91, the rows
+  # the item's own `vehicle_is_reversed` chains read in the as-authored state; the
+  # mirrored copies (y=39/65) are superseded by the lighting layer.
+  - identifier: '460_8'
+    name: 8-Car
+    num_vehicles: 8
+    capacity: 54
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/8-car
+      - subclass/460_8
+
+liveries:
+  # One livery only: sw_BR460_cargo_subtype_text subtype 0 returns `str_GatEx`
+  # ("Gatwick Express"); the sheet's bands 13/117/91 are that livery's leading, middle
+  # and trailing drawings.
+  - name: 'Gatwick Express'
+    special_tags: [operator/Gatwick Express]

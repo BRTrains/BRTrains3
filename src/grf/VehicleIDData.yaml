@@ -9857,3 +9857,32 @@ variants:
       - 2-Car - Chiltern Blue Blue Doors
     str_br_172_1_172_1_chiltern_blue__blue_doors__train_group_name: Class 172/1 "Turbostar"
       - 2-Car
+- id: 1363
+  vehicle: br_460
+  profile: '460_8'
+  livery: gatwick express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1363_br_460_460_8_gatwick_express_train.gnml
+  identifier: br_460_460_8_gatwick_express_train
+  name_string: str_br_460_460_8_gatwick_express_train_name
+  strings:
+    str_br_460_460_8_gatwick_express_train_name: Class 460 "8-GAT" - 8-Car - Gatwick
+      Express
+    str_br_460_460_8_gatwick_express_train_single_livery_name: Class 460 "8-GAT" -
+      8-Car - Gatwick Express
