@@ -9078,3 +9078,322 @@ variants:
   strings:
     str_br_20_default_london_transport_train_name: Class 20 "Chopper" - London Transport
     str_br_20_default_london_transport_train_group_name: Class 20 "Chopper"
+- id: 1330
+  vehicle: br_321
+  profile: '321_4'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1330_br_321_321_4_network_south_east_train.gnml
+  identifier: br_321_321_4_network_south_east_train
+  name_string: str_br_321_321_4_network_south_east_train_name
+  strings:
+    str_br_321_321_4_network_south_east_train_name: Class 321 "Dusty Bin" - 4-Car
+      - Network South East
+    str_br_321_321_4_network_south_east_train_group_name: Class 321 "Dusty Bin" -
+      4-Car
+- id: 1331
+  vehicle: br_321
+  profile: '321_4'
+  livery: nederlandse spoorwegen
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1331_br_321_321_4_nederlandse_spoorwegen_train.gnml
+  identifier: br_321_321_4_nederlandse_spoorwegen_train
+  name_string: str_br_321_321_4_nederlandse_spoorwegen_train_name
+  strings:
+    str_br_321_321_4_nederlandse_spoorwegen_train_name: Class 321 "Dusty Bin" - 4-Car
+      - Nederlandse Spoorwegen
+    str_br_321_321_4_nederlandse_spoorwegen_train_group_name: Class 321 "Dusty Bin"
+      - 4-Car
+- id: 1332
+  vehicle: br_321
+  profile: '321_4'
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1332_br_321_321_4_greater_anglia_train.gnml
+  identifier: br_321_321_4_greater_anglia_train
+  name_string: str_br_321_321_4_greater_anglia_train_name
+  strings:
+    str_br_321_321_4_greater_anglia_train_name: Class 321 "Dusty Bin" - 4-Car - Greater
+      Anglia
+    str_br_321_321_4_greater_anglia_train_group_name: Class 321 "Dusty Bin" - 4-Car
+- id: 1333
+  vehicle: br_321
+  profile: '321_4'
+  livery: silverlink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1333_br_321_321_4_silverlink_train.gnml
+  identifier: br_321_321_4_silverlink_train
+  name_string: str_br_321_321_4_silverlink_train_name
+  strings:
+    str_br_321_321_4_silverlink_train_name: Class 321 "Dusty Bin" - 4-Car - Silverlink
+    str_br_321_321_4_silverlink_train_group_name: Class 321 "Dusty Bin" - 4-Car
+- id: 1334
+  vehicle: br_321
+  profile: '321_4'
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1334_br_321_321_4_london_midland_train.gnml
+  identifier: br_321_321_4_london_midland_train
+  name_string: str_br_321_321_4_london_midland_train_name
+  strings:
+    str_br_321_321_4_london_midland_train_name: Class 321 "Dusty Bin" - 4-Car - London
+      Midland
+    str_br_321_321_4_london_midland_train_group_name: Class 321 "Dusty Bin" - 4-Car
+- id: 1335
+  vehicle: br_321
+  profile: '321_4'
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1335_br_321_321_4_wypte_metro_train.gnml
+  identifier: br_321_321_4_wypte_metro_train
+  name_string: str_br_321_321_4_wypte_metro_train_name
+  strings:
+    str_br_321_321_4_wypte_metro_train_name: Class 321 "Dusty Bin" - 4-Car - WYPTE
+      Metro
+    str_br_321_321_4_wypte_metro_train_group_name: Class 321 "Dusty Bin" - 4-Car
+- id: 1336
+  vehicle: br_321
+  profile: '321_4'
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1336_br_321_321_4_london_overground_train.gnml
+  identifier: br_321_321_4_london_overground_train
+  name_string: str_br_321_321_4_london_overground_train_name
+  strings:
+    str_br_321_321_4_london_overground_train_name: Class 321 "Dusty Bin" - 4-Car -
+      London Overground
+    str_br_321_321_4_london_overground_train_group_name: Class 321 "Dusty Bin" - 4-Car
+- id: 1337
+  vehicle: br_321
+  profile: '321_4'
+  livery: first great eastern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1337_br_321_321_4_first_great_eastern_train.gnml
+  identifier: br_321_321_4_first_great_eastern_train
+  name_string: str_br_321_321_4_first_great_eastern_train_name
+  strings:
+    str_br_321_321_4_first_great_eastern_train_name: Class 321 "Dusty Bin" - 4-Car
+      - First Great Eastern
+    str_br_321_321_4_first_great_eastern_train_group_name: Class 321 "Dusty Bin" -
+      4-Car
+- id: 1338
+  vehicle: br_321
+  profile: '321_4'
+  livery: arriva trains northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1338_br_321_321_4_arriva_trains_northern_train.gnml
+  identifier: br_321_321_4_arriva_trains_northern_train
+  name_string: str_br_321_321_4_arriva_trains_northern_train_name
+  strings:
+    str_br_321_321_4_arriva_trains_northern_train_name: Class 321 "Dusty Bin" - 4-Car
+      - Arriva Trains Northern
+    str_br_321_321_4_arriva_trains_northern_train_group_name: Class 321 "Dusty Bin"
+      - 4-Car
+- id: 1339
+  vehicle: br_321
+  profile: '321_4'
+  livery: greater anglia interim
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1339_br_321_321_4_greater_anglia_interim_train.gnml
+  identifier: br_321_321_4_greater_anglia_interim_train
+  name_string: str_br_321_321_4_greater_anglia_interim_train_name
+  strings:
+    str_br_321_321_4_greater_anglia_interim_train_name: Class 321 "Dusty Bin" - 4-Car
+      - Greater Anglia Interim
+    str_br_321_321_4_greater_anglia_interim_train_group_name: Class 321 "Dusty Bin"
+      - 4-Car
+- id: 1340
+  vehicle: br_321
+  profile: '321_4'
+  livery: greater anglia renatus
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1340_br_321_321_4_greater_anglia_renatus_train.gnml
+  identifier: br_321_321_4_greater_anglia_renatus_train
+  name_string: str_br_321_321_4_greater_anglia_renatus_train_name
+  strings:
+    str_br_321_321_4_greater_anglia_renatus_train_name: Class 321 "Dusty Bin" - 4-Car
+      - Greater Anglia Renatus
+    str_br_321_321_4_greater_anglia_renatus_train_group_name: Class 321 "Dusty Bin"
+      - 4-Car
+- id: 1341
+  vehicle: br_321
+  profile: '321_4'
+  livery: first capital connect urban lights
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1341_br_321_321_4_first_capital_connect_urban_lights_train.gnml
+  identifier: br_321_321_4_first_capital_connect_urban_lights_train
+  name_string: str_br_321_321_4_first_capital_connect_urban_lights_train_name
+  strings:
+    str_br_321_321_4_first_capital_connect_urban_lights_train_name: Class 321 "Dusty
+      Bin" - 4-Car - First Capital Connect Urban Lights
+    str_br_321_321_4_first_capital_connect_urban_lights_train_group_name: Class 321
+      "Dusty Bin" - 4-Car
+- id: 1342
+  vehicle: br_321
+  profile: '321_4'
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1342_br_321_321_4_national_express_east_anglia_train.gnml
+  identifier: br_321_321_4_national_express_east_anglia_train
+  name_string: str_br_321_321_4_national_express_east_anglia_train_name
+  strings:
+    str_br_321_321_4_national_express_east_anglia_train_name: Class 321 "Dusty Bin"
+      - 4-Car - National Express East Anglia
+    str_br_321_321_4_national_express_east_anglia_train_group_name: Class 321 "Dusty
+      Bin" - 4-Car
