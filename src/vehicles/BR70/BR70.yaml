@@ -1,0 +1,47 @@
+info:
+  identifier: br_70
+  name: 'Class 70 "Powerhaul"'
+  sub_name: Heavy freight diesel locomotive
+  based_on: British Rail Class 70
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 129
+  length: 8
+  power: 3690
+  speed: 75
+  tractive_effort: 0.31
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 2008-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/70
+
+liveries:
+  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR70, cargo_subtype)` (0..3),
+  # which is also the order of its `cargo_subtype_text` switch. Each subtype has its own
+  # spriteset on gfx/Diesel/70.png at y = 13 + 26k on `template_train32px`
+  # (= BRBuild's `tmpl_train_8`), so the sheet holds one band per livery in this order
+  # and compose_br70_sheet.py re-stacks them. Two of the bands (source y=13 and y=91)
+  # bleed art across the template's x=65 gutter, which is repaired in the composite; the
+  # band-to-livery labelling was settled from each band's own pixels. See
+  # /home/jon/BRTrains3-import-oddities.md for the queries.
+  - name: 'Freightliner Powerhaul'
+    special_tags: [operator/Freightliner]
+  - name: 'Colas Rail'
+    special_tags: [operator/Colas Rail]
+  - name: 'Freightliner Orange'
+    special_tags: [operator/Freightliner]
+  - name: 'Freightliner Powerhaul Lined'
+    special_tags: [operator/Freightliner]

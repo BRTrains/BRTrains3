@@ -8226,3 +8226,86 @@ variants:
     str_br_31_default_civil_engineers_dutch_train_name: Class 31 "Gurgler" - Civil
       Engineers Dutch
     str_br_31_default_civil_engineers_dutch_train_group_name: Class 31 "Gurgler"
+- id: 1293
+  vehicle: br_70
+  profile: default
+  livery: freightliner powerhaul
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1293_br_70_default_freightliner_powerhaul_train.gnml
+  identifier: br_70_default_freightliner_powerhaul_train
+  name_string: str_br_70_default_freightliner_powerhaul_train_name
+  strings:
+    str_br_70_default_freightliner_powerhaul_train_name: Class 70 "Powerhaul" - Freightliner
+      Powerhaul
+    str_br_70_default_freightliner_powerhaul_train_group_name: Class 70 "Powerhaul"
+- id: 1294
+  vehicle: br_70
+  profile: default
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1294_br_70_default_colas_rail_train.gnml
+  identifier: br_70_default_colas_rail_train
+  name_string: str_br_70_default_colas_rail_train_name
+  strings:
+    str_br_70_default_colas_rail_train_name: Class 70 "Powerhaul" - Colas Rail
+    str_br_70_default_colas_rail_train_group_name: Class 70 "Powerhaul"
+- id: 1295
+  vehicle: br_70
+  profile: default
+  livery: freightliner orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1295_br_70_default_freightliner_orange_train.gnml
+  identifier: br_70_default_freightliner_orange_train
+  name_string: str_br_70_default_freightliner_orange_train_name
+  strings:
+    str_br_70_default_freightliner_orange_train_name: Class 70 "Powerhaul" - Freightliner
+      Orange
+    str_br_70_default_freightliner_orange_train_group_name: Class 70 "Powerhaul"
+- id: 1296
+  vehicle: br_70
+  profile: default
+  livery: freightliner powerhaul lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1296_br_70_default_freightliner_powerhaul_lined_train.gnml
+  identifier: br_70_default_freightliner_powerhaul_lined_train
+  name_string: str_br_70_default_freightliner_powerhaul_lined_train_name
+  strings:
+    str_br_70_default_freightliner_powerhaul_lined_train_name: Class 70 "Powerhaul"
+      - Freightliner Powerhaul Lined
+    str_br_70_default_freightliner_powerhaul_lined_train_group_name: Class 70 "Powerhaul"
