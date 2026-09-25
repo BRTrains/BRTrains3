@@ -11935,3 +11935,330 @@ variants:
   strings:
     str_br_151_default_br_prototype_train_name: Class 151 "Sprinter" - BR Prototype
     str_br_151_default_br_prototype_train_group_name: Class 151 "Sprinter"
+- id: 1460
+  vehicle: br_150_2
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1460_br_150_2_default_regional_railways_train.gnml
+  identifier: br_150_2_default_regional_railways_train
+  name_string: str_br_150_2_default_regional_railways_train_name
+  strings:
+    str_br_150_2_default_regional_railways_train_name: Class 150/2 "Sprinter" - Regional
+      Railways
+    str_br_150_2_default_regional_railways_train_group_name: Class 150/2 "Sprinter"
+- id: 1461
+  vehicle: br_150_2
+  profile: default
+  livery: regional railways - merseyrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1461_br_150_2_default_regional_railways___merseyrail_train.gnml
+  identifier: br_150_2_default_regional_railways___merseyrail_train
+  name_string: str_br_150_2_default_regional_railways___merseyrail_train_name
+  strings:
+    str_br_150_2_default_regional_railways___merseyrail_train_name: Class 150/2 "Sprinter"
+      - Regional Railways - Merseyrail
+    str_br_150_2_default_regional_railways___merseyrail_train_group_name: Class 150/2
+      "Sprinter"
+- id: 1462
+  vehicle: br_150_2
+  profile: default
+  livery: central trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1462_br_150_2_default_central_trains_train.gnml
+  identifier: br_150_2_default_central_trains_train
+  name_string: str_br_150_2_default_central_trains_train_name
+  strings:
+    str_br_150_2_default_central_trains_train_name: Class 150/2 "Sprinter" - Central
+      Trains
+    str_br_150_2_default_central_trains_train_group_name: Class 150/2 "Sprinter"
+- id: 1463
+  vehicle: br_150_2
+  profile: default
+  livery: central/anglia hybrid
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1463_br_150_2_default_central_anglia_hybrid_train.gnml
+  identifier: br_150_2_default_central_anglia_hybrid_train
+  name_string: str_br_150_2_default_central_anglia_hybrid_train_name
+  strings:
+    str_br_150_2_default_central_anglia_hybrid_train_name: Class 150/2 "Sprinter"
+      - Central/Anglia Hybrid
+    str_br_150_2_default_central_anglia_hybrid_train_group_name: Class 150/2 "Sprinter"
+- id: 1464
+  vehicle: br_150_2
+  profile: default
+  livery: east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1464_br_150_2_default_east_anglia_train.gnml
+  identifier: br_150_2_default_east_anglia_train
+  name_string: str_br_150_2_default_east_anglia_train_name
+  strings:
+    str_br_150_2_default_east_anglia_train_name: Class 150/2 "Sprinter" - East Anglia
+    str_br_150_2_default_east_anglia_train_group_name: Class 150/2 "Sprinter"
+- id: 1465
+  vehicle: br_150_2
+  profile: default
+  livery: first north western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1465_br_150_2_default_first_north_western_train.gnml
+  identifier: br_150_2_default_first_north_western_train
+  name_string: str_br_150_2_default_first_north_western_train_name
+  strings:
+    str_br_150_2_default_first_north_western_train_name: Class 150/2 "Sprinter" -
+      First North Western
+    str_br_150_2_default_first_north_western_train_group_name: Class 150/2 "Sprinter"
+- id: 1466
+  vehicle: br_150_2
+  profile: default
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1466_br_150_2_default_northern_rail_train.gnml
+  identifier: br_150_2_default_northern_rail_train
+  name_string: str_br_150_2_default_northern_rail_train_name
+  strings:
+    str_br_150_2_default_northern_rail_train_name: Class 150/2 "Sprinter" - Northern
+      Rail
+    str_br_150_2_default_northern_rail_train_group_name: Class 150/2 "Sprinter"
+- id: 1467
+  vehicle: br_150_2
+  profile: default
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1467_br_150_2_default_first_great_western_train.gnml
+  identifier: br_150_2_default_first_great_western_train
+  name_string: str_br_150_2_default_first_great_western_train_name
+  strings:
+    str_br_150_2_default_first_great_western_train_name: Class 150/2 "Sprinter" -
+      First Great Western
+    str_br_150_2_default_first_great_western_train_group_name: Class 150/2 "Sprinter"
+- id: 1468
+  vehicle: br_150_2
+  profile: default
+  livery: network west midlands
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1468_br_150_2_default_network_west_midlands_train.gnml
+  identifier: br_150_2_default_network_west_midlands_train
+  name_string: str_br_150_2_default_network_west_midlands_train_name
+  strings:
+    str_br_150_2_default_network_west_midlands_train_name: Class 150/2 "Sprinter"
+      - Network West Midlands
+    str_br_150_2_default_network_west_midlands_train_group_name: Class 150/2 "Sprinter"
+- id: 1469
+  vehicle: br_150_2
+  profile: default
+  livery: arriva trains wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1469_br_150_2_default_arriva_trains_wales_train.gnml
+  identifier: br_150_2_default_arriva_trains_wales_train
+  name_string: str_br_150_2_default_arriva_trains_wales_train_name
+  strings:
+    str_br_150_2_default_arriva_trains_wales_train_name: Class 150/2 "Sprinter" -
+      Arriva Trains Wales
+    str_br_150_2_default_arriva_trains_wales_train_group_name: Class 150/2 "Sprinter"
+- id: 1470
+  vehicle: br_150_2
+  profile: default
+  livery: wessex trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1470_br_150_2_default_wessex_trains_train.gnml
+  identifier: br_150_2_default_wessex_trains_train
+  name_string: str_br_150_2_default_wessex_trains_train_name
+  strings:
+    str_br_150_2_default_wessex_trains_train_name: Class 150/2 "Sprinter" - Wessex
+      Trains
+    str_br_150_2_default_wessex_trains_train_group_name: Class 150/2 "Sprinter"
+- id: 1471
+  vehicle: br_150_2
+  profile: default
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1471_br_150_2_default_scotrail_train.gnml
+  identifier: br_150_2_default_scotrail_train
+  name_string: str_br_150_2_default_scotrail_train_name
+  strings:
+    str_br_150_2_default_scotrail_train_name: Class 150/2 "Sprinter" - ScotRail
+    str_br_150_2_default_scotrail_train_group_name: Class 150/2 "Sprinter"
+- id: 1472
+  vehicle: br_150_2
+  profile: default
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1472_br_150_2_default_transport_for_wales_train.gnml
+  identifier: br_150_2_default_transport_for_wales_train
+  name_string: str_br_150_2_default_transport_for_wales_train_name
+  strings:
+    str_br_150_2_default_transport_for_wales_train_name: Class 150/2 "Sprinter" -
+      Transport for Wales
+    str_br_150_2_default_transport_for_wales_train_group_name: Class 150/2 "Sprinter"
+- id: 1473
+  vehicle: br_150_2
+  profile: default
+  livery: gwr - green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1473_br_150_2_default_gwr___green_train.gnml
+  identifier: br_150_2_default_gwr___green_train
+  name_string: str_br_150_2_default_gwr___green_train_name
+  strings:
+    str_br_150_2_default_gwr___green_train_name: Class 150/2 "Sprinter" - GWR - Green
+    str_br_150_2_default_gwr___green_train_group_name: Class 150/2 "Sprinter"
+- id: 1474
+  vehicle: br_150_2
+  profile: default
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1474_br_150_2_default_northern_train.gnml
+  identifier: br_150_2_default_northern_train
+  name_string: str_br_150_2_default_northern_train_name
+  strings:
+    str_br_150_2_default_northern_train_name: Class 150/2 "Sprinter" - Northern
+    str_br_150_2_default_northern_train_group_name: Class 150/2 "Sprinter"
