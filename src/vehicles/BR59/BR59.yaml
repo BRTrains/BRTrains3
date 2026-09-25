@@ -1,0 +1,103 @@
+info:
+  identifier: br_59
+  name: 'Class 59 "Super Shed"'
+  sub_name: Heavy freight diesel locomotive
+  based_on: British Rail Class 59
+
+# One candidate, two profiles: the legacy set files the class as two items —
+# `item_BR59_01` 694 (BRTrains2/src/trains/diesel_loco/59_01.pnml) and
+# `item_BR59_2` 695 (59_2.pnml) — which differ only in their speed and their
+# livery list, so they are two 1-car profiles of one candidate exactly as the
+# Class 230's two formations are. Both draw from `gfx/Diesel/66.png`.
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 126
+  length: 8
+  power: 3300
+  speed: 60
+  # The legacy items carry `tractive_effort_coefficient: 0.2357`; below 1 BRBuild
+  # reads the figure as a coefficient already, so it is carried unchanged.
+  tractive_effort: 0.2357
+  power_type:
+    - diesel
+
+# Both legacy items declare `refittable_cargo_classes: 0` and a zero-returning
+# cargo-capacity callback, so `cargo: none` states the effective behaviour.
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1986-02-17
+
+profiles:
+  # `item_BR59_01` 694: `speed: 60 mph`, `introduction_date: date(1986,2,17)`.
+  # The legacy name is `BR Class 59/0/1 "Super Shed"` — the class's two sub-classes
+  # share one item, switch and livery list, so one profile covers both.
+  - identifier: '59_0_1'
+    name: '59/0-1'
+    num_vehicles: 1
+    capacity: 0
+    speed: 60
+    introduction_date: 1986-02-17
+    special_tags:
+      - formation/1-car
+      - subclass/59_0_1
+  # `item_BR59_2` 695: `speed: 75 mph`, `introduction_date: date(1994,2,17)`.
+  - identifier: '59_2'
+    name: '59/2'
+    num_vehicles: 1
+    capacity: 0
+    speed: 75
+    introduction_date: 1994-02-17
+    special_tags:
+      - formation/1-car
+      - subclass/59_2
+
+# Ordered by the two legacy switches — `sw_BR59_01` (cargo subtypes 0..10) then
+# `sw_BR59_2` (0..2) — which is also the band order compose_br59_sheet.py packs,
+# because BRBuild consumes a row group per (profile, livery) pair sequentially,
+# profile-outer and livery-inner. Each livery names the profiles it belongs to, and
+# the two shared liveries (EWS, DB Schenker) appear on both, so the sheet carries
+# each of those two drawings twice.
+liveries:
+  # Livery names are the legacy `str_*` strings with their parentheses dropped, as
+  # on the rest of the set: `(Foster Yeoman - Grey)`, `(ARC)`, `(Mendip)`,
+  # `(Hanson & Hall)`, `(Aggregate Industries)`, `(EWS - Red and Gold)`,
+  # `(DB Schenker)`, `(Freightliner - Orange)`, `(GBRf)`, `(Heidelberg)`.
+  - name: 'Foster Yeoman - Grey'
+    profiles: ['59_0_1']
+    special_tags: [operator/Foster Yeoman]
+  - name: 'Foster Yeoman - Blue'
+    profiles: ['59_0_1']
+    special_tags: [operator/Foster Yeoman]
+  - name: 'ARC'
+    profiles: ['59_0_1']
+    special_tags: [operator/ARC]
+  - name: 'Mendip'
+    profiles: ['59_0_1']
+    special_tags: [operator/Mendip Rail]
+  - name: 'Hanson & Hall'
+    profiles: ['59_0_1']
+    special_tags: [operator/Hanson & Hall]
+  - name: 'Aggregate Industries'
+    profiles: ['59_0_1']
+    special_tags: [operator/Aggregate Industries]
+  - name: 'EWS - Red and Gold'
+    profiles: ['59_0_1', '59_2']
+    special_tags: [operator/EWS]
+  - name: 'DB Schenker'
+    profiles: ['59_0_1', '59_2']
+    special_tags: [operator/DB Schenker]
+  - name: 'Freightliner - Orange'
+    profiles: ['59_0_1']
+    special_tags: [operator/Freightliner]
+  - name: 'GBRf'
+    profiles: ['59_0_1']
+    special_tags: [operator/GB Railfreight]
+  - name: 'Heidelberg'
+    profiles: ['59_0_1']
+    special_tags: [operator/Heidelberg Materials]
+  - name: 'National Power'
+    profiles: ['59_2']
+    special_tags: [operator/National Power]
