@@ -10581,3 +10581,43 @@ variants:
     str_br_86_default_freightliner_powerhaul_train_name: Class 86 "AL6" - Freightliner
       Powerhaul
     str_br_86_default_freightliner_powerhaul_train_group_name: Class 86 "AL6"
+- id: 1396
+  vehicle: br_82
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1396_br_82_default_br_blue_train.gnml
+  identifier: br_82_default_br_blue_train
+  name_string: str_br_82_default_br_blue_train_name
+  strings:
+    str_br_82_default_br_blue_train_name: Class 82 "AL2" - BR Blue
+    str_br_82_default_br_blue_train_group_name: Class 82 "AL2"
+- id: 1397
+  vehicle: br_82
+  profile: default
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1397_br_82_default_intercity_executive_train.gnml
+  identifier: br_82_default_intercity_executive_train
+  name_string: str_br_82_default_intercity_executive_train_name
+  strings:
+    str_br_82_default_intercity_executive_train_name: Class 82 "AL2" - InterCity Executive
+    str_br_82_default_intercity_executive_train_group_name: Class 82 "AL2"
