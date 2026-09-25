@@ -19752,3 +19752,73 @@ variants:
     str_br_175_175_3car_arriva_ghost_train_group_name: Class 175 "Coradia" - 3-Car
     str_br_175_175_3car_transport_for_wales_train_name: Class 175 "Coradia" - 3-Car
       - Transport for Wales
+- id: 1823
+  vehicle: br_710
+  profile: 710_4car
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 169
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1823_br_710_710_4car_london_overground_train.gnml
+  identifier: br_710_710_4car_london_overground_train
+  name_string: str_br_710_710_4car_london_overground_train_name
+  strings:
+    str_br_710_710_4car_london_overground_train_name: Class 710 "Aventra" - 4-Car
+      - London Overground
+- id: 1824
+  vehicle: br_710
+  profile: 710_4car_dv
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 169
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1824_br_710_710_4car_dv_london_overground_train.gnml
+  identifier: br_710_710_4car_dv_london_overground_train
+  name_string: str_br_710_710_4car_dv_london_overground_train_name
+  strings:
+    str_br_710_710_4car_dv_london_overground_train_name: Class 710 "Aventra" - 4-Car
+      Dual Voltage - London Overground
+- id: 1825
+  vehicle: br_710
+  profile: 710_5car
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 176
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1825_br_710_710_5car_london_overground_train.gnml
+  identifier: br_710_710_5car_london_overground_train
+  name_string: str_br_710_710_5car_london_overground_train_name
+  strings:
+    str_br_710_710_5car_london_overground_train_name: Class 710 "Aventra" - 5-Car
+      - London Overground

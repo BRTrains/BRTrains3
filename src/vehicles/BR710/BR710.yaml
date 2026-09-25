@@ -1,0 +1,96 @@
+info:
+  identifier: br_710
+  name: 'Class 710 "Aventra"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 710 Aventra
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # The dual-voltage units arrive as their own profile (below), following the Class 378
+  # precedent; the base profile is the overhead-only 4-car.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2020-03-03
+
+profiles:
+  # Three legacy items under one `variant_group: header_Aventra`, all drawing the four
+  # drawings declared in `src/trains/electric_mu/sprites/710.pnml` (front y=200,
+  # middle y=225, middle_panto y=250, rear y=275 of the shared `gfx/Aventra.png`):
+  #   `710-1.pnml`      item_br_710_1      "BR Class 710/1 \"Aventra\" (4-Car)"              track_type ELRL
+  #   `710-2_4car.pnml` item_br_710_2_4car "BR Class 710/2 \"Aventra\" (4-Car, Dual Voltage)" track_type [THIRD, ELRL]
+  #   `710-3_5car.pnml` item_br_710_3_5car "BR Class 710/3 \"Aventra\" (5-Car, Dual Voltage)" track_type [THIRD, ELRL]
+  # The legacy keeps the differently-equipped version as its own item; here it is a
+  # profile, exactly as the Class 378 handles its dual-voltage units. The four-car's own
+  # switch reads `position_in_articulated_veh % 4` as front(0), middle_panto(1), middle(2),
+  # rear(3), the five-car's as front(0), middle_panto(1), middle(2/3), rear(4), so each
+  # group is packed front, middle_panto, middle, rear and the patterns below are the local
+  # order that switch reads. See /home/jon/BRTrains3-artwork-tools/compose_br710_sheet.py.
+  - identifier: '710_4car'
+    name: 4-Car
+    num_vehicles: 4
+    speed: 75
+    power: 2400
+    weight: 151
+    # `item_br_710_1` carries `cargo_capacity: (678/4)` and the callback
+    # `return(678/4 * param_pax)` — 169 per part, 678 in game.
+    capacity: 169
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/710_1
+
+  # The parentheses the Class 378/377 profiles spell "4-Car (Dual Voltage)" with do not survive
+  # into the generated name (`nml_str` drops them), so the name here is authored without them —
+  # matching what those classes' registry entries actually display.
+  - identifier: '710_4car_dv'
+    name: 4-Car Dual Voltage
+    num_vehicles: 4
+    speed: 75
+    power: 2400
+    weight: 151
+    # `item_br_710_2_4car` states the same figures as the 710/1; the legacy drops its
+    # weight by 7 t (144 ton) for no stated reason, so the 710/1's `weight: 151 ton`,
+    # shared by the 5-car's own item, is carried rather than that outlier.
+    capacity: 169
+    track_type:
+      - THIRD
+      - ELRL
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/710_2
+
+  - identifier: '710_5car'
+    name: 5-Car
+    num_vehicles: 5
+    speed: 75
+    power: 3000
+    weight: 182
+    # `item_br_710_3_5car`'s callback is `return(882/5 * param_pax)` — 176 per part, 882 in
+    # game. Its own `cargo_capacity: (882/5)` property states the same quotient.
+    capacity: 176
+    track_type:
+      - THIRD
+      - ELRL
+    sprite_override: [1, 2, 3, 3, 4]
+    special_tags:
+      - formation/5-car
+      - subclass/710_3
+
+liveries:
+  # The legacy's `STR_DSC_BR_710` lists one livery, "London Overground", and neither the
+  # items nor their spritesets carry a `cargo_subtype` switch, so there is one livery.
+  - name: 'London Overground'
+    special_tags: [operator/London Overground]
