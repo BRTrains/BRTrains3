@@ -1,0 +1,60 @@
+info:
+  identifier: br_334
+  name: 'Class 334 "Juniper"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 334 Juniper
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 90
+  tractive_effort: 0.05
+  power_type:
+    - electric
+  # The legacy items declare `track_type: ELRL` (25 kV overhead only); the classifier
+  # would emit the same from `power_type: electric`, but the legacy states it.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1999-01-01
+
+profiles:
+  # One three-car formation: the legacy root `item_BR334` plus
+  # `switch_articulated_BR341`'s parts 1..2 (`item_334c` then `item_334b`), which all
+  # reference the one class, so the three consumed rows are front/middle/rear per livery.
+  #
+  # Power and weight are `item_BR334`'s whole-unit figures (2000 hp / 147 t), carried
+  # as-is like the other MU conversions; the legacy vehicles disagree with themselves on
+  # capacity (root 54, `item_334b` 68, `item_334c` 64, a 186-seat unit), so the root's
+  # per-part figure is used for every part — the same choice as the Class 168/0 (50) and
+  # Classes 220/222 (42/44). See the oddities file.
+  - identifier: DEFAULT
+    num_vehicles: 3
+    capacity: 54
+    power: 2000
+    weight: 147
+    # Legacy `switch_articulated_BR341`: parts 1..2, front, middle, rear.
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+      - subclass/334
+
+liveries:
+  # Order is the legacy `sw_BR334` cargo_subtype order, which is also the composite's row
+  # order (`/home/jon/BRTrains3-artwork-tools/compose_br334_sheet.py`): 0 CarmCream
+  # (`spriteset_BR334{a,b,c}_CarmCream`), 1 Saltire, 2 SaltirePride. Names are the legacy
+  # switch's own text strings (`str_BRCarmCream`, `str_ScotRailSaltire`,
+  # `str_ScotRailPride` in `lang/partial/livery_prebuilt_strings.plng`).
+  - name: 'Carmine and Cream'
+    special_tags: [operator/ScotRail]
+  - name: 'ScotRail Saltire'
+    special_tags: [operator/ScotRail]
+  - name: 'ScotRail Pride'
+    special_tags: [operator/ScotRail]

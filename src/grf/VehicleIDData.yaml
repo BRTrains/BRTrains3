@@ -17657,3 +17657,71 @@ variants:
   strings:
     str_br_99_default_gbrf_blue_train_group_name: Class 99
     str_br_99_default_gbrf_black_train_name: Class 99 - GBRf Black
+- id: 1730
+  vehicle: br_334
+  profile: default
+  livery: carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1730_br_334_default_carmine_and_cream_train.gnml
+  identifier: br_334_default_carmine_and_cream_train
+  name_string: str_br_334_default_carmine_and_cream_train_name
+  strings:
+    str_br_334_default_carmine_and_cream_train_name: Class 334 "Juniper" - Carmine
+      and Cream
+    str_br_334_default_carmine_and_cream_train_group_name: Class 334 "Juniper"
+- id: 1731
+  vehicle: br_334
+  profile: default
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1731_br_334_default_scotrail_saltire_train.gnml
+  identifier: br_334_default_scotrail_saltire_train
+  name_string: str_br_334_default_scotrail_saltire_train_name
+  strings:
+    str_br_334_default_carmine_and_cream_train_group_name: Class 334 "Juniper"
+    str_br_334_default_scotrail_saltire_train_name: Class 334 "Juniper" - ScotRail
+      Saltire
+- id: 1732
+  vehicle: br_334
+  profile: default
+  livery: scotrail pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1732_br_334_default_scotrail_pride_train.gnml
+  identifier: br_334_default_scotrail_pride_train
+  name_string: str_br_334_default_scotrail_pride_train_name
+  strings:
+    str_br_334_default_carmine_and_cream_train_group_name: Class 334 "Juniper"
+    str_br_334_default_scotrail_pride_train_name: Class 334 "Juniper" - ScotRail Pride
