@@ -9886,3 +9886,151 @@ variants:
       Express
     str_br_460_460_8_gatwick_express_train_single_livery_name: Class 460 "8-GAT" -
       8-Car - Gatwick Express
+- id: 1364
+  vehicle: br_350
+  profile: '350_4'
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1364_br_350_350_4_london_midland_train.gnml
+  identifier: br_350_350_4_london_midland_train
+  name_string: str_br_350_350_4_london_midland_train_name
+  strings:
+    str_br_350_350_4_london_midland_train_name: Class 350 "Desiro" - 4-Car - London
+      Midland
+    str_br_350_350_4_london_midland_train_group_name: Class 350 "Desiro" - 4-Car
+- id: 1365
+  vehicle: br_350
+  profile: '350_4'
+  livery: silverlink/central trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1365_br_350_350_4_silverlink_central_trains_train.gnml
+  identifier: br_350_350_4_silverlink_central_trains_train
+  name_string: str_br_350_350_4_silverlink_central_trains_train_name
+  strings:
+    str_br_350_350_4_silverlink_central_trains_train_name: Class 350 "Desiro" - 4-Car
+      - Silverlink/Central Trains
+    str_br_350_350_4_silverlink_central_trains_train_group_name: Class 350 "Desiro"
+      - 4-Car
+- id: 1366
+  vehicle: br_350
+  profile: '350_4'
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1366_br_350_350_4_transpennine_express_train.gnml
+  identifier: br_350_350_4_transpennine_express_train
+  name_string: str_br_350_350_4_transpennine_express_train_name
+  strings:
+    str_br_350_350_4_transpennine_express_train_name: Class 350 "Desiro" - 4-Car -
+      Transpennine Express
+    str_br_350_350_4_transpennine_express_train_group_name: Class 350 "Desiro" - 4-Car
+- id: 1367
+  vehicle: br_350
+  profile: '350_4'
+  livery: london northwestern railway - transitional
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1367_br_350_350_4_london_northwestern_railway___transitional_train.gnml
+  identifier: br_350_350_4_london_northwestern_railway___transitional_train
+  name_string: str_br_350_350_4_london_northwestern_railway___transitional_train_name
+  strings:
+    str_br_350_350_4_london_northwestern_railway___transitional_train_name: Class
+      350 "Desiro" - 4-Car - London Northwestern Railway - Transitional
+    str_br_350_350_4_london_northwestern_railway___transitional_train_group_name: Class
+      350 "Desiro" - 4-Car
+- id: 1368
+  vehicle: br_350
+  profile: '350_4'
+  livery: london northwestern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1368_br_350_350_4_london_northwestern_railway_train.gnml
+  identifier: br_350_350_4_london_northwestern_railway_train
+  name_string: str_br_350_350_4_london_northwestern_railway_train_name
+  strings:
+    str_br_350_350_4_london_northwestern_railway_train_name: Class 350 "Desiro" -
+      4-Car - London Northwestern Railway
+    str_br_350_350_4_london_northwestern_railway_train_group_name: Class 350 "Desiro"
+      - 4-Car
+- id: 1369
+  vehicle: br_350
+  profile: '350_4'
+  livery: london northwestern railway - ukraine
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1369_br_350_350_4_london_northwestern_railway___ukraine_train.gnml
+  identifier: br_350_350_4_london_northwestern_railway___ukraine_train
+  name_string: str_br_350_350_4_london_northwestern_railway___ukraine_train_name
+  strings:
+    str_br_350_350_4_london_northwestern_railway___ukraine_train_name: Class 350 "Desiro"
+      - 4-Car - London Northwestern Railway - Ukraine
+    str_br_350_350_4_london_northwestern_railway___ukraine_train_group_name: Class
+      350 "Desiro" - 4-Car
