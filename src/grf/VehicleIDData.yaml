@@ -7159,3 +7159,284 @@ variants:
       - 2-Car - London Northwestern Railway Green
     str_br_230_2car_london_northwestern_railway_green_train_group_name: Class 230
       'D-Train' - 2-Car
+- id: 1243
+  vehicle: br_47
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1243_br_47_default_br_green_train.gnml
+  identifier: br_47_default_br_green_train
+  name_string: str_br_47_default_br_green_train_name
+  strings:
+    str_br_47_default_br_green_train_name: Class 47 - BR Green
+    str_br_47_default_br_green_train_group_name: Class 47
+- id: 1244
+  vehicle: br_47
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1244_br_47_default_br_blue_train.gnml
+  identifier: br_47_default_br_blue_train
+  name_string: str_br_47_default_br_blue_train_name
+  strings:
+    str_br_47_default_br_blue_train_name: Class 47 - BR Blue
+    str_br_47_default_br_blue_train_group_name: Class 47
+- id: 1245
+  vehicle: br_47
+  profile: default
+  livery: porterbrook
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1245_br_47_default_porterbrook_train.gnml
+  identifier: br_47_default_porterbrook_train
+  name_string: str_br_47_default_porterbrook_train_name
+  strings:
+    str_br_47_default_porterbrook_train_name: Class 47 - Porterbrook
+    str_br_47_default_porterbrook_train_group_name: Class 47
+- id: 1246
+  vehicle: br_47
+  profile: default
+  livery: ews
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1246_br_47_default_ews_train.gnml
+  identifier: br_47_default_ews_train
+  name_string: str_br_47_default_ews_train_name
+  strings:
+    str_br_47_default_ews_train_name: Class 47 - EWS
+    str_br_47_default_ews_train_group_name: Class 47
+- id: 1247
+  vehicle: br_47
+  profile: default
+  livery: br large logo
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1247_br_47_default_br_large_logo_train.gnml
+  identifier: br_47_default_br_large_logo_train
+  name_string: str_br_47_default_br_large_logo_train_name
+  strings:
+    str_br_47_default_br_large_logo_train_name: Class 47 - BR Large Logo
+    str_br_47_default_br_large_logo_train_group_name: Class 47
+- id: 1249
+  vehicle: br_47
+  profile: default
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1249_br_47_default_anglia_train.gnml
+  identifier: br_47_default_anglia_train
+  name_string: str_br_47_default_anglia_train_name
+  strings:
+    str_br_47_default_anglia_train_name: Class 47 - Anglia
+    str_br_47_default_anglia_train_group_name: Class 47
+- id: 1250
+  vehicle: br_47
+  profile: default
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1250_br_47_default_intercity_train.gnml
+  identifier: br_47_default_intercity_train
+  name_string: str_br_47_default_intercity_train_name
+  strings:
+    str_br_47_default_intercity_train_name: Class 47 - InterCity
+    str_br_47_default_intercity_train_group_name: Class 47
+- id: 1251
+  vehicle: br_47
+  profile: default
+  livery: west coast railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1251_br_47_default_west_coast_railway_train.gnml
+  identifier: br_47_default_west_coast_railway_train
+  name_string: str_br_47_default_west_coast_railway_train_name
+  strings:
+    str_br_47_default_west_coast_railway_train_name: Class 47 - West Coast Railway
+    str_br_47_default_west_coast_railway_train_group_name: Class 47
+- id: 1252
+  vehicle: br_47
+  profile: default
+  livery: gwr green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1252_br_47_default_gwr_green_train.gnml
+  identifier: br_47_default_gwr_green_train
+  name_string: str_br_47_default_gwr_green_train_name
+  strings:
+    str_br_47_default_gwr_green_train_name: Class 47 - GWR Green
+    str_br_47_default_gwr_green_train_group_name: Class 47
+- id: 1253
+  vehicle: br_47
+  profile: default
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1253_br_47_default_virgin_train.gnml
+  identifier: br_47_default_virgin_train
+  name_string: str_br_47_default_virgin_train_name
+  strings:
+    str_br_47_default_virgin_train_name: Class 47 - Virgin
+    str_br_47_default_virgin_train_group_name: Class 47
+- id: 1254
+  vehicle: br_47
+  profile: default
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1254_br_47_default_colas_rail_train.gnml
+  identifier: br_47_default_colas_rail_train
+  name_string: str_br_47_default_colas_rail_train_name
+  strings:
+    str_br_47_default_colas_rail_train_name: Class 47 - Colas Rail
+    str_br_47_default_colas_rail_train_group_name: Class 47
+- id: 1255
+  vehicle: br_47
+  profile: default
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1255_br_47_default_one_train.gnml
+  identifier: br_47_default_one_train
+  name_string: str_br_47_default_one_train_name
+  strings:
+    str_br_47_default_one_train_name: Class 47 - ONE
+    str_br_47_default_one_train_group_name: Class 47
+- id: 1256
+  vehicle: br_47
+  profile: default
+  livery: freightliner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1256_br_47_default_freightliner_train.gnml
+  identifier: br_47_default_freightliner_train
+  name_string: str_br_47_default_freightliner_train_name
+  strings:
+    str_br_47_default_freightliner_train_name: Class 47 - Freightliner
+    str_br_47_default_freightliner_train_group_name: Class 47
+- id: 1248
+  vehicle: br_47
+  profile: default
+  livery: br large logo (blue stripe)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1248_br_47_default_br_large_logo__blue_stripe__train.gnml
+  identifier: br_47_default_br_large_logo__blue_stripe__train
+  name_string: str_br_47_default_br_large_logo__blue_stripe__train_name
+  strings:
+    str_br_47_default_br_large_logo__blue_stripe__train_name: Class 47 - BR Large
+      Logo Blue Stripe
+    str_br_47_default_br_large_logo__blue_stripe__train_group_name: Class 47

@@ -1,0 +1,64 @@
+info:
+  identifier: br_47
+  name: Class 47
+  sub_name: Mixed traffic diesel locomotive
+  based_on: British Rail Class 47
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 112
+  length: 8
+  power: 2750
+  speed: 75
+  tractive_effort: 0.275
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1962-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/47
+
+liveries:
+  # Row order comes from the sheet's own artwork (see compose_br47_sheet.py): the legacy
+  # spriteset y declarations in BRTrains2/src/trains/diesel_loco/47.pnml do not match what
+  # the bands actually draw, so each band above is labelled by the colours it carries.
+  # The sheet has no band that is unaccounted for as the switch's 15th label (ScotRail);
+  # that is recorded as a query in /home/jon/BRTrains3-import-oddities.md.
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: Porterbrook
+    special_tags: [operator/Porterbrook]
+  - name: EWS
+    special_tags: [operator/EWS]
+  - name: 'BR Large Logo'
+    special_tags: [operator/BR]
+  - name: 'BR Large Logo (Blue Stripe)'
+    special_tags: [operator/BR]
+  - name: Anglia
+    special_tags: [operator/Anglia]
+  - name: InterCity
+    special_tags: [operator/InterCity]
+  - name: 'West Coast Railway'
+    special_tags: [operator/West Coast Railway]
+  - name: 'GWR Green'
+    special_tags: [operator/GWR]
+  - name: Virgin
+    special_tags: [operator/Virgin Trains]
+  - name: 'Colas Rail'
+    special_tags: [operator/Colas Rail]
+  - name: ONE
+    special_tags: [operator/One]
+  - name: Freightliner
+    special_tags: [operator/Freightliner]
