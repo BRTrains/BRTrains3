@@ -9397,3 +9397,417 @@ variants:
       - 4-Car - National Express East Anglia
     str_br_321_321_4_national_express_east_anglia_train_group_name: Class 321 "Dusty
       Bin" - 4-Car
+- id: 1343
+  vehicle: br_pacer
+  profile: '140'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 52
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1343_br_pacer_140_br_blue_train.gnml
+  identifier: br_pacer_140_br_blue_train
+  name_string: str_br_pacer_140_br_blue_train_name
+  strings:
+    str_br_pacer_140_br_blue_train_name: Class 140/141/142/143 Pacer - Class 140 -
+      BR Blue
+    str_br_pacer_140_br_blue_train_single_livery_name: Class 140/141/142/143 Pacer
+      - Class 140 - BR Blue
+- id: 1344
+  vehicle: br_pacer
+  profile: '141'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 47
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1344_br_pacer_141_br_blue_train.gnml
+  identifier: br_pacer_141_br_blue_train
+  name_string: str_br_pacer_141_br_blue_train_name
+  strings:
+    str_br_pacer_141_br_blue_train_name: Class 140/141/142/143 Pacer - Class 141 -
+      BR Blue
+    str_br_pacer_141_br_blue_train_group_name: Class 140/141/142/143 Pacer - Class
+      141
+- id: 1345
+  vehicle: br_pacer
+  profile: '141'
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 47
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1345_br_pacer_141_wypte_metro_train.gnml
+  identifier: br_pacer_141_wypte_metro_train
+  name_string: str_br_pacer_141_wypte_metro_train_name
+  strings:
+    str_br_pacer_141_wypte_metro_train_name: Class 140/141/142/143 Pacer - Class 141
+      - WYPTE Metro
+    str_br_pacer_141_wypte_metro_train_group_name: Class 140/141/142/143 Pacer - Class
+      141
+- id: 1346
+  vehicle: br_pacer
+  profile: '141'
+  livery: wypte verona
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 47
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1346_br_pacer_141_wypte_verona_train.gnml
+  identifier: br_pacer_141_wypte_verona_train
+  name_string: str_br_pacer_141_wypte_verona_train_name
+  strings:
+    str_br_pacer_141_wypte_verona_train_name: Class 140/141/142/143 Pacer - Class
+      141 - WYPTE Verona
+    str_br_pacer_141_wypte_verona_train_group_name: Class 140/141/142/143 Pacer -
+      Class 141
+- id: 1347
+  vehicle: br_pacer
+  profile: '142'
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1347_br_pacer_142_wypte_metro_train.gnml
+  identifier: br_pacer_142_wypte_metro_train
+  name_string: str_br_pacer_142_wypte_metro_train_name
+  strings:
+    str_br_pacer_142_wypte_metro_train_name: Class 140/141/142/143 Pacer - Class 142
+      - WYPTE Metro
+    str_br_pacer_142_wypte_metro_train_group_name: Class 140/141/142/143 Pacer - Class
+      142
+- id: 1348
+  vehicle: br_pacer
+  profile: '142'
+  livery: br provincial
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1348_br_pacer_142_br_provincial_train.gnml
+  identifier: br_pacer_142_br_provincial_train
+  name_string: str_br_pacer_142_br_provincial_train_name
+  strings:
+    str_br_pacer_142_br_provincial_train_name: Class 140/141/142/143 Pacer - Class
+      142 - BR Provincial
+    str_br_pacer_142_br_provincial_train_group_name: Class 140/141/142/143 Pacer -
+      Class 142
+- id: 1349
+  vehicle: br_pacer
+  profile: '142'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1349_br_pacer_142_regional_railways_train.gnml
+  identifier: br_pacer_142_regional_railways_train
+  name_string: str_br_pacer_142_regional_railways_train_name
+  strings:
+    str_br_pacer_142_regional_railways_train_name: Class 140/141/142/143 Pacer - Class
+      142 - Regional Railways
+    str_br_pacer_142_regional_railways_train_group_name: Class 140/141/142/143 Pacer
+      - Class 142
+- id: 1350
+  vehicle: br_pacer
+  profile: '142'
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1350_br_pacer_142_northern_rail_train.gnml
+  identifier: br_pacer_142_northern_rail_train
+  name_string: str_br_pacer_142_northern_rail_train_name
+  strings:
+    str_br_pacer_142_northern_rail_train_name: Class 140/141/142/143 Pacer - Class
+      142 - Northern Rail
+    str_br_pacer_142_northern_rail_train_group_name: Class 140/141/142/143 Pacer -
+      Class 142
+- id: 1351
+  vehicle: br_pacer
+  profile: '142'
+  livery: northern spirit
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1351_br_pacer_142_northern_spirit_train.gnml
+  identifier: br_pacer_142_northern_spirit_train
+  name_string: str_br_pacer_142_northern_spirit_train_name
+  strings:
+    str_br_pacer_142_northern_spirit_train_name: Class 140/141/142/143 Pacer - Class
+      142 - Northern Spirit
+    str_br_pacer_142_northern_spirit_train_group_name: Class 140/141/142/143 Pacer
+      - Class 142
+- id: 1352
+  vehicle: br_pacer
+  profile: '142'
+  livery: arriva trains wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1352_br_pacer_142_arriva_trains_wales_train.gnml
+  identifier: br_pacer_142_arriva_trains_wales_train
+  name_string: str_br_pacer_142_arriva_trains_wales_train_name
+  strings:
+    str_br_pacer_142_arriva_trains_wales_train_name: Class 140/141/142/143 Pacer -
+      Class 142 - Arriva Trains Wales
+    str_br_pacer_142_arriva_trains_wales_train_group_name: Class 140/141/142/143 Pacer
+      - Class 142
+- id: 1353
+  vehicle: br_pacer
+  profile: '142'
+  livery: north western trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1353_br_pacer_142_north_western_trains_train.gnml
+  identifier: br_pacer_142_north_western_trains_train
+  name_string: str_br_pacer_142_north_western_trains_train_name
+  strings:
+    str_br_pacer_142_north_western_trains_train_name: Class 140/141/142/143 Pacer
+      - Class 142 - North Western Trains
+    str_br_pacer_142_north_western_trains_train_group_name: Class 140/141/142/143
+      Pacer - Class 142
+- id: 1354
+  vehicle: br_pacer
+  profile: '142'
+  livery: merseyrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1354_br_pacer_142_merseyrail_train.gnml
+  identifier: br_pacer_142_merseyrail_train
+  name_string: str_br_pacer_142_merseyrail_train_name
+  strings:
+    str_br_pacer_142_merseyrail_train_name: Class 140/141/142/143 Pacer - Class 142
+      - Merseyrail
+    str_br_pacer_142_merseyrail_train_group_name: Class 140/141/142/143 Pacer - Class
+      142
+- id: 1355
+  vehicle: br_pacer
+  profile: '143'
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1355_br_pacer_143_wypte_metro_train.gnml
+  identifier: br_pacer_143_wypte_metro_train
+  name_string: str_br_pacer_143_wypte_metro_train_name
+  strings:
+    str_br_pacer_143_wypte_metro_train_name: Class 140/141/142/143 Pacer - Class 143
+      - WYPTE Metro
+    str_br_pacer_143_wypte_metro_train_group_name: Class 140/141/142/143 Pacer - Class
+      143
+- id: 1356
+  vehicle: br_pacer
+  profile: '143'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1356_br_pacer_143_regional_railways_train.gnml
+  identifier: br_pacer_143_regional_railways_train
+  name_string: str_br_pacer_143_regional_railways_train_name
+  strings:
+    str_br_pacer_143_regional_railways_train_name: Class 140/141/142/143 Pacer - Class
+      143 - Regional Railways
+    str_br_pacer_143_regional_railways_train_group_name: Class 140/141/142/143 Pacer
+      - Class 143
+- id: 1357
+  vehicle: br_pacer
+  profile: '143'
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1357_br_pacer_143_northern_rail_train.gnml
+  identifier: br_pacer_143_northern_rail_train
+  name_string: str_br_pacer_143_northern_rail_train_name
+  strings:
+    str_br_pacer_143_northern_rail_train_name: Class 140/141/142/143 Pacer - Class
+      143 - Northern Rail
+    str_br_pacer_143_northern_rail_train_group_name: Class 140/141/142/143 Pacer -
+      Class 143
+- id: 1358
+  vehicle: br_pacer
+  profile: '143'
+  livery: valley lines
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1358_br_pacer_143_valley_lines_train.gnml
+  identifier: br_pacer_143_valley_lines_train
+  name_string: str_br_pacer_143_valley_lines_train_name
+  strings:
+    str_br_pacer_143_valley_lines_train_name: Class 140/141/142/143 Pacer - Class
+      143 - Valley Lines
+    str_br_pacer_143_valley_lines_train_group_name: Class 140/141/142/143 Pacer -
+      Class 143
+- id: 1359
+  vehicle: br_pacer
+  profile: '143'
+  livery: wessex trains york
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1359_br_pacer_143_wessex_trains_york_train.gnml
+  identifier: br_pacer_143_wessex_trains_york_train
+  name_string: str_br_pacer_143_wessex_trains_york_train_name
+  strings:
+    str_br_pacer_143_wessex_trains_york_train_name: Class 140/141/142/143 Pacer -
+      Class 143 - Wessex Trains York
+    str_br_pacer_143_wessex_trains_york_train_group_name: Class 140/141/142/143 Pacer
+      - Class 143
+- id: 1360
+  vehicle: br_pacer
+  profile: '143'
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1360_br_pacer_143_great_western_railway_green_train.gnml
+  identifier: br_pacer_143_great_western_railway_green_train
+  name_string: str_br_pacer_143_great_western_railway_green_train_name
+  strings:
+    str_br_pacer_143_great_western_railway_green_train_name: Class 140/141/142/143
+      Pacer - Class 143 - Great Western Railway Green
+    str_br_pacer_143_great_western_railway_green_train_group_name: Class 140/141/142/143
+      Pacer - Class 143
