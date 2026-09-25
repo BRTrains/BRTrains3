@@ -1,0 +1,53 @@
+info:
+  identifier: br_81
+  name: 'Class 81 "AL1"'
+  sub_name: Electric mixed-traffic locomotive
+  based_on: British Rail Class 81
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 79.6
+  length: 8
+  power: 3680
+  speed: 100
+  tractive_effort: 0.3
+  # The legacy item declares `track_type: ELRL` (the AL1-AL7 classes were
+  # 25 kV AC overhead locomotives). Declared explicitly rather than left to
+  # `power_type`, which would give ELRL alone anyway, so the intent is on record.
+  track_type:
+    - ELRL
+  power_type:
+    - electric
+
+# The legacy item declares `refittable_cargo_classes: 0` (the locomotive's
+# `cargo_capacity` callback returns 0) with a `cargo_allow_refit: [GOOD, FOOD]` list
+# it cannot use, so `cargo: none` states the same thing — it emits an explicit empty
+# class list, as on the Class 92/60/58.
+cargo: none
+
+# `loading_speed: 3` is the legacy item's figure (same as the Class 92/47/89
+# freight locomotives). `cargo_age_period` is not carried, as set-wide.
+loading_speed: 3
+
+dates:
+  # `date(1959,1,1)` in BRTrains2/src/trains/electric_loco/81.pnml.
+  introduction_date: 1959-01-01
+
+profiles:
+  # One 1-car locomotive: `item_BR81` has no articulated callback at all, so there
+  # are no parts and no `sprite_override`.
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/81
+
+liveries:
+  # `sw_BR81` (graphics) and `sw_BR81_cargo_subtype_text` have cargo_subtype 0 as
+  # their only case (`str_BRBlue`), so there is one livery. Its band on the shared
+  # AL1-AL7 artist sheet `BRTrains2/gfx/Electric/8X.png` is y=65, which is what
+  # `spriteset_BR81_BRBlue` reads (`template_train32px(0, 65)`).
+  - name: 'BR Blue'
+    special_tags: [operator/BR]

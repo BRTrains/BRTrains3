@@ -10256,3 +10256,23 @@ variants:
   strings:
     str_br_92_default_stobart_rail_train_name: Class 92 "Dyson" - Stobart Rail
     str_br_92_default_stobart_rail_train_group_name: Class 92 "Dyson"
+- id: 1380
+  vehicle: br_81
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1380_br_81_default_br_blue_train.gnml
+  identifier: br_81_default_br_blue_train
+  name_string: str_br_81_default_br_blue_train_name
+  strings:
+    str_br_81_default_br_blue_train_name: Class 81 "AL1" - BR Blue
+    str_br_81_default_br_blue_train_single_livery_name: Class 81 "AL1" - BR Blue
