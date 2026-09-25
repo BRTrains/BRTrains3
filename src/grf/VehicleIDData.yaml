@@ -10085,3 +10085,51 @@ variants:
       - 5-Car - London Northwestern Railway
     str_br_730_730_2_5car_london_northwestern_railway_train_single_livery_name: Class
       730 "Aventra" - 5-Car - London Northwestern Railway
+- id: 1372
+  vehicle: br_325
+  profile: '325_4'
+  livery: royal mail striped
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1372_br_325_325_4_royal_mail_striped_train.gnml
+  identifier: br_325_325_4_royal_mail_striped_train
+  name_string: str_br_325_325_4_royal_mail_striped_train_name
+  strings:
+    str_br_325_325_4_royal_mail_striped_train_name: Class 325 - 4-Car - Royal Mail
+      Striped
+    str_br_325_325_4_royal_mail_striped_train_group_name: Class 325 - 4-Car
+- id: 1373
+  vehicle: br_325
+  profile: '325_4'
+  livery: royal mail plain red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1373_br_325_325_4_royal_mail_plain_red_train.gnml
+  identifier: br_325_325_4_royal_mail_plain_red_train
+  name_string: str_br_325_325_4_royal_mail_plain_red_train_name
+  strings:
+    str_br_325_325_4_royal_mail_plain_red_train_name: Class 325 - 4-Car - Royal Mail
+      Plain Red
+    str_br_325_325_4_royal_mail_plain_red_train_group_name: Class 325 - 4-Car

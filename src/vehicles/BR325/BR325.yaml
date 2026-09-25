@@ -1,0 +1,63 @@
+info:
+  identifier: br_325
+  name: 'Class 325'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 325
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 140
+  length: 8
+  power: 2000
+  speed: 100
+  tractive_effort: 0.06
+  power_type:
+    - electric
+  # The legacy item declares `track_type: [THIRD, ELRL]` — the 325s were dual-voltage
+  # (third rail and overhead), which is why the real unit ran on both the Southern and
+  # the WCML. Declared explicitly rather than left to `power_type`, which would give ELRL.
+  track_type:
+    - THIRD
+    - ELRL
+
+# `parcels` is BRBuild's preset for a mail unit: CC_MAIL + CC_EXPRESS + CC_ARMOURED,
+# exactly the legacy item's `refittable_cargo_classes: bitmask(CC_MAIL, CC_EXPRESS,
+# CC_ARMOURED)`. The legacy's `default_cargo_type: MAIL` cannot be carried until the
+# project declares a cargotable (BRBuild writes `default_cargo_type` only when the YAML
+# authors one) — recorded in the import oddities file.
+cargo: parcels
+
+loading_speed: 30
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1995-01-01
+
+profiles:
+  # One 4-car formation: the legacy root item `item_BR325` plus `sw_BR325_articulated`'s
+  # parts 1..3, which all return the same item — four identical cars. The composite's row
+  # order is the legacy switch's own consumption order (`sw_BR325_spriteset_*`,
+  # `position_in_articulated_veh % 4` = front, middle, middle_panto, rear), so no
+  # `sprite_override` is needed.
+  #
+  # Capacity: the legacy `sw_BR325_cargo_capacity` returns 93 at position 1 and 98 at the
+  # other three, i.e. 387 for the unit. BRBuild's `capacity` is one uniform per-part figure,
+  # so the value the other three cars carry (98) is used — 392 in game. See the oddities file.
+  - identifier: '325_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 98
+    special_tags:
+      - formation/4-car
+      - subclass/325
+
+liveries:
+  # `sw_BR325`'s cargo_subtype order is the composite's row order: subtype 0 is the striped
+  # Royal Mail livery, subtype 1 the plain red one. Names are the legacy's own words from
+  # `str_BR325_liveries` ("Royal Mail Striped, Royal Mail Plain Red") — the switch's own text
+  # strings read "(Royal Mail - Red with Stripe)" and "(Royal Mail - Red)".
+  - name: 'Royal Mail Striped'
+    special_tags: [operator/Royal Mail]
+  - name: 'Royal Mail Plain Red'
+    special_tags: [operator/Royal Mail]
