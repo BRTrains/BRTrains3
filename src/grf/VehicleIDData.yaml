@@ -10682,3 +10682,24 @@ variants:
   strings:
     str_br_89_default_intercity_train_name: Class 89 "Badger" - InterCity
     str_br_89_default_intercity_train_group_name: Class 89 "Badger"
+- id: 1401
+  vehicle: br_80
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1401_br_80_default_br_black_train.gnml
+  identifier: br_80_default_br_black_train
+  name_string: str_br_80_default_br_black_train_name
+  strings:
+    str_br_80_default_br_black_train_name: Class 80 25kV Prototype - BR Black
+    str_br_80_default_br_black_train_single_livery_name: Class 80 25kV Prototype -
+      BR Black
