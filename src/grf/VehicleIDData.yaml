@@ -12363,14 +12363,14 @@ variants:
   strings:
     str_br_28_default_br_research_train_name: Class 28 "Metrovick" - BR Research
     str_br_28_default_br_research_train_group_name: Class 28 "Metrovick"
-- id: 1480
+- id: null
   vehicle: br_59
   profile: '59_0_1'
   livery: foster yeoman - grey
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -12385,14 +12385,14 @@ variants:
       - Foster Yeoman - Grey
     str_br_59_59_0_1_foster_yeoman___grey_train_group_name: Class 59 "Super Shed"
       - 59/0-1
-- id: 1481
+- id: null
   vehicle: br_59
   profile: '59_0_1'
   livery: foster yeoman - blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -12490,14 +12490,14 @@ variants:
       - Aggregate Industries
     str_br_59_59_0_1_aggregate_industries_train_group_name: Class 59 "Super Shed"
       - 59/0-1
-- id: 1486
+- id: null
   vehicle: br_59
   profile: '59_0_1'
   livery: ews - red and gold
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -12532,14 +12532,14 @@ variants:
   strings:
     str_br_59_59_0_1_db_schenker_train_name: Class 59 "Super Shed" - 59/0-1 - DB Schenker
     str_br_59_59_0_1_db_schenker_train_group_name: Class 59 "Super Shed" - 59/0-1
-- id: 1488
+- id: null
   vehicle: br_59
   profile: '59_0_1'
   livery: freightliner - orange
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -12594,14 +12594,14 @@ variants:
   strings:
     str_br_59_59_0_1_heidelberg_train_name: Class 59 "Super Shed" - 59/0-1 - Heidelberg
     str_br_59_59_0_1_heidelberg_train_group_name: Class 59 "Super Shed" - 59/0-1
-- id: 1491
+- id: null
   vehicle: br_59
   profile: '59_2'
   livery: ews - red and gold
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -12656,3 +12656,111 @@ variants:
     str_br_59_59_2_national_power_train_name: Class 59 "Super Shed" - 59/2 - National
       Power
     str_br_59_59_2_national_power_train_group_name: Class 59 "Super Shed" - 59/2
+- id: 1480
+  vehicle: br_59
+  profile: '59_0_1'
+  livery: foster yeoman grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1480_br_59_59_0_1_foster_yeoman_grey_train.gnml
+  identifier: br_59_59_0_1_foster_yeoman_grey_train
+  name_string: str_br_59_59_0_1_foster_yeoman_grey_train_name
+  strings:
+    str_br_59_59_0_1_foster_yeoman_grey_train_name: Class 59 "Super Shed" - 59/0-1
+      - Foster Yeoman Grey
+    str_br_59_59_0_1_foster_yeoman_grey_train_group_name: Class 59 "Super Shed" -
+      59/0-1
+- id: 1481
+  vehicle: br_59
+  profile: '59_0_1'
+  livery: foster yeoman blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1481_br_59_59_0_1_foster_yeoman_blue_train.gnml
+  identifier: br_59_59_0_1_foster_yeoman_blue_train
+  name_string: str_br_59_59_0_1_foster_yeoman_blue_train_name
+  strings:
+    str_br_59_59_0_1_foster_yeoman_blue_train_name: Class 59 "Super Shed" - 59/0-1
+      - Foster Yeoman Blue
+    str_br_59_59_0_1_foster_yeoman_blue_train_group_name: Class 59 "Super Shed" -
+      59/0-1
+- id: 1486
+  vehicle: br_59
+  profile: '59_0_1'
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1486_br_59_59_0_1_ews_red_and_gold_train.gnml
+  identifier: br_59_59_0_1_ews_red_and_gold_train
+  name_string: str_br_59_59_0_1_ews_red_and_gold_train_name
+  strings:
+    str_br_59_59_0_1_ews_red_and_gold_train_name: Class 59 "Super Shed" - 59/0-1 -
+      EWS Red and Gold
+    str_br_59_59_0_1_ews_red_and_gold_train_group_name: Class 59 "Super Shed" - 59/0-1
+- id: 1488
+  vehicle: br_59
+  profile: '59_0_1'
+  livery: freightliner orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1488_br_59_59_0_1_freightliner_orange_train.gnml
+  identifier: br_59_59_0_1_freightliner_orange_train
+  name_string: str_br_59_59_0_1_freightliner_orange_train_name
+  strings:
+    str_br_59_59_0_1_freightliner_orange_train_name: Class 59 "Super Shed" - 59/0-1
+      - Freightliner Orange
+    str_br_59_59_0_1_freightliner_orange_train_group_name: Class 59 "Super Shed" -
+      59/0-1
+- id: 1491
+  vehicle: br_59
+  profile: '59_2'
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1491_br_59_59_2_ews_red_and_gold_train.gnml
+  identifier: br_59_59_2_ews_red_and_gold_train
+  name_string: str_br_59_59_2_ews_red_and_gold_train_name
+  strings:
+    str_br_59_59_2_ews_red_and_gold_train_name: Class 59 "Super Shed" - 59/2 - EWS
+      Red and Gold
+    str_br_59_59_2_ews_red_and_gold_train_group_name: Class 59 "Super Shed" - 59/2

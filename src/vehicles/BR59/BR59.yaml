@@ -61,14 +61,13 @@ profiles:
 # the two shared liveries (EWS, DB Schenker) appear on both, so the sheet carries
 # each of those two drawings twice.
 liveries:
-  # Livery names are the legacy `str_*` strings with their parentheses dropped, as
-  # on the rest of the set: `(Foster Yeoman - Grey)`, `(ARC)`, `(Mendip)`,
-  # `(Hanson & Hall)`, `(Aggregate Industries)`, `(EWS - Red and Gold)`,
-  # `(DB Schenker)`, `(Freightliner - Orange)`, `(GBRf)`, `(Heidelberg)`.
-  - name: 'Foster Yeoman - Grey'
+  # Livery names are the legacy `str_*` strings re-wrapped in the set's operator-name
+  # style (`(Foster Yeoman - Grey)` -> `Foster Yeoman Grey`, `(EWS - Red and Gold)` ->
+  # `EWS Red and Gold`), with the rest kept as the legacy spells them.
+  - name: 'Foster Yeoman Grey'
     profiles: ['59_0_1']
     special_tags: [operator/Foster Yeoman]
-  - name: 'Foster Yeoman - Blue'
+  - name: 'Foster Yeoman Blue'
     profiles: ['59_0_1']
     special_tags: [operator/Foster Yeoman]
   - name: 'ARC'
@@ -83,13 +82,13 @@ liveries:
   - name: 'Aggregate Industries'
     profiles: ['59_0_1']
     special_tags: [operator/Aggregate Industries]
-  - name: 'EWS - Red and Gold'
+  - name: 'EWS Red and Gold'
     profiles: ['59_0_1', '59_2']
     special_tags: [operator/EWS]
   - name: 'DB Schenker'
     profiles: ['59_0_1', '59_2']
     special_tags: [operator/DB Schenker]
-  - name: 'Freightliner - Orange'
+  - name: 'Freightliner Orange'
     profiles: ['59_0_1']
     special_tags: [operator/Freightliner]
   - name: 'GBRf'
