@@ -19093,3 +19093,115 @@ variants:
     str_br_139_default_london_midland_train_group_name: Class 139 "Parry People Mover"
     str_br_139_default_go_coperative_train_name: Class 139 "Parry People Mover" -
       Go Coperative
+- id: 1794
+  vehicle: br_165
+  profile: '166'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1794_br_165_166_network_south_east_train.gnml
+  identifier: br_165_166_network_south_east_train
+  name_string: str_br_165_166_network_south_east_train_name
+  strings:
+    str_br_165_166_network_south_east_train_name: Class 165 "Turbo" - 166 - Network
+      South East
+    str_br_165_166_network_south_east_train_group_name: Class 165 "Turbo" - 166
+- id: 1795
+  vehicle: br_165
+  profile: '166'
+  livery: thames trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1795_br_165_166_thames_trains_train.gnml
+  identifier: br_165_166_thames_trains_train
+  name_string: str_br_165_166_thames_trains_train_name
+  strings:
+    str_br_165_166_network_south_east_train_group_name: Class 165 "Turbo" - 166
+    str_br_165_166_thames_trains_train_name: Class 165 "Turbo" - 166 - Thames Trains
+- id: 1796
+  vehicle: br_165
+  profile: '166'
+  livery: first link
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1796_br_165_166_first_link_train.gnml
+  identifier: br_165_166_first_link_train
+  name_string: str_br_165_166_first_link_train_name
+  strings:
+    str_br_165_166_network_south_east_train_group_name: Class 165 "Turbo" - 166
+    str_br_165_166_first_link_train_name: Class 165 "Turbo" - 166 - First Link
+- id: 1797
+  vehicle: br_165
+  profile: '166'
+  livery: first great western - dynamic lines
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1797_br_165_166_first_great_western___dynamic_lines_train.gnml
+  identifier: br_165_166_first_great_western___dynamic_lines_train
+  name_string: str_br_165_166_first_great_western___dynamic_lines_train_name
+  strings:
+    str_br_165_166_network_south_east_train_group_name: Class 165 "Turbo" - 166
+    str_br_165_166_first_great_western___dynamic_lines_train_name: Class 165 "Turbo"
+      - 166 - First Great Western - Dynamic Lines
+- id: 1798
+  vehicle: br_165
+  profile: '166'
+  livery: gwr - green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 86
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1798_br_165_166_gwr___green_train.gnml
+  identifier: br_165_166_gwr___green_train
+  name_string: str_br_165_166_gwr___green_train_name
+  strings:
+    str_br_165_166_network_south_east_train_group_name: Class 165 "Turbo" - 166
+    str_br_165_166_gwr___green_train_name: Class 165 "Turbo" - 166 - GWR - Green

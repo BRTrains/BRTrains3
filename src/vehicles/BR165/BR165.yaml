@@ -88,6 +88,28 @@ profiles:
       - formation/3-car
       - subclass/165_1
 
+  # `item_BR166` (406): the three-car Thames Turbo, the third member of the legacy's
+  # `header_Turbo` variant group. Its `sw_BR166` names the Class 165/1's own five spriteset
+  # switches (`sw_BR165_NSE` / `_ThamesTrains` / `_FirstLink` / `_FGW` / `_GWR`, declared in
+  # `Turbo/sprites/BR165.pnml`) in the same subtype order, and its `switch_articulated_BR166`
+  # adds parts at positions 1..2 — a three-car drawing front/middle/rear, exactly the group
+  # `165_1_3car` already consumes. `sprite_group: '165_1'` therefore gives this profile that
+  # profile's rows for each of its four shared liveries plus Network South East, so the sheet
+  # needs no additional drawings (five new variants, zero new rows).
+  - identifier: '166'
+    name: '166'
+    num_vehicles: 3
+    capacity: 86
+    power: 1050
+    weight: 117
+    speed: 90
+    sprite_group: '165_1'
+    sprite_override: [1, 2, 3]
+    introduction_date: 1992-04-21
+    special_tags:
+      - formation/3-car
+      - subclass/166
+
 liveries:
   # Order is the composite's row order (`BRTrains3-artwork-tools/compose_br165_sheet.py`),
   # which is the allocator's own consumption order: profile-outer, livery-inner, reading the
@@ -106,19 +128,20 @@ liveries:
   # The legacy `sw_BR165_1` offers this class NSE, Thames Trains, First Link, FGW Dynamic
   # Lines and GWR Green only, so the Chiltern drawing is restricted to the two 165/0
   # profiles rather than offered on the Thames units as well (which is what an unrestricted
-  # livery would do).
+  # livery would do). The `166` profile carries the same five liveries as `sw_BR166`, so the
+  # four restricted below list it alongside the two 165/1 profiles.
   - name: 'Chiltern Railways'
     profiles: ['165_0', '165_0_3car']
     special_tags: [operator/Chiltern Railways]
   - name: 'Thames Trains'
-    profiles: ['165_1', '165_1_3car']
+    profiles: ['165_1', '165_1_3car', '166']
     special_tags: [operator/Thames Trains]
   - name: 'First Link'
-    profiles: ['165_1', '165_1_3car']
+    profiles: ['165_1', '165_1_3car', '166']
     special_tags: [operator/First Great Western]
   - name: 'First Great Western - Dynamic Lines'
-    profiles: ['165_1', '165_1_3car']
+    profiles: ['165_1', '165_1_3car', '166']
     special_tags: [operator/First Great Western]
   - name: 'GWR - Green'
-    profiles: ['165_1', '165_1_3car']
+    profiles: ['165_1', '165_1_3car', '166']
     special_tags: [operator/GWR]
