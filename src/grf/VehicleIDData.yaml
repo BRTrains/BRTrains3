@@ -15543,3 +15543,47 @@ variants:
   strings:
     str_br_68_68_6mk3_chiltern_railways_train_name: Class 68 - Mk3 Set - Chiltern
       Railways
+- id: 1635
+  vehicle: br_70og
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1635_br_70og_default_br_green_train.gnml
+  identifier: br_70og_default_br_green_train
+  name_string: str_br_70og_default_br_green_train_name
+  strings:
+    str_br_70og_default_br_green_train_name: Class 70 Southern Railway Class CC -
+      BR Green
+    str_br_70og_default_br_green_train_group_name: Class 70 Southern Railway Class
+      CC
+- id: 1636
+  vehicle: br_70og
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1636_br_70og_default_br_blue_train.gnml
+  identifier: br_70og_default_br_blue_train
+  name_string: str_br_70og_default_br_blue_train_name
+  strings:
+    str_br_70og_default_br_green_train_group_name: Class 70 Southern Railway Class
+      CC
+    str_br_70og_default_br_blue_train_name: Class 70 Southern Railway Class CC - BR
+      Blue
