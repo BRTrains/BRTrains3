@@ -15046,3 +15046,163 @@ variants:
     str_br_66_66_6_freightliner_train_group_name: Class 66 - 66/6
     str_br_66_66_6_freightliner_orange_train_name: Class 66 - 66/6 - Freightliner
       Orange
+- id: 1611
+  vehicle: br_57
+  profile: default
+  livery: west coast railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1611_br_57_default_west_coast_railway_train.gnml
+  identifier: br_57_default_west_coast_railway_train
+  name_string: str_br_57_default_west_coast_railway_train_name
+  strings:
+    str_br_57_default_west_coast_railway_train_name: Class 57 - West Coast Railway
+    str_br_57_default_west_coast_railway_train_group_name: Class 57
+- id: 1612
+  vehicle: br_57
+  profile: default
+  livery: freightliner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1612_br_57_default_freightliner_train.gnml
+  identifier: br_57_default_freightliner_train
+  name_string: str_br_57_default_freightliner_train_name
+  strings:
+    str_br_57_default_west_coast_railway_train_group_name: Class 57
+    str_br_57_default_freightliner_train_name: Class 57 - Freightliner
+- id: 1613
+  vehicle: br_57
+  profile: default
+  livery: gwr green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1613_br_57_default_gwr_green_train.gnml
+  identifier: br_57_default_gwr_green_train
+  name_string: str_br_57_default_gwr_green_train_name
+  strings:
+    str_br_57_default_west_coast_railway_train_group_name: Class 57
+    str_br_57_default_gwr_green_train_name: Class 57 - GWR Green
+- id: 1614
+  vehicle: br_57
+  profile: default
+  livery: arriva wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1614_br_57_default_arriva_wales_train.gnml
+  identifier: br_57_default_arriva_wales_train
+  name_string: str_br_57_default_arriva_wales_train_name
+  strings:
+    str_br_57_default_west_coast_railway_train_group_name: Class 57
+    str_br_57_default_arriva_wales_train_name: Class 57 - Arriva Wales
+- id: 1615
+  vehicle: br_57
+  profile: default
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1615_br_57_default_drs_train.gnml
+  identifier: br_57_default_drs_train
+  name_string: str_br_57_default_drs_train_name
+  strings:
+    str_br_57_default_west_coast_railway_train_group_name: Class 57
+    str_br_57_default_drs_train_name: Class 57 - DRS
+- id: 1616
+  vehicle: br_57
+  profile: default
+  livery: virgin pretendolino
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1616_br_57_default_virgin_pretendolino_train.gnml
+  identifier: br_57_default_virgin_pretendolino_train
+  name_string: str_br_57_default_virgin_pretendolino_train_name
+  strings:
+    str_br_57_default_west_coast_railway_train_group_name: Class 57
+    str_br_57_default_virgin_pretendolino_train_name: Class 57 - Virgin Pretendolino
+- id: 1617
+  vehicle: br_57
+  profile: default
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1617_br_57_default_network_rail_train.gnml
+  identifier: br_57_default_network_rail_train
+  name_string: str_br_57_default_network_rail_train_name
+  strings:
+    str_br_57_default_west_coast_railway_train_group_name: Class 57
+    str_br_57_default_network_rail_train_name: Class 57 - Network Rail
+- id: 1618
+  vehicle: br_57
+  profile: default
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1618_br_57_default_gbrf_train.gnml
+  identifier: br_57_default_gbrf_train
+  name_string: str_br_57_default_gbrf_train_name
+  strings:
+    str_br_57_default_west_coast_railway_train_group_name: Class 57
+    str_br_57_default_gbrf_train_name: Class 57 - GBRf
