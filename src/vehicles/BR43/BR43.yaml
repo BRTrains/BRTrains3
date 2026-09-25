@@ -1,0 +1,85 @@
+info:
+  identifier: br_43
+  name: 'Class 43 "HST"'
+  sub_name: High Speed Train power car
+  based_on: British Rail Class 43 (HST)
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  # `item_BR43` (BRTrains2/src/trains/diesel_mu/IC125/43.pnml, 12) carries no
+  # `articulated_part` callback, so the power car is one part and the unit is imported as a
+  # 1-car locomotive, the shape the rest of the diesel-loco fleet uses. The legacy
+  # `sw_BR43` (BRTrains2/src/trains/diesel_loco/sprites/43.pnml) also reads
+  # `position_in_consist` (0 -> `sw_BR43_front`, else `sw_BR43_rear`), which is the two-car
+  # reading left open in the oddities entry.
+  weight: 214
+  length: 8
+  power: 4500
+  speed: 125
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+  # The legacy declares `track_type: RAIL` explicitly; a self-powered unit classifies to the
+  # same, so it is left unset as on the rest of the diesel fleet.
+
+cargo: none
+
+dates:
+  introduction_date: 1975-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    # One row per livery: `gfx/Diesel/43.png` has a second art column at x 200 that the
+    # legacy `_rear_*` / `_rear_reversed_*` spritesets read, but a band-by-band colour
+    # census shows it carries no distinct artwork - modern OpenTTD reverses a train by the
+    # consist, not by a second sprite - so the composite packs the front column only
+    # (`BRTrains3-artwork-tools/compose_br43_sheet.py` has the ROWS table) and
+    # `sprite_override` is the identity pattern over the livery's single row.
+    sprite_override: [1]
+    special_tags:
+      - formation/1-car
+      - subclass/43
+
+# Names from BRTrains2's `sw_BR43_cargo_subtype_text` subtype order 0..16, which is also the
+# order `sw_BR43_front` selects its spritesets in - the YAML livery order the composite packs.
+# The legacy `str_BR43_liveries` list is stale: it names only the first eight.
+liveries:
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'InterCity Executive'
+    special_tags: [operator/InterCity]
+  - name: 'InterCity Swallow'
+    special_tags: [operator/InterCity]
+  - name: 'Midland Mainline - Teal & Tangerine'
+    special_tags: [operator/Midland Mainline]
+  - name: 'Midland Mainline - Blue'
+    special_tags: [operator/Midland Mainline]
+  - name: 'East Midlands Trains'
+    special_tags: [operator/East Midlands Trains]
+  - name: 'Virgin Trains'
+    special_tags: [operator/Virgin Trains]
+  - name: 'First Great Western'
+    special_tags: [operator/First Great Western]
+  - name: 'GWR - Green'
+    special_tags: [operator/GWR]
+  - name: 'CrossCountry'
+    special_tags: [operator/CrossCountry]
+  - name: 'Great North Eastern Railway'
+    special_tags: [operator/Great North Eastern Railway]
+  - name: 'National Express'
+    special_tags: [operator/National Express East Coast]
+  - name: 'Grand Central'
+    special_tags: [operator/Grand Central]
+  - name: 'Grand Central - Lined'
+    special_tags: [operator/Grand Central]
+  - name: 'Inter7City'
+    special_tags: [operator/ScotRail]
+  - name: 'Virgin East Coast / LNER'
+    special_tags:
+      - operator/LNER
+      - operator/Virgin Trains East Coast
+  - name: 'Pullman'
+    special_tags: [operator/LNER]

@@ -17932,3 +17932,350 @@ variants:
       Turbo"
     str_br_159_default_south_western_railway_train_name: Class 159 "South Western
       Turbo" - South Western Railway
+- id: 1742
+  vehicle: br_43
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1742_br_43_default_br_blue_train.gnml
+  identifier: br_43_default_br_blue_train
+  name_string: str_br_43_default_br_blue_train_name
+  strings:
+    str_br_43_default_br_blue_train_name: Class 43 "HST" - BR Blue
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+- id: 1743
+  vehicle: br_43
+  profile: default
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1743_br_43_default_intercity_executive_train.gnml
+  identifier: br_43_default_intercity_executive_train
+  name_string: str_br_43_default_intercity_executive_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_intercity_executive_train_name: Class 43 "HST" - InterCity Executive
+- id: 1744
+  vehicle: br_43
+  profile: default
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1744_br_43_default_intercity_swallow_train.gnml
+  identifier: br_43_default_intercity_swallow_train
+  name_string: str_br_43_default_intercity_swallow_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_intercity_swallow_train_name: Class 43 "HST" - InterCity Swallow
+- id: 1745
+  vehicle: br_43
+  profile: default
+  livery: midland mainline - teal & tangerine
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1745_br_43_default_midland_mainline___teal___tangerine_train.gnml
+  identifier: br_43_default_midland_mainline___teal___tangerine_train
+  name_string: str_br_43_default_midland_mainline___teal___tangerine_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_midland_mainline___teal___tangerine_train_name: Class 43 "HST"
+      - Midland Mainline - Teal & Tangerine
+- id: 1746
+  vehicle: br_43
+  profile: default
+  livery: midland mainline - blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1746_br_43_default_midland_mainline___blue_train.gnml
+  identifier: br_43_default_midland_mainline___blue_train
+  name_string: str_br_43_default_midland_mainline___blue_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_midland_mainline___blue_train_name: Class 43 "HST" - Midland
+      Mainline - Blue
+- id: 1747
+  vehicle: br_43
+  profile: default
+  livery: east midlands trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1747_br_43_default_east_midlands_trains_train.gnml
+  identifier: br_43_default_east_midlands_trains_train
+  name_string: str_br_43_default_east_midlands_trains_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_east_midlands_trains_train_name: Class 43 "HST" - East Midlands
+      Trains
+- id: 1748
+  vehicle: br_43
+  profile: default
+  livery: virgin trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1748_br_43_default_virgin_trains_train.gnml
+  identifier: br_43_default_virgin_trains_train
+  name_string: str_br_43_default_virgin_trains_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_virgin_trains_train_name: Class 43 "HST" - Virgin Trains
+- id: 1749
+  vehicle: br_43
+  profile: default
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1749_br_43_default_first_great_western_train.gnml
+  identifier: br_43_default_first_great_western_train
+  name_string: str_br_43_default_first_great_western_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_first_great_western_train_name: Class 43 "HST" - First Great
+      Western
+- id: 1750
+  vehicle: br_43
+  profile: default
+  livery: gwr - green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1750_br_43_default_gwr___green_train.gnml
+  identifier: br_43_default_gwr___green_train
+  name_string: str_br_43_default_gwr___green_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_gwr___green_train_name: Class 43 "HST" - GWR - Green
+- id: 1751
+  vehicle: br_43
+  profile: default
+  livery: crosscountry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1751_br_43_default_crosscountry_train.gnml
+  identifier: br_43_default_crosscountry_train
+  name_string: str_br_43_default_crosscountry_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_crosscountry_train_name: Class 43 "HST" - CrossCountry
+- id: 1752
+  vehicle: br_43
+  profile: default
+  livery: great north eastern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1752_br_43_default_great_north_eastern_railway_train.gnml
+  identifier: br_43_default_great_north_eastern_railway_train
+  name_string: str_br_43_default_great_north_eastern_railway_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_great_north_eastern_railway_train_name: Class 43 "HST" - Great
+      North Eastern Railway
+- id: 1753
+  vehicle: br_43
+  profile: default
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1753_br_43_default_national_express_train.gnml
+  identifier: br_43_default_national_express_train
+  name_string: str_br_43_default_national_express_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_national_express_train_name: Class 43 "HST" - National Express
+- id: 1754
+  vehicle: br_43
+  profile: default
+  livery: grand central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1754_br_43_default_grand_central_train.gnml
+  identifier: br_43_default_grand_central_train
+  name_string: str_br_43_default_grand_central_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_grand_central_train_name: Class 43 "HST" - Grand Central
+- id: 1755
+  vehicle: br_43
+  profile: default
+  livery: grand central - lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1755_br_43_default_grand_central___lined_train.gnml
+  identifier: br_43_default_grand_central___lined_train
+  name_string: str_br_43_default_grand_central___lined_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_grand_central___lined_train_name: Class 43 "HST" - Grand Central
+      - Lined
+- id: 1756
+  vehicle: br_43
+  profile: default
+  livery: inter7city
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1756_br_43_default_inter7city_train.gnml
+  identifier: br_43_default_inter7city_train
+  name_string: str_br_43_default_inter7city_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_inter7city_train_name: Class 43 "HST" - Inter7City
+- id: 1757
+  vehicle: br_43
+  profile: default
+  livery: virgin east coast / lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1757_br_43_default_virgin_east_coast___lner_train.gnml
+  identifier: br_43_default_virgin_east_coast___lner_train
+  name_string: str_br_43_default_virgin_east_coast___lner_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_virgin_east_coast___lner_train_name: Class 43 "HST" - Virgin
+      East Coast / LNER
+- id: 1758
+  vehicle: br_43
+  profile: default
+  livery: pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1758_br_43_default_pullman_train.gnml
+  identifier: br_43_default_pullman_train
+  name_string: str_br_43_default_pullman_train_name
+  strings:
+    str_br_43_default_br_blue_train_group_name: Class 43 "HST"
+    str_br_43_default_pullman_train_name: Class 43 "HST" - Pullman
