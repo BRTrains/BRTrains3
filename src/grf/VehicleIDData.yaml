@@ -18387,3 +18387,169 @@ variants:
   strings:
     str_br_720_720_10car_greater_anglia_train_group_name: Class 720 "Aventra" - 10-Car
     str_br_720_720_10car_c2c_train_name: Class 720 "Aventra" - 10-Car - c2c
+- id: 1763
+  vehicle: br_322
+  profile: '322_4'
+  livery: stansted express gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1763_br_322_322_4_stansted_express_gold_train.gnml
+  identifier: br_322_322_4_stansted_express_gold_train
+  name_string: str_br_322_322_4_stansted_express_gold_train_name
+  strings:
+    str_br_322_322_4_stansted_express_gold_train_name: Class 322 - 4-Car - Stansted
+      Express Gold
+    str_br_322_322_4_stansted_express_gold_train_group_name: Class 322 - 4-Car
+- id: 1764
+  vehicle: br_322
+  profile: '322_4'
+  livery: stansted express green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1764_br_322_322_4_stansted_express_green_train.gnml
+  identifier: br_322_322_4_stansted_express_green_train
+  name_string: str_br_322_322_4_stansted_express_green_train_name
+  strings:
+    str_br_322_322_4_stansted_express_gold_train_group_name: Class 322 - 4-Car
+    str_br_322_322_4_stansted_express_green_train_name: Class 322 - 4-Car - Stansted
+      Express Green
+- id: 1765
+  vehicle: br_322
+  profile: '322_4'
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1765_br_322_322_4_greater_anglia_train.gnml
+  identifier: br_322_322_4_greater_anglia_train
+  name_string: str_br_322_322_4_greater_anglia_train_name
+  strings:
+    str_br_322_322_4_stansted_express_gold_train_group_name: Class 322 - 4-Car
+    str_br_322_322_4_greater_anglia_train_name: Class 322 - 4-Car - Greater Anglia
+- id: 1766
+  vehicle: br_322
+  profile: '322_4'
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1766_br_322_322_4_first_scotrail_train.gnml
+  identifier: br_322_322_4_first_scotrail_train
+  name_string: str_br_322_322_4_first_scotrail_train_name
+  strings:
+    str_br_322_322_4_stansted_express_gold_train_group_name: Class 322 - 4-Car
+    str_br_322_322_4_first_scotrail_train_name: Class 322 - 4-Car - First ScotRail
+- id: 1767
+  vehicle: br_322
+  profile: '322_4'
+  livery: first north western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1767_br_322_322_4_first_north_western_train.gnml
+  identifier: br_322_322_4_first_north_western_train
+  name_string: str_br_322_322_4_first_north_western_train_name
+  strings:
+    str_br_322_322_4_stansted_express_gold_train_group_name: Class 322 - 4-Car
+    str_br_322_322_4_first_north_western_train_name: Class 322 - 4-Car - First North
+      Western
+- id: 1768
+  vehicle: br_322
+  profile: '322_4'
+  livery: northern rail - interim 1
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1768_br_322_322_4_northern_rail___interim_1_train.gnml
+  identifier: br_322_322_4_northern_rail___interim_1_train
+  name_string: str_br_322_322_4_northern_rail___interim_1_train_name
+  strings:
+    str_br_322_322_4_stansted_express_gold_train_group_name: Class 322 - 4-Car
+    str_br_322_322_4_northern_rail___interim_1_train_name: Class 322 - 4-Car - Northern
+      Rail - Interim 1
+- id: 1769
+  vehicle: br_322
+  profile: '322_4'
+  livery: northern rail - interim 2
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 73
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1769_br_322_322_4_northern_rail___interim_2_train.gnml
+  identifier: br_322_322_4_northern_rail___interim_2_train
+  name_string: str_br_322_322_4_northern_rail___interim_2_train_name
+  strings:
+    str_br_322_322_4_stansted_express_gold_train_group_name: Class 322 - 4-Car
+    str_br_322_322_4_northern_rail___interim_2_train_name: Class 322 - 4-Car - Northern
+      Rail - Interim 2
