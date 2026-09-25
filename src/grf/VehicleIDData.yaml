@@ -10703,3 +10703,63 @@ variants:
     str_br_80_default_br_black_train_name: Class 80 25kV Prototype - BR Black
     str_br_80_default_br_black_train_single_livery_name: Class 80 25kV Prototype -
       BR Black
+- id: 1402
+  vehicle: br_87
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1402_br_87_default_br_blue_train.gnml
+  identifier: br_87_default_br_blue_train
+  name_string: str_br_87_default_br_blue_train_name
+  strings:
+    str_br_87_default_br_blue_train_name: Class 87 - BR Blue
+    str_br_87_default_br_blue_train_group_name: Class 87
+- id: 1403
+  vehicle: br_87
+  profile: default
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1403_br_87_default_intercity_swallow_train.gnml
+  identifier: br_87_default_intercity_swallow_train
+  name_string: str_br_87_default_intercity_swallow_train_name
+  strings:
+    str_br_87_default_intercity_swallow_train_name: Class 87 - InterCity Swallow
+    str_br_87_default_intercity_swallow_train_group_name: Class 87
+- id: 1404
+  vehicle: br_87
+  profile: default
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1404_br_87_default_virgin_train.gnml
+  identifier: br_87_default_virgin_train
+  name_string: str_br_87_default_virgin_train_name
+  strings:
+    str_br_87_default_virgin_train_name: Class 87 - Virgin
+    str_br_87_default_virgin_train_group_name: Class 87
