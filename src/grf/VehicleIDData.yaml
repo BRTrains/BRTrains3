@@ -19572,3 +19572,183 @@ variants:
       Open
     str_br_mk1_tso_br_blue_and_grey_train_name: Mk1 Coach - Tourist Standard Open
       - BR Blue and Grey
+- id: 1815
+  vehicle: br_175
+  profile: 175_2car
+  livery: arriva ghost
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 61
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1815_br_175_175_2car_arriva_ghost_train.gnml
+  identifier: br_175_175_2car_arriva_ghost_train
+  name_string: str_br_175_175_2car_arriva_ghost_train_name
+  strings:
+    str_br_175_175_2car_arriva_ghost_train_name: Class 175 "Coradia" - 2-Car - Arriva
+      Ghost
+    str_br_175_175_2car_arriva_ghost_train_group_name: Class 175 "Coradia" - 2-Car
+- id: 1816
+  vehicle: br_175
+  profile: 175_2car
+  livery: first north western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 61
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1816_br_175_175_2car_first_north_western_train.gnml
+  identifier: br_175_175_2car_first_north_western_train
+  name_string: str_br_175_175_2car_first_north_western_train_name
+  strings:
+    str_br_175_175_2car_arriva_ghost_train_group_name: Class 175 "Coradia" - 2-Car
+    str_br_175_175_2car_first_north_western_train_name: Class 175 "Coradia" - 2-Car
+      - First North Western
+- id: 1817
+  vehicle: br_175
+  profile: 175_2car
+  livery: arriva trains wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 61
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1817_br_175_175_2car_arriva_trains_wales_train.gnml
+  identifier: br_175_175_2car_arriva_trains_wales_train
+  name_string: str_br_175_175_2car_arriva_trains_wales_train_name
+  strings:
+    str_br_175_175_2car_arriva_ghost_train_group_name: Class 175 "Coradia" - 2-Car
+    str_br_175_175_2car_arriva_trains_wales_train_name: Class 175 "Coradia" - 2-Car
+      - Arriva Trains Wales
+- id: 1818
+  vehicle: br_175
+  profile: 175_2car
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 61
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1818_br_175_175_2car_transport_for_wales_train.gnml
+  identifier: br_175_175_2car_transport_for_wales_train
+  name_string: str_br_175_175_2car_transport_for_wales_train_name
+  strings:
+    str_br_175_175_2car_arriva_ghost_train_group_name: Class 175 "Coradia" - 2-Car
+    str_br_175_175_2car_transport_for_wales_train_name: Class 175 "Coradia" - 2-Car
+      - Transport for Wales
+- id: 1819
+  vehicle: br_175
+  profile: 175_3car
+  livery: arriva ghost
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1819_br_175_175_3car_arriva_ghost_train.gnml
+  identifier: br_175_175_3car_arriva_ghost_train
+  name_string: str_br_175_175_3car_arriva_ghost_train_name
+  strings:
+    str_br_175_175_3car_arriva_ghost_train_name: Class 175 "Coradia" - 3-Car - Arriva
+      Ghost
+    str_br_175_175_3car_arriva_ghost_train_group_name: Class 175 "Coradia" - 3-Car
+- id: 1820
+  vehicle: br_175
+  profile: 175_3car
+  livery: first north western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1820_br_175_175_3car_first_north_western_train.gnml
+  identifier: br_175_175_3car_first_north_western_train
+  name_string: str_br_175_175_3car_first_north_western_train_name
+  strings:
+    str_br_175_175_3car_arriva_ghost_train_group_name: Class 175 "Coradia" - 3-Car
+    str_br_175_175_3car_first_north_western_train_name: Class 175 "Coradia" - 3-Car
+      - First North Western
+- id: 1821
+  vehicle: br_175
+  profile: 175_3car
+  livery: arriva trains wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1821_br_175_175_3car_arriva_trains_wales_train.gnml
+  identifier: br_175_175_3car_arriva_trains_wales_train
+  name_string: str_br_175_175_3car_arriva_trains_wales_train_name
+  strings:
+    str_br_175_175_3car_arriva_ghost_train_group_name: Class 175 "Coradia" - 3-Car
+    str_br_175_175_3car_arriva_trains_wales_train_name: Class 175 "Coradia" - 3-Car
+      - Arriva Trains Wales
+- id: 1822
+  vehicle: br_175
+  profile: 175_3car
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1822_br_175_175_3car_transport_for_wales_train.gnml
+  identifier: br_175_175_3car_transport_for_wales_train
+  name_string: str_br_175_175_3car_transport_for_wales_train_name
+  strings:
+    str_br_175_175_3car_arriva_ghost_train_group_name: Class 175 "Coradia" - 3-Car
+    str_br_175_175_3car_transport_for_wales_train_name: Class 175 "Coradia" - 3-Car
+      - Transport for Wales
