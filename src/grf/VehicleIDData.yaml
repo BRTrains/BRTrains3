@@ -15206,3 +15206,104 @@ variants:
   strings:
     str_br_57_default_west_coast_railway_train_group_name: Class 57
     str_br_57_default_gbrf_train_name: Class 57 - GBRf
+- id: 1619
+  vehicle: br_68
+  profile: default
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1619_br_68_default_drs_train.gnml
+  identifier: br_68_default_drs_train
+  name_string: str_br_68_default_drs_train_name
+  strings:
+    str_br_68_default_drs_train_name: Class 68 - DRS
+    str_br_68_default_drs_train_group_name: Class 68
+- id: 1620
+  vehicle: br_68
+  profile: default
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1620_br_68_default_scotrail_train.gnml
+  identifier: br_68_default_scotrail_train
+  name_string: str_br_68_default_scotrail_train_name
+  strings:
+    str_br_68_default_drs_train_group_name: Class 68
+    str_br_68_default_scotrail_train_name: Class 68 - ScotRail
+- id: 1621
+  vehicle: br_68
+  profile: default
+  livery: chiltern railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1621_br_68_default_chiltern_railways_train.gnml
+  identifier: br_68_default_chiltern_railways_train
+  name_string: str_br_68_default_chiltern_railways_train_name
+  strings:
+    str_br_68_default_drs_train_group_name: Class 68
+    str_br_68_default_chiltern_railways_train_name: Class 68 - Chiltern Railways
+- id: 1622
+  vehicle: br_68
+  profile: default
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1622_br_68_default_transpennine_express_train.gnml
+  identifier: br_68_default_transpennine_express_train
+  name_string: str_br_68_default_transpennine_express_train_name
+  strings:
+    str_br_68_default_drs_train_group_name: Class 68
+    str_br_68_default_transpennine_express_train_name: Class 68 - TransPennine Express
+- id: 1623
+  vehicle: br_68
+  profile: default
+  livery: chiltern - blue 2 tone
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1623_br_68_default_chiltern___blue_2_tone_train.gnml
+  identifier: br_68_default_chiltern___blue_2_tone_train
+  name_string: str_br_68_default_chiltern___blue_2_tone_train_name
+  strings:
+    str_br_68_default_drs_train_group_name: Class 68
+    str_br_68_default_chiltern___blue_2_tone_train_name: Class 68 - Chiltern - Blue
+      2 Tone
