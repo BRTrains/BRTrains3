@@ -15639,3 +15639,528 @@ variants:
     str_br_68_68_5a_transpennine_express_train_group_name: Class 68 - Mk5a Set
     str_br_68_68_5a_chiltern___blue_2_tone_train_name: Class 68 - Mk5a Set - Chiltern
       - Blue 2 Tone
+- id: 1639
+  vehicle: br_156
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1639_br_156_default_regional_railways_train.gnml
+  identifier: br_156_default_regional_railways_train
+  name_string: str_br_156_default_regional_railways_train_name
+  strings:
+    str_br_156_default_regional_railways_train_name: Class 156 "Super Sprinter" -
+      Regional Railways
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+- id: 1640
+  vehicle: br_156
+  profile: default
+  livery: regional railways - green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1640_br_156_default_regional_railways___green_train.gnml
+  identifier: br_156_default_regional_railways___green_train
+  name_string: str_br_156_default_regional_railways___green_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_regional_railways___green_train_name: Class 156 "Super Sprinter"
+      - Regional Railways - Green
+- id: 1641
+  vehicle: br_156
+  profile: default
+  livery: regional railways express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1641_br_156_default_regional_railways_express_train.gnml
+  identifier: br_156_default_regional_railways_express_train
+  name_string: str_br_156_default_regional_railways_express_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_regional_railways_express_train_name: Class 156 "Super Sprinter"
+      - Regional Railways Express
+- id: 1642
+  vehicle: br_156
+  profile: default
+  livery: strathclyde - orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1642_br_156_default_strathclyde___orange_train.gnml
+  identifier: br_156_default_strathclyde___orange_train
+  name_string: str_br_156_default_strathclyde___orange_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_strathclyde___orange_train_name: Class 156 "Super Sprinter"
+      - Strathclyde - Orange
+- id: 1643
+  vehicle: br_156
+  profile: default
+  livery: strathclyde - carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1643_br_156_default_strathclyde___carmine_and_cream_train.gnml
+  identifier: br_156_default_strathclyde___carmine_and_cream_train
+  name_string: str_br_156_default_strathclyde___carmine_and_cream_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_strathclyde___carmine_and_cream_train_name: Class 156 "Super
+      Sprinter" - Strathclyde - Carmine and Cream
+- id: 1644
+  vehicle: br_156
+  profile: default
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1644_br_156_default_scotrail_train.gnml
+  identifier: br_156_default_scotrail_train
+  name_string: str_br_156_default_scotrail_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_scotrail_train_name: Class 156 "Super Sprinter" - ScotRail
+- id: 1645
+  vehicle: br_156
+  profile: default
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1645_br_156_default_first_scotrail_train.gnml
+  identifier: br_156_default_first_scotrail_train
+  name_string: str_br_156_default_first_scotrail_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_first_scotrail_train_name: Class 156 "Super Sprinter" - First
+      ScotRail
+- id: 1646
+  vehicle: br_156
+  profile: default
+  livery: central trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1646_br_156_default_central_trains_train.gnml
+  identifier: br_156_default_central_trains_train
+  name_string: str_br_156_default_central_trains_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_central_trains_train_name: Class 156 "Super Sprinter" - Central
+      Trains
+- id: 1647
+  vehicle: br_156
+  profile: default
+  livery: northern spirit
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1647_br_156_default_northern_spirit_train.gnml
+  identifier: br_156_default_northern_spirit_train
+  name_string: str_br_156_default_northern_spirit_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_northern_spirit_train_name: Class 156 "Super Sprinter" - Northern
+      Spirit
+- id: 1648
+  vehicle: br_156
+  profile: default
+  livery: northern rail - porterbrook
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1648_br_156_default_northern_rail___porterbrook_train.gnml
+  identifier: br_156_default_northern_rail___porterbrook_train
+  name_string: str_br_156_default_northern_rail___porterbrook_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_northern_rail___porterbrook_train_name: Class 156 "Super Sprinter"
+      - Northern Rail - Porterbrook
+- id: 1649
+  vehicle: br_156
+  profile: default
+  livery: northern rail - experimental 1
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1649_br_156_default_northern_rail___experimental_1_train.gnml
+  identifier: br_156_default_northern_rail___experimental_1_train
+  name_string: str_br_156_default_northern_rail___experimental_1_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_northern_rail___experimental_1_train_name: Class 156 "Super
+      Sprinter" - Northern Rail - Experimental 1
+- id: 1650
+  vehicle: br_156
+  profile: default
+  livery: northern rail - experimental 2
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1650_br_156_default_northern_rail___experimental_2_train.gnml
+  identifier: br_156_default_northern_rail___experimental_2_train
+  name_string: str_br_156_default_northern_rail___experimental_2_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_northern_rail___experimental_2_train_name: Class 156 "Super
+      Sprinter" - Northern Rail - Experimental 2
+- id: 1651
+  vehicle: br_156
+  profile: default
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1651_br_156_default_northern_rail_train.gnml
+  identifier: br_156_default_northern_rail_train
+  name_string: str_br_156_default_northern_rail_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_northern_rail_train_name: Class 156 "Super Sprinter" - Northern
+      Rail
+- id: 1652
+  vehicle: br_156
+  profile: default
+  livery: one - ghost white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1652_br_156_default_one___ghost_white_train.gnml
+  identifier: br_156_default_one___ghost_white_train
+  name_string: str_br_156_default_one___ghost_white_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_one___ghost_white_train_name: Class 156 "Super Sprinter" -
+      One - Ghost White
+- id: 1653
+  vehicle: br_156
+  profile: default
+  livery: one - chapelfield
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1653_br_156_default_one___chapelfield_train.gnml
+  identifier: br_156_default_one___chapelfield_train
+  name_string: str_br_156_default_one___chapelfield_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_one___chapelfield_train_name: Class 156 "Super Sprinter" -
+      One - Chapelfield
+- id: 1654
+  vehicle: br_156
+  profile: default
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1654_br_156_default_one_train.gnml
+  identifier: br_156_default_one_train
+  name_string: str_br_156_default_one_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_one_train_name: Class 156 "Super Sprinter" - One
+- id: 1655
+  vehicle: br_156
+  profile: default
+  livery: one - transitional
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1655_br_156_default_one___transitional_train.gnml
+  identifier: br_156_default_one___transitional_train
+  name_string: str_br_156_default_one___transitional_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_one___transitional_train_name: Class 156 "Super Sprinter" -
+      One - Transitional
+- id: 1656
+  vehicle: br_156
+  profile: default
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1656_br_156_default_national_express_train.gnml
+  identifier: br_156_default_national_express_train
+  name_string: str_br_156_default_national_express_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_national_express_train_name: Class 156 "Super Sprinter" - National
+      Express
+- id: 1657
+  vehicle: br_156
+  profile: default
+  livery: east midlands trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1657_br_156_default_east_midlands_trains_train.gnml
+  identifier: br_156_default_east_midlands_trains_train
+  name_string: str_br_156_default_east_midlands_trains_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_east_midlands_trains_train_name: Class 156 "Super Sprinter"
+      - East Midlands Trains
+- id: 1658
+  vehicle: br_156
+  profile: default
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1658_br_156_default_northern_train.gnml
+  identifier: br_156_default_northern_train
+  name_string: str_br_156_default_northern_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_northern_train_name: Class 156 "Super Sprinter" - Northern
+- id: 1659
+  vehicle: br_156
+  profile: default
+  livery: emr - transitional
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1659_br_156_default_emr___transitional_train.gnml
+  identifier: br_156_default_emr___transitional_train
+  name_string: str_br_156_default_emr___transitional_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_emr___transitional_train_name: Class 156 "Super Sprinter" -
+      EMR - Transitional
+- id: 1660
+  vehicle: br_156
+  profile: default
+  livery: emr - maroon and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1660_br_156_default_emr___maroon_and_white_train.gnml
+  identifier: br_156_default_emr___maroon_and_white_train
+  name_string: str_br_156_default_emr___maroon_and_white_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_emr___maroon_and_white_train_name: Class 156 "Super Sprinter"
+      - EMR - Maroon and White
+- id: 1661
+  vehicle: br_156
+  profile: default
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1661_br_156_default_scotrail_saltire_train.gnml
+  identifier: br_156_default_scotrail_saltire_train
+  name_string: str_br_156_default_scotrail_saltire_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_scotrail_saltire_train_name: Class 156 "Super Sprinter" - ScotRail
+      Saltire
+- id: 1662
+  vehicle: br_156
+  profile: default
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1662_br_156_default_greater_anglia_train.gnml
+  identifier: br_156_default_greater_anglia_train
+  name_string: str_br_156_default_greater_anglia_train_name
+  strings:
+    str_br_156_default_regional_railways_train_group_name: Class 156 "Super Sprinter"
+    str_br_156_default_greater_anglia_train_name: Class 156 "Super Sprinter" - Greater
+      Anglia
