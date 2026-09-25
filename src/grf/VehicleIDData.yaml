@@ -18988,3 +18988,108 @@ variants:
       165/1 3-Car
     str_br_165_165_1_3car_gwr___green_train_name: Class 165 "Turbo" - 165/1 3-Car
       - GWR - Green
+- id: 1789
+  vehicle: br_139
+  profile: default
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1789_br_139_default_london_midland_train.gnml
+  identifier: br_139_default_london_midland_train
+  name_string: str_br_139_default_london_midland_train_name
+  strings:
+    str_br_139_default_london_midland_train_name: Class 139 "Parry People Mover" -
+      London Midland
+    str_br_139_default_london_midland_train_group_name: Class 139 "Parry People Mover"
+- id: 1790
+  vehicle: br_139
+  profile: default
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1790_br_139_default_west_midlands_railway_train.gnml
+  identifier: br_139_default_west_midlands_railway_train
+  name_string: str_br_139_default_west_midlands_railway_train_name
+  strings:
+    str_br_139_default_london_midland_train_group_name: Class 139 "Parry People Mover"
+    str_br_139_default_west_midlands_railway_train_name: Class 139 "Parry People Mover"
+      - West Midlands Railway
+- id: 1791
+  vehicle: br_139
+  profile: default
+  livery: parry people mover - prototype
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1791_br_139_default_parry_people_mover___prototype_train.gnml
+  identifier: br_139_default_parry_people_mover___prototype_train
+  name_string: str_br_139_default_parry_people_mover___prototype_train_name
+  strings:
+    str_br_139_default_london_midland_train_group_name: Class 139 "Parry People Mover"
+    str_br_139_default_parry_people_mover___prototype_train_name: Class 139 "Parry
+      People Mover" - Parry People Mover - Prototype
+- id: 1792
+  vehicle: br_139
+  profile: default
+  livery: bristol electric - prototype
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1792_br_139_default_bristol_electric___prototype_train.gnml
+  identifier: br_139_default_bristol_electric___prototype_train
+  name_string: str_br_139_default_bristol_electric___prototype_train_name
+  strings:
+    str_br_139_default_london_midland_train_group_name: Class 139 "Parry People Mover"
+    str_br_139_default_bristol_electric___prototype_train_name: Class 139 "Parry People
+      Mover" - Bristol Electric - Prototype
+- id: 1793
+  vehicle: br_139
+  profile: default
+  livery: go coperative
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1793_br_139_default_go_coperative_train.gnml
+  identifier: br_139_default_go_coperative_train
+  name_string: str_br_139_default_go_coperative_train_name
+  strings:
+    str_br_139_default_london_midland_train_group_name: Class 139 "Parry People Mover"
+    str_br_139_default_go_coperative_train_name: Class 139 "Parry People Mover" -
+      Go Coperative
