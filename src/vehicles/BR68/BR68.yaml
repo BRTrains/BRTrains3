@@ -29,16 +29,49 @@ profiles:
       - formation/1-car
       - subclass/68
 
+  # The Class 68 family's other legacy item — the same `variant_group: header_68` as the core
+  # locomotive above. `item_br_68_6Mk3` (BRTrains2 `src/trains/diesel_loco/BR068_6Mk3.pnml`,
+  # 689) is the Chiltern push-pull set: the locomotive plus `switch_br_68_6Mk3_articulated`'s
+  # parts 1..7, i.e. the loco, six Mk3 coaches and a Mk3 DVT (eight vehicles). It is a profile
+  # of this candidate rather than a candidate of its own so the two share one purchase-list
+  # entry, as the legacy's variant group does.
+  - identifier: '68_6Mk3'
+    name: 'Mk3 Set'
+    num_vehicles: 8
+    # The legacy callback is `return (408/8 * param_pax)` — 51 per part, 408 for the set.
+    capacity: 51
+    weight: 299
+    speed: 100
+    tractive_effort: 0.37
+    cargo: passenger
+    introduction_date: 2019-08-04
+    # A three-row sheet of its own, packed in the row order `sprite_override` counts:
+    # the locomotive drawing, the Mk3 coach drawing, then the Mk3 DVT drawing. Row 2 comes
+    # from the Mk3 family's coach sheet and row 3 from the Mk3 DVT sheet, because that is
+    # where the legacy item's own spritesets read them.
+    spritesheet: BR68_6Mk3.png
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/8-car
+      - subclass/68_6Mk3
+
 liveries:
   # Ordered by sw_BR68 cargo subtype 0..4; the compositor re-stacks the
-  # declared BR68 spriteset bands into this order.
+  # declared BR68 spriteset bands into this order. The five belong to the core
+  # locomotive's DEFAULT profile; `sw_br_68_6Mk3` has no cargo_subtype switch, so the
+  # 68/6Mk3 set draws the one Chiltern scheme — the same livery, on both profiles.
   - name: DRS
+    profiles: [DEFAULT]
     special_tags: [operator/DRS]
   - name: ScotRail
+    profiles: [DEFAULT]
     special_tags: [operator/ScotRail]
   - name: 'Chiltern Railways'
+    profiles: [DEFAULT, '68_6Mk3']
     special_tags: [operator/Chiltern Railways]
   - name: 'TransPennine Express'
+    profiles: [DEFAULT]
     special_tags: [operator/TransPennine Express]
   - name: 'Chiltern - Blue 2 Tone'
+    profiles: [DEFAULT]
     special_tags: [operator/Chiltern Railways]

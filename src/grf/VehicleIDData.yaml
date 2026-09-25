@@ -15516,3 +15516,30 @@ variants:
   strings:
     str_br_73_gatex_73_gatex_9_gatwick_express_train_name: Class 73 "Gatwick Express"
       set 9 car + locomotive - 9-Car Set - Gatwick Express
+- id: 1634
+  vehicle: br_68
+  profile: 68_6mk3
+  livery: chiltern railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 51
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1634_br_68_68_6mk3_chiltern_railways_train.gnml
+  identifier: br_68_68_6mk3_chiltern_railways_train
+  name_string: str_br_68_68_6mk3_chiltern_railways_train_name
+  strings:
+    str_br_68_68_6mk3_chiltern_railways_train_name: Class 68 - Mk3 Set - Chiltern
+      Railways
