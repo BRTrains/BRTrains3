@@ -15307,3 +15307,184 @@ variants:
     str_br_68_default_drs_train_group_name: Class 68
     str_br_68_default_chiltern___blue_2_tone_train_name: Class 68 - Chiltern - Blue
       2 Tone
+- id: 1624
+  vehicle: br_67
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1624_br_67_default_ews_red_and_gold_train.gnml
+  identifier: br_67_default_ews_red_and_gold_train
+  name_string: str_br_67_default_ews_red_and_gold_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_name: Class 67 - EWS Red and Gold
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+- id: 1625
+  vehicle: br_67
+  profile: default
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1625_br_67_default_colas_rail_train.gnml
+  identifier: br_67_default_colas_rail_train
+  name_string: str_br_67_default_colas_rail_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+    str_br_67_default_colas_rail_train_name: Class 67 - Colas Rail
+- id: 1626
+  vehicle: br_67
+  profile: default
+  livery: arriva trains wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1626_br_67_default_arriva_trains_wales_train.gnml
+  identifier: br_67_default_arriva_trains_wales_train
+  name_string: str_br_67_default_arriva_trains_wales_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+    str_br_67_default_arriva_trains_wales_train_name: Class 67 - Arriva Trains Wales
+- id: 1627
+  vehicle: br_67
+  profile: default
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1627_br_67_default_db_schenker_train.gnml
+  identifier: br_67_default_db_schenker_train
+  name_string: str_br_67_default_db_schenker_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+    str_br_67_default_db_schenker_train_name: Class 67 - DB Schenker
+- id: 1628
+  vehicle: br_67
+  profile: default
+  livery: caledonian sleeper
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1628_br_67_default_caledonian_sleeper_train.gnml
+  identifier: br_67_default_caledonian_sleeper_train
+  name_string: str_br_67_default_caledonian_sleeper_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+    str_br_67_default_caledonian_sleeper_train_name: Class 67 - Caledonian Sleeper
+- id: 1629
+  vehicle: br_67
+  profile: default
+  livery: british royal train
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1629_br_67_default_british_royal_train_train.gnml
+  identifier: br_67_default_british_royal_train_train
+  name_string: str_br_67_default_british_royal_train_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+    str_br_67_default_british_royal_train_train_name: Class 67 - British Royal Train
+- id: 1630
+  vehicle: br_67
+  profile: default
+  livery: brown pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1630_br_67_default_brown_pullman_train.gnml
+  identifier: br_67_default_brown_pullman_train
+  name_string: str_br_67_default_brown_pullman_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+    str_br_67_default_brown_pullman_train_name: Class 67 - Brown Pullman
+- id: 1631
+  vehicle: br_67
+  profile: default
+  livery: wrexham & shropshire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1631_br_67_default_wrexham___shropshire_train.gnml
+  identifier: br_67_default_wrexham___shropshire_train
+  name_string: str_br_67_default_wrexham___shropshire_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+    str_br_67_default_wrexham___shropshire_train_name: Class 67 - Wrexham & Shropshire
+- id: 1632
+  vehicle: br_67
+  profile: default
+  livery: dbschenker - company train
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1632_br_67_default_dbschenker___company_train_train.gnml
+  identifier: br_67_default_dbschenker___company_train_train
+  name_string: str_br_67_default_dbschenker___company_train_train_name
+  strings:
+    str_br_67_default_ews_red_and_gold_train_group_name: Class 67
+    str_br_67_default_dbschenker___company_train_train_name: Class 67 - DBSchenker
+      - Company Train

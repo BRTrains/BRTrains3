@@ -1,0 +1,57 @@
+info:
+  identifier: br_67
+  name: 'Class 67'
+  sub_name: Mixed traffic diesel locomotive
+  based_on: British Rail Class 67
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 90
+  length: 8
+  power: 3200
+  speed: 125
+  tractive_effort: 0.31
+  power_type:
+    - diesel
+
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1999-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/67
+
+liveries:
+  # Ordered by the legacy `sw_BR67`/`sw_BR67_cargo_subtype_text` cargo-subtype switch
+  # (0..8), named from the livery_prebuilt_strings.plng parentheticals with the brackets
+  # dropped. That order is also the composite's row order (compose_br67_sheet.py), which
+  # packs the source bands of gfx/BR67_v2.png at y = 13, 38, 63, 88, 113, 138, 163, 188,
+  # 213 on template_train32px_old (= BRBuild's tmpl_train_8_old) in exactly this
+  # sequence. Operator badges reuse the existing spellings in the set
+  # (`operator/CaledonianSleeper` as imported for the Class 92, not "... Sleeper").
+  - name: 'EWS Red and Gold'
+    special_tags: [operator/EWS]
+  - name: 'Colas Rail'
+    special_tags: [operator/Colas Rail]
+  - name: 'Arriva Trains Wales'
+    special_tags: [operator/Arriva Wales]
+  - name: 'DB Schenker'
+    special_tags: [operator/DB Schenker]
+  - name: 'Caledonian Sleeper'
+    special_tags: [operator/CaledonianSleeper]
+  - name: 'British Royal Train'
+    special_tags: [operator/British Royal Train]
+  - name: 'Brown Pullman'
+    special_tags: [operator/West Coast Railway, operator/Pullman]
+  - name: 'Wrexham & Shropshire'
+    special_tags: [operator/Wrexham & Shropshire]
+  - name: 'DBSchenker - Company Train'
+    special_tags: [operator/DB Schenker]
