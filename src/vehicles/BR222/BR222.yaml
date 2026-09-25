@@ -1,0 +1,102 @@
+info:
+  identifier: br_222
+  name: 'Class 222 Meridian'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 222 Meridian
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # BRBuild's capacity, power and weight are per-part; the legacy items carry
+  # whole-consist figures, one per formation (see the profiles below, and the
+  # oddities file for the set-wide per-part question).
+  weight: 283
+  length: 8
+  power: 3000
+  speed: 125
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 14
+cargo_age_period: 250
+
+dates:
+  introduction_date: 2004-04-21
+
+profiles:
+  # Four formations, one per legacy item: item_BR222 (7-car), item_BR222_5 (5-car),
+  # item_BR222_1 (4-car, the Hull Trains 222/1s) and item_BR222_6 (6-car, the
+  # legacy's Lumo Blue unit). This profile owns the drawings; the other three
+  # reuse its rows through `sprite_group`, so the sheet holds one trio per
+  # livery rather than one per formation.
+  - identifier: '222_7'
+    name: '7-Car'
+    num_vehicles: 7
+    capacity: 44
+    power: 5250
+    weight: 395
+    # Legacy `switch_articulated_BR222`: the lead drawing, five middle drawings and
+    # the rear drawing.
+    sprite_override: [1, 2, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/7-car
+      - subclass/222_7
+  - identifier: '222_5'
+    name: '5-Car'
+    num_vehicles: 5
+    capacity: 44
+    power: 3750
+    sprite_group: '222_7'
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/222_5
+  - identifier: '222_4'
+    name: '4-Car'
+    num_vehicles: 4
+    capacity: 44
+    power: 3000
+    introduction_date: 2005-04-21
+    sprite_group: '222_7'
+    sprite_override: [1, 2, 2, 3]
+    special_tags:
+      - formation/4-car
+      - subclass/222_4
+  - identifier: '222_6'
+    name: '6-Car'
+    num_vehicles: 6
+    capacity: 44
+    power: 3750
+    introduction_date: 2026-05-01
+    sprite_group: '222_7'
+    sprite_override: [1, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/6-car
+      - subclass/222_6
+
+liveries:
+  # The order the profile/livery groups consume rows in, which is the composite's
+  # row order (`BRTrains3-artwork-tools/compose_br222_sheet.py`): the 7-car's four
+  # liveries first, then the Hull Trains rows (asked for by the 4-car, which none
+  # of the other formations carried) and then Lumo Blue (the 6-car's).
+  - name: 'East Midlands Trains'
+    special_tags: [operator/EMT]
+    profiles: ['222_7', '222_5', '222_4']
+  - name: 'Midland Mainline'
+    special_tags: [operator/Midland Mainline]
+    profiles: ['222_7']
+  - name: 'East Midlands Railway Maroon'
+    special_tags: [operator/East Midlands Railway]
+    profiles: ['222_7', '222_5', '222_4']
+  - name: 'East Midlands Railway Maroon and White'
+    special_tags: [operator/East Midlands Railway]
+    profiles: ['222_7', '222_5', '222_4']
+  - name: 'Hull Trains'
+    special_tags: [operator/Hull Trains]
+    profiles: ['222_4']
+  - name: 'Lumo Blue'
+    special_tags: [operator/Lumo]
+    profiles: ['222_6']

@@ -8309,3 +8309,313 @@ variants:
     str_br_70_default_freightliner_powerhaul_lined_train_name: Class 70 "Powerhaul"
       - Freightliner Powerhaul Lined
     str_br_70_default_freightliner_powerhaul_lined_train_group_name: Class 70 "Powerhaul"
+- id: 1297
+  vehicle: br_222
+  profile: '222_7'
+  livery: east midlands trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1297_br_222_222_7_east_midlands_trains_train.gnml
+  identifier: br_222_222_7_east_midlands_trains_train
+  name_string: str_br_222_222_7_east_midlands_trains_train_name
+  strings:
+    str_br_222_222_7_east_midlands_trains_train_name: Class 222 Meridian - 7-Car -
+      East Midlands Trains
+    str_br_222_222_7_east_midlands_trains_train_group_name: Class 222 Meridian - 7-Car
+- id: 1298
+  vehicle: br_222
+  profile: '222_7'
+  livery: midland mainline
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1298_br_222_222_7_midland_mainline_train.gnml
+  identifier: br_222_222_7_midland_mainline_train
+  name_string: str_br_222_222_7_midland_mainline_train_name
+  strings:
+    str_br_222_222_7_midland_mainline_train_name: Class 222 Meridian - 7-Car - Midland
+      Mainline
+    str_br_222_222_7_midland_mainline_train_group_name: Class 222 Meridian - 7-Car
+- id: 1299
+  vehicle: br_222
+  profile: '222_7'
+  livery: east midlands railway maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1299_br_222_222_7_east_midlands_railway_maroon_train.gnml
+  identifier: br_222_222_7_east_midlands_railway_maroon_train
+  name_string: str_br_222_222_7_east_midlands_railway_maroon_train_name
+  strings:
+    str_br_222_222_7_east_midlands_railway_maroon_train_name: Class 222 Meridian -
+      7-Car - East Midlands Railway Maroon
+    str_br_222_222_7_east_midlands_railway_maroon_train_group_name: Class 222 Meridian
+      - 7-Car
+- id: 1300
+  vehicle: br_222
+  profile: '222_7'
+  livery: east midlands railway maroon and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1300_br_222_222_7_east_midlands_railway_maroon_and_white_train.gnml
+  identifier: br_222_222_7_east_midlands_railway_maroon_and_white_train
+  name_string: str_br_222_222_7_east_midlands_railway_maroon_and_white_train_name
+  strings:
+    str_br_222_222_7_east_midlands_railway_maroon_and_white_train_name: Class 222
+      Meridian - 7-Car - East Midlands Railway Maroon and White
+    str_br_222_222_7_east_midlands_railway_maroon_and_white_train_group_name: Class
+      222 Meridian - 7-Car
+- id: 1301
+  vehicle: br_222
+  profile: '222_5'
+  livery: east midlands trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1301_br_222_222_5_east_midlands_trains_train.gnml
+  identifier: br_222_222_5_east_midlands_trains_train
+  name_string: str_br_222_222_5_east_midlands_trains_train_name
+  strings:
+    str_br_222_222_5_east_midlands_trains_train_name: Class 222 Meridian - 5-Car -
+      East Midlands Trains
+    str_br_222_222_5_east_midlands_trains_train_group_name: Class 222 Meridian - 5-Car
+- id: 1302
+  vehicle: br_222
+  profile: '222_5'
+  livery: east midlands railway maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1302_br_222_222_5_east_midlands_railway_maroon_train.gnml
+  identifier: br_222_222_5_east_midlands_railway_maroon_train
+  name_string: str_br_222_222_5_east_midlands_railway_maroon_train_name
+  strings:
+    str_br_222_222_5_east_midlands_railway_maroon_train_name: Class 222 Meridian -
+      5-Car - East Midlands Railway Maroon
+    str_br_222_222_5_east_midlands_railway_maroon_train_group_name: Class 222 Meridian
+      - 5-Car
+- id: 1303
+  vehicle: br_222
+  profile: '222_5'
+  livery: east midlands railway maroon and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1303_br_222_222_5_east_midlands_railway_maroon_and_white_train.gnml
+  identifier: br_222_222_5_east_midlands_railway_maroon_and_white_train
+  name_string: str_br_222_222_5_east_midlands_railway_maroon_and_white_train_name
+  strings:
+    str_br_222_222_5_east_midlands_railway_maroon_and_white_train_name: Class 222
+      Meridian - 5-Car - East Midlands Railway Maroon and White
+    str_br_222_222_5_east_midlands_railway_maroon_and_white_train_group_name: Class
+      222 Meridian - 5-Car
+- id: 1304
+  vehicle: br_222
+  profile: '222_4'
+  livery: east midlands trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1304_br_222_222_4_east_midlands_trains_train.gnml
+  identifier: br_222_222_4_east_midlands_trains_train
+  name_string: str_br_222_222_4_east_midlands_trains_train_name
+  strings:
+    str_br_222_222_4_east_midlands_trains_train_name: Class 222 Meridian - 4-Car -
+      East Midlands Trains
+    str_br_222_222_4_east_midlands_trains_train_group_name: Class 222 Meridian - 4-Car
+- id: 1305
+  vehicle: br_222
+  profile: '222_4'
+  livery: east midlands railway maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1305_br_222_222_4_east_midlands_railway_maroon_train.gnml
+  identifier: br_222_222_4_east_midlands_railway_maroon_train
+  name_string: str_br_222_222_4_east_midlands_railway_maroon_train_name
+  strings:
+    str_br_222_222_4_east_midlands_railway_maroon_train_name: Class 222 Meridian -
+      4-Car - East Midlands Railway Maroon
+    str_br_222_222_4_east_midlands_railway_maroon_train_group_name: Class 222 Meridian
+      - 4-Car
+- id: 1306
+  vehicle: br_222
+  profile: '222_4'
+  livery: east midlands railway maroon and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1306_br_222_222_4_east_midlands_railway_maroon_and_white_train.gnml
+  identifier: br_222_222_4_east_midlands_railway_maroon_and_white_train
+  name_string: str_br_222_222_4_east_midlands_railway_maroon_and_white_train_name
+  strings:
+    str_br_222_222_4_east_midlands_railway_maroon_and_white_train_name: Class 222
+      Meridian - 4-Car - East Midlands Railway Maroon and White
+    str_br_222_222_4_east_midlands_railway_maroon_and_white_train_group_name: Class
+      222 Meridian - 4-Car
+- id: 1307
+  vehicle: br_222
+  profile: '222_4'
+  livery: hull trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1307_br_222_222_4_hull_trains_train.gnml
+  identifier: br_222_222_4_hull_trains_train
+  name_string: str_br_222_222_4_hull_trains_train_name
+  strings:
+    str_br_222_222_4_hull_trains_train_name: Class 222 Meridian - 4-Car - Hull Trains
+    str_br_222_222_4_hull_trains_train_group_name: Class 222 Meridian - 4-Car
+- id: 1308
+  vehicle: br_222
+  profile: '222_6'
+  livery: lumo blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1308_br_222_222_6_lumo_blue_train.gnml
+  identifier: br_222_222_6_lumo_blue_train
+  name_string: str_br_222_222_6_lumo_blue_train_name
+  strings:
+    str_br_222_222_6_lumo_blue_train_name: Class 222 Meridian - 6-Car - Lumo Blue
+    str_br_222_222_6_lumo_blue_train_single_livery_name: Class 222 Meridian - 6-Car
+      - Lumo Blue
