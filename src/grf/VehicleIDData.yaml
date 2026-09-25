@@ -17860,3 +17860,75 @@ variants:
   strings:
     str_br_310_310_1_br_blue_train_group_name: Class 310 - 310/1
     str_br_310_310_1_regional_railways_train_name: Class 310 - 310/1 - Regional Railways
+- id: 1739
+  vehicle: br_159
+  profile: default
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1739_br_159_default_network_south_east_train.gnml
+  identifier: br_159_default_network_south_east_train
+  name_string: str_br_159_default_network_south_east_train_name
+  strings:
+    str_br_159_default_network_south_east_train_name: Class 159 "South Western Turbo"
+      - Network South East
+    str_br_159_default_network_south_east_train_group_name: Class 159 "South Western
+      Turbo"
+- id: 1740
+  vehicle: br_159
+  profile: default
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1740_br_159_default_south_west_trains_train.gnml
+  identifier: br_159_default_south_west_trains_train
+  name_string: str_br_159_default_south_west_trains_train_name
+  strings:
+    str_br_159_default_network_south_east_train_group_name: Class 159 "South Western
+      Turbo"
+    str_br_159_default_south_west_trains_train_name: Class 159 "South Western Turbo"
+      - South West Trains
+- id: 1741
+  vehicle: br_159
+  profile: default
+  livery: south western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1741_br_159_default_south_western_railway_train.gnml
+  identifier: br_159_default_south_western_railway_train
+  name_string: str_br_159_default_south_western_railway_train_name
+  strings:
+    str_br_159_default_network_south_east_train_group_name: Class 159 "South Western
+      Turbo"
+    str_br_159_default_south_western_railway_train_name: Class 159 "South Western
+      Turbo" - South Western Railway
