@@ -13075,3 +13075,164 @@ variants:
   strings:
     str_br_52_default_br_blue_train_group_name: Class 52 "Western"
     str_br_52_default_br_golden_ochre_train_name: Class 52 "Western" - BR Golden Ochre
+- id: 1514
+  vehicle: br_50
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1514_br_50_default_br_blue_train.gnml
+  identifier: br_50_default_br_blue_train
+  name_string: str_br_50_default_br_blue_train_name
+  strings:
+    str_br_50_default_br_blue_train_name: Class 50 - BR Blue
+    str_br_50_default_br_blue_train_group_name: Class 50
+- id: 1515
+  vehicle: br_50
+  profile: default
+  livery: br large logo
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1515_br_50_default_br_large_logo_train.gnml
+  identifier: br_50_default_br_large_logo_train
+  name_string: str_br_50_default_br_large_logo_train_name
+  strings:
+    str_br_50_default_br_blue_train_group_name: Class 50
+    str_br_50_default_br_large_logo_train_name: Class 50 - BR Large Logo
+- id: 1516
+  vehicle: br_50
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1516_br_50_default_br_green_train.gnml
+  identifier: br_50_default_br_green_train
+  name_string: str_br_50_default_br_green_train_name
+  strings:
+    str_br_50_default_br_blue_train_group_name: Class 50
+    str_br_50_default_br_green_train_name: Class 50 - BR Green
+- id: 1517
+  vehicle: br_50
+  profile: default
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1517_br_50_default_network_southeast_train.gnml
+  identifier: br_50_default_network_southeast_train
+  name_string: str_br_50_default_network_southeast_train_name
+  strings:
+    str_br_50_default_br_blue_train_group_name: Class 50
+    str_br_50_default_network_southeast_train_name: Class 50 - Network SouthEast
+- id: 1518
+  vehicle: br_50
+  profile: default
+  livery: network southeast (alternate)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1518_br_50_default_network_southeast__alternate__train.gnml
+  identifier: br_50_default_network_southeast__alternate__train
+  name_string: str_br_50_default_network_southeast__alternate__train_name
+  strings:
+    str_br_50_default_br_blue_train_group_name: Class 50
+    str_br_50_default_network_southeast__alternate__train_name: Class 50 - Network
+      SouthEast Alternate
+- id: 1519
+  vehicle: br_50
+  profile: default
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1519_br_50_default_gbrf_train.gnml
+  identifier: br_50_default_gbrf_train
+  name_string: str_br_50_default_gbrf_train_name
+  strings:
+    str_br_50_default_br_blue_train_group_name: Class 50
+    str_br_50_default_gbrf_train_name: Class 50 - GBRf
+- id: 1520
+  vehicle: br_50
+  profile: default
+  livery: hanson & hall
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1520_br_50_default_hanson___hall_train.gnml
+  identifier: br_50_default_hanson___hall_train
+  name_string: str_br_50_default_hanson___hall_train_name
+  strings:
+    str_br_50_default_br_blue_train_group_name: Class 50
+    str_br_50_default_hanson___hall_train_name: Class 50 - Hanson & Hall
+- id: 1521
+  vehicle: br_50
+  profile: default
+  livery: railfreight grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1521_br_50_default_railfreight_grey_train.gnml
+  identifier: br_50_default_railfreight_grey_train
+  name_string: str_br_50_default_railfreight_grey_train_name
+  strings:
+    str_br_50_default_br_blue_train_group_name: Class 50
+    str_br_50_default_railfreight_grey_train_name: Class 50 - Railfreight Grey

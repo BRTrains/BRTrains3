@@ -1,0 +1,49 @@
+info:
+  identifier: br_50
+  name: Class 50
+  sub_name: Express passenger diesel locomotive
+  based_on: British Rail Class 50
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 115
+  length: 8
+  power: 2700
+  speed: 100
+  tractive_effort: 0.35
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1967-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/50
+
+liveries:
+  # Ordered by sw_BR50 cargo_subtype 0..7. The compositor re-stacks the
+  # legacy spriteset bands into this order.
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Large Logo'
+    special_tags: [operator/BR]
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: Network SouthEast
+    special_tags: [operator/Network SouthEast]
+  - name: 'Network SouthEast (Alternate)'
+    special_tags: [operator/Network SouthEast]
+  - name: GBRf
+    special_tags: [operator/GB Railfreight]
+  - name: 'Hanson & Hall'
+    special_tags: [operator/Hanson & Hall]
+  - name: 'Railfreight Grey'
+    special_tags: [operator/Railfreight]
