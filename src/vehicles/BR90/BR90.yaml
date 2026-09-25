@@ -1,0 +1,68 @@
+info:
+  identifier: br_90
+  name: 'Class 90'
+  sub_name: Electric mixed-traffic locomotive
+  based_on: British Rail Class 90
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 84.5
+  length: 8
+  power: 5000
+  speed: 110
+  tractive_effort: 0.3
+  track_type:
+    - ELRL
+  power_type:
+    - electric
+
+# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
+# cargo capacity callback, so cargo: none states the effective behaviour.
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1987-10-02
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/90
+
+# The legacy sw_BR90 / sw_BR90_cargo_subtype_text order (cargo subtype 0..13), which is
+# the row order compose_br90_sheet.py re-stacks the drawings into. The sheet's declared
+# spriteset y values are not in this order (see 90.pnml) — the composite's ROWS table is
+# the record of which band each livery draws, each labelled from its own pixels.
+liveries:
+  - name: 'InterCity Swallow'
+    special_tags: [operator/InterCity]
+  - name: 'Freightliner Grey'
+    special_tags: [operator/Freightliner]
+  - name: 'EWS Red and Gold'
+    special_tags: [operator/EWS]
+  - name: 'DB Schenker'
+    special_tags: [operator/DB Schenker]
+  - name: 'Freightliner Green'
+    special_tags: [operator/Freightliner]
+  - name: 'Freightliner Powerhaul'
+    special_tags: [operator/Freightliner]
+  - name: 'ONE'
+    special_tags: [operator/One]
+  - name: 'Greater Anglia White'
+    special_tags: [operator/Greater Anglia]
+  - name: 'Greater Anglia Blue'
+    special_tags: [operator/Greater Anglia]
+  - name: 'Virgin Trains'
+    special_tags: [operator/Virgin Trains]
+  - name: 'Rail Express Systems'
+    special_tags: [operator/Rail Express Systems]
+  - name: 'First ScotRail'
+    special_tags: [operator/FirstScotRail]
+  - name: 'GNER'
+    special_tags: [operator/GNER]
+  - name: 'Freightliner Orange'
+    special_tags: [operator/Freightliner]

@@ -10763,3 +10763,283 @@ variants:
   strings:
     str_br_87_default_virgin_train_name: Class 87 - Virgin
     str_br_87_default_virgin_train_group_name: Class 87
+- id: 1405
+  vehicle: br_90
+  profile: default
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1405_br_90_default_intercity_swallow_train.gnml
+  identifier: br_90_default_intercity_swallow_train
+  name_string: str_br_90_default_intercity_swallow_train_name
+  strings:
+    str_br_90_default_intercity_swallow_train_name: Class 90 - InterCity Swallow
+    str_br_90_default_intercity_swallow_train_group_name: Class 90
+- id: 1406
+  vehicle: br_90
+  profile: default
+  livery: freightliner grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1406_br_90_default_freightliner_grey_train.gnml
+  identifier: br_90_default_freightliner_grey_train
+  name_string: str_br_90_default_freightliner_grey_train_name
+  strings:
+    str_br_90_default_freightliner_grey_train_name: Class 90 - Freightliner Grey
+    str_br_90_default_freightliner_grey_train_group_name: Class 90
+- id: 1407
+  vehicle: br_90
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1407_br_90_default_ews_red_and_gold_train.gnml
+  identifier: br_90_default_ews_red_and_gold_train
+  name_string: str_br_90_default_ews_red_and_gold_train_name
+  strings:
+    str_br_90_default_ews_red_and_gold_train_name: Class 90 - EWS Red and Gold
+    str_br_90_default_ews_red_and_gold_train_group_name: Class 90
+- id: 1408
+  vehicle: br_90
+  profile: default
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1408_br_90_default_db_schenker_train.gnml
+  identifier: br_90_default_db_schenker_train
+  name_string: str_br_90_default_db_schenker_train_name
+  strings:
+    str_br_90_default_db_schenker_train_name: Class 90 - DB Schenker
+    str_br_90_default_db_schenker_train_group_name: Class 90
+- id: 1409
+  vehicle: br_90
+  profile: default
+  livery: freightliner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1409_br_90_default_freightliner_green_train.gnml
+  identifier: br_90_default_freightliner_green_train
+  name_string: str_br_90_default_freightliner_green_train_name
+  strings:
+    str_br_90_default_freightliner_green_train_name: Class 90 - Freightliner Green
+    str_br_90_default_freightliner_green_train_group_name: Class 90
+- id: 1410
+  vehicle: br_90
+  profile: default
+  livery: freightliner powerhaul
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1410_br_90_default_freightliner_powerhaul_train.gnml
+  identifier: br_90_default_freightliner_powerhaul_train
+  name_string: str_br_90_default_freightliner_powerhaul_train_name
+  strings:
+    str_br_90_default_freightliner_powerhaul_train_name: Class 90 - Freightliner Powerhaul
+    str_br_90_default_freightliner_powerhaul_train_group_name: Class 90
+- id: 1411
+  vehicle: br_90
+  profile: default
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1411_br_90_default_one_train.gnml
+  identifier: br_90_default_one_train
+  name_string: str_br_90_default_one_train_name
+  strings:
+    str_br_90_default_one_train_name: Class 90 - ONE
+    str_br_90_default_one_train_group_name: Class 90
+- id: 1412
+  vehicle: br_90
+  profile: default
+  livery: greater anglia white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1412_br_90_default_greater_anglia_white_train.gnml
+  identifier: br_90_default_greater_anglia_white_train
+  name_string: str_br_90_default_greater_anglia_white_train_name
+  strings:
+    str_br_90_default_greater_anglia_white_train_name: Class 90 - Greater Anglia White
+    str_br_90_default_greater_anglia_white_train_group_name: Class 90
+- id: 1413
+  vehicle: br_90
+  profile: default
+  livery: greater anglia blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1413_br_90_default_greater_anglia_blue_train.gnml
+  identifier: br_90_default_greater_anglia_blue_train
+  name_string: str_br_90_default_greater_anglia_blue_train_name
+  strings:
+    str_br_90_default_greater_anglia_blue_train_name: Class 90 - Greater Anglia Blue
+    str_br_90_default_greater_anglia_blue_train_group_name: Class 90
+- id: 1414
+  vehicle: br_90
+  profile: default
+  livery: virgin trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1414_br_90_default_virgin_trains_train.gnml
+  identifier: br_90_default_virgin_trains_train
+  name_string: str_br_90_default_virgin_trains_train_name
+  strings:
+    str_br_90_default_virgin_trains_train_name: Class 90 - Virgin Trains
+    str_br_90_default_virgin_trains_train_group_name: Class 90
+- id: 1415
+  vehicle: br_90
+  profile: default
+  livery: rail express systems
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1415_br_90_default_rail_express_systems_train.gnml
+  identifier: br_90_default_rail_express_systems_train
+  name_string: str_br_90_default_rail_express_systems_train_name
+  strings:
+    str_br_90_default_rail_express_systems_train_name: Class 90 - Rail Express Systems
+    str_br_90_default_rail_express_systems_train_group_name: Class 90
+- id: 1416
+  vehicle: br_90
+  profile: default
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1416_br_90_default_first_scotrail_train.gnml
+  identifier: br_90_default_first_scotrail_train
+  name_string: str_br_90_default_first_scotrail_train_name
+  strings:
+    str_br_90_default_first_scotrail_train_name: Class 90 - First ScotRail
+    str_br_90_default_first_scotrail_train_group_name: Class 90
+- id: 1417
+  vehicle: br_90
+  profile: default
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1417_br_90_default_gner_train.gnml
+  identifier: br_90_default_gner_train
+  name_string: str_br_90_default_gner_train_name
+  strings:
+    str_br_90_default_gner_train_name: Class 90 - GNER
+    str_br_90_default_gner_train_group_name: Class 90
+- id: 1418
+  vehicle: br_90
+  profile: default
+  livery: freightliner orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1418_br_90_default_freightliner_orange_train.gnml
+  identifier: br_90_default_freightliner_orange_train
+  name_string: str_br_90_default_freightliner_orange_train_name
+  strings:
+    str_br_90_default_freightliner_orange_train_name: Class 90 - Freightliner Orange
+    str_br_90_default_freightliner_orange_train_group_name: Class 90
