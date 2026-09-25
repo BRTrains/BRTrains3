@@ -11183,3 +11183,157 @@ variants:
   strings:
     str_br_91_default_lner_train_name: Class 91 - LNER
     str_br_91_default_lner_train_group_name: Class 91
+- id: 1426
+  vehicle: br_180
+  profile: 180_5car
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1426_br_180_180_5car_first_great_western_train.gnml
+  identifier: br_180_180_5car_first_great_western_train
+  name_string: str_br_180_180_5car_first_great_western_train_name
+  strings:
+    str_br_180_180_5car_first_great_western_train_name: Class 180 "Adelante" - 5-Car
+      - First Great Western
+    str_br_180_180_5car_first_great_western_train_group_name: Class 180 "Adelante"
+      - 5-Car
+- id: 1427
+  vehicle: br_180
+  profile: 180_5car
+  livery: first great western dynamic lines
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1427_br_180_180_5car_first_great_western_dynamic_lines_train.gnml
+  identifier: br_180_180_5car_first_great_western_dynamic_lines_train
+  name_string: str_br_180_180_5car_first_great_western_dynamic_lines_train_name
+  strings:
+    str_br_180_180_5car_first_great_western_dynamic_lines_train_name: Class 180 "Adelante"
+      - 5-Car - First Great Western Dynamic Lines
+    str_br_180_180_5car_first_great_western_dynamic_lines_train_group_name: Class
+      180 "Adelante" - 5-Car
+- id: 1428
+  vehicle: br_180
+  profile: 180_5car
+  livery: grand central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1428_br_180_180_5car_grand_central_train.gnml
+  identifier: br_180_180_5car_grand_central_train
+  name_string: str_br_180_180_5car_grand_central_train_name
+  strings:
+    str_br_180_180_5car_grand_central_train_name: Class 180 "Adelante" - 5-Car - Grand
+      Central
+    str_br_180_180_5car_grand_central_train_group_name: Class 180 "Adelante" - 5-Car
+- id: 1429
+  vehicle: br_180
+  profile: 180_5car
+  livery: grand central lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1429_br_180_180_5car_grand_central_lined_train.gnml
+  identifier: br_180_180_5car_grand_central_lined_train
+  name_string: str_br_180_180_5car_grand_central_lined_train_name
+  strings:
+    str_br_180_180_5car_grand_central_lined_train_name: Class 180 "Adelante" - 5-Car
+      - Grand Central Lined
+    str_br_180_180_5car_grand_central_lined_train_group_name: Class 180 "Adelante"
+      - 5-Car
+- id: 1430
+  vehicle: br_180
+  profile: 180_5car
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1430_br_180_180_5car_northern_rail_train.gnml
+  identifier: br_180_180_5car_northern_rail_train
+  name_string: str_br_180_180_5car_northern_rail_train_name
+  strings:
+    str_br_180_180_5car_northern_rail_train_name: Class 180 "Adelante" - 5-Car - Northern
+      Rail
+    str_br_180_180_5car_northern_rail_train_group_name: Class 180 "Adelante" - 5-Car
+- id: 1431
+  vehicle: br_180
+  profile: 180_5car
+  livery: east midlands railway maroon and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1431_br_180_180_5car_east_midlands_railway_maroon_and_white_train.gnml
+  identifier: br_180_180_5car_east_midlands_railway_maroon_and_white_train
+  name_string: str_br_180_180_5car_east_midlands_railway_maroon_and_white_train_name
+  strings:
+    str_br_180_180_5car_east_midlands_railway_maroon_and_white_train_name: Class 180
+      "Adelante" - 5-Car - East Midlands Railway Maroon and White
+    str_br_180_180_5car_east_midlands_railway_maroon_and_white_train_group_name: Class
+      180 "Adelante" - 5-Car
