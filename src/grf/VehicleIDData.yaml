@@ -18279,3 +18279,111 @@ variants:
   strings:
     str_br_43_default_br_blue_train_group_name: Class 43 "HST"
     str_br_43_default_pullman_train_name: Class 43 "HST" - Pullman
+- id: 1759
+  vehicle: br_720
+  profile: 720_5car
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 137
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1759_br_720_720_5car_greater_anglia_train.gnml
+  identifier: br_720_720_5car_greater_anglia_train
+  name_string: str_br_720_720_5car_greater_anglia_train_name
+  strings:
+    str_br_720_720_5car_greater_anglia_train_name: Class 720 "Aventra" - 5-Car - Greater
+      Anglia
+    str_br_720_720_5car_greater_anglia_train_group_name: Class 720 "Aventra" - 5-Car
+- id: 1760
+  vehicle: br_720
+  profile: 720_5car
+  livery: c2c
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 137
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1760_br_720_720_5car_c2c_train.gnml
+  identifier: br_720_720_5car_c2c_train
+  name_string: str_br_720_720_5car_c2c_train_name
+  strings:
+    str_br_720_720_5car_greater_anglia_train_group_name: Class 720 "Aventra" - 5-Car
+    str_br_720_720_5car_c2c_train_name: Class 720 "Aventra" - 5-Car - c2c
+- id: 1761
+  vehicle: br_720
+  profile: 720_10car
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 139
+    articulated_count: 10
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1761_br_720_720_10car_greater_anglia_train.gnml
+  identifier: br_720_720_10car_greater_anglia_train
+  name_string: str_br_720_720_10car_greater_anglia_train_name
+  strings:
+    str_br_720_720_10car_greater_anglia_train_name: Class 720 "Aventra" - 10-Car -
+      Greater Anglia
+    str_br_720_720_10car_greater_anglia_train_group_name: Class 720 "Aventra" - 10-Car
+- id: 1762
+  vehicle: br_720
+  profile: 720_10car
+  livery: c2c
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 139
+    articulated_count: 10
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1762_br_720_720_10car_c2c_train.gnml
+  identifier: br_720_720_10car_c2c_train
+  name_string: str_br_720_720_10car_c2c_train_name
+  strings:
+    str_br_720_720_10car_greater_anglia_train_group_name: Class 720 "Aventra" - 10-Car
+    str_br_720_720_10car_c2c_train_name: Class 720 "Aventra" - 10-Car - c2c

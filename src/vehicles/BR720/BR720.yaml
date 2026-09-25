@@ -1,0 +1,81 @@
+info:
+  identifier: br_720
+  name: 'Class 720 "Aventra"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 720 Aventra
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # Both legacy items declare `track_type: ELRL`.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2020-03-17
+
+profiles:
+  # The two legacy Aventra items are two formations of one class, both
+  # `variant_group: header_Aventra`:
+  #   `BRTrains2/src/trains/electric_mu/720.pnml`   item `item_br_720`   — the 5-car
+  #   `BRTrains2/src/trains/electric_mu/720-1.pnml` item `item_br_720_1` — the 10-car
+  # Names come from the legacy lang file: `STR_BR_720` "BR Class 720 \"Aventra\" (5-Car)" and
+  # `STR_BR_720_1` "BR Class 720/1 \"Aventra\" (10-Car)".
+  #
+  # Both formations read the same four drawings (`spriteset_br_720_<role>_GA/C2C` in
+  # `src/trains/electric_mu/sprites/720.pnml`), so the 10-car declares `sprite_group`
+  # against the 5-car and the sheet carries one row group per livery instead of two:
+  #   rows 1-4  Greater Anglia  front, middle, middle_panto, rear  <- Aventra.png y=0/25/50/75
+  #   rows 5-8  c2c             front, middle, middle_panto, rear  <- Aventra.png y=400/425/450/475
+  # (see /home/jon/BRTrains3-artwork-tools/compose_br720_sheet.py).
+  - identifier: '720_5car'
+    name: 5-Car
+    num_vehicles: 5
+    speed: 100
+    power: 3100
+    weight: 120
+    # `item_br_720`'s callback is `return(685/5 * param_pax)` — 137 per part, 685 in game. Its
+    # `cargo_capacity: (685/5)` property states the same quotient.
+    capacity: 137
+    # `switch_br_720_spriteset_GA`/`_C2C` read position_in_articulated_veh % 5 as
+    # front(0), middle_panto(1), rear(4), middle elsewhere — over the four-row group
+    # ordered front, middle, middle_panto, rear.
+    sprite_override: [1, 3, 2, 2, 4]
+    special_tags:
+      - formation/5-car
+      - subclass/720
+
+  - identifier: '720_10car'
+    name: 10-Car
+    num_vehicles: 10
+    speed: 100
+    power: 4200
+    weight: 330
+    # `item_br_720_1`'s callback is `return(1390/10 * param_pax)` — 139 per part, 1390 in game.
+    capacity: 139
+    # The legacy draws the 10-car from the 5-car's own spritesets, so it reuses those rows.
+    sprite_group: '720_5car'
+    # `switch_br_720_1_spriteset_GA`/`_C2C` read position_in_articulated_veh % 10 as
+    # front(0), middle_panto(6), rear(9), middle elsewhere.
+    sprite_override: [1, 2, 2, 2, 2, 2, 3, 2, 2, 4]
+    special_tags:
+      - formation/10-car
+      - subclass/720_1
+
+liveries:
+  # The legacy `switch_br_720_subtype_text` names subtype 0 "Greater Anglia" and subtype 1
+  # "c2c" (`str_GreaterAnglia`, `str_C2C` in `lang/partial/livery_prebuilt_strings.plng`),
+  # and both items carry both subtypes, so each livery applies to both formations.
+  - name: 'Greater Anglia'
+    special_tags: [operator/Greater Anglia]
+  - name: 'c2c'
+    special_tags: [operator/c2c]
