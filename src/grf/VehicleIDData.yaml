@@ -15488,3 +15488,31 @@ variants:
     str_br_67_default_ews_red_and_gold_train_group_name: Class 67
     str_br_67_default_dbschenker___company_train_train_name: Class 67 - DBSchenker
       - Company Train
+- id: 1633
+  vehicle: br_73_gatex
+  profile: 73_gatex_9
+  livery: gatwick express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 9
+    lengths:
+    - 7
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1633_br_73_gatex_73_gatex_9_gatwick_express_train.gnml
+  identifier: br_73_gatex_73_gatex_9_gatwick_express_train
+  name_string: str_br_73_gatex_73_gatex_9_gatwick_express_train_name
+  strings:
+    str_br_73_gatex_73_gatex_9_gatwick_express_train_name: Class 73 "Gatwick Express"
+      set 9 car + locomotive - 9-Car Set - Gatwick Express
