@@ -1,0 +1,57 @@
+info:
+  identifier: br_56
+  name: 'Class 56 "Gridiron"'
+  sub_name: Heavy freight diesel locomotive
+  based_on: British Rail Class 56
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 123
+  length: 8
+  power: 3250
+  speed: 80
+  tractive_effort: 0.228
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1976-05-11
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/56
+
+liveries:
+  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR56, cargo_subtype)` (0..9),
+  # which is also the legacy `cargo_subtype_text` switch's order. The sheet's physical
+  # band order differs only in that it stacks EWS (y=65) and Fastline (y=91) above
+  # BR Grey (y=117) and Railfreight Grey (y=143); compose_br56_sheet.py re-stacks the
+  # bands into this order and clears the template's gutter columns, which several bands
+  # of gfx/Diesel/56.png bleed across (see /home/jon/BRTrains3-import-oddities.md).
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Blue Large Logo'
+    special_tags: [operator/BR]
+  - name: 'BR Grey'
+    special_tags: [operator/BR]
+  - name: 'Railfreight Grey'
+    special_tags: [operator/Railfreight]
+  - name: 'EWS Red and Gold'
+    special_tags: [operator/EWS]
+  - name: Fastline
+    special_tags: [operator/Fastline]
+  - name: 'DC Rail Green'
+    special_tags: [operator/DC Rail]
+  - name: 'DC Rail Grey'
+    special_tags: [operator/DC Rail]
+  - name: 'Colas Rail'
+    special_tags: [operator/Colas Rail]
+  - name: Artemis
+    special_tags: [operator/Artemis]

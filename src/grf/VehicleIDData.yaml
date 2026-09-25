@@ -7676,3 +7676,206 @@ variants:
       - CrossCountry refurbished
     str_br_220_220_4_crosscountry_refurbished_train_group_name: Class 220 Voyager
       - 4-Car
+- id: 1266
+  vehicle: br_56
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1266_br_56_default_br_blue_train.gnml
+  identifier: br_56_default_br_blue_train
+  name_string: str_br_56_default_br_blue_train_name
+  strings:
+    str_br_56_default_br_blue_train_name: Class 56 "Gridiron" - BR Blue
+    str_br_56_default_br_blue_train_group_name: Class 56 "Gridiron"
+- id: 1267
+  vehicle: br_56
+  profile: default
+  livery: br blue large logo
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1267_br_56_default_br_blue_large_logo_train.gnml
+  identifier: br_56_default_br_blue_large_logo_train
+  name_string: str_br_56_default_br_blue_large_logo_train_name
+  strings:
+    str_br_56_default_br_blue_large_logo_train_name: Class 56 "Gridiron" - BR Blue
+      Large Logo
+    str_br_56_default_br_blue_large_logo_train_group_name: Class 56 "Gridiron"
+- id: 1268
+  vehicle: br_56
+  profile: default
+  livery: br grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1268_br_56_default_br_grey_train.gnml
+  identifier: br_56_default_br_grey_train
+  name_string: str_br_56_default_br_grey_train_name
+  strings:
+    str_br_56_default_br_grey_train_name: Class 56 "Gridiron" - BR Grey
+    str_br_56_default_br_grey_train_group_name: Class 56 "Gridiron"
+- id: 1269
+  vehicle: br_56
+  profile: default
+  livery: railfreight grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1269_br_56_default_railfreight_grey_train.gnml
+  identifier: br_56_default_railfreight_grey_train
+  name_string: str_br_56_default_railfreight_grey_train_name
+  strings:
+    str_br_56_default_railfreight_grey_train_name: Class 56 "Gridiron" - Railfreight
+      Grey
+    str_br_56_default_railfreight_grey_train_group_name: Class 56 "Gridiron"
+- id: 1270
+  vehicle: br_56
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1270_br_56_default_ews_red_and_gold_train.gnml
+  identifier: br_56_default_ews_red_and_gold_train
+  name_string: str_br_56_default_ews_red_and_gold_train_name
+  strings:
+    str_br_56_default_ews_red_and_gold_train_name: Class 56 "Gridiron" - EWS Red and
+      Gold
+    str_br_56_default_ews_red_and_gold_train_group_name: Class 56 "Gridiron"
+- id: 1271
+  vehicle: br_56
+  profile: default
+  livery: fastline
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1271_br_56_default_fastline_train.gnml
+  identifier: br_56_default_fastline_train
+  name_string: str_br_56_default_fastline_train_name
+  strings:
+    str_br_56_default_fastline_train_name: Class 56 "Gridiron" - Fastline
+    str_br_56_default_fastline_train_group_name: Class 56 "Gridiron"
+- id: 1272
+  vehicle: br_56
+  profile: default
+  livery: dc rail green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1272_br_56_default_dc_rail_green_train.gnml
+  identifier: br_56_default_dc_rail_green_train
+  name_string: str_br_56_default_dc_rail_green_train_name
+  strings:
+    str_br_56_default_dc_rail_green_train_name: Class 56 "Gridiron" - DC Rail Green
+    str_br_56_default_dc_rail_green_train_group_name: Class 56 "Gridiron"
+- id: 1273
+  vehicle: br_56
+  profile: default
+  livery: dc rail grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1273_br_56_default_dc_rail_grey_train.gnml
+  identifier: br_56_default_dc_rail_grey_train
+  name_string: str_br_56_default_dc_rail_grey_train_name
+  strings:
+    str_br_56_default_dc_rail_grey_train_name: Class 56 "Gridiron" - DC Rail Grey
+    str_br_56_default_dc_rail_grey_train_group_name: Class 56 "Gridiron"
+- id: 1274
+  vehicle: br_56
+  profile: default
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1274_br_56_default_colas_rail_train.gnml
+  identifier: br_56_default_colas_rail_train
+  name_string: str_br_56_default_colas_rail_train_name
+  strings:
+    str_br_56_default_colas_rail_train_name: Class 56 "Gridiron" - Colas Rail
+    str_br_56_default_colas_rail_train_group_name: Class 56 "Gridiron"
+- id: 1275
+  vehicle: br_56
+  profile: default
+  livery: artemis
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1275_br_56_default_artemis_train.gnml
+  identifier: br_56_default_artemis_train
+  name_string: str_br_56_default_artemis_train_name
+  strings:
+    str_br_56_default_artemis_train_name: Class 56 "Gridiron" - Artemis
+    str_br_56_default_artemis_train_group_name: Class 56 "Gridiron"
