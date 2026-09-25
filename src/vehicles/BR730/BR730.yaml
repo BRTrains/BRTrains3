@@ -40,7 +40,10 @@ profiles:
     speed: 90
     power: 4200
     weight: 330
-    capacity: 40
+    # `item_br730_0`'s callback is `return(201 * param_pax / 3)` — 67 per part, i.e. 201 in
+    # game. Its own `cargo_capacity: (201/5)` property is a stale placeholder (the divisor 5
+    # belongs to the 5-car), so the callback's figure is the one carried, as usual.
+    capacity: 67
     # `switch_br730_0_spriteset_WMR` reads position % 3 as front(1), middlepanto(4), rear(3),
     # i.e. band y=0, y=75, y=25 — so the four-row group is indexed [1, 4, 3, 2].
     sprite_override: [1, 4, 3, 2]

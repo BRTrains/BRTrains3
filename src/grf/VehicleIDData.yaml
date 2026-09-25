@@ -10044,7 +10044,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 40
+    capacity: 67
     articulated_count: 3
     lengths:
     - 8
