@@ -10034,3 +10034,54 @@ variants:
       - 4-Car - London Northwestern Railway - Ukraine
     str_br_350_350_4_london_northwestern_railway___ukraine_train_group_name: Class
       350 "Desiro" - 4-Car
+- id: 1370
+  vehicle: br_730
+  profile: 730_0_3car
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1370_br_730_730_0_3car_west_midlands_railway_train.gnml
+  identifier: br_730_730_0_3car_west_midlands_railway_train
+  name_string: str_br_730_730_0_3car_west_midlands_railway_train_name
+  strings:
+    str_br_730_730_0_3car_west_midlands_railway_train_name: Class 730 "Aventra" -
+      3-Car - West Midlands Railway
+    str_br_730_730_0_3car_west_midlands_railway_train_single_livery_name: Class 730
+      "Aventra" - 3-Car - West Midlands Railway
+- id: 1371
+  vehicle: br_730
+  profile: 730_2_5car
+  livery: london northwestern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 81
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1371_br_730_730_2_5car_london_northwestern_railway_train.gnml
+  identifier: br_730_730_2_5car_london_northwestern_railway_train
+  name_string: str_br_730_730_2_5car_london_northwestern_railway_train_name
+  strings:
+    str_br_730_730_2_5car_london_northwestern_railway_train_name: Class 730 "Aventra"
+      - 5-Car - London Northwestern Railway
+    str_br_730_730_2_5car_london_northwestern_railway_train_single_livery_name: Class
+      730 "Aventra" - 5-Car - London Northwestern Railway

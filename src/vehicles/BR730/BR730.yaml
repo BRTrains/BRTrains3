@@ -1,0 +1,80 @@
+info:
+  identifier: br_730
+  name: 'Class 730 "Aventra"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 730 Aventra
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # Both legacy items declare `track_type: ELRL` (their own comment notes that
+  # ENGINE_CLASS_ELECTRIC would otherwise give overhead-wire effects).
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2024-03-17
+
+profiles:
+  # The two legacy Aventra items are two formations of one class:
+  # `BRTrains2/src/trains/electric_mu/730-0.pnml` item `item_br730_0` (a 3-car WMR unit,
+  # articulated parts 1..2) and `730-2.pnml` item `item_br730_2` (a 5-car LNWR unit,
+  # articulated parts 1..4), both `variant_group: header_Aventra`.
+  #
+  # Sheet block order (see /home/jon/BRTrains3-artwork-tools/compose_br730_sheet.py),
+  # one row group per (profile, livery) pair in BRBuild's consumption order:
+  #   rows 1-4  WMR  front, rear, middle, middlepanto  -> the 3-car group
+  #   rows 5-7  LNWR front, rear, middlepanto          -> the 5-car group
+  - identifier: '730_0_3car'
+    name: 3-Car
+    num_vehicles: 3
+    speed: 90
+    power: 4200
+    weight: 330
+    capacity: 40
+    # `switch_br730_0_spriteset_WMR` reads position % 3 as front(1), middlepanto(4), rear(3),
+    # i.e. band y=0, y=75, y=25 — so the four-row group is indexed [1, 4, 3, 2].
+    sprite_override: [1, 4, 3, 2]
+    special_tags:
+      - formation/3-car
+      - subclass/730_0
+
+  - identifier: '730_2_5car'
+    name: 5-Car
+    num_vehicles: 5
+    speed: 110
+    power: 4200
+    weight: 330
+    capacity: 81
+    # `switch_br730_2_spriteset_LNWR` reads position % 5 as front(1), middlepanto(3), rear(2),
+    # i.e. band y=100, y=150, y=125 — so the three-row group is indexed [1, 3, 3, 3, 2].
+    sprite_override: [1, 3, 3, 3, 2]
+    special_tags:
+      - formation/5-car
+      - subclass/730_2
+
+liveries:
+  # Names are the operators' own, from BRTrains2's `lang/partial/livery_prebuilt_strings.plng`
+  # (`str_WMR: (West Midlands Railway)`, `str_LNWR: (London Northwestern Railway)`) and the
+  # `switch_br730_*_subtype_text` switches.
+  #
+  # Each profile carries one livery here rather than the two liveries being shared, because the
+  # legacy draws each operator's formation only in its own colours and the two groups' end-car
+  # drawings differ (see the import oddities file).
+  - name: 'West Midlands Railway'
+    profiles:
+      - '730_0_3car'
+    special_tags: [operator/West Midlands Trains]
+  - name: 'London Northwestern Railway'
+    profiles:
+      - '730_2_5car'
+    special_tags: [operator/London Northwestern Railway]
