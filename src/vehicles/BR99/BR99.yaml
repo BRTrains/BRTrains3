@@ -1,0 +1,67 @@
+info:
+  identifier: br_99
+  name: 'Class 99'
+  sub_name: Bi-mode mixed-traffic locomotive
+  based_on: Stadler Class 99
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 113
+  length: 8
+  # `item_BR99` (BRTrains2/src/trains/multimode_loco/99.pnml, 690) declares
+  # `power: 1 hp` as a placeholder overridden by `switch_BR99_power`, which is a
+  # railtype switch: `tile_powers_railtype("ELRL")` returns 8270 hp when the tile is
+  # electrified and 2400 hp otherwise. BRBuild has no per-railtype power callback, so
+  # the self-powered (diesel) figure is authored here and the 8270 hp electric figure
+  # is recorded in /home/jon/BRTrains3-import-oddities.md as an unconverted legacy
+  # behaviour (see also the Class 88, which carries its electric figure for the same
+  # reason).
+  power: 2400
+  # `property.speed: 75 mph` is the legacy service figure and `sw_BR99_speed`
+  # (param_max_speed 0/1) selects between it and 160 km/h, which is the design figure
+  # (160 km/h ~= 99.4 mph, authored as 100). The pair is carried because the two
+  # figures differ, so the speed selector is emitted.
+  speed: 75
+  design_speed: 100
+  tractive_effort: 0.451508
+  power_type:
+    - diesel
+    - electric
+  # The legacy item declares `track_type: RAIL` while naming ELRL in the power switch
+  # above; BRBuild resolves a self-powered multi-mode unit to RAIL, which agrees with
+  # the item's own declaration, so no `track_type` is authored (the same treatment as
+  # the Class 88).
+
+# `refittable_cargo_classes: 0` with `cargo_allow_refit: [GOOD, FOOD]` the item cannot
+# use, and a `cargo_capacity` callback returning 0, so cargo: none states the effective
+# behaviour.
+cargo: none
+
+loading_speed: 3
+
+dates:
+  introduction_date: 2025-08-01
+
+profiles:
+  # One 1-car locomotive: the legacy `item_BR99` has no `articulated_part` callback, so
+  # there are no parts and no `sprite_override`.
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/99
+
+liveries:
+  # Ordered by `switch_BR99` / `switch_BR99_cargo_subtype_text` cargo-subtype order
+  # (0 GBRf Blue, 1 GBRf Black), from the legacy livery strings
+  # (BRTrains2/lang/partial/livery_prebuilt_strings.plng `str_GBRfBlue` = "(GBRf - Blue)",
+  # `str_GBRfBlack` = "(GBRf - Black)"). The source sheet
+  # BRTrains2/gfx/Electric/99.png is already on the modern grid (both drawing bands at
+  # y = 13 and 39 classify as `tmpl_train_8`, 8 views each), so the drop is a straight
+  # two-band re-stack in this order; see compose_br99_sheet.py.
+  - name: 'GBRf Blue'
+    special_tags: [operator/GB Railfreight]
+  - name: 'GBRf Black'
+    special_tags: [operator/GB Railfreight]

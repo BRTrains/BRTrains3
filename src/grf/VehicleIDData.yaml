@@ -17617,3 +17617,43 @@ variants:
   strings:
     str_br_150_1_default_regional_railways_train_group_name: Class 150/1 "Sprinter"
     str_br_150_1_default_northern_train_name: Class 150/1 "Sprinter" - Northern
+- id: 1728
+  vehicle: br_99
+  profile: default
+  livery: gbrf blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1728_br_99_default_gbrf_blue_train.gnml
+  identifier: br_99_default_gbrf_blue_train
+  name_string: str_br_99_default_gbrf_blue_train_name
+  strings:
+    str_br_99_default_gbrf_blue_train_name: Class 99 - GBRf Blue
+    str_br_99_default_gbrf_blue_train_group_name: Class 99
+- id: 1729
+  vehicle: br_99
+  profile: default
+  livery: gbrf black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1729_br_99_default_gbrf_black_train.gnml
+  identifier: br_99_default_gbrf_black_train
+  name_string: str_br_99_default_gbrf_black_train_name
+  strings:
+    str_br_99_default_gbrf_blue_train_group_name: Class 99
+    str_br_99_default_gbrf_black_train_name: Class 99 - GBRf Black
