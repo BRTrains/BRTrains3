@@ -1,0 +1,81 @@
+info:
+  identifier: br_310
+  name: 'Class 310'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 310
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  speed: 75
+  length: 8
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # The legacy items declare `track_type: ELRL` explicitly (25 kV overhead AC stock), so it
+  # is stated rather than left to `power_type` — see the import oddities file.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 14
+cargo_age_period: 250
+
+dates:
+  introduction_date: 1965-04-21
+
+profiles:
+  # The legacy files the class as two items under no `variant_group`: `item_BR310_0` 471
+  # ("BR Class 310/0 \"AM-10\" (4-Car)") and `item_BR310_1` 472 ("BR Class 310/1 (3-Car)"),
+  # whose `switch_articulated_BR310_0` / `_1` add the trailing cars. One candidate with two
+  # formations, as the Class 168/0 and the Pacers.
+  #
+  # Row group: the sheet holds one four-row group per livery in the legacy declaration order
+  # a (13), c (38), d (63), b (88), which is leading / middle / middle_panto / trailing —
+  # `switch_articulated_BR310_0` reads position 1 as item_310c, 2 as item_310d, 3 as
+  # item_310b, so the 4-car pattern is [1, 4, 3, 2] against that declared order.  The 3-car
+  # reads item_310c then item_310b, i.e. the same group rows 1, 3, 2, so it needs no redraw
+  # and shares the single four-row group.  `sprite_group` is what makes it share rather than
+  # consume a second copy of the rows (`'310_0'` — quoted, because YAML would read the bare
+  # `310_0` as the integer 3100).
+  #
+  # Capacity is per part, as BRBuild's callback attaches to the item every articulated part
+  # references: the 4-car's items all carry the legacy property 80 and the callback
+  # `80 * param_pax`; the 3-car carries property 70 with the callback `70 * param_pax` on the
+  # driving car and `68 * param_pax` on the two trailers — one uniform per-part figure cannot
+  # express that, so the driving car's declared 70 is used (the callback's own figure, 68, is
+  # recorded in the oddities file).
+  - identifier: '310_0'
+    name: '310/0'
+    num_vehicles: 4
+    capacity: 80
+    power: 1610
+    weight: 224
+    sprite_override: [1, 4, 3, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/310_0
+  - identifier: '310_1'
+    name: '310/1'
+    num_vehicles: 3
+    sprite_group: '310_0'
+    capacity: 70
+    power: 1610
+    weight: 224
+    sprite_override: [1, 3, 2]
+    special_tags:
+      - formation/3-car
+      - subclass/310_1
+
+liveries:
+  # `sw_BR310_cargo_subtype_text`'s cargo_subtype order 0..2, which is also the order the
+  # twelve declared spritesets sit in (`sw_BR310a/b/c/d` select y 13/113/213 and so on).
+  # Names are the legacy's own strings (`str_BRBlue`, `str_NSE`, `str_Regional`; its
+  # `str_BR310_liveries` reads "BR Blue/Grey, Network South East, Regional Rail").
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'Network SouthEast'
+    special_tags: [operator/Network SouthEast]
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]

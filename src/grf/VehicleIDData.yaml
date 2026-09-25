@@ -17725,3 +17725,138 @@ variants:
   strings:
     str_br_334_default_carmine_and_cream_train_group_name: Class 334 "Juniper"
     str_br_334_default_scotrail_pride_train_name: Class 334 "Juniper" - ScotRail Pride
+- id: 1733
+  vehicle: br_310
+  profile: '310_0'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1733_br_310_310_0_br_blue_train.gnml
+  identifier: br_310_310_0_br_blue_train
+  name_string: str_br_310_310_0_br_blue_train_name
+  strings:
+    str_br_310_310_0_br_blue_train_name: Class 310 - 310/0 - BR Blue
+    str_br_310_310_0_br_blue_train_group_name: Class 310 - 310/0
+- id: 1734
+  vehicle: br_310
+  profile: '310_0'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1734_br_310_310_0_network_southeast_train.gnml
+  identifier: br_310_310_0_network_southeast_train
+  name_string: str_br_310_310_0_network_southeast_train_name
+  strings:
+    str_br_310_310_0_br_blue_train_group_name: Class 310 - 310/0
+    str_br_310_310_0_network_southeast_train_name: Class 310 - 310/0 - Network SouthEast
+- id: 1735
+  vehicle: br_310
+  profile: '310_0'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1735_br_310_310_0_regional_railways_train.gnml
+  identifier: br_310_310_0_regional_railways_train
+  name_string: str_br_310_310_0_regional_railways_train_name
+  strings:
+    str_br_310_310_0_br_blue_train_group_name: Class 310 - 310/0
+    str_br_310_310_0_regional_railways_train_name: Class 310 - 310/0 - Regional Railways
+- id: 1736
+  vehicle: br_310
+  profile: '310_1'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1736_br_310_310_1_br_blue_train.gnml
+  identifier: br_310_310_1_br_blue_train
+  name_string: str_br_310_310_1_br_blue_train_name
+  strings:
+    str_br_310_310_1_br_blue_train_name: Class 310 - 310/1 - BR Blue
+    str_br_310_310_1_br_blue_train_group_name: Class 310 - 310/1
+- id: 1737
+  vehicle: br_310
+  profile: '310_1'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1737_br_310_310_1_network_southeast_train.gnml
+  identifier: br_310_310_1_network_southeast_train
+  name_string: str_br_310_310_1_network_southeast_train_name
+  strings:
+    str_br_310_310_1_br_blue_train_group_name: Class 310 - 310/1
+    str_br_310_310_1_network_southeast_train_name: Class 310 - 310/1 - Network SouthEast
+- id: 1738
+  vehicle: br_310
+  profile: '310_1'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1738_br_310_310_1_regional_railways_train.gnml
+  identifier: br_310_310_1_regional_railways_train
+  name_string: str_br_310_310_1_regional_railways_train_name
+  strings:
+    str_br_310_310_1_br_blue_train_group_name: Class 310 - 310/1
+    str_br_310_310_1_regional_railways_train_name: Class 310 - 310/1 - Regional Railways
