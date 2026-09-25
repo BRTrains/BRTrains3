@@ -59,7 +59,12 @@ liveries:
   - name: 'VivaRail'
     profiles: [2car, 3car]
     special_tags: [operator/West Midlands Trains]
-  - name: 'London North Western Railway Green'
+  # The legacy livery strings are `(London Northwestern Railway)`, `(Transport For
+  # Wales)`, `(VivaRail)` and `(GWR - Green)` (BRTrains2
+  # `lang/partial/livery_prebuilt_strings.plng`); they are expanded to the operator's
+  # own name and to BRTrains3's "Green" convention, matching the existing
+  # "Transport for Wales" livery on BRMk3.
+  - name: 'London Northwestern Railway Green'
     profiles: [2car]
     special_tags: [operator/London Northwestern Railway]
   - name: 'Great Western Railway Green'
