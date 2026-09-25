@@ -12764,3 +12764,225 @@ variants:
     str_br_59_59_2_ews_red_and_gold_train_name: Class 59 "Super Shed" - 59/2 - EWS
       Red and Gold
     str_br_59_59_2_ews_red_and_gold_train_group_name: Class 59 "Super Shed" - 59/2
+- id: 1494
+  vehicle: br_69
+  profile: default
+  livery: gbrf blue and orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1494_br_69_default_gbrf_blue_and_orange_train.gnml
+  identifier: br_69_default_gbrf_blue_and_orange_train
+  name_string: str_br_69_default_gbrf_blue_and_orange_train_name
+  strings:
+    str_br_69_default_gbrf_blue_and_orange_train_name: Class 69 - GBRf Blue and Orange
+    str_br_69_default_gbrf_blue_and_orange_train_group_name: Class 69
+- id: 1495
+  vehicle: br_69
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1495_br_69_default_br_green_train.gnml
+  identifier: br_69_default_br_green_train
+  name_string: str_br_69_default_br_green_train_name
+  strings:
+    str_br_69_default_br_green_train_name: Class 69 - BR Green
+    str_br_69_default_br_green_train_group_name: Class 69
+- id: 1496
+  vehicle: br_69
+  profile: default
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1496_br_69_default_br_maroon_train.gnml
+  identifier: br_69_default_br_maroon_train
+  name_string: str_br_69_default_br_maroon_train_name
+  strings:
+    str_br_69_default_br_maroon_train_name: Class 69 - BR Maroon
+    str_br_69_default_br_maroon_train_group_name: Class 69
+- id: 1497
+  vehicle: br_69
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1497_br_69_default_br_blue_train.gnml
+  identifier: br_69_default_br_blue_train
+  name_string: str_br_69_default_br_blue_train_name
+  strings:
+    str_br_69_default_br_blue_train_name: Class 69 - BR Blue
+    str_br_69_default_br_blue_train_group_name: Class 69
+- id: 1498
+  vehicle: br_69
+  profile: default
+  livery: br large logo
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1498_br_69_default_br_large_logo_train.gnml
+  identifier: br_69_default_br_large_logo_train
+  name_string: str_br_69_default_br_large_logo_train_name
+  strings:
+    str_br_69_default_br_large_logo_train_name: Class 69 - BR Large Logo
+    str_br_69_default_br_large_logo_train_group_name: Class 69
+- id: 1499
+  vehicle: br_69
+  profile: default
+  livery: br research department
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1499_br_69_default_br_research_department_train.gnml
+  identifier: br_69_default_br_research_department_train
+  name_string: str_br_69_default_br_research_department_train_name
+  strings:
+    str_br_69_default_br_research_department_train_name: Class 69 - BR Research Department
+    str_br_69_default_br_research_department_train_group_name: Class 69
+- id: 1500
+  vehicle: br_69
+  profile: default
+  livery: gbrf andys man club
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1500_br_69_default_gbrf_andys_man_club_train.gnml
+  identifier: br_69_default_gbrf_andys_man_club_train
+  name_string: str_br_69_default_gbrf_andys_man_club_train_name
+  strings:
+    str_br_69_default_gbrf_andys_man_club_train_name: Class 69 - GBRf Andys Man Club
+    str_br_69_default_gbrf_andys_man_club_train_group_name: Class 69
+- id: 1501
+  vehicle: br_69
+  profile: default
+  livery: gbrf british transport police
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1501_br_69_default_gbrf_british_transport_police_train.gnml
+  identifier: br_69_default_gbrf_british_transport_police_train
+  name_string: str_br_69_default_gbrf_british_transport_police_train_name
+  strings:
+    str_br_69_default_gbrf_british_transport_police_train_name: Class 69 - GBRf British
+      Transport Police
+    str_br_69_default_gbrf_british_transport_police_train_group_name: Class 69
+- id: 1502
+  vehicle: br_69
+  profile: default
+  livery: gbrf kestrel tribute
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1502_br_69_default_gbrf_kestrel_tribute_train.gnml
+  identifier: br_69_default_gbrf_kestrel_tribute_train
+  name_string: str_br_69_default_gbrf_kestrel_tribute_train_name
+  strings:
+    str_br_69_default_gbrf_kestrel_tribute_train_name: Class 69 - GBRf Kestrel Tribute
+    str_br_69_default_gbrf_kestrel_tribute_train_group_name: Class 69
+- id: 1503
+  vehicle: br_69
+  profile: default
+  livery: gbrf 2 tone green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1503_br_69_default_gbrf_2_tone_green_train.gnml
+  identifier: br_69_default_gbrf_2_tone_green_train
+  name_string: str_br_69_default_gbrf_2_tone_green_train_name
+  strings:
+    str_br_69_default_gbrf_2_tone_green_train_name: Class 69 - GBRf 2 Tone Green
+    str_br_69_default_gbrf_2_tone_green_train_group_name: Class 69
+- id: 1504
+  vehicle: br_69
+  profile: default
+  livery: gbrf railfreight grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1504_br_69_default_gbrf_railfreight_grey_train.gnml
+  identifier: br_69_default_gbrf_railfreight_grey_train
+  name_string: str_br_69_default_gbrf_railfreight_grey_train_name
+  strings:
+    str_br_69_default_gbrf_railfreight_grey_train_name: Class 69 - GBRf Railfreight
+      Grey
+    str_br_69_default_gbrf_railfreight_grey_train_group_name: Class 69
