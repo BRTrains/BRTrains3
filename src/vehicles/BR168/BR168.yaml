@@ -1,0 +1,75 @@
+info:
+  identifier: br_168
+  name: 'Class 168/0 "Clubman"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 168/0 Clubman
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # BRBuild's capacity, power and weight are per-part; the legacy items carry
+  # whole-consist figures, one per formation (see the profiles below, and the
+  # oddities file for the set-wide per-part question).
+  weight: 135
+  length: 8
+  power: 1266
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 195
+
+dates:
+  introduction_date: 1998-04-21
+
+profiles:
+  # Three formations, one per legacy 168/0 item (`item_BR168_0_2car` 741,
+  # `item_BR168_0_3car` 742, `item_BR168_0_4car` 743). All three draw from the same
+  # three bands, so the 2-car owns the row group (front/middle/rear, three rows per
+  # livery) and the two longer formations reuse its rows through `sprite_group` —
+  # exactly as the 4/5/6-car Class 222 profiles reuse the 7-car's. The patterns index
+  # the rows within that group; the 2-car draws front and rear, skipping the middle.
+  - identifier: '168_0_2car'
+    name: '2-Car'
+    num_vehicles: 2
+    capacity: 50
+    power: 844
+    weight: 90
+    # Legacy `switch_articulated_BR168_0_2car`: one articulated part, so front and rear.
+    sprite_override: [1, 3]
+    special_tags:
+      - formation/2-car
+  - identifier: '168_0_3car'
+    name: '3-Car'
+    num_vehicles: 3
+    capacity: 50
+    sprite_group: '168_0_2car'
+    # Legacy `switch_articulated_BR168_0_3car`: parts 1..2, front, middle, rear.
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+  - identifier: '168_0_4car'
+    name: '4-Car'
+    num_vehicles: 4
+    capacity: 50
+    sprite_group: '168_0_2car'
+    # Legacy `switch_articulated_BR168_0_4car`: parts 1..3, front, two middles, rear.
+    sprite_override: [1, 2, 2, 3]
+    special_tags:
+      - formation/4-car
+
+liveries:
+  # Order is the legacy `sw_BR168_0` cargo_subtype order, which is the composite's row
+  # order (`BRTrains3-artwork-tools/compose_br168_sheet.py`): 0 ChilternBlue (blue
+  # doors), 1 ChilternBlue2 (white doors), 2 ChilternGrey. All three are carried by all
+  # three formations.
+  - name: 'Chiltern Blue (Blue Doors)'
+    special_tags: [operator/Chiltern Railways]
+  - name: 'Chiltern Blue (White Doors)'
+    special_tags: [operator/Chiltern Railways]
+  - name: 'Chiltern Grey'
+    special_tags: [operator/Chiltern Railways]
