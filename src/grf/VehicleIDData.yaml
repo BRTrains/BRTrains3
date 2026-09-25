@@ -18644,3 +18644,27 @@ variants:
       185 "Desiro"
     str_br_185_default_first_transpennine_express___geometric_train_name: Class 185
       "Desiro" - First TransPennine Express - Geometric
+- id: 1774
+  vehicle: br_231
+  profile: default
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 5
+    - 6
+    - 7
+  archive: generated_variants/1774_br_231_default_transport_for_wales_train.gnml
+  identifier: br_231_default_transport_for_wales_train
+  name_string: str_br_231_default_transport_for_wales_train_name
+  strings:
+    str_br_231_default_transport_for_wales_train_name: Class 231/0 "FLIRT" - Transport
+      for Wales

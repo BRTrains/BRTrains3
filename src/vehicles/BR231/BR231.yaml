@@ -1,0 +1,61 @@
+info:
+  identifier: br_231
+  name: 'Class 231/0 "FLIRT"'
+  sub_name: Diesel-electric multiple unit
+  based_on: Stadler FLIRT UK Class 231
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_br_231` (BRTrains2/src/trains/diesel_mu/231.pnml) carries the whole-unit weight
+  # and power, and the switch returns that same item for every articulated position, so
+  # these are the legacy's own figures copied as-is — the same set-wide per-part
+  # weight/power question already noted against the Class 180/185/220/222/755. (The real
+  # four-car set weighs 154.3 t; the legacy states 114.3, recorded as a query.)
+  weight: 114.3
+  length: 7
+  power: 2000
+  speed: 90
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+  # The legacy declares `track_type: RAIL` and `engine_class: ENGINE_CLASS_DIESEL` (its own
+  # comment: "even if its 3rd rail, ELECTRIC would give overhead wire effects"). The
+  # classifier emits `RAIL` and `ENGINE_CLASS_DIESEL` for a self-powered unit, so
+  # `track_type` is left unset, as on the rest of the diesel fleet — see the oddities file
+  # for the per-position `switch_br_231_particles` effect the schema cannot express.
+
+cargo: passenger
+
+loading_speed: 15
+
+dates:
+  introduction_date: 2019-07-29
+
+profiles:
+  # One legacy item and one formation. `switch_br_231_articulated` adds parts 1..4 for
+  # `item_br_231`, so the consist is **five** vehicles — four passenger cars plus the
+  # central power pack (DMS-TS-PP-TSW-DMS, matching the real unit) — and
+  # `switch_br_231_spriteset` reads the five drawings by `position_in_articulated_veh % 5`:
+  # front (0), fronttrailer (1), powerpack (2), reartrailer (3), rear (4). The sheet
+  # `compose_br231_sheet.py` packs one row per position in exactly that order.
+  - identifier: DEFAULT
+    num_vehicles: 5
+    # `item_br_231`'s callback is `return(229/4 * param_pax)` — a consist total divided by
+    # the part count — so the per-part figure is 57 (229 // 4). The legacy's own
+    # `cargo_capacity: (229/4)` property is the placeholder the callback overrides (the
+    # same property/callback disagreement as the Class 150/2, 151, 156, 159 and 185).
+    capacity: 57
+    sprite_override: [1, 2, 3, 4, 5]
+    special_tags:
+      - formation/5-car
+      - subclass/231_0
+
+liveries:
+  # One livery: the legacy item has no `cargo_subtype` livery switch and no
+  # `sw_BR231_cargo_subtype_text`, and its own description string (`STR_DSC_BR_231`) names
+  # the livery — "Liveries: Transport for Wales". The artwork corroborates it: the two
+  # driving-car bands carry 236/239 Transport-for-Wales red pixels each and the two
+  # trailer bands 62/63, the power pack none (checked with `probe_br231_bands.py`).
+  - name: 'Transport for Wales'
+    special_tags: [operator/Transport for Wales]
