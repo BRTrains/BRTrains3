@@ -18573,3 +18573,74 @@ variants:
   strings:
     str_br_eurotunnel_class9_default_eurotunnel_blue_and_grey_train_name: Eurotunnel
       Class 9 - Eurotunnel Blue and Grey
+- id: 1771
+  vehicle: br_185
+  profile: default
+  livery: first transpennine express - dynamic lines
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 18
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1771_br_185_default_first_transpennine_express___dynamic_lines_train.gnml
+  identifier: br_185_default_first_transpennine_express___dynamic_lines_train
+  name_string: str_br_185_default_first_transpennine_express___dynamic_lines_train_name
+  strings:
+    str_br_185_default_first_transpennine_express___dynamic_lines_train_name: Class
+      185 "Desiro" - First TransPennine Express - Dynamic Lines
+    str_br_185_default_first_transpennine_express___dynamic_lines_train_group_name: Class
+      185 "Desiro"
+- id: 1772
+  vehicle: br_185
+  profile: default
+  livery: firstgroup
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 18
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1772_br_185_default_firstgroup_train.gnml
+  identifier: br_185_default_firstgroup_train
+  name_string: str_br_185_default_firstgroup_train_name
+  strings:
+    str_br_185_default_first_transpennine_express___dynamic_lines_train_group_name: Class
+      185 "Desiro"
+    str_br_185_default_firstgroup_train_name: Class 185 "Desiro" - FirstGroup
+- id: 1773
+  vehicle: br_185
+  profile: default
+  livery: first transpennine express - geometric
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 18
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1773_br_185_default_first_transpennine_express___geometric_train.gnml
+  identifier: br_185_default_first_transpennine_express___geometric_train
+  name_string: str_br_185_default_first_transpennine_express___geometric_train_name
+  strings:
+    str_br_185_default_first_transpennine_express___dynamic_lines_train_group_name: Class
+      185 "Desiro"
+    str_br_185_default_first_transpennine_express___geometric_train_name: Class 185
+      "Desiro" - First TransPennine Express - Geometric
