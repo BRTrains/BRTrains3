@@ -11890,3 +11890,48 @@ variants:
     str_br_153_default_network_rail_train_name: Class 153 "Super Sprinter" - Network
       Rail
     str_br_153_default_network_rail_train_group_name: Class 153 "Super Sprinter"
+- id: 1458
+  vehicle: br_151
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 77
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1458_br_151_default_regional_railways_train.gnml
+  identifier: br_151_default_regional_railways_train
+  name_string: str_br_151_default_regional_railways_train_name
+  strings:
+    str_br_151_default_regional_railways_train_name: Class 151 "Sprinter" - Regional
+      Railways
+    str_br_151_default_regional_railways_train_group_name: Class 151 "Sprinter"
+- id: 1459
+  vehicle: br_151
+  profile: default
+  livery: br prototype
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 77
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1459_br_151_default_br_prototype_train.gnml
+  identifier: br_151_default_br_prototype_train
+  name_string: str_br_151_default_br_prototype_train_name
+  strings:
+    str_br_151_default_br_prototype_train_name: Class 151 "Sprinter" - BR Prototype
+    str_br_151_default_br_prototype_train_group_name: Class 151 "Sprinter"

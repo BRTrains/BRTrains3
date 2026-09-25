@@ -1,0 +1,55 @@
+info:
+  identifier: br_151
+  name: 'Class 151 "Sprinter"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 151
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 97
+  length: 8
+  power: 855
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+  # The legacy `item_BR151` (BRTrains2/src/trains/diesel_mu/Sprinter/BR151.pnml, 51)
+  # declares `track_type: RAIL`; the classifier emits the same for a self-powered unit,
+  # so it is left unset here, as on the rest of the Sprinter family.
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1985-04-21
+
+profiles:
+  # A three-car unit: `switch_articulated_BR151` adds parts 1..2, and `sw_BR151` picks a
+  # drawing per livery per position (front / middle / rear). Each (profile, livery) group
+  # therefore consumes three rows, and `sprite_override` is the identity pattern over them
+  # - the composite packs each livery's three bands front, middle, rear in that order
+  # (BRTrains3-artwork-tools/compose_br151_sheet.py has the ROWS table).
+  - identifier: DEFAULT
+    num_vehicles: 3
+    # `item_BR151`'s callback is `return(232 * param_pax / 3)` - a consist total divided by
+    # the part count - so the per-part figure is 77 (232 // 3; BRBuild floors the quotient
+    # it is given, so 77 is what the emitted callback carries either way). The legacy's own
+    # `cargo_capacity: 68` property is the placeholder the callback overrides.
+    capacity: 77
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+      - subclass/151
+
+# Names from BRTrains2's `sw_BR151_cargo_subtype_text` (subtype order 0 then 1) and the
+# livery strings in `lang/partial/livery_prebuilt_strings.plng` (`str_BRPrototype` =
+# "(BR - Prototype)", `str_Regional` = "(Regional Railways)"). That subtype order is the
+# YAML livery order, and the composite packs the rows in it.
+liveries:
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'BR Prototype'
+    special_tags: [operator/BR]
