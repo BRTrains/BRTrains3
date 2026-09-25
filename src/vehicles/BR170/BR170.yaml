@@ -1,0 +1,150 @@
+info:
+  identifier: br_170
+  # One candidate for the two legacy items the set files under one `variant_group:
+  # header_Turbostar` and draws from one sheet (`gfx/DMU/170.png`): the "2-Car"
+  # (`item_BR170_2car` 62) and the "3-Car" (`item_BR170_3car` 64). Both are Turbostar
+  # units of the same body, so they share one purchase-list entry exactly as the legacy
+  # variant group does, with one profile per formation (the Class 168/0 and 172/2+3
+  # precedent).
+  name: 'Class 170 "Turbostar"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 170 Turbostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # BRBuild's capacity, power and weight are per-part; the legacy items carry the
+  # whole-consist figures, so each profile below carries its own item's figures.
+  length: 8
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 195
+
+dates:
+  introduction_date: 1998-04-21
+
+profiles:
+  # The legacy item `item_BR170_2car` (62): a two-car unit, 844 hp / 90 t. Its
+  # `switch_articulated_BR170_2car` adds one part at offset 1, so the formation is
+  # lead and tail and the group's middle drawing is never read.
+  - identifier: '2car'
+    name: '2-Car'
+    num_vehicles: 2
+    capacity: 50
+    power: 844
+    weight: 90
+    # Lead from `position_in_articulated_veh` 0, tail from
+    # `position_in_articulated_veh_from_end` 0 - the group's front and rear rows.
+    sprite_override: [1, 3]
+    special_tags:
+      - formation/2-car
+
+  # The legacy item `item_BR170_3car` (64): a three-car unit, 1266 hp / 135 t. Offsets
+  # 1 and 2 are the two articulated parts the legacy `switch_articulated_BR170_3car`
+  # adds, so the formation is lead, middle, tail.
+  - identifier: '3car'
+    name: '3-Car'
+    num_vehicles: 3
+    capacity: 50
+    power: 1266
+    weight: 135
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+
+liveries:
+  # Order is the composite's row order (`BRTrains3-artwork-tools/compose_br170_sheet.py`),
+  # which is the allocator's own consumption order: profile-outer, livery-inner, reading
+  # this list in order and skipping a livery whose `profiles:` restriction excludes the
+  # profile being iterated. Every (profile, livery) group reads three rows from the
+  # sheet's cursor, 120 rows in total (`sim_br170_allocation.py` prints the accounting).
+  #
+  # Names follow each item's own text switch: `sw_BR170_2car_cargo_subtype_text`
+  # (subtypes 0..15) and `sw_BR170_3car_cargo_subtype_text` (subtypes 0..22), expanded
+  # through the legacy partials.
+  #
+  # The legacy text switches submit three duplicate subtypes: the 3-car's subtypes 9
+  # and 10 and the 2-car's subtype 12 all select `sw_BR170_GreaterAnglia_TfW` (the
+  # legacy file's own comment: "Intentional duplicate, these are basically the same
+  # livery"), where the 2-car's subtype 11 is `sw_BR170_GreaterAnglia`. Each subtype is
+  # kept as its own livery: they are distinct slots the legacy offered, and both members
+  # of a pair draw the same bands, so the duplicate costs two repeated rows rather than
+  # new artwork.
+  #
+  # 2-car only (`sw_BR170_2car`): subtypes 1, 5, 6, 9, 13 and 14; 3-car only
+  # (`sw_BR170_3car`): subtypes 1, 2, 4, 5, 6, 8, 15, 17, 18, 19, 20, 21, 22.
+  - name: 'Midland Mainline'
+    special_tags: [operator/Midland Mainline]
+  - name: 'Central Trains Green'
+    special_tags: [operator/Central Trains]
+  - name: 'Central Trains Robin Hood Line'
+    special_tags: [operator/Central Trains]
+  - name: 'South West Trains'
+    special_tags: [operator/Stagecoach]
+  - name: 'TransPennine Express'
+    special_tags: [operator/TransPennine Express]
+  - name: 'East Midlands Railway Maroon'
+    special_tags: [operator/East Midlands Railway]
+  - name: 'East Midlands Railway Pride'
+    special_tags: [operator/East Midlands Railway]
+  - name: 'CrossCountry Maroon'
+    special_tags: [operator/CrossCountry]
+  - name: 'CrossCountry Red'
+    special_tags: [operator/CrossCountry]
+  - name: 'National Express East Anglia'
+    special_tags: [operator/National Express East Anglia]
+  - name: 'Greater Anglia'
+    special_tags: [operator/Greater Anglia]
+  - name: 'Transport for Wales'
+    special_tags: [operator/Transport for Wales]
+  - name: 'West Midlands Railway'
+    special_tags: [operator/West Midlands Railway]
+  - name: 'Bombardier'
+    special_tags: [operator/Bombardier]
+  - name: 'London Midland'
+    special_tags: [operator/London Midland]
+  - name: 'Central Trains Midland Mainline'
+    profiles: ['3car']
+    special_tags: [operator/Central Trains]
+  - name: 'Central Trains White'
+    profiles: ['3car']
+    special_tags: [operator/Central Trains]
+  - name: 'Central Trains Q Jump'
+    profiles: ['3car']
+    special_tags: [operator/Central Trains]
+  - name: 'Hull Trains'
+    profiles: ['3car']
+    special_tags: [operator/Hull Trains]
+  - name: 'Anglia'
+    profiles: ['3car']
+    special_tags: [operator/Anglia]
+  - name: 'ONE'
+    profiles: ['3car']
+    special_tags: [operator/ONE]
+  - name: 'CrossCountry Pride'
+    profiles: ['3car']
+    special_tags: [operator/CrossCountry]
+  - name: 'Strathclyde Carmine and Cream'
+    profiles: ['3car']
+    special_tags: [operator/Strathclyde PTE]
+  - name: 'National Express ScotRail'
+    profiles: ['3car']
+    special_tags: [operator/ScotRail]
+  - name: 'First ScotRail'
+    profiles: ['3car']
+    special_tags: [operator/FirstScotRail]
+  - name: 'ScotRail Saltire'
+    profiles: ['3car']
+    special_tags: [operator/ScotRail]
+  - name: 'ScotRail Saltire British Transport Police'
+    profiles: ['3car']
+    special_tags: [operator/ScotRail, operator/Police]
+  - name: 'Northern'
+    profiles: ['3car']
+    special_tags: [operator/Northern]

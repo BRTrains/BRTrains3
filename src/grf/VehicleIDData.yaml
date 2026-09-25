@@ -16301,3 +16301,971 @@ variants:
       - 3-Car
     str_br_172_23_3car_london_midland_train_name: Class 172/2/3 "Turbostar" - 3-Car
       - London Midland
+- id: 1669
+  vehicle: br_170
+  profile: 2car
+  livery: midland mainline
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1669_br_170_2car_midland_mainline_train.gnml
+  identifier: br_170_2car_midland_mainline_train
+  name_string: str_br_170_2car_midland_mainline_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_name: Class 170 "Turbostar" - 2-Car - Midland
+      Mainline
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+- id: 1670
+  vehicle: br_170
+  profile: 2car
+  livery: central trains green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1670_br_170_2car_central_trains_green_train.gnml
+  identifier: br_170_2car_central_trains_green_train
+  name_string: str_br_170_2car_central_trains_green_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_central_trains_green_train_name: Class 170 "Turbostar" - 2-Car
+      - Central Trains Green
+- id: 1671
+  vehicle: br_170
+  profile: 2car
+  livery: central trains robin hood line
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1671_br_170_2car_central_trains_robin_hood_line_train.gnml
+  identifier: br_170_2car_central_trains_robin_hood_line_train
+  name_string: str_br_170_2car_central_trains_robin_hood_line_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_central_trains_robin_hood_line_train_name: Class 170 "Turbostar"
+      - 2-Car - Central Trains Robin Hood Line
+- id: 1672
+  vehicle: br_170
+  profile: 2car
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1672_br_170_2car_south_west_trains_train.gnml
+  identifier: br_170_2car_south_west_trains_train
+  name_string: str_br_170_2car_south_west_trains_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_south_west_trains_train_name: Class 170 "Turbostar" - 2-Car -
+      South West Trains
+- id: 1673
+  vehicle: br_170
+  profile: 2car
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1673_br_170_2car_transpennine_express_train.gnml
+  identifier: br_170_2car_transpennine_express_train
+  name_string: str_br_170_2car_transpennine_express_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_transpennine_express_train_name: Class 170 "Turbostar" - 2-Car
+      - TransPennine Express
+- id: 1674
+  vehicle: br_170
+  profile: 2car
+  livery: east midlands railway maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1674_br_170_2car_east_midlands_railway_maroon_train.gnml
+  identifier: br_170_2car_east_midlands_railway_maroon_train
+  name_string: str_br_170_2car_east_midlands_railway_maroon_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_east_midlands_railway_maroon_train_name: Class 170 "Turbostar"
+      - 2-Car - East Midlands Railway Maroon
+- id: 1675
+  vehicle: br_170
+  profile: 2car
+  livery: east midlands railway pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1675_br_170_2car_east_midlands_railway_pride_train.gnml
+  identifier: br_170_2car_east_midlands_railway_pride_train
+  name_string: str_br_170_2car_east_midlands_railway_pride_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_east_midlands_railway_pride_train_name: Class 170 "Turbostar"
+      - 2-Car - East Midlands Railway Pride
+- id: 1676
+  vehicle: br_170
+  profile: 2car
+  livery: crosscountry maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1676_br_170_2car_crosscountry_maroon_train.gnml
+  identifier: br_170_2car_crosscountry_maroon_train
+  name_string: str_br_170_2car_crosscountry_maroon_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_crosscountry_maroon_train_name: Class 170 "Turbostar" - 2-Car
+      - CrossCountry Maroon
+- id: 1677
+  vehicle: br_170
+  profile: 2car
+  livery: crosscountry red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1677_br_170_2car_crosscountry_red_train.gnml
+  identifier: br_170_2car_crosscountry_red_train
+  name_string: str_br_170_2car_crosscountry_red_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_crosscountry_red_train_name: Class 170 "Turbostar" - 2-Car - CrossCountry
+      Red
+- id: 1678
+  vehicle: br_170
+  profile: 2car
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1678_br_170_2car_national_express_east_anglia_train.gnml
+  identifier: br_170_2car_national_express_east_anglia_train
+  name_string: str_br_170_2car_national_express_east_anglia_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_national_express_east_anglia_train_name: Class 170 "Turbostar"
+      - 2-Car - National Express East Anglia
+- id: 1679
+  vehicle: br_170
+  profile: 2car
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1679_br_170_2car_greater_anglia_train.gnml
+  identifier: br_170_2car_greater_anglia_train
+  name_string: str_br_170_2car_greater_anglia_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_greater_anglia_train_name: Class 170 "Turbostar" - 2-Car - Greater
+      Anglia
+- id: 1680
+  vehicle: br_170
+  profile: 2car
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1680_br_170_2car_transport_for_wales_train.gnml
+  identifier: br_170_2car_transport_for_wales_train
+  name_string: str_br_170_2car_transport_for_wales_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_transport_for_wales_train_name: Class 170 "Turbostar" - 2-Car
+      - Transport for Wales
+- id: 1681
+  vehicle: br_170
+  profile: 2car
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1681_br_170_2car_west_midlands_railway_train.gnml
+  identifier: br_170_2car_west_midlands_railway_train
+  name_string: str_br_170_2car_west_midlands_railway_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_west_midlands_railway_train_name: Class 170 "Turbostar" - 2-Car
+      - West Midlands Railway
+- id: 1682
+  vehicle: br_170
+  profile: 2car
+  livery: bombardier
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1682_br_170_2car_bombardier_train.gnml
+  identifier: br_170_2car_bombardier_train
+  name_string: str_br_170_2car_bombardier_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_bombardier_train_name: Class 170 "Turbostar" - 2-Car - Bombardier
+- id: 1683
+  vehicle: br_170
+  profile: 2car
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1683_br_170_2car_london_midland_train.gnml
+  identifier: br_170_2car_london_midland_train
+  name_string: str_br_170_2car_london_midland_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_london_midland_train_name: Class 170 "Turbostar" - 2-Car - London
+      Midland
+- id: 1684
+  vehicle: br_170
+  profile: 3car
+  livery: midland mainline
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1684_br_170_3car_midland_mainline_train.gnml
+  identifier: br_170_3car_midland_mainline_train
+  name_string: str_br_170_3car_midland_mainline_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_name: Class 170 "Turbostar" - 3-Car - Midland
+      Mainline
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+- id: 1685
+  vehicle: br_170
+  profile: 3car
+  livery: central trains green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1685_br_170_3car_central_trains_green_train.gnml
+  identifier: br_170_3car_central_trains_green_train
+  name_string: str_br_170_3car_central_trains_green_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_central_trains_green_train_name: Class 170 "Turbostar" - 3-Car
+      - Central Trains Green
+- id: 1686
+  vehicle: br_170
+  profile: 3car
+  livery: central trains robin hood line
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1686_br_170_3car_central_trains_robin_hood_line_train.gnml
+  identifier: br_170_3car_central_trains_robin_hood_line_train
+  name_string: str_br_170_3car_central_trains_robin_hood_line_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_central_trains_robin_hood_line_train_name: Class 170 "Turbostar"
+      - 3-Car - Central Trains Robin Hood Line
+- id: 1687
+  vehicle: br_170
+  profile: 3car
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1687_br_170_3car_south_west_trains_train.gnml
+  identifier: br_170_3car_south_west_trains_train
+  name_string: str_br_170_3car_south_west_trains_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_south_west_trains_train_name: Class 170 "Turbostar" - 3-Car -
+      South West Trains
+- id: 1688
+  vehicle: br_170
+  profile: 3car
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1688_br_170_3car_transpennine_express_train.gnml
+  identifier: br_170_3car_transpennine_express_train
+  name_string: str_br_170_3car_transpennine_express_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_transpennine_express_train_name: Class 170 "Turbostar" - 3-Car
+      - TransPennine Express
+- id: 1689
+  vehicle: br_170
+  profile: 3car
+  livery: east midlands railway maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1689_br_170_3car_east_midlands_railway_maroon_train.gnml
+  identifier: br_170_3car_east_midlands_railway_maroon_train
+  name_string: str_br_170_3car_east_midlands_railway_maroon_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_east_midlands_railway_maroon_train_name: Class 170 "Turbostar"
+      - 3-Car - East Midlands Railway Maroon
+- id: 1690
+  vehicle: br_170
+  profile: 3car
+  livery: east midlands railway pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1690_br_170_3car_east_midlands_railway_pride_train.gnml
+  identifier: br_170_3car_east_midlands_railway_pride_train
+  name_string: str_br_170_3car_east_midlands_railway_pride_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_east_midlands_railway_pride_train_name: Class 170 "Turbostar"
+      - 3-Car - East Midlands Railway Pride
+- id: 1691
+  vehicle: br_170
+  profile: 3car
+  livery: crosscountry maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1691_br_170_3car_crosscountry_maroon_train.gnml
+  identifier: br_170_3car_crosscountry_maroon_train
+  name_string: str_br_170_3car_crosscountry_maroon_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_crosscountry_maroon_train_name: Class 170 "Turbostar" - 3-Car
+      - CrossCountry Maroon
+- id: 1692
+  vehicle: br_170
+  profile: 3car
+  livery: crosscountry red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1692_br_170_3car_crosscountry_red_train.gnml
+  identifier: br_170_3car_crosscountry_red_train
+  name_string: str_br_170_3car_crosscountry_red_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_crosscountry_red_train_name: Class 170 "Turbostar" - 3-Car - CrossCountry
+      Red
+- id: 1693
+  vehicle: br_170
+  profile: 3car
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1693_br_170_3car_national_express_east_anglia_train.gnml
+  identifier: br_170_3car_national_express_east_anglia_train
+  name_string: str_br_170_3car_national_express_east_anglia_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_national_express_east_anglia_train_name: Class 170 "Turbostar"
+      - 3-Car - National Express East Anglia
+- id: 1694
+  vehicle: br_170
+  profile: 3car
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1694_br_170_3car_greater_anglia_train.gnml
+  identifier: br_170_3car_greater_anglia_train
+  name_string: str_br_170_3car_greater_anglia_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_greater_anglia_train_name: Class 170 "Turbostar" - 3-Car - Greater
+      Anglia
+- id: 1695
+  vehicle: br_170
+  profile: 3car
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1695_br_170_3car_transport_for_wales_train.gnml
+  identifier: br_170_3car_transport_for_wales_train
+  name_string: str_br_170_3car_transport_for_wales_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_transport_for_wales_train_name: Class 170 "Turbostar" - 3-Car
+      - Transport for Wales
+- id: 1696
+  vehicle: br_170
+  profile: 3car
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1696_br_170_3car_west_midlands_railway_train.gnml
+  identifier: br_170_3car_west_midlands_railway_train
+  name_string: str_br_170_3car_west_midlands_railway_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_west_midlands_railway_train_name: Class 170 "Turbostar" - 3-Car
+      - West Midlands Railway
+- id: 1697
+  vehicle: br_170
+  profile: 3car
+  livery: bombardier
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1697_br_170_3car_bombardier_train.gnml
+  identifier: br_170_3car_bombardier_train
+  name_string: str_br_170_3car_bombardier_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_bombardier_train_name: Class 170 "Turbostar" - 3-Car - Bombardier
+- id: 1698
+  vehicle: br_170
+  profile: 3car
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1698_br_170_3car_london_midland_train.gnml
+  identifier: br_170_3car_london_midland_train
+  name_string: str_br_170_3car_london_midland_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_london_midland_train_name: Class 170 "Turbostar" - 3-Car - London
+      Midland
+- id: 1699
+  vehicle: br_170
+  profile: 3car
+  livery: central trains midland mainline
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1699_br_170_3car_central_trains_midland_mainline_train.gnml
+  identifier: br_170_3car_central_trains_midland_mainline_train
+  name_string: str_br_170_3car_central_trains_midland_mainline_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_central_trains_midland_mainline_train_name: Class 170 "Turbostar"
+      - 3-Car - Central Trains Midland Mainline
+- id: 1700
+  vehicle: br_170
+  profile: 3car
+  livery: central trains white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1700_br_170_3car_central_trains_white_train.gnml
+  identifier: br_170_3car_central_trains_white_train
+  name_string: str_br_170_3car_central_trains_white_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_central_trains_white_train_name: Class 170 "Turbostar" - 3-Car
+      - Central Trains White
+- id: 1701
+  vehicle: br_170
+  profile: 3car
+  livery: central trains q jump
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1701_br_170_3car_central_trains_q_jump_train.gnml
+  identifier: br_170_3car_central_trains_q_jump_train
+  name_string: str_br_170_3car_central_trains_q_jump_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_central_trains_q_jump_train_name: Class 170 "Turbostar" - 3-Car
+      - Central Trains Q Jump
+- id: 1702
+  vehicle: br_170
+  profile: 3car
+  livery: hull trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1702_br_170_3car_hull_trains_train.gnml
+  identifier: br_170_3car_hull_trains_train
+  name_string: str_br_170_3car_hull_trains_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_hull_trains_train_name: Class 170 "Turbostar" - 3-Car - Hull Trains
+- id: 1703
+  vehicle: br_170
+  profile: 3car
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1703_br_170_3car_anglia_train.gnml
+  identifier: br_170_3car_anglia_train
+  name_string: str_br_170_3car_anglia_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_anglia_train_name: Class 170 "Turbostar" - 3-Car - Anglia
+- id: 1704
+  vehicle: br_170
+  profile: 3car
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1704_br_170_3car_one_train.gnml
+  identifier: br_170_3car_one_train
+  name_string: str_br_170_3car_one_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_one_train_name: Class 170 "Turbostar" - 3-Car - ONE
+- id: 1705
+  vehicle: br_170
+  profile: 3car
+  livery: crosscountry pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1705_br_170_3car_crosscountry_pride_train.gnml
+  identifier: br_170_3car_crosscountry_pride_train
+  name_string: str_br_170_3car_crosscountry_pride_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_crosscountry_pride_train_name: Class 170 "Turbostar" - 3-Car -
+      CrossCountry Pride
+- id: 1706
+  vehicle: br_170
+  profile: 3car
+  livery: strathclyde carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1706_br_170_3car_strathclyde_carmine_and_cream_train.gnml
+  identifier: br_170_3car_strathclyde_carmine_and_cream_train
+  name_string: str_br_170_3car_strathclyde_carmine_and_cream_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_strathclyde_carmine_and_cream_train_name: Class 170 "Turbostar"
+      - 3-Car - Strathclyde Carmine and Cream
+- id: 1707
+  vehicle: br_170
+  profile: 3car
+  livery: national express scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1707_br_170_3car_national_express_scotrail_train.gnml
+  identifier: br_170_3car_national_express_scotrail_train
+  name_string: str_br_170_3car_national_express_scotrail_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_national_express_scotrail_train_name: Class 170 "Turbostar" -
+      3-Car - National Express ScotRail
+- id: 1708
+  vehicle: br_170
+  profile: 3car
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1708_br_170_3car_first_scotrail_train.gnml
+  identifier: br_170_3car_first_scotrail_train
+  name_string: str_br_170_3car_first_scotrail_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_first_scotrail_train_name: Class 170 "Turbostar" - 3-Car - First
+      ScotRail
+- id: 1709
+  vehicle: br_170
+  profile: 3car
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1709_br_170_3car_scotrail_saltire_train.gnml
+  identifier: br_170_3car_scotrail_saltire_train
+  name_string: str_br_170_3car_scotrail_saltire_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_scotrail_saltire_train_name: Class 170 "Turbostar" - 3-Car - ScotRail
+      Saltire
+- id: 1710
+  vehicle: br_170
+  profile: 3car
+  livery: scotrail saltire british transport police
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1710_br_170_3car_scotrail_saltire_british_transport_police_train.gnml
+  identifier: br_170_3car_scotrail_saltire_british_transport_police_train
+  name_string: str_br_170_3car_scotrail_saltire_british_transport_police_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_scotrail_saltire_british_transport_police_train_name: Class 170
+      "Turbostar" - 3-Car - ScotRail Saltire British Transport Police
+- id: 1711
+  vehicle: br_170
+  profile: 3car
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1711_br_170_3car_northern_train.gnml
+  identifier: br_170_3car_northern_train
+  name_string: str_br_170_3car_northern_train_name
+  strings:
+    str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
+    str_br_170_3car_northern_train_name: Class 170 "Turbostar" - 3-Car - Northern
