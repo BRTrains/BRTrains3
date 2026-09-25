@@ -19463,3 +19463,112 @@ variants:
   name_string: str_br_171_171_4car_southern_train_name
   strings:
     str_br_171_171_4car_southern_train_name: Class 171 "Turbostar" - 4-Car - Southern
+- id: 1810
+  vehicle: br_mk1
+  profile: tso
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1810_br_mk1_tso_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_tso_br_carmine_and_cream_train
+  name_string: str_br_mk1_tso_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_carmine_and_cream_train_name: Mk1 Coach - Tourist Standard Open
+      - BR Carmine and Cream
+    str_br_mk1_tso_br_carmine_and_cream_train_group_name: Mk1 Coach - Tourist Standard
+      Open
+- id: 1811
+  vehicle: br_mk1
+  profile: tso
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1811_br_mk1_tso_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_tso_br_chocolate_and_cream_train
+  name_string: str_br_mk1_tso_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_carmine_and_cream_train_group_name: Mk1 Coach - Tourist Standard
+      Open
+    str_br_mk1_tso_br_chocolate_and_cream_train_name: Mk1 Coach - Tourist Standard
+      Open - BR Chocolate and Cream
+- id: 1812
+  vehicle: br_mk1
+  profile: tso
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1812_br_mk1_tso_br_malachite_green_train.gnml
+  identifier: br_mk1_tso_br_malachite_green_train
+  name_string: str_br_mk1_tso_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_carmine_and_cream_train_group_name: Mk1 Coach - Tourist Standard
+      Open
+    str_br_mk1_tso_br_malachite_green_train_name: Mk1 Coach - Tourist Standard Open
+      - BR Malachite Green
+- id: 1813
+  vehicle: br_mk1
+  profile: tso
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1813_br_mk1_tso_br_maroon_train.gnml
+  identifier: br_mk1_tso_br_maroon_train
+  name_string: str_br_mk1_tso_br_maroon_train_name
+  strings:
+    str_br_mk1_tso_br_carmine_and_cream_train_group_name: Mk1 Coach - Tourist Standard
+      Open
+    str_br_mk1_tso_br_maroon_train_name: Mk1 Coach - Tourist Standard Open - BR Maroon
+- id: 1814
+  vehicle: br_mk1
+  profile: tso
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1814_br_mk1_tso_br_blue_and_grey_train.gnml
+  identifier: br_mk1_tso_br_blue_and_grey_train
+  name_string: str_br_mk1_tso_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_carmine_and_cream_train_group_name: Mk1 Coach - Tourist Standard
+      Open
+    str_br_mk1_tso_br_blue_and_grey_train_name: Mk1 Coach - Tourist Standard Open
+      - BR Blue and Grey
