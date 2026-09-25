@@ -1,0 +1,99 @@
+info:
+  identifier: br_150_1
+  name: 'Class 150/1 "Sprinter"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 150
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 72
+  length: 8
+  power: 572
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+  # The legacy `item_BR150_1` (BRTrains2/src/trains/diesel_mu/Sprinter/BR150_1.pnml, 44)
+  # declares `track_type: RAIL`; the classifier emits the same for a self-powered unit, so
+  # it is left unset here, as on the rest of the Sprinter family.
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1985-04-21
+
+profiles:
+  # A two-car unit: `switch_articulated_BR150_1` adds the part at position 1, and
+  # `sw_BR150_1` selects a leading/trailing pair per livery - position 0 draws the front
+  # from `gfx/BR150_1a.png`, position 1 the rear from `gfx/BR150_1b.png`, both at the
+  # livery's own y. Each (profile, livery) group therefore consumes two rows and
+  # `sprite_override` is the identity pattern over them; the composite packs each livery's
+  # two bands front then rear
+  # (BRTrains3-artwork-tools/compose_br150_1_sheet.py has the ROWS table).
+  #
+  # The legacy `switch_articulated_BR150_1` stops at position 1 (`1: return item_BR150_1`),
+  # so the item is a two-car unit even though several of `sw_BR150_1`'s branches declare a
+  # middle drawing for a third car (`spriteset_BR150_01_middle_*`) - those branches read
+  # `position_in_articulated_veh_from_end`, which a two-part consist never reaches. The
+  # unit is imported as the two-car formation its articulation declares. See the oddities
+  # entry: BRTrains2 records the 150/1 as "(2-car)" in its own name string, while the
+  # three-car 150/0 (`item_BR150_0`, 41, positions 1..2) draws the same middle drawings.
+  - identifier: DEFAULT
+    num_vehicles: 2
+    # `item_BR150_1`'s callback is `return(147 * param_pax / 2)` - a consist total divided
+    # by the part count - so the per-part figure is 73 (147 // 2). The legacy's own
+    # `cargo_capacity: 67` property is the placeholder the callback overrides (the same
+    # property/callback disagreement as the Class 150/2 and the Class 156).
+    capacity: 73
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/150_1
+
+# Names from BRTrains2's `sw_BR150_1_cargo_subtype_text` (subtype order 0..15, the six
+# shared livery strings resolved from `lang/partial/livery_prebuilt_strings.plng`) and that
+# switch's case order is the YAML livery order the composite packs. The legacy
+# `str_BR150_1_liveries` list is stale - it names 13 entries for 16 subtypes, omits LNWR and
+# Northern, and its own order does not match the switch - so it was not used.
+#
+# Two bands are declared twice by the legacy switch: `spriteset_BR150_01_front_LondonMidland`
+# and `_front_Central` both read y=88 on BR150_1a.png (and their `rear` spritesets both read
+# y=88 on BR150_1b.png), so the sheet carries that drawing twice - once per livery - because
+# BRBuild consumes one row group per (profile, livery) pair.
+liveries:
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'Regional Railways - Grey'
+    special_tags: [operator/Regional Railways]
+  - name: 'Centro'
+    special_tags: [operator/Centro]
+  - name: 'London Midland'
+    special_tags: [operator/London Midland]
+  - name: 'Network West Midlands'
+    special_tags: [operator/Network West Midlands]
+  - name: 'Central Trains'
+    special_tags: [operator/Central Trains]
+  - name: 'First North Western'
+    special_tags: [operator/First North Western]
+  - name: 'BR Super Sprinter'
+    special_tags: [operator/BR]
+  - name: 'First Great Western'
+    special_tags: [operator/First Great Western]
+  - name: 'Silverlink'
+    special_tags: [operator/Silverlink]
+  - name: 'Northern Rail'
+    special_tags: [operator/Northern Rail]
+  - name: 'BR - Track Test Train'
+    special_tags: [operator/BR]
+  - name: 'Railtrack'
+    special_tags: [operator/Railtrack]
+  - name: 'Network Rail - Test Train'
+    special_tags: [operator/Network Rail]
+  - name: 'London Northwestern Railway'
+    special_tags: [operator/London Northwestern Railway]
+  - name: 'Northern'
+    special_tags: [operator/Northern]
