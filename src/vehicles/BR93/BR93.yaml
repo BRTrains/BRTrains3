@@ -1,0 +1,49 @@
+info:
+  identifier: br_93
+  name: 'Class 93'
+  sub_name: Tri-mode mixed-traffic locomotive
+  based_on: Stadler UKLight Class 93
+
+# The real unit is a genuine tri-mode (25 kV overhead, diesel engine, traction battery),
+# which is what the legacy item's own name says ("BR Class 93 (Tri-Mode)"). BRBuild counts
+# each of those three as a traction mode, so the three tokens give the tri-mode badge and
+# the tri-mode cost multipliers, and the diesel engine keeps the diesel engine class -
+# which is what the legacy item declares explicitly (`engine_class: ENGINE_CLASS_DIESEL`)
+# and what carries the diesel exhaust, departure sound and livery scheme.
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 86
+  length: 8
+  # `switch_BR93_power` returns 6200 on electrified rail and 1740 otherwise. A per-item
+  # power property cannot vary by rail state, so the overhead figure is carried; the
+  # diesel-mode 1740 is recorded in the import oddities file.
+  power: 6200
+  speed: 110
+  tractive_effort: 0.337
+  power_type:
+    - diesel
+    - electric
+    - battery
+
+# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
+# cargo_capacity callback, so cargo: none states the effective behaviour.
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 2024-08-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/93
+
+# One livery: sw_BR93 selects a single spriteset for cargo subtype 0, which
+# switch_BR93_cargo_subtype_text names with str_DRSGreen ("DRS - Green").
+liveries:
+  - name: 'DRS'
+    special_tags: [operator/DRS]

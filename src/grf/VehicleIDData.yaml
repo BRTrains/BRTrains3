@@ -11043,3 +11043,23 @@ variants:
   strings:
     str_br_90_default_freightliner_orange_train_name: Class 90 - Freightliner Orange
     str_br_90_default_freightliner_orange_train_group_name: Class 90
+- id: 1419
+  vehicle: br_93
+  profile: default
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1419_br_93_default_drs_train.gnml
+  identifier: br_93_default_drs_train
+  name_string: str_br_93_default_drs_train_name
+  strings:
+    str_br_93_default_drs_train_name: Class 93 - DRS
+    str_br_93_default_drs_train_single_livery_name: Class 93 - DRS
