@@ -19421,3 +19421,45 @@ variants:
       168/1-3 "Clubman" - 4-Car
     str_br_168_123_168_123_4car_chiltern_grey_train_name: Class 168/1-3 "Clubman"
       - 4-Car - Chiltern Grey
+- id: 1808
+  vehicle: br_171
+  profile: 171_2car
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1808_br_171_171_2car_southern_train.gnml
+  identifier: br_171_171_2car_southern_train
+  name_string: str_br_171_171_2car_southern_train_name
+  strings:
+    str_br_171_171_2car_southern_train_name: Class 171 "Turbostar" - 2-Car - Southern
+- id: 1809
+  vehicle: br_171
+  profile: 171_4car
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1809_br_171_171_4car_southern_train.gnml
+  identifier: br_171_171_4car_southern_train
+  name_string: str_br_171_171_4car_southern_train_name
+  strings:
+    str_br_171_171_4car_southern_train_name: Class 171 "Turbostar" - 4-Car - Southern
