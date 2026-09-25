@@ -10357,3 +10357,227 @@ variants:
     str_br_85_default_railfreight_distribution_train_name: Class 85 "AL5" - Railfreight
       Distribution
     str_br_85_default_railfreight_distribution_train_group_name: Class 85 "AL5"
+- id: 1385
+  vehicle: br_86
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1385_br_86_default_br_blue_train.gnml
+  identifier: br_86_default_br_blue_train
+  name_string: str_br_86_default_br_blue_train_name
+  strings:
+    str_br_86_default_br_blue_train_name: Class 86 "AL6" - BR Blue
+    str_br_86_default_br_blue_train_group_name: Class 86 "AL6"
+- id: 1386
+  vehicle: br_86
+  profile: default
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1386_br_86_default_intercity_executive_train.gnml
+  identifier: br_86_default_intercity_executive_train
+  name_string: str_br_86_default_intercity_executive_train_name
+  strings:
+    str_br_86_default_intercity_executive_train_name: Class 86 "AL6" - InterCity Executive
+    str_br_86_default_intercity_executive_train_group_name: Class 86 "AL6"
+- id: 1387
+  vehicle: br_86
+  profile: default
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1387_br_86_default_intercity_swallow_train.gnml
+  identifier: br_86_default_intercity_swallow_train
+  name_string: str_br_86_default_intercity_swallow_train_name
+  strings:
+    str_br_86_default_intercity_swallow_train_name: Class 86 "AL6" - InterCity Swallow
+    str_br_86_default_intercity_swallow_train_group_name: Class 86 "AL6"
+- id: 1388
+  vehicle: br_86
+  profile: default
+  livery: railfreight distribution
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1388_br_86_default_railfreight_distribution_train.gnml
+  identifier: br_86_default_railfreight_distribution_train
+  name_string: str_br_86_default_railfreight_distribution_train_name
+  strings:
+    str_br_86_default_railfreight_distribution_train_name: Class 86 "AL6" - Railfreight
+      Distribution
+    str_br_86_default_railfreight_distribution_train_group_name: Class 86 "AL6"
+- id: 1389
+  vehicle: br_86
+  profile: default
+  livery: rail express systems
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1389_br_86_default_rail_express_systems_train.gnml
+  identifier: br_86_default_rail_express_systems_train
+  name_string: str_br_86_default_rail_express_systems_train_name
+  strings:
+    str_br_86_default_rail_express_systems_train_name: Class 86 "AL6" - Rail Express
+      Systems
+    str_br_86_default_rail_express_systems_train_group_name: Class 86 "AL6"
+- id: 1390
+  vehicle: br_86
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1390_br_86_default_ews_red_and_gold_train.gnml
+  identifier: br_86_default_ews_red_and_gold_train
+  name_string: str_br_86_default_ews_red_and_gold_train_name
+  strings:
+    str_br_86_default_ews_red_and_gold_train_name: Class 86 "AL6" - EWS Red and Gold
+    str_br_86_default_ews_red_and_gold_train_group_name: Class 86 "AL6"
+- id: 1391
+  vehicle: br_86
+  profile: default
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1391_br_86_default_anglia_train.gnml
+  identifier: br_86_default_anglia_train
+  name_string: str_br_86_default_anglia_train_name
+  strings:
+    str_br_86_default_anglia_train_name: Class 86 "AL6" - Anglia
+    str_br_86_default_anglia_train_group_name: Class 86 "AL6"
+- id: 1392
+  vehicle: br_86
+  profile: default
+  livery: br electric blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1392_br_86_default_br_electric_blue_train.gnml
+  identifier: br_86_default_br_electric_blue_train
+  name_string: str_br_86_default_br_electric_blue_train_name
+  strings:
+    str_br_86_default_br_electric_blue_train_name: Class 86 "AL6" - BR Electric Blue
+    str_br_86_default_br_electric_blue_train_group_name: Class 86 "AL6"
+- id: 1393
+  vehicle: br_86
+  profile: default
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1393_br_86_default_colas_rail_train.gnml
+  identifier: br_86_default_colas_rail_train
+  name_string: str_br_86_default_colas_rail_train_name
+  strings:
+    str_br_86_default_colas_rail_train_name: Class 86 "AL6" - Colas Rail
+    str_br_86_default_colas_rail_train_group_name: Class 86 "AL6"
+- id: 1394
+  vehicle: br_86
+  profile: default
+  livery: freightliner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1394_br_86_default_freightliner_green_train.gnml
+  identifier: br_86_default_freightliner_green_train
+  name_string: str_br_86_default_freightliner_green_train_name
+  strings:
+    str_br_86_default_freightliner_green_train_name: Class 86 "AL6" - Freightliner
+      Green
+    str_br_86_default_freightliner_green_train_group_name: Class 86 "AL6"
+- id: 1395
+  vehicle: br_86
+  profile: default
+  livery: freightliner powerhaul
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1395_br_86_default_freightliner_powerhaul_train.gnml
+  identifier: br_86_default_freightliner_powerhaul_train
+  name_string: str_br_86_default_freightliner_powerhaul_train_name
+  strings:
+    str_br_86_default_freightliner_powerhaul_train_name: Class 86 "AL6" - Freightliner
+      Powerhaul
+    str_br_86_default_freightliner_powerhaul_train_group_name: Class 86 "AL6"
