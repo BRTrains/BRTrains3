@@ -1,0 +1,127 @@
+info:
+  identifier: br_66
+  name: 'Class 66'
+  sub_name: Heavy freight diesel locomotive
+  based_on: British Rail Class 66
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 130
+  length: 8
+  power: 3300
+  speed: 75
+  tractive_effort: 0.323
+  power_type:
+    - diesel
+
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1998-04-21
+
+profiles:
+  - identifier: '66'
+    name: '66'
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/66
+  - identifier: '66_6'
+    name: '66/6'
+    num_vehicles: 1
+    weight: 132
+    speed: 65
+    tractive_effort: 0.392
+    introduction_date: 2000-04-21
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/66_6
+
+liveries:
+  # Ordered by sw_BR66 (0..26), then sw_BR66_6 (0..6); the compositor places
+  # the corresponding legacy y bands in this profile-outer/livery-inner order.
+  - name: 'Freightliner'
+    profiles: ['66', '66_6']
+    special_tags: [operator/Freightliner]
+  - name: 'Freightliner 2'
+    profiles: ['66', '66_6']
+    special_tags: [operator/Freightliner]
+  - name: 'EWS Red and Gold'
+    profiles: ['66', '66_6']
+    special_tags: [operator/EWS]
+  - name: 'DB Schenker'
+    profiles: ['66', '66_6']
+    special_tags: [operator/DB Schenker]
+  - name: 'BR Blue'
+    profiles: ['66']
+    special_tags: [operator/BR]
+  - name: 'GBRf'
+    profiles: ['66', '66_6']
+    special_tags: [operator/GB Railfreight]
+  - name: 'Colas Rail'
+    profiles: ['66', '66_6']
+    special_tags: [operator/Colas Rail]
+  - name: 'Fastline'
+    profiles: ['66']
+    special_tags: [operator/Fastline]
+  - name: 'Freightliner Orange'
+    profiles: ['66', '66_6']
+    special_tags: [operator/Freightliner]
+  - name: 'DRS'
+    profiles: ['66']
+    special_tags: [operator/DRS]
+  - name: 'Maritime Intermodal'
+    profiles: ['66']
+    special_tags: [operator/Freightliner]
+  - name: 'Hanson & Hall'
+    profiles: ['66']
+    special_tags: [operator/Hanson & Hall]
+  - name: 'Aggregate Industries'
+    profiles: ['66']
+    special_tags: [operator/Aggregate Industries]
+  - name: 'GBRf - MSC'
+    profiles: ['66']
+    special_tags: [operator/GB Railfreight]
+  - name: 'GBRf - Evening Star'
+    profiles: ['66']
+    special_tags: [operator/GB Railfreight, operator/BR]
+  - name: 'GBRf - London Underground 150 Years - White'
+    profiles: ['66']
+    special_tags: [operator/GB Railfreight, operator/London Underground]
+  - name: 'GBRf - London Underground 150 Years - Black'
+    profiles: ['66']
+    special_tags: [operator/GB Railfreight, operator/London Underground]
+  - name: 'Heidelberg'
+    profiles: ['66']
+    special_tags: [operator/Heidelberg Materials]
+  - name: 'Biffa'
+    profiles: ['66']
+    special_tags: [operator/Biffa]
+  - name: 'GBRf - First Barbie'
+    profiles: ['66']
+    special_tags: [operator/GB Railfreight]
+  - name: 'ONE'
+    profiles: ['66']
+    special_tags: [operator/ONE]
+  - name: 'GBRf - HS2'
+    profiles: ['66']
+    special_tags: [operator/GB Railfreight, operator/HS2]
+  - name: 'GBRf 2 Tone Grey'
+    profiles: ['66']
+    special_tags: [operator/GB Railfreight]
+  - name: 'Freightliner Shanks'
+    profiles: ['66']
+    special_tags: [operator/Freightliner]
+  - name: 'DB - Steel on Steel'
+    profiles: ['66']
+    special_tags: [operator/DB Schenker]
+  - name: 'National Power'
+    profiles: ['66']
+    special_tags: [operator/National Power]
+  - name: 'ARC'
+    profiles: ['66']
+    special_tags: [operator/ARC]

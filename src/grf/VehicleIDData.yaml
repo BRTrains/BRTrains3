@@ -14363,3 +14363,686 @@ variants:
   strings:
     str_br_55_default_br_green_train_group_name: Class 55 "Deltic"
     str_br_55_default_br_blue_train_name: Class 55 "Deltic" - BR Blue
+- id: 1577
+  vehicle: br_66
+  profile: '66'
+  livery: freightliner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1577_br_66_66_freightliner_train.gnml
+  identifier: br_66_66_freightliner_train
+  name_string: str_br_66_66_freightliner_train_name
+  strings:
+    str_br_66_66_freightliner_train_name: Class 66 - 66 - Freightliner
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+- id: 1578
+  vehicle: br_66
+  profile: '66'
+  livery: freightliner 2
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1578_br_66_66_freightliner_2_train.gnml
+  identifier: br_66_66_freightliner_2_train
+  name_string: str_br_66_66_freightliner_2_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_freightliner_2_train_name: Class 66 - 66 - Freightliner 2
+- id: 1579
+  vehicle: br_66
+  profile: '66'
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1579_br_66_66_ews_red_and_gold_train.gnml
+  identifier: br_66_66_ews_red_and_gold_train
+  name_string: str_br_66_66_ews_red_and_gold_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_ews_red_and_gold_train_name: Class 66 - 66 - EWS Red and Gold
+- id: 1580
+  vehicle: br_66
+  profile: '66'
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1580_br_66_66_db_schenker_train.gnml
+  identifier: br_66_66_db_schenker_train
+  name_string: str_br_66_66_db_schenker_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_db_schenker_train_name: Class 66 - 66 - DB Schenker
+- id: 1581
+  vehicle: br_66
+  profile: '66'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1581_br_66_66_br_blue_train.gnml
+  identifier: br_66_66_br_blue_train
+  name_string: str_br_66_66_br_blue_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_br_blue_train_name: Class 66 - 66 - BR Blue
+- id: 1582
+  vehicle: br_66
+  profile: '66'
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1582_br_66_66_gbrf_train.gnml
+  identifier: br_66_66_gbrf_train
+  name_string: str_br_66_66_gbrf_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_gbrf_train_name: Class 66 - 66 - GBRf
+- id: 1583
+  vehicle: br_66
+  profile: '66'
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1583_br_66_66_colas_rail_train.gnml
+  identifier: br_66_66_colas_rail_train
+  name_string: str_br_66_66_colas_rail_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_colas_rail_train_name: Class 66 - 66 - Colas Rail
+- id: 1584
+  vehicle: br_66
+  profile: '66'
+  livery: fastline
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1584_br_66_66_fastline_train.gnml
+  identifier: br_66_66_fastline_train
+  name_string: str_br_66_66_fastline_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_fastline_train_name: Class 66 - 66 - Fastline
+- id: 1585
+  vehicle: br_66
+  profile: '66'
+  livery: freightliner orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1585_br_66_66_freightliner_orange_train.gnml
+  identifier: br_66_66_freightliner_orange_train
+  name_string: str_br_66_66_freightliner_orange_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_freightliner_orange_train_name: Class 66 - 66 - Freightliner Orange
+- id: 1586
+  vehicle: br_66
+  profile: '66'
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1586_br_66_66_drs_train.gnml
+  identifier: br_66_66_drs_train
+  name_string: str_br_66_66_drs_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_drs_train_name: Class 66 - 66 - DRS
+- id: 1587
+  vehicle: br_66
+  profile: '66'
+  livery: maritime intermodal
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1587_br_66_66_maritime_intermodal_train.gnml
+  identifier: br_66_66_maritime_intermodal_train
+  name_string: str_br_66_66_maritime_intermodal_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_maritime_intermodal_train_name: Class 66 - 66 - Maritime Intermodal
+- id: 1588
+  vehicle: br_66
+  profile: '66'
+  livery: hanson & hall
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1588_br_66_66_hanson___hall_train.gnml
+  identifier: br_66_66_hanson___hall_train
+  name_string: str_br_66_66_hanson___hall_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_hanson___hall_train_name: Class 66 - 66 - Hanson & Hall
+- id: 1589
+  vehicle: br_66
+  profile: '66'
+  livery: aggregate industries
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1589_br_66_66_aggregate_industries_train.gnml
+  identifier: br_66_66_aggregate_industries_train
+  name_string: str_br_66_66_aggregate_industries_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_aggregate_industries_train_name: Class 66 - 66 - Aggregate Industries
+- id: 1590
+  vehicle: br_66
+  profile: '66'
+  livery: gbrf - msc
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1590_br_66_66_gbrf___msc_train.gnml
+  identifier: br_66_66_gbrf___msc_train
+  name_string: str_br_66_66_gbrf___msc_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_gbrf___msc_train_name: Class 66 - 66 - GBRf - MSC
+- id: 1591
+  vehicle: br_66
+  profile: '66'
+  livery: gbrf - evening star
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1591_br_66_66_gbrf___evening_star_train.gnml
+  identifier: br_66_66_gbrf___evening_star_train
+  name_string: str_br_66_66_gbrf___evening_star_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_gbrf___evening_star_train_name: Class 66 - 66 - GBRf - Evening Star
+- id: 1592
+  vehicle: br_66
+  profile: '66'
+  livery: gbrf - london underground 150 years - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1592_br_66_66_gbrf___london_underground_150_years___white_train.gnml
+  identifier: br_66_66_gbrf___london_underground_150_years___white_train
+  name_string: str_br_66_66_gbrf___london_underground_150_years___white_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_gbrf___london_underground_150_years___white_train_name: Class 66
+      - 66 - GBRf - London Underground 150 Years - White
+- id: 1593
+  vehicle: br_66
+  profile: '66'
+  livery: gbrf - london underground 150 years - black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1593_br_66_66_gbrf___london_underground_150_years___black_train.gnml
+  identifier: br_66_66_gbrf___london_underground_150_years___black_train
+  name_string: str_br_66_66_gbrf___london_underground_150_years___black_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_gbrf___london_underground_150_years___black_train_name: Class 66
+      - 66 - GBRf - London Underground 150 Years - Black
+- id: 1594
+  vehicle: br_66
+  profile: '66'
+  livery: heidelberg
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1594_br_66_66_heidelberg_train.gnml
+  identifier: br_66_66_heidelberg_train
+  name_string: str_br_66_66_heidelberg_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_heidelberg_train_name: Class 66 - 66 - Heidelberg
+- id: 1595
+  vehicle: br_66
+  profile: '66'
+  livery: biffa
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1595_br_66_66_biffa_train.gnml
+  identifier: br_66_66_biffa_train
+  name_string: str_br_66_66_biffa_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_biffa_train_name: Class 66 - 66 - Biffa
+- id: 1596
+  vehicle: br_66
+  profile: '66'
+  livery: gbrf - first barbie
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1596_br_66_66_gbrf___first_barbie_train.gnml
+  identifier: br_66_66_gbrf___first_barbie_train
+  name_string: str_br_66_66_gbrf___first_barbie_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_gbrf___first_barbie_train_name: Class 66 - 66 - GBRf - First Barbie
+- id: 1597
+  vehicle: br_66
+  profile: '66'
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1597_br_66_66_one_train.gnml
+  identifier: br_66_66_one_train
+  name_string: str_br_66_66_one_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_one_train_name: Class 66 - 66 - ONE
+- id: 1598
+  vehicle: br_66
+  profile: '66'
+  livery: gbrf - hs2
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1598_br_66_66_gbrf___hs2_train.gnml
+  identifier: br_66_66_gbrf___hs2_train
+  name_string: str_br_66_66_gbrf___hs2_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_gbrf___hs2_train_name: Class 66 - 66 - GBRf - HS2
+- id: 1599
+  vehicle: br_66
+  profile: '66'
+  livery: gbrf 2 tone grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1599_br_66_66_gbrf_2_tone_grey_train.gnml
+  identifier: br_66_66_gbrf_2_tone_grey_train
+  name_string: str_br_66_66_gbrf_2_tone_grey_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_gbrf_2_tone_grey_train_name: Class 66 - 66 - GBRf 2 Tone Grey
+- id: 1600
+  vehicle: br_66
+  profile: '66'
+  livery: freightliner shanks
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1600_br_66_66_freightliner_shanks_train.gnml
+  identifier: br_66_66_freightliner_shanks_train
+  name_string: str_br_66_66_freightliner_shanks_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_freightliner_shanks_train_name: Class 66 - 66 - Freightliner Shanks
+- id: 1601
+  vehicle: br_66
+  profile: '66'
+  livery: db - steel on steel
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1601_br_66_66_db___steel_on_steel_train.gnml
+  identifier: br_66_66_db___steel_on_steel_train
+  name_string: str_br_66_66_db___steel_on_steel_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_db___steel_on_steel_train_name: Class 66 - 66 - DB - Steel on Steel
+- id: 1602
+  vehicle: br_66
+  profile: '66'
+  livery: national power
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1602_br_66_66_national_power_train.gnml
+  identifier: br_66_66_national_power_train
+  name_string: str_br_66_66_national_power_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_national_power_train_name: Class 66 - 66 - National Power
+- id: 1603
+  vehicle: br_66
+  profile: '66'
+  livery: arc
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1603_br_66_66_arc_train.gnml
+  identifier: br_66_66_arc_train
+  name_string: str_br_66_66_arc_train_name
+  strings:
+    str_br_66_66_freightliner_train_group_name: Class 66 - 66
+    str_br_66_66_arc_train_name: Class 66 - 66 - ARC
+- id: 1604
+  vehicle: br_66
+  profile: '66_6'
+  livery: freightliner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1604_br_66_66_6_freightliner_train.gnml
+  identifier: br_66_66_6_freightliner_train
+  name_string: str_br_66_66_6_freightliner_train_name
+  strings:
+    str_br_66_66_6_freightliner_train_name: Class 66 - 66/6 - Freightliner
+    str_br_66_66_6_freightliner_train_group_name: Class 66 - 66/6
+- id: 1605
+  vehicle: br_66
+  profile: '66_6'
+  livery: freightliner 2
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1605_br_66_66_6_freightliner_2_train.gnml
+  identifier: br_66_66_6_freightliner_2_train
+  name_string: str_br_66_66_6_freightliner_2_train_name
+  strings:
+    str_br_66_66_6_freightliner_train_group_name: Class 66 - 66/6
+    str_br_66_66_6_freightliner_2_train_name: Class 66 - 66/6 - Freightliner 2
+- id: 1606
+  vehicle: br_66
+  profile: '66_6'
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1606_br_66_66_6_ews_red_and_gold_train.gnml
+  identifier: br_66_66_6_ews_red_and_gold_train
+  name_string: str_br_66_66_6_ews_red_and_gold_train_name
+  strings:
+    str_br_66_66_6_freightliner_train_group_name: Class 66 - 66/6
+    str_br_66_66_6_ews_red_and_gold_train_name: Class 66 - 66/6 - EWS Red and Gold
+- id: 1607
+  vehicle: br_66
+  profile: '66_6'
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1607_br_66_66_6_db_schenker_train.gnml
+  identifier: br_66_66_6_db_schenker_train
+  name_string: str_br_66_66_6_db_schenker_train_name
+  strings:
+    str_br_66_66_6_freightliner_train_group_name: Class 66 - 66/6
+    str_br_66_66_6_db_schenker_train_name: Class 66 - 66/6 - DB Schenker
+- id: 1608
+  vehicle: br_66
+  profile: '66_6'
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1608_br_66_66_6_gbrf_train.gnml
+  identifier: br_66_66_6_gbrf_train
+  name_string: str_br_66_66_6_gbrf_train_name
+  strings:
+    str_br_66_66_6_freightliner_train_group_name: Class 66 - 66/6
+    str_br_66_66_6_gbrf_train_name: Class 66 - 66/6 - GBRf
+- id: 1609
+  vehicle: br_66
+  profile: '66_6'
+  livery: colas rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1609_br_66_66_6_colas_rail_train.gnml
+  identifier: br_66_66_6_colas_rail_train
+  name_string: str_br_66_66_6_colas_rail_train_name
+  strings:
+    str_br_66_66_6_freightliner_train_group_name: Class 66 - 66/6
+    str_br_66_66_6_colas_rail_train_name: Class 66 - 66/6 - Colas Rail
+- id: 1610
+  vehicle: br_66
+  profile: '66_6'
+  livery: freightliner orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1610_br_66_66_6_freightliner_orange_train.gnml
+  identifier: br_66_66_6_freightliner_orange_train
+  name_string: str_br_66_66_6_freightliner_orange_train_name
+  strings:
+    str_br_66_66_6_freightliner_train_group_name: Class 66 - 66/6
+    str_br_66_66_6_freightliner_orange_train_name: Class 66 - 66/6 - Freightliner
+      Orange
