@@ -1,0 +1,43 @@
+info:
+  identifier: br_87
+  name: 'Class 87'
+  sub_name: Electric mixed-traffic locomotive
+  based_on: British Rail Class 87
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 80
+  length: 8
+  power: 5000
+  speed: 110
+  tractive_effort: 0.3
+  track_type:
+    - ELRL
+  power_type:
+    - electric
+
+# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
+# cargo capacity callback, so cargo: none states the effective behaviour.
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1973-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/87
+
+# cargo_subtype 0 is BR Blue, 1 is InterCity Swallow, and 2 is Virgin.
+liveries:
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'InterCity Swallow'
+    special_tags: [operator/InterCity]
+  - name: 'Virgin'
+    special_tags: [operator/Virgin Trains]
