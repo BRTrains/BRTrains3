@@ -11063,3 +11063,123 @@ variants:
   strings:
     str_br_93_default_drs_train_name: Class 93 - DRS
     str_br_93_default_drs_train_single_livery_name: Class 93 - DRS
+- id: 1420
+  vehicle: br_91
+  profile: default
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1420_br_91_default_intercity_swallow_train.gnml
+  identifier: br_91_default_intercity_swallow_train
+  name_string: str_br_91_default_intercity_swallow_train_name
+  strings:
+    str_br_91_default_intercity_swallow_train_name: Class 91 - InterCity Swallow
+    str_br_91_default_intercity_swallow_train_group_name: Class 91
+- id: 1421
+  vehicle: br_91
+  profile: default
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1421_br_91_default_national_express_train.gnml
+  identifier: br_91_default_national_express_train
+  name_string: str_br_91_default_national_express_train_name
+  strings:
+    str_br_91_default_national_express_train_name: Class 91 - National Express
+    str_br_91_default_national_express_train_group_name: Class 91
+- id: 1422
+  vehicle: br_91
+  profile: default
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1422_br_91_default_gner_train.gnml
+  identifier: br_91_default_gner_train
+  name_string: str_br_91_default_gner_train_name
+  strings:
+    str_br_91_default_gner_train_name: Class 91 - GNER
+    str_br_91_default_gner_train_group_name: Class 91
+- id: 1423
+  vehicle: br_91
+  profile: default
+  livery: east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1423_br_91_default_east_coast_train.gnml
+  identifier: br_91_default_east_coast_train
+  name_string: str_br_91_default_east_coast_train_name
+  strings:
+    str_br_91_default_east_coast_train_name: Class 91 - East Coast
+    str_br_91_default_east_coast_train_group_name: Class 91
+- id: 1424
+  vehicle: br_91
+  profile: default
+  livery: virgin east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1424_br_91_default_virgin_east_coast_train.gnml
+  identifier: br_91_default_virgin_east_coast_train
+  name_string: str_br_91_default_virgin_east_coast_train_name
+  strings:
+    str_br_91_default_virgin_east_coast_train_name: Class 91 - Virgin East Coast
+    str_br_91_default_virgin_east_coast_train_group_name: Class 91
+- id: 1425
+  vehicle: br_91
+  profile: default
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1425_br_91_default_lner_train.gnml
+  identifier: br_91_default_lner_train
+  name_string: str_br_91_default_lner_train_name
+  strings:
+    str_br_91_default_lner_train_name: Class 91 - LNER
+    str_br_91_default_lner_train_group_name: Class 91

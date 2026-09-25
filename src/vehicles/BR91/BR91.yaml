@@ -1,0 +1,60 @@
+info:
+  identifier: br_91
+  name: 'Class 91'
+  sub_name: Electric express passenger locomotive
+  based_on: British Rail Class 91
+
+# The legacy set files the Class 91 three ways: `item_BR91` (108, the locomotive in
+# the fixed 10-car IC225 set), `item_BR91Standalone` (588, the locomotive by itself)
+# and the Mk4 rake items. BRTrains3 already imports the Mk4 coaches and the DVT as
+# the `br_mk4` candidate, so only the standalone locomotive is imported here — the
+# legacy's own `STR_NAME_BR91_Standalone` ("BR Class 91") is the name it gives a
+# locomotive that is not sold as part of the set.
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  # `item_BR91`/`item_BR91Standalone` figures, carried as-is: the legacy gives both the
+  # same locomotive and the same 486 ton weight, which is the IC225 set's weight rather
+  # than the 84 t locomotive alone (the Class 390 / Blue Pullman whole-unit precedent).
+  weight: 486
+  length: 8
+  power: 6480
+  speed: 125
+  design_speed: 140
+  tractive_effort: 0.3
+  track_type:
+    - ELRL
+  power_type:
+    - electric
+
+# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
+# cargo capacity callback, so cargo: none states the effective behaviour.
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1989-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/91
+
+# Ordered by sw_BR91 and sw_BR91_cargo_subtype_text (cargo subtypes 0..5). The
+# source bands are re-stacked in this same order by compose_br91_sheet.py.
+liveries:
+  - name: 'InterCity Swallow'
+    special_tags: [operator/InterCity]
+  - name: 'National Express'
+    special_tags: [operator/National Express]
+  - name: 'GNER'
+    special_tags: [operator/GNER]
+  - name: 'East Coast'
+    special_tags: [operator/East Coast]
+  - name: 'Virgin East Coast'
+    special_tags: [operator/Virgin Trains]
+  - name: 'LNER'
+    special_tags: [operator/LNER]
