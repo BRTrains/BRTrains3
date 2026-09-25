@@ -1,0 +1,95 @@
+info:
+  identifier: br_172_23
+  # One candidate for the two legacy items the set files under one `variant_group:
+  # header_Turbostar` and draws from one sheet (`gfx/DMU/172_2_3.png`): the Class 172/2
+  # (`item_BR172_23_2car` 746) and the Class 172/3 (`item_BR172_23_3car` 747). Both are
+  # "Turbostar" units of the same family and body, so they share one purchase-list entry
+  # exactly as the legacy variant group does, with one profile per formation.
+  name: 'Class 172/2/3 "Turbostar"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 172/2 and 172/3 Turbostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # BRBuild's capacity, power and weight are per-part; the legacy items carry the
+  # whole-consist figures, so each profile below carries its own item's figures.
+  length: 8
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 195
+
+dates:
+  introduction_date: 1998-04-21
+
+profiles:
+  # The legacy item `item_BR172_23_2car` (746): a two-car unit, introduced 2010-04-01 (the
+  # 172/2 is the London Midland batch), 960 hp / 84 t.
+  - identifier: '2car'
+    name: '2-Car'
+    num_vehicles: 2
+    capacity: 50
+    power: 960
+    weight: 84
+    introduction_date: 2010-04-01
+    # The legacy `sw_BR172_23_WestMidlandsRailway`/`_LondonMidland` draw the group's lead
+    # at `position_in_articulated_veh` 0, the middle drawing otherwise, and the group's
+    # tail at `position_in_articulated_veh_from_end` 0. A two-car formation therefore
+    # draws the group's front and rear and never its middle, exactly as the Class 172/1's
+    # two-car does; the group still reserves three rows per livery.
+    sprite_override: [1, 3]
+    special_tags:
+      - formation/2-car
+      - subclass/172_2
+
+  # The legacy item `item_BR172_23_3car` (747): a three-car unit, introduced 1998-04-21
+  # (the 172/3 is the original 1998 order, delivered 2010-2011), 1440 hp / 123 t. Offsets
+  # 1 and 2 are the two articulated parts the legacy `switch_articulated_BR172_23_3car`
+  # adds, so the formation is lead, middle, tail.
+  - identifier: '3car'
+    name: '3-Car'
+    num_vehicles: 3
+    capacity: 50
+    power: 1440
+    weight: 123
+    introduction_date: 1998-04-21
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+      - subclass/172_3
+
+liveries:
+  # Order is the composite's row order (`BRTrains3-artwork-tools/compose_br172_23_sheet.py`),
+  # which is the allocator's own consumption order: profile-outer, livery-inner, reading this
+  # list in order and skipping a livery whose `profiles:` restriction excludes the profile
+  # being iterated. So the 2-car takes West Midlands Railway then London Midland, and the
+  # 3-car then takes West Midlands Railway and London Midland again before its own livery.
+  #
+  # Measured, not assumed: an earlier attempt at this import packed the 3-car's own livery
+  # second (matching the legacy text switch's own order) and produced a sheet whose middle
+  # triplet carried the launch scheme while the 3-car's plain West Midlands Railway variant
+  # read it - a wrong mapping that builds cleanly and passes every count check. Verify with
+  # `verify_br172_23_sheet.py`, which checks both the emitted y values and each band's own
+  # colour signature.
+  #
+  # Each (profile, livery) group needs its own rows: `sprite_group` resolves only within one
+  # candidate and both profiles carry the same livery names, so the 3-car's two shared liveries
+  # are separate copies of the 2-car's rows further down the sheet.
+  #
+  # Names follow the legacy text switch's own labels (`sw_BR172_23_2car_cargo_subtype_text`
+  # / `sw_BR172_23_3car_cargo_subtype_text`): `str_comp_WMR` and `str_LondonMidland`, with
+  # the 3-car's subtype 1 being the West Midlands Railway launch scheme
+  # (`string(STR_LIVERY, str_comp_WMR, str_special_Launch)`).
+  - name: 'West Midlands Railway'
+    special_tags: [operator/West Midlands Railway]
+  - name: 'London Midland'
+    special_tags: [operator/London Midland]
+  - name: 'West Midlands Railway Launch'
+    profiles: ['3car']
+    special_tags: [operator/West Midlands Railway]

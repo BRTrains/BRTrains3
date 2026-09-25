@@ -16183,3 +16183,121 @@ variants:
   name_string: str_br_71_default_br_green_train_name
   strings:
     str_br_71_default_br_green_train_name: Class 71 - BR Green
+- id: 1664
+  vehicle: br_172_23
+  profile: 2car
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1664_br_172_23_2car_west_midlands_railway_train.gnml
+  identifier: br_172_23_2car_west_midlands_railway_train
+  name_string: str_br_172_23_2car_west_midlands_railway_train_name
+  strings:
+    str_br_172_23_2car_west_midlands_railway_train_name: Class 172/2/3 "Turbostar"
+      - 2-Car - West Midlands Railway
+    str_br_172_23_2car_west_midlands_railway_train_group_name: Class 172/2/3 "Turbostar"
+      - 2-Car
+- id: 1665
+  vehicle: br_172_23
+  profile: 2car
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1665_br_172_23_2car_london_midland_train.gnml
+  identifier: br_172_23_2car_london_midland_train
+  name_string: str_br_172_23_2car_london_midland_train_name
+  strings:
+    str_br_172_23_2car_west_midlands_railway_train_group_name: Class 172/2/3 "Turbostar"
+      - 2-Car
+    str_br_172_23_2car_london_midland_train_name: Class 172/2/3 "Turbostar" - 2-Car
+      - London Midland
+- id: 1666
+  vehicle: br_172_23
+  profile: 3car
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1666_br_172_23_3car_west_midlands_railway_train.gnml
+  identifier: br_172_23_3car_west_midlands_railway_train
+  name_string: str_br_172_23_3car_west_midlands_railway_train_name
+  strings:
+    str_br_172_23_3car_west_midlands_railway_train_name: Class 172/2/3 "Turbostar"
+      - 3-Car - West Midlands Railway
+    str_br_172_23_3car_west_midlands_railway_train_group_name: Class 172/2/3 "Turbostar"
+      - 3-Car
+- id: 1667
+  vehicle: br_172_23
+  profile: 3car
+  livery: west midlands railway launch
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1667_br_172_23_3car_west_midlands_railway_launch_train.gnml
+  identifier: br_172_23_3car_west_midlands_railway_launch_train
+  name_string: str_br_172_23_3car_west_midlands_railway_launch_train_name
+  strings:
+    str_br_172_23_3car_west_midlands_railway_train_group_name: Class 172/2/3 "Turbostar"
+      - 3-Car
+    str_br_172_23_3car_west_midlands_railway_launch_train_name: Class 172/2/3 "Turbostar"
+      - 3-Car - West Midlands Railway Launch
+- id: 1668
+  vehicle: br_172_23
+  profile: 3car
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1668_br_172_23_3car_london_midland_train.gnml
+  identifier: br_172_23_3car_london_midland_train
+  name_string: str_br_172_23_3car_london_midland_train_name
+  strings:
+    str_br_172_23_3car_west_midlands_railway_train_group_name: Class 172/2/3 "Turbostar"
+      - 3-Car
+    str_br_172_23_3car_london_midland_train_name: Class 172/2/3 "Turbostar" - 3-Car
+      - London Midland
