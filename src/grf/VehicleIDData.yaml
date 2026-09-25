@@ -6838,3 +6838,165 @@ variants:
   strings:
     str_br_58_default_ews_red_and_gold_train_name: Class 58 "Bone" - EWS Red and Gold
     str_br_58_default_ews_red_and_gold_train_group_name: Class 58 "Bone"
+- id: 1229
+  vehicle: br_121
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 65
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1229_br_121_default_br_green_train.gnml
+  identifier: br_121_default_br_green_train
+  name_string: str_br_121_default_br_green_train_name
+  strings:
+    str_br_121_default_br_green_train_name: Class 121 - BR Green
+    str_br_121_default_br_green_train_group_name: Class 121
+- id: 1230
+  vehicle: br_121
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 65
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1230_br_121_default_br_blue_train.gnml
+  identifier: br_121_default_br_blue_train
+  name_string: str_br_121_default_br_blue_train_name
+  strings:
+    str_br_121_default_br_blue_train_name: Class 121 - BR Blue
+    str_br_121_default_br_blue_train_group_name: Class 121
+- id: 1231
+  vehicle: br_121
+  profile: default
+  livery: railtrack
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 65
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1231_br_121_default_railtrack_train.gnml
+  identifier: br_121_default_railtrack_train
+  name_string: str_br_121_default_railtrack_train_name
+  strings:
+    str_br_121_default_railtrack_train_name: Class 121 - Railtrack
+    str_br_121_default_railtrack_train_group_name: Class 121
+- id: 1232
+  vehicle: br_121
+  profile: default
+  livery: br green (centre car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 65
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1232_br_121_default_br_green__centre_car__train.gnml
+  identifier: br_121_default_br_green__centre_car__train
+  name_string: str_br_121_default_br_green__centre_car__train_name
+  strings:
+    str_br_121_default_br_green__centre_car__train_name: Class 121 - BR Green Centre
+      Car
+    str_br_121_default_br_green__centre_car__train_group_name: Class 121
+- id: 1233
+  vehicle: br_121
+  profile: default
+  livery: br blue (centre car)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 65
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1233_br_121_default_br_blue__centre_car__train.gnml
+  identifier: br_121_default_br_blue__centre_car__train
+  name_string: str_br_121_default_br_blue__centre_car__train_name
+  strings:
+    str_br_121_default_br_blue__centre_car__train_name: Class 121 - BR Blue Centre
+      Car
+    str_br_121_default_br_blue__centre_car__train_group_name: Class 121
+- id: 1234
+  vehicle: br_121
+  profile: default
+  livery: br refurbished
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 65
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1234_br_121_default_br_refurbished_train.gnml
+  identifier: br_121_default_br_refurbished_train
+  name_string: str_br_121_default_br_refurbished_train_name
+  strings:
+    str_br_121_default_br_refurbished_train_name: Class 121 - BR Refurbished
+    str_br_121_default_br_refurbished_train_group_name: Class 121
+- id: 1235
+  vehicle: br_121
+  profile: default
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 65
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1235_br_121_default_br_blue_grey_train.gnml
+  identifier: br_121_default_br_blue_grey_train
+  name_string: str_br_121_default_br_blue_grey_train_name
+  strings:
+    str_br_121_default_br_blue_grey_train_name: Class 121 - BR Blue Grey
+    str_br_121_default_br_blue_grey_train_group_name: Class 121
+- id: 1236
+  vehicle: br_121
+  profile: default
+  livery: silverlink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 65
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1236_br_121_default_silverlink_train.gnml
+  identifier: br_121_default_silverlink_train
+  name_string: str_br_121_default_silverlink_train_name
+  strings:
+    str_br_121_default_silverlink_train_name: Class 121 - Silverlink
+    str_br_121_default_silverlink_train_group_name: Class 121

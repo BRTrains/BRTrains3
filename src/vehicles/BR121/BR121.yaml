@@ -1,0 +1,43 @@
+info:
+  identifier: br_121
+  name: Class 121
+  sub_name: Diesel multiple unit ("Bubble Car")
+  based_on: British Rail Class 121
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 38
+  length: 8
+  power: 300
+  speed: 70
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+dates:
+  introduction_date: 1960-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 65
+    special_tags:
+      - formation/1-car
+
+liveries:
+  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR121, cargo_subtype)` (0..7),
+  # which is also the sheet's physical band order in gfx/BR121.png
+  # (spriteset y = 13, 38, 63, 88, 113, 138, 163, 188 on template_train32px_old).
+  - name: 'BR Green'
+  - name: 'BR Blue'
+  - name: 'Railtrack'
+    special_tags: [operator/Railtrack]
+  - name: 'BR Green (Centre Car)'
+  - name: 'BR Blue (Centre Car)'
+  - name: 'BR Refurbished'
+  - name: 'BR Blue Grey'
+  - name: 'Silverlink'
+    special_tags: [operator/Silverlink]
