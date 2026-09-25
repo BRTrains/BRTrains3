@@ -10621,3 +10621,64 @@ variants:
   strings:
     str_br_82_default_intercity_executive_train_name: Class 82 "AL2" - InterCity Executive
     str_br_82_default_intercity_executive_train_group_name: Class 82 "AL2"
+- id: 1398
+  vehicle: br_89
+  profile: default
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1398_br_89_default_intercity_swallow_train.gnml
+  identifier: br_89_default_intercity_swallow_train
+  name_string: str_br_89_default_intercity_swallow_train_name
+  strings:
+    str_br_89_default_intercity_swallow_train_name: Class 89 "Badger" - InterCity
+      Swallow
+    str_br_89_default_intercity_swallow_train_group_name: Class 89 "Badger"
+- id: 1399
+  vehicle: br_89
+  profile: default
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1399_br_89_default_gner_train.gnml
+  identifier: br_89_default_gner_train
+  name_string: str_br_89_default_gner_train_name
+  strings:
+    str_br_89_default_gner_train_name: Class 89 "Badger" - GNER
+    str_br_89_default_gner_train_group_name: Class 89 "Badger"
+- id: 1400
+  vehicle: br_89
+  profile: default
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1400_br_89_default_intercity_train.gnml
+  identifier: br_89_default_intercity_train
+  name_string: str_br_89_default_intercity_train_name
+  strings:
+    str_br_89_default_intercity_train_name: Class 89 "Badger" - InterCity
+    str_br_89_default_intercity_train_group_name: Class 89 "Badger"

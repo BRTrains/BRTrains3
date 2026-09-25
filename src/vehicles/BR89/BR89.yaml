@@ -1,0 +1,44 @@
+info:
+  identifier: br_89
+  name: 'Class 89 "Badger"'
+  sub_name: Electric express passenger locomotive
+  based_on: British Rail Class 89
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 105
+  length: 8
+  power: 5850
+  speed: 125
+  tractive_effort: 0.3
+  track_type:
+    - ELRL
+  power_type:
+    - electric
+
+# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
+# cargo capacity callback, so cargo: none states the effective behaviour.
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1986-10-02
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/89
+
+# Ordered by sw_BR89 and sw_BR89_cargo_subtype_text. The source rows are re-stacked
+# by compose_br89_sheet.py into this same order.
+liveries:
+  - name: 'InterCity Swallow'
+    special_tags: [operator/InterCity]
+  - name: 'GNER'
+    special_tags: [operator/GNER]
+  - name: 'InterCity'
+    special_tags: [operator/InterCity]
