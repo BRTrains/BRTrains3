@@ -10276,3 +10276,23 @@ variants:
   strings:
     str_br_81_default_br_blue_train_name: Class 81 "AL1" - BR Blue
     str_br_81_default_br_blue_train_single_livery_name: Class 81 "AL1" - BR Blue
+- id: 1381
+  vehicle: br_83
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1381_br_83_default_br_blue_train.gnml
+  identifier: br_83_default_br_blue_train
+  name_string: str_br_83_default_br_blue_train_name
+  strings:
+    str_br_83_default_br_blue_train_name: Class 83 "AL3" - BR Blue
+    str_br_83_default_br_blue_train_single_livery_name: Class 83 "AL3" - BR Blue
