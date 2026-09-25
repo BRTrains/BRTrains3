@@ -7440,3 +7440,167 @@ variants:
     str_br_47_default_br_large_logo__blue_stripe__train_name: Class 47 - BR Large
       Logo Blue Stripe
     str_br_47_default_br_large_logo__blue_stripe__train_group_name: Class 47
+- id: 1257
+  vehicle: br_blue_pullman
+  profile: 6car
+  livery: blue pullman (warning panels)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1257_br_blue_pullman_6car_blue_pullman__warning_panels__train.gnml
+  identifier: br_blue_pullman_6car_blue_pullman__warning_panels__train
+  name_string: str_br_blue_pullman_6car_blue_pullman__warning_panels__train_name
+  strings:
+    str_br_blue_pullman_6car_blue_pullman__warning_panels__train_name: Blue Pullman
+      - 6-Car - Blue Pullman Warning Panels
+    str_br_blue_pullman_6car_blue_pullman__warning_panels__train_group_name: Blue
+      Pullman - 6-Car
+- id: 1258
+  vehicle: br_blue_pullman
+  profile: 6car
+  livery: blue pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1258_br_blue_pullman_6car_blue_pullman_train.gnml
+  identifier: br_blue_pullman_6car_blue_pullman_train
+  name_string: str_br_blue_pullman_6car_blue_pullman_train_name
+  strings:
+    str_br_blue_pullman_6car_blue_pullman_train_name: Blue Pullman - 6-Car - Blue
+      Pullman
+    str_br_blue_pullman_6car_blue_pullman_train_group_name: Blue Pullman - 6-Car
+- id: 1259
+  vehicle: br_blue_pullman
+  profile: 6car
+  livery: br grey and blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1259_br_blue_pullman_6car_br_grey_and_blue_train.gnml
+  identifier: br_blue_pullman_6car_br_grey_and_blue_train
+  name_string: str_br_blue_pullman_6car_br_grey_and_blue_train_name
+  strings:
+    str_br_blue_pullman_6car_br_grey_and_blue_train_name: Blue Pullman - 6-Car - BR
+      Grey and Blue
+    str_br_blue_pullman_6car_br_grey_and_blue_train_group_name: Blue Pullman - 6-Car
+- id: 1260
+  vehicle: br_blue_pullman
+  profile: 8car
+  livery: blue pullman (warning panels)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1260_br_blue_pullman_8car_blue_pullman__warning_panels__train.gnml
+  identifier: br_blue_pullman_8car_blue_pullman__warning_panels__train
+  name_string: str_br_blue_pullman_8car_blue_pullman__warning_panels__train_name
+  strings:
+    str_br_blue_pullman_8car_blue_pullman__warning_panels__train_name: Blue Pullman
+      - 8-Car - Blue Pullman Warning Panels
+    str_br_blue_pullman_8car_blue_pullman__warning_panels__train_group_name: Blue
+      Pullman - 8-Car
+- id: 1261
+  vehicle: br_blue_pullman
+  profile: 8car
+  livery: blue pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1261_br_blue_pullman_8car_blue_pullman_train.gnml
+  identifier: br_blue_pullman_8car_blue_pullman_train
+  name_string: str_br_blue_pullman_8car_blue_pullman_train_name
+  strings:
+    str_br_blue_pullman_8car_blue_pullman_train_name: Blue Pullman - 8-Car - Blue
+      Pullman
+    str_br_blue_pullman_8car_blue_pullman_train_group_name: Blue Pullman - 8-Car
+- id: 1262
+  vehicle: br_blue_pullman
+  profile: 8car
+  livery: br grey and blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1262_br_blue_pullman_8car_br_grey_and_blue_train.gnml
+  identifier: br_blue_pullman_8car_br_grey_and_blue_train
+  name_string: str_br_blue_pullman_8car_br_grey_and_blue_train_name
+  strings:
+    str_br_blue_pullman_8car_br_grey_and_blue_train_name: Blue Pullman - 8-Car - BR
+      Grey and Blue
+    str_br_blue_pullman_8car_br_grey_and_blue_train_group_name: Blue Pullman - 8-Car
