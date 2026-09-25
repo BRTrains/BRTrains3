@@ -9811,3 +9811,49 @@ variants:
       Pacer - Class 143 - Great Western Railway Green
     str_br_pacer_143_great_western_railway_green_train_group_name: Class 140/141/142/143
       Pacer - Class 143
+- id: 1361
+  vehicle: br_172_1
+  profile: '172_1'
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1361_br_172_1_172_1_west_midlands_railway_train.gnml
+  identifier: br_172_1_172_1_west_midlands_railway_train
+  name_string: str_br_172_1_172_1_west_midlands_railway_train_name
+  strings:
+    str_br_172_1_172_1_west_midlands_railway_train_name: Class 172/1 "Turbostar" -
+      2-Car - West Midlands Railway
+    str_br_172_1_172_1_west_midlands_railway_train_group_name: Class 172/1 "Turbostar"
+      - 2-Car
+- id: 1362
+  vehicle: br_172_1
+  profile: '172_1'
+  livery: chiltern blue (blue doors)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1362_br_172_1_172_1_chiltern_blue__blue_doors__train.gnml
+  identifier: br_172_1_172_1_chiltern_blue__blue_doors__train
+  name_string: str_br_172_1_172_1_chiltern_blue__blue_doors__train_name
+  strings:
+    str_br_172_1_172_1_chiltern_blue__blue_doors__train_name: Class 172/1 "Turbostar"
+      - 2-Car - Chiltern Blue Blue Doors
+    str_br_172_1_172_1_chiltern_blue__blue_doors__train_group_name: Class 172/1 "Turbostar"
+      - 2-Car

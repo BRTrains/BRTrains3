@@ -1,0 +1,59 @@
+info:
+  identifier: br_172_1
+  name: 'Class 172/1 "Turbostar"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 172/1 Turbostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # BRBuild's capacity, power and weight are per-part; the legacy item
+  # (`item_BR172_1`, BRTrains2 `src/trains/diesel_mu/Turbostar/172_1.pnml`) carries the
+  # whole-consist figures. See the oddities file for the set-wide per-part question.
+  weight: 84
+  length: 8
+  power: 960
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 195
+
+dates:
+  introduction_date: 2010-04-01
+
+profiles:
+  # One legacy item (`item_BR172_1` 745) and one formation: a two-car unit.
+  - identifier: '172_1'
+    name: '2-Car'
+    num_vehicles: 2
+    capacity: 50
+    speed: 100
+    # The legacy `switch_articulated_BR172_1` adds one articulated part, and its graphics
+    # switch draws the group's lead at `position_in_articulated_veh` 0, the middle drawing
+    # otherwise, and the group's tail at `position_in_articulated_veh_from_end` 0 — i.e.
+    # the same front/middle/rear group the family's three-car units use. A two-car
+    # formation draws the group's front and rear, so its pattern is `[1, 3]`; the group
+    # still reserves the family's three rows per livery (the middle row is the one a two-
+    # car never uses, exactly as the Class 168/0's two-car skips its group's middle).
+    sprite_override: [1, 3]
+    special_tags:
+      - formation/2-car
+
+liveries:
+  # Order is the composite's row order (`BRTrains3-artwork-tools/compose_br172_sheet.py`):
+  # the 172/1's own West Midlands Railway trio, then the Class 168/0's Chiltern Blue
+  # (blue doors) trio. On the sheet each livery therefore contributes three rows -
+  # front, middle, rear - which is what the `sprite_override` above indexes.
+  #
+  # The legacy draws subtype 0 as `sw_BR168_0_ChilternBlue` with the comment *"Use 168/0
+  # sprites for Chiltern blue livery"*; BRBuild resolves `sprite_group` only within one
+  # candidate, so those three bands are copied onto `BR172.png` (see the oddities file).
+  - name: 'West Midlands Railway'
+    special_tags: [operator/West Midlands Railway]
+  - name: 'Chiltern Blue (Blue Doors)'
+    special_tags: [operator/Chiltern Railways]
