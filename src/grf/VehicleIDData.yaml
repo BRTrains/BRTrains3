@@ -67,8 +67,6 @@ variants:
   strings:
     str_br_196_1961_west_midlands_railway_train_name: Class 196 Civity - 4-Car - West
       Midlands Railway
-    str_br_196_1961_west_midlands_railway_train_single_livery_name: Class 196 Civity
-      - 4-Car - West Midlands Railway
 - id: null
   vehicle: br_196
   profile: '1961'
@@ -446,8 +444,6 @@ variants:
   name_string: str_br_195_1950_northern_train_name
   strings:
     str_br_195_1950_northern_train_name: Class 195 Civity - 2-Car - Northern
-    str_br_195_1950_northern_train_single_livery_name: Class 195 Civity - 2-Car -
-      Northern
 - id: 1022
   vehicle: br_195
   profile: '1951'
@@ -469,8 +465,6 @@ variants:
   name_string: str_br_195_1951_northern_train_name
   strings:
     str_br_195_1951_northern_train_name: Class 195 Civity - 3-Car - Northern
-    str_br_195_1951_northern_train_single_livery_name: Class 195 Civity - 3-Car -
-      Northern
 - id: 1023
   vehicle: br_197
   profile: '1970'
@@ -491,8 +485,6 @@ variants:
   name_string: str_br_197_1970_tfw_rail_train_name
   strings:
     str_br_197_1970_tfw_rail_train_name: Class 197 Civity - 2-Car - TfW Rail
-    str_br_197_1970_tfw_rail_train_single_livery_name: Class 197 Civity - 2-Car -
-      TfW Rail
 - id: 1024
   vehicle: br_197
   profile: '1971'
@@ -514,8 +506,6 @@ variants:
   name_string: str_br_197_1971_tfw_rail_train_name
   strings:
     str_br_197_1971_tfw_rail_train_name: Class 197 Civity - 3-Car - TfW Rail
-    str_br_197_1971_tfw_rail_train_single_livery_name: Class 197 Civity - 3-Car -
-      TfW Rail
 - id: null
   vehicle: br_standard_9f
   profile: standard_9f
@@ -1017,8 +1007,6 @@ variants:
   strings:
     str_br_755_7553_greater_anglia_train_name: Class 755 FLIRT - 755/3 4-Car with
       Power Pack - Greater Anglia
-    str_br_755_7553_greater_anglia_train_single_livery_name: Class 755 FLIRT - 755/3
-      4-Car with Power Pack - Greater Anglia
 - id: 1050
   vehicle: br_755
   profile: '7554'
@@ -1043,8 +1031,6 @@ variants:
   strings:
     str_br_755_7554_greater_anglia_train_name: Class 755 FLIRT - 755/4 5-Car with
       Power Pack - Greater Anglia
-    str_br_755_7554_greater_anglia_train_single_livery_name: Class 755 FLIRT - 755/4
-      5-Car with Power Pack - Greater Anglia
 - id: null
   vehicle: br_799
   profile: '7994'
@@ -1478,8 +1464,6 @@ variants:
   strings:
     str_br_kestrel_default_kestrel_black_and_yellow_train_name: Kestrel - Kestrel
       Black and Yellow
-    str_br_kestrel_default_kestrel_black_and_yellow_train_single_livery_name: Kestrel
-      - Kestrel Black and Yellow
 - id: 1010
   vehicle: br_conflat_a
   profile: default
@@ -1499,8 +1483,6 @@ variants:
   name_string: str_br_conflat_a_default_default_train_name
   strings:
     str_br_conflat_a_default_default_train_name: Conflat A Container Wagon
-    str_br_conflat_a_default_default_train_single_livery_name: Conflat A Container
-      Wagon
 - id: null
   vehicle: br_mk3_sleeper
   profile: default
@@ -2531,7 +2513,6 @@ variants:
   name_string: str_br_88_88_drs_train_v2_name
   strings:
     str_br_88_88_drs_train_v2_name: Class 88 - Bi-Mode - DRS
-    str_br_88_88_drs_train_v2_single_livery_name: Class 88 - Bi-Mode - DRS
 - id: 1056
   vehicle: br_799
   profile: '7994'
@@ -2555,8 +2536,6 @@ variants:
   strings:
     str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_name: Class 799
       Hydrogen Prototype - 4-Car - Porterbrook Hydroflex Green and White
-    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_v2_single_livery_name: Class
-      799 Hydrogen Prototype - 4-Car - Porterbrook Hydroflex Green and White
 - id: 1004
   vehicle: lu_1992
   profile: '1992_4'
@@ -2885,8 +2864,6 @@ variants:
   strings:
     str_br_flying_banana_default_network_rail_train_name: Flying Banana - Network
       Rail
-    str_br_flying_banana_default_network_rail_train_single_livery_name: Flying Banana
-      - Network Rail
 - id: 1078
   vehicle: br_76_prototype
   profile: default
@@ -3238,8 +3215,6 @@ variants:
   strings:
     str_lu_2009_2009_8_london_underground_train_name: London Underground 2009 Stock
       - 8-Car - London Underground
-    str_lu_2009_2009_8_london_underground_train_single_livery_name: London Underground
-      2009 Stock - 8-Car - London Underground
 - id: 1061
   vehicle: br_390
   profile: '390_9'
@@ -3542,7 +3517,6 @@ variants:
   name_string: str_br_apt_e_apt_e_4_br_blue_train_name
   strings:
     str_br_apt_e_apt_e_4_br_blue_train_name: APT-E - 4-Car - BR Blue
-    str_br_apt_e_apt_e_4_br_blue_train_single_livery_name: APT-E - 4-Car - BR Blue
 - id: 1095
   vehicle: br_apt_p
   profile: apt_p_14
@@ -3575,8 +3549,6 @@ variants:
   name_string: str_br_apt_p_apt_p_14_intercity_train_name
   strings:
     str_br_apt_p_apt_p_14_intercity_train_name: Class 370 APT-P - 14-Car - InterCity
-    str_br_apt_p_apt_p_14_intercity_train_single_livery_name: Class 370 APT-P - 14-Car
-      - InterCity
 - id: null
   vehicle: br_555
   profile: default
@@ -3636,8 +3608,6 @@ variants:
   strings:
     str_br_555_default_tyne_and_wear_metro_train_v2_name: Class 555 Metro - Tyne and
       Wear Metro
-    str_br_555_default_tyne_and_wear_metro_train_v2_single_livery_name: Class 555
-      Metro - Tyne and Wear Metro
 - id: 1096
   vehicle: br_555
   profile: default
@@ -3662,8 +3632,6 @@ variants:
   strings:
     str_br_555_default_tyne_and_wear_metro_tram_v2_name: Class 555 Metro - Tyne and
       Wear Metro
-    str_br_555_default_tyne_and_wear_metro_tram_v2_single_livery_name: Class 555 Metro
-      - Tyne and Wear Metro
 - id: 1097
   vehicle: br_777
   profile: default
@@ -3686,7 +3654,6 @@ variants:
   name_string: str_br_777_default_merseyrail_train_v2_name
   strings:
     str_br_777_default_merseyrail_train_v2_name: Class 777 METRO - Merseyrail
-    str_br_777_default_merseyrail_train_v2_single_livery_name: Class 777 METRO - Merseyrail
 - id: 1098
   vehicle: br_777
   profile: default
@@ -3709,7 +3676,6 @@ variants:
   name_string: str_br_777_default_merseyrail_tram_name
   strings:
     str_br_777_default_merseyrail_tram_name: Class 777 METRO - Merseyrail
-    str_br_777_default_merseyrail_tram_single_livery_name: Class 777 METRO - Merseyrail
 - id: 1099
   vehicle: br_container
   profile: default
@@ -3729,8 +3695,6 @@ variants:
   name_string: str_br_container_default_default_train_name
   strings:
     str_br_container_default_default_train_name: FEA Container Flat Wagon
-    str_br_container_default_default_train_single_livery_name: FEA Container Flat
-      Wagon
 - id: 1019
   vehicle: br_320
   profile: 320_3_pre2010
@@ -4033,8 +3997,6 @@ variants:
   name_string: str_br_901_9012_network_rail_train_name
   strings:
     str_br_901_9012_network_rail_train_name: Class 901 - 2-Car - Network Rail
-    str_br_901_9012_network_rail_train_single_livery_name: Class 901 - 2-Car - Network
-      Rail
 - id: 1110
   vehicle: br_101
   profile: '1013'
@@ -4244,8 +4206,6 @@ variants:
   strings:
     str_br_378_378_4_london_overground_train_name: Class 378 Capitalstar - 4-Car -
       London Overground
-    str_br_378_378_4_london_overground_train_single_livery_name: Class 378 Capitalstar
-      - 4-Car - London Overground
 - id: 1119
   vehicle: br_387
   profile: '387_4'
@@ -4625,8 +4585,6 @@ variants:
   name_string: str_br_377_377_4_southern_train_name
   strings:
     str_br_377_377_4_southern_train_name: Class 377 Electrostar - 4-Car - Southern
-    str_br_377_377_4_southern_train_single_livery_name: Class 377 Electrostar - 4-Car
-      - Southern
 - id: 1135
   vehicle: br_375
   profile: '375_4'
@@ -4770,8 +4728,6 @@ variants:
   strings:
     str_br_379_379_4_greater_anglia_white_train_name: Class 379 Electrostar - 4-Car
       - Greater Anglia White
-    str_br_379_379_4_greater_anglia_white_train_single_livery_name: Class 379 Electrostar
-      - 4-Car - Greater Anglia White
 - id: 1141
   vehicle: br_378
   profile: '378_3'
@@ -4794,8 +4750,6 @@ variants:
   strings:
     str_br_378_378_3_london_overground_train_name: Class 378 Capitalstar - 3-Car Dual
       Voltage - London Overground
-    str_br_378_378_3_london_overground_train_single_livery_name: Class 378 Capitalstar
-      - 3-Car Dual Voltage - London Overground
 - id: 1142
   vehicle: br_378
   profile: 378_4_dv
@@ -4819,8 +4773,6 @@ variants:
   strings:
     str_br_378_378_4_dv_london_overground_train_name: Class 378 Capitalstar - 4-Car
       Dual Voltage - London Overground
-    str_br_378_378_4_dv_london_overground_train_single_livery_name: Class 378 Capitalstar
-      - 4-Car Dual Voltage - London Overground
 - id: 1143
   vehicle: br_378
   profile: '378_5'
@@ -5046,8 +4998,6 @@ variants:
   name_string: str_br_377_377_3_southern_train_name
   strings:
     str_br_377_377_3_southern_train_name: Class 377 Electrostar - 3-Car - Southern
-    str_br_377_377_3_southern_train_single_livery_name: Class 377 Electrostar - 3-Car
-      - Southern
 - id: 1152
   vehicle: br_377
   profile: '377_5'
@@ -5071,8 +5021,6 @@ variants:
   name_string: str_br_377_377_5_southern_train_name
   strings:
     str_br_377_377_5_southern_train_name: Class 377 Electrostar - 5-Car - Southern
-    str_br_377_377_5_southern_train_single_livery_name: Class 377 Electrostar - 5-Car
-      - Southern
 - id: 1153
   vehicle: br_377
   profile: 377_4_dv
@@ -5172,8 +5120,6 @@ variants:
   strings:
     str_br_377_377_5_dv_southern_train_name: Class 377 Electrostar - 5-Car Dual Voltage
       - Southern
-    str_br_377_377_5_dv_southern_train_single_livery_name: Class 377 Electrostar -
-      5-Car Dual Voltage - Southern
 - id: 1157
   vehicle: br_375
   profile: '375_3'
@@ -5409,8 +5355,6 @@ variants:
   name_string: str_ger_class_c53_default_lner_teak_train_name
   strings:
     str_ger_class_c53_default_lner_teak_train_name: GER Class C53 0-6-0T - LNER Teak
-    str_ger_class_c53_default_lner_teak_train_single_livery_name: GER Class C53 0-6-0T
-      - LNER Teak
 - id: 1168
   vehicle: metropolitan_g_class
   profile: default
@@ -6676,8 +6620,6 @@ variants:
   name_string: str_rm_tpo_default_royal_mail_train_name
   strings:
     str_rm_tpo_default_royal_mail_train_name: Royal Mail TPO - Royal Mail
-    str_rm_tpo_default_royal_mail_train_single_livery_name: Royal Mail TPO - Royal
-      Mail
 - id: 1222
   vehicle: rm_tpo
   profile: pcv
@@ -6697,8 +6639,6 @@ variants:
   name_string: str_rm_tpo_pcv_royal_mail_train_name
   strings:
     str_rm_tpo_pcv_royal_mail_train_name: Royal Mail TPO - PCV - Royal Mail
-    str_rm_tpo_pcv_royal_mail_train_single_livery_name: Royal Mail TPO - PCV - Royal
-      Mail
 - id: 1223
   vehicle: br_58
   profile: default
@@ -8597,8 +8537,6 @@ variants:
   name_string: str_br_222_222_6_lumo_blue_train_name
   strings:
     str_br_222_222_6_lumo_blue_train_name: Class 222 Meridian - 6-Car - Lumo Blue
-    str_br_222_222_6_lumo_blue_train_single_livery_name: Class 222 Meridian - 6-Car
-      - Lumo Blue
 - id: 1309
   vehicle: br_168
   profile: 168_0_2car
@@ -9403,8 +9341,6 @@ variants:
   strings:
     str_br_pacer_140_br_blue_train_name: Class 140/141/142/143 Pacer - Class 140 -
       BR Blue
-    str_br_pacer_140_br_blue_train_single_livery_name: Class 140/141/142/143 Pacer
-      - Class 140 - BR Blue
 - id: 1344
   vehicle: br_pacer
   profile: '141'
@@ -9869,8 +9805,6 @@ variants:
   strings:
     str_br_460_460_8_gatwick_express_train_name: Class 460 "8-GAT" - 8-Car - Gatwick
       Express
-    str_br_460_460_8_gatwick_express_train_single_livery_name: Class 460 "8-GAT" -
-      8-Car - Gatwick Express
 - id: 1364
   vehicle: br_350
   profile: '350_4'
@@ -10038,8 +9972,6 @@ variants:
   strings:
     str_br_730_730_0_3car_west_midlands_railway_train_name: Class 730 "Aventra" -
       3-Car - West Midlands Railway
-    str_br_730_730_0_3car_west_midlands_railway_train_single_livery_name: Class 730
-      "Aventra" - 3-Car - West Midlands Railway
 - id: 1371
   vehicle: br_730
   profile: 730_2_5car
@@ -10064,8 +9996,6 @@ variants:
   strings:
     str_br_730_730_2_5car_london_northwestern_railway_train_name: Class 730 "Aventra"
       - 5-Car - London Northwestern Railway
-    str_br_730_730_2_5car_london_northwestern_railway_train_single_livery_name: Class
-      730 "Aventra" - 5-Car - London Northwestern Railway
 - id: 1372
   vehicle: br_325
   profile: '325_4'
@@ -10256,7 +10186,6 @@ variants:
   name_string: str_br_81_default_br_blue_train_name
   strings:
     str_br_81_default_br_blue_train_name: Class 81 "AL1" - BR Blue
-    str_br_81_default_br_blue_train_single_livery_name: Class 81 "AL1" - BR Blue
 - id: 1381
   vehicle: br_83
   profile: default
@@ -10276,7 +10205,6 @@ variants:
   name_string: str_br_83_default_br_blue_train_name
   strings:
     str_br_83_default_br_blue_train_name: Class 83 "AL3" - BR Blue
-    str_br_83_default_br_blue_train_single_livery_name: Class 83 "AL3" - BR Blue
 - id: 1382
   vehicle: br_84
   profile: default
@@ -10296,7 +10224,6 @@ variants:
   name_string: str_br_84_default_br_blue_train_name
   strings:
     str_br_84_default_br_blue_train_name: Class 84 "AL4" - BR Blue
-    str_br_84_default_br_blue_train_single_livery_name: Class 84 "AL4" - BR Blue
 - id: 1383
   vehicle: br_85
   profile: default
@@ -10682,8 +10609,6 @@ variants:
   name_string: str_br_80_default_br_black_train_name
   strings:
     str_br_80_default_br_black_train_name: Class 80 25kV Prototype - BR Black
-    str_br_80_default_br_black_train_single_livery_name: Class 80 25kV Prototype -
-      BR Black
 - id: 1402
   vehicle: br_87
   profile: default
@@ -11043,7 +10968,6 @@ variants:
   name_string: str_br_93_default_drs_train_name
   strings:
     str_br_93_default_drs_train_name: Class 93 - DRS
-    str_br_93_default_drs_train_single_livery_name: Class 93 - DRS
 - id: 1420
   vehicle: br_91
   profile: default
