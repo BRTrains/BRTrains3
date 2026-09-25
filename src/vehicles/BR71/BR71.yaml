@@ -1,0 +1,38 @@
+info:
+  identifier: br_71
+  name: Class 71
+  sub_name: Electric mixed-traffic locomotive
+  based_on: BR Class 71
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 100
+  length: 8
+  power: 2252
+  speed: 75
+  tractive_effort: 0.31
+  track_type:
+    - THIRD
+  power_type:
+    - electric
+
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1940-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/71
+
+# Ordered by BRTrains2's sw_BR71 cargo_subtype switch: one BR Green drawing.
+liveries:
+  - name: BR Green
+    special_tags:
+      - operator/BR
