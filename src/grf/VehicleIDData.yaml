@@ -8835,3 +8835,246 @@ variants:
       - Chiltern Grey
     str_br_168_168_0_4car_chiltern_grey_train_group_name: Class 168/0 "Clubman" -
       4-Car
+- id: 1318
+  vehicle: br_20
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1318_br_20_default_br_blue_train.gnml
+  identifier: br_20_default_br_blue_train
+  name_string: str_br_20_default_br_blue_train_name
+  strings:
+    str_br_20_default_br_blue_train_name: Class 20 "Chopper" - BR Blue
+    str_br_20_default_br_blue_train_group_name: Class 20 "Chopper"
+- id: 1319
+  vehicle: br_20
+  profile: default
+  livery: br 2 tone grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1319_br_20_default_br_2_tone_grey_train.gnml
+  identifier: br_20_default_br_2_tone_grey_train
+  name_string: str_br_20_default_br_2_tone_grey_train_name
+  strings:
+    str_br_20_default_br_2_tone_grey_train_name: Class 20 "Chopper" - BR 2 Tone Grey
+    str_br_20_default_br_2_tone_grey_train_group_name: Class 20 "Chopper"
+- id: 1320
+  vehicle: br_20
+  profile: default
+  livery: br railfreight grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1320_br_20_default_br_railfreight_grey_train.gnml
+  identifier: br_20_default_br_railfreight_grey_train
+  name_string: str_br_20_default_br_railfreight_grey_train_name
+  strings:
+    str_br_20_default_br_railfreight_grey_train_name: Class 20 "Chopper" - BR Railfreight
+      Grey
+    str_br_20_default_br_railfreight_grey_train_group_name: Class 20 "Chopper"
+- id: 1321
+  vehicle: br_20
+  profile: default
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1321_br_20_default_gbrf_train.gnml
+  identifier: br_20_default_gbrf_train
+  name_string: str_br_20_default_gbrf_train_name
+  strings:
+    str_br_20_default_gbrf_train_name: Class 20 "Chopper" - GBRf
+    str_br_20_default_gbrf_train_group_name: Class 20 "Chopper"
+- id: 1322
+  vehicle: br_20
+  profile: default
+  livery: gbrf 2 tone grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1322_br_20_default_gbrf_2_tone_grey_train.gnml
+  identifier: br_20_default_gbrf_2_tone_grey_train
+  name_string: str_br_20_default_gbrf_2_tone_grey_train_name
+  strings:
+    str_br_20_default_gbrf_2_tone_grey_train_name: Class 20 "Chopper" - GBRf 2 Tone
+      Grey
+    str_br_20_default_gbrf_2_tone_grey_train_group_name: Class 20 "Chopper"
+- id: 1323
+  vehicle: br_20
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1323_br_20_default_ews_red_and_gold_train.gnml
+  identifier: br_20_default_ews_red_and_gold_train
+  name_string: str_br_20_default_ews_red_and_gold_train_name
+  strings:
+    str_br_20_default_ews_red_and_gold_train_name: Class 20 "Chopper" - EWS Red and
+      Gold
+    str_br_20_default_ews_red_and_gold_train_group_name: Class 20 "Chopper"
+- id: 1324
+  vehicle: br_20
+  profile: default
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1324_br_20_default_drs_train.gnml
+  identifier: br_20_default_drs_train
+  name_string: str_br_20_default_drs_train_name
+  strings:
+    str_br_20_default_drs_train_name: Class 20 "Chopper" - DRS
+    str_br_20_default_drs_train_group_name: Class 20 "Chopper"
+- id: 1325
+  vehicle: br_20
+  profile: default
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1325_br_20_default_london_underground_train.gnml
+  identifier: br_20_default_london_underground_train
+  name_string: str_br_20_default_london_underground_train_name
+  strings:
+    str_br_20_default_london_underground_train_name: Class 20 "Chopper" - London Underground
+    str_br_20_default_london_underground_train_group_name: Class 20 "Chopper"
+- id: 1326
+  vehicle: br_20
+  profile: default
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1326_br_20_default_db_schenker_train.gnml
+  identifier: br_20_default_db_schenker_train
+  name_string: str_br_20_default_db_schenker_train_name
+  strings:
+    str_br_20_default_db_schenker_train_name: Class 20 "Chopper" - DB Schenker
+    str_br_20_default_db_schenker_train_group_name: Class 20 "Chopper"
+- id: 1327
+  vehicle: br_20
+  profile: default
+  livery: balfour beatty
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1327_br_20_default_balfour_beatty_train.gnml
+  identifier: br_20_default_balfour_beatty_train
+  name_string: str_br_20_default_balfour_beatty_train_name
+  strings:
+    str_br_20_default_balfour_beatty_train_name: Class 20 "Chopper" - Balfour Beatty
+    str_br_20_default_balfour_beatty_train_group_name: Class 20 "Chopper"
+- id: 1328
+  vehicle: br_20
+  profile: default
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1328_br_20_default_network_rail_train.gnml
+  identifier: br_20_default_network_rail_train
+  name_string: str_br_20_default_network_rail_train_name
+  strings:
+    str_br_20_default_network_rail_train_name: Class 20 "Chopper" - Network Rail
+    str_br_20_default_network_rail_train_group_name: Class 20 "Chopper"
+- id: 1329
+  vehicle: br_20
+  profile: default
+  livery: london transport
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1329_br_20_default_london_transport_train.gnml
+  identifier: br_20_default_london_transport_train
+  name_string: str_br_20_default_london_transport_train_name
+  strings:
+    str_br_20_default_london_transport_train_name: Class 20 "Chopper" - London Transport
+    str_br_20_default_london_transport_train_group_name: Class 20 "Chopper"

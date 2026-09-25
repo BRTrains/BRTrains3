@@ -1,0 +1,68 @@
+info:
+  identifier: br_20
+  name: 'Class 20 "Chopper"'
+  sub_name: Light freight diesel locomotive
+  based_on: British Rail Class 20
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 73
+  length: 5
+  power: 1000
+  speed: 75
+  tractive_effort: 0.256
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1957-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/20
+
+liveries:
+  # Ordered by BRTrains2's `sw_BR20_cargo_subtype_text` `cargo_subtype` order (0..11), which
+  # is the order `sw_BR20_normal` reads its spritesets in. Each livery has one drawing on
+  # gfx/Diesel/20.png at y = 13 + 26k on `template_train20px` (= BRBuild's `tmpl_train_5`),
+  # so compose_br20_sheet.py imports one band per livery.
+  #
+  # The text switch and the graphics switch disagree for subtypes 6, 7 and 8: the text names
+  # 6 London Underground, 7 DB Schenker and 8 DRS, while the spritesets those cases load are
+  # `spriteset_BR20_DRS`, `spriteset_BR20_LondonUnderground` and `spriteset_BR20_DBCargo` -
+  # i.e. DRS's sprite is reached for the subtype whose label is London Underground. The
+  # artworks' own colours agree with the spriteset names (subtype 6's band is the DRS blue
+  # at y=169, subtype 7's the London Underground band at y=195, subtype 8 the red at y=221),
+  # so the labels here follow the text switch's order, which is what the legacy purchase list
+  # showed the player. See /home/jon/BRTrains3-import-oddities.md.
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR 2 Tone Grey'
+    special_tags: [operator/BR]
+  - name: 'BR Railfreight Grey'
+    special_tags: [operator/BR]
+  - name: GBRf
+    special_tags: [operator/GB Railfreight]
+  - name: 'GBRf 2 Tone Grey'
+    special_tags: [operator/GB Railfreight]
+  - name: 'EWS Red and Gold'
+    special_tags: [operator/EWS]
+  - name: DRS
+    special_tags: [operator/DRS]
+  - name: 'London Underground'
+    special_tags: [operator/London Underground]
+  - name: 'DB Schenker'
+    special_tags: [operator/DB Schenker]
+  - name: 'Balfour Beatty'
+    special_tags: [operator/Balfour Beatty]
+  - name: 'Network Rail'
+    special_tags: [operator/Network Rail]
+  - name: 'London Transport'
+    special_tags: [operator/London Transport]
