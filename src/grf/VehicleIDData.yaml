@@ -7604,3 +7604,75 @@ variants:
     str_br_blue_pullman_8car_br_grey_and_blue_train_name: Blue Pullman - 8-Car - BR
       Grey and Blue
     str_br_blue_pullman_8car_br_grey_and_blue_train_group_name: Blue Pullman - 8-Car
+- id: 1263
+  vehicle: br_220
+  profile: '220_4'
+  livery: virgin trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1263_br_220_220_4_virgin_trains_train.gnml
+  identifier: br_220_220_4_virgin_trains_train
+  name_string: str_br_220_220_4_virgin_trains_train_name
+  strings:
+    str_br_220_220_4_virgin_trains_train_name: Class 220 Voyager - 4-Car - Virgin
+      Trains
+    str_br_220_220_4_virgin_trains_train_group_name: Class 220 Voyager - 4-Car
+- id: 1264
+  vehicle: br_220
+  profile: '220_4'
+  livery: crosscountry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1264_br_220_220_4_crosscountry_train.gnml
+  identifier: br_220_220_4_crosscountry_train
+  name_string: str_br_220_220_4_crosscountry_train_name
+  strings:
+    str_br_220_220_4_crosscountry_train_name: Class 220 Voyager - 4-Car - CrossCountry
+    str_br_220_220_4_crosscountry_train_group_name: Class 220 Voyager - 4-Car
+- id: 1265
+  vehicle: br_220
+  profile: '220_4'
+  livery: crosscountry refurbished
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1265_br_220_220_4_crosscountry_refurbished_train.gnml
+  identifier: br_220_220_4_crosscountry_refurbished_train
+  name_string: str_br_220_220_4_crosscountry_refurbished_train_name
+  strings:
+    str_br_220_220_4_crosscountry_refurbished_train_name: Class 220 Voyager - 4-Car
+      - CrossCountry refurbished
+    str_br_220_220_4_crosscountry_refurbished_train_group_name: Class 220 Voyager
+      - 4-Car
