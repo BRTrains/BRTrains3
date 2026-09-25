@@ -6713,3 +6713,128 @@ variants:
     str_rm_tpo_pcv_royal_mail_train_name: Royal Mail TPO - PCV - Royal Mail
     str_rm_tpo_pcv_royal_mail_train_single_livery_name: Royal Mail TPO - PCV - Royal
       Mail
+- id: 1223
+  vehicle: br_58
+  profile: default
+  livery: railfreight 2 tone grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1223_br_58_default_railfreight_2_tone_grey_train.gnml
+  identifier: br_58_default_railfreight_2_tone_grey_train
+  name_string: str_br_58_default_railfreight_2_tone_grey_train_name
+  strings:
+    str_br_58_default_railfreight_2_tone_grey_train_name: Class 58 "Bone" - Railfreight
+      2 Tone Grey
+    str_br_58_default_railfreight_2_tone_grey_train_group_name: Class 58 "Bone"
+- id: 1224
+  vehicle: br_58
+  profile: default
+  livery: railfreight 3 tone grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1224_br_58_default_railfreight_3_tone_grey_train.gnml
+  identifier: br_58_default_railfreight_3_tone_grey_train
+  name_string: str_br_58_default_railfreight_3_tone_grey_train_name
+  strings:
+    str_br_58_default_railfreight_3_tone_grey_train_name: Class 58 "Bone" - Railfreight
+      3 Tone Grey
+    str_br_58_default_railfreight_3_tone_grey_train_group_name: Class 58 "Bone"
+- id: 1225
+  vehicle: br_58
+  profile: default
+  livery: railfreight 3 tone grey coal
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1225_br_58_default_railfreight_3_tone_grey_coal_train.gnml
+  identifier: br_58_default_railfreight_3_tone_grey_coal_train
+  name_string: str_br_58_default_railfreight_3_tone_grey_coal_train_name
+  strings:
+    str_br_58_default_railfreight_3_tone_grey_coal_train_name: Class 58 "Bone" - Railfreight
+      3 Tone Grey Coal
+    str_br_58_default_railfreight_3_tone_grey_coal_train_group_name: Class 58 "Bone"
+- id: 1226
+  vehicle: br_58
+  profile: default
+  livery: railfreight mainline grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1226_br_58_default_railfreight_mainline_grey_train.gnml
+  identifier: br_58_default_railfreight_mainline_grey_train
+  name_string: str_br_58_default_railfreight_mainline_grey_train_name
+  strings:
+    str_br_58_default_railfreight_mainline_grey_train_name: Class 58 "Bone" - Railfreight
+      Mainline Grey
+    str_br_58_default_railfreight_mainline_grey_train_group_name: Class 58 "Bone"
+- id: 1227
+  vehicle: br_58
+  profile: default
+  livery: railfreight mainline blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1227_br_58_default_railfreight_mainline_blue_train.gnml
+  identifier: br_58_default_railfreight_mainline_blue_train
+  name_string: str_br_58_default_railfreight_mainline_blue_train_name
+  strings:
+    str_br_58_default_railfreight_mainline_blue_train_name: Class 58 "Bone" - Railfreight
+      Mainline Blue
+    str_br_58_default_railfreight_mainline_blue_train_group_name: Class 58 "Bone"
+- id: 1228
+  vehicle: br_58
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1228_br_58_default_ews_red_and_gold_train.gnml
+  identifier: br_58_default_ews_red_and_gold_train
+  name_string: str_br_58_default_ews_red_and_gold_train_name
+  strings:
+    str_br_58_default_ews_red_and_gold_train_name: Class 58 "Bone" - EWS Red and Gold
+    str_br_58_default_ews_red_and_gold_train_group_name: Class 58 "Bone"

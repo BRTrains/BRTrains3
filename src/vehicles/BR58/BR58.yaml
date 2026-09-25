@@ -1,0 +1,46 @@
+info:
+  identifier: br_58
+  name: 'Class 58 "Bone"'
+  sub_name: Heavy freight diesel locomotive
+  based_on: British Rail Class 58
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 130
+  length: 8
+  power: 3300
+  speed: 80
+  tractive_effort: 0.205
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1983-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/58
+
+liveries:
+  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR58, cargo_subtype)` (0..5),
+  # which is also the sheet's physical row order in gfx/Diesel/58.png
+  # (spriteset y = 13, 39, 65, 91, 117, 143, each on template_train32px).
+  - name: 'Railfreight 2 Tone Grey'
+    special_tags: [operator/Railfreight]
+  - name: 'Railfreight 3 Tone Grey'
+    special_tags: [operator/Railfreight]
+  - name: 'Railfreight 3 Tone Grey Coal'
+    special_tags: [operator/Railfreight]
+  - name: 'Railfreight Mainline Grey'
+    special_tags: [operator/Mainline Freight]
+  - name: 'Railfreight Mainline Blue'
+    special_tags: [operator/Mainline Freight]
+  - name: 'EWS Red and Gold'
+    special_tags: [operator/EWS]
