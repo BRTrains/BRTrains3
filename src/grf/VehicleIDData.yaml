@@ -14302,3 +14302,64 @@ variants:
   strings:
     str_br_33_1_br_green_train_group_name: Class 33 "Cromptons" - 1
     str_br_33_1_fragonset_train_name: Class 33 "Cromptons" - 1 - Fragonset
+- id: 1574
+  vehicle: br_55
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1574_br_55_default_br_green_train.gnml
+  identifier: br_55_default_br_green_train
+  name_string: str_br_55_default_br_green_train_name
+  strings:
+    str_br_55_default_br_green_train_name: Class 55 "Deltic" - BR Green
+    str_br_55_default_br_green_train_group_name: Class 55 "Deltic"
+- id: 1575
+  vehicle: br_55
+  profile: default
+  livery: br green with yellow front
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1575_br_55_default_br_green_with_yellow_front_train.gnml
+  identifier: br_55_default_br_green_with_yellow_front_train
+  name_string: str_br_55_default_br_green_with_yellow_front_train_name
+  strings:
+    str_br_55_default_br_green_train_group_name: Class 55 "Deltic"
+    str_br_55_default_br_green_with_yellow_front_train_name: Class 55 "Deltic" - BR
+      Green with Yellow Front
+- id: 1576
+  vehicle: br_55
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1576_br_55_default_br_blue_train.gnml
+  identifier: br_55_default_br_blue_train
+  name_string: str_br_55_default_br_blue_train_name
+  strings:
+    str_br_55_default_br_green_train_group_name: Class 55 "Deltic"
+    str_br_55_default_br_blue_train_name: Class 55 "Deltic" - BR Blue

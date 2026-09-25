@@ -1,0 +1,40 @@
+info:
+  identifier: br_55
+  name: 'Class 55 "Deltic"'
+  sub_name: Express passenger diesel locomotive
+  based_on: British Rail Class 55
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 101
+  length: 8
+  power: 3300
+  speed: 100
+  tractive_effort: 0.22
+  power_type:
+    - diesel
+
+cargo: none
+
+dates:
+  introduction_date: 1961-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/55
+
+# Ordered by sw_BR55 cargo_subtype 0..2 and the matching
+# sw_BR55_cargo_subtype_text branches. The compositor re-stacks the
+# declared legacy bands into this order.
+liveries:
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Green with Yellow Front'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
