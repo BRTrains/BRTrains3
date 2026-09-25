@@ -1,0 +1,91 @@
+info:
+  identifier: br_153
+  name: 'Class 153 "Super Sprinter"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 153
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 41
+  length: 8
+  power: 285
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+  # The legacy `item_BR153` (BRTrains2/src/trains/diesel_mu/Sprinter/BR153.pnml, 54)
+  # declares `track_type: RAIL`; the classifier emits the same for a self-powered unit,
+  # so it is left unset here, as on the rest of the Sprinter family.
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1991-04-21
+
+profiles:
+  # One single car: `item_BR153` declares no `articulated_part` callback, so the unit is
+  # a one-car formation and each livery consumes exactly one row of the sheet. No
+  # `sprite_override` is needed.
+  - identifier: DEFAULT
+    num_vehicles: 1
+    # `item_BR153`'s callback is `return(72 * param_pax)` - already per part, with no
+    # division - and its `cargo_capacity: 72` property agrees. One car, so 72 in game.
+    capacity: 72
+    special_tags:
+      - formation/1-car
+      - subclass/153
+
+# Names from BRTrains2's `sw_BR153_cargo_subtype_text` (subtype order 0..21) and
+# `lang/partial/livery_prebuilt_strings.plng`; the legacy `str_BR153_liveries` list is
+# stale (it stops at London Midland) and was not used. Subtype order is also the sheet's
+# physical band order, so the composite packs the rows in this order - see
+# /home/jon/BRTrains3-artwork-tools/compose_br153_sheet.py for the ROWS table.
+liveries:
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'Central Trains'
+    special_tags: [operator/Central Trains]
+  - name: 'East Anglia'
+    special_tags: [operator/Anglia]
+  - name: 'Anglia - Norwich & Norfolk Festival Ad.'
+    special_tags: [operator/Anglia]
+  - name: 'First North Western'
+    special_tags: [operator/First North Western]
+  - name: 'FNW/Arriva Hybrid'
+    special_tags: [operator/First North Western, operator/Arriva Trains Wales]
+  - name: 'Arriva - Blue'
+    special_tags: [operator/Arriva Trains Wales]
+  - name: 'Arriva - Cream'
+    special_tags: [operator/Arriva Trains Wales]
+  - name: 'Arriva - Heart of Wales'
+    special_tags: [operator/Arriva Trains Wales]
+  - name: 'Arriva - Time Are Changing'
+    special_tags: [operator/Arriva Trains Wales]
+  - name: 'Wessex Trains - Heart of Wessex'
+    special_tags: [operator/Wessex Trains]
+  - name: 'Wessex Trains - Cornwall and Devon Ad.'
+    special_tags: [operator/Wessex Trains]
+  - name: 'Wessex Trains - Looe Valley Ad.'
+    special_tags: [operator/Wessex Trains]
+  - name: 'One'
+    special_tags: [operator/One]
+  - name: 'East Midlands Trains'
+    special_tags: [operator/EMT]
+  - name: 'Northern Rail'
+    special_tags: [operator/Northern Rail]
+  - name: 'First Great Western'
+    special_tags: [operator/First Great Western]
+  - name: 'London Midland'
+    special_tags: [operator/London Midland]
+  - name: 'ScotRail Saltire'
+    special_tags: [operator/ScotRail]
+  - name: 'Transport for Wales'
+    special_tags: [operator/Transport for Wales]
+  - name: 'Greater Anglia'
+    special_tags: [operator/Greater Anglia]
+  - name: 'Network Rail'
+    special_tags: [operator/Network Rail]

@@ -11424,3 +11424,469 @@ variants:
   strings:
     str_br_155_default_northern_train_name: Class 155 "Super Sprinter" - Northern
     str_br_155_default_northern_train_group_name: Class 155 "Super Sprinter"
+- id: 1436
+  vehicle: br_153
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1436_br_153_default_regional_railways_train.gnml
+  identifier: br_153_default_regional_railways_train
+  name_string: str_br_153_default_regional_railways_train_name
+  strings:
+    str_br_153_default_regional_railways_train_name: Class 153 "Super Sprinter" -
+      Regional Railways
+    str_br_153_default_regional_railways_train_group_name: Class 153 "Super Sprinter"
+- id: 1437
+  vehicle: br_153
+  profile: default
+  livery: central trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1437_br_153_default_central_trains_train.gnml
+  identifier: br_153_default_central_trains_train
+  name_string: str_br_153_default_central_trains_train_name
+  strings:
+    str_br_153_default_central_trains_train_name: Class 153 "Super Sprinter" - Central
+      Trains
+    str_br_153_default_central_trains_train_group_name: Class 153 "Super Sprinter"
+- id: 1438
+  vehicle: br_153
+  profile: default
+  livery: east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1438_br_153_default_east_anglia_train.gnml
+  identifier: br_153_default_east_anglia_train
+  name_string: str_br_153_default_east_anglia_train_name
+  strings:
+    str_br_153_default_east_anglia_train_name: Class 153 "Super Sprinter" - East Anglia
+    str_br_153_default_east_anglia_train_group_name: Class 153 "Super Sprinter"
+- id: 1439
+  vehicle: br_153
+  profile: default
+  livery: anglia - norwich & norfolk festival ad.
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1439_br_153_default_anglia___norwich___norfolk_festival_ad__train.gnml
+  identifier: br_153_default_anglia___norwich___norfolk_festival_ad__train
+  name_string: str_br_153_default_anglia___norwich___norfolk_festival_ad__train_name
+  strings:
+    str_br_153_default_anglia___norwich___norfolk_festival_ad__train_name: Class 153
+      "Super Sprinter" - Anglia - Norwich & Norfolk Festival Ad.
+    str_br_153_default_anglia___norwich___norfolk_festival_ad__train_group_name: Class
+      153 "Super Sprinter"
+- id: 1440
+  vehicle: br_153
+  profile: default
+  livery: first north western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1440_br_153_default_first_north_western_train.gnml
+  identifier: br_153_default_first_north_western_train
+  name_string: str_br_153_default_first_north_western_train_name
+  strings:
+    str_br_153_default_first_north_western_train_name: Class 153 "Super Sprinter"
+      - First North Western
+    str_br_153_default_first_north_western_train_group_name: Class 153 "Super Sprinter"
+- id: 1441
+  vehicle: br_153
+  profile: default
+  livery: fnw/arriva hybrid
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1441_br_153_default_fnw_arriva_hybrid_train.gnml
+  identifier: br_153_default_fnw_arriva_hybrid_train
+  name_string: str_br_153_default_fnw_arriva_hybrid_train_name
+  strings:
+    str_br_153_default_fnw_arriva_hybrid_train_name: Class 153 "Super Sprinter" -
+      FNW/Arriva Hybrid
+    str_br_153_default_fnw_arriva_hybrid_train_group_name: Class 153 "Super Sprinter"
+- id: 1442
+  vehicle: br_153
+  profile: default
+  livery: arriva - blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1442_br_153_default_arriva___blue_train.gnml
+  identifier: br_153_default_arriva___blue_train
+  name_string: str_br_153_default_arriva___blue_train_name
+  strings:
+    str_br_153_default_arriva___blue_train_name: Class 153 "Super Sprinter" - Arriva
+      - Blue
+    str_br_153_default_arriva___blue_train_group_name: Class 153 "Super Sprinter"
+- id: 1443
+  vehicle: br_153
+  profile: default
+  livery: arriva - cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1443_br_153_default_arriva___cream_train.gnml
+  identifier: br_153_default_arriva___cream_train
+  name_string: str_br_153_default_arriva___cream_train_name
+  strings:
+    str_br_153_default_arriva___cream_train_name: Class 153 "Super Sprinter" - Arriva
+      - Cream
+    str_br_153_default_arriva___cream_train_group_name: Class 153 "Super Sprinter"
+- id: 1444
+  vehicle: br_153
+  profile: default
+  livery: arriva - heart of wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1444_br_153_default_arriva___heart_of_wales_train.gnml
+  identifier: br_153_default_arriva___heart_of_wales_train
+  name_string: str_br_153_default_arriva___heart_of_wales_train_name
+  strings:
+    str_br_153_default_arriva___heart_of_wales_train_name: Class 153 "Super Sprinter"
+      - Arriva - Heart of Wales
+    str_br_153_default_arriva___heart_of_wales_train_group_name: Class 153 "Super
+      Sprinter"
+- id: 1445
+  vehicle: br_153
+  profile: default
+  livery: arriva - time are changing
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1445_br_153_default_arriva___time_are_changing_train.gnml
+  identifier: br_153_default_arriva___time_are_changing_train
+  name_string: str_br_153_default_arriva___time_are_changing_train_name
+  strings:
+    str_br_153_default_arriva___time_are_changing_train_name: Class 153 "Super Sprinter"
+      - Arriva - Time Are Changing
+    str_br_153_default_arriva___time_are_changing_train_group_name: Class 153 "Super
+      Sprinter"
+- id: 1446
+  vehicle: br_153
+  profile: default
+  livery: wessex trains - heart of wessex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1446_br_153_default_wessex_trains___heart_of_wessex_train.gnml
+  identifier: br_153_default_wessex_trains___heart_of_wessex_train
+  name_string: str_br_153_default_wessex_trains___heart_of_wessex_train_name
+  strings:
+    str_br_153_default_wessex_trains___heart_of_wessex_train_name: Class 153 "Super
+      Sprinter" - Wessex Trains - Heart of Wessex
+    str_br_153_default_wessex_trains___heart_of_wessex_train_group_name: Class 153
+      "Super Sprinter"
+- id: 1447
+  vehicle: br_153
+  profile: default
+  livery: wessex trains - cornwall and devon ad.
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1447_br_153_default_wessex_trains___cornwall_and_devon_ad__train.gnml
+  identifier: br_153_default_wessex_trains___cornwall_and_devon_ad__train
+  name_string: str_br_153_default_wessex_trains___cornwall_and_devon_ad__train_name
+  strings:
+    str_br_153_default_wessex_trains___cornwall_and_devon_ad__train_name: Class 153
+      "Super Sprinter" - Wessex Trains - Cornwall and Devon Ad.
+    str_br_153_default_wessex_trains___cornwall_and_devon_ad__train_group_name: Class
+      153 "Super Sprinter"
+- id: 1448
+  vehicle: br_153
+  profile: default
+  livery: wessex trains - looe valley ad.
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1448_br_153_default_wessex_trains___looe_valley_ad__train.gnml
+  identifier: br_153_default_wessex_trains___looe_valley_ad__train
+  name_string: str_br_153_default_wessex_trains___looe_valley_ad__train_name
+  strings:
+    str_br_153_default_wessex_trains___looe_valley_ad__train_name: Class 153 "Super
+      Sprinter" - Wessex Trains - Looe Valley Ad.
+    str_br_153_default_wessex_trains___looe_valley_ad__train_group_name: Class 153
+      "Super Sprinter"
+- id: 1449
+  vehicle: br_153
+  profile: default
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1449_br_153_default_one_train.gnml
+  identifier: br_153_default_one_train
+  name_string: str_br_153_default_one_train_name
+  strings:
+    str_br_153_default_one_train_name: Class 153 "Super Sprinter" - One
+    str_br_153_default_one_train_group_name: Class 153 "Super Sprinter"
+- id: 1450
+  vehicle: br_153
+  profile: default
+  livery: east midlands trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1450_br_153_default_east_midlands_trains_train.gnml
+  identifier: br_153_default_east_midlands_trains_train
+  name_string: str_br_153_default_east_midlands_trains_train_name
+  strings:
+    str_br_153_default_east_midlands_trains_train_name: Class 153 "Super Sprinter"
+      - East Midlands Trains
+    str_br_153_default_east_midlands_trains_train_group_name: Class 153 "Super Sprinter"
+- id: 1451
+  vehicle: br_153
+  profile: default
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1451_br_153_default_northern_rail_train.gnml
+  identifier: br_153_default_northern_rail_train
+  name_string: str_br_153_default_northern_rail_train_name
+  strings:
+    str_br_153_default_northern_rail_train_name: Class 153 "Super Sprinter" - Northern
+      Rail
+    str_br_153_default_northern_rail_train_group_name: Class 153 "Super Sprinter"
+- id: 1452
+  vehicle: br_153
+  profile: default
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1452_br_153_default_first_great_western_train.gnml
+  identifier: br_153_default_first_great_western_train
+  name_string: str_br_153_default_first_great_western_train_name
+  strings:
+    str_br_153_default_first_great_western_train_name: Class 153 "Super Sprinter"
+      - First Great Western
+    str_br_153_default_first_great_western_train_group_name: Class 153 "Super Sprinter"
+- id: 1453
+  vehicle: br_153
+  profile: default
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1453_br_153_default_london_midland_train.gnml
+  identifier: br_153_default_london_midland_train
+  name_string: str_br_153_default_london_midland_train_name
+  strings:
+    str_br_153_default_london_midland_train_name: Class 153 "Super Sprinter" - London
+      Midland
+    str_br_153_default_london_midland_train_group_name: Class 153 "Super Sprinter"
+- id: 1454
+  vehicle: br_153
+  profile: default
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1454_br_153_default_scotrail_saltire_train.gnml
+  identifier: br_153_default_scotrail_saltire_train
+  name_string: str_br_153_default_scotrail_saltire_train_name
+  strings:
+    str_br_153_default_scotrail_saltire_train_name: Class 153 "Super Sprinter" - ScotRail
+      Saltire
+    str_br_153_default_scotrail_saltire_train_group_name: Class 153 "Super Sprinter"
+- id: 1455
+  vehicle: br_153
+  profile: default
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1455_br_153_default_transport_for_wales_train.gnml
+  identifier: br_153_default_transport_for_wales_train
+  name_string: str_br_153_default_transport_for_wales_train_name
+  strings:
+    str_br_153_default_transport_for_wales_train_name: Class 153 "Super Sprinter"
+      - Transport for Wales
+    str_br_153_default_transport_for_wales_train_group_name: Class 153 "Super Sprinter"
+- id: 1456
+  vehicle: br_153
+  profile: default
+  livery: greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1456_br_153_default_greater_anglia_train.gnml
+  identifier: br_153_default_greater_anglia_train
+  name_string: str_br_153_default_greater_anglia_train_name
+  strings:
+    str_br_153_default_greater_anglia_train_name: Class 153 "Super Sprinter" - Greater
+      Anglia
+    str_br_153_default_greater_anglia_train_group_name: Class 153 "Super Sprinter"
+- id: 1457
+  vehicle: br_153
+  profile: default
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1457_br_153_default_network_rail_train.gnml
+  identifier: br_153_default_network_rail_train
+  name_string: str_br_153_default_network_rail_train_name
+  strings:
+    str_br_153_default_network_rail_train_name: Class 153 "Super Sprinter" - Network
+      Rail
+    str_br_153_default_network_rail_train_group_name: Class 153 "Super Sprinter"
