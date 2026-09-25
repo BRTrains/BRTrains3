@@ -12975,3 +12975,103 @@ variants:
   strings:
     str_br_48_default_br_green_train_group_name: Class 48
     str_br_48_default_br_blue_train_name: Class 48 - BR Blue
+- id: 1509
+  vehicle: br_52
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1509_br_52_default_br_blue_train.gnml
+  identifier: br_52_default_br_blue_train
+  name_string: str_br_52_default_br_blue_train_name
+  strings:
+    str_br_52_default_br_blue_train_name: Class 52 "Western" - BR Blue
+    str_br_52_default_br_blue_train_group_name: Class 52 "Western"
+- id: 1510
+  vehicle: br_52
+  profile: default
+  livery: br desert sand
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1510_br_52_default_br_desert_sand_train.gnml
+  identifier: br_52_default_br_desert_sand_train
+  name_string: str_br_52_default_br_desert_sand_train_name
+  strings:
+    str_br_52_default_br_blue_train_group_name: Class 52 "Western"
+    str_br_52_default_br_desert_sand_train_name: Class 52 "Western" - BR Desert Sand
+- id: 1511
+  vehicle: br_52
+  profile: default
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1511_br_52_default_br_maroon_train.gnml
+  identifier: br_52_default_br_maroon_train
+  name_string: str_br_52_default_br_maroon_train_name
+  strings:
+    str_br_52_default_br_blue_train_group_name: Class 52 "Western"
+    str_br_52_default_br_maroon_train_name: Class 52 "Western" - BR Maroon
+- id: 1512
+  vehicle: br_52
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1512_br_52_default_br_green_train.gnml
+  identifier: br_52_default_br_green_train
+  name_string: str_br_52_default_br_green_train_name
+  strings:
+    str_br_52_default_br_blue_train_group_name: Class 52 "Western"
+    str_br_52_default_br_green_train_name: Class 52 "Western" - BR Green
+- id: 1513
+  vehicle: br_52
+  profile: default
+  livery: br golden ochre
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1513_br_52_default_br_golden_ochre_train.gnml
+  identifier: br_52_default_br_golden_ochre_train
+  name_string: str_br_52_default_br_golden_ochre_train_name
+  strings:
+    str_br_52_default_br_blue_train_group_name: Class 52 "Western"
+    str_br_52_default_br_golden_ochre_train_name: Class 52 "Western" - BR Golden Ochre
