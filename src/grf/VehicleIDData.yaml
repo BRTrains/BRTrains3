@@ -19875,3 +19875,47 @@ variants:
   strings:
     str_br_701_701_5_south_western_railway_train_name: Class 701 "Aventra" - 5-Car
       - South Western Railway
+- id: 1828
+  vehicle: br_483
+  profile: default
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1828_br_483_default_london_underground_train.gnml
+  identifier: br_483_default_london_underground_train
+  name_string: str_br_483_default_london_underground_train_name
+  strings:
+    str_br_483_default_london_underground_train_name: Class 483 LU 1938 Stock - London
+      Underground
+    str_br_483_default_london_underground_train_group_name: Class 483 LU 1938 Stock
+- id: 1829
+  vehicle: br_483
+  profile: default
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1829_br_483_default_network_southeast_train.gnml
+  identifier: br_483_default_network_southeast_train
+  name_string: str_br_483_default_network_southeast_train_name
+  strings:
+    str_br_483_default_london_underground_train_group_name: Class 483 LU 1938 Stock
+    str_br_483_default_network_southeast_train_name: Class 483 LU 1938 Stock - Network
+      SouthEast

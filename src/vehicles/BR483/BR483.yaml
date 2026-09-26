@@ -1,0 +1,59 @@
+info:
+  identifier: br_483
+  name: 'Class 483 (LU 1938 Stock)'
+  sub_name: Electric multiple unit
+  based_on: London Underground 1938 Stock
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 45
+  tractive_effort: 0.08
+  power_type:
+    - electric
+  # The legacy root item declares `track_type: THIRD` (the Island Line is third-rail);
+  # its articulated trailer `item_BR483b` declares FOURTH instead, which is the 1938
+  # stock's own LU arrangement rather than the line it ran on. THIRD is used for the
+  # whole candidate; see the import oddities file.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1989-01-01
+
+profiles:
+  # One two-car formation: the legacy root `item_BR483` plus `switch_articulated_BR483`'s
+  # single part 1 (`item_BR483b`), so each livery consumes two rows — the `a` drawing
+  # (leading car) then the `b` drawing (trailing car), as `sw_BR483a`/`sw_BR483b` read them.
+  #
+  # Power and weight are `item_BR483`'s whole-unit figures (2500 hp / 197 t), carried as-is
+  # like the other MU conversions; the legacy vehicles disagree on capacity (the root item
+  # 141, `item_BR483b` 141 — the same value, so every part carries it).
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 141
+    power: 2500
+    weight: 197
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/483
+
+liveries:
+  # Order is the legacy `sw_BR483_cargo_subtype_text` order (0 then 1), which is also the
+  # composite's row order (`/home/jon/BRTrains3-artwork-tools/compose_br483_sheet.py`):
+  # 0 = `spriteset_BR483{a,b}_Island` (y=247/273), 1 = `spriteset_BR483{a,b}_NSE`
+  # (y=169/195). Names are the legacy switch's own text strings `str_LU_TfL` and `str_NSE`;
+  # the y=169/195 bands carry NSE blue and the y=247/273 bands LT red, so the labels match
+  # the artwork. The `_Island` spriteset names against the "London Underground" text string
+  # are recorded as a query in the import oddities file.
+  - name: 'London Underground'
+    special_tags: [operator/London Underground]
+  - name: 'Network SouthEast'
+    special_tags: [operator/Network SouthEast]
