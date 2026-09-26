@@ -20252,3 +20252,205 @@ variants:
   strings:
     str_br_mk1_fk_br_blue_and_grey_train_name: Mk1 Coach - First Corridor - BR Blue
       and Grey
+- id: 1886
+  vehicle: br_319
+  profile: '319_4'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1886_br_319_319_4_network_south_east_train.gnml
+  identifier: br_319_319_4_network_south_east_train
+  name_string: str_br_319_319_4_network_south_east_train_name
+  strings:
+    str_br_319_319_4_network_south_east_train_name: Class 319 - 4-Car - Network South
+      East
+- id: 1887
+  vehicle: br_319
+  profile: '319_4'
+  livery: br thameslink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1887_br_319_319_4_br_thameslink_train.gnml
+  identifier: br_319_319_4_br_thameslink_train
+  name_string: str_br_319_319_4_br_thameslink_train_name
+  strings:
+    str_br_319_319_4_br_thameslink_train_name: Class 319 - 4-Car - BR Thameslink
+- id: 1888
+  vehicle: br_319
+  profile: '319_4'
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1888_br_319_319_4_connex_train.gnml
+  identifier: br_319_319_4_connex_train
+  name_string: str_br_319_319_4_connex_train_name
+  strings:
+    str_br_319_319_4_connex_train_name: Class 319 - 4-Car - Connex
+- id: 1889
+  vehicle: br_319
+  profile: '319_4'
+  livery: first capital connect urban lights
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1889_br_319_319_4_first_capital_connect_urban_lights_train.gnml
+  identifier: br_319_319_4_first_capital_connect_urban_lights_train
+  name_string: str_br_319_319_4_first_capital_connect_urban_lights_train_name
+  strings:
+    str_br_319_319_4_first_capital_connect_urban_lights_train_name: Class 319 - 4-Car
+      - First Capital Connect Urban Lights
+- id: 1890
+  vehicle: br_319
+  profile: '319_4'
+  livery: govia thameslink pink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1890_br_319_319_4_govia_thameslink_pink_train.gnml
+  identifier: br_319_319_4_govia_thameslink_pink_train
+  name_string: str_br_319_319_4_govia_thameslink_pink_train_name
+  strings:
+    str_br_319_319_4_govia_thameslink_pink_train_name: Class 319 - 4-Car - Govia Thameslink
+      Pink
+- id: 1891
+  vehicle: br_319
+  profile: '319_4'
+  livery: govia thameslink blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1891_br_319_319_4_govia_thameslink_blue_train.gnml
+  identifier: br_319_319_4_govia_thameslink_blue_train
+  name_string: str_br_319_319_4_govia_thameslink_blue_train_name
+  strings:
+    str_br_319_319_4_govia_thameslink_blue_train_name: Class 319 - 4-Car - Govia Thameslink
+      Blue
+- id: 1892
+  vehicle: br_319
+  profile: '319_4'
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1892_br_319_319_4_southern_train.gnml
+  identifier: br_319_319_4_southern_train
+  name_string: str_br_319_319_4_southern_train_name
+  strings:
+    str_br_319_319_4_southern_train_name: Class 319 - 4-Car - Southern
+- id: 1893
+  vehicle: br_319
+  profile: '319_4'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1893_br_319_319_4_northern_train.gnml
+  identifier: br_319_319_4_northern_train
+  name_string: str_br_319_319_4_northern_train_name
+  strings:
+    str_br_319_319_4_northern_train_name: Class 319 - 4-Car - Northern
+- id: 1894
+  vehicle: br_319
+  profile: '319_4'
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1894_br_319_319_4_london_midland_train.gnml
+  identifier: br_319_319_4_london_midland_train
+  name_string: str_br_319_319_4_london_midland_train_name
+  strings:
+    str_br_319_319_4_london_midland_train_name: Class 319 - 4-Car - London Midland
