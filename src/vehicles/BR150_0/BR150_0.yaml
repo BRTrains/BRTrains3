@@ -1,0 +1,83 @@
+info:
+  identifier: br_150_0
+  name: 'Class 150/0 "Sprinter"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 150
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 107
+  length: 8
+  power: 858
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+  # The legacy `item_BR150_0` (BRTrains2/src/trains/diesel_mu/Sprinter/BR150_0.pnml, 41)
+  # declares `track_type: RAIL`; the classifier emits the same for a self-powered unit, so
+  # it is left unset here, as on the rest of the Sprinter family.
+
+cargo: passenger
+
+loading_speed: 20
+# No `cargo_age_period`: `item_BR150_0` is the one item of the three 150s that does not
+# declare it (the /1 and /2 both state 185), so nothing was invented for it.
+
+dates:
+  introduction_date: 1984-04-21
+
+profiles:
+  # A three-car unit: `switch_articulated_BR150_0` adds parts 1..2. Each position is
+  # resolved through `position_in_articulated_veh` / `..._from_end`, so position 0 draws
+  # the `front` spriteset on `gfx/BR150_1a.png`, position 1 the `middle` one on
+  # `gfx/BR150_1c.png` and position 2 the `rear` one on `gfx/BR150_1b.png`, each at the
+  # livery's own declared y. Each (profile, livery) group therefore consumes three rows and
+  # `sprite_override: [1, 2, 3]` is the identity pattern over them; the composite packs
+  # each livery's three bands front, middle, rear
+  # (BRTrains3-artwork-tools/compose_br150_0_sheet.py has the ROWS table).
+  - identifier: DEFAULT
+    num_vehicles: 3
+    # `item_BR150_0`'s callback is `return(231 * param_pax / 4)` - a consist total divided
+    # by four - so the per-part figure is 57 (231 // 4) and the in-game three-car total is
+    # 171. The legacy's own `cargo_capacity: 67` property is the placeholder the callback
+    # overrides; the divisor does not match the three parts (the legacy's own arithmetic,
+    # carried as authored - see the oddities entry).
+    capacity: 57
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+      - subclass/150_0
+
+# Names from BRTrains2's `sw_BR150_0_cargo_subtype_text` (subtype order 0..7, the shared
+# livery strings resolved from `lang/partial/livery_prebuilt_strings.plng`); that case order
+# is the YAML livery order the composite packs. The legacy `str_BR150_0_liveries` list is
+# stale - it names six of the eight subtypes and omits both Northern entries - so it was not
+# used.
+#
+# Two pairs of liveries draw the same three bands, as the legacy declares them:
+# `spriteset_BR150_01_front/middle/rear_LondonMidland` and `..._Central` all read y=88, so
+# `London Midland` and `Central Trains` are the same drawing; and
+# `sw_BR150_01_NorthernNonsense` (subtype 7) resolves to `spriteset_BR150_01_front_Northern`
+# / `sw_BR150_01_Northern_sw2` -> `spriteset_BR150_01_middle_Northern` / `..._rear_Northern`,
+# so `Northern with Realistic Centre Cars` draws `Northern`'s rows. The random switch that
+# was meant to give subtype 7 a centre cab car
+# (`sw_BR150_01_Middle_NorthernNonsense`, `BR150_1c.png` y=163) is declared but reached by
+# no switch - the /1's import recorded the same dead branch. See the oddities entry.
+liveries:
+  - name: 'BR Prototype'
+    special_tags: [operator/BR]
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'Centro'
+    special_tags: [operator/Centro]
+  - name: 'London Midland'
+    special_tags: [operator/London Midland]
+  - name: 'First Great Western'
+    special_tags: [operator/First Great Western]
+  - name: 'Central Trains'
+    special_tags: [operator/Central Trains]
+  - name: 'Northern'
+    special_tags: [operator/Northern]
+  - name: 'Northern with Realistic Centre Cars'
+    special_tags: [operator/Northern]

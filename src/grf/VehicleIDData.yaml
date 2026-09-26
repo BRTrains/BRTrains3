@@ -20118,3 +20118,184 @@ variants:
   strings:
     str_br_18100_default_br_black_train_name: BR 18100 Gas Turbine Prototype - BR
       Black
+- id: 1834
+  vehicle: br_150_0
+  profile: default
+  livery: br prototype
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1834_br_150_0_default_br_prototype_train.gnml
+  identifier: br_150_0_default_br_prototype_train
+  name_string: str_br_150_0_default_br_prototype_train_name
+  strings:
+    str_br_150_0_default_br_prototype_train_name: Class 150/0 "Sprinter" - BR Prototype
+    str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
+- id: 1835
+  vehicle: br_150_0
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1835_br_150_0_default_regional_railways_train.gnml
+  identifier: br_150_0_default_regional_railways_train
+  name_string: str_br_150_0_default_regional_railways_train_name
+  strings:
+    str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
+    str_br_150_0_default_regional_railways_train_name: Class 150/0 "Sprinter" - Regional
+      Railways
+- id: 1836
+  vehicle: br_150_0
+  profile: default
+  livery: centro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1836_br_150_0_default_centro_train.gnml
+  identifier: br_150_0_default_centro_train
+  name_string: str_br_150_0_default_centro_train_name
+  strings:
+    str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
+    str_br_150_0_default_centro_train_name: Class 150/0 "Sprinter" - Centro
+- id: 1837
+  vehicle: br_150_0
+  profile: default
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1837_br_150_0_default_london_midland_train.gnml
+  identifier: br_150_0_default_london_midland_train
+  name_string: str_br_150_0_default_london_midland_train_name
+  strings:
+    str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
+    str_br_150_0_default_london_midland_train_name: Class 150/0 "Sprinter" - London
+      Midland
+- id: 1838
+  vehicle: br_150_0
+  profile: default
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1838_br_150_0_default_first_great_western_train.gnml
+  identifier: br_150_0_default_first_great_western_train
+  name_string: str_br_150_0_default_first_great_western_train_name
+  strings:
+    str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
+    str_br_150_0_default_first_great_western_train_name: Class 150/0 "Sprinter" -
+      First Great Western
+- id: 1839
+  vehicle: br_150_0
+  profile: default
+  livery: central trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1839_br_150_0_default_central_trains_train.gnml
+  identifier: br_150_0_default_central_trains_train
+  name_string: str_br_150_0_default_central_trains_train_name
+  strings:
+    str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
+    str_br_150_0_default_central_trains_train_name: Class 150/0 "Sprinter" - Central
+      Trains
+- id: 1840
+  vehicle: br_150_0
+  profile: default
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1840_br_150_0_default_northern_train.gnml
+  identifier: br_150_0_default_northern_train
+  name_string: str_br_150_0_default_northern_train_name
+  strings:
+    str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
+    str_br_150_0_default_northern_train_name: Class 150/0 "Sprinter" - Northern
+- id: 1841
+  vehicle: br_150_0
+  profile: default
+  livery: northern with realistic centre cars
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1841_br_150_0_default_northern_with_realistic_centre_cars_train.gnml
+  identifier: br_150_0_default_northern_with_realistic_centre_cars_train
+  name_string: str_br_150_0_default_northern_with_realistic_centre_cars_train_name
+  strings:
+    str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
+    str_br_150_0_default_northern_with_realistic_centre_cars_train_name: Class 150/0
+      "Sprinter" - Northern with Realistic Centre Cars
