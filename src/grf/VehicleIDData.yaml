@@ -21041,3 +21041,107 @@ variants:
       2-8-2 - p2_streamlined
     str_lner_p2_p2_streamlined_lner_wartime_black_train_name: LNER Gresley Class P2
       2-8-2 - p2_streamlined - LNER Wartime Black
+- id: 1876
+  vehicle: br_mk1
+  profile: fo
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1876_br_mk1_fo_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_fo_br_carmine_and_cream_train
+  name_string: str_br_mk1_fo_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_fo_br_carmine_and_cream_train_name: Mk1 Coach - First Open - BR Carmine
+      and Cream
+    str_br_mk1_fo_br_carmine_and_cream_train_group_name: Mk1 Coach - First Open
+- id: 1877
+  vehicle: br_mk1
+  profile: fo
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1877_br_mk1_fo_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_fo_br_chocolate_and_cream_train
+  name_string: str_br_mk1_fo_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_fo_br_carmine_and_cream_train_group_name: Mk1 Coach - First Open
+    str_br_mk1_fo_br_chocolate_and_cream_train_name: Mk1 Coach - First Open - BR Chocolate
+      and Cream
+- id: 1878
+  vehicle: br_mk1
+  profile: fo
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1878_br_mk1_fo_br_malachite_green_train.gnml
+  identifier: br_mk1_fo_br_malachite_green_train
+  name_string: str_br_mk1_fo_br_malachite_green_train_name
+  strings:
+    str_br_mk1_fo_br_carmine_and_cream_train_group_name: Mk1 Coach - First Open
+    str_br_mk1_fo_br_malachite_green_train_name: Mk1 Coach - First Open - BR Malachite
+      Green
+- id: 1879
+  vehicle: br_mk1
+  profile: fo
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1879_br_mk1_fo_br_maroon_train.gnml
+  identifier: br_mk1_fo_br_maroon_train
+  name_string: str_br_mk1_fo_br_maroon_train_name
+  strings:
+    str_br_mk1_fo_br_carmine_and_cream_train_group_name: Mk1 Coach - First Open
+    str_br_mk1_fo_br_maroon_train_name: Mk1 Coach - First Open - BR Maroon
+- id: 1880
+  vehicle: br_mk1
+  profile: fo
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1880_br_mk1_fo_br_blue_and_grey_train.gnml
+  identifier: br_mk1_fo_br_blue_and_grey_train
+  name_string: str_br_mk1_fo_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_fo_br_carmine_and_cream_train_group_name: Mk1 Coach - First Open
+    str_br_mk1_fo_br_blue_and_grey_train_name: Mk1 Coach - First Open - BR Blue and
+      Grey
