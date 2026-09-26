@@ -1,0 +1,63 @@
+# London Underground 2024 Stock — converted from the legacy `item_LU2024` 595
+# (`BRTrains2/src/trains/metro/LUDeeplevel/LU2024.pnml`, every spriteset and switch in that
+# one file). One candidate, one nine-car formation, one livery.
+model_life: 0
+
+info:
+  identifier: lu_2024
+  # The legacy display name is `STR_NAME_LU2024`, "London Underground 2024 Stock (9-car,
+  # Deep Level)"; the family's own convention (lu_1992 / lu_1995 / lu_1996 / lu_1967) is
+  # the plain stock name with the formation carried by the profile and tags, so the
+  # "(9-car, Deep Level)" suffix is not repeated here. Recorded in the oddities file.
+  name: 'London Underground 2024 Stock'
+  sub_name: Deep-level multiple unit
+  based_on: London Underground 2024 Stock
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  power: 3400
+  speed: 62
+  weight: 197
+  tractive_effort: 0.08
+  power_type:
+    - electric
+  # The legacy root item declares `track_type: FOURTH`, so it is stated rather than left
+  # to the `power_type: electric` default (`ELRL`).
+  track_type:
+    - FOURTH
+
+cargo: passenger
+
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2024-01-01
+
+profiles:
+  # One nine-car formation. `switch_articulated_LU2024` adds eight parts, all referencing
+  # `item_LU2024`, and `sw_LU2024_TfL` reads `position_in_articulated_veh % 9`: 0 draws
+  # `spriteset_LU2024_front_TfL`, 8 draws `spriteset_LU2024_rear_TfL` and the rest draw
+  # `spriteset_LU2024_middle_TfL`. The composite packs the rows in override-value order —
+  # 1 = leading (source y 13), 2 = middle (source y 33), 3 = trailing (source y 52) — so
+  # the pattern is front, seven middles, rear.
+  #
+  # Capacity: the legacy callback `return(1076 * param_pax / 9)` is a whole-consist total
+  # divided by the part count, so the per-part figure is 119 and the consist carries
+  # 9 x 119 = 1071 (the legacy's own integer division loses the remaining 5). See the
+  # oddities file.
+  - identifier: '2024_9'
+    name: 9-Car
+    num_vehicles: 9
+    capacity: 119
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/9-car
+      - subclass/2024_9
+
+liveries:
+  # The legacy's only cargo-subtype (0) and only livery string: `str_LU_TfL`, "(London
+  # Underground)" — the same badge the other LU deep-level units carry.
+  - name: 'London Underground'
+    special_tags: [operator/London Underground]

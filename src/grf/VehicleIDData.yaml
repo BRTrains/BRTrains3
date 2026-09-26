@@ -24271,3 +24271,31 @@ variants:
   strings:
     str_br_mk2_fo_first_scotrail_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First
       Class {BLACK}- {GOLD}First ScotRail'
+- id: 2052
+  vehicle: lu_2024
+  profile: '2024_9'
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 119
+    articulated_count: 9
+    lengths:
+    - 5
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 5
+  archive: generated_variants/2052_lu_2024_2024_9_london_underground_train.gnml
+  identifier: lu_2024_2024_9_london_underground_train
+  name_string: str_lu_2024_2024_9_london_underground_train_name
+  strings:
+    str_lu_2024_2024_9_london_underground_train_name: '{GRAY}London Underground 2024
+      Stock {BLACK}- {GRAY}9-Car {BLACK}- {GOLD}London Underground'
