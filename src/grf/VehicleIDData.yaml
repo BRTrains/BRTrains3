@@ -22818,3 +22818,342 @@ variants:
   strings:
     str_lu_1996_1996_6_london_underground_train_name: London Underground 1996 Stock
       - 6-Car - London Underground
+- id: 2000
+  vehicle: br_315
+  profile: '315_4'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2000_br_315_315_4_br_blue_and_grey_train.gnml
+  identifier: br_315_315_4_br_blue_and_grey_train
+  name_string: str_br_315_315_4_br_blue_and_grey_train_name
+  strings:
+    str_br_315_315_4_br_blue_and_grey_train_name: Class 315 - 4-Car - BR Blue and
+      Grey
+- id: 2001
+  vehicle: br_315
+  profile: '315_4'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2001_br_315_315_4_network_southeast_train.gnml
+  identifier: br_315_315_4_network_southeast_train
+  name_string: str_br_315_315_4_network_southeast_train_name
+  strings:
+    str_br_315_315_4_network_southeast_train_name: Class 315 - 4-Car - Network SouthEast
+- id: 2002
+  vehicle: br_315
+  profile: '315_4'
+  livery: network southeast - alternative scheme
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2002_br_315_315_4_network_southeast___alternative_scheme_train.gnml
+  identifier: br_315_315_4_network_southeast___alternative_scheme_train
+  name_string: str_br_315_315_4_network_southeast___alternative_scheme_train_name
+  strings:
+    str_br_315_315_4_network_southeast___alternative_scheme_train_name: Class 315
+      - 4-Car - Network SouthEast - Alternative Scheme
+- id: 2003
+  vehicle: br_315
+  profile: '315_4'
+  livery: wagn - yellow and green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2003_br_315_315_4_wagn___yellow_and_green_train.gnml
+  identifier: br_315_315_4_wagn___yellow_and_green_train
+  name_string: str_br_315_315_4_wagn___yellow_and_green_train_name
+  strings:
+    str_br_315_315_4_wagn___yellow_and_green_train_name: Class 315 - 4-Car - WAGN
+      - Yellow and Green
+- id: 2004
+  vehicle: br_315
+  profile: '315_4'
+  livery: wagn - promotional livery
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2004_br_315_315_4_wagn___promotional_livery_train.gnml
+  identifier: br_315_315_4_wagn___promotional_livery_train
+  name_string: str_br_315_315_4_wagn___promotional_livery_train_name
+  strings:
+    str_br_315_315_4_wagn___promotional_livery_train_name: Class 315 - 4-Car - WAGN
+      - Promotional Livery
+- id: 2005
+  vehicle: br_315
+  profile: '315_4'
+  livery: wagn - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2005_br_315_315_4_wagn___white_train.gnml
+  identifier: br_315_315_4_wagn___white_train
+  name_string: str_br_315_315_4_wagn___white_train_name
+  strings:
+    str_br_315_315_4_wagn___white_train_name: Class 315 - 4-Car - WAGN - White
+- id: 2006
+  vehicle: br_315
+  profile: '315_4'
+  livery: wagn - purple
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2006_br_315_315_4_wagn___purple_train.gnml
+  identifier: br_315_315_4_wagn___purple_train
+  name_string: str_br_315_315_4_wagn___purple_train_name
+  strings:
+    str_br_315_315_4_wagn___purple_train_name: Class 315 - 4-Car - WAGN - Purple
+- id: 2007
+  vehicle: br_315
+  profile: '315_4'
+  livery: first great eastern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2007_br_315_315_4_first_great_eastern_train.gnml
+  identifier: br_315_315_4_first_great_eastern_train
+  name_string: str_br_315_315_4_first_great_eastern_train_name
+  strings:
+    str_br_315_315_4_first_great_eastern_train_name: Class 315 - 4-Car - First Great
+      Eastern
+- id: 2008
+  vehicle: br_315
+  profile: '315_4'
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2008_br_315_315_4_one_train.gnml
+  identifier: br_315_315_4_one_train
+  name_string: str_br_315_315_4_one_train_name
+  strings:
+    str_br_315_315_4_one_train_name: Class 315 - 4-Car - One
+- id: 2009
+  vehicle: br_315
+  profile: '315_4'
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2009_br_315_315_4_national_express_east_anglia_train.gnml
+  identifier: br_315_315_4_national_express_east_anglia_train
+  name_string: str_br_315_315_4_national_express_east_anglia_train_name
+  strings:
+    str_br_315_315_4_national_express_east_anglia_train_name: Class 315 - 4-Car -
+      National Express East Anglia
+- id: 2010
+  vehicle: br_315
+  profile: '315_4'
+  livery: national express east anglia - alternative lights
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2010_br_315_315_4_national_express_east_anglia___alternative_lights_train.gnml
+  identifier: br_315_315_4_national_express_east_anglia___alternative_lights_train
+  name_string: str_br_315_315_4_national_express_east_anglia___alternative_lights_train_name
+  strings:
+    str_br_315_315_4_national_express_east_anglia___alternative_lights_train_name: Class
+      315 - 4-Car - National Express East Anglia - Alternative Lights
+- id: 2011
+  vehicle: br_315
+  profile: '315_4'
+  livery: abellio greater anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2011_br_315_315_4_abellio_greater_anglia_train.gnml
+  identifier: br_315_315_4_abellio_greater_anglia_train
+  name_string: str_br_315_315_4_abellio_greater_anglia_train_name
+  strings:
+    str_br_315_315_4_abellio_greater_anglia_train_name: Class 315 - 4-Car - Abellio
+      Greater Anglia
+- id: 2012
+  vehicle: br_315
+  profile: '315_4'
+  livery: abellio greater anglia - alternative lights
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2012_br_315_315_4_abellio_greater_anglia___alternative_lights_train.gnml
+  identifier: br_315_315_4_abellio_greater_anglia___alternative_lights_train
+  name_string: str_br_315_315_4_abellio_greater_anglia___alternative_lights_train_name
+  strings:
+    str_br_315_315_4_abellio_greater_anglia___alternative_lights_train_name: Class
+      315 - 4-Car - Abellio Greater Anglia - Alternative Lights
+- id: 2013
+  vehicle: br_315
+  profile: '315_4'
+  livery: tfl rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2013_br_315_315_4_tfl_rail_train.gnml
+  identifier: br_315_315_4_tfl_rail_train
+  name_string: str_br_315_315_4_tfl_rail_train_name
+  strings:
+    str_br_315_315_4_tfl_rail_train_name: Class 315 - 4-Car - TfL Rail
+- id: 2014
+  vehicle: br_315
+  profile: '315_4'
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2014_br_315_315_4_london_overground_train.gnml
+  identifier: br_315_315_4_london_overground_train
+  name_string: str_br_315_315_4_london_overground_train_name
+  strings:
+    str_br_315_315_4_london_overground_train_name: Class 315 - 4-Car - London Overground

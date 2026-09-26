@@ -1,0 +1,108 @@
+info:
+  identifier: br_315
+  # One candidate for the one legacy item the set files as the class (`item_BR315` 27,
+  # "BR Class 315 (4-car)") plus its three articulated parts `item_BR315_b` 28 / `_c` 29 /
+  # `_d` 30. The parts carry `climates_available: NO_CLIMATE` (hidden, not separate purchase
+  # entries), so the whole unit is one candidate with one 4-car profile.
+  name: 'Class 315'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 315
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  speed: 75
+  length: 8
+  # `item_BR315`'s own whole-unit figures, copied as-is like the other MU conversions (the
+  # legacy's articulated parts declare 0 hp / 0 t, so in game the consist reads 4 x 880 hp =
+  # 3,520 hp / 508 t — the set-wide "whole-unit figure on a multi-part item" question already
+  # open on the Class 91/220/302/305 entries).
+  power: 880
+  weight: 127
+  # `item_BR315` declares `tractive_effort_coefficient: 0.05`; BRBuild treats a value below 1
+  # as the coefficient itself.
+  tractive_effort: 0.05
+  power_type:
+    - electric
+  # The legacy declares `track_type: ELRL` on the root item (25 kV overhead AC stock built for
+  # the Great Eastern electrification), so it is stated rather than left to `power_type`.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1980-04-21
+
+profiles:
+  # `switch_articulated_BR315` adds parts at offsets 1..3, returning `item_BR315_c` (offset 1),
+  # `item_BR315_b` (offset 2) and `item_BR315_d` (offset 3), while the root item's `default:` is
+  # `sw_BR315_a`. Positions 0..3 therefore consume the declared a, c, b, d drawings, which is
+  # the pattern [1, 3, 2, 4] against the composite's row order
+  # (`/home/jon/BRTrains3-artwork-tools/compose_br315_sheet.py` packs each livery's rows as
+  # a, c, b, d in exactly that order).
+  #
+  # Capacity: the root item's callback is `return(74 * param_pax)`, already per-part, so 74 is
+  # imported; the legacy's two trailers declare 86 and 84, giving a legacy in-game total of
+  # 318 against BRBuild's 4 x 74 = 296 (one capacity callback attaches to the item every
+  # articulated part references, so a single per-part figure cannot express all three —
+  # recorded in the oddities file).
+  #
+  # No `design_speed`: `BR315.pnml` carries no `param_max_speed` switch, so no figure was
+  # invented and the service speed stands alone.
+  - identifier: '315_4'
+    name: '4-Car'
+    num_vehicles: 4
+    capacity: 74
+    sprite_override: [1, 3, 2, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/315
+
+liveries:
+  # The legacy `sw_315_cargo_subtype_text` cargo_subtype order 0..14, which is also the order
+  # the 60 declared drawing bands sit in (four per livery, a/b/c/d, at y = 13/38/63/88 + 100k).
+  # Names are the legacy's own strings (`str_BRBlueGrey` "(BR - Blue Grey)", `str_NSE`,
+  # `str_NSEAlt`, `str_WAGNYg`, `str_WAGNPro`, `str_WAGNWh`, `str_WAGNPu`, `str_FGE`, `str_ONE`,
+  # `str_NXEA`, `str_NXEAAltLights`, `str_AGA`, `str_AGAAltLights`, `str_TfL`,
+  # `str_LondonOverground`) under the set's naming house style; `str_BR315_liveries` spells the
+  # same list out in prose ("BR Blue/Grey, Network SouthEast, Network SouthEast Alternative
+  # Scheme, WAGN, One, First Great Eastern, National Express East Anglia, Abellio Greater
+  # Anglia, TfL Rail, London Overground").
+  #
+  # The four WAGN variants and the two National Express / Abellio pairs are genuine separate
+  # liveries in the source (four and two distinct drawing blocks), so all fifteen are imported
+  # rather than collapsed.
+  - name: 'BR Blue and Grey'
+    special_tags: [operator/BR]
+  - name: 'Network SouthEast'
+    special_tags: [operator/Network SouthEast]
+  - name: 'Network SouthEast - Alternative Scheme'
+    special_tags: [operator/Network SouthEast]
+  - name: 'WAGN - Yellow and Green'
+    special_tags: [operator/WAGN]
+  - name: 'WAGN - Promotional Livery'
+    special_tags: [operator/WAGN]
+  - name: 'WAGN - White'
+    special_tags: [operator/WAGN]
+  - name: 'WAGN - Purple'
+    special_tags: [operator/WAGN]
+  - name: 'First Great Eastern'
+    special_tags: [operator/First Great Eastern]
+  - name: 'One'
+    special_tags: [operator/One]
+  - name: 'National Express East Anglia'
+    special_tags: [operator/National Express East Anglia]
+  - name: 'National Express East Anglia - Alternative Lights'
+    special_tags: [operator/National Express East Anglia]
+  - name: 'Abellio Greater Anglia'
+    special_tags: [operator/Abellio Greater Anglia]
+  - name: 'Abellio Greater Anglia - Alternative Lights'
+    special_tags: [operator/Abellio Greater Anglia]
+  - name: 'TfL Rail'
+    special_tags: [operator/TfL Rail]
+  - name: 'London Overground'
+    special_tags: [operator/London Overground]
