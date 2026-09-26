@@ -22793,3 +22793,28 @@ variants:
   strings:
     str_lu_1967_1967_8_london_underground_train_name: London Underground 1967 Stock
       - 8-Car - London Underground
+- id: 1999
+  vehicle: lu_1996
+  profile: '1996_6'
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1999_lu_1996_1996_6_london_underground_train.gnml
+  identifier: lu_1996_1996_6_london_underground_train
+  name_string: str_lu_1996_1996_6_london_underground_train_name
+  strings:
+    str_lu_1996_1996_6_london_underground_train_name: London Underground 1996 Stock
+      - 6-Car - London Underground
