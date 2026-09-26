@@ -1,0 +1,78 @@
+info:
+  identifier: br_323
+  # One candidate for the one legacy item the set files as the class (`item_BR323`
+  # 395, "BR Class 323 (3-car)") plus its two articulated parts `item_BR323b` 396 /
+  # `item_BR323c` 397, which carry `climates_available: NO_CLIMATE` (hidden, not
+  # separate purchase entries). The legacy display name says "(3-car)" but both
+  # articulated parts are added and the consist is a 4-car, so the profile is named
+  # 4-Car — recorded in the import oddities file.
+  name: 'Class 323'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 323
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # The root item's whole-consist figures, copied as-is like the Class 91/220/302/305
+  # conversions (the articulated parts declare 0 hp / 0 t).
+  power: 1566
+  weight: 121
+  length: 8
+  speed: 90
+  tractive_effort: 0.06
+  power_type:
+    - electric
+  # The legacy root item declares `track_type: ELRL`; the 323 is 25 kV overhead stock,
+  # so it is stated rather than left to `power_type`.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 30
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1992-04-21
+
+profiles:
+  # One 4-car formation. `switch_articulated_BR323` adds `item_BR323b` at position 1
+  # and `item_BR323c` at position 2, while the root item's `default:` is `sw_BR323a`
+  # — so the consist consumes the declared a (front), b (middlepanto), c (rear)
+  # drawings and the pattern is [1, 2, 2, 3]: front car, two identical panto
+  # intermediates, rear car. The composite packs each livery group in that value
+  # order (row 1 = front, 2 = middlepanto, 3 = rear).
+  #
+  # Capacity: the legacy `cargo_capacity: return(98 * param_pax)` on the root item is
+  # already per-part (the parts say 93 and 98), so 98 is imported; in game 4 x 98 =
+  # 392. See the oddities file.
+  - identifier: '323_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 98
+    sprite_override: [1, 2, 2, 3]
+    special_tags:
+      - formation/4-car
+      - subclass/323
+
+liveries:
+  # The `sw_BR323a`/`_b`/`_c` cargo_subtype order 0..8, named from
+  # `sw_BR323_cargo_subtype_text` and the legacy `str_BR323_liveries`.
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'Centro'
+    special_tags: [operator/Centro]
+  - name: 'First North Western'
+    special_tags: [operator/First North Western]
+  - name: 'First North Western - Barbie'
+    special_tags: [operator/First North Western]
+  - name: 'Northern Rail'
+    special_tags: [operator/Northern Rail]
+  - name: 'London Midland'
+    special_tags: [operator/London Midland]
+  - name: 'Northern'
+    special_tags: [operator/Northern]
+  - name: 'West Midlands Railway'
+    special_tags: [operator/West Midlands Railway]
+  - name: 'West Midlands Railway - PRM Compliant Centro'
+    special_tags: [operator/West Midlands Railway, operator/Centro]

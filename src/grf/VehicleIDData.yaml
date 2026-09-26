@@ -23157,3 +23157,205 @@ variants:
   name_string: str_br_315_315_4_london_overground_train_name
   strings:
     str_br_315_315_4_london_overground_train_name: Class 315 - 4-Car - London Overground
+- id: 2015
+  vehicle: br_323
+  profile: '323_4'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2015_br_323_323_4_regional_railways_train.gnml
+  identifier: br_323_323_4_regional_railways_train
+  name_string: str_br_323_323_4_regional_railways_train_name
+  strings:
+    str_br_323_323_4_regional_railways_train_name: Class 323 - 4-Car - Regional Railways
+- id: 2016
+  vehicle: br_323
+  profile: '323_4'
+  livery: centro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2016_br_323_323_4_centro_train.gnml
+  identifier: br_323_323_4_centro_train
+  name_string: str_br_323_323_4_centro_train_name
+  strings:
+    str_br_323_323_4_centro_train_name: Class 323 - 4-Car - Centro
+- id: 2017
+  vehicle: br_323
+  profile: '323_4'
+  livery: first north western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2017_br_323_323_4_first_north_western_train.gnml
+  identifier: br_323_323_4_first_north_western_train
+  name_string: str_br_323_323_4_first_north_western_train_name
+  strings:
+    str_br_323_323_4_first_north_western_train_name: Class 323 - 4-Car - First North
+      Western
+- id: 2018
+  vehicle: br_323
+  profile: '323_4'
+  livery: first north western - barbie
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2018_br_323_323_4_first_north_western___barbie_train.gnml
+  identifier: br_323_323_4_first_north_western___barbie_train
+  name_string: str_br_323_323_4_first_north_western___barbie_train_name
+  strings:
+    str_br_323_323_4_first_north_western___barbie_train_name: Class 323 - 4-Car -
+      First North Western - Barbie
+- id: 2019
+  vehicle: br_323
+  profile: '323_4'
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2019_br_323_323_4_northern_rail_train.gnml
+  identifier: br_323_323_4_northern_rail_train
+  name_string: str_br_323_323_4_northern_rail_train_name
+  strings:
+    str_br_323_323_4_northern_rail_train_name: Class 323 - 4-Car - Northern Rail
+- id: 2020
+  vehicle: br_323
+  profile: '323_4'
+  livery: london midland
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2020_br_323_323_4_london_midland_train.gnml
+  identifier: br_323_323_4_london_midland_train
+  name_string: str_br_323_323_4_london_midland_train_name
+  strings:
+    str_br_323_323_4_london_midland_train_name: Class 323 - 4-Car - London Midland
+- id: 2021
+  vehicle: br_323
+  profile: '323_4'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2021_br_323_323_4_northern_train.gnml
+  identifier: br_323_323_4_northern_train
+  name_string: str_br_323_323_4_northern_train_name
+  strings:
+    str_br_323_323_4_northern_train_name: Class 323 - 4-Car - Northern
+- id: 2022
+  vehicle: br_323
+  profile: '323_4'
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2022_br_323_323_4_west_midlands_railway_train.gnml
+  identifier: br_323_323_4_west_midlands_railway_train
+  name_string: str_br_323_323_4_west_midlands_railway_train_name
+  strings:
+    str_br_323_323_4_west_midlands_railway_train_name: Class 323 - 4-Car - West Midlands
+      Railway
+- id: 2023
+  vehicle: br_323
+  profile: '323_4'
+  livery: west midlands railway - prm compliant centro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 98
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2023_br_323_323_4_west_midlands_railway___prm_compliant_centro_train.gnml
+  identifier: br_323_323_4_west_midlands_railway___prm_compliant_centro_train
+  name_string: str_br_323_323_4_west_midlands_railway___prm_compliant_centro_train_name
+  strings:
+    str_br_323_323_4_west_midlands_railway___prm_compliant_centro_train_name: Class
+      323 - 4-Car - West Midlands Railway - PRM Compliant Centro
