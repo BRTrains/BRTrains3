@@ -80,6 +80,19 @@ profiles:
       - formation/1-car
       - subclass/mk1_bso
 
+  # The Brake Standard Open Mini-Buffet reads the same y=104 family band as BSK/BSO.
+  # Reuse the BSK rows; the legacy item differs in capacity, weight and introduction date.
+  - identifier: bsot
+    name: 'Brake Standard Open Mini-Buffet'
+    num_vehicles: 1
+    capacity: 31
+    weight: 35
+    introduction_date: 1952-04-21
+    sprite_group: 'bsk'
+    special_tags:
+      - formation/1-car
+      - subclass/mk1_bsot
+
   # The Composite Corridor reads y=78 of the five per-livery family sheets, per
   # `spriteset_BRMk1CK_*` in BRTrains2/src/trains/rolling_stock/BR/Mk1/sprites/Mk1CK.pnml.
   - identifier: ck
