@@ -20454,3 +20454,102 @@ variants:
   name_string: str_br_319_319_4_london_midland_train_name
   strings:
     str_br_319_319_4_london_midland_train_name: Class 319 - 4-Car - London Midland
+- id: 1895
+  vehicle: br_mk1
+  profile: bso
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1895_br_mk1_bso_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bso_br_carmine_and_cream_train
+  name_string: str_br_mk1_bso_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_bso_br_carmine_and_cream_train_name: Mk1 Coach - Brake Standard Open
+      - BR Carmine and Cream
+- id: 1896
+  vehicle: br_mk1
+  profile: bso
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1896_br_mk1_bso_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bso_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bso_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_bso_br_chocolate_and_cream_train_name: Mk1 Coach - Brake Standard Open
+      - BR Chocolate and Cream
+- id: 1897
+  vehicle: br_mk1
+  profile: bso
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1897_br_mk1_bso_br_malachite_green_train.gnml
+  identifier: br_mk1_bso_br_malachite_green_train
+  name_string: str_br_mk1_bso_br_malachite_green_train_name
+  strings:
+    str_br_mk1_bso_br_malachite_green_train_name: Mk1 Coach - Brake Standard Open
+      - BR Malachite Green
+- id: 1898
+  vehicle: br_mk1
+  profile: bso
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1898_br_mk1_bso_br_maroon_train.gnml
+  identifier: br_mk1_bso_br_maroon_train
+  name_string: str_br_mk1_bso_br_maroon_train_name
+  strings:
+    str_br_mk1_bso_br_maroon_train_name: Mk1 Coach - Brake Standard Open - BR Maroon
+- id: 1899
+  vehicle: br_mk1
+  profile: bso
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1899_br_mk1_bso_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bso_br_blue_and_grey_train
+  name_string: str_br_mk1_bso_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_bso_br_blue_and_grey_train_name: Mk1 Coach - Brake Standard Open -
+      BR Blue and Grey
