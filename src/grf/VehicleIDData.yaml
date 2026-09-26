@@ -20299,3 +20299,108 @@ variants:
     str_br_150_0_default_br_prototype_train_group_name: Class 150/0 "Sprinter"
     str_br_150_0_default_northern_with_realistic_centre_cars_train_name: Class 150/0
       "Sprinter" - Northern with Realistic Centre Cars
+- id: 1842
+  vehicle: br_456
+  profile: default
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 79
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1842_br_456_default_network_south_east_train.gnml
+  identifier: br_456_default_network_south_east_train
+  name_string: str_br_456_default_network_south_east_train_name
+  strings:
+    str_br_456_default_network_south_east_train_name: Class 456 - Network South East
+    str_br_456_default_network_south_east_train_group_name: Class 456
+- id: 1843
+  vehicle: br_456
+  profile: default
+  livery: connex south central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 79
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1843_br_456_default_connex_south_central_train.gnml
+  identifier: br_456_default_connex_south_central_train
+  name_string: str_br_456_default_connex_south_central_train_name
+  strings:
+    str_br_456_default_network_south_east_train_group_name: Class 456
+    str_br_456_default_connex_south_central_train_name: Class 456 - Connex South Central
+- id: 1844
+  vehicle: br_456
+  profile: default
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 79
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1844_br_456_default_southern_train.gnml
+  identifier: br_456_default_southern_train
+  name_string: str_br_456_default_southern_train_name
+  strings:
+    str_br_456_default_network_south_east_train_group_name: Class 456
+    str_br_456_default_southern_train_name: Class 456 - Southern
+- id: 1845
+  vehicle: br_456
+  profile: default
+  livery: rosco transitional
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 79
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1845_br_456_default_rosco_transitional_train.gnml
+  identifier: br_456_default_rosco_transitional_train
+  name_string: str_br_456_default_rosco_transitional_train_name
+  strings:
+    str_br_456_default_network_south_east_train_group_name: Class 456
+    str_br_456_default_rosco_transitional_train_name: Class 456 - ROSCO Transitional
+- id: 1846
+  vehicle: br_456
+  profile: default
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 79
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1846_br_456_default_south_west_trains_train.gnml
+  identifier: br_456_default_south_west_trains_train
+  name_string: str_br_456_default_south_west_trains_train_name
+  strings:
+    str_br_456_default_network_south_east_train_group_name: Class 456
+    str_br_456_default_south_west_trains_train_name: Class 456 - South West Trains
