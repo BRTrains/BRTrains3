@@ -20098,3 +20098,23 @@ variants:
   strings:
     str_br_345_345_9_transport_for_london_train_name: Class 345 "Aventra" - 9-Car
       - Transport for London
+- id: 1833
+  vehicle: br_18100
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1833_br_18100_default_br_black_train.gnml
+  identifier: br_18100_default_br_black_train
+  name_string: str_br_18100_default_br_black_train_name
+  strings:
+    str_br_18100_default_br_black_train_name: BR 18100 Gas Turbine Prototype - BR
+      Black
