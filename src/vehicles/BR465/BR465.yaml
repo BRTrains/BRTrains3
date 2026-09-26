@@ -1,0 +1,72 @@
+info:
+  identifier: br_465
+  name: 'Class 465 "Networker"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 465 Networker
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 146
+  length: 8
+  power: 3004
+  speed: 75
+  tractive_effort: 0.08
+  track_type:
+    - THIRD
+  power_type:
+    - electric
+
+cargo: passenger
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1991-04-21
+
+profiles:
+  # The legacy `item_BR465` (BRTrains2/src/trains/electric_mu/BR465.pnml, 284) is the
+  # four-car 465: `switch_articulated_BR465` adds the centre car (`item_BR465b`) at
+  # offsets 1 and 2 and the trailing cab (`item_BR465c`) at 3, so the consist is
+  # cab, centre, centre, cab. The 465 reuses the Class 466's own centre-car drawing,
+  # which is why the pattern is [1, 2, 2, 3] over the composite's a/b/c row order.
+  - identifier: DEFAULT
+    num_vehicles: 4
+    # `item_BR465`'s callback is `return(86 * param_pax)` - a consist total, so the
+    # per-part figure is 86 / 4 = 21 (the same property/callback shape as the rest of
+    # the Sprinter/Networker family; see the oddities entry). `capacity` is per part.
+    capacity: 21
+    sprite_override: [1, 2, 2, 3]
+    special_tags:
+      - formation/4-car
+      - subclass/465
+
+# Names from BRTrains2's `sw_BR465_cargo_subtype_text` (subtype order 0..6) expanded
+# through `lang/partial/livery_prebuilt_strings.plng`: `str_NSE` "Network South East",
+# `str_Connex` "Connex", `str_Southeastern_yellow` "Southeastern - Yellow",
+# `str_Southeastern_yellow_stripe` "Southeastern - Yellow with Stripe",
+# `str_Southeastern_blue` "Southeastern - Blue",
+# `str_Southeastern_blue_stripe` "Southeastern - Blue with Stripe",
+# `str_Continental_Airlines` "Continental Airlines". That subtype order is the YAML
+# livery order and the order the composite packs its row triples in.
+liveries:
+  - name: 'Network South East'
+    special_tags: [operator/Network SouthEast]
+  - name: 'Connex'
+    special_tags: [operator/Connex]
+  - name: 'Southeastern - Yellow'
+    special_tags: [operator/Southeastern]
+  - name: 'Southeastern - Grey'
+    # The legacy's own name for subtype 3 is `str_Southeastern_yellow_stripe`
+    # ("Southeastern - Yellow with Stripe") but the artwork reads as a grey/charcoal
+    # scheme, the "SE Grey" band the compositor imports from y=296/322/348. Named for
+    # what it draws; see the oddities entry.
+    special_tags: [operator/Southeastern]
+  - name: 'Southeastern - Blue'
+    special_tags: [operator/Southeastern]
+  - name: 'Southeastern - Blue with Stripe'
+    special_tags: [operator/Southeastern]
+  - name: 'Continental Airlines'
+    # A 1991 promotional livery on a Southeastern Networker, so the operating
+    # organisation is Southeastern and Continental Airlines is the tribute brand.
+    special_tags: [operator/Southeastern, operator/Continental Airlines]

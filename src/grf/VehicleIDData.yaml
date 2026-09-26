@@ -21663,3 +21663,309 @@ variants:
   strings:
     str_br_458_458_4_south_western_railway___pride_train_name: Class 458 "Juniper"
       - 4-Car - South Western Railway - Pride
+- id: 1949
+  vehicle: br_465
+  profile: default
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1949_br_465_default_network_south_east_train.gnml
+  identifier: br_465_default_network_south_east_train
+  name_string: str_br_465_default_network_south_east_train_name
+  strings:
+    str_br_465_default_network_south_east_train_name: Class 465 "Networker" - Network
+      South East
+- id: 1950
+  vehicle: br_465
+  profile: default
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1950_br_465_default_connex_train.gnml
+  identifier: br_465_default_connex_train
+  name_string: str_br_465_default_connex_train_name
+  strings:
+    str_br_465_default_connex_train_name: Class 465 "Networker" - Connex
+- id: 1951
+  vehicle: br_465
+  profile: default
+  livery: southeastern - yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1951_br_465_default_southeastern___yellow_train.gnml
+  identifier: br_465_default_southeastern___yellow_train
+  name_string: str_br_465_default_southeastern___yellow_train_name
+  strings:
+    str_br_465_default_southeastern___yellow_train_name: Class 465 "Networker" - Southeastern
+      - Yellow
+- id: 1952
+  vehicle: br_465
+  profile: default
+  livery: southeastern - grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1952_br_465_default_southeastern___grey_train.gnml
+  identifier: br_465_default_southeastern___grey_train
+  name_string: str_br_465_default_southeastern___grey_train_name
+  strings:
+    str_br_465_default_southeastern___grey_train_name: Class 465 "Networker" - Southeastern
+      - Grey
+- id: 1953
+  vehicle: br_465
+  profile: default
+  livery: southeastern - blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1953_br_465_default_southeastern___blue_train.gnml
+  identifier: br_465_default_southeastern___blue_train
+  name_string: str_br_465_default_southeastern___blue_train_name
+  strings:
+    str_br_465_default_southeastern___blue_train_name: Class 465 "Networker" - Southeastern
+      - Blue
+- id: 1954
+  vehicle: br_465
+  profile: default
+  livery: southeastern - blue with stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1954_br_465_default_southeastern___blue_with_stripe_train.gnml
+  identifier: br_465_default_southeastern___blue_with_stripe_train
+  name_string: str_br_465_default_southeastern___blue_with_stripe_train_name
+  strings:
+    str_br_465_default_southeastern___blue_with_stripe_train_name: Class 465 "Networker"
+      - Southeastern - Blue with Stripe
+- id: 1955
+  vehicle: br_465
+  profile: default
+  livery: continental airlines
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1955_br_465_default_continental_airlines_train.gnml
+  identifier: br_465_default_continental_airlines_train
+  name_string: str_br_465_default_continental_airlines_train_name
+  strings:
+    str_br_465_default_continental_airlines_train_name: Class 465 "Networker" - Continental
+      Airlines
+- id: 1956
+  vehicle: br_466
+  profile: default
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 41
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1956_br_466_default_network_south_east_train.gnml
+  identifier: br_466_default_network_south_east_train
+  name_string: str_br_466_default_network_south_east_train_name
+  strings:
+    str_br_466_default_network_south_east_train_name: Class 466 "Networker" - Network
+      South East
+- id: 1957
+  vehicle: br_466
+  profile: default
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 41
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1957_br_466_default_connex_train.gnml
+  identifier: br_466_default_connex_train
+  name_string: str_br_466_default_connex_train_name
+  strings:
+    str_br_466_default_connex_train_name: Class 466 "Networker" - Connex
+- id: 1958
+  vehicle: br_466
+  profile: default
+  livery: southeastern - yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 41
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1958_br_466_default_southeastern___yellow_train.gnml
+  identifier: br_466_default_southeastern___yellow_train
+  name_string: str_br_466_default_southeastern___yellow_train_name
+  strings:
+    str_br_466_default_southeastern___yellow_train_name: Class 466 "Networker" - Southeastern
+      - Yellow
+- id: 1959
+  vehicle: br_466
+  profile: default
+  livery: southeastern - grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 41
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1959_br_466_default_southeastern___grey_train.gnml
+  identifier: br_466_default_southeastern___grey_train
+  name_string: str_br_466_default_southeastern___grey_train_name
+  strings:
+    str_br_466_default_southeastern___grey_train_name: Class 466 "Networker" - Southeastern
+      - Grey
+- id: 1960
+  vehicle: br_466
+  profile: default
+  livery: southeastern - blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 41
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1960_br_466_default_southeastern___blue_train.gnml
+  identifier: br_466_default_southeastern___blue_train
+  name_string: str_br_466_default_southeastern___blue_train_name
+  strings:
+    str_br_466_default_southeastern___blue_train_name: Class 466 "Networker" - Southeastern
+      - Blue
+- id: 1961
+  vehicle: br_466
+  profile: default
+  livery: southeastern - blue with stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 41
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1961_br_466_default_southeastern___blue_with_stripe_train.gnml
+  identifier: br_466_default_southeastern___blue_with_stripe_train
+  name_string: str_br_466_default_southeastern___blue_with_stripe_train_name
+  strings:
+    str_br_466_default_southeastern___blue_with_stripe_train_name: Class 466 "Networker"
+      - Southeastern - Blue with Stripe
+- id: 1962
+  vehicle: br_466
+  profile: default
+  livery: continental airlines
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 41
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1962_br_466_default_continental_airlines_train.gnml
+  identifier: br_466_default_continental_airlines_train
+  name_string: str_br_466_default_continental_airlines_train_name
+  strings:
+    str_br_466_default_continental_airlines_train_name: Class 466 "Networker" - Continental
+      Airlines
