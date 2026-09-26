@@ -1,0 +1,70 @@
+info:
+  identifier: br_484
+  name: 'Class 484 (LU D Stock)'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 484
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # The legacy root item (`BRTrains2/src/trains/electric_mu/BR484.pnml`, `item_BR484` 499)
+  # carries the whole-unit power and weight for the two-car formation; its articulated part
+  # (`item_BR484b` 500) declares 0 hp and 0 t. BRBuild has one item per candidate, so the root
+  # item's figures are copied as-is, like the other MU conversions.
+  #
+  # The 1500 hp is the legacy's own figure and looks far too high for a D78-derived unit (the
+  # Class 230, the same Vivarail conversion, carries 800 hp in this set) - recorded as a query
+  # in the import oddities file rather than corrected here.
+  weight: 50
+  length: 8
+  power: 1500
+  # The legacy `property` block declares `speed: 45 mph`, but its `graphics` block overrides the
+  # property with `sw_BR484_speed` on `param_max_speed` (0 -> 72, 1 -> 97). 45 is carried as the
+  # service speed and no `design_speed` is invented: the switch has no 0-guard in the way the
+  # speed-mode parameters elsewhere do, and this set has not converted `param_max_speed`.
+  speed: 45
+  tractive_effort: 0.08
+  power_type:
+    - electric
+  # The legacy declares the power car's track type explicitly (`track_type: THIRD`, the 750 V DC
+  # Island Line); its trailing item declares FOURTH instead, which is the LU D Stock's own
+  # arrangement rather than the line the unit runs on. THIRD is used for the whole candidate, as
+  # on the Class 483 (see the import oddities file).
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2021-01-01
+
+profiles:
+  # One two-car formation: the legacy root `item_BR484` plus `switch_articulated_BR484`'s single
+  # part 1 (`item_BR484b`), so each livery consumes two rows - the `a` drawing (leading car)
+  # then the `b` drawing (trailing car), which is what `sw_BR484a`/`sw_BR484b` select.
+  - identifier: DEFAULT
+    num_vehicles: 2
+    # The legacy callback is `return(141 * param_pax)` with no division, so 141 is already the
+    # per-part figure and its own `cargo_capacity: 141` property agrees; in game the two-car
+    # unit reads 282.
+    capacity: 141
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/484
+
+liveries:
+  # Order is the legacy `sw_BR484_cargo_subtype_text` order (0 then 1), which is also the
+  # composite's row order (`BRTrains3-artwork-tools/compose_br484_sheet.py`): 0 =
+  # `spriteset_BR484{a,b}_Island` (y=75/125), 1 = `spriteset_BR484{a,b}_VivaRail` (y=450/475).
+  # The names are the legacy switch's own text strings `str_SWR` "(South Western Railway)" and
+  # `str_VivaRail` "(VivaRail)"; the bands' pixels are the D-Train grey/blue-grey family, and
+  # whether either band is in fact a Class 230 drawing is recorded as a query in the oddities
+  # file (the same five bands are declared by the Class 230).
+  - name: 'Island Line'
+    special_tags: [operator/South Western Railway]
+  - name: 'VivaRail'
+    special_tags: [operator/West Midlands Trains]

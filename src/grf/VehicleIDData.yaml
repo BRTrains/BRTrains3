@@ -20733,3 +20733,45 @@ variants:
     str_br_mk1_ck_br_carmine_and_cream_train_group_name: Mk1 Coach - Composite Corridor
     str_br_mk1_ck_br_blue_and_grey_train_name: Mk1 Coach - Composite Corridor - BR
       Blue and Grey
+- id: 1862
+  vehicle: br_484
+  profile: default
+  livery: island line
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1862_br_484_default_island_line_train.gnml
+  identifier: br_484_default_island_line_train
+  name_string: str_br_484_default_island_line_train_name
+  strings:
+    str_br_484_default_island_line_train_name: Class 484 LU D Stock - Island Line
+    str_br_484_default_island_line_train_group_name: Class 484 LU D Stock
+- id: 1863
+  vehicle: br_484
+  profile: default
+  livery: vivarail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1863_br_484_default_vivarail_train.gnml
+  identifier: br_484_default_vivarail_train
+  name_string: str_br_484_default_vivarail_train_name
+  strings:
+    str_br_484_default_island_line_train_group_name: Class 484 LU D Stock
+    str_br_484_default_vivarail_train_name: Class 484 LU D Stock - VivaRail
