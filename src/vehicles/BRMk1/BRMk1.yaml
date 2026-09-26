@@ -36,6 +36,21 @@ profiles:
       - formation/1-car
       - subclass/mk1_tso
 
+  # The Restaurant Buffet reads its own band of those same five sheets - y=234 of
+  # `Mk1_<Livery>.png`, per `spriteset_BRMk1RMB_*` in BRTrains2
+  # `src/trains/rolling_stock/BR/Mk1/sprites/Mk1RMB.pnml` - so it keeps a sheet of its own,
+  # `BRMk1RMB.png`, composed by `BRTrains3-artwork-tools/compose_br_mk1_rmb_sheet.py`.
+  - identifier: rmb
+    name: 'Restaurant Buffet'
+    num_vehicles: 1
+    capacity: 44
+    weight: 35
+    introduction_date: 1957-04-21
+    spritesheet: BRMk1RMB.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk1_rmb
+
 liveries:
   # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BRMk1TSO, cargo_subtype)` (0..4),
   # which is also `sw_BRMk1_cargo_subtype_text`'s order and the composite's row order.
