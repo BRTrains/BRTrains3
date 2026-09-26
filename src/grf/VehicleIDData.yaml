@@ -21051,3 +21051,49 @@ variants:
   name_string: str_br_302_default_network_southeast_train_name
   strings:
     str_br_302_default_network_southeast_train_name: Class 302 "AM-2" - Network SouthEast
+- id: 1923
+  vehicle: br_450
+  profile: '450_4'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1923_br_450_450_4_south_west_trains_train.gnml
+  identifier: br_450_450_4_south_west_trains_train
+  name_string: str_br_450_450_4_south_west_trains_train_name
+  strings:
+    str_br_450_450_4_south_west_trains_train_name: Class 450 "Desiro" - 4-Car - South
+      West Trains
+- id: 1924
+  vehicle: br_450
+  profile: '450_4'
+  livery: south western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1924_br_450_450_4_south_western_railway_train.gnml
+  identifier: br_450_450_4_south_western_railway_train
+  name_string: str_br_450_450_4_south_western_railway_train_name
+  strings:
+    str_br_450_450_4_south_western_railway_train_name: Class 450 "Desiro" - 4-Car
+      - South Western Railway
