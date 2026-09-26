@@ -22766,3 +22766,30 @@ variants:
   strings:
     str_br_717_default_govia_great_northern_train_name: Class 717 "Desiro City" -
       Govia Great Northern
+- id: 1998
+  vehicle: lu_1967
+  profile: '1967_8'
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1998_lu_1967_1967_8_london_underground_train.gnml
+  identifier: lu_1967_1967_8_london_underground_train
+  name_string: str_lu_1967_1967_8_london_underground_train_name
+  strings:
+    str_lu_1967_1967_8_london_underground_train_name: London Underground 1967 Stock
+      - 8-Car - London Underground
