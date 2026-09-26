@@ -1,0 +1,74 @@
+info:
+  identifier: br_331
+  # One candidate for the two legacy items the set files under one `variant_group:
+  # header_Civity` and draws from one sheet: `item_br_331_0` 424 ("BR Class 331/0
+  # \"Civity\" (3-Car)") and `item_br_331_1` 425 ("BR Class 331/1 \"Civity\" (4-Car)")
+  # in BRTrains2/src/trains/electric_mu/331-0.pnml and 331-1.pnml — the Class 305/310
+  # precedent: one body, two formation lengths, one profile each.
+  name: 'Class 331 "Civity"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 331 Civity
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_br_331_0`'s own whole-consist figures (the legacy puts the consist's total
+  # power/weight on each item; the 4-car's own figures sit on its profile below).
+  weight: 128
+  length: 8
+  power: 2360
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # Both legacy items declare `track_type: ELRL` (25 kV overhead), so the logical type is
+  # stated rather than left to the `power_type` default.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+
+dates:
+  introduction_date: 2019-07-01
+
+profiles:
+  # A three-car unit. `switch_br_331_0_spriteset` is `position_in_articulated_veh % 3`:
+  # 0 draws `spriteset_br_195_331_front`, 2 draws `spriteset_br_195_331_rear` and
+  # everything else (position 1 only, in a three-car) draws
+  # `spriteset_br_331_middle_panto` — the middle car is the pantograph car, so the
+  # formation reads front, panto, rear and the group's rows are packed in that order
+  # (`sprite_override: [1, 2, 3]`). BRBuild's own default pattern for a three-car OHLE
+  # unit is [1, 3, 2] (front, middle, rear), which would draw a plain middle car in the
+  # panto position, so the override is required rather than cosmetic.
+  - identifier: '331_0'
+    name: '331/0'
+    num_vehicles: 3
+    # `item_br_331_0`'s callback is `return(204/3 * param_pax)`, already the per-part
+    # figure (BRBuild multiplies it by the part count: 3 x 68 = 204 in game).
+    capacity: 68
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+      - subclass/331_0
+
+  # A four-car unit. `switch_br_331_1_spriteset` is `position_in_articulated_veh % 4`:
+  # 0 front, 1 `spriteset_br_331_middle_panto`, 3 rear, otherwise `_middle`, so the
+  # formation reads front, panto, middle, rear and the rows are packed in that order.
+  - identifier: '331_1'
+    name: '331/1'
+    num_vehicles: 4
+    capacity: 71
+    weight: 169
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/331_1
+
+liveries:
+  # Neither item carries a `cargo_subtype` switch, so the class has one livery; the
+  # legacy names it only in its description string, `STR_DSC_BR_331` ("... Liveries:
+  # Northern"), matching the Class 195's own livery name and badge.
+  - name: 'Northern'
+    special_tags: [operator/Northern]

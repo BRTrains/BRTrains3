@@ -21265,3 +21265,46 @@ variants:
   strings:
     str_br_442_442_5_south_western_railway_train_name: Class 442 "Wessex Electric"
       - 5-Car - South Western Railway
+- id: 1932
+  vehicle: br_331
+  profile: '331_0'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1932_br_331_331_0_northern_train.gnml
+  identifier: br_331_331_0_northern_train
+  name_string: str_br_331_331_0_northern_train_name
+  strings:
+    str_br_331_331_0_northern_train_name: Class 331 "Civity" - 331/0 - Northern
+- id: 1933
+  vehicle: br_331
+  profile: '331_1'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1933_br_331_331_1_northern_train.gnml
+  identifier: br_331_331_1_northern_train
+  name_string: str_br_331_331_1_northern_train_name
+  strings:
+    str_br_331_331_1_northern_train_name: Class 331 "Civity" - 331/1 - Northern
