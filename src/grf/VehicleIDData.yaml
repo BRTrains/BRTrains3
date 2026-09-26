@@ -22481,3 +22481,117 @@ variants:
   strings:
     str_br_423_default_south_west_trains___heritage_train_name: Class 423 "4-VEP"
       - South West Trains - Heritage
+- id: 1986
+  vehicle: br_700
+  profile: br_700_12
+  livery: govia thameslink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 83
+    articulated_count: 12
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1986_br_700_br_700_12_govia_thameslink_train.gnml
+  identifier: br_700_br_700_12_govia_thameslink_train
+  name_string: str_br_700_br_700_12_govia_thameslink_train_name
+  strings:
+    str_br_700_br_700_12_govia_thameslink_train_name: Class 700 "Desiro City" - 12-Car
+      - Govia Thameslink
+- id: 1987
+  vehicle: br_700
+  profile: br_700_12
+  livery: govia thameslink pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 83
+    articulated_count: 12
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1987_br_700_br_700_12_govia_thameslink_pride_train.gnml
+  identifier: br_700_br_700_12_govia_thameslink_pride_train
+  name_string: str_br_700_br_700_12_govia_thameslink_pride_train_name
+  strings:
+    str_br_700_br_700_12_govia_thameslink_pride_train_name: Class 700 "Desiro City"
+      - 12-Car - Govia Thameslink Pride
+- id: 1988
+  vehicle: br_700
+  profile: br_700_8
+  livery: govia thameslink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1988_br_700_br_700_8_govia_thameslink_train.gnml
+  identifier: br_700_br_700_8_govia_thameslink_train
+  name_string: str_br_700_br_700_8_govia_thameslink_train_name
+  strings:
+    str_br_700_br_700_8_govia_thameslink_train_name: Class 700 "Desiro City" - 8-Car
+      - Govia Thameslink
+- id: 1989
+  vehicle: br_700
+  profile: br_700_8
+  livery: govia thameslink pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1989_br_700_br_700_8_govia_thameslink_pride_train.gnml
+  identifier: br_700_br_700_8_govia_thameslink_pride_train
+  name_string: str_br_700_br_700_8_govia_thameslink_pride_train_name
+  strings:
+    str_br_700_br_700_8_govia_thameslink_pride_train_name: Class 700 "Desiro City"
+      - 8-Car - Govia Thameslink Pride

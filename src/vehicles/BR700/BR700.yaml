@@ -1,0 +1,88 @@
+info:
+  identifier: br_700
+  name: 'Class 700 "Desiro City"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 700 Desiro City
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  # `item_BR700` / `item_BR700_2` both declare `tractive_effort_coefficient: 0.15`.
+  tractive_effort: 0.15
+  power_type:
+    - electric
+  # Both legacy items declare `track_type: [THIRD, ELRL]` — the dual-voltage Desiro City
+  # sets, so the logical type is stated rather than left to the classifier's `power_type`
+  # default (which would give this unit `ELRL` alone).
+  track_type:
+    - THIRD
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2015-04-21
+
+profiles:
+  # Two legacy items under one `variant_group: header_DesiroCity`, drawing the eight
+  # drawings declared in `src/trains/electric_mu/BR700.pnml`:
+  #   `BR700.pnml` item_BR700    "BR Class 700/0 \"Desiro City\" (8-car)"  sprite 255,
+  #                100 mph / 4425 hp / 306 t, callback `return(56 * param_pax)`
+  #   `BR700.pnml` item_BR700_2  "BR Class 700/1 \"Desiro City\" (12-car)" sprite 256,
+  #                100 mph / 6705 hp / 451 t, callback `return(83 * param_pax)`
+  # The 700/0's own switch reads `extra_callback_info1` 1 -> item_BR700c (middle),
+  # 2..6 -> item_BR700d (middle with pantograph), 7 -> item_BR700b (rear), against its
+  # `default: sw_BR700a` (front) at position 0; the 700/1's is 1 -> c, 2..10 -> d,
+  # 11 -> b. Each group is therefore packed front, middle_panto, middle, rear in
+  # `compose_br700_sheet.py` and the `sprite_override` patterns below are the legacy's
+  # own order (`[1, 2, 4, 3]` and `[1, 2, 4, 4, 4, 4, 4, 4, 4, 4, 3]`).
+  #
+  # The four-car group is owned by the 12-car (its pattern reaches index 4) and the 8-car
+  # reuses it through `sprite_group`, so the sheet carries one row group per livery rather
+  # than one per formation.
+  - identifier: 'br_700_12'
+    name: '12-Car'
+    num_vehicles: 12
+    speed: 100
+    power: 6705
+    weight: 451
+    # `item_BR700_2` carries `cargo_capacity: 83` as a property and the callback
+    # `return(83 * param_pax)` — already per-part, so 996 in game. The three articulated
+    # items state 53 each (`return(53 * param_pax)`), which BRBuild's single-item callback
+    # cannot express per part — a query.
+    capacity: 83
+    sprite_override: [1, 2, 4, 4, 4, 4, 4, 4, 4, 4, 3]
+    special_tags:
+      - formation/12-car
+      - subclass/700_1
+
+  - identifier: 'br_700_8'
+    name: '8-Car'
+    num_vehicles: 8
+    speed: 100
+    power: 4425
+    weight: 306
+    # `item_BR700`'s own callback `return(56 * param_pax)` — already per-part, so 448 in
+    # game where the real unit seats 427. See the oddities entry.
+    capacity: 56
+    sprite_group: 'br_700_12'
+    sprite_override: [1, 2, 4, 4, 4, 4, 4, 3]
+    special_tags:
+      - formation/8-car
+      - subclass/700_0
+
+liveries:
+  # The legacy `sw_BR700_cargo_subtype_text` names two subtypes in this order:
+  #   0 -> str_GTR      "(Govia Thameslink)"
+  #   1 -> str_GTRPride "(Govia Thameslink - Pride)"
+  # The Pride variant paints only the driving cars (its middle/panto rows are pixel-identical
+  # to the GTR ones), which is how the legacy artist drew it — the composite carries both
+  # copies because each livery group consumes its own rows.
+  - name: 'Govia Thameslink'
+    special_tags: [operator/Govia Thameslink]
+  - name: 'Govia Thameslink Pride'
+    special_tags: [operator/Govia Thameslink]
