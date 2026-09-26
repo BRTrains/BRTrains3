@@ -16676,14 +16676,14 @@ variants:
     str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
     str_br_170_3car_central_trains_green_train_name: Class 170 "Turbostar" - 3-Car
       - Central Trains Green
-- id: 1686
+- id: null
   vehicle: br_170
   profile: 3car
   livery: central trains robin hood line
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -16699,14 +16699,14 @@ variants:
     str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
     str_br_170_3car_central_trains_robin_hood_line_train_name: Class 170 "Turbostar"
       - 3-Car - Central Trains Robin Hood Line
-- id: 1687
+- id: null
   vehicle: br_170
   profile: 3car
   livery: south west trains
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -16722,14 +16722,14 @@ variants:
     str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
     str_br_170_3car_south_west_trains_train_name: Class 170 "Turbostar" - 3-Car -
       South West Trains
-- id: 1688
+- id: null
   vehicle: br_170
   profile: 3car
   livery: transpennine express
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -16768,14 +16768,14 @@ variants:
     str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
     str_br_170_3car_east_midlands_railway_maroon_train_name: Class 170 "Turbostar"
       - 3-Car - East Midlands Railway Maroon
-- id: 1690
+- id: null
   vehicle: br_170
   profile: 3car
   livery: east midlands railway pride
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -16929,14 +16929,14 @@ variants:
     str_br_170_3car_midland_mainline_train_group_name: Class 170 "Turbostar" - 3-Car
     str_br_170_3car_west_midlands_railway_train_name: Class 170 "Turbostar" - 3-Car
       - West Midlands Railway
-- id: 1697
+- id: null
   vehicle: br_170
   profile: 3car
   livery: bombardier
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -19919,3 +19919,182 @@ variants:
     str_br_483_default_london_underground_train_group_name: Class 483 LU 1938 Stock
     str_br_483_default_network_southeast_train_name: Class 483 LU 1938 Stock - Network
       SouthEast
+- id: 1686
+  vehicle: br_mk1
+  profile: rmb
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1686_br_mk1_rmb_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_rmb_br_carmine_and_cream_train
+  name_string: str_br_mk1_rmb_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_rmb_br_carmine_and_cream_train_name: Mk1 Coach - Restaurant Buffet
+      - BR Carmine and Cream
+    str_br_mk1_rmb_br_carmine_and_cream_train_group_name: Mk1 Coach - Restaurant Buffet
+- id: 1687
+  vehicle: br_mk1
+  profile: rmb
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1687_br_mk1_rmb_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_rmb_br_chocolate_and_cream_train
+  name_string: str_br_mk1_rmb_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_rmb_br_carmine_and_cream_train_group_name: Mk1 Coach - Restaurant Buffet
+    str_br_mk1_rmb_br_chocolate_and_cream_train_name: Mk1 Coach - Restaurant Buffet
+      - BR Chocolate and Cream
+- id: 1688
+  vehicle: br_mk1
+  profile: rmb
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1688_br_mk1_rmb_br_malachite_green_train.gnml
+  identifier: br_mk1_rmb_br_malachite_green_train
+  name_string: str_br_mk1_rmb_br_malachite_green_train_name
+  strings:
+    str_br_mk1_rmb_br_carmine_and_cream_train_group_name: Mk1 Coach - Restaurant Buffet
+    str_br_mk1_rmb_br_malachite_green_train_name: Mk1 Coach - Restaurant Buffet -
+      BR Malachite Green
+- id: 1690
+  vehicle: br_mk1
+  profile: rmb
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1690_br_mk1_rmb_br_maroon_train.gnml
+  identifier: br_mk1_rmb_br_maroon_train
+  name_string: str_br_mk1_rmb_br_maroon_train_name
+  strings:
+    str_br_mk1_rmb_br_carmine_and_cream_train_group_name: Mk1 Coach - Restaurant Buffet
+    str_br_mk1_rmb_br_maroon_train_name: Mk1 Coach - Restaurant Buffet - BR Maroon
+- id: 1697
+  vehicle: br_mk1
+  profile: rmb
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1697_br_mk1_rmb_br_blue_and_grey_train.gnml
+  identifier: br_mk1_rmb_br_blue_and_grey_train
+  name_string: str_br_mk1_rmb_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_rmb_br_carmine_and_cream_train_group_name: Mk1 Coach - Restaurant Buffet
+    str_br_mk1_rmb_br_blue_and_grey_train_name: Mk1 Coach - Restaurant Buffet - BR
+      Blue and Grey
+- id: 1830
+  vehicle: br_170
+  profile: 2car
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1830_br_170_2car_southern_train.gnml
+  identifier: br_170_2car_southern_train
+  name_string: str_br_170_2car_southern_train_name
+  strings:
+    str_br_170_2car_midland_mainline_train_group_name: Class 170 "Turbostar" - 2-Car
+    str_br_170_2car_southern_train_name: Class 170 "Turbostar" - 2-Car - Southern
+- id: 1831
+  vehicle: br_345
+  profile: '345_7'
+  livery: transport for london
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 165
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1831_br_345_345_7_transport_for_london_train.gnml
+  identifier: br_345_345_7_transport_for_london_train
+  name_string: str_br_345_345_7_transport_for_london_train_name
+  strings:
+    str_br_345_345_7_transport_for_london_train_name: Class 345 "Aventra" - 7-Car
+      - Transport for London
+- id: 1832
+  vehicle: br_345
+  profile: '345_9'
+  livery: transport for london
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 166
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1832_br_345_345_9_transport_for_london_train.gnml
+  identifier: br_345_345_9_transport_for_london_train
+  name_string: str_br_345_345_9_transport_for_london_train_name
+  strings:
+    str_br_345_345_9_transport_for_london_train_name: Class 345 "Aventra" - 9-Car
+      - Transport for London

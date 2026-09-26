@@ -1,0 +1,51 @@
+info:
+  identifier: br_345
+  name: 'Class 345 "Aventra"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 345 Aventra
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - ELRL
+
+cargo: passenger
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2017-06-02
+
+profiles:
+  - identifier: '345_7'
+    name: 7-Car
+    num_vehicles: 7
+    capacity: 165
+    speed: 90
+    power: 3100
+    weight: 264
+    sprite_override: [1, 2, 2, 2, 2, 3, 4]
+    special_tags:
+      - formation/7-car
+      - subclass/345_7
+  - identifier: '345_9'
+    name: 9-Car
+    num_vehicles: 9
+    capacity: 166
+    speed: 90
+    power: 4000
+    weight: 264
+    introduction_date: 2021-06-02
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 3, 4]
+    special_tags:
+      - formation/9-car
+      - subclass/345_9
+
+liveries:
+  - name: 'Transport for London'
+    special_tags: [operator/Transport for London]
