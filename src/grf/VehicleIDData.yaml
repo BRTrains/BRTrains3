@@ -20962,3 +20962,92 @@ variants:
   name_string: str_br_305_305_2_gmpte_train_name
   strings:
     str_br_305_305_2_gmpte_train_name: Class 305 "AM-5" - 305/2 - GMPTE
+- id: 1919
+  vehicle: br_302
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1919_br_302_default_br_green_train.gnml
+  identifier: br_302_default_br_green_train
+  name_string: str_br_302_default_br_green_train_name
+  strings:
+    str_br_302_default_br_green_train_name: Class 302 "AM-2" - BR Green
+- id: 1920
+  vehicle: br_302
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1920_br_302_default_br_blue_train.gnml
+  identifier: br_302_default_br_blue_train
+  name_string: str_br_302_default_br_blue_train_name
+  strings:
+    str_br_302_default_br_blue_train_name: Class 302 "AM-2" - BR Blue
+- id: 1921
+  vehicle: br_302
+  profile: default
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1921_br_302_default_br_blue_and_grey_train.gnml
+  identifier: br_302_default_br_blue_and_grey_train
+  name_string: str_br_302_default_br_blue_and_grey_train_name
+  strings:
+    str_br_302_default_br_blue_and_grey_train_name: Class 302 "AM-2" - BR Blue and
+      Grey
+- id: 1922
+  vehicle: br_302
+  profile: default
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1922_br_302_default_network_southeast_train.gnml
+  identifier: br_302_default_network_southeast_train
+  name_string: str_br_302_default_network_southeast_train_name
+  strings:
+    str_br_302_default_network_southeast_train_name: Class 302 "AM-2" - Network SouthEast

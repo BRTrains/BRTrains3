@@ -1,0 +1,83 @@
+info:
+  identifier: br_302
+  # One candidate for the one legacy item the set files as the class (`item_BR302` 280,
+  # "BR Class 302 \"AM-2\" (4-car)") plus its three articulated parts `item_BR302_b` 281 /
+  # `_c` 282 / `_d` 283. The parts carry `climates_available: NO_CLIMATE` (they are hidden,
+  # not separate purchase entries), so the whole unit is one candidate with one 4-car profile.
+  name: 'Class 302 "AM-2"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 302
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  speed: 75
+  length: 8
+  # `item_BR302`'s own figures: the legacy's articulated parts declare 0 hp / 0 t and its
+  # trailing driving car declares 110 mph (a hidden-part quirk — OpenTTD only lowers a
+  # consist's limit from a member whose speed is non-zero, so in the legacy set the unit ran
+  # at the root item's 75 mph, which is what is carried here). BRBuild has one item per
+  # candidate, so the root item's whole-unit power/weight are copied as-is like the other MU
+  # conversions — see the oddities file for the in-game per-part multiplication.
+  power: 736
+  weight: 155
+  # `item_BR302` declares `tractive_effort_coefficient: 0.07`, carried here; BRBuild treats a
+  # value below 1 as the coefficient itself.
+  tractive_effort: 0.07
+  power_type:
+    - electric
+  # The legacy declares `track_type: ELRL` on the root item (25 kV overhead AC stock, built
+  # for the Eastern Region electrification), so it is stated rather than left to `power_type`.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1958-04-21
+
+profiles:
+  # One four-car unit. `switch_articulated_BR302_` adds the parts at offsets 1..3 (returning
+  # `item_BR302_b`, `_c`, `_d`) and the root item's `default:` is `sw_BR302_a`, so positions
+  # 0..3 consume the a, b, c, d drawings in order and the pattern is [1, 2, 3, 4] against the
+  # composite's row order (`/home/jon/BRTrains3-artwork-tools/compose_br302_sheet.py`).
+  #
+  # Capacity: the root item's callback is `return(80 * param_pax)`, already per-part, so 80 is
+  # imported; the legacy's trailer items declare 96, 79 and 108 for their own parts, giving a
+  # legacy in-game total of 363 against BRBuild's 4 x 80 = 320 (recorded in the oddities file
+  # — one capacity callback attaches to the item every articulated part references).
+  #
+  # No `design_speed`: `BR302.pnml` carries no `param_max_speed` switch, so no figure was
+  # invented and the service speed stands alone.
+  - identifier: DEFAULT
+    num_vehicles: 4
+    capacity: 80
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/302
+
+liveries:
+  # Order is the legacy `sw_BR302_cargo_subtype_text` cargo_subtype order 0..3, which is also
+  # the order the 16 declared drawing bands sit in (four per livery: a/b/c/d, i.e. the driving
+  # car, its two trailers and the trailing driving car). Names are the legacy's own strings
+  # (`str_BRGreen` "(BR - Green)", `str_BRBlue` "(BR - Blue)", `str_BRBlueGrey`
+  # "(BR - Blue Grey)", `str_NSE` "(Network South East)") under the set's naming house style
+  # used by the Class 305 — `str_BR302_liveries` spells the same list out in prose
+  # ("BR Green, BR Blue, BR Blue Grey, Network SouthEast").
+  #
+  # Band identity was proved from the bands' own pixels, not from their declared y: the green
+  # group carries `(60,88,48)`, the plain-blue group `(24,80,108)`/`(16,64,96)` with no light
+  # grey at all, the blue-grey group the same blues plus 140..204 light-grey pixels per band,
+  # and the NSE group `(160,0,0)` red with `(0,96,212)` blue and `(252,212,0)` yellow.
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Blue and Grey'
+    special_tags: [operator/BR]
+  - name: 'Network SouthEast'
+    special_tags: [operator/Network SouthEast]
