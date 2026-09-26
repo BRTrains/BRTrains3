@@ -22741,3 +22741,28 @@ variants:
   strings:
     str_br_mk1_bfk_br_blue_and_grey_train_name: Mk1 Coach - Brake First Corridor -
       BR Blue and Grey
+- id: 1997
+  vehicle: br_717
+  profile: default
+  livery: govia great northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1997_br_717_default_govia_great_northern_train.gnml
+  identifier: br_717_default_govia_great_northern_train
+  name_string: str_br_717_default_govia_great_northern_train_name
+  strings:
+    str_br_717_default_govia_great_northern_train_name: Class 717 "Desiro City" -
+      Govia Great Northern

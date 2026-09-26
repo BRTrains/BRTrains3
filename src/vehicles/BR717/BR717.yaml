@@ -1,0 +1,66 @@
+info:
+  identifier: br_717
+  name: 'Class 717 "Desiro City"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 717 Desiro City
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_BR717`'s own whole-consist figures (BRTrains2/src/trains/electric_mu/BR717.pnml,
+  # item 518 "BR Class 717 \"Desiro City\""): 3300 hp, 306 ton, 100 mph,
+  # `tractive_effort_coefficient: 0.15`. BRBuild's power/weight are per-part like the rest
+  # of this family; the legacy item's figures are carried as-is (see the oddities entry for
+  # the weight, which equals the eight-car Class 700/0's).
+  weight: 306
+  length: 8
+  power: 3300
+  speed: 100
+  tractive_effort: 0.15
+  power_type:
+    - electric
+  # `item_BR717` and its three parts all declare `track_type: [THIRD, ELRL]` — the
+  # dual-voltage Desiro City sets — so the logical types are stated rather than left to the
+  # classifier's `power_type` default, which would give this unit `ELRL` alone.
+  track_type:
+    - THIRD
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+
+dates:
+  introduction_date: 2015-04-21
+
+profiles:
+  # One six-car formation, from BRTrains2 `src/trains/electric_mu/BR717.pnml`: the root item
+  # `item_BR717` (sprite 518) plus the parts `item_BR717b` 519 / `item_BR717c` 520 /
+  # `item_BR717d` 521 it references. `switch_articulated_BR717` reads `extra_callback_info1`
+  # 1 -> `item_BR717c`, 2..4 -> `item_BR717d`, 5 -> `item_BR717b`, against the item's own
+  # `default: sw_BR717a` at position 0, so the consist consumes the drawings a, c, d, d, d, b
+  # in that order. Each (profile, livery) group is packed in that order by
+  # `BRTrains3-artwork-tools/compose_br717_sheet.py` (ROWS table: a front, b rear, c, d) and
+  # the pattern over those four rows is [1, 3, 4, 4, 4, 2].
+  - identifier: DEFAULT
+    num_vehicles: 6
+    # `item_BR717`'s callback is `return(56 * param_pax)` and its `cargo_capacity` property
+    # reads 56 — already the per-part figure, so it is copied as-is (BRBuild's `capacity` is
+    # the per-part value: 6 x 56 = 336 in game). The three articulated items carry their own
+    # `53` (`return(53 * param_pax)`), which BRBuild's single-item callback cannot express
+    # per part — a query, the same one the Class 700 and Class 707 entries record.
+    capacity: 56
+    sprite_override: [1, 3, 4, 4, 4, 2]
+    special_tags:
+      - formation/6-car
+      - subclass/717
+
+# Names from BRTrains2's `sw_BR717_cargo_subtype_text` (subtype 0 only), expanded through
+# `lang/partial/livery_prebuilt_strings.plng`: `str_GreatNorthern` "(Govia Great Northern)".
+# That single case order is the YAML livery order. No `str_BR717_liveries` list is carried
+# (`additional_text` is deferred set-wide). The operator badge is the real operating
+# organisation — Govia Thameslink Railway, which runs the Great Northern brand and whose
+# `operator/Govia Thameslink` badge the Class 700 and Class 707 of this same family use.
+liveries:
+  - name: 'Govia Great Northern'
+    special_tags: [operator/Govia Thameslink]
