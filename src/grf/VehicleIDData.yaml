@@ -22207,3 +22207,48 @@ variants:
   strings:
     str_br_mk1_bck_br_blue_and_grey_train_name: Mk1 Coach - Brake Composite Corridor
       - BR Blue and Grey
+- id: 1974
+  vehicle: br_380
+  profile: '380_0'
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 63
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1974_br_380_380_0_scotrail_saltire_train.gnml
+  identifier: br_380_380_0_scotrail_saltire_train
+  name_string: str_br_380_380_0_scotrail_saltire_train_name
+  strings:
+    str_br_380_380_0_scotrail_saltire_train_name: Class 380 "Desiro" - 380/0 - ScotRail
+      Saltire
+- id: 1975
+  vehicle: br_380
+  profile: '380_1'
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 63
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1975_br_380_380_1_scotrail_saltire_train.gnml
+  identifier: br_380_380_1_scotrail_saltire_train
+  name_string: str_br_380_380_1_scotrail_saltire_train_name
+  strings:
+    str_br_380_380_1_scotrail_saltire_train_name: Class 380 "Desiro" - 380/1 - ScotRail
+      Saltire
