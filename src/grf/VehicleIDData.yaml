@@ -22595,3 +22595,50 @@ variants:
   strings:
     str_br_700_br_700_8_govia_thameslink_pride_train_name: Class 700 "Desiro City"
       - 8-Car - Govia Thameslink Pride
+- id: 1990
+  vehicle: br_707
+  profile: default
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1990_br_707_default_south_west_trains_train.gnml
+  identifier: br_707_default_south_west_trains_train
+  name_string: str_br_707_default_south_west_trains_train_name
+  strings:
+    str_br_707_default_south_west_trains_train_name: Class 707 "Desiro City" - South
+      West Trains
+- id: 1991
+  vehicle: br_707
+  profile: default
+  livery: southeastern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1991_br_707_default_southeastern_train.gnml
+  identifier: br_707_default_southeastern_train
+  name_string: str_br_707_default_southeastern_train_name
+  strings:
+    str_br_707_default_southeastern_train_name: Class 707 "Desiro City" - Southeastern
