@@ -20951,3 +20951,93 @@ variants:
     str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
     str_lms_jubilee_default_br_blue_train_name: LMS Stanier Jubilee Class 4-6-0 -
       BR Blue
+- id: 1872
+  vehicle: lner_p2
+  profile: p2
+  livery: lner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1872_lner_p2_p2_lner_green_train.gnml
+  identifier: lner_p2_p2_lner_green_train
+  name_string: str_lner_p2_p2_lner_green_train_name
+  strings:
+    str_lner_p2_p2_lner_green_train_name: LNER Gresley Class P2 2-8-2 - p2 - LNER
+      Green
+    str_lner_p2_p2_lner_green_train_group_name: LNER Gresley Class P2 2-8-2 - p2
+- id: 1873
+  vehicle: lner_p2
+  profile: p2
+  livery: lner wartime black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1873_lner_p2_p2_lner_wartime_black_train.gnml
+  identifier: lner_p2_p2_lner_wartime_black_train
+  name_string: str_lner_p2_p2_lner_wartime_black_train_name
+  strings:
+    str_lner_p2_p2_lner_green_train_group_name: LNER Gresley Class P2 2-8-2 - p2
+    str_lner_p2_p2_lner_wartime_black_train_name: LNER Gresley Class P2 2-8-2 - p2
+      - LNER Wartime Black
+- id: 1874
+  vehicle: lner_p2
+  profile: p2_streamlined
+  livery: lner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1874_lner_p2_p2_streamlined_lner_green_train.gnml
+  identifier: lner_p2_p2_streamlined_lner_green_train
+  name_string: str_lner_p2_p2_streamlined_lner_green_train_name
+  strings:
+    str_lner_p2_p2_streamlined_lner_green_train_name: LNER Gresley Class P2 2-8-2
+      - p2_streamlined - LNER Green
+    str_lner_p2_p2_streamlined_lner_green_train_group_name: LNER Gresley Class P2
+      2-8-2 - p2_streamlined
+- id: 1875
+  vehicle: lner_p2
+  profile: p2_streamlined
+  livery: lner wartime black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1875_lner_p2_p2_streamlined_lner_wartime_black_train.gnml
+  identifier: lner_p2_p2_streamlined_lner_wartime_black_train
+  name_string: str_lner_p2_p2_streamlined_lner_wartime_black_train_name
+  strings:
+    str_lner_p2_p2_streamlined_lner_green_train_group_name: LNER Gresley Class P2
+      2-8-2 - p2_streamlined
+    str_lner_p2_p2_streamlined_lner_wartime_black_train_name: LNER Gresley Class P2
+      2-8-2 - p2_streamlined - LNER Wartime Black

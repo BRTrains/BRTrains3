@@ -1,0 +1,64 @@
+info:
+  identifier: lner_p2
+  name: 'LNER Gresley Class P2 2-8-2'
+  sub_name: Steam locomotive
+  based_on: LNER Gresley Class P2
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 168
+  length: 8
+  power: 2150
+  speed: 90
+  tractive_effort: 0.115
+  power_type:
+    - steam
+
+cargo: none
+
+dates:
+  introduction_date: 1934-08-01
+
+profiles:
+  # The legacy set files the two P2 items under one `variant_group: header_LNERP2` and draws
+  # them from one pair of shapes — a locomotive plus the shared LNER 4200-gallon tender — so
+  # they are two profiles of one candidate, not two candidates:
+  #
+  #   * `p2`               `item_LNERP2` 591 (`BRTrains2/src/trains/steam_loco/LNER/LNERP2.pnml`),
+  #                        the conventionally-styled members, 2150 hp.
+  #   * `p2_streamlined`   `item_LNERP2_Streamlined` 672
+  #                        (`BRTrains2/src/trains/steam_loco/LNER/LNERP2_Streamlined.pnml`),
+  #                        the two original examples with the streamlined nose, 2200 hp.
+  #
+  # `sw_articulated_LNERP2` adds exactly one part to both, so each profile is a two-part
+  # formation at `sprite_override: [1, 2]`: part 0 the locomotive, part 1 the tender.
+  # `sw_LNERP2_length` gives part 0 length 8 and part 1 length 4.
+  - identifier: p2
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/lner_p2
+  - identifier: p2_streamlined
+    num_vehicles: 2
+    capacity: 0
+    power: 2200
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/lner_p2_streamlined
+
+liveries:
+  # Ordered by the two PNML graphics switches (`sw_LNERP2Loco` / `sw_LNERP2Loco_Streamlined`
+  # and the shared `sw_LNERP2Tender`, cargo_subtype 0..1), not by spriteset declaration or
+  # source y:
+  #   0 LNER Green (str_LNERGreen) | 1 Wartime Black (str_Wartime, "BR - Wartime Black")
+  # Both profiles carry both liveries, in this order; compose_lner_p2_sheet.py emits one
+  # locomotive+tender row pair per (profile, livery) group in exactly this order, which is the
+  # order the allocator consumes rows in.
+  - name: 'LNER Green'
+    special_tags: [operator/LNER]
+  - name: 'LNER Wartime Black'
+    special_tags: [operator/LNER, operator/BR]
