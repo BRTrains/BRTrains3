@@ -21380,3 +21380,28 @@ variants:
   strings:
     str_br_444_default_south_western_railway___pride_train_name: Class 444 "Desiro"
       - South Western Railway - Pride
+- id: 1937
+  vehicle: lu_1995
+  profile: '1995_6'
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1937_lu_1995_1995_6_london_underground_train.gnml
+  identifier: lu_1995_1995_6_london_underground_train
+  name_string: str_lu_1995_1995_6_london_underground_train_name
+  strings:
+    str_lu_1995_1995_6_london_underground_train_name: London Underground 1995 Stock
+      - 6-Car - London Underground
