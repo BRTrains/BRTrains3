@@ -77,21 +77,39 @@ liveries:
   # of a pair draw the same bands, so the duplicate costs two repeated rows rather than
   # new artwork.
   #
-  # 2-car only (`sw_BR170_2car`): subtypes 1, 5, 6, 9, 13 and 14; 3-car only
-  # (`sw_BR170_3car`): subtypes 1, 2, 4, 5, 6, 8, 15, 17, 18, 19, 20, 21, 22.
+  # 2-car only (`sw_BR170_2car`, subtypes absent from the 3-car switch): Central Trains
+  # Robin Hood Line (2), Southern (3), South West Trains (4), TransPennine Express (5),
+  # East Midlands Railway Pride (7), Bombardier (14); 3-car only (`sw_BR170_3car`,
+  # subtypes absent from the 2-car switch): Central Trains Midland Mainline (1), Central
+  # Trains White (2), Q Jump (4), Hull Trains (5), Anglia (6), ONE (8), CrossCountry
+  # Pride (15), Strathclyde (17), National Express ScotRail (18), First ScotRail (19),
+  # ScotRail Saltire (20), Saltire BTP (21), Northern (22). Both restrictions are the
+  # legacy switches' own - an unrestricted livery is hung on *every* profile, which both
+  # invents variants and consumes sheet rows the composite does not carry.
   - name: 'Midland Mainline'
     special_tags: [operator/Midland Mainline]
   - name: 'Central Trains Green'
     special_tags: [operator/Central Trains]
   - name: 'Central Trains Robin Hood Line'
+    profiles: ['2car']
     special_tags: [operator/Central Trains]
+  # The legacy 2-car switch's subtype 3 is `sw_BR171_Southern` ("Use the 171 sprites for
+  # the Southern 170s pre-conversion"), so this livery draws the Class 171's own three
+  # drawings; the composite reads them from `gfx/DMU/171.png` at the same template
+  # positions and copies them in here (one candidate, one spritesheet).
+  - name: 'Southern'
+    profiles: ['2car']
+    special_tags: [operator/Southern]
   - name: 'South West Trains'
+    profiles: ['2car']
     special_tags: [operator/Stagecoach]
   - name: 'TransPennine Express'
+    profiles: ['2car']
     special_tags: [operator/TransPennine Express]
   - name: 'East Midlands Railway Maroon'
     special_tags: [operator/East Midlands Railway]
   - name: 'East Midlands Railway Pride'
+    profiles: ['2car']
     special_tags: [operator/East Midlands Railway]
   - name: 'CrossCountry Maroon'
     special_tags: [operator/CrossCountry]
@@ -106,6 +124,7 @@ liveries:
   - name: 'West Midlands Railway'
     special_tags: [operator/West Midlands Railway]
   - name: 'Bombardier'
+    profiles: ['2car']
     special_tags: [operator/Bombardier]
   - name: 'London Midland'
     special_tags: [operator/London Midland]
