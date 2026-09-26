@@ -32,10 +32,12 @@ profiles:
   # against the composite's row order (`/home/jon/BRTrains3-artwork-tools/compose_br333_sheet.py`).
   #
   # Power and weight are `item_BR333`'s whole-unit figures (1566 hp / 121 t), carried as-is like
-  # the other MU conversions. Capacity is the legacy callback's quotient: `return(360/4 *
-  # param_pax)` is 90 per part, i.e. 360 in game across the four cars.
+  # the other MU conversions. Capacity: the item's property is `cargo_capacity: 98` and its
+  # callback `return(360/4 * param_pax)` is 90, so the callback's quotient is what is imported
+  # (90 per part = 360 in game across the four cars), per the set-wide convention that the
+  # property is a placeholder — see the Class 333 oddities entry.
   #
-  # No `design_speed`: `333.pnml` carries no `param_max_speed` switch, so no figure was invented
+  # No `design_speed`: `BR333.pnml` carries no `param_max_speed` switch, so no figure was invented
   # and the service speed stands alone.
   - identifier: DEFAULT
     num_vehicles: 4
