@@ -1,0 +1,86 @@
+info:
+  identifier: br_442
+  name: 'Class 442 "Wessex Electric"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 442
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_BR442`'s own figures: this is a fixed five-car unit and the legacy puts the
+  # consist's whole figures on the root item (the four articulated items declare
+  # `power: 0` / `weight: 0`), which is the same shape the Class 450 and Class 305
+  # imports used.
+  weight: 224
+  length: 8
+  power: 1610
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # Every legacy item declares `track_type: THIRD` (750 V DC third rail, no overhead
+  # equipment), so the logical type is stated rather than left to the classifier's
+  # `power_type` default, which would give this DC unit `ELRL`.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 14
+cargo_age_period: 250
+
+dates:
+  introduction_date: 1988-04-21
+
+profiles:
+  # One five-car formation: `item_BR442` 166 (the root, drawn by `sw_BR442a`) plus
+  # `switch_articulated_BR442`'s parts at positions 1..4 (`item_442b` 167, `item_442c`
+  # 167, `item_442d` 167, `item_442e` 170, drawn by `sw_BR442b`..`sw_BR442e`), so the
+  # consist consumes the group's a, b, c, d, e rows in order.
+  - identifier: '442_5'
+    name: 5-Car
+    num_vehicles: 5
+    # `item_BR442`'s callback is `return(50 * param_pax)` -- already per part, so it is
+    # copied as-is (BRBuild's `capacity` is the per-part value: 5 x 50 = 250 in game).
+    # The legacy's other four items carry their own per-part figures instead (b 75, c 75,
+    # d 66, e 50), which BRBuild cannot express: the callback sits on the single item all
+    # articulated parts reference. See the oddities note.
+    capacity: 50
+    sprite_override: [1, 2, 3, 4, 5]
+    special_tags:
+      - formation/5-car
+      - subclass/442
+
+liveries:
+  # BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR442a..e, cargo_subtype)` selects the drawing
+  # band per livery and `sw_BR442_cargo_subtype_text` names it (case 0 `str_NSE`, case 1
+  # `str_SWT_stagecoach`, case 2 `str_SWT`, case 3 `str_SWT_refurb`, case 4 `str_ROSCO`,
+  # case 5 `str_GatEx`, case 6 `str_SWR`), so the order below is the switch's case order --
+  # which is also the composite's row order (see
+  # /home/jon/BRTrains3-artwork-tools/compose_br442_sheet.py). The sheet's physical order is
+  # different (Network South East, SWT Stagecoach, SWT, Gatwick Express, ROSCO,
+  # SWT Refurbished, South Western Railway), and each livery's five bands are the
+  # formation's a..e drawings.
+  #
+  # `str_BR442_liveries` spells the list out in prose with the same names
+  # ("Network South East, Stagecoach South West Trains, South West Trains, South West Trains
+  # (Refurbished), Gatwick Express, Trasnsitional"), so the sheet's own reading agrees with
+  # the switch. All four badges already exist in the project.
+  - name: 'Network South East'
+    special_tags: [operator/Network SouthEast]
+  - name: 'South West Trains - Stagecoach'
+    special_tags: [operator/South West Trains]
+  - name: 'South West Trains'
+    special_tags: [operator/South West Trains]
+  - name: 'South West Trains - Refurbished'
+    special_tags: [operator/South West Trains]
+  # The debranded scheme the units carried between the South West Trains franchise ending
+  # and their Gatwick Express repaint; the badge follows the Class 456's ROSCO Transitional
+  # precedent (the operating organisation they were being re-leased to). See the oddities
+  # note -- it is a judgement call.
+  - name: 'ROSCO Transitional'
+    special_tags: [operator/Gatwick Express]
+  - name: 'Gatwick Express'
+    special_tags: [operator/Gatwick Express]
+  - name: 'South Western Railway'
+    special_tags: [operator/South Western Railway]

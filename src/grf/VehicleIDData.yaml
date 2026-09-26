@@ -21097,3 +21097,171 @@ variants:
   strings:
     str_br_450_450_4_south_western_railway_train_name: Class 450 "Desiro" - 4-Car
       - South Western Railway
+- id: 1925
+  vehicle: br_442
+  profile: '442_5'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1925_br_442_442_5_network_south_east_train.gnml
+  identifier: br_442_442_5_network_south_east_train
+  name_string: str_br_442_442_5_network_south_east_train_name
+  strings:
+    str_br_442_442_5_network_south_east_train_name: Class 442 "Wessex Electric" -
+      5-Car - Network South East
+- id: 1926
+  vehicle: br_442
+  profile: '442_5'
+  livery: south west trains - stagecoach
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1926_br_442_442_5_south_west_trains___stagecoach_train.gnml
+  identifier: br_442_442_5_south_west_trains___stagecoach_train
+  name_string: str_br_442_442_5_south_west_trains___stagecoach_train_name
+  strings:
+    str_br_442_442_5_south_west_trains___stagecoach_train_name: Class 442 "Wessex
+      Electric" - 5-Car - South West Trains - Stagecoach
+- id: 1927
+  vehicle: br_442
+  profile: '442_5'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1927_br_442_442_5_south_west_trains_train.gnml
+  identifier: br_442_442_5_south_west_trains_train
+  name_string: str_br_442_442_5_south_west_trains_train_name
+  strings:
+    str_br_442_442_5_south_west_trains_train_name: Class 442 "Wessex Electric" - 5-Car
+      - South West Trains
+- id: 1928
+  vehicle: br_442
+  profile: '442_5'
+  livery: south west trains - refurbished
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1928_br_442_442_5_south_west_trains___refurbished_train.gnml
+  identifier: br_442_442_5_south_west_trains___refurbished_train
+  name_string: str_br_442_442_5_south_west_trains___refurbished_train_name
+  strings:
+    str_br_442_442_5_south_west_trains___refurbished_train_name: Class 442 "Wessex
+      Electric" - 5-Car - South West Trains - Refurbished
+- id: 1929
+  vehicle: br_442
+  profile: '442_5'
+  livery: rosco transitional
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1929_br_442_442_5_rosco_transitional_train.gnml
+  identifier: br_442_442_5_rosco_transitional_train
+  name_string: str_br_442_442_5_rosco_transitional_train_name
+  strings:
+    str_br_442_442_5_rosco_transitional_train_name: Class 442 "Wessex Electric" -
+      5-Car - ROSCO Transitional
+- id: 1930
+  vehicle: br_442
+  profile: '442_5'
+  livery: gatwick express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1930_br_442_442_5_gatwick_express_train.gnml
+  identifier: br_442_442_5_gatwick_express_train
+  name_string: str_br_442_442_5_gatwick_express_train_name
+  strings:
+    str_br_442_442_5_gatwick_express_train_name: Class 442 "Wessex Electric" - 5-Car
+      - Gatwick Express
+- id: 1931
+  vehicle: br_442
+  profile: '442_5'
+  livery: south western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1931_br_442_442_5_south_western_railway_train.gnml
+  identifier: br_442_442_5_south_western_railway_train
+  name_string: str_br_442_442_5_south_western_railway_train_name
+  strings:
+    str_br_442_442_5_south_western_railway_train_name: Class 442 "Wessex Electric"
+      - 5-Car - South Western Railway
