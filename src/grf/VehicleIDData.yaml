@@ -20404,3 +20404,72 @@ variants:
   strings:
     str_br_456_default_network_south_east_train_group_name: Class 456
     str_br_456_default_south_west_trains_train_name: Class 456 - South West Trains
+- id: 1847
+  vehicle: br_333
+  profile: default
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 90
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1847_br_333_default_wypte_metro_train.gnml
+  identifier: br_333_default_wypte_metro_train
+  name_string: str_br_333_default_wypte_metro_train_name
+  strings:
+    str_br_333_default_wypte_metro_train_name: Class 333 - WYPTE Metro
+    str_br_333_default_wypte_metro_train_group_name: Class 333
+- id: 1848
+  vehicle: br_333
+  profile: default
+  livery: northern spirit
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 90
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1848_br_333_default_northern_spirit_train.gnml
+  identifier: br_333_default_northern_spirit_train
+  name_string: str_br_333_default_northern_spirit_train_name
+  strings:
+    str_br_333_default_wypte_metro_train_group_name: Class 333
+    str_br_333_default_northern_spirit_train_name: Class 333 - Northern Spirit
+- id: 1849
+  vehicle: br_333
+  profile: default
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 90
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1849_br_333_default_northern_train.gnml
+  identifier: br_333_default_northern_train
+  name_string: str_br_333_default_northern_train_name
+  strings:
+    str_br_333_default_wypte_metro_train_group_name: Class 333
+    str_br_333_default_northern_train_name: Class 333 - Northern

@@ -1,0 +1,62 @@
+info:
+  identifier: br_333
+  name: 'Class 333'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 333
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 90
+  tractive_effort: 0.06
+  power_type:
+    - electric
+  # The legacy item declares `track_type: ELRL` (25 kV overhead only); the classifier would
+  # emit the same from `power_type: electric`, but the legacy states it.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 30
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1992-04-21
+
+profiles:
+  # One four-car formation: the legacy root `item_BR333` plus `switch_articulated_BR333`'s
+  # parts 1..3, which all reference that one item, so the four consumed rows are the switch's
+  # own position order — front, middle_panto, middle, rear — and the pattern is [1, 2, 3, 4]
+  # against the composite's row order (`/home/jon/BRTrains3-artwork-tools/compose_br333_sheet.py`).
+  #
+  # Power and weight are `item_BR333`'s whole-unit figures (1566 hp / 121 t), carried as-is like
+  # the other MU conversions. Capacity is the legacy callback's quotient: `return(360/4 *
+  # param_pax)` is 90 per part, i.e. 360 in game across the four cars.
+  #
+  # No `design_speed`: `333.pnml` carries no `param_max_speed` switch, so no figure was invented
+  # and the service speed stands alone.
+  - identifier: DEFAULT
+    num_vehicles: 4
+    capacity: 90
+    power: 1566
+    weight: 121
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/333
+
+liveries:
+  # Order is the legacy `sw_BR333` cargo_subtype order 0..2, which is also the composite's row
+  # order: 0 WYPTE (y 0/26/52/78 of `BRTrains2/gfx/EMU/333.png`), 1 NorthernSpirit (208/234/
+  # 260/286), 2 Northern (104/130/156/182). Names are the legacy's own strings
+  # (`str_WYPTEMetro`, `str_NorthernSpirit`, `str_Northern` in
+  # `lang/partial/livery_prebuilt_strings.plng`); the sheet's physical band order is WYPTE,
+  # Northern, Northern Spirit, so the composite re-stacks the third livery ahead of the second.
+  - name: 'WYPTE Metro'
+    special_tags: [operator/West Yorkshire PTE]
+  - name: 'Northern Spirit'
+    special_tags: [operator/Northern Spirit]
+  - name: 'Northern'
+    special_tags: [operator/Northern]
