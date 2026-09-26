@@ -93,7 +93,7 @@ liveries:
   - name: 'First Great Eastern'
     special_tags: [operator/First Great Eastern]
   - name: 'One'
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'National Express East Anglia'
     special_tags: [operator/National Express East Anglia]
   - name: 'National Express East Anglia - Alternative Lights'

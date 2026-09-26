@@ -66,7 +66,7 @@ liveries:
   - name: 'Northern Rail'
     special_tags: [operator/Northern Rail]
   - name: 'First Great Western'
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'Network West Midlands'
     special_tags: [operator/Network West Midlands]
   - name: 'Arriva Trains Wales'
@@ -78,6 +78,6 @@ liveries:
   - name: 'Transport for Wales'
     special_tags: [operator/Transport for Wales]
   - name: 'GWR - Green'
-    special_tags: [operator/GWR]
+    special_tags: [operator/Great Western Railway]
   - name: 'Northern'
     special_tags: [operator/Northern]

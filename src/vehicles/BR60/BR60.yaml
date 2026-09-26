@@ -47,7 +47,7 @@ liveries:
   - name: EWS
     special_tags: [operator/EWS]
   - name: GWR
-    special_tags: [operator/GWR]
+    special_tags: [operator/Great Western Railway]
   - name: 'Colas Rail'
     special_tags: [operator/Colas Rail]
   - name: Europhoenix

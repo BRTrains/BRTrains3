@@ -35,6 +35,6 @@ profiles:
 
 liveries:
   - name: 'Transpennine Express'
-    special_tags: [operator/Transpennine Express]
+    special_tags: [operator/TransPennine Express]
   - name: 'Chiltern Blue'
     special_tags: [operator/Chiltern Railways]

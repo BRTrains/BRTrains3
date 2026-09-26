@@ -47,7 +47,7 @@ liveries:
   - name: 'Silverlink/Central Trains'
     special_tags: [operator/Silverlink]
   - name: 'Transpennine Express'
-    special_tags: [operator/Transpennine Express]
+    special_tags: [operator/TransPennine Express]
   - name: 'London Northwestern Railway - Transitional'
     special_tags: [operator/London Northwestern Railway]
   - name: 'London Northwestern Railway'

@@ -48,18 +48,18 @@ liveries:
   - name: 'West Coast'
     special_tags: [operator/West Coast Railway]
   - name: 'One'
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'InterCity'
     special_tags: [operator/InterCity]
   - name: 'Network Rail'
     special_tags: [operator/Network Rail]
   - name: 'Arriva Wales'
-    special_tags: [operator/Arriva Wales]
+    special_tags: [operator/Arriva Trains Wales]
   - name: 'DRS'
     special_tags: [operator/DRS]
   - name: 'Virgin'
     special_tags: [operator/Virgin Trains]
   - name: 'FGW'
-    special_tags: [operator/GreatWestern]
+    special_tags: [operator/Great Western Railway]
   - name: 'First ScotRail'
-    special_tags: [operator/FirstScotRail]
+    special_tags: [operator/ScotRail]

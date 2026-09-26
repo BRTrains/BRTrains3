@@ -72,13 +72,13 @@ liveries:
   - name: 'Wessex Trains - Looe Valley Ad.'
     special_tags: [operator/Wessex Trains]
   - name: 'One'
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'East Midlands Trains'
-    special_tags: [operator/EMT]
+    special_tags: [operator/East Midlands Trains]
   - name: 'Northern Rail'
     special_tags: [operator/Northern Rail]
   - name: 'First Great Western'
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'London Midland'
     special_tags: [operator/London Midland]
   - name: 'ScotRail Saltire'

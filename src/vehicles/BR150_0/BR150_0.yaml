@@ -74,7 +74,7 @@ liveries:
   - name: 'London Midland'
     special_tags: [operator/London Midland]
   - name: 'First Great Western'
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'Central Trains'
     special_tags: [operator/Central Trains]
   - name: 'Northern'

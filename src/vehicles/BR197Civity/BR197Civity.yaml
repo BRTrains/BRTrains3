@@ -38,7 +38,7 @@ profiles:
 liveries:
   - name: TfW Rail
     special_tags:
-      - operator/TfW Rail
+      - operator/Transport for Wales
     profiles:
       - 197_0
       - 197_1

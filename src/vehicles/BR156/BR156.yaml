@@ -69,7 +69,7 @@ liveries:
   - name: 'ScotRail'
     special_tags: [operator/ScotRail]
   - name: 'First ScotRail'
-    special_tags: [operator/FirstScotRail]
+    special_tags: [operator/ScotRail]
   - name: 'Central Trains'
     special_tags: [operator/Central Trains]
   - name: 'Northern Spirit'
@@ -83,17 +83,17 @@ liveries:
   - name: 'Northern Rail'
     special_tags: [operator/Northern Rail]
   - name: 'One - Ghost White'
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'One - Chapelfield'
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'One'
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'One - Transitional'
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'National Express'
     special_tags: [operator/National Express]
   - name: 'East Midlands Trains'
-    special_tags: [operator/EMT]
+    special_tags: [operator/East Midlands Trains]
   - name: 'Northern'
     special_tags: [operator/Northern]
   - name: 'EMR - Transitional'

@@ -53,9 +53,9 @@ liveries:
   # `BRTrains3-artwork-tools/compose_br180_sheet.py`, where each livery contributes
   # three rows (the a, b then c sheet's drawing).
   - name: 'First Great Western'
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'First Great Western Dynamic Lines'
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'Grand Central'
     special_tags: [operator/Grand Central]
   - name: 'Grand Central Lined'

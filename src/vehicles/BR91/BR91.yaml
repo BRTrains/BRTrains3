@@ -51,7 +51,7 @@ liveries:
   - name: 'National Express'
     special_tags: [operator/National Express]
   - name: 'GNER'
-    special_tags: [operator/GNER]
+    special_tags: [operator/Great North Eastern Railway]
   - name: 'East Coast'
     special_tags: [operator/East Coast]
   - name: 'Virgin East Coast'

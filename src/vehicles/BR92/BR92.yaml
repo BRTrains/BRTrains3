@@ -60,6 +60,6 @@ liveries:
   - name: 'GBRf'
     special_tags: [operator/GB Railfreight]
   - name: 'Caledonian Sleeper'
-    special_tags: [operator/CaledonianSleeper]
+    special_tags: [operator/Caledonian Sleeper]
   - name: 'Stobart Rail'
     special_tags: [operator/Stobart Rail]

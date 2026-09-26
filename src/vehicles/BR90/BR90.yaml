@@ -51,7 +51,7 @@ liveries:
   - name: 'Freightliner Powerhaul'
     special_tags: [operator/Freightliner]
   - name: 'ONE'
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'Greater Anglia White'
     special_tags: [operator/Greater Anglia]
   - name: 'Greater Anglia Blue'
@@ -61,8 +61,8 @@ liveries:
   - name: 'Rail Express Systems'
     special_tags: [operator/Rail Express Systems]
   - name: 'First ScotRail'
-    special_tags: [operator/FirstScotRail]
+    special_tags: [operator/ScotRail]
   - name: 'GNER'
-    special_tags: [operator/GNER]
+    special_tags: [operator/Great North Eastern Railway]
   - name: 'Freightliner Orange'
     special_tags: [operator/Freightliner]

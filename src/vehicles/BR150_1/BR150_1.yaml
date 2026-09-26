@@ -82,7 +82,7 @@ liveries:
   - name: 'BR Super Sprinter'
     special_tags: [operator/BR]
   - name: 'First Great Western'
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'Silverlink'
     special_tags: [operator/Silverlink]
   - name: 'Northern Rail'

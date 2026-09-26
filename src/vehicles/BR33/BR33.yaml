@@ -50,7 +50,7 @@ liveries:
     special_tags: [operator/BR]
   - name: NSE
     profiles: ["0", "1"]
-    special_tags: [operator/NSE]
+    special_tags: [operator/Network SouthEast]
   - name: Fragonset
     profiles: ["0", "1"]
     special_tags: [operator/Fragonset]

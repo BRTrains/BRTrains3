@@ -62,9 +62,9 @@ liveries:
   - name: 'Virgin Trains'
     special_tags: [operator/Virgin Trains]
   - name: 'First Great Western'
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'GWR - Green'
-    special_tags: [operator/GWR]
+    special_tags: [operator/Great Western Railway]
   - name: 'CrossCountry'
     special_tags: [operator/CrossCountry]
   - name: 'Great North Eastern Railway'

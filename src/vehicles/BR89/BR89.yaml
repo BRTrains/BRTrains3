@@ -39,6 +39,6 @@ liveries:
   - name: 'InterCity Swallow'
     special_tags: [operator/InterCity]
   - name: 'GNER'
-    special_tags: [operator/GNER]
+    special_tags: [operator/Great North Eastern Railway]
   - name: 'InterCity'
     special_tags: [operator/InterCity]

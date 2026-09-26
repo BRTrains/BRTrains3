@@ -46,9 +46,9 @@ liveries:
   - name: Freightliner
     special_tags: [operator/Freightliner]
   - name: 'GWR Green'
-    special_tags: [operator/GWR]
+    special_tags: [operator/Great Western Railway]
   - name: 'Arriva Wales'
-    special_tags: [operator/Arriva Wales]
+    special_tags: [operator/Arriva Trains Wales]
   - name: DRS
     special_tags: [operator/DRS]
   - name: 'Virgin Pretendolino'

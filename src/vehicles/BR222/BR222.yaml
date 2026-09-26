@@ -83,7 +83,7 @@ liveries:
   # liveries first, then the Hull Trains rows (asked for by the 4-car, which none
   # of the other formations carried) and then Lumo Blue (the 6-car's).
   - name: 'East Midlands Trains'
-    special_tags: [operator/EMT]
+    special_tags: [operator/East Midlands Trains]
     profiles: ['222_7', '222_5', '222_4']
   - name: 'Midland Mainline'
     special_tags: [operator/Midland Mainline]

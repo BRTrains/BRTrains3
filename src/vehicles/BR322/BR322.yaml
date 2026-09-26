@@ -49,7 +49,7 @@ liveries:
   - name: 'Greater Anglia'
     special_tags: [operator/Greater Anglia]
   - name: 'First ScotRail'
-    special_tags: [operator/FirstScotRail]
+    special_tags: [operator/ScotRail]
   - name: 'First North Western'
     special_tags: [operator/First North Western]
   - name: 'Northern Rail - Interim 1'

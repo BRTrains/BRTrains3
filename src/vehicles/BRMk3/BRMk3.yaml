@@ -55,19 +55,19 @@ liveries:
     special_tags: [operator/InterCity]
   - name: 'First ScotRail'
     profiles: [sleeper]
-    special_tags: [operator/FirstScotRail]
+    special_tags: [operator/ScotRail]
   - name: 'ScotRail'
     profiles: [sleeper]
     special_tags: [operator/ScotRail]
   - name: 'Caledonian Sleeper'
     profiles: [sleeper]
-    special_tags: [operator/CaledonianSleeper]
+    special_tags: [operator/Caledonian Sleeper]
   - name: 'Great Western'
     profiles: [sleeper]
-    special_tags: [operator/GreatWestern]
+    special_tags: [operator/Great Western Railway]
   - name: 'GWR'
     profiles: [sleeper]
-    special_tags: [operator/GWR]
+    special_tags: [operator/Great Western Railway]
   - name: 'Stagecoach'
     profiles: [sleeper]
     special_tags: [operator/Stagecoach]
@@ -81,7 +81,7 @@ liveries:
     special_tags: [operator/Virgin Trains]
   - name: 'One'
     profiles: [dvt]
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: 'Chiltern Railways'
     profiles: [dvt]
     special_tags: [operator/Chiltern Railways]
@@ -90,13 +90,13 @@ liveries:
     special_tags: [operator/Greater Anglia]
   - name: 'Transport For Wales'
     profiles: [dvt]
-    special_tags: [operator/TfW Rail]
+    special_tags: [operator/Transport for Wales]
   - name: 'Virgin Pretendolino'
     profiles: [dvt]
     special_tags: [operator/Virgin Trains]
   - name: 'Arriva Wales'
     profiles: [dvt]
-    special_tags: [operator/Arriva Wales]
+    special_tags: [operator/Arriva Trains Wales]
   - name: 'Network Rail'
     profiles: [dvt]
     special_tags: [operator/Network Rail]

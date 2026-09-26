@@ -56,7 +56,7 @@ liveries:
   - name: 'DB Schenker'
     special_tags: [operator/DB Schenker]
   - name: EMT
-    special_tags: [operator/EMT]
+    special_tags: [operator/East Midlands Trains]
   - name: GBRf
     special_tags: [operator/GB Railfreight]
   - name: 'Freightliner Green'

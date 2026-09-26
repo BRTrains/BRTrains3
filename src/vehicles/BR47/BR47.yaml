@@ -53,12 +53,12 @@ liveries:
   - name: 'West Coast Railway'
     special_tags: [operator/West Coast Railway]
   - name: 'GWR Green'
-    special_tags: [operator/GWR]
+    special_tags: [operator/Great Western Railway]
   - name: Virgin
     special_tags: [operator/Virgin Trains]
   - name: 'Colas Rail'
     special_tags: [operator/Colas Rail]
   - name: ONE
-    special_tags: [operator/One]
+    special_tags: [operator/ONE]
   - name: Freightliner
     special_tags: [operator/Freightliner]

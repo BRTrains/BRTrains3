@@ -124,7 +124,7 @@ liveries:
   # Link"), `str_FGWDL` ("First Great Western - Dynamic Lines"), `str_GWRGreen`
   # ("GWR - Green").
   - name: 'Network South East'
-    special_tags: [operator/Network South East]
+    special_tags: [operator/Network SouthEast]
   # The legacy `sw_BR165_1` offers this class NSE, Thames Trains, First Link, FGW Dynamic
   # Lines and GWR Green only, so the Chiltern drawing is restricted to the two 165/0
   # profiles rather than offered on the Thames units as well (which is what an unrestricted
@@ -138,10 +138,10 @@ liveries:
     special_tags: [operator/Thames Trains]
   - name: 'First Link'
     profiles: ['165_1', '165_1_3car', '166']
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'First Great Western - Dynamic Lines'
     profiles: ['165_1', '165_1_3car', '166']
-    special_tags: [operator/First Great Western]
+    special_tags: [operator/Great Western Railway]
   - name: 'GWR - Green'
     profiles: ['165_1', '165_1_3car', '166']
-    special_tags: [operator/GWR]
+    special_tags: [operator/Great Western Railway]

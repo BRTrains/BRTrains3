@@ -157,7 +157,7 @@ liveries:
     special_tags: [operator/ScotRail]
   - name: 'First ScotRail'
     profiles: ['3car']
-    special_tags: [operator/FirstScotRail]
+    special_tags: [operator/ScotRail]
   - name: 'ScotRail Saltire'
     profiles: ['3car']
     special_tags: [operator/ScotRail]

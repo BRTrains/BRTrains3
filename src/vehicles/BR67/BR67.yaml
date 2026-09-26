@@ -36,17 +36,17 @@ liveries:
   # packs the source bands of gfx/BR67_v2.png at y = 13, 38, 63, 88, 113, 138, 163, 188,
   # 213 on template_train32px_old (= BRBuild's tmpl_train_8_old) in exactly this
   # sequence. Operator badges reuse the existing spellings in the set
-  # (`operator/CaledonianSleeper` as imported for the Class 92, not "... Sleeper").
+  # (`operator/Caledonian Sleeper` as imported for the Class 92, not "... Sleeper").
   - name: 'EWS Red and Gold'
     special_tags: [operator/EWS]
   - name: 'Colas Rail'
     special_tags: [operator/Colas Rail]
   - name: 'Arriva Trains Wales'
-    special_tags: [operator/Arriva Wales]
+    special_tags: [operator/Arriva Trains Wales]
   - name: 'DB Schenker'
     special_tags: [operator/DB Schenker]
   - name: 'Caledonian Sleeper'
-    special_tags: [operator/CaledonianSleeper]
+    special_tags: [operator/Caledonian Sleeper]
   - name: 'British Royal Train'
     special_tags: [operator/British Royal Train]
   - name: 'Brown Pullman'
