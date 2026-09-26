@@ -21405,3 +21405,144 @@ variants:
   strings:
     str_lu_1995_1995_6_london_underground_train_name: London Underground 1995 Stock
       - 6-Car - London Underground
+- id: 1938
+  vehicle: br_332
+  profile: 332_4car
+  livery: heathrow express silver and blue, red stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1938_br_332_332_4car_heathrow_express_silver_and_blue__red_stripe_train.gnml
+  identifier: br_332_332_4car_heathrow_express_silver_and_blue__red_stripe_train
+  name_string: str_br_332_332_4car_heathrow_express_silver_and_blue__red_stripe_train_name
+  strings:
+    str_br_332_332_4car_heathrow_express_silver_and_blue__red_stripe_train_name: Class
+      332 - 4-Car - Heathrow Express Silver and Blue Red Stripe
+- id: 1939
+  vehicle: br_332
+  profile: 332_4car
+  livery: heathrow express silver and blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1939_br_332_332_4car_heathrow_express_silver_and_blue_train.gnml
+  identifier: br_332_332_4car_heathrow_express_silver_and_blue_train
+  name_string: str_br_332_332_4car_heathrow_express_silver_and_blue_train_name
+  strings:
+    str_br_332_332_4car_heathrow_express_silver_and_blue_train_name: Class 332 - 4-Car
+      - Heathrow Express Silver and Blue
+- id: 1940
+  vehicle: br_332
+  profile: 332_4car
+  livery: heathrow express silver and purple
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1940_br_332_332_4car_heathrow_express_silver_and_purple_train.gnml
+  identifier: br_332_332_4car_heathrow_express_silver_and_purple_train
+  name_string: str_br_332_332_4car_heathrow_express_silver_and_purple_train_name
+  strings:
+    str_br_332_332_4car_heathrow_express_silver_and_purple_train_name: Class 332 -
+      4-Car - Heathrow Express Silver and Purple
+- id: 1941
+  vehicle: br_332
+  profile: 332_5car
+  livery: heathrow express silver and blue, red stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1941_br_332_332_5car_heathrow_express_silver_and_blue__red_stripe_train.gnml
+  identifier: br_332_332_5car_heathrow_express_silver_and_blue__red_stripe_train
+  name_string: str_br_332_332_5car_heathrow_express_silver_and_blue__red_stripe_train_name
+  strings:
+    str_br_332_332_5car_heathrow_express_silver_and_blue__red_stripe_train_name: Class
+      332 - 5-Car - Heathrow Express Silver and Blue Red Stripe
+- id: 1942
+  vehicle: br_332
+  profile: 332_5car
+  livery: heathrow express silver and blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1942_br_332_332_5car_heathrow_express_silver_and_blue_train.gnml
+  identifier: br_332_332_5car_heathrow_express_silver_and_blue_train
+  name_string: str_br_332_332_5car_heathrow_express_silver_and_blue_train_name
+  strings:
+    str_br_332_332_5car_heathrow_express_silver_and_blue_train_name: Class 332 - 5-Car
+      - Heathrow Express Silver and Blue
+- id: 1943
+  vehicle: br_332
+  profile: 332_5car
+  livery: heathrow express silver and purple
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1943_br_332_332_5car_heathrow_express_silver_and_purple_train.gnml
+  identifier: br_332_332_5car_heathrow_express_silver_and_purple_train
+  name_string: str_br_332_332_5car_heathrow_express_silver_and_purple_train_name
+  strings:
+    str_br_332_332_5car_heathrow_express_silver_and_purple_train_name: Class 332 -
+      5-Car - Heathrow Express Silver and Purple
