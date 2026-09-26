@@ -21969,3 +21969,141 @@ variants:
   strings:
     str_br_466_default_continental_airlines_train_name: Class 466 "Networker" - Continental
       Airlines
+- id: 1963
+  vehicle: br_360_1
+  profile: '360_1'
+  livery: first great eastern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1963_br_360_1_360_1_first_great_eastern_train.gnml
+  identifier: br_360_1_360_1_first_great_eastern_train
+  name_string: str_br_360_1_360_1_first_great_eastern_train_name
+  strings:
+    str_br_360_1_360_1_first_great_eastern_train_name: Class 360/1 "Desiro" - 4-Car
+      - First Great Eastern
+- id: 1964
+  vehicle: br_360_1
+  profile: '360_1'
+  livery: national express east anglia - blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1964_br_360_1_360_1_national_express_east_anglia___blue_train.gnml
+  identifier: br_360_1_360_1_national_express_east_anglia___blue_train
+  name_string: str_br_360_1_360_1_national_express_east_anglia___blue_train_name
+  strings:
+    str_br_360_1_360_1_national_express_east_anglia___blue_train_name: Class 360/1
+      "Desiro" - 4-Car - National Express East Anglia - Blue
+- id: 1965
+  vehicle: br_360_1
+  profile: '360_1'
+  livery: national express east anglia - grey and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1965_br_360_1_360_1_national_express_east_anglia___grey_and_white_train.gnml
+  identifier: br_360_1_360_1_national_express_east_anglia___grey_and_white_train
+  name_string: str_br_360_1_360_1_national_express_east_anglia___grey_and_white_train_name
+  strings:
+    str_br_360_1_360_1_national_express_east_anglia___grey_and_white_train_name: Class
+      360/1 "Desiro" - 4-Car - National Express East Anglia - Grey and White
+- id: 1966
+  vehicle: br_360_1
+  profile: '360_1'
+  livery: emr - blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1966_br_360_1_360_1_emr___blue_train.gnml
+  identifier: br_360_1_360_1_emr___blue_train
+  name_string: str_br_360_1_360_1_emr___blue_train_name
+  strings:
+    str_br_360_1_360_1_emr___blue_train_name: Class 360/1 "Desiro" - 4-Car - EMR -
+      Blue
+- id: 1967
+  vehicle: br_360_1
+  profile: '360_1'
+  livery: emr - maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1967_br_360_1_360_1_emr___maroon_train.gnml
+  identifier: br_360_1_360_1_emr___maroon_train
+  name_string: str_br_360_1_360_1_emr___maroon_train_name
+  strings:
+    str_br_360_1_360_1_emr___maroon_train_name: Class 360/1 "Desiro" - 4-Car - EMR
+      - Maroon
+- id: 1968
+  vehicle: br_360_1
+  profile: '360_1'
+  livery: emr - maroon with yellow cab
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1968_br_360_1_360_1_emr___maroon_with_yellow_cab_train.gnml
+  identifier: br_360_1_360_1_emr___maroon_with_yellow_cab_train
+  name_string: str_br_360_1_360_1_emr___maroon_with_yellow_cab_train_name
+  strings:
+    str_br_360_1_360_1_emr___maroon_with_yellow_cab_train_name: Class 360/1 "Desiro"
+      - 4-Car - EMR - Maroon with Yellow Cab
