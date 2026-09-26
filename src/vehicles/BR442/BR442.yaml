@@ -27,7 +27,10 @@ stats:
 cargo: passenger
 
 loading_speed: 14
-cargo_age_period: 250
+# The legacy's four articulated items each declare `cargo_age_period: 185`; only the root
+# item says 250, which reads as the same kind of one-off as the Class 450's lone 224 and is
+# not carried (see the oddities note).
+cargo_age_period: 185
 
 dates:
   introduction_date: 1988-04-21
