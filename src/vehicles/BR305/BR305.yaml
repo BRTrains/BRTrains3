@@ -1,0 +1,94 @@
+info:
+  identifier: br_305
+  # One candidate for the two legacy items the set files as one class and draws from one
+  # sheet (`gfx/BR305.png`): `item_BR305_1` 20 ("BR Class 305/1 \"AM-5\" (3-car)") and
+  # `item_BR305_2` 23 ("BR Class 305/2 \"AM-5\" (4-car)"), with one profile per formation
+  # (the Class 310 precedent — the 305/1 and 305/2 are the same body in two lengths).
+  name: 'Class 305 "AM-5"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 305
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  speed: 75
+  length: 8
+  # `item_BR305_1`'s own figure; `item_BR305_2` declares 0.08 and no per-profile field
+  # exists for it, so the 4-car profile inherits this one — recorded in the oddities file.
+  tractive_effort: 0.11
+  power_type:
+    - electric
+  # Both legacy items declare `track_type: ELRL` explicitly (25 kV overhead AC stock), so it
+  # is stated rather than left to `power_type`.
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1960-04-21
+
+profiles:
+  # `item_BR305_1` 20: a three-car unit, 800 hp / 118 t. `switch_articulated_BR305_1` adds
+  # one part at offset 1 and one at 2, and its `default:` is `sw_BR305_1_a`, so the formation
+  # reads the group's declared a, b, c rows in order.
+  #
+  # Capacity is per part, as BRBuild's callback attaches to the item every articulated part
+  # references. The legacy's three items carry 94 (driving car), 84 and 94, and the callback
+  # `return(94 * param_pax)` on the driving car / `return(84 ...)` / `return(94 ...)` matches
+  # them: one uniform per-part figure cannot express three different ones, so the driving
+  # car's declared 94 is used and the trailers' figures are recorded in the oddities file.
+  - identifier: '305_1'
+    name: '305/1'
+    num_vehicles: 3
+    capacity: 94
+    power: 800
+    weight: 118
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+      - subclass/305_1
+
+  # `item_BR305_2` 23: a four-car unit, 800 hp / 149 t. `switch_articulated_BR305_2` adds
+  # parts 1..3, `default:` `sw_BR305_2_a`, so the formation reads a, b, c, d in order.
+  # Its items carry 80 (driving car), 96, 79 and 108; the driving car's 80 is used.
+  - identifier: '305_2'
+    name: '305/2'
+    num_vehicles: 4
+    capacity: 80
+    power: 800
+    weight: 149
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/305_2
+
+liveries:
+  # `sw_BR305_cargo_subtype_text`'s cargo_subtype order 0..6, which is also the order the 49
+  # declared spritesets sit in (seven bands per livery: the 3-car's a/b/c then the 4-car's
+  # a/b/c/d). Names are the legacy's own strings (`str_BRGreen`, `str_BRBlue`,
+  # `str_BRBlueGrey`, `str_NSE`, `str_RegionalNSE`, `str_Regional`, `str_GMPTE`) under the
+  # set's naming house style; `str_BR305_1_liveries` spells the same list out in prose
+  # ("BR Green, BR Blue, BR Blue Grey, Network SouthEast, Regional Railways - Ex-NSE,
+  # Regional Railways, GMPTE").
+  #
+  # Every livery carries all seven of its bands for both formations in the source, and the
+  # legacy's sprite switches offer all seven subtypes to both items, so no livery is
+  # restricted to one profile here.
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Blue and Grey'
+    special_tags: [operator/BR]
+  - name: 'Network SouthEast'
+    special_tags: [operator/Network SouthEast]
+  - name: 'Regional Railways - Ex-NSE'
+    special_tags: [operator/Regional Railways]
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'GMPTE'
+    special_tags: [operator/GMPTE]

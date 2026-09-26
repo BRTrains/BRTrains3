@@ -20653,3 +20653,312 @@ variants:
   strings:
     str_br_mk1_bsot_br_blue_and_grey_train_name: Mk1 Coach - Brake Standard Open Mini-Buffet
       - BR Blue and Grey
+- id: 1905
+  vehicle: br_305
+  profile: '305_1'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 94
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1905_br_305_305_1_br_green_train.gnml
+  identifier: br_305_305_1_br_green_train
+  name_string: str_br_305_305_1_br_green_train_name
+  strings:
+    str_br_305_305_1_br_green_train_name: Class 305 "AM-5" - 305/1 - BR Green
+- id: 1906
+  vehicle: br_305
+  profile: '305_1'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 94
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1906_br_305_305_1_br_blue_train.gnml
+  identifier: br_305_305_1_br_blue_train
+  name_string: str_br_305_305_1_br_blue_train_name
+  strings:
+    str_br_305_305_1_br_blue_train_name: Class 305 "AM-5" - 305/1 - BR Blue
+- id: 1907
+  vehicle: br_305
+  profile: '305_1'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 94
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1907_br_305_305_1_br_blue_and_grey_train.gnml
+  identifier: br_305_305_1_br_blue_and_grey_train
+  name_string: str_br_305_305_1_br_blue_and_grey_train_name
+  strings:
+    str_br_305_305_1_br_blue_and_grey_train_name: Class 305 "AM-5" - 305/1 - BR Blue
+      and Grey
+- id: 1908
+  vehicle: br_305
+  profile: '305_1'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 94
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1908_br_305_305_1_network_southeast_train.gnml
+  identifier: br_305_305_1_network_southeast_train
+  name_string: str_br_305_305_1_network_southeast_train_name
+  strings:
+    str_br_305_305_1_network_southeast_train_name: Class 305 "AM-5" - 305/1 - Network
+      SouthEast
+- id: 1909
+  vehicle: br_305
+  profile: '305_1'
+  livery: regional railways - ex-nse
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 94
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1909_br_305_305_1_regional_railways___ex_nse_train.gnml
+  identifier: br_305_305_1_regional_railways___ex_nse_train
+  name_string: str_br_305_305_1_regional_railways___ex_nse_train_name
+  strings:
+    str_br_305_305_1_regional_railways___ex_nse_train_name: Class 305 "AM-5" - 305/1
+      - Regional Railways - Ex-NSE
+- id: 1910
+  vehicle: br_305
+  profile: '305_1'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 94
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1910_br_305_305_1_regional_railways_train.gnml
+  identifier: br_305_305_1_regional_railways_train
+  name_string: str_br_305_305_1_regional_railways_train_name
+  strings:
+    str_br_305_305_1_regional_railways_train_name: Class 305 "AM-5" - 305/1 - Regional
+      Railways
+- id: 1911
+  vehicle: br_305
+  profile: '305_1'
+  livery: gmpte
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 94
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1911_br_305_305_1_gmpte_train.gnml
+  identifier: br_305_305_1_gmpte_train
+  name_string: str_br_305_305_1_gmpte_train_name
+  strings:
+    str_br_305_305_1_gmpte_train_name: Class 305 "AM-5" - 305/1 - GMPTE
+- id: 1912
+  vehicle: br_305
+  profile: '305_2'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1912_br_305_305_2_br_green_train.gnml
+  identifier: br_305_305_2_br_green_train
+  name_string: str_br_305_305_2_br_green_train_name
+  strings:
+    str_br_305_305_2_br_green_train_name: Class 305 "AM-5" - 305/2 - BR Green
+- id: 1913
+  vehicle: br_305
+  profile: '305_2'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1913_br_305_305_2_br_blue_train.gnml
+  identifier: br_305_305_2_br_blue_train
+  name_string: str_br_305_305_2_br_blue_train_name
+  strings:
+    str_br_305_305_2_br_blue_train_name: Class 305 "AM-5" - 305/2 - BR Blue
+- id: 1914
+  vehicle: br_305
+  profile: '305_2'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1914_br_305_305_2_br_blue_and_grey_train.gnml
+  identifier: br_305_305_2_br_blue_and_grey_train
+  name_string: str_br_305_305_2_br_blue_and_grey_train_name
+  strings:
+    str_br_305_305_2_br_blue_and_grey_train_name: Class 305 "AM-5" - 305/2 - BR Blue
+      and Grey
+- id: 1915
+  vehicle: br_305
+  profile: '305_2'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1915_br_305_305_2_network_southeast_train.gnml
+  identifier: br_305_305_2_network_southeast_train
+  name_string: str_br_305_305_2_network_southeast_train_name
+  strings:
+    str_br_305_305_2_network_southeast_train_name: Class 305 "AM-5" - 305/2 - Network
+      SouthEast
+- id: 1916
+  vehicle: br_305
+  profile: '305_2'
+  livery: regional railways - ex-nse
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1916_br_305_305_2_regional_railways___ex_nse_train.gnml
+  identifier: br_305_305_2_regional_railways___ex_nse_train
+  name_string: str_br_305_305_2_regional_railways___ex_nse_train_name
+  strings:
+    str_br_305_305_2_regional_railways___ex_nse_train_name: Class 305 "AM-5" - 305/2
+      - Regional Railways - Ex-NSE
+- id: 1917
+  vehicle: br_305
+  profile: '305_2'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1917_br_305_305_2_regional_railways_train.gnml
+  identifier: br_305_305_2_regional_railways_train
+  name_string: str_br_305_305_2_regional_railways_train_name
+  strings:
+    str_br_305_305_2_regional_railways_train_name: Class 305 "AM-5" - 305/2 - Regional
+      Railways
+- id: 1918
+  vehicle: br_305
+  profile: '305_2'
+  livery: gmpte
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 80
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1918_br_305_305_2_gmpte_train.gnml
+  identifier: br_305_305_2_gmpte_train
+  name_string: str_br_305_305_2_gmpte_train_name
+  strings:
+    str_br_305_305_2_gmpte_train_name: Class 305 "AM-5" - 305/2 - GMPTE
