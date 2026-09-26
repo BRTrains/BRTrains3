@@ -23711,3 +23711,563 @@ variants:
     str_br_323_323_4_west_midlands_railway___prm_compliant_centro_train_name: '{GRAY}Class
       323 {BLACK}- {GRAY}4-Car {BLACK}- {GOLD}West Midlands Railway - PRM Compliant
       Centro'
+- id: 2024
+  vehicle: br_mk2
+  profile: so
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2024_br_mk2_so_br_blue_train.gnml
+  identifier: br_mk2_so_br_blue_train
+  name_string: str_br_mk2_so_br_blue_train_name
+  strings:
+    str_br_mk2_so_br_blue_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}BR Blue'
+- id: 2025
+  vehicle: br_mk2
+  profile: so
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2025_br_mk2_so_network_south_east_train.gnml
+  identifier: br_mk2_so_network_south_east_train
+  name_string: str_br_mk2_so_network_south_east_train_name
+  strings:
+    str_br_mk2_so_network_south_east_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F
+      Standard Class {BLACK}- {GOLD}Network South East'
+- id: 2026
+  vehicle: br_mk2
+  profile: so
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2026_br_mk2_so_regional_railways_train.gnml
+  identifier: br_mk2_so_regional_railways_train
+  name_string: str_br_mk2_so_regional_railways_train_name
+  strings:
+    str_br_mk2_so_regional_railways_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F
+      Standard Class {BLACK}- {GOLD}Regional Railways'
+- id: 2027
+  vehicle: br_mk2
+  profile: so
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2027_br_mk2_so_scotrail_train.gnml
+  identifier: br_mk2_so_scotrail_train
+  name_string: str_br_mk2_so_scotrail_train_name
+  strings:
+    str_br_mk2_so_scotrail_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}ScotRail'
+- id: 2028
+  vehicle: br_mk2
+  profile: so
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2028_br_mk2_so_anglia_train.gnml
+  identifier: br_mk2_so_anglia_train
+  name_string: str_br_mk2_so_anglia_train_name
+  strings:
+    str_br_mk2_so_anglia_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}Anglia'
+- id: 2029
+  vehicle: br_mk2
+  profile: so
+  livery: west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2029_br_mk2_so_west_coast_train.gnml
+  identifier: br_mk2_so_west_coast_train
+  name_string: str_br_mk2_so_west_coast_train_name
+  strings:
+    str_br_mk2_so_west_coast_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}West Coast'
+- id: 2030
+  vehicle: br_mk2
+  profile: so
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2030_br_mk2_so_one_train.gnml
+  identifier: br_mk2_so_one_train
+  name_string: str_br_mk2_so_one_train_name
+  strings:
+    str_br_mk2_so_one_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard Class
+      {BLACK}- {GOLD}One'
+- id: 2031
+  vehicle: br_mk2
+  profile: so
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2031_br_mk2_so_intercity_train.gnml
+  identifier: br_mk2_so_intercity_train
+  name_string: str_br_mk2_so_intercity_train_name
+  strings:
+    str_br_mk2_so_intercity_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}InterCity'
+- id: 2032
+  vehicle: br_mk2
+  profile: so
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2032_br_mk2_so_network_rail_train.gnml
+  identifier: br_mk2_so_network_rail_train
+  name_string: str_br_mk2_so_network_rail_train_name
+  strings:
+    str_br_mk2_so_network_rail_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}Network Rail'
+- id: 2033
+  vehicle: br_mk2
+  profile: so
+  livery: arriva wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2033_br_mk2_so_arriva_wales_train.gnml
+  identifier: br_mk2_so_arriva_wales_train
+  name_string: str_br_mk2_so_arriva_wales_train_name
+  strings:
+    str_br_mk2_so_arriva_wales_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}Arriva Wales'
+- id: 2034
+  vehicle: br_mk2
+  profile: so
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2034_br_mk2_so_drs_train.gnml
+  identifier: br_mk2_so_drs_train
+  name_string: str_br_mk2_so_drs_train_name
+  strings:
+    str_br_mk2_so_drs_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard Class
+      {BLACK}- {GOLD}DRS'
+- id: 2035
+  vehicle: br_mk2
+  profile: so
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2035_br_mk2_so_virgin_train.gnml
+  identifier: br_mk2_so_virgin_train
+  name_string: str_br_mk2_so_virgin_train_name
+  strings:
+    str_br_mk2_so_virgin_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}Virgin'
+- id: 2036
+  vehicle: br_mk2
+  profile: so
+  livery: fgw
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2036_br_mk2_so_fgw_train.gnml
+  identifier: br_mk2_so_fgw_train
+  name_string: str_br_mk2_so_fgw_train_name
+  strings:
+    str_br_mk2_so_fgw_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard Class
+      {BLACK}- {GOLD}FGW'
+- id: 2037
+  vehicle: br_mk2
+  profile: so
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2037_br_mk2_so_first_scotrail_train.gnml
+  identifier: br_mk2_so_first_scotrail_train
+  name_string: str_br_mk2_so_first_scotrail_train_name
+  strings:
+    str_br_mk2_so_first_scotrail_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F Standard
+      Class {BLACK}- {GOLD}First ScotRail'
+- id: 2038
+  vehicle: br_mk2
+  profile: fo
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2038_br_mk2_fo_br_blue_train.gnml
+  identifier: br_mk2_fo_br_blue_train
+  name_string: str_br_mk2_fo_br_blue_train_name
+  strings:
+    str_br_mk2_fo_br_blue_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First Class
+      {BLACK}- {GOLD}BR Blue'
+- id: 2039
+  vehicle: br_mk2
+  profile: fo
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2039_br_mk2_fo_network_south_east_train.gnml
+  identifier: br_mk2_fo_network_south_east_train
+  name_string: str_br_mk2_fo_network_south_east_train_name
+  strings:
+    str_br_mk2_fo_network_south_east_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F
+      First Class {BLACK}- {GOLD}Network South East'
+- id: 2040
+  vehicle: br_mk2
+  profile: fo
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2040_br_mk2_fo_regional_railways_train.gnml
+  identifier: br_mk2_fo_regional_railways_train
+  name_string: str_br_mk2_fo_regional_railways_train_name
+  strings:
+    str_br_mk2_fo_regional_railways_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F
+      First Class {BLACK}- {GOLD}Regional Railways'
+- id: 2041
+  vehicle: br_mk2
+  profile: fo
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2041_br_mk2_fo_scotrail_train.gnml
+  identifier: br_mk2_fo_scotrail_train
+  name_string: str_br_mk2_fo_scotrail_train_name
+  strings:
+    str_br_mk2_fo_scotrail_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First Class
+      {BLACK}- {GOLD}ScotRail'
+- id: 2042
+  vehicle: br_mk2
+  profile: fo
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2042_br_mk2_fo_anglia_train.gnml
+  identifier: br_mk2_fo_anglia_train
+  name_string: str_br_mk2_fo_anglia_train_name
+  strings:
+    str_br_mk2_fo_anglia_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First Class
+      {BLACK}- {GOLD}Anglia'
+- id: 2043
+  vehicle: br_mk2
+  profile: fo
+  livery: west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2043_br_mk2_fo_west_coast_train.gnml
+  identifier: br_mk2_fo_west_coast_train
+  name_string: str_br_mk2_fo_west_coast_train_name
+  strings:
+    str_br_mk2_fo_west_coast_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First
+      Class {BLACK}- {GOLD}West Coast'
+- id: 2044
+  vehicle: br_mk2
+  profile: fo
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2044_br_mk2_fo_one_train.gnml
+  identifier: br_mk2_fo_one_train
+  name_string: str_br_mk2_fo_one_train_name
+  strings:
+    str_br_mk2_fo_one_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First Class
+      {BLACK}- {GOLD}One'
+- id: 2045
+  vehicle: br_mk2
+  profile: fo
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2045_br_mk2_fo_intercity_train.gnml
+  identifier: br_mk2_fo_intercity_train
+  name_string: str_br_mk2_fo_intercity_train_name
+  strings:
+    str_br_mk2_fo_intercity_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First
+      Class {BLACK}- {GOLD}InterCity'
+- id: 2046
+  vehicle: br_mk2
+  profile: fo
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2046_br_mk2_fo_network_rail_train.gnml
+  identifier: br_mk2_fo_network_rail_train
+  name_string: str_br_mk2_fo_network_rail_train_name
+  strings:
+    str_br_mk2_fo_network_rail_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First
+      Class {BLACK}- {GOLD}Network Rail'
+- id: 2047
+  vehicle: br_mk2
+  profile: fo
+  livery: arriva wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2047_br_mk2_fo_arriva_wales_train.gnml
+  identifier: br_mk2_fo_arriva_wales_train
+  name_string: str_br_mk2_fo_arriva_wales_train_name
+  strings:
+    str_br_mk2_fo_arriva_wales_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First
+      Class {BLACK}- {GOLD}Arriva Wales'
+- id: 2048
+  vehicle: br_mk2
+  profile: fo
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2048_br_mk2_fo_drs_train.gnml
+  identifier: br_mk2_fo_drs_train
+  name_string: str_br_mk2_fo_drs_train_name
+  strings:
+    str_br_mk2_fo_drs_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First Class
+      {BLACK}- {GOLD}DRS'
+- id: 2049
+  vehicle: br_mk2
+  profile: fo
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2049_br_mk2_fo_virgin_train.gnml
+  identifier: br_mk2_fo_virgin_train
+  name_string: str_br_mk2_fo_virgin_train_name
+  strings:
+    str_br_mk2_fo_virgin_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First Class
+      {BLACK}- {GOLD}Virgin'
+- id: 2050
+  vehicle: br_mk2
+  profile: fo
+  livery: fgw
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2050_br_mk2_fo_fgw_train.gnml
+  identifier: br_mk2_fo_fgw_train
+  name_string: str_br_mk2_fo_fgw_train_name
+  strings:
+    str_br_mk2_fo_fgw_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First Class
+      {BLACK}- {GOLD}FGW'
+- id: 2051
+  vehicle: br_mk2
+  profile: fo
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2051_br_mk2_fo_first_scotrail_train.gnml
+  identifier: br_mk2_fo_first_scotrail_train
+  name_string: str_br_mk2_fo_first_scotrail_train_name
+  strings:
+    str_br_mk2_fo_first_scotrail_train_name: '{GRAY}Mk2 Coach {BLACK}- {GRAY}D-F First
+      Class {BLACK}- {GOLD}First ScotRail'

@@ -34,6 +34,36 @@ profiles:
       - formation/1-car
       - subclass/mk2_dbso
 
+  # The Mk2d-f SO and FO read one pair of bands per livery from BRTrains2's
+  # `gfx/Rolling Stock/Mk2/BRMk2_Late.png` (SO at y = 13 + 52i, FO 26 rows below), so the
+  # two types share one sheet of their own, `BRMk2Late.png`, packed in the allocator's
+  # order - SO's fourteen bands first, then FO's - by
+  # `BRTrains3-artwork-tools/compose_br_mk2_late_sheet.py`. Both profiles name that one
+  # sheet, so each group consumes its own single row off that sheet's cursor.
+  #
+  # The fourteenth pair (First ScotRail) is declared against `BRMk2_Buffet.png` at y=689/715
+  # - the coordinates the buffet file uses for its own RSB/RFB bands - because
+  # `BRMk2_Late.png` (700px tall) holds only thirteen pairs. The import takes the declared
+  # pixels; see the oddities file for the open question.
+  - identifier: so
+    name: 'D-F Standard Class'
+    num_vehicles: 1
+    capacity: 64
+    cargo_age_period: 185
+    spritesheet: BRMk2Late.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk2_so
+  - identifier: fo
+    name: 'D-F First Class'
+    num_vehicles: 1
+    capacity: 42
+    cargo_age_period: 250
+    spritesheet: BRMk2Late.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk2_fo
+
 liveries:
   - name: 'BR Blue'
     special_tags: [operator/BR]
