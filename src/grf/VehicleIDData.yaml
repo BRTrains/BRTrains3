@@ -22276,3 +22276,27 @@ variants:
   name_string: str_br_395_default_southeastern_train_name
   strings:
     str_br_395_default_southeastern_train_name: Class 395 "Javelin" - Southeastern
+- id: 1977
+  vehicle: br_397
+  profile: '397_5'
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1977_br_397_397_5_transpennine_express_train.gnml
+  identifier: br_397_397_5_transpennine_express_train
+  name_string: str_br_397_397_5_transpennine_express_train_name
+  strings:
+    str_br_397_397_5_transpennine_express_train_name: Class 397 "Civity" - 5-Car -
+      TransPennine Express
