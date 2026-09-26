@@ -20473,3 +20473,49 @@ variants:
   strings:
     str_br_333_default_wypte_metro_train_group_name: Class 333
     str_br_333_default_northern_train_name: Class 333 - Northern
+- id: 1850
+  vehicle: br_172_0
+  profile: '172_0'
+  livery: london overground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1850_br_172_0_172_0_london_overground_train.gnml
+  identifier: br_172_0_172_0_london_overground_train
+  name_string: str_br_172_0_172_0_london_overground_train_name
+  strings:
+    str_br_172_0_172_0_london_overground_train_name: Class 172/0 "Turbostar" - 2-Car
+      - London Overground
+    str_br_172_0_172_0_london_overground_train_group_name: Class 172/0 "Turbostar"
+      - 2-Car
+- id: 1851
+  vehicle: br_172_0
+  profile: '172_0'
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1851_br_172_0_172_0_west_midlands_railway_train.gnml
+  identifier: br_172_0_172_0_west_midlands_railway_train
+  name_string: str_br_172_0_172_0_west_midlands_railway_train_name
+  strings:
+    str_br_172_0_172_0_london_overground_train_group_name: Class 172/0 "Turbostar"
+      - 2-Car
+    str_br_172_0_172_0_west_midlands_railway_train_name: Class 172/0 "Turbostar" -
+      2-Car - West Midlands Railway

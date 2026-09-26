@@ -1,0 +1,73 @@
+info:
+  identifier: br_172_0
+  # A candidate of its own rather than a profile of `br_172` (Class 172/1): the legacy files
+  # the 172/0 as its own item (`item_BR172_0` 744) and BRTrains3 already keeps the 172/1 and
+  # the 172/2+172/3 as separate candidates, so the 172/0 follows the same shape.
+  name: 'Class 172/0 "Turbostar"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 172/0 Turbostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # BRBuild's capacity, power and weight are per-part; the legacy item
+  # (`item_BR172_0`, BRTrains2 `src/trains/diesel_mu/Turbostar/172_0.pnml`) carries the
+  # whole-consist figures. See the oddities file for the set-wide per-part question, and for
+  # the family's per-position capacity callback (`sw_Turbostar_cargo_capacity`, which returns
+  # 57 at the tail position and 50/67 elsewhere) that BRBuild's single capacity field cannot
+  # express.
+  weight: 84
+  length: 8
+  power: 960
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 195
+
+dates:
+  introduction_date: 2010-04-01
+
+profiles:
+  # The legacy `switch_articulated_BR172_0` adds one part, and its graphics switch draws the
+  # group's lead at `position_in_articulated_veh` 0, the middle drawing otherwise, and the
+  # group's tail at `position_in_articulated_veh_from_end` 0. A two-car formation draws the
+  # group's lead and tail, so its pattern is `[1, 3]`; the group still reserves the family's
+  # three rows per livery (the middle row is the one a two-car never uses).
+  - identifier: '172_0'
+    name: '2-Car'
+    num_vehicles: 2
+    capacity: 50
+    sprite_override: [1, 3]
+    special_tags:
+      - formation/2-car
+      - subclass/172_0
+
+liveries:
+  # Order is the composite's row order (`BRTrains3-artwork-tools/compose_br172_0_sheet.py`),
+  # which is the allocator's consumption order - profile-outer, livery-inner, reading this
+  # list in order. Each livery contributes three rows: front, middle, rear, in the role order
+  # the `sprite_override` pattern indexes (1 = lead, 2 = middle, 3 = tail).
+  #
+  # The roles are proved from the source sheet's own pixels, not from its physical order:
+  # on `BRTrains2/gfx/DMU/172_0_1.png` each livery block runs front (base y), rear (base+26),
+  # middle (base+52) - so the composite's middle row takes the base+52 band and its rear row
+  # the base+26 one. Measured at the end views: the base+26 band's N box equals the base
+  # band's S box (0.990) and its S box equals the base band's N box (1.000) - the two ends of
+  # one drawing - while the base+52 band's N and S boxes are identical to each other (1.000)
+  # and its cab end differs from the front car's (0.610), i.e. a cabless intermediate car.
+  # The declarations in `src/trains/diesel_mu/Turbostar/sprites/172_01.pnml` say the same
+  # (`front` base, `rear` base+26, `middle` base+52). The Class 172/1's own sheet packed this
+  # block in physical order instead, which puts the middle drawing at its tail position; that
+  # is recorded as a query in the oddities file rather than changed here.
+  #
+  # The legacy `sw_BR172_0` cargo-subtype order is 0 = London Overground, 1 = West Midlands
+  # Railway.
+  - name: 'London Overground'
+    special_tags: [operator/London Overground]
+  - name: 'West Midlands Railway'
+    special_tags: [operator/West Midlands Railway]
