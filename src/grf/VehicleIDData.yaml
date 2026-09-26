@@ -22252,3 +22252,27 @@ variants:
   strings:
     str_br_380_380_1_scotrail_saltire_train_name: Class 380 "Desiro" - 380/1 - ScotRail
       Saltire
+- id: 1976
+  vehicle: br_395
+  profile: default
+  livery: southeastern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1976_br_395_default_southeastern_train.gnml
+  identifier: br_395_default_southeastern_train
+  name_string: str_br_395_default_southeastern_train_name
+  strings:
+    str_br_395_default_southeastern_train_name: Class 395 "Javelin" - Southeastern

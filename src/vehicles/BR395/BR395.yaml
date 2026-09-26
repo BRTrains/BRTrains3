@@ -1,0 +1,67 @@
+info:
+  identifier: br_395
+  # The legacy item's own name string: `STR_NAME_BR395` =
+  # `BR Class 395 "Javelin" (6-car, Dual Voltage)` (`BRTrains2/lang/partial/train_details.plng`
+  # line 951); the parenthetical is the formation/voltage note rather than part of the name.
+  name: 'Class 395 "Javelin"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 395 Javelin
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_BR395` (77) carries the whole-unit figures (4480 hp / 265 t) and its two articulated
+  # items declare 0 hp / 0 t, so the root item's figures are copied as-is — the same
+  # whole-consist reading the other MU conversions carry.
+  weight: 265
+  length: 8
+  power: 4480
+  # `item_BR395` declares `speed: 225 km/h` (= 140 mph), and its `sw_BR395_speed` graphics
+  # callback is `tile_powers_railtype("ELRL")` -> 225 under 25 kV overhead, 160 (= 100 mph)
+  # otherwise. BRBuild has no per-rail-state speed, so the item's own property figure is what
+  # is carried (the Class 92/93 railtype-dependent-power precedent) and the 100 mph third-rail
+  # figure is recorded as a query in the oddities file. No `design_speed`: the legacy has no
+  # `param_max_speed` switch, so none was invented and no selector is emitted.
+  speed: 140
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # Both legacy items declare `track_type: [THIRD, ELRL]` — the class is dual-voltage
+  # (750 V DC third rail for the classic network, 25 kV AC for High Speed 1) — so both logical
+  # types are stated rather than derived from `power_type`, in the legacy's own order (the
+  # Class 377 dual-voltage precedent).
+  track_type:
+    - THIRD
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 14
+# All three items declare `cargo_age_period: 185`.
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2009-04-21
+
+profiles:
+  # One six-car unit. `item_BR395` (77) is position 0 and draws `sw_BR395a`;
+  # `switch_articulated_BR395` resolves positions 1..4 to `item_395b` (78, `sw_BR395b`) and
+  # position 5 to `item_395c` (79, `sw_BR395c`). The consumed sequence is therefore
+  # a, b, b, b, b, c over the composite's three rows (a = y13, b = y38, c = y63 of
+  # `BRTrains2/gfx/BR395.png`, composed by `compose_br395_sheet.py`).
+  # Capacity: the root item's callback is `return(50 * param_pax)` (already per-part); its
+  # middle item declares 60 and its trailing item 50, which BRBuild's one-item-per-candidate
+  # model cannot express — recorded as a query in the oddities file, 50 per part carried.
+  - identifier: DEFAULT
+    num_vehicles: 6
+    capacity: 50
+    sprite_override: [1, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/6-car
+      - subclass/395
+
+liveries:
+  # `sw_BR395_cargo_subtype_text` has one entry, subtype 0 = `str_Southeastern`
+  # "(Southeastern)"; the legacy's own `str_BR395_liveries` list agrees ("Southeastern").
+  - name: 'Southeastern'
+    special_tags: [operator/Southeastern]
