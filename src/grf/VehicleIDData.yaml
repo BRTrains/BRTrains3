@@ -20775,3 +20775,179 @@ variants:
   strings:
     str_br_484_default_island_line_train_group_name: Class 484 LU D Stock
     str_br_484_default_vivarail_train_name: Class 484 LU D Stock - VivaRail
+- id: 1864
+  vehicle: lms_jubilee
+  profile: default
+  livery: lms red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1864_lms_jubilee_default_lms_red_train.gnml
+  identifier: lms_jubilee_default_lms_red_train
+  name_string: str_lms_jubilee_default_lms_red_train_name
+  strings:
+    str_lms_jubilee_default_lms_red_train_name: LMS Stanier Jubilee Class 4-6-0 -
+      LMS Red
+    str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
+- id: 1865
+  vehicle: lms_jubilee
+  profile: default
+  livery: lms black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1865_lms_jubilee_default_lms_black_train.gnml
+  identifier: lms_jubilee_default_lms_black_train
+  name_string: str_lms_jubilee_default_lms_black_train_name
+  strings:
+    str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
+    str_lms_jubilee_default_lms_black_train_name: LMS Stanier Jubilee Class 4-6-0
+      - LMS Black
+- id: 1866
+  vehicle: lms_jubilee
+  profile: default
+  livery: br transitional red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1866_lms_jubilee_default_br_transitional_red_train.gnml
+  identifier: lms_jubilee_default_br_transitional_red_train
+  name_string: str_lms_jubilee_default_br_transitional_red_train_name
+  strings:
+    str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
+    str_lms_jubilee_default_br_transitional_red_train_name: LMS Stanier Jubilee Class
+      4-6-0 - BR Transitional Red
+- id: 1867
+  vehicle: lms_jubilee
+  profile: default
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1867_lms_jubilee_default_br_maroon_train.gnml
+  identifier: lms_jubilee_default_br_maroon_train
+  name_string: str_lms_jubilee_default_br_maroon_train_name
+  strings:
+    str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
+    str_lms_jubilee_default_br_maroon_train_name: LMS Stanier Jubilee Class 4-6-0
+      - BR Maroon
+- id: 1868
+  vehicle: lms_jubilee
+  profile: default
+  livery: br black (lion and wheel)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1868_lms_jubilee_default_br_black__lion_and_wheel__train.gnml
+  identifier: lms_jubilee_default_br_black__lion_and_wheel__train
+  name_string: str_lms_jubilee_default_br_black__lion_and_wheel__train_name
+  strings:
+    str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
+    str_lms_jubilee_default_br_black__lion_and_wheel__train_name: LMS Stanier Jubilee
+      Class 4-6-0 - BR Black Lion and Wheel
+- id: 1869
+  vehicle: lms_jubilee
+  profile: default
+  livery: br black (emblem)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1869_lms_jubilee_default_br_black__emblem__train.gnml
+  identifier: lms_jubilee_default_br_black__emblem__train
+  name_string: str_lms_jubilee_default_br_black__emblem__train_name
+  strings:
+    str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
+    str_lms_jubilee_default_br_black__emblem__train_name: LMS Stanier Jubilee Class
+      4-6-0 - BR Black Emblem
+- id: 1870
+  vehicle: lms_jubilee
+  profile: default
+  livery: br brunswick green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1870_lms_jubilee_default_br_brunswick_green_train.gnml
+  identifier: lms_jubilee_default_br_brunswick_green_train
+  name_string: str_lms_jubilee_default_br_brunswick_green_train_name
+  strings:
+    str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
+    str_lms_jubilee_default_br_brunswick_green_train_name: LMS Stanier Jubilee Class
+      4-6-0 - BR Brunswick Green
+- id: 1871
+  vehicle: lms_jubilee
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/1871_lms_jubilee_default_br_blue_train.gnml
+  identifier: lms_jubilee_default_br_blue_train
+  name_string: str_lms_jubilee_default_br_blue_train_name
+  strings:
+    str_lms_jubilee_default_lms_red_train_group_name: LMS Stanier Jubilee Class 4-6-0
+    str_lms_jubilee_default_br_blue_train_name: LMS Stanier Jubilee Class 4-6-0 -
+      BR Blue
