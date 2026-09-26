@@ -21308,3 +21308,75 @@ variants:
   name_string: str_br_331_331_1_northern_train_name
   strings:
     str_br_331_331_1_northern_train_name: Class 331 "Civity" - 331/1 - Northern
+- id: 1934
+  vehicle: br_444
+  profile: default
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1934_br_444_default_south_west_trains_train.gnml
+  identifier: br_444_default_south_west_trains_train
+  name_string: str_br_444_default_south_west_trains_train_name
+  strings:
+    str_br_444_default_south_west_trains_train_name: Class 444 "Desiro" - South West
+      Trains
+- id: 1935
+  vehicle: br_444
+  profile: default
+  livery: south western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1935_br_444_default_south_western_railway_train.gnml
+  identifier: br_444_default_south_western_railway_train
+  name_string: str_br_444_default_south_western_railway_train_name
+  strings:
+    str_br_444_default_south_western_railway_train_name: Class 444 "Desiro" - South
+      Western Railway
+- id: 1936
+  vehicle: br_444
+  profile: default
+  livery: south western railway - pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1936_br_444_default_south_western_railway___pride_train.gnml
+  identifier: br_444_default_south_western_railway___pride_train
+  name_string: str_br_444_default_south_western_railway___pride_train_name
+  strings:
+    str_br_444_default_south_western_railway___pride_train_name: Class 444 "Desiro"
+      - South Western Railway - Pride

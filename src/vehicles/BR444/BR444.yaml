@@ -1,0 +1,77 @@
+info:
+  identifier: br_444
+  name: 'Class 444 "Desiro"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 444 Desiro
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 227
+  length: 8
+  power: 2700
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # `item_BR444`, `item_444b` and `item_444c` all declare `track_type: THIRD` (750 V DC
+  # third rail, no overhead equipment), so the logical type is stated rather than left to
+  # the classifier's `power_type` default, which would give this DC unit `ELRL`.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 14
+# The root item `item_BR444` declares 224 while both articulated items (`item_444b` 185,
+# `item_444c` 185) agree on 185; the lone root figure is the same one-off pattern the
+# Class 442's root 250 was, so the figure the rest of the unit states is used. See the
+# oddities entry.
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2004-04-21
+
+profiles:
+  # One five-car formation: the legacy root item `item_BR444` (74) plus
+  # `switch_articulated_BR444`'s parts 1..3 (all `item_444b`, 75) and part 4 (`item_444c`,
+  # 76), so the consist is position 0 (the `sw_BR444a` drawing, the leading car), three
+  # middle cars (`sw_BR444b`) and position 4 (`sw_BR444c`, the trailing car). Each
+  # (profile, livery) group therefore consumes three rows -- front, middle, rear -- and the
+  # pattern over them is [1, 2, 2, 2, 3]. The composite that packs those rows
+  # (BRTrains3-artwork-tools/compose_br444_sheet.py) has the ROWS table.
+  - identifier: DEFAULT
+    num_vehicles: 5
+    # `item_BR444`'s callback is `return(62 * param_pax)` -- already per part, so it is
+    # copied as-is (BRBuild's `capacity` is the per-part value: 5 x 62 = 310 in game).
+    # The legacy's other two items carry their own figures instead (`item_444b` 70,
+    # `item_444c` 62), and the legacy consist total was 62 + 70 + 70 + 70 + 62 = 334; a
+    # uniform per-part model cannot express that, because the capacity callback sits on the
+    # single item every articulated part references. See the oddities entry.
+    capacity: 62
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/444
+
+# Names from BRTrains2's `sw_BR444_cargo_subtype_text` (case order 0..2), expanded through
+# `lang/partial/livery_prebuilt_strings.plng`: `str_SWT` "South West Trains", `str_SWR`
+# "South Western Railway", `str_SWRPride` "South Western Railway - Pride". That case order
+# is the YAML livery order, and the composite packs the row triples in it.
+#   * the legacy `str_BR444_liveries` list is stale -- it names only "South West Trains"
+#     and omits both later liveries, so it was not used (the same staleness the Class 159's
+#     list has);
+#   * the Pride livery is an SWR vinyl wrap on the two driving cars only: its middle-car
+#     drawings (sheet bands y=225 and y=250) are pixel-identical to the standard South
+#     Western Railway middle bands (y=125 and y=150), which is why all three liveries still
+#     need their own row triple.
+#   * `South Western Railway - Pride` is a livery of the operating organisation, not a
+#     different one, so it carries the South Western Railway badge alone (judgement call,
+#     recorded in the oddities entry).
+liveries:
+  - name: 'South West Trains'
+    special_tags: [operator/South West Trains]
+  - name: 'South Western Railway'
+    special_tags: [operator/South Western Railway]
+  - name: 'South Western Railway - Pride'
+    special_tags: [operator/South Western Railway]
