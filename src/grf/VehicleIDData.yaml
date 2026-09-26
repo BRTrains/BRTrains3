@@ -20519,3 +20519,113 @@ variants:
       - 2-Car
     str_br_172_0_172_0_west_midlands_railway_train_name: Class 172/0 "Turbostar" -
       2-Car - West Midlands Railway
+- id: 1852
+  vehicle: br_mk1
+  profile: bsk
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1852_br_mk1_bsk_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bsk_br_carmine_and_cream_train
+  name_string: str_br_mk1_bsk_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_bsk_br_carmine_and_cream_train_name: Mk1 Coach - Brake Standard Corridor
+      - BR Carmine and Cream
+    str_br_mk1_bsk_br_carmine_and_cream_train_group_name: Mk1 Coach - Brake Standard
+      Corridor
+- id: 1853
+  vehicle: br_mk1
+  profile: bsk
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1853_br_mk1_bsk_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bsk_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bsk_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_bsk_br_carmine_and_cream_train_group_name: Mk1 Coach - Brake Standard
+      Corridor
+    str_br_mk1_bsk_br_chocolate_and_cream_train_name: Mk1 Coach - Brake Standard Corridor
+      - BR Chocolate and Cream
+- id: 1854
+  vehicle: br_mk1
+  profile: bsk
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1854_br_mk1_bsk_br_malachite_green_train.gnml
+  identifier: br_mk1_bsk_br_malachite_green_train
+  name_string: str_br_mk1_bsk_br_malachite_green_train_name
+  strings:
+    str_br_mk1_bsk_br_carmine_and_cream_train_group_name: Mk1 Coach - Brake Standard
+      Corridor
+    str_br_mk1_bsk_br_malachite_green_train_name: Mk1 Coach - Brake Standard Corridor
+      - BR Malachite Green
+- id: 1855
+  vehicle: br_mk1
+  profile: bsk
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1855_br_mk1_bsk_br_maroon_train.gnml
+  identifier: br_mk1_bsk_br_maroon_train
+  name_string: str_br_mk1_bsk_br_maroon_train_name
+  strings:
+    str_br_mk1_bsk_br_carmine_and_cream_train_group_name: Mk1 Coach - Brake Standard
+      Corridor
+    str_br_mk1_bsk_br_maroon_train_name: Mk1 Coach - Brake Standard Corridor - BR
+      Maroon
+- id: 1856
+  vehicle: br_mk1
+  profile: bsk
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1856_br_mk1_bsk_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bsk_br_blue_and_grey_train
+  name_string: str_br_mk1_bsk_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_bsk_br_carmine_and_cream_train_group_name: Mk1 Coach - Brake Standard
+      Corridor
+    str_br_mk1_bsk_br_blue_and_grey_train_name: Mk1 Coach - Brake Standard Corridor
+      - BR Blue and Grey
