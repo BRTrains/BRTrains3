@@ -96,6 +96,24 @@ profiles:
       - formation/1-car
       - subclass/mk1_fo
 
+  # The First Corridor reads y=52 of the five per-livery family sheets, per
+  # `spriteset_BRMk1FK_*` in BRTrains2
+  # `src/trains/rolling_stock/BR/Mk1/sprites/Mk1FK.pnml` (all five at
+  # `template_train32px(0, 52)`; the switch `sw_BRMk1FK` reads them in the shared
+  # `sw_BRMk1_cargo_subtype_text` order 0..4), so it keeps a sheet of its own,
+  # `BRMk1FK.png`, composed by `BRTrains3-artwork-tools/compose_br_mk1_type_sheet.py 52`.
+  # y=52 is read by no other Mk1 type.
+  - identifier: fk
+    name: 'First Corridor'
+    num_vehicles: 1
+    capacity: 42
+    weight: 32
+    introduction_date: 1951-04-21
+    spritesheet: BRMk1FK.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk1_fk
+
 liveries:
   # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BRMk1TSO, cargo_subtype)` (0..4),
   # which is also `sw_BRMk1_cargo_subtype_text`'s order and the composite's row order.
