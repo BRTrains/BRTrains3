@@ -1,0 +1,83 @@
+info:
+  identifier: br_423
+  # One candidate for the legacy `item_BR423` 347 ("BR Class 423 \"4-VEP\""), drawn on
+  # `gfx/BR423.png`. The same legacy file also holds `item_BR423_9` 351 ("BR Class 423/9
+  # \"4-VOP\"") and the Class 480 (8-VAB) items, which are not part of this candidate - see
+  # the oddities entry.
+  name: 'Class 423 "4-VEP"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 423
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # The legacy root item's own figures (whole-unit values); its three articulated parts
+  # declare the same 90 mph except `item_BR423_d`, which says 75 - recorded in the oddities
+  # file rather than applied as a per-profile override that the root item does not support.
+  speed: 90
+  length: 8
+  power: 1000
+  weight: 158
+  tractive_effort: 0.08
+  power_type:
+    - electric
+  # Both driving items declare `track_type: THIRD` explicitly (750 V DC third rail), so it is
+  # stated rather than resolved from `power_type`.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1967-04-21
+
+profiles:
+  # One four-car formation. `switch_articulated_BR423` returns `item_BR423_b` at offset 1,
+  # `_c` at 2 and `_d` at 3, and the root item's `default:` is `sw_BR423_a`, so the consist
+  # reads the group's declared a, b, c, d rows in order and `sprite_override` is [1, 2, 3, 4].
+  #
+  # Capacity is per part, because BRBuild's callback sits on the item every articulated part
+  # references. The legacy callbacks are `return(62 * param_pax)` (driving cars) / `58` /
+  # `98` - one uniform figure cannot express three different ones, so the driving car's 62 is
+  # used (in game 248 for the 4-car against the legacy's 280); recorded in the oddities file.
+  - identifier: DEFAULT
+    num_vehicles: 4
+    capacity: 62
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/423
+
+# `sw_BR423_cargo_subtype_text` order 0..7, which is also the physical order of the sheet's
+# eight four-band blocks, so the composite (`compose_br423_sheet.py`) is a straight band
+# re-stack. Names are the legacy's own strings under the set's naming house style:
+# `str_BRBlue` "(BR - Blue)", `str_BRBlueYellow` "(BR - Blue, Yellow Front)", `str_BRBlueGrey`
+# "(BR - Blue Grey)", `str_NSE` "(Network South East)", `str_SWT` "(South West Trains)",
+# `str_Connex` "(Connex)", `str_Southern` "(Southern)", `str_SWTHeritage` "(South West Trains -
+# Heritage)".
+#
+# Each block was checked against its own pixels: blue end cars with no warning panel; the same
+# drawing with a small (252,212,0) yellow panel on its two end cars only; a grey body with a
+# blue band; NSE blue with red; SWT blue-grey with red and orange; a Connex yellow/orange body;
+# a Southern light green; and a plain deeper blue. The last one is the only livery whose name
+# rests on the legacy string alone - see the oddities file.
+liveries:
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Blue (Yellow Front)'
+    special_tags: [operator/BR]
+  - name: 'BR Blue and Grey'
+    special_tags: [operator/BR]
+  - name: 'Network South East'
+    special_tags: [operator/Network SouthEast]
+  - name: 'South West Trains'
+    special_tags: [operator/South West Trains]
+  - name: 'Connex'
+    special_tags: [operator/Connex]
+  - name: 'Southern'
+    special_tags: [operator/Southern]
+  - name: 'South West Trains - Heritage'
+    special_tags: [operator/South West Trains]

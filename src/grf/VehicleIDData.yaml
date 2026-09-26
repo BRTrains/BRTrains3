@@ -22300,3 +22300,184 @@ variants:
   strings:
     str_br_397_397_5_transpennine_express_train_name: Class 397 "Civity" - 5-Car -
       TransPennine Express
+- id: 1978
+  vehicle: br_423
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1978_br_423_default_br_blue_train.gnml
+  identifier: br_423_default_br_blue_train
+  name_string: str_br_423_default_br_blue_train_name
+  strings:
+    str_br_423_default_br_blue_train_name: Class 423 "4-VEP" - BR Blue
+- id: 1979
+  vehicle: br_423
+  profile: default
+  livery: br blue (yellow front)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1979_br_423_default_br_blue__yellow_front__train.gnml
+  identifier: br_423_default_br_blue__yellow_front__train
+  name_string: str_br_423_default_br_blue__yellow_front__train_name
+  strings:
+    str_br_423_default_br_blue__yellow_front__train_name: Class 423 "4-VEP" - BR Blue
+      Yellow Front
+- id: 1980
+  vehicle: br_423
+  profile: default
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1980_br_423_default_br_blue_and_grey_train.gnml
+  identifier: br_423_default_br_blue_and_grey_train
+  name_string: str_br_423_default_br_blue_and_grey_train_name
+  strings:
+    str_br_423_default_br_blue_and_grey_train_name: Class 423 "4-VEP" - BR Blue and
+      Grey
+- id: 1981
+  vehicle: br_423
+  profile: default
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1981_br_423_default_network_south_east_train.gnml
+  identifier: br_423_default_network_south_east_train
+  name_string: str_br_423_default_network_south_east_train_name
+  strings:
+    str_br_423_default_network_south_east_train_name: Class 423 "4-VEP" - Network
+      South East
+- id: 1982
+  vehicle: br_423
+  profile: default
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1982_br_423_default_south_west_trains_train.gnml
+  identifier: br_423_default_south_west_trains_train
+  name_string: str_br_423_default_south_west_trains_train_name
+  strings:
+    str_br_423_default_south_west_trains_train_name: Class 423 "4-VEP" - South West
+      Trains
+- id: 1983
+  vehicle: br_423
+  profile: default
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1983_br_423_default_connex_train.gnml
+  identifier: br_423_default_connex_train
+  name_string: str_br_423_default_connex_train_name
+  strings:
+    str_br_423_default_connex_train_name: Class 423 "4-VEP" - Connex
+- id: 1984
+  vehicle: br_423
+  profile: default
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1984_br_423_default_southern_train.gnml
+  identifier: br_423_default_southern_train
+  name_string: str_br_423_default_southern_train_name
+  strings:
+    str_br_423_default_southern_train_name: Class 423 "4-VEP" - Southern
+- id: 1985
+  vehicle: br_423
+  profile: default
+  livery: south west trains - heritage
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1985_br_423_default_south_west_trains___heritage_train.gnml
+  identifier: br_423_default_south_west_trains___heritage_train
+  name_string: str_br_423_default_south_west_trains___heritage_train_name
+  strings:
+    str_br_423_default_south_west_trains___heritage_train_name: Class 423 "4-VEP"
+      - South West Trains - Heritage
