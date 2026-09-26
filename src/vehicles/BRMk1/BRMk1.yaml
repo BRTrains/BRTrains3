@@ -140,6 +140,24 @@ profiles:
       - formation/1-car
       - subclass/mk1_fk
 
+  # The Brake Composite Corridor reads y=130 of the five per-livery family sheets, per
+  # `spriteset_BRMk1BCK_*` in BRTrains2
+  # `src/trains/rolling_stock/BR/Mk1/sprites/Mk1BCK.pnml` (all five at
+  # `template_train32px(0, 130)`; the switch `sw_BRMk1BCK` reads them in the shared
+  # `sw_BRMk1_cargo_subtype_text` order 0..4), so it keeps a sheet of its own,
+  # `BRMk1BCK.png`, composed by `BRTrains3-artwork-tools/compose_br_mk1_type_sheet.py 130`.
+  # y=130 is read by no other Mk1 type.
+  - identifier: bck
+    name: 'Brake Composite Corridor'
+    num_vehicles: 1
+    capacity: 24
+    weight: 36
+    introduction_date: 1952-04-21
+    spritesheet: BRMk1BCK.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk1_bck
+
 liveries:
   # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BRMk1TSO, cargo_subtype)` (0..4),
   # which is also `sw_BRMk1_cargo_subtype_text`'s order and the composite's row order.

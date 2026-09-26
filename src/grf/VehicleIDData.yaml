@@ -22107,3 +22107,103 @@ variants:
   strings:
     str_br_360_1_360_1_emr___maroon_with_yellow_cab_train_name: Class 360/1 "Desiro"
       - 4-Car - EMR - Maroon with Yellow Cab
+- id: 1969
+  vehicle: br_mk1
+  profile: bck
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1969_br_mk1_bck_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bck_br_carmine_and_cream_train
+  name_string: str_br_mk1_bck_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_bck_br_carmine_and_cream_train_name: Mk1 Coach - Brake Composite Corridor
+      - BR Carmine and Cream
+- id: 1970
+  vehicle: br_mk1
+  profile: bck
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1970_br_mk1_bck_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bck_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bck_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_bck_br_chocolate_and_cream_train_name: Mk1 Coach - Brake Composite
+      Corridor - BR Chocolate and Cream
+- id: 1971
+  vehicle: br_mk1
+  profile: bck
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1971_br_mk1_bck_br_malachite_green_train.gnml
+  identifier: br_mk1_bck_br_malachite_green_train
+  name_string: str_br_mk1_bck_br_malachite_green_train_name
+  strings:
+    str_br_mk1_bck_br_malachite_green_train_name: Mk1 Coach - Brake Composite Corridor
+      - BR Malachite Green
+- id: 1972
+  vehicle: br_mk1
+  profile: bck
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1972_br_mk1_bck_br_maroon_train.gnml
+  identifier: br_mk1_bck_br_maroon_train
+  name_string: str_br_mk1_bck_br_maroon_train_name
+  strings:
+    str_br_mk1_bck_br_maroon_train_name: Mk1 Coach - Brake Composite Corridor - BR
+      Maroon
+- id: 1973
+  vehicle: br_mk1
+  profile: bck
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1973_br_mk1_bck_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bck_br_blue_and_grey_train
+  name_string: str_br_mk1_bck_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_bck_br_blue_and_grey_train_name: Mk1 Coach - Brake Composite Corridor
+      - BR Blue and Grey
