@@ -1,0 +1,114 @@
+info:
+  identifier: br_458
+  name: Class 458 "Juniper"
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 458
+
+# Figures are the legacy items' own (BRTrains2/src/trains/electric_mu/458-0.pnml,
+# 458-4_4car.pnml and 458-5_5car.pnml). The three formations disagree on speed: `item_BR458_0`
+# and `item_br458_4car` both declare 100 mph while `item_br458_5car` declares 75 mph, which is
+# the same unit as the /4 (see the oddities entry) -- the 100 mph figure the majority of the
+# class states is used, and there is no `param_max_speed` switch in any of the three files, so
+# no `design_speed` is emitted.
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 170
+  length: 8
+  power: 2172
+  speed: 100
+  tractive_effort: 0.06
+  power_type:
+    - electric
+  # All three items declare `track_type: THIRD` (750 V DC third rail), stated rather than left
+  # to the classifier's `power_type` default, which would give this DC unit `ELRL`.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1999-04-21
+
+profiles:
+  # The original four-car formation: `item_BR458_0` (332) plus `switch_articulated_BR458_0`'s
+  # parts 1..3, all `item_BR458_0`, and `sw_BR458` (`position_in_consist % 4`) reading
+  # front (y=13), middle (y=39), middle_pantowell (y=65) and rear (y=91) on
+  # `gfx/EMU/458_0.png`). The sheet is `BR458.png`, the candidate's own, which also carries the
+  # /4 and /5 rows because BRBuild's multi-sheet ingest can only publish one sheet per
+  # candidate per build (see the compositor and the oddities entry).
+  - identifier: '458_0'
+    name: 4-Car (original)
+    num_vehicles: 4
+    # `item_BR458_0`'s callback is `return((220/4) * param_pax)` -- already per part, so 55 is
+    # copied as-is (4 x 55 = 220 in game).
+    capacity: 55
+    power: 2172
+    weight: 170
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/458_0
+
+  # The 2013-2016 five-car conversion: `item_br458_5car` (634) plus
+  # `switch_br458_5car_articulated`'s parts 1..4, all `item_br458_5car`, reading
+  # `switch_br458_5car_swt` / `_swr` (`position_in_articulated_veh % 5`): position 0 front,
+  # 1-3 middle, 4 rear -- so [1, 2, 2, 2, 3] over a three-row group (front, middle, rear).
+  - identifier: '458_5'
+    name: 5-Car
+    num_vehicles: 5
+    # `item_br458_5car`'s callback is `return(286/5 * param_pax)` -- already per part, so 57 is
+    # copied (5 x 57 = 285 in game). `item_br458_5car`'s own `cargo_capacity` property says 270,
+    # i.e. 54 per part; the callback is what the games reads (see the oddities entry).
+    capacity: 57
+    power: 2400
+    weight: 210
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/458_5
+
+  # The '458/4' formation: `item_br458_4car` (633) plus its articulated parts. It is the same
+  # four-car consist as this unit's /5 form and reads the same three drawings, so it reuses the
+  # /5 rows through `sprite_group` and needs no rows of its own. Declared after `'458_5'` so
+  # the rows it borrows exist whatever order the variants are iterated in.
+  - identifier: '458_4'
+    name: 4-Car
+    num_vehicles: 4
+    # `item_br458_4car`'s callback is `return(286/5 * param_pax)` -- the *five*-car figure on a
+    # four-car item, so the class's 4-car formations read 228 in game where the legacy property
+    # says 220 (see the oddities entry).
+    capacity: 57
+    power: 2400
+    weight: 210
+    sprite_group: '458_5'
+    sprite_override: [1, 2, 2, 3]
+    special_tags:
+      - formation/4-car
+      - subclass/458_4
+
+# Names come from `sw_BR458_cargo_subtype_text` (`str_SWT` "South West Trains", `str_SWR`
+# "South Western Railway") and `sw_BR458_5car`'s second case, which reuses the Class 360/2's
+# `str_HeathrowExpressPurple` -- that is a legacy lang-file mistake, not a 458 livery, so the
+# SWR vinyl-wrap livery the sheet's swr triple draws is named after the class's own
+# `str_SWRPride` ("South Western Railway - Pride"), which `br_444` already uses for the same
+# operator's wrap (see the oddities entry).
+#
+# The livery groups consume rows in this order, which is also the order they are packed in:
+#   BR458.png    SWT (four rows: front, middle, middle_pantowell, rear)
+#   458_45.png   SWT (three rows) then SWR (three rows)
+# `South West Trains` is restricted to the /0 profile because its artwork is a different sheet
+# from the /4 and /5 post-refurbishment SWT drawings.
+liveries:
+  - name: 'South West Trains'
+    profiles: ['458_0']
+    special_tags: [operator/South West Trains]
+  - name: 'South West Trains'
+    profiles: ['458_4', '458_5']
+    special_tags: [operator/South West Trains]
+  - name: 'South Western Railway - Pride'
+    profiles: ['458_4', '458_5']
+    special_tags: [operator/South Western Railway]

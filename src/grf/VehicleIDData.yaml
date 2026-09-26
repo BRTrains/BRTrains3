@@ -21546,3 +21546,120 @@ variants:
   strings:
     str_br_332_332_5car_heathrow_express_silver_and_purple_train_name: Class 332 -
       5-Car - Heathrow Express Silver and Purple
+- id: 1944
+  vehicle: br_458
+  profile: '458_0'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 55
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1944_br_458_458_0_south_west_trains_train.gnml
+  identifier: br_458_458_0_south_west_trains_train
+  name_string: str_br_458_458_0_south_west_trains_train_name
+  strings:
+    str_br_458_458_0_south_west_trains_train_name: Class 458 "Juniper" - 4-Car original
+      - South West Trains
+- id: 1945
+  vehicle: br_458
+  profile: '458_5'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1945_br_458_458_5_south_west_trains_train.gnml
+  identifier: br_458_458_5_south_west_trains_train
+  name_string: str_br_458_458_5_south_west_trains_train_name
+  strings:
+    str_br_458_458_5_south_west_trains_train_name: Class 458 "Juniper" - 5-Car - South
+      West Trains
+- id: 1946
+  vehicle: br_458
+  profile: '458_5'
+  livery: south western railway - pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1946_br_458_458_5_south_western_railway___pride_train.gnml
+  identifier: br_458_458_5_south_western_railway___pride_train
+  name_string: str_br_458_458_5_south_western_railway___pride_train_name
+  strings:
+    str_br_458_458_5_south_western_railway___pride_train_name: Class 458 "Juniper"
+      - 5-Car - South Western Railway - Pride
+- id: 1947
+  vehicle: br_458
+  profile: '458_4'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1947_br_458_458_4_south_west_trains_train.gnml
+  identifier: br_458_458_4_south_west_trains_train
+  name_string: str_br_458_458_4_south_west_trains_train_name
+  strings:
+    str_br_458_458_4_south_west_trains_train_name: Class 458 "Juniper" - 4-Car - South
+      West Trains
+- id: 1948
+  vehicle: br_458
+  profile: '458_4'
+  livery: south western railway - pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1948_br_458_458_4_south_western_railway___pride_train.gnml
+  identifier: br_458_458_4_south_western_railway___pride_train
+  name_string: str_br_458_458_4_south_western_railway___pride_train_name
+  strings:
+    str_br_458_458_4_south_western_railway___pride_train_name: Class 458 "Juniper"
+      - 4-Car - South Western Railway - Pride
