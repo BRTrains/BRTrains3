@@ -30645,3 +30645,54 @@ variants:
   strings:
     str_br_415_1_415_1_network_southeast_train_name: Class 415/1 "4-EPB" - {SILVER}4-Car{BLACK}
       - {GOLD}Network SouthEast
+- id: 2334
+  vehicle: br_807
+  profile: default
+  livery: avanti west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2334_br_807_default_avanti_west_coast_train.gnml
+  identifier: br_807_default_avanti_west_coast_train
+  name_string: str_br_807_default_avanti_west_coast_train_name
+  strings:
+    str_br_807_default_avanti_west_coast_train_name: Class 807 - {GOLD}Avanti West
+      Coast
+- id: 2335
+  vehicle: br_807
+  profile: default
+  livery: hitachi - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2335_br_807_default_hitachi___white_train.gnml
+  identifier: br_807_default_hitachi___white_train
+  name_string: str_br_807_default_hitachi___white_train_name
+  strings:
+    str_br_807_default_hitachi___white_train_name: Class 807 - {GOLD}Hitachi - White
