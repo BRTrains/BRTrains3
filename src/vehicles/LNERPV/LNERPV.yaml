@@ -1,0 +1,43 @@
+info:
+  identifier: lner_gresley_pv
+  name: 'LNER Gresley PV'
+  sub_name: Parcels van
+  based_on: 'LNER Gresley Parcel Van'
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 35
+  length: 7
+  power: 0
+  speed: 90
+  tractive_effort: 0
+
+# The legacy item is mail-only (`cargo_allow_refit: [MAIL]`, `default_cargo_type: MAIL`), so
+# the preset that means exactly that class is the right one here - not `parcels`, which also
+# admits express and armoured.
+cargo: mail
+loading_speed: 10
+
+dates:
+  # The legacy `item_LNERPV` (9) declares `date(1840,4,21)` - carried verbatim, as for the
+  # sibling LNER teak coaches; see the oddities entry.
+  introduction_date: 1840-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 20
+    special_tags:
+      - formation/1-car
+      - subclass/gresley_pv
+
+liveries:
+  # `sw_LNERPV` subtype order 0..2, named from the item's own list string
+  # (`str_LNERPV_liveries` = "GNR/LNER Teak, BR Maroon, BR Carmine and Cream").
+  - name: 'LNER Teak'
+    special_tags: [operator/LNER]
+  - name: 'BR Maroon'
+    special_tags: [operator/BR]
+  - name: 'BR Carmine and Cream'
+    special_tags: [operator/BR]

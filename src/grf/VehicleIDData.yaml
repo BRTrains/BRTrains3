@@ -30167,3 +30167,62 @@ variants:
   strings:
     str_lner_gresley_tk_default_br_carmine_and_cream_train_name: LNER Gresley TK -
       {GOLD}BR Carmine and Cream
+- id: 2312
+  vehicle: lner_gresley_pv
+  profile: default
+  livery: lner teak
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 20
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2312_lner_gresley_pv_default_lner_teak_train.gnml
+  identifier: lner_gresley_pv_default_lner_teak_train
+  name_string: str_lner_gresley_pv_default_lner_teak_train_name
+  strings:
+    str_lner_gresley_pv_default_lner_teak_train_name: LNER Gresley PV - {GOLD}LNER
+      Teak
+- id: 2313
+  vehicle: lner_gresley_pv
+  profile: default
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 20
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2313_lner_gresley_pv_default_br_maroon_train.gnml
+  identifier: lner_gresley_pv_default_br_maroon_train
+  name_string: str_lner_gresley_pv_default_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_name: LNER Gresley PV - {GOLD}BR Maroon
+- id: 2314
+  vehicle: lner_gresley_pv
+  profile: default
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 20
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2314_lner_gresley_pv_default_br_carmine_and_cream_train.gnml
+  identifier: lner_gresley_pv_default_br_carmine_and_cream_train
+  name_string: str_lner_gresley_pv_default_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_name: LNER Gresley PV -
+      {GOLD}BR Carmine and Cream
