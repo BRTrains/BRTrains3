@@ -1,0 +1,40 @@
+info:
+  identifier: lner_gresley_tk
+  name: 'LNER Gresley TK'
+  sub_name: Passenger coach
+  based_on: 'LNER Gresley Third Corridor'
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 35
+  length: 7
+  power: 0
+  speed: 90
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 10
+
+dates:
+  # The legacy `item_LNERTK` (8) declares `date(1840,4,21)` - carried verbatim, as for the
+  # sibling LNER teak coaches; see the oddities entry.
+  introduction_date: 1840-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 56
+    special_tags:
+      - formation/1-car
+      - subclass/gresley_tk
+
+liveries:
+  # `sw_LNERTK` subtype order 0..2, named from the item's own list string
+  # (`str_LNERTK_liveries` = "LNER Teak, BR Maroon, BR Carmine and Cream").
+  - name: 'LNER Teak'
+    special_tags: [operator/LNER]
+  - name: 'BR Maroon'
+    special_tags: [operator/BR]
+  - name: 'BR Carmine and Cream'
+    special_tags: [operator/BR]
