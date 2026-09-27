@@ -30226,3 +30226,307 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_name: LNER Gresley PV -
       {GOLD}BR Carmine and Cream
+- id: 2315
+  vehicle: lner_coronation
+  profile: default
+  livery: lner garter blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2315_lner_coronation_default_lner_garter_blue_train.gnml
+  identifier: lner_coronation_default_lner_garter_blue_train
+  name_string: str_lner_coronation_default_lner_garter_blue_train_name
+  strings:
+    str_lner_coronation_default_lner_garter_blue_train_name: LNER Coronation Set -
+      {GOLD}LNER Garter Blue
+- id: 2316
+  vehicle: lner_coronation
+  profile: default
+  livery: br blood and custard
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 26
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2316_lner_coronation_default_br_blood_and_custard_train.gnml
+  identifier: lner_coronation_default_br_blood_and_custard_train
+  name_string: str_lner_coronation_default_br_blood_and_custard_train_name
+  strings:
+    str_lner_coronation_default_br_blood_and_custard_train_name: LNER Coronation Set
+      - {GOLD}BR Blood and Custard
+- id: 2317
+  vehicle: lner_coronation
+  profile: '712'
+  livery: lner garter blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2317_lner_coronation_712_lner_garter_blue_train.gnml
+  identifier: lner_coronation_712_lner_garter_blue_train
+  name_string: str_lner_coronation_712_lner_garter_blue_train_name
+  strings:
+    str_lner_coronation_712_lner_garter_blue_train_name: LNER Coronation Set - {SILVER}Articulated
+      Coach BT + KT{BLACK} - {GOLD}LNER Garter Blue
+- id: 2318
+  vehicle: lner_coronation
+  profile: '712'
+  livery: br blood and custard
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 21
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2318_lner_coronation_712_br_blood_and_custard_train.gnml
+  identifier: lner_coronation_712_br_blood_and_custard_train
+  name_string: str_lner_coronation_712_br_blood_and_custard_train_name
+  strings:
+    str_lner_coronation_712_br_blood_and_custard_train_name: LNER Coronation Set -
+      {SILVER}Articulated Coach BT + KT{BLACK} - {GOLD}BR Blood and Custard
+- id: 2319
+  vehicle: lner_coronation
+  profile: '713'
+  livery: lner garter blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2319_lner_coronation_713_lner_garter_blue_train.gnml
+  identifier: lner_coronation_713_lner_garter_blue_train
+  name_string: str_lner_coronation_713_lner_garter_blue_train_name
+  strings:
+    str_lner_coronation_713_lner_garter_blue_train_name: LNER Coronation Set - {SILVER}Articulated
+      Coach OF + OF{BLACK} - {GOLD}LNER Garter Blue
+- id: 2320
+  vehicle: lner_coronation
+  profile: '713'
+  livery: br blood and custard
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2320_lner_coronation_713_br_blood_and_custard_train.gnml
+  identifier: lner_coronation_713_br_blood_and_custard_train
+  name_string: str_lner_coronation_713_br_blood_and_custard_train_name
+  strings:
+    str_lner_coronation_713_br_blood_and_custard_train_name: LNER Coronation Set -
+      {SILVER}Articulated Coach OF + OF{BLACK} - {GOLD}BR Blood and Custard
+- id: 2321
+  vehicle: lner_coronation
+  profile: '714'
+  livery: lner garter blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 18
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2321_lner_coronation_714_lner_garter_blue_train.gnml
+  identifier: lner_coronation_714_lner_garter_blue_train
+  name_string: str_lner_coronation_714_lner_garter_blue_train_name
+  strings:
+    str_lner_coronation_714_lner_garter_blue_train_name: LNER Coronation Set - {SILVER}Articulated
+      Coach OT + KT{BLACK} - {GOLD}LNER Garter Blue
+- id: 2322
+  vehicle: lner_coronation
+  profile: '714'
+  livery: br blood and custard
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 18
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2322_lner_coronation_714_br_blood_and_custard_train.gnml
+  identifier: lner_coronation_714_br_blood_and_custard_train
+  name_string: str_lner_coronation_714_br_blood_and_custard_train_name
+  strings:
+    str_lner_coronation_714_br_blood_and_custard_train_name: LNER Coronation Set -
+      {SILVER}Articulated Coach OT + KT{BLACK} - {GOLD}BR Blood and Custard
+- id: 2323
+  vehicle: lner_coronation
+  profile: '715'
+  livery: lner garter blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 33
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2323_lner_coronation_715_lner_garter_blue_train.gnml
+  identifier: lner_coronation_715_lner_garter_blue_train
+  name_string: str_lner_coronation_715_lner_garter_blue_train_name
+  strings:
+    str_lner_coronation_715_lner_garter_blue_train_name: LNER Coronation Set - {SILVER}Articulated
+      Coach OT + BT{BLACK} - {GOLD}LNER Garter Blue
+- id: 2324
+  vehicle: lner_coronation
+  profile: '715'
+  livery: br blood and custard
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 33
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2324_lner_coronation_715_br_blood_and_custard_train.gnml
+  identifier: lner_coronation_715_br_blood_and_custard_train
+  name_string: str_lner_coronation_715_br_blood_and_custard_train_name
+  strings:
+    str_lner_coronation_715_br_blood_and_custard_train_name: LNER Coronation Set -
+      {SILVER}Articulated Coach OT + BT{BLACK} - {GOLD}BR Blood and Custard
+- id: 2325
+  vehicle: lner_coronation
+  profile: '716'
+  livery: lner garter blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 16
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2325_lner_coronation_716_lner_garter_blue_train.gnml
+  identifier: lner_coronation_716_lner_garter_blue_train
+  name_string: str_lner_coronation_716_lner_garter_blue_train_name
+  strings:
+    str_lner_coronation_716_lner_garter_blue_train_name: LNER Coronation Set - {SILVER}Observation
+      Coach{BLACK} - {GOLD}LNER Garter Blue
+- id: 2326
+  vehicle: lner_coronation
+  profile: '716'
+  livery: br blood and custard
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 16
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2326_lner_coronation_716_br_blood_and_custard_train.gnml
+  identifier: lner_coronation_716_br_blood_and_custard_train
+  name_string: str_lner_coronation_716_br_blood_and_custard_train_name
+  strings:
+    str_lner_coronation_716_br_blood_and_custard_train_name: LNER Coronation Set -
+      {SILVER}Observation Coach{BLACK} - {GOLD}BR Blood and Custard
+- id: 2327
+  vehicle: lner_coronation
+  profile: '717'
+  livery: lner garter blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2327_lner_coronation_717_lner_garter_blue_train.gnml
+  identifier: lner_coronation_717_lner_garter_blue_train
+  name_string: str_lner_coronation_717_lner_garter_blue_train_name
+  strings:
+    str_lner_coronation_717_lner_garter_blue_train_name: LNER Coronation Set - {SILVER}Articulated
+      Coach OT + OT{BLACK} - {GOLD}LNER Garter Blue
+- id: 2328
+  vehicle: lner_coronation
+  profile: '717'
+  livery: br blood and custard
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2328_lner_coronation_717_br_blood_and_custard_train.gnml
+  identifier: lner_coronation_717_br_blood_and_custard_train
+  name_string: str_lner_coronation_717_br_blood_and_custard_train_name
+  strings:
+    str_lner_coronation_717_br_blood_and_custard_train_name: LNER Coronation Set -
+      {SILVER}Articulated Coach OT + OT{BLACK} - {GOLD}BR Blood and Custard

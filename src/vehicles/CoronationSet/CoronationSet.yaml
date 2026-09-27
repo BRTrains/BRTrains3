@@ -1,0 +1,107 @@
+info:
+  identifier: lner_coronation
+  name: 'LNER Coronation Set'
+  sub_name: Articulated streamliner set
+  based_on: LNER Coronation
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  # The legacy gives the 9-car set 342 ton, its two-car articulations 76 ton each and the
+  # observation car 38 ton - i.e. the set figure together with per-vehicle figures for the
+  # loose coaches. One per-part figure is all BRBuild can carry, so the single-car value is
+  # used and the set's own total is recorded as a query in the oddities file.
+  weight: 38
+  length: 8
+  power: 0
+  tractive_effort: 0
+  speed: 110
+
+cargo: passenger
+loading_speed: 10
+
+dates:
+  introduction_date: 1937-07-05
+
+profiles:
+  # One profile per articulation the legacy sells separately, in the legacy items' number
+  # order (711 set, 712, 713, 714, 715, 716, 717). Each formation draws its rows from the
+  # drawings the 9-car set draws, but a sprite group is sized by its own pattern's maximum
+  # index, so each profile gets its own block of rows on the sheet: the composite's ROWS
+  # table (/home/jon/BRTrains3-artwork-tools/compose_coronation_sheet.py) must be edited
+  # whenever a pattern here changes.
+  #
+  # The legacy's `template_train32px_reversed` drawings are deliberately not imported: the
+  # sheet's second art column is only eight pixels wide (the sheet ends at x=180) and the
+  # legacy declares those spritesets over the purchase-icon block, while OpenTTD reverses a
+  # train without mirroring the consist - the same choice every other coach in this family
+  # made.
+  - identifier: DEFAULT
+    name: '9-Car Set'
+    # part 0 = the leading brake third, 1..7 the articulated cars, 8 the open brake van
+    # (sw_Coronation_Set_CorBlue's position_in_articulated_veh order: BT, KT, OF, OF, OT,
+    # KT, OT, BT, OBV)
+    num_vehicles: 9
+    capacity: 26
+    sprite_override: [1, 2, 3, 4, 5, 6, 7, 8]
+    special_tags:
+      - formation/9-car
+      - subclass/coronation
+  - identifier: '712'
+    name: 'Articulated Coach (BT + KT)'
+    num_vehicles: 2
+    capacity: 21
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/coronation
+  - identifier: '713'
+    name: 'Articulated Coach (OF + OF)'
+    num_vehicles: 2
+    capacity: 24
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/coronation
+  - identifier: '714'
+    name: 'Articulated Coach (OT + KT)'
+    num_vehicles: 2
+    capacity: 18
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/coronation
+  - identifier: '715'
+    name: 'Articulated Coach (OT + BT)'
+    num_vehicles: 2
+    capacity: 33
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/coronation
+  - identifier: '716'
+    name: 'Observation Coach'
+    num_vehicles: 1
+    capacity: 16
+    special_tags:
+      - formation/1-car
+      - subclass/coronation
+  - identifier: '717'
+    name: 'Articulated Coach (OT + OT)'
+    num_vehicles: 2
+    capacity: 30
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/coronation
+
+liveries:
+  # The item's own list string, `str_LNER_CorSet_liveries` = "LNER Coronation Garter Blue,
+  # BR Carmine and Cream", while both graphics switches label the pair from the shared
+  # colour strings - "(LNER) Garter Blue" and "(BR) Blood and Custard". The switch text is
+  # what the player saw, so the second livery is named for it and the list string's
+  # "Carmine and Cream" recorded as a query.
+  - name: 'LNER Garter Blue'
+    special_tags: [operator/LNER]
+  - name: 'BR Blood and Custard'
+    special_tags: [operator/BR]
