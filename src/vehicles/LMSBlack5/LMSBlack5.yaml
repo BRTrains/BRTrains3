@@ -1,0 +1,53 @@
+info:
+  identifier: lms_black_5
+  name: 'LMS Stanier Class 5MT 4-6-0 "Black Five"'
+  sub_name: Steam locomotive
+  based_on: LMS Stanier Class 5 4-6-0
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 130
+  length: 5
+  power: 1500
+  speed: 85
+  tractive_effort: 0.28
+  power_type:
+    - steam
+
+cargo: none
+
+loading_speed: 3
+
+dates:
+  introduction_date: 1934-02-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/lms_black_5
+
+liveries:
+  # Ordered by the two legacy graphics switches `sw_LMSBlack5Loco` and `sw_LMSBlack5Tender`,
+  # which `sw_LMSBlack5_cargo_subtype_text` labels 0..2 - the order the purchase list showed
+  # the player (BRTrains2 `src/trains/steam_loco/LMS/LMSBlack5.pnml`, item `item_LMSBlack5`
+  # 659). One locomotive row then one tender row per livery, i.e. the `sprite_override: [1, 2]`
+  # group order (/home/jon/BRTrains3-artwork-tools/compose_lms_black5_sheet.py's ROWS table):
+  #
+  #   0 str_LMSBlack  "(LMS - Black)"          LMS_Stanier_Black_5.png y=13 + LMS_Stanier_4000_impgal.png y=47
+  #   1 str_BRLion    "(BR - Black & Lion)"    LMS_Stanier_Black_5.png y=39 + LMS_Stanier_4000_impgal.png y=141
+  #   2 str_BRBlack   "(BR - Black)"           LMS_Stanier_Black_5.png y=65 + LMS_Stanier_4000_impgal.png y=71
+  #
+  # The tender bands are the shared LMS 4000-gallon sheet the already-imported LMS 8F and LMS
+  # Jubilee read, so these three rows are existing art; the locomotive rows are the Black
+  # Five's own sheet, whose third band draws the Caprotti valve-gear example of the class.
+  - name: 'LMS Black'
+    special_tags: [operator/LMS]
+  - name: 'BR Black (Lion and Wheel)'
+    special_tags: [operator/BR]
+  - name: 'BR Black (Emblem)'
+    special_tags: [operator/BR]

@@ -29488,3 +29488,66 @@ variants:
   strings:
     str_lner_gresley_bck_default_br_carmine_and_cream_train_name: LNER Gresley BCK
       - {GOLD}BR Carmine and Cream
+- id: 2284
+  vehicle: lms_black_5
+  profile: default
+  livery: lms black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/2284_lms_black_5_default_lms_black_train.gnml
+  identifier: lms_black_5_default_lms_black_train
+  name_string: str_lms_black_5_default_lms_black_train_name
+  strings:
+    str_lms_black_5_default_lms_black_train_name: LMS Stanier Class 5MT 4-6-0 "Black
+      Five" - {GOLD}LMS Black
+- id: 2285
+  vehicle: lms_black_5
+  profile: default
+  livery: br black (lion and wheel)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/2285_lms_black_5_default_br_black__lion_and_wheel__train.gnml
+  identifier: lms_black_5_default_br_black__lion_and_wheel__train
+  name_string: str_lms_black_5_default_br_black__lion_and_wheel__train_name
+  strings:
+    str_lms_black_5_default_br_black__lion_and_wheel__train_name: LMS Stanier Class
+      5MT 4-6-0 "Black Five" - {GOLD}BR Black Lion and Wheel
+- id: 2286
+  vehicle: lms_black_5
+  profile: default
+  livery: br black (emblem)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 6
+    - 4
+  archive: generated_variants/2286_lms_black_5_default_br_black__emblem__train.gnml
+  identifier: lms_black_5_default_br_black__emblem__train
+  name_string: str_lms_black_5_default_br_black__emblem__train_name
+  strings:
+    str_lms_black_5_default_br_black__emblem__train_name: LMS Stanier Class 5MT 4-6-0
+      "Black Five" - {GOLD}BR Black Emblem
