@@ -1,0 +1,129 @@
+info:
+  identifier: br_802
+  # The legacy corpus files the 5-car and 9-car Class 802 as two items
+  # (`item_BR802_5car` 461 and `item_BR802_9car` 462, both `variant_group: header_IEP`)
+  # drawing the same `gfx/BR80X.png` drawings, so the two formations are two profiles of
+  # one candidate, as for the Class 800/801.
+  name: 'Class 802'
+  sub_name: Bi-mode multiple unit
+  based_on: British Rail Class 802
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 125
+  # `switch_BR800_speed` (`BRTrains2/src/trains/electric_mu/sprites/800.pnml`, shared by
+  # the whole IEP family): `param_max_speed` 0 gives 201 field units and 1 gives 225 —
+  # 125 mph service and 140 mph design, the pair the Class 800/801/803/805/807/810 carry.
+  # Both 802 items name that switch in their graphics block.
+  design_speed: 140
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+    - electric
+  # Both items declare `track_type: RAIL` and switch their power and particles on
+  # `tile_powers_railtype("ELRL")` — the 802 is a bi-mode, running on the wires and off
+  # them. Declared rather than inferred from `power_type`, as on the Class 800/769/810.
+  track_type:
+    - RAIL
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 12
+
+dates:
+  introduction_date: 2018-08-18
+
+profiles:
+  - identifier: DEFAULT
+    name: 5-Car
+    num_vehicles: 5
+    power: 3636
+    weight: 261
+    # `switch_BR802_5car_capacity`: GWR and Hull Trains `342/5` = 68 per part, TPE
+    # `326/5` = 65. The TPE value is carried by its own two liveries below.
+    capacity: 68
+    # `switch_BR802_5car_spriteset_*` draws `position_in_articulated_veh % 5`: 0 = front,
+    # 4 = rear, the rest the middle car. The Hull Trains livery overrides position 2 with
+    # its own dedicated middle drawing (see its `sprite_override`).
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/802_0
+
+  - identifier: '802_1'
+    name: 9-Car
+    num_vehicles: 9
+    power: 6060
+    weight: 457
+    # `switch_BR802_9car_capacity` is a single figure, `647/9` = 71 per part.
+    capacity: 71
+    # `switch_BR802_9car_spriteset_*`: 0 = front, 8 = rear, the rest the middle car.
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/9-car
+      - subclass/802_1
+
+# Each livery is restricted with `profiles:` because a livery with no restriction applies
+# to every profile and the allocator consumes one row group per (profile, livery) pair off
+# one sheet cursor: the 5-car offers seven schemes and the 9-car only three (its
+# `switch_BR802_9car_spriteset` / `_subtype_text` run GWR, GWR Pride, Hitachi), so the sheet
+# carries three rows per livery per formation, plus a fourth for Hull Trains, in the order
+# below. That is 22 + 9 = 31 rows.
+liveries:
+  # `switch_BR802_5car_subtype_text` order: 0 = GWR, 1 = TPE, 2 = Hull Trains,
+  # 3 = GWR Pride, 4 = Hitachi, 5 = TPE Pride, 6 = Hull Trains - Grey Stripe.
+  - name: 'Great Western Railway'
+    profiles: [DEFAULT]
+    special_tags: [operator/Great Western Railway]
+
+  # `str_TPE` "(Transpennine Express)" - the operator's full name, as on the Class 800.
+  - name: 'Transpennine Express'
+    profiles: [DEFAULT]
+    capacity: 65
+    special_tags: [operator/TransPennine Express]
+
+  # Position 2 of the Hull Trains consist is a dedicated middle car
+  # (`spriteset_BR80X_middle_special_HullTrains` at `template_train32px_old(172, 400)`,
+  # the sheet's second art column), so this livery's group holds four rows and its pattern
+  # names the fourth. Restricting the figure to this livery keeps GWR's own capacity on
+  # the profile.
+  - name: 'Hull Trains'
+    profiles: [DEFAULT]
+    capacity: 68
+    sprite_override: [1, 2, 4, 2, 3]
+    special_tags: [operator/Hull Trains]
+
+  - name: 'Great Western Railway - Pride'
+    profiles: [DEFAULT]
+    special_tags: [operator/Great Western Railway]
+
+  # `str_HitachiWhite` "(Hitachi - White)", the unit's own as-delivered scheme.
+  - name: 'Hitachi - White'
+    profiles: [DEFAULT]
+    special_tags: [operator/Hitachi]
+
+  - name: 'Transpennine Express - Pride'
+    profiles: [DEFAULT]
+    capacity: 65
+    special_tags: [operator/TransPennine Express]
+
+  - name: 'Hull Trains - Grey Stripe'
+    profiles: [DEFAULT]
+    capacity: 68
+    special_tags: [operator/Hull Trains]
+
+  # The 9-car's own copies of its three schemes, in its `subtype_text` order.
+  - name: 'Great Western Railway'
+    profiles: ['802_1']
+    special_tags: [operator/Great Western Railway]
+
+  - name: 'Great Western Railway - Pride'
+    profiles: ['802_1']
+    special_tags: [operator/Great Western Railway]
+
+  - name: 'Hitachi - White'
+    profiles: ['802_1']
+    special_tags: [operator/Hitachi]

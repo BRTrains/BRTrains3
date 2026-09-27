@@ -31023,3 +31023,253 @@ variants:
   name_string: str_br_803_default_lumo_train_name
   strings:
     str_br_803_default_lumo_train_name: Class 803 - {GOLD}Lumo
+- id: 2349
+  vehicle: br_802
+  profile: default
+  livery: great western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2349_br_802_default_great_western_railway_train.gnml
+  identifier: br_802_default_great_western_railway_train
+  name_string: str_br_802_default_great_western_railway_train_name
+  strings:
+    str_br_802_default_great_western_railway_train_name: Class 802 - {GOLD}Great Western
+      Railway
+- id: 2350
+  vehicle: br_802
+  profile: default
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2350_br_802_default_transpennine_express_train.gnml
+  identifier: br_802_default_transpennine_express_train
+  name_string: str_br_802_default_transpennine_express_train_name
+  strings:
+    str_br_802_default_transpennine_express_train_name: Class 802 - {GOLD}Transpennine
+      Express
+- id: 2351
+  vehicle: br_802
+  profile: default
+  livery: hull trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2351_br_802_default_hull_trains_train.gnml
+  identifier: br_802_default_hull_trains_train
+  name_string: str_br_802_default_hull_trains_train_name
+  strings:
+    str_br_802_default_hull_trains_train_name: Class 802 - {GOLD}Hull Trains
+- id: 2352
+  vehicle: br_802
+  profile: default
+  livery: great western railway - pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2352_br_802_default_great_western_railway___pride_train.gnml
+  identifier: br_802_default_great_western_railway___pride_train
+  name_string: str_br_802_default_great_western_railway___pride_train_name
+  strings:
+    str_br_802_default_great_western_railway___pride_train_name: Class 802 - {GOLD}Great
+      Western Railway - Pride
+- id: 2353
+  vehicle: br_802
+  profile: default
+  livery: hitachi - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2353_br_802_default_hitachi___white_train.gnml
+  identifier: br_802_default_hitachi___white_train
+  name_string: str_br_802_default_hitachi___white_train_name
+  strings:
+    str_br_802_default_hitachi___white_train_name: Class 802 - {GOLD}Hitachi - White
+- id: 2354
+  vehicle: br_802
+  profile: default
+  livery: transpennine express - pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2354_br_802_default_transpennine_express___pride_train.gnml
+  identifier: br_802_default_transpennine_express___pride_train
+  name_string: str_br_802_default_transpennine_express___pride_train_name
+  strings:
+    str_br_802_default_transpennine_express___pride_train_name: Class 802 - {GOLD}Transpennine
+      Express - Pride
+- id: 2355
+  vehicle: br_802
+  profile: default
+  livery: hull trains - grey stripe
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 68
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2355_br_802_default_hull_trains___grey_stripe_train.gnml
+  identifier: br_802_default_hull_trains___grey_stripe_train
+  name_string: str_br_802_default_hull_trains___grey_stripe_train_name
+  strings:
+    str_br_802_default_hull_trains___grey_stripe_train_name: Class 802 - {GOLD}Hull
+      Trains - Grey Stripe
+- id: 2356
+  vehicle: br_802
+  profile: '802_1'
+  livery: great western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2356_br_802_802_1_great_western_railway_train.gnml
+  identifier: br_802_802_1_great_western_railway_train
+  name_string: str_br_802_802_1_great_western_railway_train_name
+  strings:
+    str_br_802_802_1_great_western_railway_train_name: Class 802 - {SILVER}9-Car{BLACK}
+      - {GOLD}Great Western Railway
+- id: 2357
+  vehicle: br_802
+  profile: '802_1'
+  livery: great western railway - pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2357_br_802_802_1_great_western_railway___pride_train.gnml
+  identifier: br_802_802_1_great_western_railway___pride_train
+  name_string: str_br_802_802_1_great_western_railway___pride_train_name
+  strings:
+    str_br_802_802_1_great_western_railway___pride_train_name: Class 802 - {SILVER}9-Car{BLACK}
+      - {GOLD}Great Western Railway - Pride
+- id: 2358
+  vehicle: br_802
+  profile: '802_1'
+  livery: hitachi - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2358_br_802_802_1_hitachi___white_train.gnml
+  identifier: br_802_802_1_hitachi___white_train
+  name_string: str_br_802_802_1_hitachi___white_train_name
+  strings:
+    str_br_802_802_1_hitachi___white_train_name: Class 802 - {SILVER}9-Car{BLACK}
+      - {GOLD}Hitachi - White
