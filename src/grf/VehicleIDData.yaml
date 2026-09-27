@@ -28210,3 +28210,23 @@ variants:
   strings:
     str_br_801_801_2_lner__azuma__train_name: Class 801 - {SILVER}9-Car{BLACK} - {GOLD}LNER
       "Azuma"
+- id: 2223
+  vehicle: wd_austerity_tank
+  profile: default
+  livery: wartime black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2223_wd_austerity_tank_default_wartime_black_train.gnml
+  identifier: wd_austerity_tank_default_wartime_black_train
+  name_string: str_wd_austerity_tank_default_wartime_black_train_name
+  strings:
+    str_wd_austerity_tank_default_wartime_black_train_name: WD Austerity Tank 0-6-0ST
+      - {GOLD}Wartime Black
