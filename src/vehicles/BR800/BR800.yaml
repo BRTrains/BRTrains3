@@ -1,0 +1,129 @@
+info:
+  identifier: br_800
+  # The legacy corpus files the 5-car and 9-car Class 800 as two items
+  # (`item_BR800_5car` 459 and `item_BR800_9car` 460, both `variant_group: header_IEP`)
+  # drawing the same drawings and the same five liveries, so the two formations are two
+  # profiles of one candidate, as for the Class 801.
+  name: 'Class 800'
+  sub_name: Bi-mode multiple unit
+  based_on: British Rail Class 800
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 125
+  # `switch_BR800_speed` (`BRTrains2/src/trains/electric_mu/sprites/800.pnml`, shared by
+  # the whole IEP family): `param_max_speed` 0 gives 201 field units and 1 gives 225 —
+  # 125 mph service and 140 mph design, the same pair the Class 801/802/805/807/810 carry.
+  design_speed: 140
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+    - electric
+  # The items declare `track_type: RAIL` and switch their power and particles on
+  # `tile_powers_railtype("ELRL")`, i.e. they run on the wires and off them; both are
+  # declared rather than inferred from `power_type`. Same treatment as the Class 769/810.
+  track_type:
+    - RAIL
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 12
+
+dates:
+  introduction_date: 2017-10-06
+
+profiles:
+  - identifier: DEFAULT
+    name: 5-Car
+    num_vehicles: 5
+    power: 4000
+    weight: 243
+    # `switch_BR800_5car_capacity`: non-GWR `302/5` = 60 per part, GWR and GWR Pride
+    # `326/5` = 65. The GWR pair is carried by this profile's own two GWR liveries.
+    capacity: 60
+    # `switch_BR800_5car_spriteset_*` draws `position_in_articulated_veh % 5`: 0 = front,
+    # 4 = rear, every other car the middle. The values are the three drawings the livery's
+    # own row group holds, packed in this order.
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/800
+
+  - identifier: '800_9'
+    name: 9-Car
+    num_vehicles: 9
+    power: 5600
+    weight: 438
+    # `switch_BR800_9car_capacity`: non-GWR `611/9` = 67 per part, GWR and GWR Pride
+    # `650/9` = 72.
+    capacity: 67
+    # `switch_BR800_9car_spriteset_*`: 0 = front, 8 = rear, the rest the middle car.
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/9-car
+      - subclass/800_9
+
+# Each livery is listed once per formation and restricted with `profiles:`, because a
+# livery with no restriction applies to every profile and the allocator consumes one row
+# group per (profile, livery) pair off one sheet cursor: a livery shared by both
+# formations would take its rows for whichever profile is iterated first and leave the
+# other short (`Not enough recognised spritesets`). The sheet therefore carries three rows
+# per livery per formation, in the order below.
+#
+# The two GWR schemes are the only ones whose *figures* differ between formations (the
+# legacy gives the GWR 5-car `326/5` = 65 seats per part and the GWR 9-car `650/9` = 72),
+# so naming them separately is also what carries the per-formation capacity.
+liveries:
+  # `switch_BR800_5car_subtype_text` order: 0 = LNER, 1 = GWR, 2 = VTEC, 3 = GWR Pride,
+  # 4 = Hitachi.
+  - name: 'LNER "Azuma"'
+    profiles: [DEFAULT]
+    special_tags: [operator/LNER]
+
+  # `str_GWRGreen` "(GWR - Green)"; the display name uses the operator's full name, as on
+  # the class's other GWR-scheme entries.
+  - name: 'Great Western Railway'
+    profiles: [DEFAULT]
+    capacity: 65
+    special_tags: [operator/Great Western Railway]
+
+  - name: 'Virgin Trains East Coast'
+    profiles: [DEFAULT]
+    special_tags: [operator/Virgin Trains East Coast]
+
+  # `str_GWRPride` "(GWR - Pride)", the pride-stock scheme, with the GWR capacity.
+  - name: 'Great Western Railway - Pride'
+    profiles: [DEFAULT]
+    capacity: 65
+    special_tags: [operator/Great Western Railway]
+
+  # `str_HitachiWhite` "(Hitachi - White)", the unit's own as-delivered scheme.
+  - name: 'Hitachi - White'
+    profiles: [DEFAULT]
+    special_tags: [operator/Hitachi]
+
+  # The 9-car's own copies of the same five schemes, in the same order.
+  - name: 'LNER "Azuma"'
+    profiles: ['800_9']
+    special_tags: [operator/LNER]
+
+  - name: 'Great Western Railway'
+    profiles: ['800_9']
+    capacity: 72
+    special_tags: [operator/Great Western Railway]
+
+  - name: 'Virgin Trains East Coast'
+    profiles: ['800_9']
+    special_tags: [operator/Virgin Trains East Coast]
+
+  - name: 'Great Western Railway - Pride'
+    profiles: ['800_9']
+    capacity: 72
+    special_tags: [operator/Great Western Railway]
+
+  - name: 'Hitachi - White'
+    profiles: ['800_9']
+    special_tags: [operator/Hitachi]

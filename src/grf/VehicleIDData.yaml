@@ -30742,3 +30742,261 @@ variants:
   name_string: str_br_810_default_hitachi___white_train_name
   strings:
     str_br_810_default_hitachi___white_train_name: Class 810 - {GOLD}Hitachi - White
+- id: 2338
+  vehicle: br_800
+  profile: default
+  livery: lner "azuma"
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2338_br_800_default_lner__azuma__train.gnml
+  identifier: br_800_default_lner__azuma__train
+  name_string: str_br_800_default_lner__azuma__train_name
+  strings:
+    str_br_800_default_lner__azuma__train_name: Class 800 - {GOLD}LNER "Azuma"
+- id: 2339
+  vehicle: br_800
+  profile: default
+  livery: great western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2339_br_800_default_great_western_railway_train.gnml
+  identifier: br_800_default_great_western_railway_train
+  name_string: str_br_800_default_great_western_railway_train_name
+  strings:
+    str_br_800_default_great_western_railway_train_name: Class 800 - {GOLD}Great Western
+      Railway
+- id: 2340
+  vehicle: br_800
+  profile: default
+  livery: virgin trains east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2340_br_800_default_virgin_trains_east_coast_train.gnml
+  identifier: br_800_default_virgin_trains_east_coast_train
+  name_string: str_br_800_default_virgin_trains_east_coast_train_name
+  strings:
+    str_br_800_default_virgin_trains_east_coast_train_name: Class 800 - {GOLD}Virgin
+      Trains East Coast
+- id: 2341
+  vehicle: br_800
+  profile: default
+  livery: great western railway - pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2341_br_800_default_great_western_railway___pride_train.gnml
+  identifier: br_800_default_great_western_railway___pride_train
+  name_string: str_br_800_default_great_western_railway___pride_train_name
+  strings:
+    str_br_800_default_great_western_railway___pride_train_name: Class 800 - {GOLD}Great
+      Western Railway - Pride
+- id: 2342
+  vehicle: br_800
+  profile: default
+  livery: hitachi - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2342_br_800_default_hitachi___white_train.gnml
+  identifier: br_800_default_hitachi___white_train
+  name_string: str_br_800_default_hitachi___white_train_name
+  strings:
+    str_br_800_default_hitachi___white_train_name: Class 800 - {GOLD}Hitachi - White
+- id: 2343
+  vehicle: br_800
+  profile: '800_9'
+  livery: lner "azuma"
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 67
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2343_br_800_800_9_lner__azuma__train.gnml
+  identifier: br_800_800_9_lner__azuma__train
+  name_string: str_br_800_800_9_lner__azuma__train_name
+  strings:
+    str_br_800_800_9_lner__azuma__train_name: Class 800 - {SILVER}9-Car{BLACK} - {GOLD}LNER
+      "Azuma"
+- id: 2344
+  vehicle: br_800
+  profile: '800_9'
+  livery: great western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 67
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2344_br_800_800_9_great_western_railway_train.gnml
+  identifier: br_800_800_9_great_western_railway_train
+  name_string: str_br_800_800_9_great_western_railway_train_name
+  strings:
+    str_br_800_800_9_great_western_railway_train_name: Class 800 - {SILVER}9-Car{BLACK}
+      - {GOLD}Great Western Railway
+- id: 2345
+  vehicle: br_800
+  profile: '800_9'
+  livery: virgin trains east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 67
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2345_br_800_800_9_virgin_trains_east_coast_train.gnml
+  identifier: br_800_800_9_virgin_trains_east_coast_train
+  name_string: str_br_800_800_9_virgin_trains_east_coast_train_name
+  strings:
+    str_br_800_800_9_virgin_trains_east_coast_train_name: Class 800 - {SILVER}9-Car{BLACK}
+      - {GOLD}Virgin Trains East Coast
+- id: 2346
+  vehicle: br_800
+  profile: '800_9'
+  livery: great western railway - pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 67
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2346_br_800_800_9_great_western_railway___pride_train.gnml
+  identifier: br_800_800_9_great_western_railway___pride_train
+  name_string: str_br_800_800_9_great_western_railway___pride_train_name
+  strings:
+    str_br_800_800_9_great_western_railway___pride_train_name: Class 800 - {SILVER}9-Car{BLACK}
+      - {GOLD}Great Western Railway - Pride
+- id: 2347
+  vehicle: br_800
+  profile: '800_9'
+  livery: hitachi - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 67
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2347_br_800_800_9_hitachi___white_train.gnml
+  identifier: br_800_800_9_hitachi___white_train
+  name_string: str_br_800_800_9_hitachi___white_train_name
+  strings:
+    str_br_800_800_9_hitachi___white_train_name: Class 800 - {SILVER}9-Car{BLACK}
+      - {GOLD}Hitachi - White
