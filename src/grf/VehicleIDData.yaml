@@ -29147,3 +29147,103 @@ variants:
   strings:
     str_br_158_158_3_gwr_green_with_realistic_centre_cars_train_name: Class 158 "Express
       Sprinter" - {SILVER}3-Car{BLACK} - {GOLD}GWR Green with Realistic Centre Cars
+- id: 2267
+  vehicle: br_mk1
+  profile: rk
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2267_br_mk1_rk_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_rk_br_carmine_and_cream_train
+  name_string: str_br_mk1_rk_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_rk_br_carmine_and_cream_train_name: Mk1 Coach - {SILVER}Restaurant
+      Kitchen{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2268
+  vehicle: br_mk1
+  profile: rk
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2268_br_mk1_rk_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_rk_br_chocolate_and_cream_train
+  name_string: str_br_mk1_rk_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_rk_br_chocolate_and_cream_train_name: Mk1 Coach - {SILVER}Restaurant
+      Kitchen{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2269
+  vehicle: br_mk1
+  profile: rk
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2269_br_mk1_rk_br_malachite_green_train.gnml
+  identifier: br_mk1_rk_br_malachite_green_train
+  name_string: str_br_mk1_rk_br_malachite_green_train_name
+  strings:
+    str_br_mk1_rk_br_malachite_green_train_name: Mk1 Coach - {SILVER}Restaurant Kitchen{BLACK}
+      - {GOLD}BR Malachite Green
+- id: 2270
+  vehicle: br_mk1
+  profile: rk
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2270_br_mk1_rk_br_maroon_train.gnml
+  identifier: br_mk1_rk_br_maroon_train
+  name_string: str_br_mk1_rk_br_maroon_train_name
+  strings:
+    str_br_mk1_rk_br_maroon_train_name: Mk1 Coach - {SILVER}Restaurant Kitchen{BLACK}
+      - {GOLD}BR Maroon
+- id: 2271
+  vehicle: br_mk1
+  profile: rk
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2271_br_mk1_rk_br_blue_and_grey_train.gnml
+  identifier: br_mk1_rk_br_blue_and_grey_train
+  name_string: str_br_mk1_rk_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_rk_br_blue_and_grey_train_name: Mk1 Coach - {SILVER}Restaurant Kitchen{BLACK}
+      - {GOLD}BR Blue and Grey

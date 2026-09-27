@@ -133,6 +133,22 @@ profiles:
       - formation/1-car
       - subclass/mk1_bfk
 
+  # The Restaurant Kitchen reads y=208 of the five per-livery sheets, per the
+  # `spriteset_BRMk1RK_*` declarations in BRTrains2
+  # `src/trains/rolling_stock/BR/Mk1/sprites/Mk1RK.pnml`; no other Mk1 type reads that
+  # band, so it keeps a sheet of its own, composed by
+  # `BRTrains3-artwork-tools/compose_br_mk1_type_sheet.py 208 BRMk1RK.png`.
+  - identifier: rk
+    name: 'Restaurant Kitchen'
+    num_vehicles: 1
+    capacity: 0
+    weight: 36
+    introduction_date: 1951-04-21
+    spritesheet: BRMk1RK.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk1_rk
+
 liveries:
   - name: 'BR Carmine and Cream'
     special_tags: [operator/BR]
