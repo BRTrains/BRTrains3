@@ -33178,3 +33178,22 @@ variants:
   strings:
     str_br_vga_vka_br_grey___exhibition_train_name: BR VGA Wagon - {SILVER}VKA Covered
       Van{BLACK} - {GOLD}BR Grey - Exhibition
+- id: 2452
+  vehicle: br_hha
+  profile: default
+  livery: freightliner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2452_br_hha_default_freightliner_train.gnml
+  identifier: br_hha_default_freightliner_train
+  name_string: str_br_hha_default_freightliner_train_name
+  strings:
+    str_br_hha_default_freightliner_train_name: BR HHA Hopper Wagon - {GOLD}Freightliner

@@ -1,0 +1,35 @@
+info:
+  identifier: br_hha
+  name: 'BR HHA Hopper Wagon'
+  sub_name: Hopper wagon
+  based_on: British Rail HHA hopper wagon
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 28
+  length: 8
+  power: 0
+  speed: 75
+  tractive_effort: 0.08
+
+cargo: bulk
+autorefit: true
+loading_speed: 20
+
+nml_override:
+  default: sw_br_hha_cargo
+
+dates:
+  introduction_date: 2000-04-21
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 72
+    special_tags:
+      - formation/1-car
+      - subclass/hha
+
+liveries:
+  - name: Freightliner
+    special_tags: [operator/Freightliner]

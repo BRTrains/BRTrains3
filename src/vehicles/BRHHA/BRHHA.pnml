@@ -1,0 +1,14 @@
+// Hand-written graphics entry for the BR HHA hopper wagon.
+// BRBuild can author the bulk refit mask and capacity, but this legacy sheet's
+// cargo-type and cargo-count sprite chain needs a project cargo table that BRTrains3
+// does not define. The imported unit therefore uses the covered drawing as its stable
+// default while retaining all source rows in the published sheet for a later, explicit
+// cargo-table decision.
+
+spriteset(spriteset_br_hha_covered, "BRHHA.png") {
+	tmpl_train_8(0, 26)
+}
+
+switch(FEAT_TRAINS, SELF, sw_br_hha_cargo, cargo_type_in_veh) {
+	spriteset_br_hha_covered;
+}
