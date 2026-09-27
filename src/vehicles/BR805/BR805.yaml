@@ -1,0 +1,70 @@
+info:
+  identifier: br_805
+  # The legacy `item_BR805_5car` (581) is the only 805 item, so the candidate is named for
+  # the class and the single formation is a profile, as for the Class 801/807/810.
+  name: 'Class 805'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 805
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 125
+  # `switch_BR800_speed` (`BRTrains2/src/trains/electric_mu/sprites/800.pnml`, shared by the
+  # whole IEP family): `param_max_speed` 0 gives 201 field units and 1 gives 225 — 125 mph
+  # service and 140 mph design, the same pair the Class 800/801/802/807/810 carry.
+  design_speed: 140
+  tractive_effort: 0.3
+  # The legacy item's `power:` graphics switch (`tile_powers_railtype("ELRL")`) returns
+  # **3636** on the wires and 2820 off them, and its `power: 4000 hp` property is the
+  # off-wire figure of a *different* unit (`item_BR810_5car` carries the same 4000 property
+  # beside its own 3636/3944 switch) — see the oddities entry for the 805/807/810 power
+  # confusion. BRBuild has no rail-state power callback, so the on-wire figure is carried.
+  power: 3636
+  weight: 261
+  # The item declares `engine_class: ENGINE_CLASS_DIESEL` (copied from a bi-mode item, the
+  # same defect the Class 807 carries) but the 805 is a pure 25 kV overhead unit with no
+  # diesel engine, so the import follows the Class 807 precedent and lets the classifier
+  # emit the electric class. See the oddities entry.
+  power_type:
+    - electric
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 12
+
+dates:
+  introduction_date: 2024-04-01
+
+profiles:
+  - identifier: DEFAULT
+    name: 5-Car
+    num_vehicles: 5
+    # `item_BR805_5car`'s callback is `return(301/5 * param_pax)`, already the per-part figure
+    # (301/5 = 60 in NML's integer division; BRBuild multiplies by the part count, so a 5-car
+    # reads 300 in game where the source's numerator implies 301). See the oddities entry.
+    capacity: 60
+    # `switch_BR805_5car_spriteset_Avanti_normal` draws `position_in_articulated_veh % 5`:
+    # 0 = front, 1 = middle3, 2 = middle2, 3 = middle, 4 = rear. The values are the five
+    # drawings the Avanti livery's row group holds, packed in this order.
+    sprite_override: [1, 2, 3, 4, 5]
+    special_tags:
+      - formation/5-car
+      - subclass/805
+
+liveries:
+  # `switch_BR805_5car_subtype_text` order: 0 = `str_AvantiWestCoast` "(Avanti West Coast)",
+  # 1 = `str_HitachiWhite` "(Hitachi - White)". Each scheme consumes a different number of
+  # rows, so the pattern sits on the livery rather than the profile (as on the Class 807).
+  - name: 'Avanti West Coast'
+    sprite_override: [1, 2, 3, 4, 5]
+    special_tags: [operator/Avanti West Coast]
+
+  # The white scheme is the unit's own as delivered by Hitachi, not an operator livery.
+  - name: 'Hitachi - White'
+    # `switch_BR805_5car_spriteset_Hitachi`: 0 = front, 4 = rear, every other car the middle.
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags: [operator/Hitachi]

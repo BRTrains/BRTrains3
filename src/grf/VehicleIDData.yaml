@@ -31273,3 +31273,50 @@ variants:
   strings:
     str_br_802_802_1_hitachi___white_train_name: Class 802 - {SILVER}9-Car{BLACK}
       - {GOLD}Hitachi - White
+- id: 2359
+  vehicle: br_805
+  profile: default
+  livery: avanti west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2359_br_805_default_avanti_west_coast_train.gnml
+  identifier: br_805_default_avanti_west_coast_train
+  name_string: str_br_805_default_avanti_west_coast_train_name
+  strings:
+    str_br_805_default_avanti_west_coast_train_name: Class 805 - {GOLD}Avanti West
+      Coast
+- id: 2360
+  vehicle: br_805
+  profile: default
+  livery: hitachi - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2360_br_805_default_hitachi___white_train.gnml
+  identifier: br_805_default_hitachi___white_train
+  name_string: str_br_805_default_hitachi___white_train_name
+  strings:
+    str_br_805_default_hitachi___white_train_name: Class 805 - {GOLD}Hitachi - White
