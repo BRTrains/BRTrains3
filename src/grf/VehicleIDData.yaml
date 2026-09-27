@@ -28044,3 +28044,118 @@ variants:
   strings:
     str_gwr_254_comp_sy_default_gwr___cream_and_oak_train_name: GWR Dean 25ft 4 Compartment
       Second Class SY - {GOLD}GWR - Cream and Oak
+- id: 2216
+  vehicle: br_769
+  profile: '769_0'
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2216_br_769_769_0_transport_for_wales_train.gnml
+  identifier: br_769_769_0_transport_for_wales_train
+  name_string: str_br_769_769_0_transport_for_wales_train_name
+  strings:
+    str_br_769_769_0_transport_for_wales_train_name: Class 769/0/3/4/5/9 "Flex" -
+      {SILVER}769/0/3/4{BLACK} - {GOLD}Transport for Wales
+- id: 2217
+  vehicle: br_769
+  profile: '769_0'
+  livery: rail operations group
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2217_br_769_769_0_rail_operations_group_train.gnml
+  identifier: br_769_769_0_rail_operations_group_train
+  name_string: str_br_769_769_0_rail_operations_group_train_name
+  strings:
+    str_br_769_769_0_rail_operations_group_train_name: Class 769/0/3/4/5/9 "Flex"
+      - {SILVER}769/0/3/4{BLACK} - {GOLD}Rail Operations Group
+- id: 2218
+  vehicle: br_769
+  profile: '769_0'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2218_br_769_769_0_northern_train.gnml
+  identifier: br_769_769_0_northern_train
+  name_string: str_br_769_769_0_northern_train_name
+  strings:
+    str_br_769_769_0_northern_train_name: Class 769/0/3/4/5/9 "Flex" - {SILVER}769/0/3/4{BLACK}
+      - {GOLD}Northern
+- id: 2219
+  vehicle: br_769
+  profile: '769_5'
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 75
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2219_br_769_769_5_gbrf_train.gnml
+  identifier: br_769_769_5_gbrf_train
+  name_string: str_br_769_769_5_gbrf_train_name
+  strings:
+    str_br_769_769_5_gbrf_train_name: Class 769/0/3/4/5/9 "Flex" - {SILVER}769/5{BLACK}
+      - {GOLD}GBRf
+- id: 2220
+  vehicle: br_769
+  profile: '769_9'
+  livery: great western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 75
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2220_br_769_769_9_great_western_railway_train.gnml
+  identifier: br_769_769_9_great_western_railway_train
+  name_string: str_br_769_769_9_great_western_railway_train_name
+  strings:
+    str_br_769_769_9_great_western_railway_train_name: Class 769/0/3/4/5/9 "Flex"
+      - {SILVER}769/9{BLACK} - {GOLD}Great Western Railway

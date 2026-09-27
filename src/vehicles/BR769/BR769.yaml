@@ -1,0 +1,70 @@
+info:
+  identifier: br_769
+  name: 'Class 769/0/3/4/5/9 "Flex"'
+  sub_name: Bi-mode multiple unit
+  based_on: British Rail Class 769 Flex
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 155.2
+  length: 8
+  power: 1330
+  speed: 100
+  tractive_effort: 0.3
+  # The legacy items each declare `track_type: RAIL` (self-powered) and switch their power
+  # and particle effects on whether the current tile carries ELRL or THIRD.
+  track_type:
+    - RAIL
+    - ELRL
+    - THIRD
+  power_type:
+    - diesel
+    - electric
+
+cargo: passenger
+
+loading_speed: 25
+
+dates:
+  introduction_date: 2020-08-01
+
+profiles:
+  - identifier: '769_0'
+    name: '769/0/3/4'
+    num_vehicles: 4
+    capacity: 76
+    special_tags:
+      - formation/4-car
+      - subclass/769_0
+  - identifier: '769_5'
+    name: '769/5'
+    num_vehicles: 4
+    capacity: 75
+    special_tags:
+      - formation/4-car
+      - subclass/769_5
+  - identifier: '769_9'
+    name: '769/9'
+    num_vehicles: 4
+    capacity: 75
+    special_tags:
+      - formation/4-car
+      - subclass/769_9
+
+liveries:
+  - name: 'Transport for Wales'
+    profiles: ['769_0']
+    special_tags: [operator/Transport for Wales]
+  - name: GBRf
+    profiles: ['769_5']
+    special_tags: [operator/GB Railfreight]
+  - name: 'Great Western Railway'
+    profiles: ['769_9']
+    special_tags: [operator/Great Western Railway]
+  - name: 'Rail Operations Group'
+    profiles: ['769_0']
+    special_tags: [operator/Rail Operations Group]
+  - name: Northern
+    profiles: ['769_0']
+    special_tags: [operator/Northern]
