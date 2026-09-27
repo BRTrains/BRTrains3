@@ -1,0 +1,36 @@
+info:
+  identifier: gcr_robinson_50_clso
+  name: 'GCR Robinson 50ft Semi-Corridor Lavatory Composite'
+  sub_name: Passenger coach
+  based_on: 'GCR Robinson 50ft CLSO'
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 30
+  length: 6
+  power: 0
+  speed: 60
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 8
+
+dates:
+  # The legacy `item_GCR_Robinson_50_CLSO` (704) declares `date(1903,1,1)` directly.
+  introduction_date: 1903-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 40
+    special_tags:
+      - formation/1-car
+      - subclass/gcr_robinson_50_clso
+
+liveries:
+  # The legacy item has one subtype only: `cargo_subtype` 0 -> `spriteset_..._Teak`, whose
+  # text is `string(STR_LIVERY, "GCR", "Mahogany")` and whose item list string
+  # (`str_GCR_Robinson_50_CLSO_liveries`) reads "GCR Mahogany".
+  - name: 'GCR Mahogany'
+    special_tags: [operator/GCR]

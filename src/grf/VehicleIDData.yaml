@@ -29408,3 +29408,23 @@ variants:
   strings:
     str_sr_q1_default_br_black__lion_and_wheel__train_name: SR Bulleid Q1 Class 0-6-0
       - {GOLD}BR Black Lion and Wheel
+- id: 2280
+  vehicle: gcr_robinson_50_clso
+  profile: default
+  livery: gcr mahogany
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/2280_gcr_robinson_50_clso_default_gcr_mahogany_train.gnml
+  identifier: gcr_robinson_50_clso_default_gcr_mahogany_train
+  name_string: str_gcr_robinson_50_clso_default_gcr_mahogany_train_name
+  strings:
+    str_gcr_robinson_50_clso_default_gcr_mahogany_train_name: GCR Robinson 50ft Semi-Corridor
+      Lavatory Composite - {GOLD}GCR Mahogany
