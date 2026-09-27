@@ -1,0 +1,35 @@
+info:
+  identifier: gwr_great_bear
+  name: 'GWR Churchward 111 4-6-2 "The Great Bear"'
+  sub_name: Steam locomotive
+  based_on: GWR Churchward 111 "The Great Bear"
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 145
+  length: 8
+  power: 1300
+  speed: 90
+  tractive_effort: 0.085
+  power_type:
+    - steam
+
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1908-02-10
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/gwr_great_bear
+
+liveries:
+  - name: 'GWR Green'
+    special_tags: [operator/GWR]

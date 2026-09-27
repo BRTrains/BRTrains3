@@ -32068,3 +32068,24 @@ variants:
   strings:
     str_br_mk2_early_fo_first_scotrail_train_name: Mk2 Coach - {SILVER}Early First
       Class{BLACK} - {GOLD}First ScotRail
+- id: 2397
+  vehicle: gwr_great_bear
+  profile: default
+  livery: gwr green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2397_gwr_great_bear_default_gwr_green_train.gnml
+  identifier: gwr_great_bear_default_gwr_green_train
+  name_string: str_gwr_great_bear_default_gwr_green_train_name
+  strings:
+    str_gwr_great_bear_default_gwr_green_train_name: GWR Churchward 111 4-6-2 "The
+      Great Bear" - {GOLD}GWR Green
