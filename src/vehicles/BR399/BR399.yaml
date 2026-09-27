@@ -7,25 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # `item_BR399` (750) in BRTrains2 `src/trains/electric_mu/399.pnml` is the whole formation
-  # on one item: `switch_articulated` adds parts 1..2, both returning `item_BR399`, so the
-  # three cars are three copies of that one item and BRBuild's per-candidate figures are the
-  # item's own. The item's 66 t is therefore the *per-car* figure (the Class 142 two-car
-  # precedent: the legacy states 24 t per car and the project carries 48 t), so the vehicle
-  # carries 3 x 66 t.
-  #
-  # The item declares `power: 1170 hp` for the unit (390 kW over three cars), which is
-  # carried as the whole-consist figure.
-  #
-  # Speed: the legacy declares `speed: 62 mph` (100 km/h, the real unit's limit) and has no
-  # `param_max_speed` switch, so there is no design speed to convert.
-  #
-  # Track type: declared `RAIL` rather than left to the classifier. The legacy declares
-  # `track_type: ELRL`, which in the project's railtype table resolves through `SAAA` to
-  # overhead — the label a 25 kV unit would get — and an electric unit left unset resolves to
-  # `ELRL` for the same reason. Neither fits a 750 V DC tram-train that also runs on street
-  # tramway: `RAIL` (the no-supply entry) is the only logical type that keeps it available on
-  # plain rail and tramway alike instead of on any overhead-electrified line.
   weight: 198
   length: 5
   power: 1170
@@ -45,41 +26,15 @@ dates:
   introduction_date: 2017-01-23
 
 profiles:
-  # One three-car formation, matching the legacy's single item: `sw_BR399_articulated` runs the
-  # callback until part 2, so the consist is three cars drawn by
-  # `sw_BR399_StagecoachBlue` = `position_in_articulated_veh % 3` -> front / middle / rear.
-  # `sprite_override: [1, 2, 3]` names those three rows in consumption order, so no reordering
-  # is needed (each drawing is a distinct row) — but the third row is declared because the
-  # pattern's maximum index is the number of rows the group consumes.
   - identifier: DEFAULT
     num_vehicles: 3
-    # The legacy callback is `return(236 * param_pax / 3)` with no division applied by the
-    # project's semantics: 236 is the consist total, so the per-part figure is 78 (236 / 3
-    # floored by BRBuild's `int()`), giving 234 in game. The legacy property beside it reads
-    # the placeholder 1.
     capacity: 78
     sprite_override: [1, 2, 3]
-    # Both features: the legacy graphics live under one FEAT_TRAINS item whose sheet is in the
-    # tram artwork folder, and the sibling `br_555` emits train and tram items from one
-    # profile. No separate tram item exists in the legacy set, so this is the cosmetic
-    # `types` route rather than a tram-specific drawing.
     types: [train, tram]
     special_tags:
       - formation/3-car
       - subclass/399
 
 liveries:
-  # Order is the legacy `sw_BR399_cargo_subtype_text` order (one subtype) and the composite's
-  # row order (`BRTrains3-artwork-tools/compose_br399_sheet.py`): the sheet's three declared
-  # `template_train20px` bands at y = 13 (front) / 33 (middle) / 53 (rear). The bands at y=13
-  # and y=33 are the same drawing mirrored (their per-view colour censuses are identical:
-  # 542 x (0,0,255) / 264 x (0,72,184) / 219 x (80,80,80) ...), and the y=53 band is a
-  # distinct third drawing, so all three cars are cab cars as the legacy declares.
-  #
-  # The name is the legacy text string `str_StagecoachBlue` "(Stagecoach - Blue)"; the badge
-  # is the operating organisation — the units run the Sheffield Supertram network and the
-  # Rotherham tram-train, and South Yorkshire Supertram Ltd trades as Stagecoach Supertram
-  # (Stagecoach Group holds the concession). Recorded in the oddities file as a judgement call
-  # against the existing generic `operator/Stagecoach` badge used by the Class 170 and Mk3.
   - name: 'Stagecoach Blue'
     special_tags: [operator/Stagecoach Supertram]

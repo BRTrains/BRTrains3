@@ -19,8 +19,6 @@ dates:
   introduction_date: 2019-08-04
 
 profiles:
-  # The DVT is an unpowered driving vehicle: its own sheet (cut from the Mk5a coach sheet, which
-  # is where the legacy art lives) and `has_cab`, so it may lead a rake.
   - identifier: dvt
     name: 'DVT'
     num_vehicles: 1
@@ -33,14 +31,6 @@ profiles:
       - formation/1-car
       - subclass/mk5_dvt
 
-  # The Mk5 sleeper is a separate legacy item (`item_BRMk5Sleeper` 545) in the same
-  # `variant_group: header_BRMk5`, so it is a profile of this candidate rather than a candidate
-  # of its own. Its one drawing lives on the shared `gfx/Rolling Stock/Mk3Mk5_Sleepers.png`
-  # sheet (the same sheet the Mk3 sleeper's eight liveries come from), at y=188 - one band, one
-  # livery, so it keeps its own single-row sheet (`BRMk5Sleeper.png`), composed by
-  # `BRTrains3-artwork-tools/compose_br_mk5_sleeper_sheet.py`. The legacy's own figures: 9
-  # berths per part (`return(9 * param_pax)`), 100 mph, 43 t, introduction 2016-01-01, and no
-  # articulated part (a single vehicle, so no `sprite_override`).
   - identifier: sleeper
     name: 'Sleeper'
     num_vehicles: 1
@@ -53,17 +43,12 @@ profiles:
       - subclass/mk5_sleeper
 
 liveries:
-  # Both Mk5a coach liveries are the DVT's own (the profile and the Mk5a coach item share one
-  # legacy cargo-subtype switch). They are restricted to the DVT so the allocator does not ask
-  # the sleeper profile's group for rows its one-row sheet does not hold.
   - name: 'Transpennine Express'
     profiles: [dvt]
     special_tags: [operator/TransPennine Express]
   - name: 'Chiltern Blue'
     profiles: [dvt]
     special_tags: [operator/Chiltern Railways]
-  # The legacy's own `str_CaledonianSleeper` text, and the badge the already-imported Mk3
-  # sleeper's Caledonian Sleeper livery carries.
   - name: 'Caledonian Sleeper'
     profiles: [sleeper]
     special_tags: [operator/Caledonian Sleeper]

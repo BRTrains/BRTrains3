@@ -1,11 +1,5 @@
 info:
   identifier: br_332
-  # One candidate for the two legacy items the set draws from one sheet and one livery switch:
-  # `BRTrains2/src/trains/electric_mu/BR332_4car.pnml` item `item_BR332_4car` 730 and
-  # `BR332_5car.pnml` item `item_BR332_5car` 731, both served by `sw_BR332_cargo_subtype_text`
-  # and every `spriteset(...)` in `src/trains/electric_mu/sprites/332.pnml` - the 4-car and the
-  # 5-car formation of one class. Same body, same three liveries, so one purchase-list entry with
-  # one profile per formation (the Class 175/720 precedent).
   name: 'Class 332'
   sub_name: Electric multiple unit
   based_on: British Rail Class 332
@@ -23,7 +17,6 @@ stats:
   tractive_effort: 0.06
   power_type:
     - electric
-  # Both legacy items declare `track_type: ELRL` (25 kV overhead, the Heathrow Airport tunnels).
   track_type:
     - ELRL
 
@@ -36,37 +29,22 @@ dates:
   introduction_date: 1997-04-01
 
 profiles:
-  # The legacy root `item_BR332_4car` (730) with `switch_articulated_BR332_4car` adding parts 1..3,
-  # all referencing that same item, and `switch_BR332_4car_spriteset_<livery>` reading
-  # `position_in_articulated_veh % 4` as front(0), middle_panto(1), middle(2), rear(3).
   - identifier: '332_4car'
     name: '4-Car'
     num_vehicles: 4
-    # Per-part: the legacy callback is `return(203/4 * param_pax)` (50.75, i.e. 50 in NML's
-    # integer arithmetic) and the item's `cargo_capacity: 1` property beside it is the
-    # placeholder the whole set carries.
     capacity: 50
-    # The group's rows are packed front, middle, middle_panto, rear
-    # (`BRTrains3-artwork-tools/compose_br332_sheet.py`), and the legacy switch reads
-    # front, middle_panto, middle, rear - so the pattern is [1, 3, 2, 4].
     sprite_override: [1, 3, 2, 4]
     special_tags:
       - formation/4-car
       - subclass/332_4car
 
-  # The legacy root `item_BR332_5car` (731) with `switch_articulated_BR332_5car` adding parts 1..4
-  # and `switch_BR332_5car_spriteset_<livery>` reading `position_in_articulated_veh % 5` as
-  # front(0), middle(1), middle_panto(2), middle(3), rear(4).
   - identifier: '332_5car'
     name: '5-Car'
     num_vehicles: 5
     # The legacy 5-car declares the same `return(203/4 * param_pax)` callback as the 4-car, so it
     # carries the same per-part figure rather than a five-car-appropriate one (a query).
     capacity: 50
-    # Both formations read the same drawings, so the 5-car reuses the 4-car's rows through
-    # `sprite_group` and the sheet holds one four-row group per livery instead of two.
     sprite_group: '332_4car'
-    # The legacy switch reads front, middle, middle_panto, middle, rear over those rows.
     sprite_override: [1, 2, 3, 2, 4]
     special_tags:
       - formation/5-car

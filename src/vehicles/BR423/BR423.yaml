@@ -1,9 +1,5 @@
 info:
   identifier: br_423
-  # One candidate for the legacy `item_BR423` 347 ("BR Class 423 \"4-VEP\""), drawn on
-  # `gfx/BR423.png`. The same legacy file also holds `item_BR423_9` 351 ("BR Class 423/9
-  # \"4-VOP\"") and the Class 480 (8-VAB) items, which are not part of this candidate - see
-  # the oddities entry.
   name: 'Class 423 "4-VEP"'
   sub_name: Electric multiple unit
   based_on: British Rail Class 423
@@ -21,8 +17,6 @@ stats:
   tractive_effort: 0.08
   power_type:
     - electric
-  # Both driving items declare `track_type: THIRD` explicitly (750 V DC third rail), so it is
-  # stated rather than resolved from `power_type`.
   track_type:
     - THIRD
 
@@ -51,19 +45,6 @@ profiles:
       - formation/4-car
       - subclass/423
 
-# `sw_BR423_cargo_subtype_text` order 0..7, which is also the physical order of the sheet's
-# eight four-band blocks, so the composite (`compose_br423_sheet.py`) is a straight band
-# re-stack. Names are the legacy's own strings under the set's naming house style:
-# `str_BRBlue` "(BR - Blue)", `str_BRBlueYellow` "(BR - Blue, Yellow Front)", `str_BRBlueGrey`
-# "(BR - Blue Grey)", `str_NSE` "(Network South East)", `str_SWT` "(South West Trains)",
-# `str_Connex` "(Connex)", `str_Southern` "(Southern)", `str_SWTHeritage` "(South West Trains -
-# Heritage)".
-#
-# Each block was checked against its own pixels: blue end cars with no warning panel; the same
-# drawing with a small (252,212,0) yellow panel on its two end cars only; a grey body with a
-# blue band; NSE blue with red; SWT blue-grey with red and orange; a Connex yellow/orange body;
-# a Southern light green; and a plain deeper blue. The last one is the only livery whose name
-# rests on the legacy string alone - see the oddities file.
 liveries:
   - name: 'BR Blue'
     special_tags: [operator/BR]

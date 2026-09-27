@@ -1,13 +1,5 @@
 info:
   identifier: br_165
-  # One candidate for the two legacy classes the set files under one `variant_group:
-  # header_Turbo` and draws from one sheet (`gfx/BR165.png`): the Class 165/0
-  # ("Chiltern Turbo", `item_BR165_0_2car` 398 / `item_BR165_0_3car` 399) and the Class
-  # 165/1 ("Thames Turbo", `item_BR165_1_2car` 402 / `item_BR165_1_3car` 403), whose
-  # switches and spritesets live in `Turbo/sprites/BR165.pnml`. They are Networker-family
-  # units of the same body, so they share one purchase-list entry exactly as the legacy
-  # variant group does, with one profile per class and formation (the Class 172/2+3
-  # `br_172_23` precedent).
   name: 'Class 165 "Turbo"'
   sub_name: Diesel multiple unit
   based_on: British Rail Class 165 Turbo
@@ -15,8 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # BRBuild's capacity, power and weight are per-part; the legacy items carry the
-  # whole-consist figures, so each profile below carries its own item's figures.
   length: 8
   tractive_effort: 0.09
   power_type:
@@ -30,11 +20,6 @@ dates:
   introduction_date: 1990-04-21
 
 profiles:
-  # `item_BR165_0_2car` (398): the two-car Chiltern batch, 700 hp / 80 t / 75 mph.
-  # The legacy `sw_BR165_0` -> `sw_BR165_NSE` draws the group's lead at
-  # `position_in_articulated_veh` 0 and its tail at `position_in_articulated_veh_from_end`
-  # 0, so a two-car draws front and rear and never its middle; the group still reserves
-  # three rows per livery.
   - identifier: '165_0'
     name: '165/0'
     num_vehicles: 2
@@ -47,8 +32,6 @@ profiles:
       - formation/2-car
       - subclass/165_0
 
-  # `item_BR165_0_3car` (399): 1050 hp / 112 t, capacity the legacy callback's
-  # `289 * param_pax / 3`.
   - identifier: '165_0_3car'
     name: '165/0 3-Car'
     num_vehicles: 3
@@ -61,7 +44,6 @@ profiles:
       - formation/3-car
       - subclass/165_0
 
-  # `item_BR165_1_2car` (402): the Thames batch, cleared for 90 mph, 700 hp / 80 t.
   - identifier: '165_1'
     name: '165/1'
     num_vehicles: 2
@@ -74,8 +56,6 @@ profiles:
       - formation/2-car
       - subclass/165_1
 
-  # `item_BR165_1_3car` (403): 1050 hp / 112 t, capacity the legacy callback's
-  # `286 * param_pax / 3`.
   - identifier: '165_1_3car'
     name: '165/1 3-Car'
     num_vehicles: 3
@@ -88,14 +68,6 @@ profiles:
       - formation/3-car
       - subclass/165_1
 
-  # `item_BR166` (406): the three-car Thames Turbo, the third member of the legacy's
-  # `header_Turbo` variant group. Its `sw_BR166` names the Class 165/1's own five spriteset
-  # switches (`sw_BR165_NSE` / `_ThamesTrains` / `_FirstLink` / `_FGW` / `_GWR`, declared in
-  # `Turbo/sprites/BR165.pnml`) in the same subtype order, and its `switch_articulated_BR166`
-  # adds parts at positions 1..2 — a three-car drawing front/middle/rear, exactly the group
-  # `165_1_3car` already consumes. `sprite_group: '165_1'` therefore gives this profile that
-  # profile's rows for each of its four shared liveries plus Network South East, so the sheet
-  # needs no additional drawings (five new variants, zero new rows).
   - identifier: '166'
     name: '166'
     num_vehicles: 3
@@ -111,25 +83,8 @@ profiles:
       - subclass/166
 
 liveries:
-  # Order is the composite's row order (`BRTrains3-artwork-tools/compose_br165_sheet.py`),
-  # which is the allocator's own consumption order: profile-outer, livery-inner, reading the
-  # list in order and skipping a livery whose `profiles:` restriction excludes the profile
-  # being iterated. Both classes take Network South East first; the 165/0 then takes Chiltern
-  # Railways, and the 165/1 takes its own four later liveries. Each (profile, livery) group
-  # consumes its own rows, so the sheet holds one 3-row group per group, profile by profile.
-  #
-  # Names follow the legacy text switches (`sw_BR165_0_cargo_subtype_text` /
-  # `sw_BR165_1_cargo_subtype_text`): `str_NSE` ("Network South East"), `str_Chiltern`
-  # ("Chiltern Railways"), `str_ThamesTrains` ("Thames Trains"), `str_FirstLink` ("First
-  # Link"), `str_FGWDL` ("First Great Western - Dynamic Lines"), `str_GWRGreen`
-  # ("GWR - Green").
   - name: 'Network South East'
     special_tags: [operator/Network SouthEast]
-  # The legacy `sw_BR165_1` offers this class NSE, Thames Trains, First Link, FGW Dynamic
-  # Lines and GWR Green only, so the Chiltern drawing is restricted to the two 165/0
-  # profiles rather than offered on the Thames units as well (which is what an unrestricted
-  # livery would do). The `166` profile carries the same five liveries as `sw_BR166`, so the
-  # four restricted below list it alongside the two 165/1 profiles.
   - name: 'Chiltern Railways'
     profiles: ['165_0', '165_0_3car']
     special_tags: [operator/Chiltern Railways]

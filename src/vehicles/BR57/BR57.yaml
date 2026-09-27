@@ -4,11 +4,6 @@ info:
   sub_name: 'Thunderbird rescue locomotive'
   based_on: British Rail Class 57
 
-# One candidate, one 1-car profile: the legacy set files the class as a single item
-# (`item_BR57` 441, BRTrains2/src/trains/diesel_loco/BR057.pnml) with no articulated
-# callback, drawing all eight of its liveries from the Class 57 block of
-# `gfx/BR47_BR57.png` (bands at y = 213 + 25k on `template_train32px_old`, which BRBuild
-# calls `tmpl_train_8_old`).
 stats:
   vehicle_type: train
   train_type: locomotive
@@ -20,8 +15,6 @@ stats:
   power_type:
     - diesel
 
-# The legacy item declares `refittable_cargo_classes: 0` and a zero-returning
-# cargo-capacity callback, so `cargo: none` states the effective behaviour.
 cargo: none
 loading_speed: 3
 
@@ -37,10 +30,6 @@ profiles:
       - subclass/57
 
 liveries:
-  # Ordered by the legacy `sw_BR57` cargo-subtype switch (0..7) and named from its
-  # `sw_BR57_cargo_subtype_text` partner, with the surrounding parentheses dropped.
-  # That order is also the composite's row order (compose_br57_sheet.py), which packs the
-  # source bands y = 238, 213, 313, 338, 363, 388, 438, 488 in exactly this sequence.
   - name: 'West Coast Railway'
     special_tags: [operator/West Coast Railway]
   - name: Freightliner

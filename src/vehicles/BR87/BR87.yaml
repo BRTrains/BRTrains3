@@ -17,8 +17,6 @@ stats:
   power_type:
     - electric
 
-# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
-# cargo capacity callback, so cargo: none states the effective behaviour.
 cargo: none
 loading_speed: 3
 
@@ -33,7 +31,6 @@ profiles:
       - formation/1-car
       - subclass/87
 
-# cargo_subtype 0 is BR Blue, 1 is InterCity Swallow, and 2 is Virgin.
 liveries:
   - name: 'BR Blue'
     special_tags: [operator/BR]

@@ -1,11 +1,5 @@
 info:
   identifier: br_175
-  # One candidate for the two legacy items the set draws from one sheet and one livery
-  # switch (`BRTrains2/src/trains/diesel_mu/175_2car.pnml` item `item_BR175_2car` 339 and
-  # `175_3car.pnml` item `item_BR175_3car` 340, both served by `sw_BR175` and every
-  # `spriteset(...)` in `sprites/175.pnml`): the "2-Car" and the "3-Car". Same body, same
-  # four liveries, so one purchase-list entry with one profile per formation - the Class
-  # 170/171 Turbostar and Class 168/0 precedent.
   name: 'Class 175 "Coradia"'
   sub_name: Diesel multiple unit
   based_on: British Rail Class 175 Coradia
@@ -13,8 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # BRBuild's capacity, power and weight are per-part; the legacy items carry the
-  # whole-consist figures, so each profile below carries its own item's figures.
   length: 8
   speed: 100
   tractive_effort: 0.05
@@ -30,52 +22,28 @@ dates:
   introduction_date: 1999-04-21
 
 profiles:
-  # The legacy item `item_BR175_2car` (339): a two-car unit, 900 hp / 100 t. Its
-  # `switch_articulated_BR175_2car` adds one part at offset 1, so the formation is the
-  # lead and tail drawings and the group's middle row is never read.
   - identifier: '175_2car'
     name: '2-Car'
     num_vehicles: 2
-    # Per-part: the legacy callback is `return(122 * param_pax / 2)`.
     capacity: 61
     power: 900
     weight: 100
-    # Lead from `position_in_articulated_veh` 0 and tail from
-    # `position_in_articulated_veh_from_end` 0 - the group's front and rear rows.
     sprite_override: [1, 3]
     special_tags:
       - formation/2-car
 
-  # The legacy item `item_BR175_3car` (340): a three-car unit, 1350 hp / 147 t. Offsets 1
-  # and 2 are the two articulated parts `switch_articulated_BR175_3car` adds, so the
-  # formation is lead, middle, tail.
   - identifier: '175_3car'
     name: '3-Car'
     num_vehicles: 3
-    # Per-part: the legacy callback is `return(186 * param_pax / 3)`.
     capacity: 62
     power: 1350
     weight: 147
-    # The legacy serves both formations from the one `sw_BR175`, so the three-car reads
-    # the two-car's rows rather than carrying a second copy of every drawing (the Class
-    # 171 precedent).  Its group is still three rows tall - `max(pattern)` - so the sheet
-    # holds one front/middle/rear trio per livery, twelve rows in all.
     sprite_group: '175_2car'
     sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
 
 liveries:
-  # Order is the legacy `sw_BR175` cargo-subtype order 0..3, and it is also the
-  # composite's row order (`BRTrains3-artwork-tools/compose_br175_sheet.py`) - the
-  # allocator reads the YAML livery list in order and hands each (profile, livery) group
-  # the next three rows off the sheet cursor, so the two must agree.
-  #
-  # Names come from the legacy text switch `sw_BR175_cargo_subtype_text` expanded through
-  # `lang/partial/livery_prebuilt_strings.plng`: subtype 0 `str_ArrivaGhost` "(Arriva -
-  # Ghost)", 1 `str_FirstNorthWestern` "(First North Western)", 2 `str_ArrivaWales`
-  # "(Arriva Trains Wales)", 3 `str_TfW` "(Transport For Wales)".  "Transport for Wales"
-  # matches the spelling the rest of the set already uses (Class 153/170/150/2/231).
   - name: 'Arriva Ghost'
     special_tags: [operator/Arriva Trains Wales]
   - name: 'First North Western'

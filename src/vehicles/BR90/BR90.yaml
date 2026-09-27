@@ -17,8 +17,6 @@ stats:
   power_type:
     - electric
 
-# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
-# cargo capacity callback, so cargo: none states the effective behaviour.
 cargo: none
 loading_speed: 3
 
@@ -33,10 +31,6 @@ profiles:
       - formation/1-car
       - subclass/90
 
-# The legacy sw_BR90 / sw_BR90_cargo_subtype_text order (cargo subtype 0..13), which is
-# the row order compose_br90_sheet.py re-stacks the drawings into. The sheet's declared
-# spriteset y values are not in this order (see 90.pnml) — the composite's ROWS table is
-# the record of which band each livery draws, each labelled from its own pixels.
 liveries:
   - name: 'InterCity Swallow'
     special_tags: [operator/InterCity]

@@ -11,9 +11,6 @@ stats:
   length: 8
   power: 0
   tractive_effort: 0
-  # No speed: the legacy Mk2 stock declares none, and a speed property of 0 does not limit the
-  # consist (OpenTTD's Train::ConsistChanged only applies a non-zero figure).
-
 cargo: passenger
 loading_speed: 10
 
@@ -21,8 +18,6 @@ dates:
   introduction_date: 1964-04-21
 
 profiles:
-  # The DBSO is an unpowered driving vehicle, so it keeps its own sheet and carries `has_cab`:
-  # it may lead a rake, and the train backs up instead of magic-flipping.
   - identifier: dbso
     name: 'DBSO'
     num_vehicles: 1
@@ -34,17 +29,6 @@ profiles:
       - formation/1-car
       - subclass/mk2_dbso
 
-  # The Mk2d-f SO and FO read one pair of bands per livery from BRTrains2's
-  # `gfx/Rolling Stock/Mk2/BRMk2_Late.png` (SO at y = 13 + 52i, FO 26 rows below), so the
-  # two types share one sheet of their own, `BRMk2Late.png`, packed in the allocator's
-  # order - SO's fourteen bands first, then FO's - by
-  # `BRTrains3-artwork-tools/compose_br_mk2_late_sheet.py`. Both profiles name that one
-  # sheet, so each group consumes its own single row off that sheet's cursor.
-  #
-  # The fourteenth pair (First ScotRail) is declared against `BRMk2_Buffet.png` at y=689/715
-  # - the coordinates the buffet file uses for its own RSB/RFB bands - because
-  # `BRMk2_Late.png` (700px tall) holds only thirteen pairs. The import takes the declared
-  # pixels; see the oddities file for the open question.
   - identifier: so
     name: 'D-F Standard Class'
     num_vehicles: 1

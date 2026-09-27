@@ -30,10 +30,6 @@ profiles:
     name: 4-Car
     num_vehicles: 4
     capacity: 68
-    # The sheet holds each livery as four physical rows - front, rear, middle, then the
-    # pantograph middle - while the legacy articulation ran front, pantograph middle,
-    # middle, rear. The indices address the sheet's physical rows, so the pantograph car
-    # is the fourth row, not the second.
     sprite_override: [1, 4, 3, 2]
     special_tags:
       - formation/4-car

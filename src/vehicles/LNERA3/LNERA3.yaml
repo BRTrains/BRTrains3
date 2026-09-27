@@ -7,10 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: locomotive
-  # `item_LNERA3` (BRTrains2/src/trains/steam_loco/LNER/LNERA3.pnml, 6): 170 ton, 1750 hp,
-  # 100 mph, `tractive_effort_coefficient: 0.095`, `length: 8`. The legacy item declares no
-  # `param_max_speed` switch, so no `design_speed` was invented - the service figure stands
-  # alone, as on the set's other steam locomotives.
   weight: 170
   length: 8
   power: 1750
@@ -18,24 +14,14 @@ stats:
   tractive_effort: 0.095
   power_type:
     - steam
-  # The legacy declares `track_type: RAIL`; the classifier emits the same for a
-  # self-powered unit, so it is left unset here, as on the rest of the steam family.
-
-# `refittable_cargo_classes: 0` with a `return 0` capacity callback, so cargo: none states
-# the effective behaviour (the same reading as the Class P2 and the Class 80).
 cargo: none
 
 loading_speed: 3
 
 dates:
-  # `item_LNERA3` declares date(1928,4,21).
   introduction_date: 1928-04-21
 
 profiles:
-  # `switch_articulated_LNERA3` adds exactly one part (its case 1 returns `item_LNERA3T`, the
-  # tender), so the formation is two parts at `sprite_override: [1, 2]`: part 0 the
-  # locomotive (the A3's own item, length 8) and part 1 the LNER 4200-gallon tender
-  # (`item_LNERA3T`, length 5) - the same shape as the already-imported `lner_p2`.
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 0

@@ -17,13 +17,10 @@ stats:
   power_type:
     - electric
 
-# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
-# cargo capacity callback, so cargo: none states the effective behaviour.
 cargo: none
 loading_speed: 3
 
 dates:
-  # BRTrains2/src/trains/electric_loco/80.pnml declares date(1958,1,1).
   introduction_date: 1958-01-01
 
 profiles:
@@ -34,8 +31,6 @@ profiles:
       - formation/1-car
       - subclass/80
 
-# The sole legacy graphics case is cargo_subtype 0 / BR Black. It reads
-# BRTrains2/gfx/Electric/8X.png at template_train32px(0, 39).
 liveries:
   - name: 'BR Black'
     special_tags: [operator/BR]

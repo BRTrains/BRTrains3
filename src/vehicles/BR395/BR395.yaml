@@ -10,9 +10,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # `item_BR395` (77) carries the whole-unit figures (4480 hp / 265 t) and its two articulated
-  # items declare 0 hp / 0 t, so the root item's figures are copied as-is — the same
-  # whole-consist reading the other MU conversions carry.
   weight: 265
   length: 8
   power: 4480
@@ -37,7 +34,6 @@ stats:
 cargo: passenger
 
 loading_speed: 14
-# All three items declare `cargo_age_period: 185`.
 cargo_age_period: 185
 
 dates:
@@ -61,7 +57,5 @@ profiles:
       - subclass/395
 
 liveries:
-  # `sw_BR395_cargo_subtype_text` has one entry, subtype 0 = `str_Southeastern`
-  # "(Southeastern)"; the legacy's own `str_BR395_liveries` list agrees ("Southeastern").
   - name: 'Southeastern'
     special_tags: [operator/Southeastern]

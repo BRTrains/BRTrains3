@@ -38,8 +38,6 @@ profiles:
     special_tags:
       - formation/4-car
       - subclass/377_4
-  # 377/3 and 377/5 share the 4-car's drawings: a, c, b for three cars and a, c, d, d, b
-  # for five.
   - identifier: '377_3'
     name: 3-Car
     num_vehicles: 3

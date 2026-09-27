@@ -14,10 +14,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - diesel
-  # The legacy `item_BR156` (BRTrains2/src/trains/diesel_mu/Sprinter/BR156.pnml, 57)
-  # declares `track_type: RAIL`; the classifier emits the same for a self-powered unit,
-  # so it is left unset here, as on the rest of the Sprinter family.
-
 cargo: passenger
 
 loading_speed: 20
@@ -27,34 +23,14 @@ dates:
   introduction_date: 1987-04-21
 
 profiles:
-  # A two-car unit: `switch_articulated_BR156` adds the part at position 1, and
-  # `sw_BR156` selects a leading/trailing pair per livery - position 0 draws the front
-  # from `gfx/BR156a.png`, position 1 the rear from `gfx/BR156b.png`, both at the
-  # livery's own y. Each (profile, livery) group therefore consumes two rows and
-  # `sprite_override` is the identity pattern over them; the composite packs each
-  # livery's two bands front then rear
-  # (BRTrains3-artwork-tools/compose_br156_sheet.py has the ROWS table).
   - identifier: DEFAULT
     num_vehicles: 2
-    # `item_BR156`'s callback is `return(163 * param_pax / 2)` - a consist total divided
-    # by the part count - so the per-part figure is 81 (163 // 2), which this run took as
-    # the authoritative figure. The legacy's own `cargo_capacity: 79` property is the
-    # placeholder the callback overrides (the same property/callback disagreement as the
-    # Class 150/2 and Class 151: see the oddities entry).
     capacity: 81
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
       - subclass/156
 
-# Names from BRTrains2's `sw_BR156_cargo_subtype_text` (subtype order 0..23) and the
-# livery strings in `lang/partial/livery_prebuilt_strings.plng`. That subtype order is the
-# YAML livery order, and the composite packs the row pairs in it. Two warnings:
-#   * the legacy `str_BR156_liveries` list is stale (13 names for 24 subtypes) and was not
-#     used;
-#   * the subtype order is **not** the sheet's physical band order - subtype 18 (`EMT`)
-#     reads y=213, which sits between subtype 7 (Central) and subtype 8 (Northern Spirit)
-#     on both sheets. Follow the switch, not the sheet.
 liveries:
   - name: 'Regional Railways'
     special_tags: [operator/Regional Railways]

@@ -22,8 +22,6 @@ stats:
 cargo: none
 
 dates:
-  # The unit entered service as an ex-Class 101/Class 960 departmental train;
-  # 2004 is the later renumbering to Class 901, not its introduction date.
   introduction_date: 1956-01-01
 
 profiles:

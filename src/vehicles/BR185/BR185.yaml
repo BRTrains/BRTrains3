@@ -7,11 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # The legacy items (`BRTrains2/src/trains/diesel_mu/BR185.pnml`: `item_BR185` 70,
-  # `item_185b` 71, `item_185c` 72) carry the whole-consist weight and power on the root
-  # item; the articulated parts declare 0. BRBuild has one item per candidate, so these
-  # are the legacy's own figures, copied as-is — the same set-wide per-part weight/power
-  # question already noted against the Class 180/220/222.
   weight: 169
   length: 8
   power: 2250
@@ -33,16 +28,8 @@ dates:
   introduction_date: 2005-04-21
 
 profiles:
-  # One legacy item set and one formation: the 185 is a three-car unit. The legacy
-  # `switch_articulated_BR185` adds `item_185b` at position 1 and `item_185c` at position 2,
-  # so the consist draws the a drawing, then b, then c — `sprite_override: [1, 2, 3]` over
-  # the three-row group `compose_br185_sheet.py` packs per livery.
   - identifier: DEFAULT
     num_vehicles: 3
-    # `item_BR185`'s callback is `return(56 * param_pax / 3)` — a consist total divided by
-    # the part count — so the per-part figure is 18 (56 // 3). The legacy's own
-    # `cargo_capacity: 56` property is the placeholder the callback overrides (the same
-    # property/callback disagreement as the Class 150/2, 151, 156 and 159).
     capacity: 18
     sprite_override: [1, 2, 3]
     special_tags:

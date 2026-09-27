@@ -31,7 +31,6 @@ profiles:
       - subclass/504_2
 
 liveries:
-  # Ordered by the BRTrains2 sprites PNML source rows.
   - name: 'BR Blue'
     special_tags: [operator/BR]
   - name: GMPTE

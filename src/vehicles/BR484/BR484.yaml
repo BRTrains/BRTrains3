@@ -18,18 +18,10 @@ stats:
   weight: 50
   length: 8
   power: 1500
-  # The legacy `property` block declares `speed: 45 mph`, but its `graphics` block overrides the
-  # property with `sw_BR484_speed` on `param_max_speed` (0 -> 72, 1 -> 97). 45 is carried as the
-  # service speed and no `design_speed` is invented: the switch has no 0-guard in the way the
-  # speed-mode parameters elsewhere do, and this set has not converted `param_max_speed`.
   speed: 45
   tractive_effort: 0.08
   power_type:
     - electric
-  # The legacy declares the power car's track type explicitly (`track_type: THIRD`, the 750 V DC
-  # Island Line); its trailing item declares FOURTH instead, which is the LU D Stock's own
-  # arrangement rather than the line the unit runs on. THIRD is used for the whole candidate, as
-  # on the Class 483 (see the import oddities file).
   track_type:
     - THIRD
 
@@ -42,14 +34,8 @@ dates:
   introduction_date: 2021-01-01
 
 profiles:
-  # One two-car formation: the legacy root `item_BR484` plus `switch_articulated_BR484`'s single
-  # part 1 (`item_BR484b`), so each livery consumes two rows - the `a` drawing (leading car)
-  # then the `b` drawing (trailing car), which is what `sw_BR484a`/`sw_BR484b` select.
   - identifier: DEFAULT
     num_vehicles: 2
-    # The legacy callback is `return(141 * param_pax)` with no division, so 141 is already the
-    # per-part figure and its own `cargo_capacity: 141` property agrees; in game the two-car
-    # unit reads 282.
     capacity: 141
     sprite_override: [1, 2]
     special_tags:

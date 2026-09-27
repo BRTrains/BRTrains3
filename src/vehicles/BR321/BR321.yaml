@@ -12,8 +12,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - electric
-  # The legacy item declares track_type ELRL explicitly (its own comment notes that
-  # ENGINE_CLASS_ELECTRIC would otherwise give overhead-wire effects on 3rd-rail stock).
   track_type:
     - ELRL
 
@@ -25,9 +23,6 @@ dates:
   introduction_date: 1988-03-17
 
 profiles:
-  # The legacy item is one 4-car unit (articulated parts 1..3). The sheet holds one
-  # four-row block per livery in the declared order front, rear, middle, middle_panto,
-  # and switch_BR321_spriteset reads positions 0..3 as front, middle_panto, middle, rear.
   - identifier: '321_4'
     name: 4-Car
     num_vehicles: 4
@@ -40,9 +35,6 @@ profiles:
       - subclass/321_4
 
 liveries:
-  # Sheet block order, which is also switch_BR321_spriteset's cargo_subtype order (0..12):
-  # each livery owns four consecutive rows. Labels use the operators' own names from
-  # BRTrains2's lang files (switch_BR321_subtype_text) — see the import oddities file.
   - name: 'Network South East'
     special_tags: [operator/Network SouthEast]
   - name: 'Nederlandse Spoorwegen'

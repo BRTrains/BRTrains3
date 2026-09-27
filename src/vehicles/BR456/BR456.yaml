@@ -7,11 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # The legacy root item (`BRTrains2/src/trains/electric_mu/BR456.pnml`, `item_BR456` 278)
-  # carries the whole-unit weight and power; its articulated part (`item_BR456b` 279)
-  # declares 0 hp and 145 t. BRBuild has one item per candidate, so the root item's own
-  # figures are copied as-is - the same set-wide per-part weight question already open on
-  # the Class 310/321/322 (see the import oddities file: in game the 2-car reads 158 t).
   weight: 79
   length: 8
   power: 500
@@ -19,8 +14,6 @@ stats:
   tractive_effort: 0.07
   power_type:
     - electric
-  # The legacy declares `track_type: THIRD` explicitly, and the class really is a 750 V DC
-  # third-rail unit (it was built as a two-car 321 for the South Western division).
   track_type:
     - THIRD
 
@@ -33,34 +26,14 @@ dates:
   introduction_date: 1990-04-21
 
 profiles:
-  # One two-car unit: `item_BR456` with `switch_articulated_BR456` adding the part at
-  # offset 1, so the consist is lead then tail. The legacy draws each position from its own
-  # spriteset (`spriteset_BR456a_<livery>` for the leading car, `spriteset_BR456b_<livery>`
-  # for the trailing one), so each (profile, livery) group consumes two rows and
-  # `sprite_override` is [1, 2] over the composite's a/b row pairs.
   - identifier: DEFAULT
     num_vehicles: 2
-    # `item_BR456`'s callback is `return(79 * param_pax)` with no division, so 79 is already
-    # the per-part figure and its own `cargo_capacity: 79` property agrees. The legacy's
-    # trailing item declares 74 for its own part, giving a legacy in-game total of 153;
-    # BRBuild's one-item-per-candidate model multiplies the per-part figure by the part
-    # count, so the 2-car reads 158 in game (recorded in the oddities file).
     capacity: 79
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
       - subclass/456
 
-# Names from BRTrains2's `sw_BR456_cargo_subtype_text` (subtype order 0..4) expanded through
-# `lang/partial/livery_prebuilt_strings.plng`: `str_NSE` "(Network South East)",
-# `str_Connex` "(Connex)", `str_Southern` "(Southern)", `str_ROSCO` "(ROSCO Transitional
-# Livery)", `str_SWT` "(South West Trains)". That subtype order is the YAML livery order and
-# the composite (`compose_br456_sheet.py`) packs the row pairs in it - the sheet's physical
-# order is Southern, SWT, Connex, NSE, ROSCO instead.
-#
-# The bands were checked against their own pixels rather than the declared y: the pair at
-# y=150/175 is hue-for-hue the same drawing as the Class 321's known NSE band, and y=50/75
-# carries the Stagecoach SWT blue/red/orange set (see the oddities entry).
 liveries:
   - name: 'Network South East'
     special_tags: [operator/Network SouthEast]
@@ -68,9 +41,6 @@ liveries:
     special_tags: [operator/Connex South Central]
   - name: 'Southern'
     special_tags: [operator/Southern]
-  # The legacy's "plain" / ROSCO transitional scheme. The units carried it while they were
-  # being re-leased under Southern, so the operating organisation's badge is reused; the
-  # naming and badge choice are recorded as queries in the oddities file.
   - name: 'ROSCO Transitional'
     special_tags: [operator/Southern]
   - name: 'South West Trains'

@@ -1,9 +1,5 @@
 info:
   identifier: br_397
-  # The legacy item's own name string: `STR_BR_397` =
-  # "BR Class 397 \"Civity\" (5-Car)" (BRTrains2 lang/partial/train_details.plng:43); the
-  # BRTrains3 name drops the redundant "BR " prefix and the formation suffix, as for the
-  # Class 380 / Class 395.
   name: 'Class 397 "Civity"'
   sub_name: Electric multiple unit
   based_on: British Rail Class 397
@@ -11,10 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # `item_br_397` (427) in BRTrains2/src/trains/electric_mu/397.pnml — a single item whose
-  # `switch_br_397_articulated` adds parts 1..4 (all item_br_397), so the unit is five cars
-  # and the item's own figures are whole-consist ones: `power: 3400 hp` (the legacy's own
-  # "Educated guess" comment), `weight: 192.5 ton` ("Thanks TPX's Twitter people").
   weight: 192.5
   length: 8
   power: 3400
@@ -22,8 +14,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - electric
-  # The legacy declares `track_type: ELRL` (25 kV overhead), so the logical type is stated
-  # rather than left to the `power_type` default.
   track_type:
     - ELRL
 
@@ -31,26 +21,15 @@ cargo: passenger
 
 loading_speed: 15
 
-# `model_life: VEHICLE_NEVER_EXPIRES` in the legacy item.
 model_life: 0
 
 dates:
-  # `introduction_date: date(2019, 11, 30)`.
   introduction_date: 2019-11-30
 
 profiles:
-  # `switch_br_397_spriteset` is `position_in_articulated_veh % 5`: 0 draws
-  # `spriteset_br_397_front` (source y=13), 3 the `_middle_panto` (y=91), 4 the `_rear`
-  # (y=39) and 1/2 the `_middle` (y=65). A five-car formation therefore consumes
-  # front, middle, middle, middle_panto, rear, and the composited sheet
-  # (`compose_br397_sheet.py`, drop 177x105) is packed in exactly that order:
-  # `sprite_override: [1, 2, 2, 3, 4]` over a four-row group.
   - identifier: '397_5'
     name: 5-Car
     num_vehicles: 5
-    # The legacy callback is `return (286/5 * param_pax)`, already the per-part figure
-    # (286/5 = 57 in NML's integer division, so a five-car reads 285 in game); the property
-    # beside it, `(286/5)`, agrees.
     capacity: 57
     sprite_override: [1, 2, 2, 3, 4]
     special_tags:
@@ -58,11 +37,5 @@ profiles:
       - subclass/397
 
 liveries:
-  # The item carries no `cargo_subtype` switch at all, so there is a single livery; the name
-  # comes from `STR_DSC_BR_397` "Liveries: Transpennine Express"
-  # (BRTrains2 lang/partial/train_details.plng:1555), and the badge is the
-  # `operator/TransPennine Express` one the Class 170 / Class 185 / Class 68 already use.
-  # One livery only, matching the sheet: its four bands carry a single scheme (white body,
-  # dark blue band) and the legacy declares no livery switch, so none is invented.
   - name: 'TransPennine Express'
     special_tags: [operator/TransPennine Express]

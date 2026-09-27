@@ -103,10 +103,6 @@ liveries:
   - name: 'London Overground'
     special_tags: [operator/London Overground]
     profiles: ['378_4', '378_3', '378_4_dv', '378_5', '378_5_dv']
-  # The 5-car liveries are the 378's celebration, Aventra-style and Pride drawings. The
-  # celebration livery also uses a dedicated unwrapped middle car, which is why it carries
-  # its own five-row pattern: the legacy switch swapped that drawing in at consist
-  # position 2 only.
   - name: 'London Overground 5-Car Celebration'
     special_tags: [operator/London Overground]
     profiles: ['378_5', '378_5_dv']

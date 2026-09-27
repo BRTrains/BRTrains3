@@ -12,10 +12,6 @@ stats:
   tractive_effort: 0.08
   power_type:
     - electric
-  # The legacy root item declares `track_type: THIRD` (the Island Line is third-rail);
-  # its articulated trailer `item_BR483b` declares FOURTH instead, which is the 1938
-  # stock's own LU arrangement rather than the line it ran on. THIRD is used for the
-  # whole candidate; see the import oddities file.
   track_type:
     - THIRD
 
@@ -28,13 +24,6 @@ dates:
   introduction_date: 1989-01-01
 
 profiles:
-  # One two-car formation: the legacy root `item_BR483` plus `switch_articulated_BR483`'s
-  # single part 1 (`item_BR483b`), so each livery consumes two rows — the `a` drawing
-  # (leading car) then the `b` drawing (trailing car), as `sw_BR483a`/`sw_BR483b` read them.
-  #
-  # Power and weight are `item_BR483`'s whole-unit figures (2500 hp / 197 t), carried as-is
-  # like the other MU conversions; the legacy vehicles disagree on capacity (the root item
-  # 141, `item_BR483b` 141 — the same value, so every part carries it).
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 141

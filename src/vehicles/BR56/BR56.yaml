@@ -29,12 +29,6 @@ profiles:
       - subclass/56
 
 liveries:
-  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR56, cargo_subtype)` (0..9),
-  # which is also the legacy `cargo_subtype_text` switch's order. The sheet's physical
-  # band order differs only in that it stacks EWS (y=65) and Fastline (y=91) above
-  # BR Grey (y=117) and Railfreight Grey (y=143); compose_br56_sheet.py re-stacks the
-  # bands into this order and clears the template's gutter columns, which several bands
-  # of gfx/Diesel/56.png bleed across (see /home/jon/BRTrains3-import-oddities.md).
   - name: 'BR Blue'
     special_tags: [operator/BR]
   - name: 'BR Blue Large Logo'

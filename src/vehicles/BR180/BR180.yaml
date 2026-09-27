@@ -7,11 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # The legacy items (`BRTrains2/src/trains/diesel_mu/BR180.pnml`: `item_BR180` 67,
-  # `item_180b` 68, `item_180_MFL` 230, `item_180c` 69) carry the whole-consist
-  # weight and power on the root item; the articulated parts declare 0. BRBuild has
-  # one item per candidate, so these are the legacy's own figures, copied as-is —
-  # the set-wide per-part weight/power question noted against the Class 220.
   weight: 253
   length: 8
   power: 3750
@@ -29,18 +24,9 @@ dates:
   introduction_date: 2002-04-21
 
 profiles:
-  # One legacy item and one formation: the 180 is a five-car unit. The legacy
-  # `switch_articulated_BR180` adds the parts at positions 1..4 in the order
-  # `item_180b`, `item_180_MFL`, `item_180b`, `item_180c`, so the consist draws the
-  # leading car, three intermediates and the trailing car — `[1, 2, 2, 2, 3]` over a
-  # three-row group, exactly the group `compose_br180_sheet.py` packs per livery.
   - identifier: '180_5car'
     name: '5-Car'
     num_vehicles: 5
-    # Legacy per-part capacity: 55 on the root and trailing items, 59 on the two
-    # intermediate ones (`return(55 * param_pax)` / `return(59 * param_pax)`). One
-    # figure has to stand for all five parts, so 59 is carried (three of the five
-    # positions, and the closer of the two to the legacy's own consist total of 287).
     capacity: 59
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
@@ -48,10 +34,6 @@ profiles:
       - subclass/180
 
 liveries:
-  # Order is the legacy `sw_BR180*` / `sw_BR180_cargo_subtype_text` cargo-subtype
-  # order 0..5, which is also the composite's row order — see
-  # `BRTrains3-artwork-tools/compose_br180_sheet.py`, where each livery contributes
-  # three rows (the a, b then c sheet's drawing).
   - name: 'First Great Western'
     special_tags: [operator/Great Western Railway]
   - name: 'First Great Western Dynamic Lines'

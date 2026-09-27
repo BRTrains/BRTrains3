@@ -21,14 +21,11 @@ dates:
   introduction_date: 1960-09-12
 
 profiles:
-  # The two formations are profiles of one candidate (they share every drawing): the
-  # 6-car Midland Pullman and the 8-car Western Region sets are the same item in the
-  # legacy NML (items 552/553), differing only in length.
   - identifier: 6car
     name: 6-Car
     num_vehicles: 6
     capacity: 68
-    sprite_override: [1, 2, 2, 2, 2, 3]  # leading, four middles, trailing
+    sprite_override: [1, 2, 2, 2, 2, 3]
     special_tags:
       - formation/6-car
   - identifier: 8car
@@ -41,11 +38,6 @@ profiles:
       - formation/8-car
 
 liveries:
-  # Livery order and naming follow the legacy switch's cargo_subtype order (0..2) and
-  # its own text strings (`str_PullmanPanels`, `str_Pullman`, `str_BRGreyBlue`); each
-  # livery's group is the three bands front, middle, rear on BRBluePullman.png.
-  # Band-to-livery evidence (yellow warning-panel pixel counts, body colours) is in
-  # compose_bluepullman_sheet.py.
   - name: 'Blue Pullman (Warning Panels)'
     special_tags: [operator/BR]
   - name: 'Blue Pullman'

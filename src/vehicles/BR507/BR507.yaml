@@ -7,9 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # `item_BR507` (`BRTrains2/src/trains/electric_mu/BR507508.pnml`, 329) is the class's own
-  # driving item: 880 hp, 75 mph, 98 t, `tractive_effort_coefficient: 0.07`, and it declares
-  # no `design_speed` (the file has no `param_max_speed` switch), so no design speed is set.
   power: 880
   speed: 75
   weight: 98
@@ -17,8 +14,6 @@ stats:
   tractive_effort: 0.07
   power_type:
     - electric
-  # The legacy declares `track_type: THIRD` explicitly (750 V DC third rail), so it is stated
-  # rather than left to the classifier's `ELRL` default.
   track_type:
     - THIRD
 
@@ -31,9 +26,6 @@ dates:
   introduction_date: 1978-04-21
 
 profiles:
-  # The legacy root item's `switch_articulated_BR507` returns `item_BR507c` at offset 1 and
-  # `item_BR507b` at offset 2, so the consist is a, c, b (three cars) and its own `default:`
-  # is `sw_BR507a` -- the pattern over the composite's three-row a/b/c group is [1, 3, 2].
   - identifier: '507'
     num_vehicles: 3
     # `item_BR507`'s callback is `return(74 * param_pax)` with no division, so 74 is the
@@ -46,16 +38,6 @@ profiles:
       - formation/3-car
       - subclass/507
 
-# Names from BRTrains2's `sw_BR507_cargo_subtype_text` (subtype order 0..3) expanded through
-# `lang/partial/livery_prebuilt_strings.plng`: `str_BRBlue` "(BR - Blue)",
-# `str_MerseyRailOld` "(MerseyRail - Old)", `str_MerseyRail` "(MerseyRail)",
-# `str_MerseyRailGoodComs` "(MerseyRail - Good Communications)". That subtype order is the
-# YAML livery order and the order the composite
-# (`BRTrains3-artwork-tools/compose_br507_508_sheets.py`) packs its a/b/c row triples in; the
-# source sheet's physical band order is BR Blue, Good Communications, Merseyrail,
-# Merseyrail - Old instead. All four drawings are the Class 508's own rows for those liveries
-# (the 507's switches read `spriteset_BR508*_<livery>`), so this sheet is a copy of the
-# 508's -- the rows are proved pixel-identical after publishing.
 liveries:
   - name: 'BR Blue'
     special_tags: [operator/BR]

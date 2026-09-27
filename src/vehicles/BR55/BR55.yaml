@@ -28,9 +28,6 @@ profiles:
       - formation/1-car
       - subclass/55
 
-# Ordered by sw_BR55 cargo_subtype 0..2 and the matching
-# sw_BR55_cargo_subtype_text branches. The compositor re-stacks the
-# declared legacy bands into this order.
 liveries:
   - name: 'BR Green'
     special_tags: [operator/BR]

@@ -28,10 +28,6 @@ dates:
   introduction_date: 1967-01-01
 
 profiles:
-  # The legacy consumes the sheet's three drawings a, c, c, c, c, c, c, b for the
-  # eight-car formation (switch_articulated_LU1967: positions 1..6 -> item_LU1967c,
-  # position 7 -> item_LU1967b), so the rows are packed in override-value order:
-  # 1 = leading (source y 13), 2 = trailing (source y 38), 3 = middle (source y 63).
   - identifier: '1967_8'
     name: 8-Car
     num_vehicles: 8

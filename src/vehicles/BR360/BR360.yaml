@@ -1,14 +1,9 @@
 info:
   identifier: br_360_1
-  # The legacy name is `BR Class 360/1 "Desiro" (4-car)`; the set's convention drops the
-  # BR prefix and the formation suffix lives on the profile.
   name: 'Class 360/1 "Desiro"'
   sub_name: Electric multiple unit
   based_on: British Rail Class 360/1 Desiro
 
-# Figures are the legacy item's own (BRTrains2/src/trains/electric_mu/360_1.pnml,
-# `item_BR360_1` 737). No `param_max_speed` switch in that file, so no `design_speed` is
-# emitted and no speed parameter is carried.
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -19,10 +14,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - electric
-  # The legacy item does not declare `track_type`, so its stock would fall through to
-  # BRBuild's `power_type` default of ELRL anyway -- stated explicitly because the unit is
-  # 25 kV AC overhead stock (both the Class 350 and the Class 360/2 in this set are carried
-  # on ELRL for the same reason). See the oddities entry.
   track_type:
     - ELRL
 
@@ -35,31 +26,15 @@ dates:
   introduction_date: 2003-04-21
 
 profiles:
-  # `item_BR360_1` (737) plus `switch_articulated_BR360_1`'s parts 1..3, all
-  # `item_BR360_1`, and `sw_BR360_1_<livery>` reading `position_in_articulated_veh % 4` as
-  # front (0), rear (1), middle (2) and middle_panto (3) -- so the group's row order is
-  # front, rear, middle, middle_panto and the pattern is the identity [1, 2, 3, 4].
-  # The same front/rear-first order as the Class 465/466 Networkers' `sw_BR465a` and the
-  # Class 332, both already converted.
   - identifier: '360_1'
     name: 4-Car
     num_vehicles: 4
-    # `item_BR360_1`'s callback is `return(280 * param_pax / 4)` -- a consist total divided
-    # by the part count, so 70 per part (4 x 70 = 280 in game). The property beside the
-    # callback is 280, which is the consist total, not the per-part figure.
     capacity: 70
     sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
       - subclass/360_1
 
-# Names and order are the legacy `sw_BR360_1_cargo_subtype_text`'s subtype 0..5, which is
-# also the sheet's band order (see /home/jon/BRTrains3-artwork-tools/compose_br360_sheet.py):
-#   `str_FirstGreatEasternBarbie` "First Great Eastern - Barbie" -> the shorter `First Great
-#   Eastern` (the Class 321 already carries that name and its `operator/First Great Eastern`
-#   badge for the same scheme); `str_NXEABlue` / `str_NXEAGrey` are the National Express East
-#   Anglia pair, imported at their full declared names; `str_EMRBlue`, `str_EMRMaroon` and
-#   `str_EMRMaroonCab` are the three East Midlands Trains/EMR variants.
 liveries:
   - name: 'First Great Eastern'
     special_tags: [operator/First Great Eastern]

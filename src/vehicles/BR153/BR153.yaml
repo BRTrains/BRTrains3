@@ -14,10 +14,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - diesel
-  # The legacy `item_BR153` (BRTrains2/src/trains/diesel_mu/Sprinter/BR153.pnml, 54)
-  # declares `track_type: RAIL`; the classifier emits the same for a self-powered unit,
-  # so it is left unset here, as on the rest of the Sprinter family.
-
 cargo: passenger
 
 loading_speed: 20
@@ -27,23 +23,13 @@ dates:
   introduction_date: 1991-04-21
 
 profiles:
-  # One single car: `item_BR153` declares no `articulated_part` callback, so the unit is
-  # a one-car formation and each livery consumes exactly one row of the sheet. No
-  # `sprite_override` is needed.
   - identifier: DEFAULT
     num_vehicles: 1
-    # `item_BR153`'s callback is `return(72 * param_pax)` - already per part, with no
-    # division - and its `cargo_capacity: 72` property agrees. One car, so 72 in game.
     capacity: 72
     special_tags:
       - formation/1-car
       - subclass/153
 
-# Names from BRTrains2's `sw_BR153_cargo_subtype_text` (subtype order 0..21) and
-# `lang/partial/livery_prebuilt_strings.plng`; the legacy `str_BR153_liveries` list is
-# stale (it stops at London Midland) and was not used. Subtype order is also the sheet's
-# physical band order, so the composite packs the rows in this order - see
-# /home/jon/BRTrains3-artwork-tools/compose_br153_sheet.py for the ROWS table.
 liveries:
   - name: 'Regional Railways'
     special_tags: [operator/Regional Railways]

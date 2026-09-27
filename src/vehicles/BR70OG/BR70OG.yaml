@@ -1,8 +1,4 @@
 info:
-  # BRTrains2's own name string is `Southern Railway Class CC (BR Class 70)`.
-  # `br_70` is already taken by the 2008 Freightliner diesel "Class 70", so this
-  # candidate keeps the legacy's BR designation in a parenthetical, the way the
-  # Class 80 and Class 76 entries already do.
   identifier: br_70og
   name: 'Class 70 (Southern Railway Class CC)'
   sub_name: Electric mixed-traffic locomotive
@@ -16,9 +12,6 @@ stats:
   power: 1470
   speed: 75
   tractive_effort: 0.31
-  # The legacy item declares `track_type: THIRD` explicitly (660 V DC third rail),
-  # so the track type is stated rather than left to the `power_type` default - an
-  # electric with no declaration would silently become usable on overhead track.
   track_type:
     - THIRD
   power_type:
@@ -42,12 +35,6 @@ profiles:
       - formation/1-car
       - subclass/70
 
-# Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR70OG, cargo_subtype)`
-# (0 = BR Green, 1 = BR Blue), which is also the order of its
-# `sw_BR70OG_cargo_subtype_text` switch. Both drawings live on
-# gfx/Electric/SR_CC_BR70.png at y = 13 (BR Green) and y = 37 (BR Blue) on the
-# legacy `template_train28px` (= BRBuild's `tmpl_train_7`, the modern 29px grid),
-# and compose_br70og_sheet.py re-stacks them in this order.
 liveries:
   - name: 'BR Green'
     special_tags: [operator/BR]

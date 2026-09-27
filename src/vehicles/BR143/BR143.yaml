@@ -3,8 +3,6 @@ special_tags:
 
 info:
   identifier: br_143
-  # Split out of the `br_pacer` candidate on Jon's instruction (2026-09-27); see
-  # `BR140/BR140.yaml` for the reason. `STR_NAME_BR143: BR Class 143 "Pacer" (2-car)`.
   name: 'Class 143 Pacer'
   sub_name: Diesel multiple unit
   based_on: British Rail Class 143 Pacer

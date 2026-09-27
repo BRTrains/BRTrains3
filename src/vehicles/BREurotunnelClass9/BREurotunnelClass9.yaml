@@ -12,30 +12,19 @@ stats:
   power: 9400
   speed: 99
   tractive_effort: 0.309
-  # The legacy item declares `track_type: ELRL` explicitly, so it is declared here
-  # rather than left to `power_type` (which would give ELRL alone anyway), to keep the
-  # intent on record. See references/railtype-modelling.md.
   track_type:
     - ELRL
   power_type:
     - electric
 
-# The legacy item declares `refittable_cargo_classes: 0` (its `cargo_capacity` callback
-# returns 0) with a `cargo_allow_refit: [GOOD, FOOD]` list it cannot use, so `cargo: none`
-# states the same thing — it emits an explicit empty class list, as on the Class 92/60/58.
 cargo: none
 
-# `loading_speed: 3` is the legacy item's figure (same as the Class 92/47/89 freight
-# locomotives). `cargo_age_period` is not carried, as set-wide.
 loading_speed: 3
 
 dates:
-  # `date(1994,4,1)` in BRTrains2/src/trains/electric_loco/Eurotunnel_Class9.pnml.
   introduction_date: 1994-04-01
 
 profiles:
-  # One 1-car locomotive: `item_ET_Class9` has no articulated callback at all, so there
-  # are no parts and no `sprite_override` (the same shape as the Class 81/92 imports).
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 0
@@ -44,10 +33,5 @@ profiles:
       - subclass/9
 
 liveries:
-  # `sw_ET_Class9` (graphics) and `sw_ET_Class9_cargo_subtype_text` have cargo_subtype 0
-  # as their only case (`str_ET_BlueGrey` = "(Eurotunnel - Blue and Grey)"), so there is
-  # one livery: `spriteset_ET_Class9_BlueGrey` on
-  # BRTrains2/gfx/Electric/Eurotunnel_Class9.png, band y=13 on `template_train32px`
-  # (= BRBuild's `tmpl_train_8`).
   - name: 'Eurotunnel Blue and Grey'
     special_tags: [operator/Eurotunnel]

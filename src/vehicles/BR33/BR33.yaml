@@ -33,9 +33,6 @@ profiles:
     special_tags: [formation/1-car, subclass/33]
 
 liveries:
-  # Profile 0 uses the right-hand source column and all twelve subtypes;
-  # profile 1 uses the left-hand column and the first six subtypes. The output
-  # sheet is consumed profile-outer/livery-inner.
   - name: 'BR Green'
     profiles: ["0", "1"]
     special_tags: [operator/BR]

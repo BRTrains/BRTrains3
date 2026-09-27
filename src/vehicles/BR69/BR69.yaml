@@ -4,9 +4,6 @@ info:
   sub_name: Heavy freight diesel locomotive
   based_on: British Rail Class 69
 
-# One candidate, one 1-car profile: the legacy set files the class as a single item
-# (`item_BR69` 736, BRTrains2/src/trains/diesel_loco/69.pnml) with no articulated
-# callback, drawing all eleven of its liveries from `gfx/Diesel/69.png`.
 stats:
   vehicle_type: train
   train_type: locomotive
@@ -14,14 +11,10 @@ stats:
   length: 8
   power: 3200
   speed: 80
-  # The legacy item carries `tractive_effort_coefficient: 0.323`; below 1 BRBuild
-  # reads the figure as a coefficient already, so it is carried unchanged.
   tractive_effort: 0.323
   power_type:
     - diesel
 
-# The legacy item declares `refittable_cargo_classes: 0` and a zero-returning
-# cargo-capacity callback, so `cargo: none` states the effective behaviour.
 cargo: none
 loading_speed: 3
 
@@ -37,15 +30,8 @@ profiles:
       - subclass/69
 
 liveries:
-  # Ordered by the legacy `sw_BR69` cargo-subtype switch (0..10) and named from its
-  # `sw_BR69_cargo_subtype_text` partner, with the surrounding parentheses dropped.
-  # That order is also the composite's row order (compose_br69_sheet.py), which packs
-  # the source bands y = 0, 26, ... 260 in exactly the same sequence.
   - name: 'GBRf Blue and Orange'
     special_tags: [operator/GB Railfreight]
-  # The BR-era corporate liveries are heritage repaints on GBRf's own locomotives, so
-  # they carry the operating organisation and the livery's own name (see the oddities
-  # file for the badge judgement call).
   - name: 'BR Green'
     special_tags: [operator/GB Railfreight, operator/BR]
   - name: 'BR Maroon'

@@ -17,8 +17,6 @@ stats:
   power_type:
     - electric
 
-# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
-# cargo capacity callback, so cargo: none states the effective behaviour.
 cargo: none
 loading_speed: 3
 
@@ -33,8 +31,6 @@ profiles:
       - formation/1-car
       - subclass/86
 
-# Ordered by sw_BR86_cargo_subtype and sw_BR86_cargo_subtype_text. The source
-# rows are re-stacked by compose_br86_sheet.py into this same order.
 liveries:
   - name: 'BR Blue'
     special_tags: [operator/BR]
@@ -44,9 +40,6 @@ liveries:
     special_tags: [operator/InterCity]
   - name: 'Railfreight Distribution'
     special_tags: [operator/Railfreight]
-  # `str_REX` reads `(Rail Express Systems)` and `str_FreightlinerGreen` /
-  # `str_FreightlinerPH` read `(Freightliner - Green)` / `(Freightliner - Powerhaul)`,
-  # so the names are the legacy's own with BRTrains3's operator-prefix style.
   - name: 'Rail Express Systems'
     special_tags: [operator/Rail Express Systems]
   - name: 'EWS Red and Gold'

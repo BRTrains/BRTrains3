@@ -3,12 +3,6 @@ special_tags:
 
 info:
   identifier: br_102
-  # Split from the `Class 101/102` candidate on Jon's instruction (2026-09-27): the two are
-  # separate units that were joined only because they are very similar. They are
-  # commissioned artwork with no BRTrains2 `.pnml` unit, and the artist's strip carries one
-  # set of drawings that both classes use (`compose_101_901.py`'s row inventory), so this
-  # candidate draws its own copy of the Class 101's rows rather than sharing the Class 101's
-  # sheet - a candidate publishes one sheet of its own, and the split gives each its own.
   name: 'Class 102'
   sub_name: First-generation diesel multiple unit
   based_on: British Rail Class 102
@@ -30,8 +24,6 @@ dates:
   introduction_date: 1956-01-01
 
 profiles:
-  # The Class 101's formations, as the joined candidate had them (the 102 shares the 101's
-  # statistics): two-car and three-car, each group consuming consecutive rows.
   - identifier: 102_2
     name: '2-Car'
     num_vehicles: 2
@@ -50,8 +42,6 @@ profiles:
       - subclass/102
 
 liveries:
-  # The same seven liveries as the Class 101, in the same strip order, restricted per
-  # formation. They are the 101's drawings: the artist drew one set for both classes.
   - name: 'BR Blue'
     special_tags: [operator/BR]
     profiles: [102_2]

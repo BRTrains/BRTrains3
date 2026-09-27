@@ -28,9 +28,6 @@ profiles:
       - formation/1-car
 
 liveries:
-  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR121, cargo_subtype)` (0..7),
-  # which is also the sheet's physical band order in gfx/BR121.png
-  # (spriteset y = 13, 38, 63, 88, 113, 138, 163, 188 on template_train32px_old).
   - name: 'BR Green'
   - name: 'BR Blue'
   - name: 'Railtrack'

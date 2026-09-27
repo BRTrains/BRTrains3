@@ -17,8 +17,6 @@ stats:
   power_type:
     - electric
 
-# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
-# cargo capacity callback, so cargo: none states the effective behaviour.
 cargo: none
 loading_speed: 3
 
@@ -33,8 +31,6 @@ profiles:
       - formation/1-car
       - subclass/84
 
-# The only legacy graphics case is cargo_subtype 0 / BR Blue. It reads the
-# shared AL1-AL7 sheet at template_train32px(0, 65).
 liveries:
   - name: 'BR Blue'
     special_tags: [operator/BR]

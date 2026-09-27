@@ -1,11 +1,5 @@
 info:
   identifier: br_171
-  # One candidate for the two legacy items the set files under one `variant_group:
-  # header_Turbostar` and draws from one sheet (`gfx/DMU/171.png`): the "2-Car"
-  # (`item_BR171_2car` 478) and the "4-Car" (`item_BR171_4car` 480). Both are Turbostar
-  # units of the same body carrying the one Southern livery, and the sheet holds a single
-  # front/middle/rear trio, so the 2-car owns the row group and the 4-car reuses it through
-  # `sprite_group` (the Class 168/0 and Class 170 precedent).
   name: 'Class 171 "Turbostar"'
   sub_name: Diesel multiple unit
   based_on: British Rail Class 171 Turbostar
@@ -13,8 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # BRBuild's capacity, power and weight are per-part; the legacy items carry the
-  # whole-consist figures, so each profile below carries its own item's figures.
   length: 8
   speed: 100
   tractive_effort: 0.3
@@ -30,24 +22,16 @@ dates:
   introduction_date: 2003-04-21
 
 profiles:
-  # The legacy item `item_BR171_2car` (478): a two-car unit, 844 hp / 90 t. Its
-  # `switch_articulated_BR171_2car` adds one part at offset 1, so the formation is the
-  # lead and tail drawings and the group's middle drawing is never read.
   - identifier: '171_2car'
     name: '2-Car'
     num_vehicles: 2
     capacity: 50
     power: 844
     weight: 90
-    # Lead from `position_in_articulated_veh` 0 and tail from
-    # `position_in_articulated_veh_from_end` 0 - the group's front and rear rows.
     sprite_override: [1, 3]
     special_tags:
       - formation/2-car
 
-  # The legacy item `item_BR171_4car` (480): a four-car unit, 1266 hp / 135 t. Offsets 1..3
-  # are the three articulated parts `switch_articulated_BR171_4car` adds, so the formation
-  # is lead, two middles, tail.
   - identifier: '171_4car'
     name: '4-Car'
     num_vehicles: 4
@@ -60,8 +44,5 @@ profiles:
       - formation/4-car
 
 liveries:
-  # One livery: the legacy `sw_BR171` names a single `cargo_subtype`, 0 -> `str_Southern`.
-  # The row order inside the group is the composite's (`compose_br171_sheet.py`): front,
-  # middle, rear.
   - name: 'Southern'
     special_tags: [operator/Southern]

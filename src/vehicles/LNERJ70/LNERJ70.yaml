@@ -31,7 +31,5 @@ profiles:
       - formation/1-car
 
 liveries:
-  # The PNML switch declares one livery (cargo_subtype 0) and the sheet carries one
-  # loco row at y=13 plus a second at y=39 with no switch case reading it.
   - name: 'LNER Teak'
     special_tags: [operator/LNER]

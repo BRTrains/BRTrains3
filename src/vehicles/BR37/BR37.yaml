@@ -28,78 +28,72 @@ profiles:
       - formation/1-car
       - subclass/37
 
-# Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR37, cargo_subtype)` (0..33),
-# whose `sw_BR37_cargo_subtype_text` names each subtype. Every subtype has its own
-# spriteset on gfx/BR37.png, so the sheet holds one band per livery and
-# compose_br37_sheet.py re-stacks them in this order. Livery wording follows the
-# legacy's `str_*` strings; the bands' own pixels corroborate every declared identity
-# (see probe_br37_bands.py / probe_saturated_colours.py).
 liveries:
-  - name: 'BR Green'                                   # 0  spriteset_BR37_BRGreen
+  - name: 'BR Green'
     special_tags: [operator/BR]
-  - name: 'BR Green (Centre Headcode)'                 # 1  ..._BRGreenCentre
+  - name: 'BR Green (Centre Headcode)'
     special_tags: [operator/BR]
-  - name: 'BR Green (Split Box)'                       # 2  ..._BRGreenSplit
+  - name: 'BR Green (Split Box)'
     special_tags: [operator/BR]
-  - name: 'BR Large Logo (Split Box)'                  # 3  ..._BRLLogoSplit
+  - name: 'BR Large Logo (Split Box)'
     special_tags: [operator/BR]
-  - name: 'Railfreight Large Logo (Split Box)'         # 4  ..._RFLLSplit
+  - name: 'Railfreight Large Logo (Split Box)'
     special_tags: [operator/Railfreight]
-  - name: 'Railfreight Large Logo (Centre Headcode)'   # 5  ..._RFLLCentre
+  - name: 'Railfreight Large Logo (Centre Headcode)'
     special_tags: [operator/Railfreight]
-  - name: InterCity                                    # 6  ..._InterCity
+  - name: InterCity
     special_tags: [operator/InterCity]
-  - name: 'Departmental Grey'                          # 7  ..._DeptGrey
+  - name: 'Departmental Grey'
     special_tags: [operator/BR]
-  - name: 'Civil Engineers Dutch'                      # 8  ..._CivilDutch
+  - name: 'Civil Engineers Dutch'
     special_tags: [operator/BR]
-  - name: 'BR General Grey'                            # 9  ..._BRGrey
+  - name: 'BR General Grey'
     special_tags: [operator/BR]
-  - name: 'Regional Railways'                          # 10 ..._Regional
+  - name: 'Regional Railways'
     special_tags: [operator/Regional Railways]
-  - name: 'BR Blue (Centre Headcode)'                  # 11 ..._BRBlueCentre
+  - name: 'BR Blue (Centre Headcode)'
     special_tags: [operator/BR]
-  - name: 'BR Large Logo (Centre Headcode)'            # 12 ..._BRLLogoCentre
+  - name: 'BR Large Logo (Centre Headcode)'
     special_tags: [operator/BR]
-  - name: 'BR Blue (Split Box)'                        # 13 ..._BRBlueSplit
+  - name: 'BR Blue (Split Box)'
     special_tags: [operator/BR]
-  - name: 'EWS (Centre Headcode)'                      # 14 ..._EWSCentre
+  - name: 'EWS (Centre Headcode)'
     special_tags: [operator/EWS]
-  - name: 'EWS (Split Box)'                            # 15 ..._EWSSplit
+  - name: 'EWS (Split Box)'
     special_tags: [operator/EWS]
-  - name: 'DRS (Centre Headcode)'                      # 16 ..._DRSCentre
+  - name: 'DRS (Centre Headcode)'
     special_tags: [operator/DRS]
-  - name: 'DRS (Refurbished)'                          # 17 ..._DRSRefurb
+  - name: 'DRS (Refurbished)'
     special_tags: [operator/DRS]
-  - name: 'Royal Scotsman'                             # 18 ..._Royal
+  - name: 'Royal Scotsman'
     special_tags: [operator/Royal Scotsman]
-  - name: Loadhaul                                     # 19 ..._Loadhaul
+  - name: Loadhaul
     special_tags: [operator/Loadhaul]
-  - name: 'Railfreight Petroleum'                      # 20 ..._RFPetrol
+  - name: 'Railfreight Petroleum'
     special_tags: [operator/Railfreight]
-  - name: 'Railfreight Distribution'                   # 21 ..._RFDistribution
+  - name: 'Railfreight Distribution'
     special_tags: [operator/Railfreight]
-  - name: 'Railfreight Construction'                   # 22 ..._RFConstruction
+  - name: 'Railfreight Construction'
     special_tags: [operator/Railfreight]
-  - name: 'Harry Needle Railroad'                      # 23 ..._HarryNeedle
+  - name: 'Harry Needle Railroad'
     special_tags: [operator/Harry Needle Railroad]
-  - name: 'Railfreight Coal'                           # 24 ..._RFCoal
+  - name: 'Railfreight Coal'
     special_tags: [operator/Railfreight]
-  - name: 'DRS (Compass)'                              # 25 ..._DRSCompass
+  - name: 'DRS (Compass)'
     special_tags: [operator/DRS]
-  - name: 'Mainline Freight'                           # 26 ..._MainlineFreight
+  - name: 'Mainline Freight'
     special_tags: [operator/Mainline Freight]
-  - name: 'DB Schenker'                                # 27 ..._DBSchenker
+  - name: 'DB Schenker'
     special_tags: [operator/DB Schenker]
-  - name: 'Colas Rail'                                 # 28 ..._Colas
+  - name: 'Colas Rail'
     special_tags: [operator/Colas Rail]
-  - name: 'Banger Blue (White Stripe)'                 # 29 ..._BangerBlue
+  - name: 'Banger Blue (White Stripe)'
     special_tags: [operator/BR]
-  - name: Police                                       # 30 ..._Police
+  - name: Police
     special_tags: [operator/Police]
-  - name: 'BR Black'                                   # 31 ..._BRBlack
+  - name: 'BR Black'
     special_tags: [operator/BR]
-  - name: 'Harry Needle Orange'                        # 32 ..._HarryNeedleOrange
+  - name: 'Harry Needle Orange'
     special_tags: [operator/Harry Needle Railroad]
-  - name: 'BR Blue and Red'                            # 33 ..._BRBlueRed
+  - name: 'BR Blue and Red'
     special_tags: [operator/BR]

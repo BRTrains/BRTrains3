@@ -20,7 +20,6 @@ dates:
   introduction_date: 1982-01-01
 
 profiles:
-  # The sleeper draws rows 1-8 of the candidate's own sheet (BRMk3.png), in livery order.
   - identifier: sleeper
     name: 'Sleeper'
     num_vehicles: 1
@@ -31,9 +30,6 @@ profiles:
       - formation/1-car
       - subclass/mk3_sleeper
 
-  # The DVT is an unpowered driving vehicle, so it keeps its own sheet: its rows are not
-  # intermingled with the coach rows the rest of the family will use. `has_cab` tells OpenTTD
-  # the van may lead a rake, so the train backs up rather than magic-flipping.
   - identifier: dvt
     name: 'DVT'
     num_vehicles: 1
@@ -46,16 +42,6 @@ profiles:
       - formation/1-car
       - subclass/mk3_dvt
 
-  # The six loco-hauled Mk3 coach types each draw one band per livery of their own sheet
-  # (`BRTrains2/gfx/Rolling Stock/Mk3/BRMk3<Type>.png`, 171x500 on the legacy
-  # `template_train32px_old` grid) and each keeps a sheet of its own, composed by
-  # `BRTrains3-artwork-tools/compose_br_mk3_coach_sheet.py <Type>`, which repacks every band
-  # onto the modern `tmpl_train_8` grid. `sw_253_BRMk3<Type>` reads one spriteset per livery,
-  # so each type is one single-car profile over the same seventeen-livery list.
-  #
-  # Capacities are the legacy `cargo_capacity` callbacks, already per-part (`72` TS, `48` TF,
-  # `59` TGS, `34` TRSB/TRUB/TRUK), and the weight is left to the candidate's own 43 t: every
-  # coach item declares `weight: 0` (a placeholder, not a figure), so nothing was invented.
   - identifier: ts
     name: 'Trailer Second'
     num_vehicles: 1
@@ -142,7 +128,6 @@ liveries:
     profiles: [sleeper]
     special_tags: [operator/Stagecoach]
 
-  # The DVT's own sheet, in its row order.
   - name: 'InterCity Swallow'
     profiles: [dvt]
     special_tags: [operator/InterCity]
@@ -171,10 +156,6 @@ liveries:
     profiles: [dvt]
     special_tags: [operator/Network Rail]
 
-  # The six loco-hauled coach types share the same seventeen-livery set, which is the
-  # `sw_253_BRMk3<Type>` 0..16 order - the groups the composite's ROWS table packs in. Every
-  # one is restricted to the six coach profiles: the sleeper and the DVT draw their own sheets
-  # and carry their own lists above.
   - name: 'BR Blue'
     profiles: [ts, tf, tgs, trsb, trub, truk]
     special_tags: [operator/BR]

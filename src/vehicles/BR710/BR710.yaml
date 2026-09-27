@@ -43,8 +43,6 @@ profiles:
     speed: 75
     power: 2400
     weight: 151
-    # `item_br_710_1` carries `cargo_capacity: (678/4)` and the callback
-    # `return(678/4 * param_pax)` — 169 per part, 678 in game.
     capacity: 169
     sprite_override: [1, 2, 3, 4]
     special_tags:
@@ -60,9 +58,6 @@ profiles:
     speed: 75
     power: 2400
     weight: 151
-    # `item_br_710_2_4car` states the same figures as the 710/1; the legacy drops its
-    # weight by 7 t (144 ton) for no stated reason, so the 710/1's `weight: 151 ton`,
-    # shared by the 5-car's own item, is carried rather than that outlier.
     capacity: 169
     track_type:
       - THIRD
@@ -78,8 +73,6 @@ profiles:
     speed: 75
     power: 3000
     weight: 182
-    # `item_br_710_3_5car`'s callback is `return(882/5 * param_pax)` — 176 per part, 882 in
-    # game. Its own `cargo_capacity: (882/5)` property states the same quotient.
     capacity: 176
     track_type:
       - THIRD
@@ -90,7 +83,5 @@ profiles:
       - subclass/710_3
 
 liveries:
-  # The legacy's `STR_DSC_BR_710` lists one livery, "London Overground", and neither the
-  # items nor their spritesets carry a `cargo_subtype` switch, so there is one livery.
   - name: 'London Overground'
     special_tags: [operator/London Overground]

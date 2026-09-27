@@ -15,9 +15,6 @@ stats:
   train_type: locomotive
   weight: 86
   length: 8
-  # `switch_BR93_power` returns 6200 on electrified rail and 1740 otherwise. A per-item
-  # power property cannot vary by rail state, so the overhead figure is carried; the
-  # diesel-mode 1740 is recorded in the import oddities file.
   power: 6200
   speed: 110
   tractive_effort: 0.337
@@ -26,8 +23,6 @@ stats:
     - electric
     - battery
 
-# The legacy item declares refittable_cargo_classes: 0 and a zero-returning
-# cargo_capacity callback, so cargo: none states the effective behaviour.
 cargo: none
 loading_speed: 3
 
@@ -42,8 +37,6 @@ profiles:
       - formation/1-car
       - subclass/93
 
-# One livery: sw_BR93 selects a single spriteset for cargo subtype 0, which
-# switch_BR93_cargo_subtype_text names with str_DRSGreen ("DRS - Green").
 liveries:
   - name: 'DRS'
     special_tags: [operator/DRS]

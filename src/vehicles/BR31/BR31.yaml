@@ -29,12 +29,6 @@ profiles:
       - subclass/31
 
 liveries:
-  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR31, cargo_subtype)` (0..16),
-  # whose `cargo_subtype_text` switch names each subtype. Every subtype has its own
-  # spriteset on gfx/BR31.png, so the sheet holds one band per livery and
-  # compose_br31_sheet.py re-stacks them in this order. The bands whose declared
-  # identity the artwork does not corroborate are listed in
-  # /home/jon/BRTrains3-import-oddities.md.
   - name: 'BR Green'
     special_tags: [operator/BR]
   - name: 'BR Blue (Yellow Front)'

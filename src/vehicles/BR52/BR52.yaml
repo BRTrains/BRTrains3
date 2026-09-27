@@ -29,10 +29,6 @@ profiles:
       - subclass/52
 
 liveries:
-  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR52, cargo_subtype)` (0..4),
-  # which is also the legacy `cargo_subtype_text` switch's order and the physical band
-  # order of gfx/Diesel/52.png (straight re-stack, no relocation):
-  #   BR Blue y=13, BR Desert Sand y=39, BR Maroon y=65, BR Green y=91, BR Golden Ochre y=117
   - name: 'BR Blue'
     special_tags: [operator/BR]
   - name: 'BR Desert Sand'

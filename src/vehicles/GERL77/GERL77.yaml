@@ -31,8 +31,6 @@ profiles:
       - formation/1-car
 
 liveries:
-  # Ordered by the PNML graphics switch (cargo_subtype 0..4), not by spriteset
-  # declaration or source y. compose_steam_sheets.py emits the rows in the same order.
   - name: 'GER Blue'
     special_tags: [operator/GER]
   - name: 'GER Black'

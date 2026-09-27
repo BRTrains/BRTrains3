@@ -14,10 +14,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - diesel
-  # The legacy `item_BR150_2` (BRTrains2/src/trains/diesel_mu/Sprinter/BR150_2.pnml, 46)
-  # declares `track_type: RAIL`; the classifier emits the same for a self-powered unit,
-  # so it is left unset here, as on the rest of the Sprinter family.
-
 cargo: passenger
 
 loading_speed: 20
@@ -27,29 +23,14 @@ dates:
   introduction_date: 1986-04-21
 
 profiles:
-  # A two-car unit: `switch_articulated_BR150_2` adds the part at position 1, and
-  # `sw_BR150_2` selects a leading/trailing pair per livery - position 0 draws the front
-  # from `gfx/BR150_2a.png`, position 1 the rear from `gfx/BR150_2b.png`, both at the
-  # livery's own y. Each (profile, livery) group therefore consumes two rows and
-  # `sprite_override` is the identity pattern over them; the composite packs each livery's
-  # two bands front then rear
-  # (BRTrains3-artwork-tools/compose_br150_2_sheet.py has the ROWS table).
   - identifier: DEFAULT
     num_vehicles: 2
-    # `item_BR150_2`'s callback is `return(147 * param_pax / 2)` - a consist total divided
-    # by the part count - so the per-part figure is 73 (147 // 2). The legacy's own
-    # `cargo_capacity: 67` property is the placeholder the callback overrides.
     capacity: 73
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
       - subclass/150_2
 
-# Names from BRTrains2's `sw_BR150_2_cargo_subtype_text` (subtype order 0..14) and the
-# livery strings in `lang/partial/livery_prebuilt_strings.plng`. That subtype order is the
-# YAML livery order, and the composite packs the row pairs in it. The legacy
-# `str_BR150_2_liveries` list is stale - it stops at ScotRail and names only 12 of the 15
-# subtypes - so it was not used.
 liveries:
   - name: 'Regional Railways'
     special_tags: [operator/Regional Railways]

@@ -21,19 +21,12 @@ dates:
   introduction_date: 2019-01-01
 
 profiles:
-  # Each formation is a profile because a profile is also the level that names its
-  # own `spritesheet` and carries its own power and introduction date, all of which
-  # differ - and because the two formations read different sheets.
   - identifier: 2car
     name: 2-Car
     num_vehicles: 2
     capacity: 86
     power: 800
-    # No `spritesheet` here: unset means the candidate's own BR230.png, which is the
-    # 2-car sheet. Declaring it explicitly would name the same file, and the ingest
-    # remaps only the candidate's own sheet, so the declaration would resolve to a
-    # not-yet-published path and fail the build (see the oddities file).
-    sprite_override: [1, 2]  # leading car, trailing car; the band order on the sheet
+    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
   - identifier: 3car
@@ -41,29 +34,16 @@ profiles:
     num_vehicles: 3
     capacity: 86
     power: 1200
-    # The 3-car units were the later West Midlands Trains formation, delivered in
-    # 2021; the 2-car units entered service in 2019. The legacy set carried this as
-    # 2019 on every item, with the trailing car of the 3-car formation alone on 1989.
     introduction_date: 2021-01-01
     spritesheet: BR230_3car.png
-    sprite_override: [1, 3, 2]  # leading, middle, trailing - the band order on the sheet
+    sprite_override: [1, 3, 2]
     special_tags:
       - formation/3-car
 
 liveries:
-  # Livery order within each profile is the sheet's band order, because a group
-  # consumes its bands sequentially: BR230.png holds VivaRail, LNWR, GWR (two 25px
-  # bands each) and BR230_3car.png holds VivaRail, GWR, TfW (three each).
-  # Each livery names the profiles it belongs to, so the right ones land on the
-  # right sheet. Source rows and the reasoning: compose_br230_sheets.py.
   - name: 'VivaRail'
     profiles: [2car, 3car]
     special_tags: [operator/West Midlands Trains]
-  # The legacy livery strings are `(London Northwestern Railway)`, `(Transport For
-  # Wales)`, `(VivaRail)` and `(GWR - Green)` (BRTrains2
-  # `lang/partial/livery_prebuilt_strings.plng`); they are expanded to the operator's
-  # own name and to BRTrains3's "Green" convention, matching the existing
-  # "Transport for Wales" livery on BRMk3.
   - name: 'London Northwestern Railway Green'
     profiles: [2car]
     special_tags: [operator/London Northwestern Railway]

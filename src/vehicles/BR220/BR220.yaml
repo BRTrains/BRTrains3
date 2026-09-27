@@ -21,10 +21,6 @@ dates:
   introduction_date: 2000-04-21
 
 profiles:
-  # One formation only: the 220 was built as a 4-car unit and never ran in another
-  # length. The legacy file's single item is drawn from three spritesets
-  # (`switch_articulated_BR220`: parts 1..2 -> item_220b, part 3 -> item_220c), so the
-  # pattern is front, two middles, rear over the livery's three drawings.
   - identifier: '220_4'
     name: '4-Car'
     num_vehicles: 4
@@ -34,8 +30,6 @@ profiles:
       - formation/4-car
 
 liveries:
-  # Order is the legacy `sw_BR220a/b/c` cargo_subtype order, which is also the sheet's
-  # band order: 0 Virgin Trains, 1 CrossCountry, 2 CrossCountry refurbished.
   - name: 'Virgin Trains'
     special_tags: [operator/Virgin Trains]
   - name: 'CrossCountry'

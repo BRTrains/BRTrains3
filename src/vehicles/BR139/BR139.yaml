@@ -7,9 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # The legacy `item_BR139` figures, per its single car: 12 t, 86 hp, 50 mph, length 5.
-  # The 86 hp is the legacy's own figure and reads low against the real unit's ~100 kW
-  # (about 134 hp) — flagged in the oddities file rather than corrected.
   weight: 12
   length: 5
   power: 86
@@ -27,8 +24,6 @@ dates:
   introduction_date: 2009-06-01
 
 profiles:
-  # `item_BR139` (464): one car, with no `articulated_part` callback, so a single row
-  # per livery.
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 50

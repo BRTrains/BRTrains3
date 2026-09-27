@@ -3,8 +3,6 @@ special_tags:
 
 info:
   identifier: br_142
-  # Split out of the `br_pacer` candidate on Jon's instruction (2026-09-27); see
-  # `BR140/BR140.yaml` for the reason. `STR_NAME_BR142: BR Class 142 "Pacer" (2-car)`.
   name: 'Class 142 Pacer'
   sub_name: Diesel multiple unit
   based_on: British Rail Class 142 Pacer
@@ -31,8 +29,6 @@ dates:
   introduction_date: 1985-04-21
 
 profiles:
-  # One two-car formation, as the Class 140's: `sw_BR142_<livery>` draws front at
-  # `position_in_articulated_veh % 2` 0 and rear at 1.
   - identifier: DEFAULT
     num_vehicles: 2
     # Per-part: the legacy callback is `return(112 * param_pax / 2)`, i.e. 56. The item's own

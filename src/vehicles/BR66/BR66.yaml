@@ -42,8 +42,6 @@ profiles:
       - subclass/66_6
 
 liveries:
-  # Ordered by sw_BR66 (0..26), then sw_BR66_6 (0..6); the compositor places
-  # the corresponding legacy y bands in this profile-outer/livery-inner order.
   - name: 'Freightliner'
     profiles: ['66', '66_6']
     special_tags: [operator/Freightliner]

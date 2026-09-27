@@ -30,8 +30,6 @@ profiles:
     name: 5-Car
     num_vehicles: 5
     capacity: 60
-    # Each livery is four physical rows (a, b, c, d). The legacy articulation ran
-    # a, c, d, d, b, so the d car is drawn twice.
     sprite_override: [1, 3, 4, 4, 2]
     special_tags:
       - formation/5-car

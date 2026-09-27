@@ -32,9 +32,6 @@ profiles:
       - formation/loco+tender
 
 liveries:
-  # Ordered by the PNML graphics switch (cargo_subtype 0..3), not by spriteset
-  # declaration or source y. compose_steam_sheets.py emits one loco+tender row pair per
-  # livery, in this order.
   - name: 'LMS Black 1935'
     special_tags: [operator/LMS]
   - name: 'BR Black (Lion and Wheel)'

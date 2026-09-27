@@ -27,11 +27,6 @@ dates:
   introduction_date: 1987-04-21
 
 profiles:
-  # One 4-car unit: `switch_articulated_BR319` adds items 249/250/251 as parts 1..3, and
-  # those items' own `default:` switches are sw_BR319b/c/d while item 248 uses sw_BR319a,
-  # so the articulated positions consume the sheet group's a, b, c, d blocks in order and
-  # no sprite_override is needed (BR319.pnml; corrected 2026-09-26 from the PNML rather
-  # than inferred from the artwork).
   - identifier: '319_4'
     name: 4-Car
     num_vehicles: 4
@@ -41,10 +36,6 @@ profiles:
       - subclass/319
 
 liveries:
-  # Sheet group order = sw_BR319a..d's cargo_subtype order (0..8) = the order
-  # compose_br319_sheet.py packs, because BRBuild consumes rows sequentially. Names expand
-  # the legacy subtype_text strings; sheet block y values are in the compositor (and come
-  # from BR319.pnml's own spriteset declarations).
   - name: 'Network South East'
     special_tags: [operator/Network SouthEast]
   - name: 'BR Thameslink'

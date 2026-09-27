@@ -1,11 +1,5 @@
 info:
   identifier: br_380
-  # One candidate for the two legacy items the set draws from one sheet: `item_BR380_3car`
-  # 767 ("BR Class 380/0 \"Desiro\" (3-car)") in BRTrains2/src/trains/electric_mu/380_3car.pnml
-  # and `item_BR380_4car` 768 in 380_4car.pnml — the same body at two formation lengths,
-  # one profile each (the Class 331 / Class 320 precedent). Neither item carries a
-  # `variant_group` in the legacy set, but both read the same four bands of
-  # `gfx/EMU/380.png` and the same single livery.
   name: 'Class 380 "Desiro"'
   sub_name: Electric multiple unit
   based_on: British Rail Class 380 Desiro
@@ -24,8 +18,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - electric
-  # Both legacy items declare `track_type: ELRL` (25 kV overhead), so the logical type is
-  # stated rather than left to the `power_type` default.
   track_type:
     - ELRL
 
@@ -33,19 +25,12 @@ cargo: passenger
 
 loading_speed: 25
 
-# `model_life: VEHICLE_NEVER_EXPIRES` in both legacy items.
 model_life: 0
 
 dates:
-  # Both items declare `date(2010, 12, 08)`.
   introduction_date: 2010-12-08
 
 profiles:
-  # A three-car unit. `sw_BR380_3car_ScotRail_Saltire` is `position_in_articulated_veh % 3`:
-  # 0 draws the front, 1 the `_middle_panto` and 2 the rear drawing, so the formation reads
-  # front, panto, rear. The sheet's rows are one four-row block per livery (front, middle,
-  # panto, rear, the order the 4-car reads), so the 3-car skips the plain middle row:
-  # `sprite_override: [1, 3, 4]` with `group_size` 4, consuming the block exactly.
   - identifier: '380_0'
     name: '380/0'
     num_vehicles: 3
@@ -60,9 +45,6 @@ profiles:
       - formation/3-car
       - subclass/380_0
 
-  # A four-car unit. `sw_BR380_4car_ScotRail_Saltire` is `position_in_articulated_veh % 4`:
-  # 0 front, 1 middle, 2 `_middle_panto`, 3 rear, which is the block's own row order, so
-  # the profile reuses the 3-car's rows through `sprite_group`.
   - identifier: '380_1'
     name: '380/1'
     num_vehicles: 4
@@ -74,7 +56,5 @@ profiles:
       - subclass/380_1
 
 liveries:
-  # `sw_BR380_cargo_subtype_text` has one entry, subtype 0 = `str_ScotRailSaltire`
-  # "(ScotRail - Saltire)", matching the Class 320's own livery name and badge.
   - name: 'ScotRail Saltire'
     special_tags: [operator/ScotRail]

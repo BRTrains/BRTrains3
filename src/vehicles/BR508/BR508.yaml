@@ -7,21 +7,12 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # Both of the class's driving items (`item_BR508_1` 325 = 508/0, `item_BR508_2` 328 =
-  # 508/1 in `BRTrains2/src/trains/electric_mu/BR507508.pnml`) declare 880 hp, 75 mph and
-  # `tractive_effort_coefficient: 0.07`; neither declares a `design_speed` (the file has no
-  # `param_max_speed` switch), so none is set. Weight differs by formation and is therefore
-  # set per profile: the 4-car 508/0 declares 125 t, the 3-car 508/1 98 t. The 508/1's
-  # trailing item declares `speed: 161 km/h` where the driving item says 75 mph -- the root
-  # item's own figure is used, the same set-wide whole-unit question as the rest of the
-  # third-rail EMUs.
   power: 880
   speed: 75
   length: 8
   tractive_effort: 0.07
   power_type:
     - electric
-  # Both items declare `track_type: THIRD` explicitly (750 V DC third rail).
   track_type:
     - THIRD
 
@@ -33,17 +24,7 @@ cargo_age_period: 185
 dates:
   introduction_date: 1978-04-21
 
-# PROFILES ARE IN THE ALLOCATOR'S ROW ORDER. BRBuild consumes the sheet's recognised rows
-# profile-outer / livery-inner off one cursor (`Vehicle/VariantSpriteGroups.py`
-# `build_sprite_groups`), each (profile, livery) group taking `max(pattern)` = 3 rows, so the
-# 508/0's BR Blue group takes rows 1..3 and the 508/1's eight livery groups rows 4..27 --
-# exactly the order `compose_br507_508_sheets.py` packs them in.
 profiles:
-  # 508/0: `item_BR508_1` 325 ("BR Class 508/0 (4-Car)"). Its graphics default is
-  # `sw_BR508a` and `switch_articulated_BR508_1` returns `item_BR508c` at offsets 1 and 2 and
-  # `item_BR508b` at offset 3, so the consist is a, c, c, b and the pattern over the
-  # composite's a/b/c group is [1, 3, 3, 2]. Its own livery switch
-  # (`sw_BR508_1_cargo_subtype_text`) names one livery only, `str_BRBlue`.
   - identifier: '508_0'
     num_vehicles: 4
     # `item_BR508_1`'s callback is `return(74 * param_pax)` with no division (its own property
@@ -56,9 +37,6 @@ profiles:
       - formation/4-car
       - subclass/508_0
 
-  # 508/1: `item_BR508_2` 328 ("BR Class 508/1 (3-Car)"). `switch_articulated_BR508_2`
-  # returns `item_BR508c` at offset 1 and `item_BR508b` at offset 2, so the consist is
-  # a, c, b and the pattern is [1, 3, 2].
   - identifier: '508_1'
     num_vehicles: 3
     capacity: 74

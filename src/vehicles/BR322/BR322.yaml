@@ -12,7 +12,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - electric
-  # The legacy item declares track_type ELRL explicitly, like its Class 321 sibling.
   track_type:
     - ELRL
 
@@ -24,10 +23,6 @@ dates:
   introduction_date: 1990-03-17
 
 profiles:
-  # One 4-car unit (the legacy item's articulated callback adds parts 1..3). The sheet
-  # holds one four-row block per livery, declared front, rear, middle, middle_panto, and
-  # switch_BR322_spriteset_<livery> reads positions 0..3 as front / middle_panto /
-  # middle / rear - hence sprite_override [1, 4, 3, 2].
   - identifier: '322_4'
     name: 4-Car
     num_vehicles: 4
@@ -40,8 +35,6 @@ profiles:
       - subclass/322_4
 
 liveries:
-  # Sheet block order = switch_BR322_spriteset's cargo_subtype order (0..6); each livery
-  # owns four consecutive rows. Labels expand the legacy subtype_text strings.
   - name: 'Stansted Express Gold'
     special_tags: [operator/Stansted Express]
   - name: 'Stansted Express Green'

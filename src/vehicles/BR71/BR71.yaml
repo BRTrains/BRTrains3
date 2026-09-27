@@ -31,7 +31,6 @@ profiles:
       - formation/1-car
       - subclass/71
 
-# Ordered by BRTrains2's sw_BR71 cargo_subtype switch: one BR Green drawing.
 liveries:
   - name: BR Green
     special_tags:

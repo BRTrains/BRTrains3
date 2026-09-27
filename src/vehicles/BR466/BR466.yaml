@@ -25,26 +25,14 @@ dates:
   introduction_date: 1992-04-21
 
 profiles:
-  # The legacy `item_BR466` (BRTrains2/src/trains/electric_mu/BR465.pnml, 285) is the
-  # two-car 466: `switch_articulated_BR466` adds the trailing cab (`item_BR465c`) at
-  # offset 1, so the consist is cab, cab. The class draws its two positions from the
-  # same per-livery a/b/c switch set as the 465 (`sw_BR465a` is both items' `default:`,
-  # and the 466 has no middle car), and the legacy position mapping makes a two-car
-  # consist the centre-car then trailing-cab drawing - hence [2, 3] over the sheet's
-  # a/b/c row order, not the [1, 3] the sheet order would suggest. See the oddities
-  # entry.
   - identifier: DEFAULT
     num_vehicles: 2
-    # `item_BR466`'s callback is `return(82 * param_pax)` - a consist total, so the
-    # per-part figure is 82 / 2 = 41. The legacy's property beside it reads 82.
     capacity: 41
     sprite_override: [2, 3]
     special_tags:
       - formation/2-car
       - subclass/466
 
-# The 466 shares the 465's livery list and subtype order
-# (`sw_BR465_cargo_subtype_text` in `BRTrains2/src/trains/electric_mu/BR465.pnml`).
 liveries:
   - name: 'Network South East'
     special_tags: [operator/Network SouthEast]

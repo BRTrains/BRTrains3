@@ -29,14 +29,6 @@ profiles:
       - subclass/70
 
 liveries:
-  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR70, cargo_subtype)` (0..3),
-  # which is also the order of its `cargo_subtype_text` switch. Each subtype has its own
-  # spriteset on gfx/Diesel/70.png at y = 13 + 26k on `template_train32px`
-  # (= BRBuild's `tmpl_train_8`), so the sheet holds one band per livery in this order
-  # and compose_br70_sheet.py re-stacks them. Two of the bands (source y=13 and y=91)
-  # bleed art across the template's x=65 gutter, which is repaired in the composite; the
-  # band-to-livery labelling was settled from each band's own pixels. See
-  # /home/jon/BRTrains3-import-oddities.md for the queries.
   - name: 'Freightliner Powerhaul'
     special_tags: [operator/Freightliner]
   - name: 'Colas Rail'

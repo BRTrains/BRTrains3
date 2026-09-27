@@ -14,10 +14,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - diesel
-  # The legacy `item_BR155` (BRTrains2/src/trains/diesel_mu/Sprinter/BR155.pnml, 55)
-  # declares `track_type: RAIL`; the classifier would emit the same for a self-powered
-  # unit, so it is left unset here.
-
 cargo: passenger
 
 loading_speed: 20
@@ -27,14 +23,8 @@ dates:
   introduction_date: 1987-04-21
 
 profiles:
-  # One two-car formation: `item_BR155` with `switch_articulated_BR155` adding the part
-  # at position 1. The legacy draws position 0 from `BR155a.png` (the leading car) and
-  # position 1 from `BR155b.png` (the trailing car) via `sw_BR155_<livery>`, so the
-  # two-row group is indexed [1, 2].
   - identifier: DEFAULT
     num_vehicles: 2
-    # `item_BR155`'s callback is `return(160 * param_pax / 2)` - 80 per part, i.e. 160 in
-    # game; its own `cargo_capacity: 80` property agrees.
     capacity: 80
     sprite_override: [1, 2]
     special_tags:
@@ -42,11 +32,6 @@ profiles:
       - subclass/155
 
 liveries:
-  # Names from BRTrains2's `sw_BR155_cargo_subtype_text` (subtype order 0..3) and
-  # `lang/partial/livery_prebuilt_strings.plng` (`str_Regional`: (Regional Railways),
-  # `str_WYPTEMetro`: (WYPTE Metro), `str_NorthernRail`: (Northern Rail),
-  # `str_Northern`: (Northern)). The composite packs the rows in this order
-  # (see /home/jon/BRTrains3-artwork-tools/compose_br155_sheet.py).
   - name: 'Regional Railways'
     special_tags: [operator/Regional Railways]
   - name: 'WYPTE Metro'

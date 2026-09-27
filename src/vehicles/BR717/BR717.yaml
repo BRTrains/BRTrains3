@@ -7,11 +7,6 @@ info:
 stats:
   vehicle_type: train
   train_type: multiple_unit
-  # `item_BR717`'s own whole-consist figures (BRTrains2/src/trains/electric_mu/BR717.pnml,
-  # item 518 "BR Class 717 \"Desiro City\""): 3300 hp, 306 ton, 100 mph,
-  # `tractive_effort_coefficient: 0.15`. BRBuild's power/weight are per-part like the rest
-  # of this family; the legacy item's figures are carried as-is (see the oddities entry for
-  # the weight, which equals the eight-car Class 700/0's).
   weight: 306
   length: 8
   power: 3300
@@ -34,14 +29,6 @@ dates:
   introduction_date: 2015-04-21
 
 profiles:
-  # One six-car formation, from BRTrains2 `src/trains/electric_mu/BR717.pnml`: the root item
-  # `item_BR717` (sprite 518) plus the parts `item_BR717b` 519 / `item_BR717c` 520 /
-  # `item_BR717d` 521 it references. `switch_articulated_BR717` reads `extra_callback_info1`
-  # 1 -> `item_BR717c`, 2..4 -> `item_BR717d`, 5 -> `item_BR717b`, against the item's own
-  # `default: sw_BR717a` at position 0, so the consist consumes the drawings a, c, d, d, d, b
-  # in that order. Each (profile, livery) group is packed in that order by
-  # `BRTrains3-artwork-tools/compose_br717_sheet.py` (ROWS table: a front, b rear, c, d) and
-  # the pattern over those four rows is [1, 3, 4, 4, 4, 2].
   - identifier: DEFAULT
     num_vehicles: 6
     # `item_BR717`'s callback is `return(56 * param_pax)` and its `cargo_capacity` property

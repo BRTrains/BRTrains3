@@ -33,9 +33,6 @@ profiles:
       - formation/1-car
       - subclass/rm_tpo
 
-  # The Propelling Control Vehicle: an unpowered driving vehicle that propels a TPO rake under
-  # push-pull working, so it carries `has_cab` and keeps its drawings in a sheet of its own.
-  # It carries nothing itself, which is why it declares `cargo: none` (the Class 901 precedent).
   - identifier: pcv
     name: 'PCV'
     num_vehicles: 1

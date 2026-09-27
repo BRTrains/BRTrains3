@@ -29,9 +29,6 @@ profiles:
       - subclass/60
 
 liveries:
-  # Ordered by BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR60, cargo_subtype)` (0..8),
-  # then by the artist's 2026-09-23 drop top to bottom. compose_class60_sheet.py emits
-  # one band per livery in this order.
   - name: 'Railfreight Grey'
     special_tags: [operator/Railfreight]
   - name: Mainline

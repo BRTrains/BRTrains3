@@ -41,10 +41,6 @@ profiles:
   # `compose_br231_sheet.py` packs one row per position in exactly that order.
   - identifier: DEFAULT
     num_vehicles: 5
-    # `item_br_231`'s callback is `return(229/4 * param_pax)` — a consist total divided by
-    # the part count — so the per-part figure is 57 (229 // 4). The legacy's own
-    # `cargo_capacity: (229/4)` property is the placeholder the callback overrides (the
-    # same property/callback disagreement as the Class 150/2, 151, 156, 159 and 185).
     capacity: 57
     sprite_override: [1, 2, 3, 4, 5]
     special_tags:
@@ -52,10 +48,5 @@ profiles:
       - subclass/231_0
 
 liveries:
-  # One livery: the legacy item has no `cargo_subtype` livery switch and no
-  # `sw_BR231_cargo_subtype_text`, and its own description string (`STR_DSC_BR_231`) names
-  # the livery — "Liveries: Transport for Wales". The artwork corroborates it: the two
-  # driving-car bands carry 236/239 Transport-for-Wales red pixels each and the two
-  # trailer bands 62/63, the power pack none (checked with `probe_br231_bands.py`).
   - name: 'Transport for Wales'
     special_tags: [operator/Transport for Wales]

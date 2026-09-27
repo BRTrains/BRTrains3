@@ -14,7 +14,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - electric
-  # The legacy item declares track_type ELRL on all four articulated parts.
   track_type:
     - ELRL
 
@@ -27,9 +26,6 @@ dates:
   introduction_date: 2004-04-21
 
 profiles:
-  # One 4-car formation: the legacy root item `item_BR350` plus
-  # `switch_articulated_BR350`'s parts 1..3 (items b, c, d), i.e. the consist is the
-  # declared a, b, c, d row order, so no `sprite_override` is needed.
   - identifier: '350_4'
     name: 4-Car
     num_vehicles: 4
@@ -38,10 +34,6 @@ profiles:
       - formation/4-car
 
 liveries:
-  # BRTrains2's `switch(FEAT_TRAINS, SELF, sw_BR350a..d, cargo_subtype)` selects the drawing
-  # band per livery and `sw_BR350_cargo_subtype_text` names it; the names below drop the
-  # switch's surrounding parentheses. Order is the switch's case order, which is also the
-  # composite's row order (see /home/jon/BRTrains3-artwork-tools/compose_br350_sheet.py).
   - name: 'London Midland'
     special_tags: [operator/London Midland]
   - name: 'Silverlink/Central Trains'

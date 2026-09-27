@@ -1,8 +1,5 @@
 info:
   identifier: br_172_0
-  # A candidate of its own rather than a profile of `br_172` (Class 172/1): the legacy files
-  # the 172/0 as its own item (`item_BR172_0` 744) and BRTrains3 already keeps the 172/1 and
-  # the 172/2+172/3 as separate candidates, so the 172/0 follows the same shape.
   name: 'Class 172/0 "Turbostar"'
   sub_name: Diesel multiple unit
   based_on: British Rail Class 172/0 Turbostar
@@ -33,11 +30,6 @@ dates:
   introduction_date: 2010-04-01
 
 profiles:
-  # The legacy `switch_articulated_BR172_0` adds one part, and its graphics switch draws the
-  # group's lead at `position_in_articulated_veh` 0, the middle drawing otherwise, and the
-  # group's tail at `position_in_articulated_veh_from_end` 0. A two-car formation draws the
-  # group's lead and tail, so its pattern is `[1, 3]`; the group still reserves the family's
-  # three rows per livery (the middle row is the one a two-car never uses).
   - identifier: '172_0'
     name: '2-Car'
     num_vehicles: 2

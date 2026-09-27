@@ -3,15 +3,6 @@ info:
   name: 'Class 73 "Gatwick Express" set (9 car + locomotive)'
   sub_name: Electro-diesel locomotive with its Gatwick Express carriage set
   based_on: British Rail Class 73
-  # The legacy name is `BR Class 73 Gatwick Express set (9 car + locomotive)`
-  # (BRTrains2 `lang/partial/train_details.plng` `STR_NAME_BR73GatEx`, item
-  # `item_BR73GatEx` 261). The legacy files the set as one nine-car formation whose
-  # vehicles are `item_BR73GatEx` (the locomotive), `item_488_sf`/`item_488_s`/
-  # `item_488_fs` (Class 488 carriages) and `item_GLV` (the trailing van), all wired by
-  # `switch_articulated_BR73GatEx`. Only the 73's carriage-set livery is drawn on
-  # `gfx/BR73GatEx.png`, so this candidate is that formation in its Gatwick Express
-  # livery; the 73's mainline liveries are a separate future unit.
-
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -22,8 +13,6 @@ stats:
   tractive_effort: 0.03
   power_type:
     - electric
-  # The legacy item declares track_type THIRD explicitly (the set worked the Gatwick
-  # Express route over 750 V DC third rail).
   track_type:
     - THIRD
 
@@ -35,10 +24,6 @@ dates:
   introduction_date: 1984-04-21
 
 profiles:
-  # One nine-car formation: `switch_articulated_BR73GatEx` adds a part at every
-  # position 1..9, so `num_vehicles` is 9. Capacity is the legacy `cargo_capacity`
-  # (192) carried per part — every part references the one item, so in game the
-  # consist reads 192 x 9 (see the import oddities file for the per-part question).
   - identifier: '73_gatex_9'
     name: 9-Car Set
     num_vehicles: 9
@@ -49,10 +34,5 @@ profiles:
       - subclass/73_gatex_9
 
 liveries:
-  # One livery only: `sw_BR73GatEx_cargo_subtype_text` subtype 0 returns `str_GatEx`
-  # ("Gatwick Express"). The composite's rows are, in order, the repacked locomotive
-  # band (tmpl_train_7) then the sheet's four carriage drawings (tmpl_train_8_old at
-  # source y = 36, 61, 86, 111) — the row order `sprite_override` counts, packed by
-  # `BRTrains3-artwork-tools/compose_br73gatex_sheet.py`.
   - name: 'Gatwick Express'
     special_tags: [operator/Gatwick Express]

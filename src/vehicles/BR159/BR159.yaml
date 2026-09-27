@@ -14,10 +14,6 @@ stats:
   tractive_effort: 0.3
   power_type:
     - diesel
-  # The legacy `item_BR159` (BRTrains2/src/trains/diesel_mu/Sprinter/BR159.pnml, 59)
-  # declares `track_type: RAIL`; the classifier emits the same for a self-powered unit,
-  # so it is left unset here, as on the rest of the Sprinter family.
-
 cargo: passenger
 
 loading_speed: 20
@@ -27,35 +23,14 @@ dates:
   introduction_date: 1993-04-21
 
 profiles:
-  # One three-car formation: `item_BR159` with `switch_articulated_BR159` adding the part
-  # at offsets 1..2, so the consist is lead, middle, tail. The legacy draws its three
-  # positions from the **shared Express Sprinter sheets** it inherits from the Class 158
-  # (`gfx/BR158a.png` leading, `BR158c.png` middle, `BR158b.png` trailing) - the Class 159
-  # has no sheet of its own - so each (profile, livery) group consumes three rows and
-  # `sprite_override` is [1, 3, 2] over the composite's a/c/b row order. The composite
-  # (BRTrains3-artwork-tools/compose_br159_sheet.py) has the ROWS table.
   - identifier: DEFAULT
     num_vehicles: 3
-    # `item_BR159`'s callback is `return(194 * param_pax / 3)` - a consist total divided
-    # by the part count - so the per-part figure is 64 (194 // 3). The legacy's own
-    # `cargo_capacity: 63` property is the placeholder the callback overrides (the same
-    # property/callback disagreement as the Class 150/2, 151 and 156: see the oddities
-    # entry).
     capacity: 64
     sprite_override: [1, 3, 2]
     special_tags:
       - formation/3-car
       - subclass/159
 
-# Names from BRTrains2's `sw_BR159_cargo_subtype_text` (subtype order 0..2) expanded
-# through `lang/partial/livery_prebuilt_strings.plng` - `str_NSE` "Network South East",
-# `str_SWT` "South West Trains", `str_SWR` "South Western Railway". That subtype order is
-# the YAML livery order, and the composite packs the row triples in it. Two warnings:
-#   * the legacy `str_BR159_liveries` list is stale - it names only "Network South East,
-#     South West Trains" and omits the third (South Western Railway) subtype entirely, so
-#     it was not used;
-#   * the subtype order is **not** the sheet's physical band order - SWT reads y=463, above
-#     NSE's y=488, and SWR y=613. Follow the switch, not the sheet.
 liveries:
   - name: 'Network South East'
     special_tags: [operator/Network SouthEast]

@@ -11,14 +11,9 @@ stats:
   length: 8
   power: 2750
   speed: 100
-  # `item_BR707`, `item_BR707b`, `item_BR707c` and `item_BR707d` all declare
-  # `tractive_effort_coefficient: 0.15`.
   tractive_effort: 0.15
   power_type:
     - electric
-  # `item_BR707` declares `track_type: THIRD` (750 V DC third rail only, no overhead
-  # equipment), so the logical type is stated rather than left to the classifier's
-  # `power_type` default, which would give this DC unit `ELRL`.
   track_type:
     - THIRD
 
@@ -30,15 +25,6 @@ dates:
   introduction_date: 2015-04-21
 
 profiles:
-  # One five-car formation, from BRTrains2 `src/trains/electric_mu/BR707.pnml`: the root
-  # item `item_BR707` (sprite 514, "BR Class 707 \"Desiro City\"") plus the parts
-  # `item_BR707b` 515 / `item_BR707c` 516 / `item_BR707d` 517 it references.
-  # `switch_articulated_BR707` reads `extra_callback_info1` 1 -> `item_BR707c`,
-  # 2..3 -> `item_BR707d`, 4 -> `item_BR707b`, against the item's own `default: sw_BR707a`
-  # at position 0, so the consist consumes the drawings a, c, d, d, b in that order. Each
-  # (profile, livery) group is packed in that order by
-  # `BRTrains3-artwork-tools/compose_br707_sheet.py` (ROWS table: a front, c, d, b rear) and
-  # the pattern over those four rows is [1, 2, 3, 3, 4].
   - identifier: DEFAULT
     num_vehicles: 5
     # `item_BR707`'s callback is `return(56 * param_pax)` and its `cargo_capacity` property
@@ -52,12 +38,6 @@ profiles:
       - formation/5-car
       - subclass/707
 
-# Names from BRTrains2's `sw_BR707_cargo_subtype_text` (case order 0..1), expanded through
-# `lang/partial/livery_prebuilt_strings.plng`: `str_SWT` "(South West Trains)" and
-# `str_Southeastern` "(Southeastern)". That case order is the YAML livery order, and the
-# composite packs the row groups in it. The legacy `str_BR707_liveries` list ("South Western
-# Trains, Southeastern") is stale and disagrees with the switch's own string, so the switch's
-# wording is used.
 liveries:
   - name: 'South West Trains'
     special_tags: [operator/South West Trains]
