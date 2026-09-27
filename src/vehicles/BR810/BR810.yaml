@@ -1,0 +1,66 @@
+info:
+  identifier: br_810
+  # The legacy `item_BR810_5car` (579) is the only 810 item, so the candidate is named for
+  # the class and the single formation is a profile, as for the Class 801/807.
+  name: 'Class 810'
+  sub_name: Bi-mode multiple unit
+  based_on: British Rail Class 810
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 125
+  # `switch_BR800_speed` (`BRTrains2/src/trains/electric_mu/sprites/800.pnml`, shared by the
+  # whole IEP family): `param_max_speed` 0 gives 201 field units and 1 gives 225 — 125 mph
+  # service and 140 mph design, the same pair the Class 800/801/802/805/807 carry.
+  design_speed: 140
+  tractive_effort: 0.3
+  # The legacy's own figures: the item's property is `power: 3944 hp` (its off-wire figure)
+  # and its `power:` graphics switch returns 3636 on ELRL, 3944 elsewhere. BRBuild has no
+  # rail-state power callback, so the property figure is carried. See the oddities entry.
+  power: 3944
+  weight: 261
+  power_type:
+    - diesel
+    - electric
+  # The legacy declares trackside effects and its power switch on `tile_powers_railtype("ELRL")`
+  # and plain `track_type: RAIL`, i.e. it runs on the wires and off them; both are declared
+  # rather than inferred from `power_type`. Same treatment as the Class 769 bi-mode.
+  track_type:
+    - RAIL
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 12
+
+dates:
+  introduction_date: 2024-08-18
+
+profiles:
+  - identifier: DEFAULT
+    name: 5-Car
+    num_vehicles: 5
+    # `item_BR810_5car`'s callback is `return(301/5 * param_pax)`, already the per-part figure
+    # (301/5 = 60 in NML's integer division; BRBuild multiplies by the part count, so a 5-car
+    # reads 300 in game where the source's numerator implies 301). See the oddities entry.
+    capacity: 60
+    # `switch_BR810_5car_spriteset_{EMR,Hitachi}` both draw `position_in_articulated_veh % 5`:
+    # 0 = front, 4 = rear, every other car the middle. The values are the three drawings the
+    # livery's own row group holds, packed in this order.
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/810
+
+liveries:
+  # `switch_BR810_5car_subtype_text` order: 0 = `str_EMRMaroon` "(EMR - Maroon)",
+  # 1 = `str_HitachiWhite` "(Hitachi - White)".
+  - name: 'EMR Maroon'
+    special_tags: [operator/East Midlands Railway]
+
+  # The white scheme is the unit's own as delivered by Hitachi, not an operator livery (the
+  # same call the Class 807's second livery records).
+  - name: 'Hitachi - White'
+    special_tags: [operator/Hitachi]

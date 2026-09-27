@@ -30696,3 +30696,49 @@ variants:
   name_string: str_br_807_default_hitachi___white_train_name
   strings:
     str_br_807_default_hitachi___white_train_name: Class 807 - {GOLD}Hitachi - White
+- id: 2336
+  vehicle: br_810
+  profile: default
+  livery: emr maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2336_br_810_default_emr_maroon_train.gnml
+  identifier: br_810_default_emr_maroon_train
+  name_string: str_br_810_default_emr_maroon_train_name
+  strings:
+    str_br_810_default_emr_maroon_train_name: Class 810 - {GOLD}EMR Maroon
+- id: 2337
+  vehicle: br_810
+  profile: default
+  livery: hitachi - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2337_br_810_default_hitachi___white_train.gnml
+  identifier: br_810_default_hitachi___white_train
+  name_string: str_br_810_default_hitachi___white_train_name
+  strings:
+    str_br_810_default_hitachi___white_train_name: Class 810 - {GOLD}Hitachi - White
