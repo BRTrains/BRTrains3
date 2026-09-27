@@ -32923,3 +32923,22 @@ variants:
   strings:
     str_br_321_321_freight_greater_anglia_red_train_name: Class 321 "Dusty Bin" -
       {SILVER}4-Car Freight{BLACK} - {GOLD}Greater Anglia Red
+- id: 2439
+  vehicle: br_conflat_p
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2439_br_conflat_p_default_default_train.gnml
+  identifier: br_conflat_p_default_default_train
+  name_string: str_br_conflat_p_default_default_train_name
+  strings:
+    str_br_conflat_p_default_default_train_name: Conflat P Container Wagon

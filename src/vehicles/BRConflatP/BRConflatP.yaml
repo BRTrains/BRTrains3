@@ -1,0 +1,35 @@
+info:
+  identifier: br_conflat_p
+  name: 'Conflat P Container Wagon'
+  sub_name: Freight wagon
+  based_on: British Rail Conflat P
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 15
+  length: 4
+  power: 0
+  speed: 40
+  tractive_effort: 0.08
+
+cargo: containerised
+autorefit: true
+loading_speed: 25
+
+nml_override:
+  default: sw_br_conflat_p
+
+dates:
+  introduction_date: 1950-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 35
+    special_tags:
+      - formation/1-car
+      - subclass/conflat_p
+
+liveries:
+  - name: Default

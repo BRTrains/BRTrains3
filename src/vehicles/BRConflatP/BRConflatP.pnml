@@ -1,0 +1,48 @@
+// Hand-written graphics chain for the BR Conflat P Container Wagon.
+// The legacy item selects an empty, partial or full container drawing from cargo_count,
+// with random orientation for the loaded states; this is expressed through nml_override.
+// Rows follow the legacy BR_Conflat_P.png declarations at y=13, 39, 65 and 91.
+
+spriteset(spriteset_br_conflat_p_empty, "BRConflatP.png") {
+	tmpl_train_4(0, 0)
+}
+spriteset(spriteset_br_conflat_p_small_left, "BRConflatP.png") {
+	tmpl_train_4(0, 18)
+}
+spriteset(spriteset_br_conflat_p_small_right, "BRConflatP.png") {
+	tmpl_train_4_reversed(0, 18)
+}
+spriteset(spriteset_br_conflat_p_large_left, "BRConflatP.png") {
+	tmpl_train_4(0, 36)
+}
+spriteset(spriteset_br_conflat_p_large_right, "BRConflatP.png") {
+	tmpl_train_4_reversed(0, 36)
+}
+spriteset(spriteset_br_conflat_p_full, "BRConflatP.png") {
+	tmpl_train_4(0, 54)
+}
+spriteset(spriteset_br_conflat_p_full_reversed, "BRConflatP.png") {
+	tmpl_train_4_reversed(0, 54)
+}
+
+random_switch(FEAT_TRAINS, SELF, sw_br_conflat_p_small_random) {
+	1: spriteset_br_conflat_p_small_left;
+	1: spriteset_br_conflat_p_small_right;
+}
+
+random_switch(FEAT_TRAINS, SELF, sw_br_conflat_p_large_random) {
+	1: spriteset_br_conflat_p_large_left;
+	1: spriteset_br_conflat_p_large_right;
+}
+
+random_switch(FEAT_TRAINS, SELF, sw_br_conflat_p_full_random) {
+	1: spriteset_br_conflat_p_full;
+	1: spriteset_br_conflat_p_full_reversed;
+}
+
+switch(FEAT_TRAINS, SELF, sw_br_conflat_p, cargo_count) {
+	0 .. 5: spriteset_br_conflat_p_empty;
+	5 .. 40: sw_br_conflat_p_small_random;
+	41 .. 80: sw_br_conflat_p_large_random;
+	sw_br_conflat_p_full_random;
+}
