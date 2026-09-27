@@ -31000,3 +31000,26 @@ variants:
   strings:
     str_br_800_800_9_hitachi___white_train_name: Class 800 - {SILVER}9-Car{BLACK}
       - {GOLD}Hitachi - White
+- id: 2348
+  vehicle: br_803
+  profile: default
+  livery: lumo
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2348_br_803_default_lumo_train.gnml
+  identifier: br_803_default_lumo_train
+  name_string: str_br_803_default_lumo_train_name
+  strings:
+    str_br_803_default_lumo_train_name: Class 803 - {GOLD}Lumo

@@ -1,0 +1,59 @@
+info:
+  identifier: br_803
+  # The legacy `item_BR803_5car` (547) is the only 803 item, so the candidate is named for
+  # the class and its single formation is a profile, as for the Class 801/807.
+  name: 'Class 803'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 803
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 125
+  # `switch_BR800_speed` (`BRTrains2/src/trains/electric_mu/sprites/800.pnml`, shared by the
+  # whole IEP family): `param_max_speed` 0 gives 201 field units and 1 gives 225 — 125 mph
+  # service and 140 mph design, the pair the Class 800/801/802/805/807/810 also carry. The
+  # item's graphics block names that switch, so the unit inherits the family's design speed.
+  design_speed: 140
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 12
+
+dates:
+  introduction_date: 2019-09-16
+
+profiles:
+  - identifier: DEFAULT
+    name: 5-Car
+    num_vehicles: 5
+    power: 3636
+    weight: 205
+    # `item_BR803_5car`'s callback is `return(302/5 * param_pax)`, already the per-part figure
+    # (302/5 = 60 in NML's integer division; BRBuild multiplies by the part count, so the
+    # 5-car reads 300 in game where the source's numerator implies 302). The property beside
+    # it is the same `(302/5)`. See the oddities entry — the figure is identical to the
+    # Class 801/1 5-car's, so it may be a copy of that item rather than the Lumo unit's own.
+    capacity: 60
+    # `switch_BR803_5car_spriteset` draws `position_in_articulated_veh % 5`: 0 = front,
+    # 4 = rear, every other car the middle. The values are the three Lumo drawings
+    # (`spriteset_BR80X_{front,middle,rear}_Lumo`, bands y 150/175/200) the livery's row
+    # group holds, packed in this order.
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/803
+
+liveries:
+  # The item declares no `cargo_subtype`/livery switch, so its `default:
+  # switch_BR803_5car_spriteset` always resolves to the Lumo bands and that is the only livery
+  # the item can select — its `additional_text` (`STR_DSC_BR803`) lists "Lumo, Hitachi", but no
+  # switch reaches a Hitachi drawing for this unit, exactly as on the Class 801.
+  - name: 'Lumo'
+    special_tags: [operator/Lumo]
