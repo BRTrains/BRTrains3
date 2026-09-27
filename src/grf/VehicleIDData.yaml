@@ -31484,3 +31484,27 @@ variants:
   name_string: str_br_252_default_br_blue_train_name
   strings:
     str_br_252_default_br_blue_train_name: Class 41 "HST Prototype" - {GOLD}BR Blue
+- id: 2368
+  vehicle: nottingham_citadis
+  profile: default
+  livery: edinburgh trams
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/2368_nottingham_citadis_default_edinburgh_trams_tram.gnml
+  identifier: nottingham_citadis_default_edinburgh_trams_tram
+  name_string: str_nottingham_citadis_default_edinburgh_trams_tram_name
+  strings:
+    str_nottingham_citadis_default_edinburgh_trams_tram_name: Nottingham Citadis -
+      {GOLD}Edinburgh Trams
