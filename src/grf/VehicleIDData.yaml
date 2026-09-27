@@ -24148,3 +24148,346 @@ variants:
   strings:
     str_lu_2024_2024_9_london_underground_train_name: London Underground 2024 Stock
       - {SILVER}9-Car{BLACK} - {GOLD}London Underground
+- id: 2053
+  vehicle: br_455
+  profile: '455_8'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2053_br_455_455_8_br_blue_and_grey_train.gnml
+  identifier: br_455_455_8_br_blue_and_grey_train
+  name_string: str_br_455_455_8_br_blue_and_grey_train_name
+  strings:
+    str_br_455_455_8_br_blue_and_grey_train_name: Class 455 - {SILVER}455_8{BLACK}
+      - {GOLD}BR Blue and Grey
+- id: 2054
+  vehicle: br_455
+  profile: '455_8'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2054_br_455_455_8_network_south_east_train.gnml
+  identifier: br_455_455_8_network_south_east_train
+  name_string: str_br_455_455_8_network_south_east_train_name
+  strings:
+    str_br_455_455_8_network_south_east_train_name: Class 455 - {SILVER}455_8{BLACK}
+      - {GOLD}Network South East
+- id: 2055
+  vehicle: br_455
+  profile: '455_8'
+  livery: south west trains - stagecoach
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2055_br_455_455_8_south_west_trains___stagecoach_train.gnml
+  identifier: br_455_455_8_south_west_trains___stagecoach_train
+  name_string: str_br_455_455_8_south_west_trains___stagecoach_train_name
+  strings:
+    str_br_455_455_8_south_west_trains___stagecoach_train_name: Class 455 - {SILVER}455_8{BLACK}
+      - {GOLD}South West Trains - Stagecoach
+- id: 2056
+  vehicle: br_455
+  profile: '455_8'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2056_br_455_455_8_south_west_trains_train.gnml
+  identifier: br_455_455_8_south_west_trains_train
+  name_string: str_br_455_455_8_south_west_trains_train_name
+  strings:
+    str_br_455_455_8_south_west_trains_train_name: Class 455 - {SILVER}455_8{BLACK}
+      - {GOLD}South West Trains
+- id: 2057
+  vehicle: br_455
+  profile: '455_8'
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2057_br_455_455_8_connex_train.gnml
+  identifier: br_455_455_8_connex_train
+  name_string: str_br_455_455_8_connex_train_name
+  strings:
+    str_br_455_455_8_connex_train_name: Class 455 - {SILVER}455_8{BLACK} - {GOLD}Connex
+- id: 2058
+  vehicle: br_455
+  profile: '455_8'
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2058_br_455_455_8_southern_train.gnml
+  identifier: br_455_455_8_southern_train
+  name_string: str_br_455_455_8_southern_train_name
+  strings:
+    str_br_455_455_8_southern_train_name: Class 455 - {SILVER}455_8{BLACK} - {GOLD}Southern
+- id: 2059
+  vehicle: br_455
+  profile: '455_8'
+  livery: br blue and grey - prm compliant
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2059_br_455_455_8_br_blue_and_grey___prm_compliant_train.gnml
+  identifier: br_455_455_8_br_blue_and_grey___prm_compliant_train
+  name_string: str_br_455_455_8_br_blue_and_grey___prm_compliant_train_name
+  strings:
+    str_br_455_455_8_br_blue_and_grey___prm_compliant_train_name: Class 455 - {SILVER}455_8{BLACK}
+      - {GOLD}BR Blue and Grey - PRM Compliant
+- id: 2060
+  vehicle: br_455
+  profile: '455_7'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2060_br_455_455_7_br_blue_and_grey_train.gnml
+  identifier: br_455_455_7_br_blue_and_grey_train
+  name_string: str_br_455_455_7_br_blue_and_grey_train_name
+  strings:
+    str_br_455_455_7_br_blue_and_grey_train_name: Class 455 - {SILVER}455_7{BLACK}
+      - {GOLD}BR Blue and Grey
+- id: 2061
+  vehicle: br_455
+  profile: '455_7'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2061_br_455_455_7_network_south_east_train.gnml
+  identifier: br_455_455_7_network_south_east_train
+  name_string: str_br_455_455_7_network_south_east_train_name
+  strings:
+    str_br_455_455_7_network_south_east_train_name: Class 455 - {SILVER}455_7{BLACK}
+      - {GOLD}Network South East
+- id: 2062
+  vehicle: br_455
+  profile: '455_7'
+  livery: south west trains - stagecoach
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2062_br_455_455_7_south_west_trains___stagecoach_train.gnml
+  identifier: br_455_455_7_south_west_trains___stagecoach_train
+  name_string: str_br_455_455_7_south_west_trains___stagecoach_train_name
+  strings:
+    str_br_455_455_7_south_west_trains___stagecoach_train_name: Class 455 - {SILVER}455_7{BLACK}
+      - {GOLD}South West Trains - Stagecoach
+- id: 2063
+  vehicle: br_455
+  profile: '455_7'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2063_br_455_455_7_south_west_trains_train.gnml
+  identifier: br_455_455_7_south_west_trains_train
+  name_string: str_br_455_455_7_south_west_trains_train_name
+  strings:
+    str_br_455_455_7_south_west_trains_train_name: Class 455 - {SILVER}455_7{BLACK}
+      - {GOLD}South West Trains
+- id: 2064
+  vehicle: br_455
+  profile: '455_9'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2064_br_455_455_9_br_blue_and_grey_train.gnml
+  identifier: br_455_455_9_br_blue_and_grey_train
+  name_string: str_br_455_455_9_br_blue_and_grey_train_name
+  strings:
+    str_br_455_455_9_br_blue_and_grey_train_name: Class 455 - {SILVER}455_9{BLACK}
+      - {GOLD}BR Blue and Grey
+- id: 2065
+  vehicle: br_455
+  profile: '455_9'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2065_br_455_455_9_network_south_east_train.gnml
+  identifier: br_455_455_9_network_south_east_train
+  name_string: str_br_455_455_9_network_south_east_train_name
+  strings:
+    str_br_455_455_9_network_south_east_train_name: Class 455 - {SILVER}455_9{BLACK}
+      - {GOLD}Network South East
+- id: 2066
+  vehicle: br_455
+  profile: '455_9'
+  livery: south west trains - stagecoach
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2066_br_455_455_9_south_west_trains___stagecoach_train.gnml
+  identifier: br_455_455_9_south_west_trains___stagecoach_train
+  name_string: str_br_455_455_9_south_west_trains___stagecoach_train_name
+  strings:
+    str_br_455_455_9_south_west_trains___stagecoach_train_name: Class 455 - {SILVER}455_9{BLACK}
+      - {GOLD}South West Trains - Stagecoach
+- id: 2067
+  vehicle: br_455
+  profile: '455_9'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2067_br_455_455_9_south_west_trains_train.gnml
+  identifier: br_455_455_9_south_west_trains_train
+  name_string: str_br_455_455_9_south_west_trains_train_name
+  strings:
+    str_br_455_455_9_south_west_trains_train_name: Class 455 - {SILVER}455_9{BLACK}
+      - {GOLD}South West Trains

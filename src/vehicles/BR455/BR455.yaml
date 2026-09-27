@@ -1,0 +1,140 @@
+info:
+  identifier: br_455
+  # One candidate for the three legacy Class 455 items - `item_BR4557` 268 (455/7),
+  # `item_BR4558` 269 (455/8) and `item_BR4559` 270 (455/9) in
+  # `BRTrains2/src/trains/electric_mu/BR455.pnml`, which share one artist sheet
+  # (`gfx/BR455_v2.png`) and one template. They are three formations of one class, so they
+  # become three profiles rather than three candidates.
+  name: 'Class 455'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 455
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # Every one of the three driving items declares the whole-unit figures itself (its four
+  # articulated items each declare 0 hp / 0 t), and all three agree on power and speed:
+  # 1000 hp, 75 mph. 75 mph is low for the class but is what all three legacy items state,
+  # so it is copied rather than corrected; the 455's 75 mph ceiling is the DC third-rail
+  # line speed, not a conversion error.
+  power: 1000
+  speed: 75
+  tractive_effort: 0.08
+  length: 8
+  power_type:
+    - electric
+  # Every one of the three items declares `track_type: THIRD` explicitly - 750 V DC third
+  # rail, so stated rather than left to the classifier's `ELRL` default.
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 30
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1982-01-01
+
+# Weight differs by formation and is set per profile: the 455/7 and 455/9 declare 143 t,
+# the 455/8 declares 145 t. The legacy date on each driving item is `date(<year>, 4, 21)`;
+# the season is not preserved (BRBuild takes a plain date) and the year is kept.
+#
+# PROFILE ORDER IS PART OF THE ARTWORK CONTRACT. BRBuild's allocator consumes the sheet's
+# recognised rows profile-outer / livery-inner off one cursor (`Vehicle/VariantSpriteGroups.py`
+# `build_sprite_groups`), each (profile, livery) group taking `max(pattern)` = 4 rows, so the
+# order the profiles are listed in here is the order the composite's bands must be packed in.
+# The 455/8 comes first because it is the only formation carrying all seven liveries: it takes
+# rows 1..28, then the 455/7 takes rows 29..44. The 455/9 declares `sprite_group: '455_7'` and
+# consumes no rows of its own.
+profiles:
+  # 455/8: `item_BR4558` 269, the only item whose sheet block carries Connex, Southern and
+  # the PRM-compliant Blue/Grey livery. It entered service first (1982) and is marginally
+  # heavier (145 t); its consist order is the same a / tso / mso / d.
+  #
+  # The legacy capacities are per item and differ (the driving cars' callback is
+  # `return(74 * param_pax)`, the articulated tso/mso items' is `return(84 * param_pax)`);
+  # BRBuild attaches one capacity callback to the item every articulated part references, so
+  # one figure has to be chosen. 84 is used, matching the two mid cars that carry most of the
+  # seats. Recorded in the oddities file.
+  - identifier: '455_8'
+    num_vehicles: 4
+    capacity: 84
+    weight: 145
+    introduction_date: 1982-01-01
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/455_8
+
+  # 455/7: `item_BR4557` 268, `switch_articulated_BR4557` adding a tso at offset 1, an mso at
+  # 2 and its own `item_4557d` at 3, against a root `default:` of `sw_BR4557a` - so the
+  # consist reads the group's declared a / tso / mso / d rows in order and `sprite_override`
+  # is [1, 2, 3, 4].
+  - identifier: '455_7'
+    num_vehicles: 4
+    capacity: 84
+    weight: 143
+    introduction_date: 1984-01-01
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/455_7
+
+  # 455/9: `item_BR4559` 270, `switch_articulated_BR4559` adding `item_455tso9` /
+  # `item_455mso9` / `item_4557d`, and its root `default:` is `sw_BR4557a` - the same a and d
+  # drawings the 455/7 reads (the legacy's own `sw_BR45579_cargo_subtype_text` is likewise
+  # shared by the two formations). So this profile declares `sprite_group: '455_7'` and reuses
+  # the 455/7 rows for the four liveries they share rather than consuming a second copy of
+  # them. It resolves the source profile on demand, so it does not matter that the 455/7 is
+  # declared after it; a livery only the 455/9 carries would consume rows of its own, after
+  # every other group.
+  - identifier: '455_9'
+    num_vehicles: 4
+    capacity: 84
+    weight: 143
+    introduction_date: 1984-01-01
+    sprite_group: '455_7'
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/455_9
+
+# Livery order follows the legacy switches' `cargo_subtype` order, which the composite
+# (`BRTrains3-artwork-tools/compose_br455_sheet.py`) packs in - profile-outer / livery-inner,
+# four rows per (profile, livery) group. The 455/7 and 455/9 share the first four liveries
+# (`str_BR455_liveries`: BR Blue/Grey, Network SouthEast, South West Trains (Stagecoach),
+# South West Trains); the 455/8 adds Connex, Southern and its PRM-compliant Blue/Grey
+# (`str_BR4558_liveries`, subtype 6 = `STR_LIVERY(BR Blue Grey, PRM Compliant)`).
+#
+# Every band was labelled from its own pixels (`probe_br455_sheet.py`): blue/grey ends on the
+# Blue Grey block, red-white-blue NSE, the Stagecoach white/red/orange set, the refurbished
+# blue-grey, a gold-and-navy Connex, a light-green Southern and the PRM block's blue with a
+# brighter band. The Blue/Grey and PRM blocks are the two blue schemes a hue census cannot
+# separate; their identity rests on the legacy string alone (recorded in the oddities file).
+liveries:
+  - name: 'BR Blue and Grey'
+    special_tags: [operator/BR]
+  - name: 'Network South East'
+    special_tags: [operator/Network SouthEast]
+  # `str_SWT_stagecoach` - the Stagecoach-era South West Trains scheme. The operator is the
+  # same organisation as the plain 'South West Trains' livery, so both carry that badge.
+  - name: 'South West Trains - Stagecoach'
+    special_tags: [operator/South West Trains]
+  - name: 'South West Trains'
+    special_tags: [operator/South West Trains]
+  - name: 'Connex'
+    profiles: ['455_8']
+    special_tags: [operator/Connex]
+  - name: 'Southern'
+    profiles: ['455_8']
+    special_tags: [operator/Southern]
+  # Displayed as `BR Blue and Grey - PRM Compliant`, the legacy's `STR_LIVERY(BR Blue Grey,
+  # PRM Compliant)`; the 455/8s refurbished to PRM standards were the ones that came out of
+  # Connex/Southern service in this scheme. This and the two liveries above are the three the
+  # 455/7 and 455/9 never carried, so they are restricted to the 455/8 - an unrestricted
+  # livery applies to every profile, and the allocator would then look for a row group per
+  # profile and run off the end of the sheet.
+  - name: 'BR Blue and Grey - PRM Compliant'
+    profiles: ['455_8']
+    special_tags: [operator/BR]
