@@ -1,0 +1,75 @@
+info:
+  identifier: lner_a3
+  name: 'LNER Gresley Class A3 4-6-2'
+  sub_name: Steam locomotive
+  based_on: LNER Gresley Class A3
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  # `item_LNERA3` (BRTrains2/src/trains/steam_loco/LNER/LNERA3.pnml, 6): 170 ton, 1750 hp,
+  # 100 mph, `tractive_effort_coefficient: 0.095`, `length: 8`. The legacy item declares no
+  # `param_max_speed` switch, so no `design_speed` was invented - the service figure stands
+  # alone, as on the set's other steam locomotives.
+  weight: 170
+  length: 8
+  power: 1750
+  speed: 100
+  tractive_effort: 0.095
+  power_type:
+    - steam
+  # The legacy declares `track_type: RAIL`; the classifier emits the same for a
+  # self-powered unit, so it is left unset here, as on the rest of the steam family.
+
+# `refittable_cargo_classes: 0` with a `return 0` capacity callback, so cargo: none states
+# the effective behaviour (the same reading as the Class P2 and the Class 80).
+cargo: none
+
+loading_speed: 3
+
+dates:
+  # `item_LNERA3` declares date(1928,4,21).
+  introduction_date: 1928-04-21
+
+profiles:
+  # `switch_articulated_LNERA3` adds exactly one part (its case 1 returns `item_LNERA3T`, the
+  # tender), so the formation is two parts at `sprite_override: [1, 2]`: part 0 the
+  # locomotive (the A3's own item, length 8) and part 1 the LNER 4200-gallon tender
+  # (`item_LNERA3T`, length 5) - the same shape as the already-imported `lner_p2`.
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/lner_a3
+
+liveries:
+  # Ordered by the two legacy graphics switches `sw_LNERA3` (locomotive) and `sw_LNERA3T`
+  # (tender), which `sw_LNERA3_cargo_subtype_text` labels 0..5 - the order the purchase list
+  # showed the player. Both switches carry all six slots and name the same livery names, so
+  # the sheet is packed one locomotive row + one tender row per livery in this order
+  # (/home/jon/BRTrains3-artwork-tools/compose_lner_a3_sheet.py's ROWS table).
+  #
+  #   0 str_LNERGreen           GNR_A1.png loco y=13 + LNER_A3T.png tender y=13
+  #   1 str_LNERCorridorTender  GNR_A1.png loco y=13 + LNER_A3T.png tender y=33
+  #   2 str_Wartime             LNER_A3.png loco y=13 + LNER_A3T.png tender y=53
+  #   3 str_Apple               LNER_A3.png loco y=38 + LNER_A3T.png tender y=73
+  #   4 str_BRBlue              LNER_A3.png loco y=63 + LNER_A3T.png tender y=93
+  #   5 str_Brunswick           LNER_A3.png loco y=88 + LNER_A3T.png tender y=113
+  #
+  # Subtype 1 is named for the tender it carries ("LNER Corridor Tender") rather than a
+  # colour: its locomotive drawing is byte-identical to subtype 0's (0 of 4,104 pixels
+  # differ) and only the tender band changes. Recorded as a query in the oddities file.
+  - name: 'LNER Green'
+    special_tags: [operator/LNER]
+  - name: 'LNER Corridor Tender'
+    special_tags: [operator/LNER]
+  - name: 'LNER Wartime Black'
+    special_tags: [operator/LNER, operator/BR]
+  - name: 'BR Apple Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Brunswick Green'
+    special_tags: [operator/BR]
