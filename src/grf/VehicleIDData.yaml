@@ -33059,3 +33059,62 @@ variants:
   strings:
     str_brt_covhop_default_privatisation_yellow_train_name: BRT Covered Hopper - {GOLD}Privatisation
       Yellow
+- id: 2446
+  vehicle: br_vga
+  profile: default
+  livery: br grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 28
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2446_br_vga_default_br_grey_train.gnml
+  identifier: br_vga_default_br_grey_train
+  name_string: str_br_vga_default_br_grey_train_name
+  strings:
+    str_br_vga_default_br_grey_train_name: BR VGA Wagon - {GOLD}BR Grey
+- id: 2447
+  vehicle: br_vga
+  profile: default
+  livery: br grey - speedlink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 28
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2447_br_vga_default_br_grey___speedlink_train.gnml
+  identifier: br_vga_default_br_grey___speedlink_train
+  name_string: str_br_vga_default_br_grey___speedlink_train_name
+  strings:
+    str_br_vga_default_br_grey___speedlink_train_name: BR VGA Wagon - {GOLD}BR Grey
+      - Speedlink
+- id: 2448
+  vehicle: br_vga
+  profile: default
+  livery: br grey - exhibition
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 28
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2448_br_vga_default_br_grey___exhibition_train.gnml
+  identifier: br_vga_default_br_grey___exhibition_train
+  name_string: str_br_vga_default_br_grey___exhibition_train_name
+  strings:
+    str_br_vga_default_br_grey___exhibition_train_name: BR VGA Wagon - {GOLD}BR Grey
+      - Exhibition
