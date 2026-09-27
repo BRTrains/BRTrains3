@@ -1,0 +1,77 @@
+info:
+  identifier: br_801
+  # The two legacy items are the same Class 801 LNER set at two formation lengths on the
+  # same three drawings, so they are two profiles of one candidate rather than two
+  # candidates (the Class 700/380 precedent). `BRTrains2/src/trains/electric_mu/801_5car_1.pnml`
+  # (item 451, `STR_BR801_5CAR` "BR Class 801/1 (5-Car)") and `801_9car_2.pnml` (item 452,
+  # `STR_BR801_2CAR` "BR Class 801/2 (9-Car)") both draw `spriteset_BR80X_{front,middle,rear}_LNER`
+  # from `gfx/BR80X.png`, and neither declares a `cargo_subtype`/livery switch, so the LNER
+  # "Azuma" scheme is the only livery the item can select.
+  name: 'Class 801'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 801
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  length: 8
+  speed: 125
+  # `switch_BR800_speed` (`sprites/800.pnml`, shared by the whole IEP family): `param_max_speed`
+  # 0 gives 201 field units and 1 gives 225 — 125 mph service and 140 mph design, the same
+  # 125/140 pair the Class 800, 802 and 805 carry. Both items use that switch.
+  design_speed: 140
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 12
+
+dates:
+  introduction_date: 2019-09-16
+
+profiles:
+  - identifier: DEFAULT
+    name: 5-Car
+    num_vehicles: 5
+    power: 3636
+    weight: 205
+    # `item_BR801_5car`'s callback is `return(302/5 * param_pax)`, already the per-part figure
+    # (302/5 = 60 in NML's integer division; BRBuild multiplies by the part count, so a 5-car
+    # reads 300 in game where the source's numerator implies 302). The property beside it is
+    # the same `(302/5)`. See the oddities entry.
+    capacity: 60
+    # `switch_BR801_5car_spriteset` draws `position_in_articulated_veh % 5`: 0 = front,
+    # 4 = rear, the rest the middle car.
+    sprite_override: [1, 2, 2, 2, 3]
+    special_tags:
+      - formation/5-car
+      - subclass/801_1
+
+  - identifier: '801_2'
+    name: 9-Car
+    num_vehicles: 9
+    power: 6060
+    weight: 369
+    # `item_BR801_9car`'s callback `return(611/9 * param_pax)`, per-part (611/9 = 67 in NML's
+    # integer division; 603 in game where the numerator implies 611). The property beside it
+    # is the same `(611/9)`.
+    capacity: 67
+    # The 9-car draws the same three LNER drawings as the 5-car, so it reuses the rows the
+    # `DEFAULT` profile owns and consumes none of its own.
+    sprite_group: 'DEFAULT'
+    # `switch_BR801_9car_spriteset` draws `position_in_articulated_veh % 9`: 0 = front,
+    # 8 = rear, the rest the middle car.
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
+    special_tags:
+      - formation/9-car
+      - subclass/801_2
+
+liveries:
+  # `STR_LIVERY_BR800_LNER` "LNER \"Azuma\"" (from `lang/partial/livery_prebuilt_strings.plng`),
+  # reached without a switch because both items default to `switch_BR80X_spriteset_LNER`.
+  - name: 'LNER "Azuma"'
+    special_tags: [operator/LNER]

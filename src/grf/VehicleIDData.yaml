@@ -28159,3 +28159,54 @@ variants:
   strings:
     str_br_769_769_9_great_western_railway_train_name: Class 769/0/3/4/5/9 "Flex"
       - {SILVER}769/9{BLACK} - {GOLD}Great Western Railway
+- id: 2221
+  vehicle: br_801
+  profile: default
+  livery: lner "azuma"
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2221_br_801_default_lner__azuma__train.gnml
+  identifier: br_801_default_lner__azuma__train
+  name_string: str_br_801_default_lner__azuma__train_name
+  strings:
+    str_br_801_default_lner__azuma__train_name: Class 801 - {GOLD}LNER "Azuma"
+- id: 2222
+  vehicle: br_801
+  profile: '801_2'
+  livery: lner "azuma"
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 67
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2222_br_801_801_2_lner__azuma__train.gnml
+  identifier: br_801_801_2_lner__azuma__train
+  name_string: str_br_801_801_2_lner__azuma__train_name
+  strings:
+    str_br_801_801_2_lner__azuma__train_name: Class 801 - {SILVER}9-Car{BLACK} - {GOLD}LNER
+      "Azuma"
