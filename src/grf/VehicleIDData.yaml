@@ -29551,3 +29551,120 @@ variants:
   strings:
     str_lms_black_5_default_br_black__emblem__train_name: LMS Stanier Class 5MT 4-6-0
       "Black Five" - {GOLD}BR Black Emblem
+- id: 2287
+  vehicle: br_373
+  profile: '373_1'
+  livery: eurostar
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 105
+    articulated_count: 20
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 7
+    - 7
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+  archive: generated_variants/2287_br_373_373_1_eurostar_train.gnml
+  identifier: br_373_373_1_eurostar_train
+  name_string: str_br_373_373_1_eurostar_train_name
+  strings:
+    str_br_373_373_1_eurostar_train_name: Class 373 "Eurostar" - {SILVER}Class 373/1
+      "Three Capitals" 20-Car{BLACK} - {GOLD}Eurostar
+- id: 2288
+  vehicle: br_373
+  profile: '373_1'
+  livery: gner - white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 105
+    articulated_count: 20
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 7
+    - 7
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+  archive: generated_variants/2288_br_373_373_1_gner___white_train.gnml
+  identifier: br_373_373_1_gner___white_train
+  name_string: str_br_373_373_1_gner___white_train_name
+  strings:
+    str_br_373_373_1_gner___white_train_name: Class 373 "Eurostar" - {SILVER}Class
+      373/1 "Three Capitals" 20-Car{BLACK} - {GOLD}GNER - White
+- id: 2289
+  vehicle: br_373
+  profile: '373_1'
+  livery: eurostar - new livery
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 105
+    articulated_count: 20
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 7
+    - 7
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+    - 7
+    - 6
+  archive: generated_variants/2289_br_373_373_1_eurostar___new_livery_train.gnml
+  identifier: br_373_373_1_eurostar___new_livery_train
+  name_string: str_br_373_373_1_eurostar___new_livery_train_name
+  strings:
+    str_br_373_373_1_eurostar___new_livery_train_name: Class 373 "Eurostar" - {SILVER}Class
+      373/1 "Three Capitals" 20-Car{BLACK} - {GOLD}Eurostar - New Livery

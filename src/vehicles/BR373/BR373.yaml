@@ -1,0 +1,45 @@
+info:
+  identifier: br_373
+  name: 'Class 373 "Eurostar"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 373 Eurostar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 752
+  length: 8
+  power: 16400
+  speed: 186
+  tractive_effort: 0.05
+  power_type:
+    - electric
+  track_type:
+    - THIRD
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 14
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1993-04-21
+
+profiles:
+  - identifier: '373_1'
+    name: 'Class 373/1 "Three Capitals" (20-Car)'
+    num_vehicles: 20
+    capacity: 105
+    sprite_override: [1, 2, 3, 4, 5, 6, 7, 6, 7, 6, 7, 6, 5, 3, 4, 3, 4, 2, 1, 8]
+    special_tags:
+      - formation/20-car
+      - subclass/373_1
+
+liveries:
+  - name: 'Eurostar'
+    special_tags: [operator/Eurostar]
+  - name: 'GNER - White'
+    special_tags: [operator/Great North Eastern Railway]
+  - name: 'Eurostar - New Livery'
+    special_tags: [operator/Eurostar]
