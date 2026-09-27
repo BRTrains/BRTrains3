@@ -31367,3 +31367,91 @@ variants:
   strings:
     str_br_756_756_4_transport_for_wales_train_name: Class 756 - {SILVER}756/1 4-Car
       with Power Pack{BLACK} - {GOLD}Transport for Wales
+- id: 2363
+  vehicle: br_398
+  profile: default
+  livery: transport for wales - yellow cab end
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/2363_br_398_default_transport_for_wales___yellow_cab_end_train.gnml
+  identifier: br_398_default_transport_for_wales___yellow_cab_end_train
+  name_string: str_br_398_default_transport_for_wales___yellow_cab_end_train_name
+  strings:
+    str_br_398_default_transport_for_wales___yellow_cab_end_train_name: Class 398
+      Citylink - {GOLD}Transport for Wales - Yellow Cab End
+- id: 2364
+  vehicle: br_398
+  profile: default
+  livery: transport for wales - yellow cab end
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/2364_br_398_default_transport_for_wales___yellow_cab_end_tram.gnml
+  identifier: br_398_default_transport_for_wales___yellow_cab_end_tram
+  name_string: str_br_398_default_transport_for_wales___yellow_cab_end_tram_name
+  strings:
+    str_br_398_default_transport_for_wales___yellow_cab_end_tram_name: Class 398 Citylink
+      - {GOLD}Transport for Wales - Yellow Cab End
+- id: 2365
+  vehicle: br_398
+  profile: default
+  livery: transport for wales - grey cab end
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/2365_br_398_default_transport_for_wales___grey_cab_end_train.gnml
+  identifier: br_398_default_transport_for_wales___grey_cab_end_train
+  name_string: str_br_398_default_transport_for_wales___grey_cab_end_train_name
+  strings:
+    str_br_398_default_transport_for_wales___grey_cab_end_train_name: Class 398 Citylink
+      - {GOLD}Transport for Wales - Grey Cab End
+- id: 2366
+  vehicle: br_398
+  profile: default
+  livery: transport for wales - grey cab end
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/2366_br_398_default_transport_for_wales___grey_cab_end_tram.gnml
+  identifier: br_398_default_transport_for_wales___grey_cab_end_tram
+  name_string: str_br_398_default_transport_for_wales___grey_cab_end_tram_name
+  strings:
+    str_br_398_default_transport_for_wales___grey_cab_end_tram_name: Class 398 Citylink
+      - {GOLD}Transport for Wales - Grey Cab End
