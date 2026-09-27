@@ -31,6 +31,46 @@ profiles:
       - formation/1-car
       - subclass/mk4_dvt
 
+  - identifier: tsoe
+    name: 'Trailer Standard Open End'
+    num_vehicles: 1
+    capacity: 76
+    introduction_date: 1989-04-21
+    spritesheet: BRMk4DVT.png
+    special_tags: [formation/1-car, subclass/mk4_tsoe]
+
+  - identifier: tso
+    name: 'Trailer Standard Open'
+    num_vehicles: 1
+    capacity: 76
+    introduction_date: 1989-04-21
+    spritesheet: BRMk4DVT.png
+    special_tags: [formation/1-car, subclass/mk4_tso]
+
+  - identifier: tsod
+    name: 'Trailer Standard Open Disabled'
+    num_vehicles: 1
+    capacity: 72
+    introduction_date: 1989-04-21
+    spritesheet: BRMk4DVT.png
+    special_tags: [formation/1-car, subclass/mk4_tsod]
+
+  - identifier: rfm
+    name: 'Trailer Restaurant First'
+    num_vehicles: 1
+    capacity: 30
+    introduction_date: 1989-04-21
+    spritesheet: BRMk4DVT.png
+    special_tags: [formation/1-car, subclass/mk4_rfm]
+
+  - identifier: fo
+    name: 'First Open'
+    num_vehicles: 1
+    capacity: 43
+    introduction_date: 1989-04-21
+    spritesheet: BRMk4DVT.png
+    special_tags: [formation/1-car, subclass/mk4_fo]
+
 liveries:
   - name: 'InterCity Swallow'
     special_tags: [operator/InterCity]

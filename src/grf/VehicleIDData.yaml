@@ -32089,3 +32089,601 @@ variants:
   strings:
     str_gwr_great_bear_default_gwr_green_train_name: GWR Churchward 111 4-6-2 "The
       Great Bear" - {GOLD}GWR Green
+- id: 2398
+  vehicle: br_mk4
+  profile: tsoe
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2398_br_mk4_tsoe_intercity_swallow_train.gnml
+  identifier: br_mk4_tsoe_intercity_swallow_train
+  name_string: str_br_mk4_tsoe_intercity_swallow_train_name
+  strings:
+    str_br_mk4_tsoe_intercity_swallow_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open End{BLACK} - {GOLD}InterCity Swallow
+- id: 2399
+  vehicle: br_mk4
+  profile: tsoe
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2399_br_mk4_tsoe_national_express_train.gnml
+  identifier: br_mk4_tsoe_national_express_train
+  name_string: str_br_mk4_tsoe_national_express_train_name
+  strings:
+    str_br_mk4_tsoe_national_express_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open End{BLACK} - {GOLD}National Express
+- id: 2400
+  vehicle: br_mk4
+  profile: tsoe
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2400_br_mk4_tsoe_gner_train.gnml
+  identifier: br_mk4_tsoe_gner_train
+  name_string: str_br_mk4_tsoe_gner_train_name
+  strings:
+    str_br_mk4_tsoe_gner_train_name: Mk4 Coach - {SILVER}Trailer Standard Open End{BLACK}
+      - {GOLD}GNER
+- id: 2401
+  vehicle: br_mk4
+  profile: tsoe
+  livery: east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2401_br_mk4_tsoe_east_coast_train.gnml
+  identifier: br_mk4_tsoe_east_coast_train
+  name_string: str_br_mk4_tsoe_east_coast_train_name
+  strings:
+    str_br_mk4_tsoe_east_coast_train_name: Mk4 Coach - {SILVER}Trailer Standard Open
+      End{BLACK} - {GOLD}East Coast
+- id: 2402
+  vehicle: br_mk4
+  profile: tsoe
+  livery: virgin east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2402_br_mk4_tsoe_virgin_east_coast_train.gnml
+  identifier: br_mk4_tsoe_virgin_east_coast_train
+  name_string: str_br_mk4_tsoe_virgin_east_coast_train_name
+  strings:
+    str_br_mk4_tsoe_virgin_east_coast_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open End{BLACK} - {GOLD}Virgin East Coast
+- id: 2403
+  vehicle: br_mk4
+  profile: tsoe
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2403_br_mk4_tsoe_lner_train.gnml
+  identifier: br_mk4_tsoe_lner_train
+  name_string: str_br_mk4_tsoe_lner_train_name
+  strings:
+    str_br_mk4_tsoe_lner_train_name: Mk4 Coach - {SILVER}Trailer Standard Open End{BLACK}
+      - {GOLD}LNER
+- id: 2404
+  vehicle: br_mk4
+  profile: tso
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2404_br_mk4_tso_intercity_swallow_train.gnml
+  identifier: br_mk4_tso_intercity_swallow_train
+  name_string: str_br_mk4_tso_intercity_swallow_train_name
+  strings:
+    str_br_mk4_tso_intercity_swallow_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open{BLACK} - {GOLD}InterCity Swallow
+- id: 2405
+  vehicle: br_mk4
+  profile: tso
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2405_br_mk4_tso_national_express_train.gnml
+  identifier: br_mk4_tso_national_express_train
+  name_string: str_br_mk4_tso_national_express_train_name
+  strings:
+    str_br_mk4_tso_national_express_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open{BLACK} - {GOLD}National Express
+- id: 2406
+  vehicle: br_mk4
+  profile: tso
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2406_br_mk4_tso_gner_train.gnml
+  identifier: br_mk4_tso_gner_train
+  name_string: str_br_mk4_tso_gner_train_name
+  strings:
+    str_br_mk4_tso_gner_train_name: Mk4 Coach - {SILVER}Trailer Standard Open{BLACK}
+      - {GOLD}GNER
+- id: 2407
+  vehicle: br_mk4
+  profile: tso
+  livery: east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2407_br_mk4_tso_east_coast_train.gnml
+  identifier: br_mk4_tso_east_coast_train
+  name_string: str_br_mk4_tso_east_coast_train_name
+  strings:
+    str_br_mk4_tso_east_coast_train_name: Mk4 Coach - {SILVER}Trailer Standard Open{BLACK}
+      - {GOLD}East Coast
+- id: 2408
+  vehicle: br_mk4
+  profile: tso
+  livery: virgin east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2408_br_mk4_tso_virgin_east_coast_train.gnml
+  identifier: br_mk4_tso_virgin_east_coast_train
+  name_string: str_br_mk4_tso_virgin_east_coast_train_name
+  strings:
+    str_br_mk4_tso_virgin_east_coast_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open{BLACK} - {GOLD}Virgin East Coast
+- id: 2409
+  vehicle: br_mk4
+  profile: tso
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 76
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2409_br_mk4_tso_lner_train.gnml
+  identifier: br_mk4_tso_lner_train
+  name_string: str_br_mk4_tso_lner_train_name
+  strings:
+    str_br_mk4_tso_lner_train_name: Mk4 Coach - {SILVER}Trailer Standard Open{BLACK}
+      - {GOLD}LNER
+- id: 2410
+  vehicle: br_mk4
+  profile: tsod
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2410_br_mk4_tsod_intercity_swallow_train.gnml
+  identifier: br_mk4_tsod_intercity_swallow_train
+  name_string: str_br_mk4_tsod_intercity_swallow_train_name
+  strings:
+    str_br_mk4_tsod_intercity_swallow_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open Disabled{BLACK} - {GOLD}InterCity Swallow
+- id: 2411
+  vehicle: br_mk4
+  profile: tsod
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2411_br_mk4_tsod_national_express_train.gnml
+  identifier: br_mk4_tsod_national_express_train
+  name_string: str_br_mk4_tsod_national_express_train_name
+  strings:
+    str_br_mk4_tsod_national_express_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open Disabled{BLACK} - {GOLD}National Express
+- id: 2412
+  vehicle: br_mk4
+  profile: tsod
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2412_br_mk4_tsod_gner_train.gnml
+  identifier: br_mk4_tsod_gner_train
+  name_string: str_br_mk4_tsod_gner_train_name
+  strings:
+    str_br_mk4_tsod_gner_train_name: Mk4 Coach - {SILVER}Trailer Standard Open Disabled{BLACK}
+      - {GOLD}GNER
+- id: 2413
+  vehicle: br_mk4
+  profile: tsod
+  livery: east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2413_br_mk4_tsod_east_coast_train.gnml
+  identifier: br_mk4_tsod_east_coast_train
+  name_string: str_br_mk4_tsod_east_coast_train_name
+  strings:
+    str_br_mk4_tsod_east_coast_train_name: Mk4 Coach - {SILVER}Trailer Standard Open
+      Disabled{BLACK} - {GOLD}East Coast
+- id: 2414
+  vehicle: br_mk4
+  profile: tsod
+  livery: virgin east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2414_br_mk4_tsod_virgin_east_coast_train.gnml
+  identifier: br_mk4_tsod_virgin_east_coast_train
+  name_string: str_br_mk4_tsod_virgin_east_coast_train_name
+  strings:
+    str_br_mk4_tsod_virgin_east_coast_train_name: Mk4 Coach - {SILVER}Trailer Standard
+      Open Disabled{BLACK} - {GOLD}Virgin East Coast
+- id: 2415
+  vehicle: br_mk4
+  profile: tsod
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2415_br_mk4_tsod_lner_train.gnml
+  identifier: br_mk4_tsod_lner_train
+  name_string: str_br_mk4_tsod_lner_train_name
+  strings:
+    str_br_mk4_tsod_lner_train_name: Mk4 Coach - {SILVER}Trailer Standard Open Disabled{BLACK}
+      - {GOLD}LNER
+- id: 2416
+  vehicle: br_mk4
+  profile: rfm
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2416_br_mk4_rfm_intercity_swallow_train.gnml
+  identifier: br_mk4_rfm_intercity_swallow_train
+  name_string: str_br_mk4_rfm_intercity_swallow_train_name
+  strings:
+    str_br_mk4_rfm_intercity_swallow_train_name: Mk4 Coach - {SILVER}Trailer Restaurant
+      First{BLACK} - {GOLD}InterCity Swallow
+- id: 2417
+  vehicle: br_mk4
+  profile: rfm
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2417_br_mk4_rfm_national_express_train.gnml
+  identifier: br_mk4_rfm_national_express_train
+  name_string: str_br_mk4_rfm_national_express_train_name
+  strings:
+    str_br_mk4_rfm_national_express_train_name: Mk4 Coach - {SILVER}Trailer Restaurant
+      First{BLACK} - {GOLD}National Express
+- id: 2418
+  vehicle: br_mk4
+  profile: rfm
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2418_br_mk4_rfm_gner_train.gnml
+  identifier: br_mk4_rfm_gner_train
+  name_string: str_br_mk4_rfm_gner_train_name
+  strings:
+    str_br_mk4_rfm_gner_train_name: Mk4 Coach - {SILVER}Trailer Restaurant First{BLACK}
+      - {GOLD}GNER
+- id: 2419
+  vehicle: br_mk4
+  profile: rfm
+  livery: east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2419_br_mk4_rfm_east_coast_train.gnml
+  identifier: br_mk4_rfm_east_coast_train
+  name_string: str_br_mk4_rfm_east_coast_train_name
+  strings:
+    str_br_mk4_rfm_east_coast_train_name: Mk4 Coach - {SILVER}Trailer Restaurant First{BLACK}
+      - {GOLD}East Coast
+- id: 2420
+  vehicle: br_mk4
+  profile: rfm
+  livery: virgin east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2420_br_mk4_rfm_virgin_east_coast_train.gnml
+  identifier: br_mk4_rfm_virgin_east_coast_train
+  name_string: str_br_mk4_rfm_virgin_east_coast_train_name
+  strings:
+    str_br_mk4_rfm_virgin_east_coast_train_name: Mk4 Coach - {SILVER}Trailer Restaurant
+      First{BLACK} - {GOLD}Virgin East Coast
+- id: 2421
+  vehicle: br_mk4
+  profile: rfm
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2421_br_mk4_rfm_lner_train.gnml
+  identifier: br_mk4_rfm_lner_train
+  name_string: str_br_mk4_rfm_lner_train_name
+  strings:
+    str_br_mk4_rfm_lner_train_name: Mk4 Coach - {SILVER}Trailer Restaurant First{BLACK}
+      - {GOLD}LNER
+- id: 2422
+  vehicle: br_mk4
+  profile: fo
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 43
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2422_br_mk4_fo_intercity_swallow_train.gnml
+  identifier: br_mk4_fo_intercity_swallow_train
+  name_string: str_br_mk4_fo_intercity_swallow_train_name
+  strings:
+    str_br_mk4_fo_intercity_swallow_train_name: Mk4 Coach - {SILVER}First Open{BLACK}
+      - {GOLD}InterCity Swallow
+- id: 2423
+  vehicle: br_mk4
+  profile: fo
+  livery: national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 43
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2423_br_mk4_fo_national_express_train.gnml
+  identifier: br_mk4_fo_national_express_train
+  name_string: str_br_mk4_fo_national_express_train_name
+  strings:
+    str_br_mk4_fo_national_express_train_name: Mk4 Coach - {SILVER}First Open{BLACK}
+      - {GOLD}National Express
+- id: 2424
+  vehicle: br_mk4
+  profile: fo
+  livery: gner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 43
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2424_br_mk4_fo_gner_train.gnml
+  identifier: br_mk4_fo_gner_train
+  name_string: str_br_mk4_fo_gner_train_name
+  strings:
+    str_br_mk4_fo_gner_train_name: Mk4 Coach - {SILVER}First Open{BLACK} - {GOLD}GNER
+- id: 2425
+  vehicle: br_mk4
+  profile: fo
+  livery: east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 43
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2425_br_mk4_fo_east_coast_train.gnml
+  identifier: br_mk4_fo_east_coast_train
+  name_string: str_br_mk4_fo_east_coast_train_name
+  strings:
+    str_br_mk4_fo_east_coast_train_name: Mk4 Coach - {SILVER}First Open{BLACK} - {GOLD}East
+      Coast
+- id: 2426
+  vehicle: br_mk4
+  profile: fo
+  livery: virgin east coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 43
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2426_br_mk4_fo_virgin_east_coast_train.gnml
+  identifier: br_mk4_fo_virgin_east_coast_train
+  name_string: str_br_mk4_fo_virgin_east_coast_train_name
+  strings:
+    str_br_mk4_fo_virgin_east_coast_train_name: Mk4 Coach - {SILVER}First Open{BLACK}
+      - {GOLD}Virgin East Coast
+- id: 2427
+  vehicle: br_mk4
+  profile: fo
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 43
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2427_br_mk4_fo_lner_train.gnml
+  identifier: br_mk4_fo_lner_train
+  name_string: str_br_mk4_fo_lner_train_name
+  strings:
+    str_br_mk4_fo_lner_train_name: Mk4 Coach - {SILVER}First Open{BLACK} - {GOLD}LNER
