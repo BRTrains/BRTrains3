@@ -33197,3 +33197,81 @@ variants:
   name_string: str_br_hha_default_freightliner_train_name
   strings:
     str_br_hha_default_freightliner_train_name: BR HHA Hopper Wagon - {GOLD}Freightliner
+- id: 2453
+  vehicle: br_jia
+  profile: default
+  livery: tsl polybulk
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 58
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2453_br_jia_default_tsl_polybulk_train.gnml
+  identifier: br_jia_default_tsl_polybulk_train
+  name_string: str_br_jia_default_tsl_polybulk_train_name
+  strings:
+    str_br_jia_default_tsl_polybulk_train_name: BR JIA Polybulk Wagon - {GOLD}TSL
+      Polybulk
+- id: 2454
+  vehicle: br_jia
+  profile: default
+  livery: polybulk
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 58
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2454_br_jia_default_polybulk_train.gnml
+  identifier: br_jia_default_polybulk_train
+  name_string: str_br_jia_default_polybulk_train_name
+  strings:
+    str_br_jia_default_polybulk_train_name: BR JIA Polybulk Wagon - {GOLD}Polybulk
+- id: 2455
+  vehicle: br_jia
+  profile: default
+  livery: grainflow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 58
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2455_br_jia_default_grainflow_train.gnml
+  identifier: br_jia_default_grainflow_train
+  name_string: str_br_jia_default_grainflow_train_name
+  strings:
+    str_br_jia_default_grainflow_train_name: BR JIA Polybulk Wagon - {GOLD}Grainflow
+- id: 2456
+  vehicle: br_jia
+  profile: default
+  livery: tiger nacco grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 58
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2456_br_jia_default_tiger_nacco_grey_train.gnml
+  identifier: br_jia_default_tiger_nacco_grey_train
+  name_string: str_br_jia_default_tiger_nacco_grey_train_name
+  strings:
+    str_br_jia_default_tiger_nacco_grey_train_name: BR JIA Polybulk Wagon - {GOLD}Tiger
+      Nacco Grey

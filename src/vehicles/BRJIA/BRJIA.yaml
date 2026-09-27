@@ -1,0 +1,39 @@
+info:
+  identifier: br_jia
+  name: 'BR JIA Polybulk Wagon'
+  sub_name: Covered hopper wagon
+  based_on: British Rail JIA Polybulk wagon
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 22
+  length: 8
+  power: 0
+  speed: 75
+  tractive_effort: 0.08
+
+cargo: bulk
+autorefit: true
+loading_speed: 25
+
+dates:
+  introduction_date: 1974-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 58
+    special_tags:
+      - formation/1-car
+      - subclass/jia
+
+liveries:
+  - name: 'TSL Polybulk'
+    special_tags: [operator/TSL]
+  - name: Polybulk
+    special_tags: [operator/Polybulk]
+  - name: Grainflow
+    special_tags: [operator/Grainflow]
+  - name: 'Tiger Nacco Grey'
+    special_tags: [operator/Tiger Nacco]
