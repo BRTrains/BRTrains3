@@ -29689,3 +29689,69 @@ variants:
   strings:
     str_lner_v2_default_lner_green_train_name: LNER Gresley Class V2 2-6-2 - {GOLD}LNER
       Green
+- id: 2291
+  vehicle: lu_1986
+  profile: '1986_2'
+  livery: london underground - green (experimental)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2291_lu_1986_1986_2_london_underground___green__experimental__train.gnml
+  identifier: lu_1986_1986_2_london_underground___green__experimental__train
+  name_string: str_lu_1986_1986_2_london_underground___green__experimental__train_name
+  strings:
+    str_lu_1986_1986_2_london_underground___green__experimental__train_name: London
+      Underground 1986 Stock - {SILVER}2-Car{BLACK} - {GOLD}London Underground - Green
+      Experimental
+- id: 2292
+  vehicle: lu_1986
+  profile: '1986_2'
+  livery: london underground - red (experimental)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2292_lu_1986_1986_2_london_underground___red__experimental__train.gnml
+  identifier: lu_1986_1986_2_london_underground___red__experimental__train
+  name_string: str_lu_1986_1986_2_london_underground___red__experimental__train_name
+  strings:
+    str_lu_1986_1986_2_london_underground___red__experimental__train_name: London
+      Underground 1986 Stock - {SILVER}2-Car{BLACK} - {GOLD}London Underground - Red
+      Experimental
+- id: 2293
+  vehicle: lu_1986
+  profile: '1986_2'
+  livery: london underground - blue (experimental)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2293_lu_1986_1986_2_london_underground___blue__experimental__train.gnml
+  identifier: lu_1986_1986_2_london_underground___blue__experimental__train
+  name_string: str_lu_1986_1986_2_london_underground___blue__experimental__train_name
+  strings:
+    str_lu_1986_1986_2_london_underground___blue__experimental__train_name: London
+      Underground 1986 Stock - {SILVER}2-Car{BLACK} - {GOLD}London Underground - Blue
+      Experimental
