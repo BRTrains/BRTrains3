@@ -46,6 +46,76 @@ profiles:
       - formation/1-car
       - subclass/mk3_dvt
 
+  # The six loco-hauled Mk3 coach types each draw one band per livery of their own sheet
+  # (`BRTrains2/gfx/Rolling Stock/Mk3/BRMk3<Type>.png`, 171x500 on the legacy
+  # `template_train32px_old` grid) and each keeps a sheet of its own, composed by
+  # `BRTrains3-artwork-tools/compose_br_mk3_coach_sheet.py <Type>`, which repacks every band
+  # onto the modern `tmpl_train_8` grid. `sw_253_BRMk3<Type>` reads one spriteset per livery,
+  # so each type is one single-car profile over the same seventeen-livery list.
+  #
+  # Capacities are the legacy `cargo_capacity` callbacks, already per-part (`72` TS, `48` TF,
+  # `59` TGS, `34` TRSB/TRUB/TRUK), and the weight is left to the candidate's own 43 t: every
+  # coach item declares `weight: 0` (a placeholder, not a figure), so nothing was invented.
+  - identifier: ts
+    name: 'Trailer Second'
+    num_vehicles: 1
+    capacity: 72
+    introduction_date: 1975-04-21
+    spritesheet: BRMk3TS.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk3_ts
+
+  - identifier: tf
+    name: 'Trailer First'
+    num_vehicles: 1
+    capacity: 48
+    introduction_date: 1975-04-21
+    spritesheet: BRMk3TF.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk3_tf
+
+  - identifier: tgs
+    name: 'Trailer Guard Second'
+    num_vehicles: 1
+    capacity: 59
+    introduction_date: 1975-04-21
+    spritesheet: BRMk3TGS.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk3_tgs
+
+  - identifier: trsb
+    name: 'Trailer Buffet Second'
+    num_vehicles: 1
+    capacity: 34
+    introduction_date: 1975-04-21
+    spritesheet: BRMk3TRSB.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk3_trsb
+
+  - identifier: trub
+    name: 'Trailer Buffet Unclassified'
+    num_vehicles: 1
+    capacity: 34
+    introduction_date: 1975-04-21
+    spritesheet: BRMk3TRUB.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk3_trub
+
+  - identifier: truk
+    name: 'Trailer Kitchen'
+    num_vehicles: 1
+    capacity: 34
+    introduction_date: 1975-04-21
+    spritesheet: BRMk3TRUK.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk3_truk
+
 liveries:
   - name: 'BR Blue'
     profiles: [sleeper]
@@ -100,3 +170,59 @@ liveries:
   - name: 'Network Rail'
     profiles: [dvt]
     special_tags: [operator/Network Rail]
+
+  # The six loco-hauled coach types share the same seventeen-livery set, which is the
+  # `sw_253_BRMk3<Type>` 0..16 order - the groups the composite's ROWS table packs in. Every
+  # one is restricted to the six coach profiles: the sleeper and the DVT draw their own sheets
+  # and carry their own lists above.
+  - name: 'BR Blue'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/BR]
+  - name: 'InterCity Executive'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/InterCity]
+  - name: 'InterCity Swallow'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/InterCity]
+  - name: 'MML Teal and Tang'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/East Midlands Trains]
+  - name: 'MML Blue'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/East Midlands Trains]
+  - name: 'EMT'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/East Midlands Trains]
+  - name: 'Virgin'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/Virgin Trains]
+  - name: 'First Great Western'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/Great Western Railway]
+  - name: 'Great Western Railway Green'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/Great Western Railway]
+  - name: 'CrossCountry'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/CrossCountry]
+  - name: 'Great North Eastern Railway'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/Great North Eastern Railway]
+  - name: 'National Express East Anglia'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/National Express East Anglia]
+  - name: 'Grand Central'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/Grand Central]
+  - name: 'Grand Central Lined'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/Grand Central]
+  - name: 'Inter7City'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/ScotRail]
+  - name: 'LNER'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/LNER]
+  - name: 'Blue Pullman'
+    profiles: [ts, tf, tgs, trsb, trub, truk]
+    special_tags: [operator/Blue Pullman]

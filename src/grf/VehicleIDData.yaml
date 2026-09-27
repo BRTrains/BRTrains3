@@ -25056,3 +25056,2036 @@ variants:
   strings:
     str_br_399_default_stagecoach_blue_tram_name: Class 399 "Sheffield Citylink" tram-train
       3-car Single Unit - {GOLD}Stagecoach Blue
+- id: 2070
+  vehicle: br_mk3
+  profile: ts
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2070_br_mk3_ts_br_blue_train.gnml
+  identifier: br_mk3_ts_br_blue_train
+  name_string: str_br_mk3_ts_br_blue_train_name
+  strings:
+    str_br_mk3_ts_br_blue_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK} -
+      {GOLD}BR Blue
+- id: 2071
+  vehicle: br_mk3
+  profile: ts
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2071_br_mk3_ts_intercity_executive_train.gnml
+  identifier: br_mk3_ts_intercity_executive_train
+  name_string: str_br_mk3_ts_intercity_executive_train_name
+  strings:
+    str_br_mk3_ts_intercity_executive_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}InterCity Executive
+- id: 2072
+  vehicle: br_mk3
+  profile: ts
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2072_br_mk3_ts_intercity_swallow_train.gnml
+  identifier: br_mk3_ts_intercity_swallow_train
+  name_string: str_br_mk3_ts_intercity_swallow_train_name
+  strings:
+    str_br_mk3_ts_intercity_swallow_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}InterCity Swallow
+- id: 2073
+  vehicle: br_mk3
+  profile: ts
+  livery: mml teal and tang
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2073_br_mk3_ts_mml_teal_and_tang_train.gnml
+  identifier: br_mk3_ts_mml_teal_and_tang_train
+  name_string: str_br_mk3_ts_mml_teal_and_tang_train_name
+  strings:
+    str_br_mk3_ts_mml_teal_and_tang_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}MML Teal and Tang
+- id: 2074
+  vehicle: br_mk3
+  profile: ts
+  livery: mml blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2074_br_mk3_ts_mml_blue_train.gnml
+  identifier: br_mk3_ts_mml_blue_train
+  name_string: str_br_mk3_ts_mml_blue_train_name
+  strings:
+    str_br_mk3_ts_mml_blue_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK} -
+      {GOLD}MML Blue
+- id: 2075
+  vehicle: br_mk3
+  profile: ts
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2075_br_mk3_ts_emt_train.gnml
+  identifier: br_mk3_ts_emt_train
+  name_string: str_br_mk3_ts_emt_train_name
+  strings:
+    str_br_mk3_ts_emt_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK} - {GOLD}EMT
+- id: 2076
+  vehicle: br_mk3
+  profile: ts
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2076_br_mk3_ts_virgin_train.gnml
+  identifier: br_mk3_ts_virgin_train
+  name_string: str_br_mk3_ts_virgin_train_name
+  strings:
+    str_br_mk3_ts_virgin_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK} - {GOLD}Virgin
+- id: 2077
+  vehicle: br_mk3
+  profile: ts
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2077_br_mk3_ts_first_great_western_train.gnml
+  identifier: br_mk3_ts_first_great_western_train
+  name_string: str_br_mk3_ts_first_great_western_train_name
+  strings:
+    str_br_mk3_ts_first_great_western_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}First Great Western
+- id: 2078
+  vehicle: br_mk3
+  profile: ts
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2078_br_mk3_ts_great_western_railway_green_train.gnml
+  identifier: br_mk3_ts_great_western_railway_green_train
+  name_string: str_br_mk3_ts_great_western_railway_green_train_name
+  strings:
+    str_br_mk3_ts_great_western_railway_green_train_name: Mk3 Coach - {SILVER}Trailer
+      Second{BLACK} - {GOLD}Great Western Railway Green
+- id: 2079
+  vehicle: br_mk3
+  profile: ts
+  livery: crosscountry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2079_br_mk3_ts_crosscountry_train.gnml
+  identifier: br_mk3_ts_crosscountry_train
+  name_string: str_br_mk3_ts_crosscountry_train_name
+  strings:
+    str_br_mk3_ts_crosscountry_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}CrossCountry
+- id: 2080
+  vehicle: br_mk3
+  profile: ts
+  livery: great north eastern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2080_br_mk3_ts_great_north_eastern_railway_train.gnml
+  identifier: br_mk3_ts_great_north_eastern_railway_train
+  name_string: str_br_mk3_ts_great_north_eastern_railway_train_name
+  strings:
+    str_br_mk3_ts_great_north_eastern_railway_train_name: Mk3 Coach - {SILVER}Trailer
+      Second{BLACK} - {GOLD}Great North Eastern Railway
+- id: 2081
+  vehicle: br_mk3
+  profile: ts
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2081_br_mk3_ts_national_express_east_anglia_train.gnml
+  identifier: br_mk3_ts_national_express_east_anglia_train
+  name_string: str_br_mk3_ts_national_express_east_anglia_train_name
+  strings:
+    str_br_mk3_ts_national_express_east_anglia_train_name: Mk3 Coach - {SILVER}Trailer
+      Second{BLACK} - {GOLD}National Express East Anglia
+- id: 2082
+  vehicle: br_mk3
+  profile: ts
+  livery: grand central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2082_br_mk3_ts_grand_central_train.gnml
+  identifier: br_mk3_ts_grand_central_train
+  name_string: str_br_mk3_ts_grand_central_train_name
+  strings:
+    str_br_mk3_ts_grand_central_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}Grand Central
+- id: 2083
+  vehicle: br_mk3
+  profile: ts
+  livery: grand central lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2083_br_mk3_ts_grand_central_lined_train.gnml
+  identifier: br_mk3_ts_grand_central_lined_train
+  name_string: str_br_mk3_ts_grand_central_lined_train_name
+  strings:
+    str_br_mk3_ts_grand_central_lined_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}Grand Central Lined
+- id: 2084
+  vehicle: br_mk3
+  profile: ts
+  livery: inter7city
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2084_br_mk3_ts_inter7city_train.gnml
+  identifier: br_mk3_ts_inter7city_train
+  name_string: str_br_mk3_ts_inter7city_train_name
+  strings:
+    str_br_mk3_ts_inter7city_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}Inter7City
+- id: 2085
+  vehicle: br_mk3
+  profile: ts
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2085_br_mk3_ts_lner_train.gnml
+  identifier: br_mk3_ts_lner_train
+  name_string: str_br_mk3_ts_lner_train_name
+  strings:
+    str_br_mk3_ts_lner_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK} - {GOLD}LNER
+- id: 2086
+  vehicle: br_mk3
+  profile: ts
+  livery: blue pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2086_br_mk3_ts_blue_pullman_train.gnml
+  identifier: br_mk3_ts_blue_pullman_train
+  name_string: str_br_mk3_ts_blue_pullman_train_name
+  strings:
+    str_br_mk3_ts_blue_pullman_train_name: Mk3 Coach - {SILVER}Trailer Second{BLACK}
+      - {GOLD}Blue Pullman
+- id: 2087
+  vehicle: br_mk3
+  profile: tf
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2087_br_mk3_tf_br_blue_train.gnml
+  identifier: br_mk3_tf_br_blue_train
+  name_string: str_br_mk3_tf_br_blue_train_name
+  strings:
+    str_br_mk3_tf_br_blue_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK} - {GOLD}BR
+      Blue
+- id: 2088
+  vehicle: br_mk3
+  profile: tf
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2088_br_mk3_tf_intercity_executive_train.gnml
+  identifier: br_mk3_tf_intercity_executive_train
+  name_string: str_br_mk3_tf_intercity_executive_train_name
+  strings:
+    str_br_mk3_tf_intercity_executive_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}InterCity Executive
+- id: 2089
+  vehicle: br_mk3
+  profile: tf
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2089_br_mk3_tf_intercity_swallow_train.gnml
+  identifier: br_mk3_tf_intercity_swallow_train
+  name_string: str_br_mk3_tf_intercity_swallow_train_name
+  strings:
+    str_br_mk3_tf_intercity_swallow_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}InterCity Swallow
+- id: 2090
+  vehicle: br_mk3
+  profile: tf
+  livery: mml teal and tang
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2090_br_mk3_tf_mml_teal_and_tang_train.gnml
+  identifier: br_mk3_tf_mml_teal_and_tang_train
+  name_string: str_br_mk3_tf_mml_teal_and_tang_train_name
+  strings:
+    str_br_mk3_tf_mml_teal_and_tang_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}MML Teal and Tang
+- id: 2091
+  vehicle: br_mk3
+  profile: tf
+  livery: mml blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2091_br_mk3_tf_mml_blue_train.gnml
+  identifier: br_mk3_tf_mml_blue_train
+  name_string: str_br_mk3_tf_mml_blue_train_name
+  strings:
+    str_br_mk3_tf_mml_blue_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK} -
+      {GOLD}MML Blue
+- id: 2092
+  vehicle: br_mk3
+  profile: tf
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2092_br_mk3_tf_emt_train.gnml
+  identifier: br_mk3_tf_emt_train
+  name_string: str_br_mk3_tf_emt_train_name
+  strings:
+    str_br_mk3_tf_emt_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK} - {GOLD}EMT
+- id: 2093
+  vehicle: br_mk3
+  profile: tf
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2093_br_mk3_tf_virgin_train.gnml
+  identifier: br_mk3_tf_virgin_train
+  name_string: str_br_mk3_tf_virgin_train_name
+  strings:
+    str_br_mk3_tf_virgin_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK} - {GOLD}Virgin
+- id: 2094
+  vehicle: br_mk3
+  profile: tf
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2094_br_mk3_tf_first_great_western_train.gnml
+  identifier: br_mk3_tf_first_great_western_train
+  name_string: str_br_mk3_tf_first_great_western_train_name
+  strings:
+    str_br_mk3_tf_first_great_western_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}First Great Western
+- id: 2095
+  vehicle: br_mk3
+  profile: tf
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2095_br_mk3_tf_great_western_railway_green_train.gnml
+  identifier: br_mk3_tf_great_western_railway_green_train
+  name_string: str_br_mk3_tf_great_western_railway_green_train_name
+  strings:
+    str_br_mk3_tf_great_western_railway_green_train_name: Mk3 Coach - {SILVER}Trailer
+      First{BLACK} - {GOLD}Great Western Railway Green
+- id: 2096
+  vehicle: br_mk3
+  profile: tf
+  livery: crosscountry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2096_br_mk3_tf_crosscountry_train.gnml
+  identifier: br_mk3_tf_crosscountry_train
+  name_string: str_br_mk3_tf_crosscountry_train_name
+  strings:
+    str_br_mk3_tf_crosscountry_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}CrossCountry
+- id: 2097
+  vehicle: br_mk3
+  profile: tf
+  livery: great north eastern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2097_br_mk3_tf_great_north_eastern_railway_train.gnml
+  identifier: br_mk3_tf_great_north_eastern_railway_train
+  name_string: str_br_mk3_tf_great_north_eastern_railway_train_name
+  strings:
+    str_br_mk3_tf_great_north_eastern_railway_train_name: Mk3 Coach - {SILVER}Trailer
+      First{BLACK} - {GOLD}Great North Eastern Railway
+- id: 2098
+  vehicle: br_mk3
+  profile: tf
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2098_br_mk3_tf_national_express_east_anglia_train.gnml
+  identifier: br_mk3_tf_national_express_east_anglia_train
+  name_string: str_br_mk3_tf_national_express_east_anglia_train_name
+  strings:
+    str_br_mk3_tf_national_express_east_anglia_train_name: Mk3 Coach - {SILVER}Trailer
+      First{BLACK} - {GOLD}National Express East Anglia
+- id: 2099
+  vehicle: br_mk3
+  profile: tf
+  livery: grand central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2099_br_mk3_tf_grand_central_train.gnml
+  identifier: br_mk3_tf_grand_central_train
+  name_string: str_br_mk3_tf_grand_central_train_name
+  strings:
+    str_br_mk3_tf_grand_central_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}Grand Central
+- id: 2100
+  vehicle: br_mk3
+  profile: tf
+  livery: grand central lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2100_br_mk3_tf_grand_central_lined_train.gnml
+  identifier: br_mk3_tf_grand_central_lined_train
+  name_string: str_br_mk3_tf_grand_central_lined_train_name
+  strings:
+    str_br_mk3_tf_grand_central_lined_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}Grand Central Lined
+- id: 2101
+  vehicle: br_mk3
+  profile: tf
+  livery: inter7city
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2101_br_mk3_tf_inter7city_train.gnml
+  identifier: br_mk3_tf_inter7city_train
+  name_string: str_br_mk3_tf_inter7city_train_name
+  strings:
+    str_br_mk3_tf_inter7city_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}Inter7City
+- id: 2102
+  vehicle: br_mk3
+  profile: tf
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2102_br_mk3_tf_lner_train.gnml
+  identifier: br_mk3_tf_lner_train
+  name_string: str_br_mk3_tf_lner_train_name
+  strings:
+    str_br_mk3_tf_lner_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK} - {GOLD}LNER
+- id: 2103
+  vehicle: br_mk3
+  profile: tf
+  livery: blue pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2103_br_mk3_tf_blue_pullman_train.gnml
+  identifier: br_mk3_tf_blue_pullman_train
+  name_string: str_br_mk3_tf_blue_pullman_train_name
+  strings:
+    str_br_mk3_tf_blue_pullman_train_name: Mk3 Coach - {SILVER}Trailer First{BLACK}
+      - {GOLD}Blue Pullman
+- id: 2104
+  vehicle: br_mk3
+  profile: tgs
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2104_br_mk3_tgs_br_blue_train.gnml
+  identifier: br_mk3_tgs_br_blue_train
+  name_string: str_br_mk3_tgs_br_blue_train_name
+  strings:
+    str_br_mk3_tgs_br_blue_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}BR Blue
+- id: 2105
+  vehicle: br_mk3
+  profile: tgs
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2105_br_mk3_tgs_intercity_executive_train.gnml
+  identifier: br_mk3_tgs_intercity_executive_train
+  name_string: str_br_mk3_tgs_intercity_executive_train_name
+  strings:
+    str_br_mk3_tgs_intercity_executive_train_name: Mk3 Coach - {SILVER}Trailer Guard
+      Second{BLACK} - {GOLD}InterCity Executive
+- id: 2106
+  vehicle: br_mk3
+  profile: tgs
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2106_br_mk3_tgs_intercity_swallow_train.gnml
+  identifier: br_mk3_tgs_intercity_swallow_train
+  name_string: str_br_mk3_tgs_intercity_swallow_train_name
+  strings:
+    str_br_mk3_tgs_intercity_swallow_train_name: Mk3 Coach - {SILVER}Trailer Guard
+      Second{BLACK} - {GOLD}InterCity Swallow
+- id: 2107
+  vehicle: br_mk3
+  profile: tgs
+  livery: mml teal and tang
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2107_br_mk3_tgs_mml_teal_and_tang_train.gnml
+  identifier: br_mk3_tgs_mml_teal_and_tang_train
+  name_string: str_br_mk3_tgs_mml_teal_and_tang_train_name
+  strings:
+    str_br_mk3_tgs_mml_teal_and_tang_train_name: Mk3 Coach - {SILVER}Trailer Guard
+      Second{BLACK} - {GOLD}MML Teal and Tang
+- id: 2108
+  vehicle: br_mk3
+  profile: tgs
+  livery: mml blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2108_br_mk3_tgs_mml_blue_train.gnml
+  identifier: br_mk3_tgs_mml_blue_train
+  name_string: str_br_mk3_tgs_mml_blue_train_name
+  strings:
+    str_br_mk3_tgs_mml_blue_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}MML Blue
+- id: 2109
+  vehicle: br_mk3
+  profile: tgs
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2109_br_mk3_tgs_emt_train.gnml
+  identifier: br_mk3_tgs_emt_train
+  name_string: str_br_mk3_tgs_emt_train_name
+  strings:
+    str_br_mk3_tgs_emt_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}EMT
+- id: 2110
+  vehicle: br_mk3
+  profile: tgs
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2110_br_mk3_tgs_virgin_train.gnml
+  identifier: br_mk3_tgs_virgin_train
+  name_string: str_br_mk3_tgs_virgin_train_name
+  strings:
+    str_br_mk3_tgs_virgin_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}Virgin
+- id: 2111
+  vehicle: br_mk3
+  profile: tgs
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2111_br_mk3_tgs_first_great_western_train.gnml
+  identifier: br_mk3_tgs_first_great_western_train
+  name_string: str_br_mk3_tgs_first_great_western_train_name
+  strings:
+    str_br_mk3_tgs_first_great_western_train_name: Mk3 Coach - {SILVER}Trailer Guard
+      Second{BLACK} - {GOLD}First Great Western
+- id: 2112
+  vehicle: br_mk3
+  profile: tgs
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2112_br_mk3_tgs_great_western_railway_green_train.gnml
+  identifier: br_mk3_tgs_great_western_railway_green_train
+  name_string: str_br_mk3_tgs_great_western_railway_green_train_name
+  strings:
+    str_br_mk3_tgs_great_western_railway_green_train_name: Mk3 Coach - {SILVER}Trailer
+      Guard Second{BLACK} - {GOLD}Great Western Railway Green
+- id: 2113
+  vehicle: br_mk3
+  profile: tgs
+  livery: crosscountry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2113_br_mk3_tgs_crosscountry_train.gnml
+  identifier: br_mk3_tgs_crosscountry_train
+  name_string: str_br_mk3_tgs_crosscountry_train_name
+  strings:
+    str_br_mk3_tgs_crosscountry_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}CrossCountry
+- id: 2114
+  vehicle: br_mk3
+  profile: tgs
+  livery: great north eastern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2114_br_mk3_tgs_great_north_eastern_railway_train.gnml
+  identifier: br_mk3_tgs_great_north_eastern_railway_train
+  name_string: str_br_mk3_tgs_great_north_eastern_railway_train_name
+  strings:
+    str_br_mk3_tgs_great_north_eastern_railway_train_name: Mk3 Coach - {SILVER}Trailer
+      Guard Second{BLACK} - {GOLD}Great North Eastern Railway
+- id: 2115
+  vehicle: br_mk3
+  profile: tgs
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2115_br_mk3_tgs_national_express_east_anglia_train.gnml
+  identifier: br_mk3_tgs_national_express_east_anglia_train
+  name_string: str_br_mk3_tgs_national_express_east_anglia_train_name
+  strings:
+    str_br_mk3_tgs_national_express_east_anglia_train_name: Mk3 Coach - {SILVER}Trailer
+      Guard Second{BLACK} - {GOLD}National Express East Anglia
+- id: 2116
+  vehicle: br_mk3
+  profile: tgs
+  livery: grand central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2116_br_mk3_tgs_grand_central_train.gnml
+  identifier: br_mk3_tgs_grand_central_train
+  name_string: str_br_mk3_tgs_grand_central_train_name
+  strings:
+    str_br_mk3_tgs_grand_central_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}Grand Central
+- id: 2117
+  vehicle: br_mk3
+  profile: tgs
+  livery: grand central lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2117_br_mk3_tgs_grand_central_lined_train.gnml
+  identifier: br_mk3_tgs_grand_central_lined_train
+  name_string: str_br_mk3_tgs_grand_central_lined_train_name
+  strings:
+    str_br_mk3_tgs_grand_central_lined_train_name: Mk3 Coach - {SILVER}Trailer Guard
+      Second{BLACK} - {GOLD}Grand Central Lined
+- id: 2118
+  vehicle: br_mk3
+  profile: tgs
+  livery: inter7city
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2118_br_mk3_tgs_inter7city_train.gnml
+  identifier: br_mk3_tgs_inter7city_train
+  name_string: str_br_mk3_tgs_inter7city_train_name
+  strings:
+    str_br_mk3_tgs_inter7city_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}Inter7City
+- id: 2119
+  vehicle: br_mk3
+  profile: tgs
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2119_br_mk3_tgs_lner_train.gnml
+  identifier: br_mk3_tgs_lner_train
+  name_string: str_br_mk3_tgs_lner_train_name
+  strings:
+    str_br_mk3_tgs_lner_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}LNER
+- id: 2120
+  vehicle: br_mk3
+  profile: tgs
+  livery: blue pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 59
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2120_br_mk3_tgs_blue_pullman_train.gnml
+  identifier: br_mk3_tgs_blue_pullman_train
+  name_string: str_br_mk3_tgs_blue_pullman_train_name
+  strings:
+    str_br_mk3_tgs_blue_pullman_train_name: Mk3 Coach - {SILVER}Trailer Guard Second{BLACK}
+      - {GOLD}Blue Pullman
+- id: 2121
+  vehicle: br_mk3
+  profile: trsb
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2121_br_mk3_trsb_br_blue_train.gnml
+  identifier: br_mk3_trsb_br_blue_train
+  name_string: str_br_mk3_trsb_br_blue_train_name
+  strings:
+    str_br_mk3_trsb_br_blue_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}BR Blue
+- id: 2122
+  vehicle: br_mk3
+  profile: trsb
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2122_br_mk3_trsb_intercity_executive_train.gnml
+  identifier: br_mk3_trsb_intercity_executive_train
+  name_string: str_br_mk3_trsb_intercity_executive_train_name
+  strings:
+    str_br_mk3_trsb_intercity_executive_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Second{BLACK} - {GOLD}InterCity Executive
+- id: 2123
+  vehicle: br_mk3
+  profile: trsb
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2123_br_mk3_trsb_intercity_swallow_train.gnml
+  identifier: br_mk3_trsb_intercity_swallow_train
+  name_string: str_br_mk3_trsb_intercity_swallow_train_name
+  strings:
+    str_br_mk3_trsb_intercity_swallow_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Second{BLACK} - {GOLD}InterCity Swallow
+- id: 2124
+  vehicle: br_mk3
+  profile: trsb
+  livery: mml teal and tang
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2124_br_mk3_trsb_mml_teal_and_tang_train.gnml
+  identifier: br_mk3_trsb_mml_teal_and_tang_train
+  name_string: str_br_mk3_trsb_mml_teal_and_tang_train_name
+  strings:
+    str_br_mk3_trsb_mml_teal_and_tang_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Second{BLACK} - {GOLD}MML Teal and Tang
+- id: 2125
+  vehicle: br_mk3
+  profile: trsb
+  livery: mml blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2125_br_mk3_trsb_mml_blue_train.gnml
+  identifier: br_mk3_trsb_mml_blue_train
+  name_string: str_br_mk3_trsb_mml_blue_train_name
+  strings:
+    str_br_mk3_trsb_mml_blue_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}MML Blue
+- id: 2126
+  vehicle: br_mk3
+  profile: trsb
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2126_br_mk3_trsb_emt_train.gnml
+  identifier: br_mk3_trsb_emt_train
+  name_string: str_br_mk3_trsb_emt_train_name
+  strings:
+    str_br_mk3_trsb_emt_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}EMT
+- id: 2127
+  vehicle: br_mk3
+  profile: trsb
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2127_br_mk3_trsb_virgin_train.gnml
+  identifier: br_mk3_trsb_virgin_train
+  name_string: str_br_mk3_trsb_virgin_train_name
+  strings:
+    str_br_mk3_trsb_virgin_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}Virgin
+- id: 2128
+  vehicle: br_mk3
+  profile: trsb
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2128_br_mk3_trsb_first_great_western_train.gnml
+  identifier: br_mk3_trsb_first_great_western_train
+  name_string: str_br_mk3_trsb_first_great_western_train_name
+  strings:
+    str_br_mk3_trsb_first_great_western_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Second{BLACK} - {GOLD}First Great Western
+- id: 2129
+  vehicle: br_mk3
+  profile: trsb
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2129_br_mk3_trsb_great_western_railway_green_train.gnml
+  identifier: br_mk3_trsb_great_western_railway_green_train
+  name_string: str_br_mk3_trsb_great_western_railway_green_train_name
+  strings:
+    str_br_mk3_trsb_great_western_railway_green_train_name: Mk3 Coach - {SILVER}Trailer
+      Buffet Second{BLACK} - {GOLD}Great Western Railway Green
+- id: 2130
+  vehicle: br_mk3
+  profile: trsb
+  livery: crosscountry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2130_br_mk3_trsb_crosscountry_train.gnml
+  identifier: br_mk3_trsb_crosscountry_train
+  name_string: str_br_mk3_trsb_crosscountry_train_name
+  strings:
+    str_br_mk3_trsb_crosscountry_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}CrossCountry
+- id: 2131
+  vehicle: br_mk3
+  profile: trsb
+  livery: great north eastern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2131_br_mk3_trsb_great_north_eastern_railway_train.gnml
+  identifier: br_mk3_trsb_great_north_eastern_railway_train
+  name_string: str_br_mk3_trsb_great_north_eastern_railway_train_name
+  strings:
+    str_br_mk3_trsb_great_north_eastern_railway_train_name: Mk3 Coach - {SILVER}Trailer
+      Buffet Second{BLACK} - {GOLD}Great North Eastern Railway
+- id: 2132
+  vehicle: br_mk3
+  profile: trsb
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2132_br_mk3_trsb_national_express_east_anglia_train.gnml
+  identifier: br_mk3_trsb_national_express_east_anglia_train
+  name_string: str_br_mk3_trsb_national_express_east_anglia_train_name
+  strings:
+    str_br_mk3_trsb_national_express_east_anglia_train_name: Mk3 Coach - {SILVER}Trailer
+      Buffet Second{BLACK} - {GOLD}National Express East Anglia
+- id: 2133
+  vehicle: br_mk3
+  profile: trsb
+  livery: grand central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2133_br_mk3_trsb_grand_central_train.gnml
+  identifier: br_mk3_trsb_grand_central_train
+  name_string: str_br_mk3_trsb_grand_central_train_name
+  strings:
+    str_br_mk3_trsb_grand_central_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}Grand Central
+- id: 2134
+  vehicle: br_mk3
+  profile: trsb
+  livery: grand central lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2134_br_mk3_trsb_grand_central_lined_train.gnml
+  identifier: br_mk3_trsb_grand_central_lined_train
+  name_string: str_br_mk3_trsb_grand_central_lined_train_name
+  strings:
+    str_br_mk3_trsb_grand_central_lined_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Second{BLACK} - {GOLD}Grand Central Lined
+- id: 2135
+  vehicle: br_mk3
+  profile: trsb
+  livery: inter7city
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2135_br_mk3_trsb_inter7city_train.gnml
+  identifier: br_mk3_trsb_inter7city_train
+  name_string: str_br_mk3_trsb_inter7city_train_name
+  strings:
+    str_br_mk3_trsb_inter7city_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}Inter7City
+- id: 2136
+  vehicle: br_mk3
+  profile: trsb
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2136_br_mk3_trsb_lner_train.gnml
+  identifier: br_mk3_trsb_lner_train
+  name_string: str_br_mk3_trsb_lner_train_name
+  strings:
+    str_br_mk3_trsb_lner_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}LNER
+- id: 2137
+  vehicle: br_mk3
+  profile: trsb
+  livery: blue pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2137_br_mk3_trsb_blue_pullman_train.gnml
+  identifier: br_mk3_trsb_blue_pullman_train
+  name_string: str_br_mk3_trsb_blue_pullman_train_name
+  strings:
+    str_br_mk3_trsb_blue_pullman_train_name: Mk3 Coach - {SILVER}Trailer Buffet Second{BLACK}
+      - {GOLD}Blue Pullman
+- id: 2138
+  vehicle: br_mk3
+  profile: trub
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2138_br_mk3_trub_br_blue_train.gnml
+  identifier: br_mk3_trub_br_blue_train
+  name_string: str_br_mk3_trub_br_blue_train_name
+  strings:
+    str_br_mk3_trub_br_blue_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}BR Blue
+- id: 2139
+  vehicle: br_mk3
+  profile: trub
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2139_br_mk3_trub_intercity_executive_train.gnml
+  identifier: br_mk3_trub_intercity_executive_train
+  name_string: str_br_mk3_trub_intercity_executive_train_name
+  strings:
+    str_br_mk3_trub_intercity_executive_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Unclassified{BLACK} - {GOLD}InterCity Executive
+- id: 2140
+  vehicle: br_mk3
+  profile: trub
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2140_br_mk3_trub_intercity_swallow_train.gnml
+  identifier: br_mk3_trub_intercity_swallow_train
+  name_string: str_br_mk3_trub_intercity_swallow_train_name
+  strings:
+    str_br_mk3_trub_intercity_swallow_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Unclassified{BLACK} - {GOLD}InterCity Swallow
+- id: 2141
+  vehicle: br_mk3
+  profile: trub
+  livery: mml teal and tang
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2141_br_mk3_trub_mml_teal_and_tang_train.gnml
+  identifier: br_mk3_trub_mml_teal_and_tang_train
+  name_string: str_br_mk3_trub_mml_teal_and_tang_train_name
+  strings:
+    str_br_mk3_trub_mml_teal_and_tang_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Unclassified{BLACK} - {GOLD}MML Teal and Tang
+- id: 2142
+  vehicle: br_mk3
+  profile: trub
+  livery: mml blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2142_br_mk3_trub_mml_blue_train.gnml
+  identifier: br_mk3_trub_mml_blue_train
+  name_string: str_br_mk3_trub_mml_blue_train_name
+  strings:
+    str_br_mk3_trub_mml_blue_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}MML Blue
+- id: 2143
+  vehicle: br_mk3
+  profile: trub
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2143_br_mk3_trub_emt_train.gnml
+  identifier: br_mk3_trub_emt_train
+  name_string: str_br_mk3_trub_emt_train_name
+  strings:
+    str_br_mk3_trub_emt_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}EMT
+- id: 2144
+  vehicle: br_mk3
+  profile: trub
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2144_br_mk3_trub_virgin_train.gnml
+  identifier: br_mk3_trub_virgin_train
+  name_string: str_br_mk3_trub_virgin_train_name
+  strings:
+    str_br_mk3_trub_virgin_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}Virgin
+- id: 2145
+  vehicle: br_mk3
+  profile: trub
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2145_br_mk3_trub_first_great_western_train.gnml
+  identifier: br_mk3_trub_first_great_western_train
+  name_string: str_br_mk3_trub_first_great_western_train_name
+  strings:
+    str_br_mk3_trub_first_great_western_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Unclassified{BLACK} - {GOLD}First Great Western
+- id: 2146
+  vehicle: br_mk3
+  profile: trub
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2146_br_mk3_trub_great_western_railway_green_train.gnml
+  identifier: br_mk3_trub_great_western_railway_green_train
+  name_string: str_br_mk3_trub_great_western_railway_green_train_name
+  strings:
+    str_br_mk3_trub_great_western_railway_green_train_name: Mk3 Coach - {SILVER}Trailer
+      Buffet Unclassified{BLACK} - {GOLD}Great Western Railway Green
+- id: 2147
+  vehicle: br_mk3
+  profile: trub
+  livery: crosscountry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2147_br_mk3_trub_crosscountry_train.gnml
+  identifier: br_mk3_trub_crosscountry_train
+  name_string: str_br_mk3_trub_crosscountry_train_name
+  strings:
+    str_br_mk3_trub_crosscountry_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}CrossCountry
+- id: 2148
+  vehicle: br_mk3
+  profile: trub
+  livery: great north eastern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2148_br_mk3_trub_great_north_eastern_railway_train.gnml
+  identifier: br_mk3_trub_great_north_eastern_railway_train
+  name_string: str_br_mk3_trub_great_north_eastern_railway_train_name
+  strings:
+    str_br_mk3_trub_great_north_eastern_railway_train_name: Mk3 Coach - {SILVER}Trailer
+      Buffet Unclassified{BLACK} - {GOLD}Great North Eastern Railway
+- id: 2149
+  vehicle: br_mk3
+  profile: trub
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2149_br_mk3_trub_national_express_east_anglia_train.gnml
+  identifier: br_mk3_trub_national_express_east_anglia_train
+  name_string: str_br_mk3_trub_national_express_east_anglia_train_name
+  strings:
+    str_br_mk3_trub_national_express_east_anglia_train_name: Mk3 Coach - {SILVER}Trailer
+      Buffet Unclassified{BLACK} - {GOLD}National Express East Anglia
+- id: 2150
+  vehicle: br_mk3
+  profile: trub
+  livery: grand central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2150_br_mk3_trub_grand_central_train.gnml
+  identifier: br_mk3_trub_grand_central_train
+  name_string: str_br_mk3_trub_grand_central_train_name
+  strings:
+    str_br_mk3_trub_grand_central_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}Grand Central
+- id: 2151
+  vehicle: br_mk3
+  profile: trub
+  livery: grand central lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2151_br_mk3_trub_grand_central_lined_train.gnml
+  identifier: br_mk3_trub_grand_central_lined_train
+  name_string: str_br_mk3_trub_grand_central_lined_train_name
+  strings:
+    str_br_mk3_trub_grand_central_lined_train_name: Mk3 Coach - {SILVER}Trailer Buffet
+      Unclassified{BLACK} - {GOLD}Grand Central Lined
+- id: 2152
+  vehicle: br_mk3
+  profile: trub
+  livery: inter7city
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2152_br_mk3_trub_inter7city_train.gnml
+  identifier: br_mk3_trub_inter7city_train
+  name_string: str_br_mk3_trub_inter7city_train_name
+  strings:
+    str_br_mk3_trub_inter7city_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}Inter7City
+- id: 2153
+  vehicle: br_mk3
+  profile: trub
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2153_br_mk3_trub_lner_train.gnml
+  identifier: br_mk3_trub_lner_train
+  name_string: str_br_mk3_trub_lner_train_name
+  strings:
+    str_br_mk3_trub_lner_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}LNER
+- id: 2154
+  vehicle: br_mk3
+  profile: trub
+  livery: blue pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2154_br_mk3_trub_blue_pullman_train.gnml
+  identifier: br_mk3_trub_blue_pullman_train
+  name_string: str_br_mk3_trub_blue_pullman_train_name
+  strings:
+    str_br_mk3_trub_blue_pullman_train_name: Mk3 Coach - {SILVER}Trailer Buffet Unclassified{BLACK}
+      - {GOLD}Blue Pullman
+- id: 2155
+  vehicle: br_mk3
+  profile: truk
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2155_br_mk3_truk_br_blue_train.gnml
+  identifier: br_mk3_truk_br_blue_train
+  name_string: str_br_mk3_truk_br_blue_train_name
+  strings:
+    str_br_mk3_truk_br_blue_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}BR Blue
+- id: 2156
+  vehicle: br_mk3
+  profile: truk
+  livery: intercity executive
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2156_br_mk3_truk_intercity_executive_train.gnml
+  identifier: br_mk3_truk_intercity_executive_train
+  name_string: str_br_mk3_truk_intercity_executive_train_name
+  strings:
+    str_br_mk3_truk_intercity_executive_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}InterCity Executive
+- id: 2157
+  vehicle: br_mk3
+  profile: truk
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2157_br_mk3_truk_intercity_swallow_train.gnml
+  identifier: br_mk3_truk_intercity_swallow_train
+  name_string: str_br_mk3_truk_intercity_swallow_train_name
+  strings:
+    str_br_mk3_truk_intercity_swallow_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}InterCity Swallow
+- id: 2158
+  vehicle: br_mk3
+  profile: truk
+  livery: mml teal and tang
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2158_br_mk3_truk_mml_teal_and_tang_train.gnml
+  identifier: br_mk3_truk_mml_teal_and_tang_train
+  name_string: str_br_mk3_truk_mml_teal_and_tang_train_name
+  strings:
+    str_br_mk3_truk_mml_teal_and_tang_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}MML Teal and Tang
+- id: 2159
+  vehicle: br_mk3
+  profile: truk
+  livery: mml blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2159_br_mk3_truk_mml_blue_train.gnml
+  identifier: br_mk3_truk_mml_blue_train
+  name_string: str_br_mk3_truk_mml_blue_train_name
+  strings:
+    str_br_mk3_truk_mml_blue_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}MML Blue
+- id: 2160
+  vehicle: br_mk3
+  profile: truk
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2160_br_mk3_truk_emt_train.gnml
+  identifier: br_mk3_truk_emt_train
+  name_string: str_br_mk3_truk_emt_train_name
+  strings:
+    str_br_mk3_truk_emt_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK} - {GOLD}EMT
+- id: 2161
+  vehicle: br_mk3
+  profile: truk
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2161_br_mk3_truk_virgin_train.gnml
+  identifier: br_mk3_truk_virgin_train
+  name_string: str_br_mk3_truk_virgin_train_name
+  strings:
+    str_br_mk3_truk_virgin_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}Virgin
+- id: 2162
+  vehicle: br_mk3
+  profile: truk
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2162_br_mk3_truk_first_great_western_train.gnml
+  identifier: br_mk3_truk_first_great_western_train
+  name_string: str_br_mk3_truk_first_great_western_train_name
+  strings:
+    str_br_mk3_truk_first_great_western_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}First Great Western
+- id: 2163
+  vehicle: br_mk3
+  profile: truk
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2163_br_mk3_truk_great_western_railway_green_train.gnml
+  identifier: br_mk3_truk_great_western_railway_green_train
+  name_string: str_br_mk3_truk_great_western_railway_green_train_name
+  strings:
+    str_br_mk3_truk_great_western_railway_green_train_name: Mk3 Coach - {SILVER}Trailer
+      Kitchen{BLACK} - {GOLD}Great Western Railway Green
+- id: 2164
+  vehicle: br_mk3
+  profile: truk
+  livery: crosscountry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2164_br_mk3_truk_crosscountry_train.gnml
+  identifier: br_mk3_truk_crosscountry_train
+  name_string: str_br_mk3_truk_crosscountry_train_name
+  strings:
+    str_br_mk3_truk_crosscountry_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}CrossCountry
+- id: 2165
+  vehicle: br_mk3
+  profile: truk
+  livery: great north eastern railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2165_br_mk3_truk_great_north_eastern_railway_train.gnml
+  identifier: br_mk3_truk_great_north_eastern_railway_train
+  name_string: str_br_mk3_truk_great_north_eastern_railway_train_name
+  strings:
+    str_br_mk3_truk_great_north_eastern_railway_train_name: Mk3 Coach - {SILVER}Trailer
+      Kitchen{BLACK} - {GOLD}Great North Eastern Railway
+- id: 2166
+  vehicle: br_mk3
+  profile: truk
+  livery: national express east anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2166_br_mk3_truk_national_express_east_anglia_train.gnml
+  identifier: br_mk3_truk_national_express_east_anglia_train
+  name_string: str_br_mk3_truk_national_express_east_anglia_train_name
+  strings:
+    str_br_mk3_truk_national_express_east_anglia_train_name: Mk3 Coach - {SILVER}Trailer
+      Kitchen{BLACK} - {GOLD}National Express East Anglia
+- id: 2167
+  vehicle: br_mk3
+  profile: truk
+  livery: grand central
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2167_br_mk3_truk_grand_central_train.gnml
+  identifier: br_mk3_truk_grand_central_train
+  name_string: str_br_mk3_truk_grand_central_train_name
+  strings:
+    str_br_mk3_truk_grand_central_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}Grand Central
+- id: 2168
+  vehicle: br_mk3
+  profile: truk
+  livery: grand central lined
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2168_br_mk3_truk_grand_central_lined_train.gnml
+  identifier: br_mk3_truk_grand_central_lined_train
+  name_string: str_br_mk3_truk_grand_central_lined_train_name
+  strings:
+    str_br_mk3_truk_grand_central_lined_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}Grand Central Lined
+- id: 2169
+  vehicle: br_mk3
+  profile: truk
+  livery: inter7city
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2169_br_mk3_truk_inter7city_train.gnml
+  identifier: br_mk3_truk_inter7city_train
+  name_string: str_br_mk3_truk_inter7city_train_name
+  strings:
+    str_br_mk3_truk_inter7city_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}Inter7City
+- id: 2170
+  vehicle: br_mk3
+  profile: truk
+  livery: lner
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2170_br_mk3_truk_lner_train.gnml
+  identifier: br_mk3_truk_lner_train
+  name_string: str_br_mk3_truk_lner_train_name
+  strings:
+    str_br_mk3_truk_lner_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK} -
+      {GOLD}LNER
+- id: 2171
+  vehicle: br_mk3
+  profile: truk
+  livery: blue pullman
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 34
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2171_br_mk3_truk_blue_pullman_train.gnml
+  identifier: br_mk3_truk_blue_pullman_train
+  name_string: str_br_mk3_truk_blue_pullman_train_name
+  strings:
+    str_br_mk3_truk_blue_pullman_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
+      - {GOLD}Blue Pullman
