@@ -28024,3 +28024,23 @@ variants:
   strings:
     str_lner_gresley_616bck_default_br_blue_train_name: LNER Gresley 61' 6" BCK -
       {GOLD}BR Blue
+- id: 2215
+  vehicle: gwr_254_comp_sy
+  profile: default
+  livery: gwr - cream and oak
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 3
+  archive: generated_variants/2215_gwr_254_comp_sy_default_gwr___cream_and_oak_train.gnml
+  identifier: gwr_254_comp_sy_default_gwr___cream_and_oak_train
+  name_string: str_gwr_254_comp_sy_default_gwr___cream_and_oak_train_name
+  strings:
+    str_gwr_254_comp_sy_default_gwr___cream_and_oak_train_name: GWR Dean 25ft 4 Compartment
+      Second Class SY - {GOLD}GWR - Cream and Oak

@@ -1,0 +1,33 @@
+info:
+  identifier: gwr_254_comp_sy
+  name: 'GWR Dean 25ft 4 Compartment Second Class (SY)'
+  sub_name: Passenger coach
+  based_on: 'GWR Dean 25ft 4 Compartment Second Class (SY)'
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 32
+  length: 3
+  power: 0
+  speed: 100
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 10
+
+dates:
+  # The legacy `item_GWR_254_Comp_SY` (735) declares `date(1871,1,1)` directly.
+  introduction_date: 1871-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 32
+    special_tags:
+      - formation/1-car
+      - subclass/gwr_254_comp_sy
+
+liveries:
+  - name: 'GWR - Cream and Oak'
+    special_tags: [operator/GWR]
