@@ -29809,3 +29809,103 @@ variants:
   strings:
     str_lu_1938_default_london_underground__grey_roof__train_name: London Underground
       1938 Stock - {GOLD}London Underground Grey Roof
+- id: 2296
+  vehicle: br_mk1
+  profile: sk
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2296_br_mk1_sk_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_sk_br_carmine_and_cream_train
+  name_string: str_br_mk1_sk_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_sk_br_carmine_and_cream_train_name: Mk1 Coach - {SILVER}Standard Corridor{BLACK}
+      - {GOLD}BR Carmine and Cream
+- id: 2297
+  vehicle: br_mk1
+  profile: sk
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2297_br_mk1_sk_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_sk_br_chocolate_and_cream_train
+  name_string: str_br_mk1_sk_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_sk_br_chocolate_and_cream_train_name: Mk1 Coach - {SILVER}Standard
+      Corridor{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2298
+  vehicle: br_mk1
+  profile: sk
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2298_br_mk1_sk_br_malachite_green_train.gnml
+  identifier: br_mk1_sk_br_malachite_green_train
+  name_string: str_br_mk1_sk_br_malachite_green_train_name
+  strings:
+    str_br_mk1_sk_br_malachite_green_train_name: Mk1 Coach - {SILVER}Standard Corridor{BLACK}
+      - {GOLD}BR Malachite Green
+- id: 2299
+  vehicle: br_mk1
+  profile: sk
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2299_br_mk1_sk_br_maroon_train.gnml
+  identifier: br_mk1_sk_br_maroon_train
+  name_string: str_br_mk1_sk_br_maroon_train_name
+  strings:
+    str_br_mk1_sk_br_maroon_train_name: Mk1 Coach - {SILVER}Standard Corridor{BLACK}
+      - {GOLD}BR Maroon
+- id: 2300
+  vehicle: br_mk1
+  profile: sk
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2300_br_mk1_sk_br_blue_and_grey_train.gnml
+  identifier: br_mk1_sk_br_blue_and_grey_train
+  name_string: str_br_mk1_sk_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_sk_br_blue_and_grey_train_name: Mk1 Coach - {SILVER}Standard Corridor{BLACK}
+      - {GOLD}BR Blue and Grey

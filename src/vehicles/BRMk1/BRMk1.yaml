@@ -29,6 +29,25 @@ profiles:
       - formation/1-car
       - subclass/mk1_tso
 
+  # The Standard Corridor reads `template_train32px(0, 0)` of the five per-livery sheets, per
+  # `spriteset_BRMk1SK_*` in BRTrains2
+  # `src/trains/rolling_stock/BR/Mk1/sprites/Mk1SK.pnml` - the same band the TSO and SO draw
+  # from - so it reuses the rows the `tso` profile already owns rather than needing a sheet of
+  # its own. Every band on the five sheets is a distinct drawing (probe: no two of the ten
+  # bands are within 134 px of each other), so the composition is the legacy's own choice, not
+  # a spare band; the corridor coach therefore draws the open-coach artwork in BRTrains2 too.
+  # See the oddities file for the query.
+  - identifier: sk
+    name: 'Standard Corridor'
+    num_vehicles: 1
+    capacity: 48
+    weight: 32
+    introduction_date: 1951-04-21
+    sprite_group: 'tso'
+    special_tags:
+      - formation/1-car
+      - subclass/mk1_sk
+
   - identifier: rmb
     name: 'Restaurant Buffet'
     num_vehicles: 1
