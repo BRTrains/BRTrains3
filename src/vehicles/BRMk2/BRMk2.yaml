@@ -48,6 +48,26 @@ profiles:
       - formation/1-car
       - subclass/mk2_fo
 
+  - identifier: early_so
+    name: 'Early Standard Class'
+    num_vehicles: 1
+    capacity: 64
+    cargo_age_period: 185
+    spritesheet: BRMk2Early.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk2_early_so
+
+  - identifier: early_fo
+    name: 'Early First Class'
+    num_vehicles: 1
+    capacity: 42
+    cargo_age_period: 250
+    spritesheet: BRMk2Early.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk2_early_fo
+
 liveries:
   - name: 'BR Blue'
     special_tags: [operator/BR]
