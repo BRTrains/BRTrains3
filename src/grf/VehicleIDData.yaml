@@ -32708,3 +32708,103 @@ variants:
   strings:
     str_caledonian_single_default_furness_red_train_name: Caledonian Single 4-2-2
       "No. 123" - {GOLD}Furness Red
+- id: 2429
+  vehicle: br_mk1
+  profile: so
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2429_br_mk1_so_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_so_br_carmine_and_cream_train
+  name_string: str_br_mk1_so_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_so_br_carmine_and_cream_train_name: Mk1 Coach - {SILVER}Standard Open{BLACK}
+      - {GOLD}BR Carmine and Cream
+- id: 2430
+  vehicle: br_mk1
+  profile: so
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2430_br_mk1_so_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_so_br_chocolate_and_cream_train
+  name_string: str_br_mk1_so_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_so_br_chocolate_and_cream_train_name: Mk1 Coach - {SILVER}Standard
+      Open{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2431
+  vehicle: br_mk1
+  profile: so
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2431_br_mk1_so_br_malachite_green_train.gnml
+  identifier: br_mk1_so_br_malachite_green_train
+  name_string: str_br_mk1_so_br_malachite_green_train_name
+  strings:
+    str_br_mk1_so_br_malachite_green_train_name: Mk1 Coach - {SILVER}Standard Open{BLACK}
+      - {GOLD}BR Malachite Green
+- id: 2432
+  vehicle: br_mk1
+  profile: so
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2432_br_mk1_so_br_maroon_train.gnml
+  identifier: br_mk1_so_br_maroon_train
+  name_string: str_br_mk1_so_br_maroon_train_name
+  strings:
+    str_br_mk1_so_br_maroon_train_name: Mk1 Coach - {SILVER}Standard Open{BLACK} -
+      {GOLD}BR Maroon
+- id: 2433
+  vehicle: br_mk1
+  profile: so
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2433_br_mk1_so_br_blue_and_grey_train.gnml
+  identifier: br_mk1_so_br_blue_and_grey_train
+  name_string: str_br_mk1_so_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_so_br_blue_and_grey_train_name: Mk1 Coach - {SILVER}Standard Open{BLACK}
+      - {GOLD}BR Blue and Grey

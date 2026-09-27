@@ -48,6 +48,17 @@ profiles:
       - formation/1-car
       - subclass/mk1_sk
 
+  - identifier: so
+    name: 'Standard Open'
+    num_vehicles: 1
+    capacity: 48
+    weight: 32
+    introduction_date: 1963-04-21
+    sprite_group: 'tso'
+    special_tags:
+      - formation/1-car
+      - subclass/mk1_so
+
   - identifier: rmb
     name: 'Restaurant Buffet'
     num_vehicles: 1
