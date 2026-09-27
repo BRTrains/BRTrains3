@@ -34,30 +34,73 @@ profiles:
       - formation/4-car
       - subclass/321_4
 
+  - identifier: '321_freight'
+    name: 4-Car Freight
+    num_vehicles: 4
+    capacity: 120
+    power: 1600
+    weight: 137
+    speed: 100
+    introduction_date: 2022-10-10
+    cargo: parcels
+    sprite_override: [1, 4, 3, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/321_freight
+
 liveries:
   - name: 'Network South East'
+    profiles: ['321_4']
     special_tags: [operator/Network SouthEast]
   - name: 'Nederlandse Spoorwegen'
+    profiles: ['321_4']
     special_tags: [operator/Nederlandse Spoorwegen]
   - name: 'Greater Anglia'
+    profiles: ['321_4']
     special_tags: [operator/Greater Anglia]
   - name: 'Silverlink'
+    profiles: ['321_4']
     special_tags: [operator/Silverlink]
   - name: 'London Midland'
+    profiles: ['321_4']
     special_tags: [operator/London Midland]
   - name: 'WYPTE Metro'
+    profiles: ['321_4']
     special_tags: [operator/West Yorkshire PTE]
   - name: 'London Overground'
+    profiles: ['321_4']
     special_tags: [operator/London Overground]
   - name: 'First Great Eastern'
+    profiles: ['321_4']
     special_tags: [operator/First Great Eastern]
   - name: 'Arriva Trains Northern'
+    profiles: ['321_4']
     special_tags: [operator/Arriva Trains Northern]
   - name: 'Greater Anglia Interim'
+    profiles: ['321_4']
     special_tags: [operator/Greater Anglia]
   - name: 'Greater Anglia Renatus'
+    profiles: ['321_4']
     special_tags: [operator/Greater Anglia]
   - name: 'First Capital Connect Urban Lights'
+    profiles: ['321_4']
     special_tags: [operator/First Capital Connect]
   - name: 'National Express East Anglia'
+    profiles: ['321_4']
     special_tags: [operator/National Express East Anglia]
+
+  - name: 'Swift Express'
+    profiles: ['321_freight']
+    special_tags: [operator/Swift Express]
+  - name: 'First Capital Connect'
+    profiles: ['321_freight']
+    special_tags: [operator/First Capital Connect]
+  - name: 'Northern Express'
+    profiles: ['321_freight']
+    special_tags: [operator/Northern]
+  - name: 'Greater Anglia Blue'
+    profiles: ['321_freight']
+    special_tags: [operator/Greater Anglia]
+  - name: 'Greater Anglia Red'
+    profiles: ['321_freight']
+    special_tags: [operator/Greater Anglia]

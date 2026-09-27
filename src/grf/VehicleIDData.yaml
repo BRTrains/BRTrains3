@@ -32808,3 +32808,118 @@ variants:
   strings:
     str_br_mk1_so_br_blue_and_grey_train_name: Mk1 Coach - {SILVER}Standard Open{BLACK}
       - {GOLD}BR Blue and Grey
+- id: 2434
+  vehicle: br_321
+  profile: 321_freight
+  livery: swift express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2434_br_321_321_freight_swift_express_train.gnml
+  identifier: br_321_321_freight_swift_express_train
+  name_string: str_br_321_321_freight_swift_express_train_name
+  strings:
+    str_br_321_321_freight_swift_express_train_name: Class 321 "Dusty Bin" - {SILVER}4-Car
+      Freight{BLACK} - {GOLD}Swift Express
+- id: 2435
+  vehicle: br_321
+  profile: 321_freight
+  livery: first capital connect
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2435_br_321_321_freight_first_capital_connect_train.gnml
+  identifier: br_321_321_freight_first_capital_connect_train
+  name_string: str_br_321_321_freight_first_capital_connect_train_name
+  strings:
+    str_br_321_321_freight_first_capital_connect_train_name: Class 321 "Dusty Bin"
+      - {SILVER}4-Car Freight{BLACK} - {GOLD}First Capital Connect
+- id: 2436
+  vehicle: br_321
+  profile: 321_freight
+  livery: northern express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2436_br_321_321_freight_northern_express_train.gnml
+  identifier: br_321_321_freight_northern_express_train
+  name_string: str_br_321_321_freight_northern_express_train_name
+  strings:
+    str_br_321_321_freight_northern_express_train_name: Class 321 "Dusty Bin" - {SILVER}4-Car
+      Freight{BLACK} - {GOLD}Northern Express
+- id: 2437
+  vehicle: br_321
+  profile: 321_freight
+  livery: greater anglia blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2437_br_321_321_freight_greater_anglia_blue_train.gnml
+  identifier: br_321_321_freight_greater_anglia_blue_train
+  name_string: str_br_321_321_freight_greater_anglia_blue_train_name
+  strings:
+    str_br_321_321_freight_greater_anglia_blue_train_name: Class 321 "Dusty Bin" -
+      {SILVER}4-Car Freight{BLACK} - {GOLD}Greater Anglia Blue
+- id: 2438
+  vehicle: br_321
+  profile: 321_freight
+  livery: greater anglia red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2438_br_321_321_freight_greater_anglia_red_train.gnml
+  identifier: br_321_321_freight_greater_anglia_red_train
+  name_string: str_br_321_321_freight_greater_anglia_red_train_name
+  strings:
+    str_br_321_321_freight_greater_anglia_red_train_name: Class 321 "Dusty Bin" -
+      {SILVER}4-Car Freight{BLACK} - {GOLD}Greater Anglia Red
