@@ -1,0 +1,36 @@
+special_tags:
+  - subclass/caledonian_single
+
+info:
+  identifier: caledonian_single
+  name: 'Caledonian Single 4-2-2 "No. 123"'
+  sub_name: Steam locomotive
+  based_on: Caledonian Railway Single
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 70
+  length: 5
+  power: 800
+  speed: 60
+  tractive_effort: 0.086
+  power_type:
+    - steam
+
+cargo: none
+
+dates:
+  introduction_date: 1886-02-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+
+liveries:
+  - name: 'Furness Red'
+    special_tags: [operator/Furness Railway]

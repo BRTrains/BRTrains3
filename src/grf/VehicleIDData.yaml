@@ -32687,3 +32687,24 @@ variants:
   name_string: str_br_mk4_fo_lner_train_name
   strings:
     str_br_mk4_fo_lner_train_name: Mk4 Coach - {SILVER}First Open{BLACK} - {GOLD}LNER
+- id: 2428
+  vehicle: caledonian_single
+  profile: default
+  livery: furness red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 5
+    - 3
+  archive: generated_variants/2428_caledonian_single_default_furness_red_train.gnml
+  identifier: caledonian_single_default_furness_red_train
+  name_string: str_caledonian_single_default_furness_red_train_name
+  strings:
+    str_caledonian_single_default_furness_red_train_name: Caledonian Single 4-2-2
+      "No. 123" - {GOLD}Furness Red
