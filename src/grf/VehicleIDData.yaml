@@ -29428,3 +29428,63 @@ variants:
   strings:
     str_gcr_robinson_50_clso_default_gcr_mahogany_train_name: GCR Robinson 50ft Semi-Corridor
       Lavatory Composite - {GOLD}GCR Mahogany
+- id: 2281
+  vehicle: lner_gresley_bck
+  profile: default
+  livery: gnr/lner teak
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2281_lner_gresley_bck_default_gnr_lner_teak_train.gnml
+  identifier: lner_gresley_bck_default_gnr_lner_teak_train
+  name_string: str_lner_gresley_bck_default_gnr_lner_teak_train_name
+  strings:
+    str_lner_gresley_bck_default_gnr_lner_teak_train_name: LNER Gresley BCK - {GOLD}GNR/LNER
+      Teak
+- id: 2282
+  vehicle: lner_gresley_bck
+  profile: default
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2282_lner_gresley_bck_default_br_maroon_train.gnml
+  identifier: lner_gresley_bck_default_br_maroon_train
+  name_string: str_lner_gresley_bck_default_br_maroon_train_name
+  strings:
+    str_lner_gresley_bck_default_br_maroon_train_name: LNER Gresley BCK - {GOLD}BR
+      Maroon
+- id: 2283
+  vehicle: lner_gresley_bck
+  profile: default
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2283_lner_gresley_bck_default_br_carmine_and_cream_train.gnml
+  identifier: lner_gresley_bck_default_br_carmine_and_cream_train
+  name_string: str_lner_gresley_bck_default_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_bck_default_br_carmine_and_cream_train_name: LNER Gresley BCK
+      - {GOLD}BR Carmine and Cream
