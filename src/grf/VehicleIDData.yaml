@@ -29668,3 +29668,24 @@ variants:
   strings:
     str_br_373_373_1_eurostar___new_livery_train_name: Class 373 "Eurostar" - {SILVER}Class
       373/1 "Three Capitals" 20-Car{BLACK} - {GOLD}Eurostar - New Livery
+- id: 2290
+  vehicle: lner_v2
+  profile: default
+  livery: lner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 7
+    - 3
+  archive: generated_variants/2290_lner_v2_default_lner_green_train.gnml
+  identifier: lner_v2_default_lner_green_train
+  name_string: str_lner_v2_default_lner_green_train_name
+  strings:
+    str_lner_v2_default_lner_green_train_name: LNER Gresley Class V2 2-6-2 - {GOLD}LNER
+      Green

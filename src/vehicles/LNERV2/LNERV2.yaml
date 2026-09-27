@@ -1,0 +1,46 @@
+info:
+  identifier: lner_v2
+  name: 'LNER Gresley Class V2 2-6-2'
+  sub_name: Steam locomotive
+  based_on: LNER Gresley Class V2
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 145
+  length: 8
+  power: 1800
+  speed: 95
+  tractive_effort: 0.105
+  power_type:
+    - steam
+
+cargo: none
+
+loading_speed: 3
+
+dates:
+  introduction_date: 1936-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/lner_v2
+
+liveries:
+  # The legacy item (BRTrains2 `src/trains/steam_loco/LNER/LNERV2.pnml`, item `item_LNERV2`
+  # 696) carries one `cargo_subtype` slot 0, so `sw_LNERV2` has one livery:
+  #
+  #   0 str_LNERGreen "(LNER - Green)"   LNER_V2.png y=13 loco + LNER_4200_Gal_Tender.png y=13 tender
+  #
+  # One locomotive row then one tender row, which is the order the `sprite_override: [1, 2]`
+  # group is consumed in (/home/jon/BRTrains3-artwork-tools/compose_lnerv2_sheet.py's ROWS
+  # table). The legacy tender sheet also carries a y=39 band and the locomotive sheet a y=39
+  # band; no spriteset references either, so neither is imported - recorded in the oddities
+  # file.
+  - name: 'LNER Green'
+    special_tags: [operator/LNER]
