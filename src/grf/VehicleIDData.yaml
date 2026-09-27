@@ -28274,3 +28274,876 @@ variants:
   strings:
     str_lud78_default_london_underground___pre_refurbishment_train_name: London Underground
       D78 Stock - {GOLD}London Underground - Pre-Refurbishment
+- id: 2226
+  vehicle: br_158
+  profile: '158_2'
+  livery: regional railways express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2226_br_158_158_2_regional_railways_express_train.gnml
+  identifier: br_158_158_2_regional_railways_express_train
+  name_string: str_br_158_158_2_regional_railways_express_train_name
+  strings:
+    str_br_158_158_2_regional_railways_express_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}Regional Railways Express
+- id: 2227
+  vehicle: br_158
+  profile: '158_2'
+  livery: wales and west
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2227_br_158_158_2_wales_and_west_train.gnml
+  identifier: br_158_158_2_wales_and_west_train
+  name_string: str_br_158_158_2_wales_and_west_train_name
+  strings:
+    str_br_158_158_2_wales_and_west_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}Wales and West
+- id: 2228
+  vehicle: br_158
+  profile: '158_2'
+  livery: alphaline wales and borders
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2228_br_158_158_2_alphaline_wales_and_borders_train.gnml
+  identifier: br_158_158_2_alphaline_wales_and_borders_train
+  name_string: str_br_158_158_2_alphaline_wales_and_borders_train_name
+  strings:
+    str_br_158_158_2_alphaline_wales_and_borders_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}Alphaline Wales and Borders
+- id: 2229
+  vehicle: br_158
+  profile: '158_2'
+  livery: alphaline wessex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2229_br_158_158_2_alphaline_wessex_train.gnml
+  identifier: br_158_158_2_alphaline_wessex_train
+  name_string: str_br_158_158_2_alphaline_wessex_train_name
+  strings:
+    str_br_158_158_2_alphaline_wessex_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}Alphaline Wessex
+- id: 2230
+  vehicle: br_158
+  profile: '158_2'
+  livery: wessex trains - ginsters
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2230_br_158_158_2_wessex_trains___ginsters_train.gnml
+  identifier: br_158_158_2_wessex_trains___ginsters_train
+  name_string: str_br_158_158_2_wessex_trains___ginsters_train_name
+  strings:
+    str_br_158_158_2_wessex_trains___ginsters_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}Wessex Trains - Ginsters
+- id: 2231
+  vehicle: br_158
+  profile: '158_2'
+  livery: arriva - silver
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2231_br_158_158_2_arriva___silver_train.gnml
+  identifier: br_158_158_2_arriva___silver_train
+  name_string: str_br_158_158_2_arriva___silver_train_name
+  strings:
+    str_br_158_158_2_arriva___silver_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}Arriva - Silver
+- id: 2232
+  vehicle: br_158
+  profile: '158_2'
+  livery: arriva - transpennine northern spirit
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2232_br_158_158_2_arriva___transpennine_northern_spirit_train.gnml
+  identifier: br_158_158_2_arriva___transpennine_northern_spirit_train
+  name_string: str_br_158_158_2_arriva___transpennine_northern_spirit_train_name
+  strings:
+    str_br_158_158_2_arriva___transpennine_northern_spirit_train_name: Class 158 "Express
+      Sprinter" - {SILVER}2-Car{BLACK} - {GOLD}Arriva - TransPennine Northern Spirit
+- id: 2233
+  vehicle: br_158
+  profile: '158_2'
+  livery: arriva trains wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2233_br_158_158_2_arriva_trains_wales_train.gnml
+  identifier: br_158_158_2_arriva_trains_wales_train
+  name_string: str_br_158_158_2_arriva_trains_wales_train_name
+  strings:
+    str_br_158_158_2_arriva_trains_wales_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}Arriva Trains Wales
+- id: 2234
+  vehicle: br_158
+  profile: '158_2'
+  livery: arriva trains wales - western mail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2234_br_158_158_2_arriva_trains_wales___western_mail_train.gnml
+  identifier: br_158_158_2_arriva_trains_wales___western_mail_train
+  name_string: str_br_158_158_2_arriva_trains_wales___western_mail_train_name
+  strings:
+    str_br_158_158_2_arriva_trains_wales___western_mail_train_name: Class 158 "Express
+      Sprinter" - {SILVER}2-Car{BLACK} - {GOLD}Arriva Trains Wales - Western Mail
+- id: 2235
+  vehicle: br_158
+  profile: '158_2'
+  livery: first north western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2235_br_158_158_2_first_north_western_train.gnml
+  identifier: br_158_158_2_first_north_western_train
+  name_string: str_br_158_158_2_first_north_western_train_name
+  strings:
+    str_br_158_158_2_first_north_western_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}First North Western
+- id: 2236
+  vehicle: br_158
+  profile: '158_2'
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2236_br_158_158_2_first_scotrail_train.gnml
+  identifier: br_158_158_2_first_scotrail_train
+  name_string: str_br_158_158_2_first_scotrail_train_name
+  strings:
+    str_br_158_158_2_first_scotrail_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}First ScotRail
+- id: 2237
+  vehicle: br_158
+  profile: '158_2'
+  livery: first transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2237_br_158_158_2_first_transpennine_express_train.gnml
+  identifier: br_158_158_2_first_transpennine_express_train
+  name_string: str_br_158_158_2_first_transpennine_express_train_name
+  strings:
+    str_br_158_158_2_first_transpennine_express_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}First TransPennine Express
+- id: 2238
+  vehicle: br_158
+  profile: '158_2'
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2238_br_158_158_2_first_great_western_train.gnml
+  identifier: br_158_158_2_first_great_western_train
+  name_string: str_br_158_158_2_first_great_western_train_name
+  strings:
+    str_br_158_158_2_first_great_western_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}First Great Western
+- id: 2239
+  vehicle: br_158
+  profile: '158_2'
+  livery: scotrail - national express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2239_br_158_158_2_scotrail___national_express_train.gnml
+  identifier: br_158_158_2_scotrail___national_express_train
+  name_string: str_br_158_158_2_scotrail___national_express_train_name
+  strings:
+    str_br_158_158_2_scotrail___national_express_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}ScotRail - National Express
+- id: 2240
+  vehicle: br_158
+  profile: '158_2'
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2240_br_158_158_2_wypte_metro_train.gnml
+  identifier: br_158_158_2_wypte_metro_train
+  name_string: str_br_158_158_2_wypte_metro_train_name
+  strings:
+    str_br_158_158_2_wypte_metro_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}WYPTE Metro
+- id: 2241
+  vehicle: br_158
+  profile: '158_2'
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2241_br_158_158_2_northern_rail_train.gnml
+  identifier: br_158_158_2_northern_rail_train
+  name_string: str_br_158_158_2_northern_rail_train_name
+  strings:
+    str_br_158_158_2_northern_rail_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}Northern Rail
+- id: 2242
+  vehicle: br_158
+  profile: '158_2'
+  livery: northern rail - metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2242_br_158_158_2_northern_rail___metro_train.gnml
+  identifier: br_158_158_2_northern_rail___metro_train
+  name_string: str_br_158_158_2_northern_rail___metro_train_name
+  strings:
+    str_br_158_158_2_northern_rail___metro_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}Northern Rail - Metro
+- id: 2243
+  vehicle: br_158
+  profile: '158_2'
+  livery: scotrail - saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2243_br_158_158_2_scotrail___saltire_train.gnml
+  identifier: br_158_158_2_scotrail___saltire_train
+  name_string: str_br_158_158_2_scotrail___saltire_train_name
+  strings:
+    str_br_158_158_2_scotrail___saltire_train_name: Class 158 "Express Sprinter" -
+      {SILVER}2-Car{BLACK} - {GOLD}ScotRail - Saltire
+- id: 2244
+  vehicle: br_158
+  profile: '158_2'
+  livery: central trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2244_br_158_158_2_central_trains_train.gnml
+  identifier: br_158_158_2_central_trains_train
+  name_string: str_br_158_158_2_central_trains_train_name
+  strings:
+    str_br_158_158_2_central_trains_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}Central Trains
+- id: 2245
+  vehicle: br_158
+  profile: '158_2'
+  livery: east midland trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2245_br_158_158_2_east_midland_trains_train.gnml
+  identifier: br_158_158_2_east_midland_trains_train
+  name_string: str_br_158_158_2_east_midland_trains_train_name
+  strings:
+    str_br_158_158_2_east_midland_trains_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}East Midland Trains
+- id: 2246
+  vehicle: br_158
+  profile: '158_2'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2246_br_158_158_2_network_southeast_train.gnml
+  identifier: br_158_158_2_network_southeast_train
+  name_string: str_br_158_158_2_network_southeast_train_name
+  strings:
+    str_br_158_158_2_network_southeast_train_name: Class 158 "Express Sprinter" -
+      {SILVER}2-Car{BLACK} - {GOLD}Network SouthEast
+- id: 2247
+  vehicle: br_158
+  profile: '158_2'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2247_br_158_158_2_south_west_trains_train.gnml
+  identifier: br_158_158_2_south_west_trains_train
+  name_string: str_br_158_158_2_south_west_trains_train_name
+  strings:
+    str_br_158_158_2_south_west_trains_train_name: Class 158 "Express Sprinter" -
+      {SILVER}2-Car{BLACK} - {GOLD}South West Trains
+- id: 2248
+  vehicle: br_158
+  profile: '158_2'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2248_br_158_158_2_northern_train.gnml
+  identifier: br_158_158_2_northern_train
+  name_string: str_br_158_158_2_northern_train_name
+  strings:
+    str_br_158_158_2_northern_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}Northern
+- id: 2249
+  vehicle: br_158
+  profile: '158_2'
+  livery: emr - maroon and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2249_br_158_158_2_emr___maroon_and_white_train.gnml
+  identifier: br_158_158_2_emr___maroon_and_white_train
+  name_string: str_br_158_158_2_emr___maroon_and_white_train_name
+  strings:
+    str_br_158_158_2_emr___maroon_and_white_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}EMR - Maroon and White
+- id: 2250
+  vehicle: br_158
+  profile: '158_2'
+  livery: emr - transitional
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2250_br_158_158_2_emr___transitional_train.gnml
+  identifier: br_158_158_2_emr___transitional_train
+  name_string: str_br_158_158_2_emr___transitional_train_name
+  strings:
+    str_br_158_158_2_emr___transitional_train_name: Class 158 "Express Sprinter" -
+      {SILVER}2-Car{BLACK} - {GOLD}EMR - Transitional
+- id: 2251
+  vehicle: br_158
+  profile: '158_2'
+  livery: south western railway
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2251_br_158_158_2_south_western_railway_train.gnml
+  identifier: br_158_158_2_south_western_railway_train
+  name_string: str_br_158_158_2_south_western_railway_train_name
+  strings:
+    str_br_158_158_2_south_western_railway_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}South Western Railway
+- id: 2252
+  vehicle: br_158
+  profile: '158_2'
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2252_br_158_158_2_transport_for_wales_train.gnml
+  identifier: br_158_158_2_transport_for_wales_train
+  name_string: str_br_158_158_2_transport_for_wales_train_name
+  strings:
+    str_br_158_158_2_transport_for_wales_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}Transport For Wales
+- id: 2253
+  vehicle: br_158
+  profile: '158_2'
+  livery: northern - tour of yorkshire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2253_br_158_158_2_northern___tour_of_yorkshire_train.gnml
+  identifier: br_158_158_2_northern___tour_of_yorkshire_train
+  name_string: str_br_158_158_2_northern___tour_of_yorkshire_train_name
+  strings:
+    str_br_158_158_2_northern___tour_of_yorkshire_train_name: Class 158 "Express Sprinter"
+      - {SILVER}2-Car{BLACK} - {GOLD}Northern - Tour of Yorkshire
+- id: 2254
+  vehicle: br_158
+  profile: '158_2'
+  livery: gwr - green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2254_br_158_158_2_gwr___green_train.gnml
+  identifier: br_158_158_2_gwr___green_train
+  name_string: str_br_158_158_2_gwr___green_train_name
+  strings:
+    str_br_158_158_2_gwr___green_train_name: Class 158 "Express Sprinter" - {SILVER}2-Car{BLACK}
+      - {GOLD}GWR - Green
+- id: 2255
+  vehicle: br_158
+  profile: '158_3'
+  livery: regional railways express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2255_br_158_158_3_regional_railways_express_train.gnml
+  identifier: br_158_158_3_regional_railways_express_train
+  name_string: str_br_158_158_3_regional_railways_express_train_name
+  strings:
+    str_br_158_158_3_regional_railways_express_train_name: Class 158 "Express Sprinter"
+      - {SILVER}3-Car{BLACK} - {GOLD}Regional Railways Express
+- id: 2256
+  vehicle: br_158
+  profile: '158_3'
+  livery: arriva - transpennine northern spirit
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2256_br_158_158_3_arriva___transpennine_northern_spirit_train.gnml
+  identifier: br_158_158_3_arriva___transpennine_northern_spirit_train
+  name_string: str_br_158_158_3_arriva___transpennine_northern_spirit_train_name
+  strings:
+    str_br_158_158_3_arriva___transpennine_northern_spirit_train_name: Class 158 "Express
+      Sprinter" - {SILVER}3-Car{BLACK} - {GOLD}Arriva - TransPennine Northern Spirit
+- id: 2257
+  vehicle: br_158
+  profile: '158_3'
+  livery: first transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2257_br_158_158_3_first_transpennine_express_train.gnml
+  identifier: br_158_158_3_first_transpennine_express_train
+  name_string: str_br_158_158_3_first_transpennine_express_train_name
+  strings:
+    str_br_158_158_3_first_transpennine_express_train_name: Class 158 "Express Sprinter"
+      - {SILVER}3-Car{BLACK} - {GOLD}First TransPennine Express
+- id: 2258
+  vehicle: br_158
+  profile: '158_3'
+  livery: first great western
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2258_br_158_158_3_first_great_western_train.gnml
+  identifier: br_158_158_3_first_great_western_train
+  name_string: str_br_158_158_3_first_great_western_train_name
+  strings:
+    str_br_158_158_3_first_great_western_train_name: Class 158 "Express Sprinter"
+      - {SILVER}3-Car{BLACK} - {GOLD}First Great Western
+- id: 2259
+  vehicle: br_158
+  profile: '158_3'
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2259_br_158_158_3_wypte_metro_train.gnml
+  identifier: br_158_158_3_wypte_metro_train
+  name_string: str_br_158_158_3_wypte_metro_train_name
+  strings:
+    str_br_158_158_3_wypte_metro_train_name: Class 158 "Express Sprinter" - {SILVER}3-Car{BLACK}
+      - {GOLD}WYPTE Metro
+- id: 2260
+  vehicle: br_158
+  profile: '158_3'
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2260_br_158_158_3_northern_rail_train.gnml
+  identifier: br_158_158_3_northern_rail_train
+  name_string: str_br_158_158_3_northern_rail_train_name
+  strings:
+    str_br_158_158_3_northern_rail_train_name: Class 158 "Express Sprinter" - {SILVER}3-Car{BLACK}
+      - {GOLD}Northern Rail
+- id: 2261
+  vehicle: br_158
+  profile: '158_3'
+  livery: east midland trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2261_br_158_158_3_east_midland_trains_train.gnml
+  identifier: br_158_158_3_east_midland_trains_train
+  name_string: str_br_158_158_3_east_midland_trains_train_name
+  strings:
+    str_br_158_158_3_east_midland_trains_train_name: Class 158 "Express Sprinter"
+      - {SILVER}3-Car{BLACK} - {GOLD}East Midland Trains
+- id: 2262
+  vehicle: br_158
+  profile: '158_3'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2262_br_158_158_3_network_southeast_train.gnml
+  identifier: br_158_158_3_network_southeast_train
+  name_string: str_br_158_158_3_network_southeast_train_name
+  strings:
+    str_br_158_158_3_network_southeast_train_name: Class 158 "Express Sprinter" -
+      {SILVER}3-Car{BLACK} - {GOLD}Network SouthEast
+- id: 2263
+  vehicle: br_158
+  profile: '158_3'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2263_br_158_158_3_south_west_trains_train.gnml
+  identifier: br_158_158_3_south_west_trains_train
+  name_string: str_br_158_158_3_south_west_trains_train_name
+  strings:
+    str_br_158_158_3_south_west_trains_train_name: Class 158 "Express Sprinter" -
+      {SILVER}3-Car{BLACK} - {GOLD}South West Trains
+- id: 2264
+  vehicle: br_158
+  profile: '158_3'
+  livery: northern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2264_br_158_158_3_northern_train.gnml
+  identifier: br_158_158_3_northern_train
+  name_string: str_br_158_158_3_northern_train_name
+  strings:
+    str_br_158_158_3_northern_train_name: Class 158 "Express Sprinter" - {SILVER}3-Car{BLACK}
+      - {GOLD}Northern
+- id: 2265
+  vehicle: br_158
+  profile: '158_3'
+  livery: gwr - green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2265_br_158_158_3_gwr___green_train.gnml
+  identifier: br_158_158_3_gwr___green_train
+  name_string: str_br_158_158_3_gwr___green_train_name
+  strings:
+    str_br_158_158_3_gwr___green_train_name: Class 158 "Express Sprinter" - {SILVER}3-Car{BLACK}
+      - {GOLD}GWR - Green
+- id: 2266
+  vehicle: br_158
+  profile: '158_3'
+  livery: gwr green with realistic centre cars
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2266_br_158_158_3_gwr_green_with_realistic_centre_cars_train.gnml
+  identifier: br_158_158_3_gwr_green_with_realistic_centre_cars_train
+  name_string: str_br_158_158_3_gwr_green_with_realistic_centre_cars_train_name
+  strings:
+    str_br_158_158_3_gwr_green_with_realistic_centre_cars_train_name: Class 158 "Express
+      Sprinter" - {SILVER}3-Car{BLACK} - {GOLD}GWR Green with Realistic Centre Cars

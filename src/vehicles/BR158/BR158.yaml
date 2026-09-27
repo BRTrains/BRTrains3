@@ -1,0 +1,141 @@
+info:
+  identifier: br_158
+  name: 'Class 158 "Express Sprinter"'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 158 Express Sprinter
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 113
+  length: 8
+  power: 1050
+  speed: 90
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+cargo: passenger
+
+loading_speed: 20
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1989-04-21
+
+profiles:
+  - identifier: '158_2'
+    name: '2-Car'
+    num_vehicles: 2
+    capacity: 69
+    power: 700
+    weight: 76
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/158_2
+  - identifier: '158_3'
+    name: '3-Car'
+    num_vehicles: 3
+    capacity: 69
+    sprite_override: [1, 3, 2]
+    special_tags:
+      - formation/3-car
+      - subclass/158_3
+
+# The two formations carry different livery sets, as the legacy's own `sw_BR158_2car` and
+# `sw_BR158_3car` switches do, so each livery is restricted to the profiles that offer it.
+# Names come from `sw_BR158_cargo_subtype_text` / `sw_BR158_3_cargo_subtype_text` via the
+# `str_*` strings in `lang/partial/livery_prebuilt_strings.plng`; the legacy's own
+# `str_BR158_liveries` / `str_BR158_3car_liveries` lists are stale (they omit
+# Alphaline, Arriva, EMR, GWR, TfW and Northern's Tour of Yorkshire).
+liveries:
+  - name: 'Regional Railways Express'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/Regional Railways]
+  - name: 'Wales and West'
+    profiles: ['158_2']
+    special_tags: [operator/Wales and West]
+  - name: 'Alphaline Wales and Borders'
+    profiles: ['158_2']
+    special_tags: [operator/Wales and West]
+  - name: 'Alphaline Wessex'
+    profiles: ['158_2']
+    special_tags: [operator/Wessex Trains]
+  - name: 'Wessex Trains - Ginsters'
+    profiles: ['158_2']
+    special_tags: [operator/Wessex Trains]
+  - name: 'Arriva - Silver'
+    profiles: ['158_2']
+    special_tags: [operator/Arriva Trains Wales]
+  - name: 'Arriva - TransPennine Northern Spirit'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/Northern Spirit]
+  - name: 'Arriva Trains Wales'
+    profiles: ['158_2']
+    special_tags: [operator/Arriva Trains Wales]
+  - name: 'Arriva Trains Wales - Western Mail'
+    profiles: ['158_2']
+    special_tags: [operator/Arriva Trains Wales]
+  - name: 'First North Western'
+    profiles: ['158_2']
+    special_tags: [operator/First North Western]
+  - name: 'First ScotRail'
+    profiles: ['158_2']
+    special_tags: [operator/ScotRail]
+  - name: 'First TransPennine Express'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/TransPennine Express]
+  - name: 'First Great Western'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/Great Western Railway]
+  - name: 'ScotRail - National Express'
+    profiles: ['158_2']
+    special_tags: [operator/ScotRail]
+  - name: 'WYPTE Metro'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/WYPTE Metro]
+  - name: 'Northern Rail'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/Northern Rail]
+  - name: 'Northern Rail - Metro'
+    profiles: ['158_2']
+    special_tags: [operator/Northern Rail]
+  - name: 'ScotRail - Saltire'
+    profiles: ['158_2']
+    special_tags: [operator/ScotRail]
+  - name: 'Central Trains'
+    profiles: ['158_2']
+    special_tags: [operator/Central Trains]
+  - name: 'East Midland Trains'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/East Midlands Trains]
+  - name: 'Network SouthEast'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/Network SouthEast]
+  - name: 'South West Trains'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/South West Trains]
+  - name: 'Northern'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/Northern]
+  - name: 'EMR - Maroon and White'
+    profiles: ['158_2']
+    special_tags: [operator/East Midlands Railway]
+  - name: 'EMR - Transitional'
+    profiles: ['158_2']
+    special_tags: [operator/East Midlands Railway]
+  - name: 'South Western Railway'
+    profiles: ['158_2']
+    special_tags: [operator/South Western Railway]
+  - name: 'Transport For Wales'
+    profiles: ['158_2']
+    special_tags: [operator/Transport for Wales]
+  - name: 'Northern - Tour of Yorkshire'
+    profiles: ['158_2']
+    special_tags: [operator/Northern]
+  - name: 'GWR - Green'
+    profiles: ['158_2', '158_3']
+    special_tags: [operator/Great Western Railway]
+  - name: 'GWR Green with Realistic Centre Cars'
+    profiles: ['158_3']
+    special_tags: [operator/Great Western Railway]
