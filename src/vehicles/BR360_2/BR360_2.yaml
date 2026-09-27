@@ -1,0 +1,55 @@
+info:
+  identifier: br_360_2
+  name: 'Class 360/2 "Desiro"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 360/2 Desiro
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 168
+  length: 8
+  power: 2080
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2004-04-01
+
+profiles:
+  - identifier: '360_2_4car'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 70
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/360_2
+
+  - identifier: '360_2_5car'
+    name: 5-Car
+    num_vehicles: 5
+    weight: 203
+    capacity: 66
+    sprite_override: [1, 3, 4, 4, 2]
+    special_tags:
+      - formation/5-car
+      - subclass/360_2
+
+liveries:
+  - name: 'Heathrow Connect'
+    special_tags: [operator/Heathrow Connect]
+    profiles: ['360_2_4car', '360_2_5car']
+
+  - name: 'Heathrow Express - Grey and Purple'
+    special_tags: [operator/Heathrow Express]
+    profiles: ['360_2_5car']

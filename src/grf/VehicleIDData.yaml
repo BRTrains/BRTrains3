@@ -29978,3 +29978,74 @@ variants:
   strings:
     str_br_374_default_eurostar___olympics_train_name: Class 374 "Velaro" - {GOLD}Eurostar
       - Olympics
+- id: 2303
+  vehicle: br_360_2
+  profile: 360_2_4car
+  livery: heathrow connect
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2303_br_360_2_360_2_4car_heathrow_connect_train.gnml
+  identifier: br_360_2_360_2_4car_heathrow_connect_train
+  name_string: str_br_360_2_360_2_4car_heathrow_connect_train_name
+  strings:
+    str_br_360_2_360_2_4car_heathrow_connect_train_name: Class 360/2 "Desiro" - {SILVER}4-Car{BLACK}
+      - {GOLD}Heathrow Connect
+- id: 2304
+  vehicle: br_360_2
+  profile: 360_2_5car
+  livery: heathrow connect
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 66
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2304_br_360_2_360_2_5car_heathrow_connect_train.gnml
+  identifier: br_360_2_360_2_5car_heathrow_connect_train
+  name_string: str_br_360_2_360_2_5car_heathrow_connect_train_name
+  strings:
+    str_br_360_2_360_2_5car_heathrow_connect_train_name: Class 360/2 "Desiro" - {SILVER}5-Car{BLACK}
+      - {GOLD}Heathrow Connect
+- id: 2305
+  vehicle: br_360_2
+  profile: 360_2_5car
+  livery: heathrow express - grey and purple
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 66
+    articulated_count: 5
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2305_br_360_2_360_2_5car_heathrow_express___grey_and_purple_train.gnml
+  identifier: br_360_2_360_2_5car_heathrow_express___grey_and_purple_train
+  name_string: str_br_360_2_360_2_5car_heathrow_express___grey_and_purple_train_name
+  strings:
+    str_br_360_2_360_2_5car_heathrow_express___grey_and_purple_train_name: Class 360/2
+      "Desiro" - {SILVER}5-Car{BLACK} - {GOLD}Heathrow Express - Grey and Purple
