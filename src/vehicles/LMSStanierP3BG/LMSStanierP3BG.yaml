@@ -1,0 +1,33 @@
+info:
+  identifier: lms_stanier_p3_bg
+  name: 'LMS Stanier Period III 50ft BG'
+  sub_name: Passenger coach
+  based_on: 'LMS Stanier Period III 50ft Brake Gangwayed (BG)'
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 30
+  length: 6
+  power: 0
+  speed: 90
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 12
+
+dates:
+  # The legacy `item_LMS_StanierP3_50BG` (668) declares `date(1933,4,1)` directly.
+  introduction_date: 1933-04-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 50
+    special_tags:
+      - formation/1-car
+      - subclass/lms_stanier_p3_bg
+
+liveries:
+  - name: 'LMS Red'
+    special_tags: [operator/LMS]

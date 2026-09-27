@@ -29347,3 +29347,23 @@ variants:
   strings:
     str_br_mk1_bg_br_blue_and_grey_train_name: Mk1 Coach - {SILVER}Brake Gangwayed{BLACK}
       - {GOLD}BR Blue and Grey
+- id: 2277
+  vehicle: lms_stanier_p3_bg
+  profile: default
+  livery: lms red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/2277_lms_stanier_p3_bg_default_lms_red_train.gnml
+  identifier: lms_stanier_p3_bg_default_lms_red_train
+  name_string: str_lms_stanier_p3_bg_default_lms_red_train_name
+  strings:
+    str_lms_stanier_p3_bg_default_lms_red_train_name: LMS Stanier Period III 50ft
+      BG - {GOLD}LMS Red
