@@ -25012,3 +25012,47 @@ variants:
   strings:
     str_br_102_1023_br_green__headlamp__train_name: Class 102 - {SILVER}3-Car{BLACK}
       - {GOLD}BR Green Headlamp
+- id: 2068
+  vehicle: br_399
+  profile: default
+  livery: stagecoach blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/2068_br_399_default_stagecoach_blue_train.gnml
+  identifier: br_399_default_stagecoach_blue_train
+  name_string: str_br_399_default_stagecoach_blue_train_name
+  strings:
+    str_br_399_default_stagecoach_blue_train_name: Class 399 "Sheffield Citylink"
+      tram-train 3-car Single Unit - {GOLD}Stagecoach Blue
+- id: 2069
+  vehicle: br_399
+  profile: default
+  livery: stagecoach blue
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/2069_br_399_default_stagecoach_blue_tram.gnml
+  identifier: br_399_default_stagecoach_blue_tram
+  name_string: str_br_399_default_stagecoach_blue_tram_name
+  strings:
+    str_br_399_default_stagecoach_blue_tram_name: Class 399 "Sheffield Citylink" tram-train
+      3-car Single Unit - {GOLD}Stagecoach Blue
