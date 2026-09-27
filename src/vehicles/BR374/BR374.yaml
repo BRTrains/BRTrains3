@@ -1,0 +1,63 @@
+info:
+  identifier: br_374
+  # The legacy item (`BRTrains2/src/trains/electric_mu/BR374.pnml`, `item_BR374` 88) is named
+  # `STR_NAME_BR374` = "BR Class 374 \"Velaro\" (16-car)"; the formation is carried by the
+  # profile name instead, as for the Class 373 and the Class 158 imports.
+  name: 'Class 374 "Velaro"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 374 Velaro
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # The root item carries the whole-unit power and weight for the 16-car formation; its eight
+  # articulated parts declare 0 hp and 0 t, so the root's figures are copied as-is.
+  weight: 988
+  length: 8
+  power: 21000
+  # The legacy declares `speed: 320 km/h`, i.e. 198.8 mph.
+  speed: 199
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  # The legacy declares `track_type: ELRL` on every item (the unit's 25 kV HS1 supply).
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 14
+cargo_age_period: 250
+
+dates:
+  # Every item declares `date(2015,4,21)`.
+  introduction_date: 2015-04-21
+
+profiles:
+  - identifier: DEFAULT
+    name: 16-Car
+    # `switch_articulated_BR374` adds parts 1..15, so the consist is sixteen cars.
+    num_vehicles: 16
+    # The root item's callback is `return(40 * param_pax)`, already the per-part figure (the
+    # property beside it also reads 40). The parts declare 36/35/76/32/76 against it, so the
+    # legacy's own per-part mixture sums to 894 seats across the consist; see the oddities.
+    capacity: 40
+    # One value per car, in the order `switch_articulated_BR374` draws them:
+    # 0 DF, 1 MF, 2 TF, 3-4 MS, 5 TS, 6 MS, 7-8 TBS, 9 MSb, 10 TS, 11-12 MSb, 13 TF, 14 MFb,
+    # 15 DFb. The five drawings each (profile, livery) group consumes, in override-value
+    # order, are the source bands y 13 (DF), 38 (MF/MS), 63 (TF/TS/TBS), 88 (MSb/MFb) and
+    # 113 (DFb) for the `Eurostar` livery, and y 138 (DF), 38, 63, 88, 163 (DFb) for
+    # `Eurostar - Olympics` — the Olympics fit redraws only the two driving cars.
+    sprite_override: [1, 2, 3, 2, 2, 3, 2, 3, 3, 4, 3, 4, 4, 3, 4, 5]
+    special_tags:
+      - formation/16-car
+      - subclass/374
+
+liveries:
+  # `sw_BR374_cargo_subtype_text`: subtype 0 = `str_Eurostar` " (Eurostar)"; subtype 1 =
+  # `STR_CONCAT_2(str_Eurostar, str_special_Olympics)`, the special-games fit. Both are
+  # Eurostar sets, so both carry the existing `operator/Eurostar` badge.
+  - name: 'Eurostar'
+    special_tags: [operator/Eurostar]
+  - name: 'Eurostar - Olympics'
+    special_tags: [operator/Eurostar]

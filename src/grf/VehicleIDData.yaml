@@ -29909,3 +29909,72 @@ variants:
   strings:
     str_br_mk1_sk_br_blue_and_grey_train_name: Mk1 Coach - {SILVER}Standard Corridor{BLACK}
       - {GOLD}BR Blue and Grey
+- id: 2301
+  vehicle: br_374
+  profile: default
+  livery: eurostar
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 16
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2301_br_374_default_eurostar_train.gnml
+  identifier: br_374_default_eurostar_train
+  name_string: str_br_374_default_eurostar_train_name
+  strings:
+    str_br_374_default_eurostar_train_name: Class 374 "Velaro" - {GOLD}Eurostar
+- id: 2302
+  vehicle: br_374
+  profile: default
+  livery: eurostar - olympics
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 16
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2302_br_374_default_eurostar___olympics_train.gnml
+  identifier: br_374_default_eurostar___olympics_train
+  name_string: str_br_374_default_eurostar___olympics_train_name
+  strings:
+    str_br_374_default_eurostar___olympics_train_name: Class 374 "Velaro" - {GOLD}Eurostar
+      - Olympics
