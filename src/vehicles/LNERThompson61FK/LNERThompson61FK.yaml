@@ -1,0 +1,33 @@
+info:
+  identifier: lner_thompson_61fk
+  name: "LNER Thompson 61' FK"
+  sub_name: Passenger coach
+  based_on: "LNER Thompson 61' FK"
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 32
+  length: 8
+  power: 0
+  speed: 100
+  tractive_effort: 0
+
+cargo: passenger
+
+dates:
+  # The legacy `item_LNER_Thompson_61FK` (669) declares `date(1945,1,1)` directly, so the
+  # candidate's own date is that figure rather than a family fallback.
+  introduction_date: 1945-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 38
+    special_tags:
+      - formation/1-car
+      - subclass/lner_thompson_61fk
+
+liveries:
+  - name: 'LNER "Teak"'
+    special_tags: [operator/LNER]

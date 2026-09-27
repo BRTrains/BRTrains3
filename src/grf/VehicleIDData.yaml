@@ -27844,3 +27844,23 @@ variants:
   strings:
     str_br_421_421_7_connex_train_name: Class 421 "4-CIG" - {SILVER}421_7{BLACK} -
       {GOLD}Connex
+- id: 2206
+  vehicle: lner_thompson_61fk
+  profile: default
+  livery: lner "teak"
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 38
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2206_lner_thompson_61fk_default_lner__teak__train.gnml
+  identifier: lner_thompson_61fk_default_lner__teak__train
+  name_string: str_lner_thompson_61fk_default_lner__teak__train_name
+  strings:
+    str_lner_thompson_61fk_default_lner__teak__train_name: LNER Thompson 61' FK -
+      {GOLD}LNER "Teak"
