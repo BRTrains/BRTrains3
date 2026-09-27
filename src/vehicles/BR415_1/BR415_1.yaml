@@ -1,0 +1,53 @@
+info:
+  identifier: br_415_1
+  name: 'Class 415/1 "4-EPB"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 415/1 4-EPB
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 135
+  length: 8
+  power: 1000
+  speed: 75
+  tractive_effort: 0.08
+  # The legacy item states `track_type: THIRD` (the Southern Region third-rail
+  # electrification).
+  track_type:
+    - THIRD
+  power_type:
+    - electric
+
+cargo: passenger
+
+loading_speed: 25
+
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1953-04-21
+
+profiles:
+  - identifier: '415_1'
+    name: 4-Car
+    num_vehicles: 4
+    # The driving motor brake second's own callback figure; in game the four-car
+    # consist reads 4 x 82.
+    capacity: 82
+    sprite_override: [1, 2, 3, 3]
+    special_tags:
+      - formation/4-car
+      - subclass/415_1
+
+liveries:
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Green Yellow Front'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Blue Grey'
+    special_tags: [operator/BR]
+  - name: 'Network SouthEast'
+    special_tags: [operator/Network SouthEast]

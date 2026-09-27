@@ -30530,3 +30530,118 @@ variants:
   strings:
     str_lner_coronation_717_br_blood_and_custard_train_name: LNER Coronation Set -
       {SILVER}Articulated Coach OT + OT{BLACK} - {GOLD}BR Blood and Custard
+- id: 2329
+  vehicle: br_415_1
+  profile: '415_1'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2329_br_415_1_415_1_br_green_train.gnml
+  identifier: br_415_1_415_1_br_green_train
+  name_string: str_br_415_1_415_1_br_green_train_name
+  strings:
+    str_br_415_1_415_1_br_green_train_name: Class 415/1 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Green
+- id: 2330
+  vehicle: br_415_1
+  profile: '415_1'
+  livery: br green yellow front
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2330_br_415_1_415_1_br_green_yellow_front_train.gnml
+  identifier: br_415_1_415_1_br_green_yellow_front_train
+  name_string: str_br_415_1_415_1_br_green_yellow_front_train_name
+  strings:
+    str_br_415_1_415_1_br_green_yellow_front_train_name: Class 415/1 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Green Yellow Front
+- id: 2331
+  vehicle: br_415_1
+  profile: '415_1'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2331_br_415_1_415_1_br_blue_train.gnml
+  identifier: br_415_1_415_1_br_blue_train
+  name_string: str_br_415_1_415_1_br_blue_train_name
+  strings:
+    str_br_415_1_415_1_br_blue_train_name: Class 415/1 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Blue
+- id: 2332
+  vehicle: br_415_1
+  profile: '415_1'
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2332_br_415_1_415_1_br_blue_grey_train.gnml
+  identifier: br_415_1_415_1_br_blue_grey_train
+  name_string: str_br_415_1_415_1_br_blue_grey_train_name
+  strings:
+    str_br_415_1_415_1_br_blue_grey_train_name: Class 415/1 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Blue Grey
+- id: 2333
+  vehicle: br_415_1
+  profile: '415_1'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2333_br_415_1_415_1_network_southeast_train.gnml
+  identifier: br_415_1_415_1_network_southeast_train
+  name_string: str_br_415_1_415_1_network_southeast_train_name
+  strings:
+    str_br_415_1_415_1_network_southeast_train_name: Class 415/1 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}Network SouthEast
