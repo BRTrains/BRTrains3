@@ -29367,3 +29367,44 @@ variants:
   strings:
     str_lms_stanier_p3_bg_default_lms_red_train_name: LMS Stanier Period III 50ft
       BG - {GOLD}LMS Red
+- id: 2278
+  vehicle: sr_q1
+  profile: default
+  livery: sr black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 5
+    - 4
+  archive: generated_variants/2278_sr_q1_default_sr_black_train.gnml
+  identifier: sr_q1_default_sr_black_train
+  name_string: str_sr_q1_default_sr_black_train_name
+  strings:
+    str_sr_q1_default_sr_black_train_name: SR Bulleid Q1 Class 0-6-0 - {GOLD}SR Black
+- id: 2279
+  vehicle: sr_q1
+  profile: default
+  livery: br black (lion and wheel)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 5
+    - 4
+  archive: generated_variants/2279_sr_q1_default_br_black__lion_and_wheel__train.gnml
+  identifier: sr_q1_default_br_black__lion_and_wheel__train
+  name_string: str_sr_q1_default_br_black__lion_and_wheel__train_name
+  strings:
+    str_sr_q1_default_br_black__lion_and_wheel__train_name: SR Bulleid Q1 Class 0-6-0
+      - {GOLD}BR Black Lion and Wheel

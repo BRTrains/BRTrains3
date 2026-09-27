@@ -1,0 +1,49 @@
+info:
+  identifier: sr_q1
+  name: 'SR Bulleid Q1 Class 0-6-0'
+  sub_name: Steam locomotive
+  based_on: 'SR Q1 Class'
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 90.7
+  length: 8
+  power: 1550
+  speed: 65
+  tractive_effort: 0.187561
+  power_type:
+    - steam
+
+cargo: none
+
+loading_speed: 3
+
+dates:
+  introduction_date: 1942-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/sr_q1
+
+liveries:
+  # Ordered by the two legacy graphics switches `sw_SR_Q1_Loco` and `sw_SR_Q1_tender`, which
+  # `sw_SR_Q1_cargo_subtype_text` labels 0..1 - the order the purchase list showed the
+  # player. `sw_SR_Q1_Loco` returns the *same* engine drawing for both subtypes, so the
+  # sheet carries two identical locomotive rows and only the tender differs
+  # (/home/jon/BRTrains3-artwork-tools/compose_sr_q1_sheet.py's ROWS table):
+  #
+  #   0 str_SRBlack  "(Southern Railway - Black)"  SR_Bulleid_Q1.png loco y=13 + tender y=13
+  #   1 str_BRLion   "(BR - Black & Lion)"         SR_Bulleid_Q1.png loco y=13 + tender y=39
+  #
+  # `str_BRLion` is the same livery string the LMS Jubilee imports as "BR Black (Lion and
+  # Wheel)", naming the early BR lion-on-wheel tender emblem the y=39 tender band draws.
+  - name: 'SR Black'
+    special_tags: [operator/Southern Railway]
+  - name: 'BR Black (Lion and Wheel)'
+    special_tags: [operator/BR]
