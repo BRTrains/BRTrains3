@@ -33275,3 +33275,231 @@ variants:
   strings:
     str_br_jia_default_tiger_nacco_grey_train_name: BR JIA Polybulk Wagon - {GOLD}Tiger
       Nacco Grey
+- id: 2457
+  vehicle: br_tta
+  profile: default
+  livery: mobil
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2457_br_tta_default_mobil_train.gnml
+  identifier: br_tta_default_mobil_train
+  name_string: str_br_tta_default_mobil_train_name
+  strings:
+    str_br_tta_default_mobil_train_name: BR TTA Tank Wagon - {GOLD}Mobil
+- id: 2458
+  vehicle: br_tta
+  profile: default
+  livery: esso
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2458_br_tta_default_esso_train.gnml
+  identifier: br_tta_default_esso_train
+  name_string: str_br_tta_default_esso_train_name
+  strings:
+    str_br_tta_default_esso_train_name: BR TTA Tank Wagon - {GOLD}Esso
+- id: 2459
+  vehicle: br_tta
+  profile: default
+  livery: bp 1
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2459_br_tta_default_bp_1_train.gnml
+  identifier: br_tta_default_bp_1_train
+  name_string: str_br_tta_default_bp_1_train_name
+  strings:
+    str_br_tta_default_bp_1_train_name: BR TTA Tank Wagon - {GOLD}BP 1
+- id: 2460
+  vehicle: br_tta
+  profile: default
+  livery: suko
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2460_br_tta_default_suko_train.gnml
+  identifier: br_tta_default_suko_train
+  name_string: str_br_tta_default_suko_train_name
+  strings:
+    str_br_tta_default_suko_train_name: BR TTA Tank Wagon - {GOLD}Suko
+- id: 2461
+  vehicle: br_tta
+  profile: default
+  livery: gulf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2461_br_tta_default_gulf_train.gnml
+  identifier: br_tta_default_gulf_train
+  name_string: str_br_tta_default_gulf_train_name
+  strings:
+    str_br_tta_default_gulf_train_name: BR TTA Tank Wagon - {GOLD}Gulf
+- id: 2462
+  vehicle: br_tta
+  profile: default
+  livery: shell 1
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2462_br_tta_default_shell_1_train.gnml
+  identifier: br_tta_default_shell_1_train
+  name_string: str_br_tta_default_shell_1_train_name
+  strings:
+    str_br_tta_default_shell_1_train_name: BR TTA Tank Wagon - {GOLD}Shell 1
+- id: 2463
+  vehicle: br_tta
+  profile: default
+  livery: bp 2
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2463_br_tta_default_bp_2_train.gnml
+  identifier: br_tta_default_bp_2_train
+  name_string: str_br_tta_default_bp_2_train_name
+  strings:
+    str_br_tta_default_bp_2_train_name: BR TTA Tank Wagon - {GOLD}BP 2
+- id: 2464
+  vehicle: br_tta
+  profile: default
+  livery: bp 3
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2464_br_tta_default_bp_3_train.gnml
+  identifier: br_tta_default_bp_3_train
+  name_string: str_br_tta_default_bp_3_train_name
+  strings:
+    str_br_tta_default_bp_3_train_name: BR TTA Tank Wagon - {GOLD}BP 3
+- id: 2465
+  vehicle: br_tta
+  profile: default
+  livery: murco
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2465_br_tta_default_murco_train.gnml
+  identifier: br_tta_default_murco_train
+  name_string: str_br_tta_default_murco_train_name
+  strings:
+    str_br_tta_default_murco_train_name: BR TTA Tank Wagon - {GOLD}Murco
+- id: 2466
+  vehicle: br_tta
+  profile: default
+  livery: shell 2
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2466_br_tta_default_shell_2_train.gnml
+  identifier: br_tta_default_shell_2_train
+  name_string: str_br_tta_default_shell_2_train_name
+  strings:
+    str_br_tta_default_shell_2_train_name: BR TTA Tank Wagon - {GOLD}Shell 2
+- id: 2467
+  vehicle: br_tta
+  profile: default
+  livery: total
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2467_br_tta_default_total_train.gnml
+  identifier: br_tta_default_total_train
+  name_string: str_br_tta_default_total_train_name
+  strings:
+    str_br_tta_default_total_train_name: BR TTA Tank Wagon - {GOLD}Total
+- id: 2468
+  vehicle: br_tta
+  profile: default
+  livery: vtg
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 72
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2468_br_tta_default_vtg_train.gnml
+  identifier: br_tta_default_vtg_train
+  name_string: str_br_tta_default_vtg_train_name
+  strings:
+    str_br_tta_default_vtg_train_name: BR TTA Tank Wagon - {GOLD}VTG

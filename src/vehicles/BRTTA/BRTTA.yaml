@@ -1,0 +1,43 @@
+info:
+  identifier: br_tta
+  name: 'BR TTA Tank Wagon'
+  sub_name: Tank wagon
+  based_on: British Rail TTA tank wagon
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 28
+  length: 5
+  power: 0
+  speed: 60
+  tractive_effort: 0.08
+
+cargo: liquid
+autorefit: true
+loading_speed: 20
+
+dates:
+  introduction_date: 1966-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 72
+    special_tags:
+      - formation/1-car
+      - subclass/tta
+
+liveries:
+  - name: Mobil
+  - name: Esso
+  - name: 'BP 1'
+  - name: Suko
+  - name: Gulf
+  - name: 'Shell 1'
+  - name: 'BP 2'
+  - name: 'BP 3'
+  - name: Murco
+  - name: 'Shell 2'
+  - name: Total
+  - name: VTG
