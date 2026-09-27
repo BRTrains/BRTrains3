@@ -149,6 +149,25 @@ profiles:
       - formation/1-car
       - subclass/mk1_rk
 
+  # The Brake Gangwayed reads y=182 of the five per-livery sheets, per the
+  # `spriteset_BRMk1BG_*` declarations in BRTrains2
+  # `src/trains/rolling_stock/BR/Mk1/sprites/Mk1BG.pnml`; no other Mk1 type reads that
+  # band, so it keeps a sheet of its own, composed by
+  # `BRTrains3-artwork-tools/compose_br_mk1_type_sheet.py 182 BRMk1BG.png`.
+  # The legacy item refits to MAIL only (`cargo_allow_refit: [MAIL]`,
+  # `default_cargo_type: MAIL`), so the profile states the mail preset.
+  - identifier: bg
+    name: 'Brake Gangwayed'
+    num_vehicles: 1
+    capacity: 10
+    weight: 32
+    introduction_date: 1951-04-21
+    cargo: mail
+    spritesheet: BRMk1BG.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk1_bg
+
 liveries:
   - name: 'BR Carmine and Cream'
     special_tags: [operator/BR]

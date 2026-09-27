@@ -29247,3 +29247,103 @@ variants:
   strings:
     str_br_mk1_rk_br_blue_and_grey_train_name: Mk1 Coach - {SILVER}Restaurant Kitchen{BLACK}
       - {GOLD}BR Blue and Grey
+- id: 2272
+  vehicle: br_mk1
+  profile: bg
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2272_br_mk1_bg_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bg_br_carmine_and_cream_train
+  name_string: str_br_mk1_bg_br_carmine_and_cream_train_name
+  strings:
+    str_br_mk1_bg_br_carmine_and_cream_train_name: Mk1 Coach - {SILVER}Brake Gangwayed{BLACK}
+      - {GOLD}BR Carmine and Cream
+- id: 2273
+  vehicle: br_mk1
+  profile: bg
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2273_br_mk1_bg_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bg_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bg_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_bg_br_chocolate_and_cream_train_name: Mk1 Coach - {SILVER}Brake Gangwayed{BLACK}
+      - {GOLD}BR Chocolate and Cream
+- id: 2274
+  vehicle: br_mk1
+  profile: bg
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2274_br_mk1_bg_br_malachite_green_train.gnml
+  identifier: br_mk1_bg_br_malachite_green_train
+  name_string: str_br_mk1_bg_br_malachite_green_train_name
+  strings:
+    str_br_mk1_bg_br_malachite_green_train_name: Mk1 Coach - {SILVER}Brake Gangwayed{BLACK}
+      - {GOLD}BR Malachite Green
+- id: 2275
+  vehicle: br_mk1
+  profile: bg
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2275_br_mk1_bg_br_maroon_train.gnml
+  identifier: br_mk1_bg_br_maroon_train
+  name_string: str_br_mk1_bg_br_maroon_train_name
+  strings:
+    str_br_mk1_bg_br_maroon_train_name: Mk1 Coach - {SILVER}Brake Gangwayed{BLACK}
+      - {GOLD}BR Maroon
+- id: 2276
+  vehicle: br_mk1
+  profile: bg
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2276_br_mk1_bg_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bg_br_blue_and_grey_train
+  name_string: str_br_mk1_bg_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_bg_br_blue_and_grey_train_name: Mk1 Coach - {SILVER}Brake Gangwayed{BLACK}
+      - {GOLD}BR Blue and Grey
