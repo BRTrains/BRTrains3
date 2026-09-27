@@ -1,0 +1,45 @@
+info:
+  identifier: lner_gresley_bg
+  name: 'LNER Gresley BG'
+  sub_name: Passenger coach
+  based_on: 'LNER Gresley Full Brake Van'
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 35
+  length: 7
+  power: 0
+  speed: 90
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 10
+
+# A coach carries no lamps, and the detector otherwise reads this sheet's cream band
+# (palette 0x45) as a lamp pair; the sibling BCK takes the same setting. See the oddities
+# entry (the LNERBCK query 5) for the builder-side question.
+lighting: none
+
+dates:
+  # The legacy `item_LNERBG` (10) declares `date(1840,4,21)` - carried verbatim, as for the
+  # sibling BCK and for the same reason; see the oddities entry.
+  introduction_date: 1840-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 40
+    special_tags:
+      - formation/1-car
+      - subclass/gresley_bg
+
+liveries:
+  # `sw_LNERBG_cargo_subtype_text` order 0..2, named from the item's own list string
+  # (`str_LNERBG_liveries` = "GNR/LNER Teak, BR Maroon, BR Carmine and Cream").
+  - name: 'GNR/LNER Teak'
+    special_tags: [operator/LNER]
+  - name: 'BR Maroon'
+    special_tags: [operator/BR]
+  - name: 'BR Carmine and Cream'
+    special_tags: [operator/BR]

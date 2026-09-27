@@ -30049,3 +30049,62 @@ variants:
   strings:
     str_br_360_2_360_2_5car_heathrow_express___grey_and_purple_train_name: Class 360/2
       "Desiro" - {SILVER}5-Car{BLACK} - {GOLD}Heathrow Express - Grey and Purple
+- id: 2306
+  vehicle: lner_gresley_bg
+  profile: default
+  livery: gnr/lner teak
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2306_lner_gresley_bg_default_gnr_lner_teak_train.gnml
+  identifier: lner_gresley_bg_default_gnr_lner_teak_train
+  name_string: str_lner_gresley_bg_default_gnr_lner_teak_train_name
+  strings:
+    str_lner_gresley_bg_default_gnr_lner_teak_train_name: LNER Gresley BG - {GOLD}GNR/LNER
+      Teak
+- id: 2307
+  vehicle: lner_gresley_bg
+  profile: default
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2307_lner_gresley_bg_default_br_maroon_train.gnml
+  identifier: lner_gresley_bg_default_br_maroon_train
+  name_string: str_lner_gresley_bg_default_br_maroon_train_name
+  strings:
+    str_lner_gresley_bg_default_br_maroon_train_name: LNER Gresley BG - {GOLD}BR Maroon
+- id: 2308
+  vehicle: lner_gresley_bg
+  profile: default
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/2308_lner_gresley_bg_default_br_carmine_and_cream_train.gnml
+  identifier: lner_gresley_bg_default_br_carmine_and_cream_train
+  name_string: str_lner_gresley_bg_default_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_bg_default_br_carmine_and_cream_train_name: LNER Gresley BG -
+      {GOLD}BR Carmine and Cream
