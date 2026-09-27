@@ -27371,3 +27371,43 @@ variants:
   strings:
     str_br_507_507_merseyrail___good_communications_train_name: Class 507 - {SILVER}507{BLACK}
       - {GOLD}Merseyrail - Good Communications
+- id: 2185
+  vehicle: lnwr_webb
+  profile: default
+  livery: lnwr black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/2185_lnwr_webb_default_lnwr_black_train.gnml
+  identifier: lnwr_webb_default_lnwr_black_train
+  name_string: str_lnwr_webb_default_lnwr_black_train_name
+  strings:
+    str_lnwr_webb_default_lnwr_black_train_name: LNWR Webb Coal Tank 0-6-2T - {GOLD}LNWR
+      Black
+- id: 2186
+  vehicle: lnwr_webb
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/2186_lnwr_webb_default_br_black_train.gnml
+  identifier: lnwr_webb_default_br_black_train
+  name_string: str_lnwr_webb_default_br_black_train_name
+  strings:
+    str_lnwr_webb_default_br_black_train_name: LNWR Webb Coal Tank 0-6-2T - {GOLD}BR
+      Black
