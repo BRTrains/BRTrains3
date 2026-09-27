@@ -32942,3 +32942,120 @@ variants:
   name_string: str_br_conflat_p_default_default_train_name
   strings:
     str_br_conflat_p_default_default_train_name: Conflat P Container Wagon
+- id: 2440
+  vehicle: brt_covhop
+  profile: default
+  livery: polybulk
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2440_brt_covhop_default_polybulk_train.gnml
+  identifier: brt_covhop_default_polybulk_train
+  name_string: str_brt_covhop_default_polybulk_train_name
+  strings:
+    str_brt_covhop_default_polybulk_train_name: BRT Covered Hopper - {GOLD}Polybulk
+- id: 2441
+  vehicle: brt_covhop
+  profile: default
+  livery: br grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2441_brt_covhop_default_br_grey_train.gnml
+  identifier: brt_covhop_default_br_grey_train
+  name_string: str_brt_covhop_default_br_grey_train_name
+  strings:
+    str_brt_covhop_default_br_grey_train_name: BRT Covered Hopper - {GOLD}BR Grey
+- id: 2442
+  vehicle: brt_covhop
+  profile: default
+  livery: br brown
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2442_brt_covhop_default_br_brown_train.gnml
+  identifier: brt_covhop_default_br_brown_train
+  name_string: str_brt_covhop_default_br_brown_train_name
+  strings:
+    str_brt_covhop_default_br_brown_train_name: BRT Covered Hopper - {GOLD}BR Brown
+- id: 2443
+  vehicle: brt_covhop
+  profile: default
+  livery: privatisation blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2443_brt_covhop_default_privatisation_blue_train.gnml
+  identifier: brt_covhop_default_privatisation_blue_train
+  name_string: str_brt_covhop_default_privatisation_blue_train_name
+  strings:
+    str_brt_covhop_default_privatisation_blue_train_name: BRT Covered Hopper - {GOLD}Privatisation
+      Blue
+- id: 2444
+  vehicle: brt_covhop
+  profile: default
+  livery: privatisation blue advertisement
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2444_brt_covhop_default_privatisation_blue_advertisement_train.gnml
+  identifier: brt_covhop_default_privatisation_blue_advertisement_train
+  name_string: str_brt_covhop_default_privatisation_blue_advertisement_train_name
+  strings:
+    str_brt_covhop_default_privatisation_blue_advertisement_train_name: BRT Covered
+      Hopper - {GOLD}Privatisation Blue Advertisement
+- id: 2445
+  vehicle: brt_covhop
+  profile: default
+  livery: privatisation yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2445_brt_covhop_default_privatisation_yellow_train.gnml
+  identifier: brt_covhop_default_privatisation_yellow_train
+  name_string: str_brt_covhop_default_privatisation_yellow_train_name
+  strings:
+    str_brt_covhop_default_privatisation_yellow_train_name: BRT Covered Hopper - {GOLD}Privatisation
+      Yellow

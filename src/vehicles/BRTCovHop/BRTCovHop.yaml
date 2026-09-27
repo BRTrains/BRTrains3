@@ -1,0 +1,39 @@
+info:
+  identifier: brt_covhop
+  name: 'BRT Covered Hopper'
+  sub_name: Covered hopper wagon
+  based_on: British Rail Polybulk covered hopper
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 13
+  length: 5
+  power: 0
+  speed: 60
+  tractive_effort: 0.08
+
+cargo: bulk
+autorefit: true
+loading_speed: 25
+
+dates:
+  introduction_date: 1965-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 35
+    special_tags:
+      - formation/1-car
+      - subclass/covhop
+
+liveries:
+  - name: Polybulk
+  - name: 'BR Grey'
+    special_tags: [operator/BR]
+  - name: 'BR Brown'
+    special_tags: [operator/BR]
+  - name: 'Privatisation Blue'
+  - name: 'Privatisation Blue Advertisement'
+  - name: 'Privatisation Yellow'
