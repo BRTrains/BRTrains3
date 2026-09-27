@@ -31455,3 +31455,32 @@ variants:
   strings:
     str_br_398_default_transport_for_wales___grey_cab_end_tram_name: Class 398 Citylink
       - {GOLD}Transport for Wales - Grey Cab End
+- id: 2367
+  vehicle: br_252
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2367_br_252_default_br_blue_train.gnml
+  identifier: br_252_default_br_blue_train
+  name_string: str_br_252_default_br_blue_train_name
+  strings:
+    str_br_252_default_br_blue_train_name: Class 41 "HST Prototype" - {GOLD}BR Blue
