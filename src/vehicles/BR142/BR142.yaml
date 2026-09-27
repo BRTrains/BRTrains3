@@ -1,0 +1,68 @@
+special_tags:
+  - subclass/142
+
+info:
+  identifier: br_142
+  # Split out of the `br_pacer` candidate on Jon's instruction (2026-09-27); see
+  # `BR140/BR140.yaml` for the reason. `STR_NAME_BR142: BR Class 142 "Pacer" (2-car)`.
+  name: 'Class 142 Pacer'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 142 Pacer
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_BR142`'s own whole-consist figures, 250 hp / 24 t - carried as authored; the real
+  # units are ~460 hp, so the legacy figure looks like a copy of the 143's (oddity 6).
+  length: 7
+  speed: 75
+  power: 250
+  weight: 24
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 22
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1985-04-21
+
+profiles:
+  # One two-car formation, as the Class 140's: `sw_BR142_<livery>` draws front at
+  # `position_in_articulated_veh % 2` 0 and rear at 1.
+  - identifier: DEFAULT
+    num_vehicles: 2
+    # Per-part: the legacy callback is `return(112 * param_pax / 2)`, i.e. 56. The item's own
+    # `cargo_capacity` property reads 62 (oddity 5).
+    capacity: 56
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/142
+
+liveries:
+  # The legacy `sw_BR142_cargo_subtype_text` order 0..7, which is also the composite's row
+  # order: BR Provincial, Regional, Northern Rail, Northern Spirit, Arriva Wales, North
+  # Western Trains, MerseyRail, WYPTE Metro. The import had WYPTE Metro first, which
+  # disagreed with both the legacy switch and the oddities record, so the split restores the
+  # legacy's own order. Oddity 3 records the relabelled names (Regional -> Regional Railways
+  # and Arriva Wales -> Arriva Trains Wales).
+  - name: 'BR Provincial'
+    special_tags: [operator/BR Provincial]
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'Northern Rail'
+    special_tags: [operator/Northern Rail]
+  - name: 'Northern Spirit'
+    special_tags: [operator/Northern Spirit]
+  - name: 'Arriva Trains Wales'
+    special_tags: [operator/Arriva Trains Wales]
+  - name: 'North Western Trains'
+    special_tags: [operator/North Western Trains]
+  - name: 'Merseyrail'
+    special_tags: [operator/Merseyrail]
+  - name: 'WYPTE Metro'
+    special_tags: [operator/West Yorkshire PTE]

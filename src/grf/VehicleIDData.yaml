@@ -3767,8 +3767,8 @@ variants:
   identifier: br_101_1012_br_blue_train
   name_string: str_br_101_1012_br_blue_train_name
   strings:
-    str_br_101_1012_br_blue_train_name: Class 101/102 - {SILVER}Class 101 2-Car{BLACK}
-      - {GOLD}BR Blue
+    str_br_101_1012_br_blue_train_name: Class 101 - {SILVER}2-Car{BLACK} - {GOLD}BR
+      Blue
 - id: 1104
   vehicle: br_101
   profile: '1012'
@@ -3788,8 +3788,8 @@ variants:
   identifier: br_101_1012_regional_railways_train
   name_string: str_br_101_1012_regional_railways_train_name
   strings:
-    str_br_101_1012_regional_railways_train_name: Class 101/102 - {SILVER}Class 101
-      2-Car{BLACK} - {GOLD}Regional Railways
+    str_br_101_1012_regional_railways_train_name: Class 101 - {SILVER}2-Car{BLACK}
+      - {GOLD}Regional Railways
 - id: 1105
   vehicle: br_101
   profile: '1013'
@@ -3810,8 +3810,8 @@ variants:
   identifier: br_101_1013_network_south_east_train
   name_string: str_br_101_1013_network_south_east_train_name
   strings:
-    str_br_101_1013_network_south_east_train_name: Class 101/102 - {SILVER}Class 101
-      3-Car{BLACK} - {GOLD}Network South East
+    str_br_101_1013_network_south_east_train_name: Class 101 - {SILVER}3-Car{BLACK}
+      - {GOLD}Network South East
 - id: 1106
   vehicle: br_101
   profile: '1013'
@@ -3832,8 +3832,8 @@ variants:
   identifier: br_101_1013_br_blue_grey_train
   name_string: str_br_101_1013_br_blue_grey_train_name
   strings:
-    str_br_101_1013_br_blue_grey_train_name: Class 101/102 - {SILVER}Class 101 3-Car{BLACK}
-      - {GOLD}BR Blue Grey
+    str_br_101_1013_br_blue_grey_train_name: Class 101 - {SILVER}3-Car{BLACK} - {GOLD}BR
+      Blue Grey
 - id: 1107
   vehicle: br_101
   profile: '1013'
@@ -3854,8 +3854,8 @@ variants:
   identifier: br_101_1013_br_green_train
   name_string: str_br_101_1013_br_green_train_name
   strings:
-    str_br_101_1013_br_green_train_name: Class 101/102 - {SILVER}Class 101 3-Car{BLACK}
-      - {GOLD}BR Green
+    str_br_101_1013_br_green_train_name: Class 101 - {SILVER}3-Car{BLACK} - {GOLD}BR
+      Green
 - id: 1108
   vehicle: br_101
   profile: '1013'
@@ -3876,8 +3876,8 @@ variants:
   identifier: br_101_1013_br_green__yellow_front__train
   name_string: str_br_101_1013_br_green__yellow_front__train_name
   strings:
-    str_br_101_1013_br_green__yellow_front__train_name: Class 101/102 - {SILVER}Class
-      101 3-Car{BLACK} - {GOLD}BR Green Yellow Front
+    str_br_101_1013_br_green__yellow_front__train_name: Class 101 - {SILVER}3-Car{BLACK}
+      - {GOLD}BR Green Yellow Front
 - id: 1109
   vehicle: br_901
   profile: '9012'
@@ -3919,16 +3919,16 @@ variants:
   identifier: br_101_1013_br_green__headlamp__train
   name_string: str_br_101_1013_br_green__headlamp__train_name
   strings:
-    str_br_101_1013_br_green__headlamp__train_name: Class 101/102 - {SILVER}Class
-      101 3-Car{BLACK} - {GOLD}BR Green Headlamp
-- id: 1111
+    str_br_101_1013_br_green__headlamp__train_name: Class 101 - {SILVER}3-Car{BLACK}
+      - {GOLD}BR Green Headlamp
+- id: null
   vehicle: br_101
   profile: '1022'
   livery: br blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 128
@@ -3942,14 +3942,14 @@ variants:
   strings:
     str_br_101_1022_br_blue_train_name: Class 101/102 - {SILVER}Class 102 2-Car{BLACK}
       - {GOLD}BR Blue
-- id: 1112
+- id: null
   vehicle: br_101
   profile: '1022'
   livery: regional railways
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 128
@@ -3963,14 +3963,14 @@ variants:
   strings:
     str_br_101_1022_regional_railways_train_name: Class 101/102 - {SILVER}Class 102
       2-Car{BLACK} - {GOLD}Regional Railways
-- id: 1113
+- id: null
   vehicle: br_101
   profile: '1023'
   livery: network south east
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 192
@@ -3985,14 +3985,14 @@ variants:
   strings:
     str_br_101_1023_network_south_east_train_name: Class 101/102 - {SILVER}Class 102
       3-Car{BLACK} - {GOLD}Network South East
-- id: 1114
+- id: null
   vehicle: br_101
   profile: '1023'
   livery: br blue grey
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 192
@@ -4007,14 +4007,14 @@ variants:
   strings:
     str_br_101_1023_br_blue_grey_train_name: Class 101/102 - {SILVER}Class 102 3-Car{BLACK}
       - {GOLD}BR Blue Grey
-- id: 1115
+- id: null
   vehicle: br_101
   profile: '1023'
   livery: br green
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 192
@@ -4029,14 +4029,14 @@ variants:
   strings:
     str_br_101_1023_br_green_train_name: Class 101/102 - {SILVER}Class 102 3-Car{BLACK}
       - {GOLD}BR Green
-- id: 1116
+- id: null
   vehicle: br_101
   profile: '1023'
   livery: br green (yellow front)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 192
@@ -4051,14 +4051,14 @@ variants:
   strings:
     str_br_101_1023_br_green__yellow_front__train_name: Class 101/102 - {SILVER}Class
       102 3-Car{BLACK} - {GOLD}BR Green Yellow Front
-- id: 1117
+- id: null
   vehicle: br_101
   profile: '1023'
   livery: br green (headlamp)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 192
@@ -9003,14 +9003,14 @@ variants:
   strings:
     str_br_321_321_4_national_express_east_anglia_train_name: Class 321 "Dusty Bin"
       - {SILVER}4-Car{BLACK} - {GOLD}National Express East Anglia
-- id: 1343
+- id: null
   vehicle: br_pacer
   profile: '140'
   livery: br blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 52
@@ -9024,14 +9024,14 @@ variants:
   strings:
     str_br_pacer_140_br_blue_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       140{BLACK} - {GOLD}BR Blue
-- id: 1344
+- id: null
   vehicle: br_pacer
   profile: '141'
   livery: br blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 47
@@ -9045,14 +9045,14 @@ variants:
   strings:
     str_br_pacer_141_br_blue_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       141{BLACK} - {GOLD}BR Blue
-- id: 1345
+- id: null
   vehicle: br_pacer
   profile: '141'
   livery: wypte metro
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 47
@@ -9066,14 +9066,14 @@ variants:
   strings:
     str_br_pacer_141_wypte_metro_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       141{BLACK} - {GOLD}WYPTE Metro
-- id: 1346
+- id: null
   vehicle: br_pacer
   profile: '141'
   livery: wypte verona
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 47
@@ -9087,14 +9087,14 @@ variants:
   strings:
     str_br_pacer_141_wypte_verona_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       141{BLACK} - {GOLD}WYPTE Verona
-- id: 1347
+- id: null
   vehicle: br_pacer
   profile: '142'
   livery: wypte metro
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9108,14 +9108,14 @@ variants:
   strings:
     str_br_pacer_142_wypte_metro_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       142{BLACK} - {GOLD}WYPTE Metro
-- id: 1348
+- id: null
   vehicle: br_pacer
   profile: '142'
   livery: br provincial
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9129,14 +9129,14 @@ variants:
   strings:
     str_br_pacer_142_br_provincial_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       142{BLACK} - {GOLD}BR Provincial
-- id: 1349
+- id: null
   vehicle: br_pacer
   profile: '142'
   livery: regional railways
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9150,14 +9150,14 @@ variants:
   strings:
     str_br_pacer_142_regional_railways_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       142{BLACK} - {GOLD}Regional Railways
-- id: 1350
+- id: null
   vehicle: br_pacer
   profile: '142'
   livery: northern rail
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9171,14 +9171,14 @@ variants:
   strings:
     str_br_pacer_142_northern_rail_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       142{BLACK} - {GOLD}Northern Rail
-- id: 1351
+- id: null
   vehicle: br_pacer
   profile: '142'
   livery: northern spirit
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9192,14 +9192,14 @@ variants:
   strings:
     str_br_pacer_142_northern_spirit_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       142{BLACK} - {GOLD}Northern Spirit
-- id: 1352
+- id: null
   vehicle: br_pacer
   profile: '142'
   livery: arriva trains wales
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9213,14 +9213,14 @@ variants:
   strings:
     str_br_pacer_142_arriva_trains_wales_train_name: Class 140/141/142/143 Pacer -
       {SILVER}Class 142{BLACK} - {GOLD}Arriva Trains Wales
-- id: 1353
+- id: null
   vehicle: br_pacer
   profile: '142'
   livery: north western trains
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9234,14 +9234,14 @@ variants:
   strings:
     str_br_pacer_142_north_western_trains_train_name: Class 140/141/142/143 Pacer
       - {SILVER}Class 142{BLACK} - {GOLD}North Western Trains
-- id: 1354
+- id: null
   vehicle: br_pacer
   profile: '142'
   livery: merseyrail
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9255,14 +9255,14 @@ variants:
   strings:
     str_br_pacer_142_merseyrail_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       142{BLACK} - {GOLD}Merseyrail
-- id: 1355
+- id: null
   vehicle: br_pacer
   profile: '143'
   livery: wypte metro
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9276,14 +9276,14 @@ variants:
   strings:
     str_br_pacer_143_wypte_metro_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       143{BLACK} - {GOLD}WYPTE Metro
-- id: 1356
+- id: null
   vehicle: br_pacer
   profile: '143'
   livery: regional railways
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9297,14 +9297,14 @@ variants:
   strings:
     str_br_pacer_143_regional_railways_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       143{BLACK} - {GOLD}Regional Railways
-- id: 1357
+- id: null
   vehicle: br_pacer
   profile: '143'
   livery: northern rail
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9318,14 +9318,14 @@ variants:
   strings:
     str_br_pacer_143_northern_rail_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       143{BLACK} - {GOLD}Northern Rail
-- id: 1358
+- id: null
   vehicle: br_pacer
   profile: '143'
   livery: valley lines
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9339,14 +9339,14 @@ variants:
   strings:
     str_br_pacer_143_valley_lines_train_name: Class 140/141/142/143 Pacer - {SILVER}Class
       143{BLACK} - {GOLD}Valley Lines
-- id: 1359
+- id: null
   vehicle: br_pacer
   profile: '143'
   livery: wessex trains york
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -9360,14 +9360,14 @@ variants:
   strings:
     str_br_pacer_143_wessex_trains_york_train_name: Class 140/141/142/143 Pacer -
       {SILVER}Class 143{BLACK} - {GOLD}Wessex Trains York
-- id: 1360
+- id: null
   vehicle: br_pacer
   profile: '143'
   livery: great western railway green
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 56
@@ -24491,3 +24491,524 @@ variants:
   strings:
     str_br_455_455_9_south_west_trains_train_name: Class 455 - {SILVER}455_9{BLACK}
       - {GOLD}South West Trains
+- id: 1111
+  vehicle: br_143
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1111_br_143_default_regional_railways_train.gnml
+  identifier: br_143_default_regional_railways_train
+  name_string: str_br_143_default_regional_railways_train_name
+  strings:
+    str_br_143_default_regional_railways_train_name: Class 143 Pacer - {GOLD}Regional
+      Railways
+- id: 1112
+  vehicle: br_143
+  profile: default
+  livery: valley lines
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1112_br_143_default_valley_lines_train.gnml
+  identifier: br_143_default_valley_lines_train
+  name_string: str_br_143_default_valley_lines_train_name
+  strings:
+    str_br_143_default_valley_lines_train_name: Class 143 Pacer - {GOLD}Valley Lines
+- id: 1113
+  vehicle: br_143
+  profile: default
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1113_br_143_default_wypte_metro_train.gnml
+  identifier: br_143_default_wypte_metro_train
+  name_string: str_br_143_default_wypte_metro_train_name
+  strings:
+    str_br_143_default_wypte_metro_train_name: Class 143 Pacer - {GOLD}WYPTE Metro
+- id: 1114
+  vehicle: br_143
+  profile: default
+  livery: wessex trains york
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1114_br_143_default_wessex_trains_york_train.gnml
+  identifier: br_143_default_wessex_trains_york_train
+  name_string: str_br_143_default_wessex_trains_york_train_name
+  strings:
+    str_br_143_default_wessex_trains_york_train_name: Class 143 Pacer - {GOLD}Wessex
+      Trains York
+- id: 1115
+  vehicle: br_143
+  profile: default
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1115_br_143_default_northern_rail_train.gnml
+  identifier: br_143_default_northern_rail_train
+  name_string: str_br_143_default_northern_rail_train_name
+  strings:
+    str_br_143_default_northern_rail_train_name: Class 143 Pacer - {GOLD}Northern
+      Rail
+- id: 1116
+  vehicle: br_143
+  profile: default
+  livery: great western railway green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1116_br_143_default_great_western_railway_green_train.gnml
+  identifier: br_143_default_great_western_railway_green_train
+  name_string: str_br_143_default_great_western_railway_green_train_name
+  strings:
+    str_br_143_default_great_western_railway_green_train_name: Class 143 Pacer - {GOLD}Great
+      Western Railway Green
+- id: 1117
+  vehicle: br_141
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 47
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1117_br_141_default_br_blue_train.gnml
+  identifier: br_141_default_br_blue_train
+  name_string: str_br_141_default_br_blue_train_name
+  strings:
+    str_br_141_default_br_blue_train_name: Class 141 Pacer - {GOLD}BR Blue
+- id: 1343
+  vehicle: br_141
+  profile: default
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 47
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1343_br_141_default_wypte_metro_train.gnml
+  identifier: br_141_default_wypte_metro_train
+  name_string: str_br_141_default_wypte_metro_train_name
+  strings:
+    str_br_141_default_wypte_metro_train_name: Class 141 Pacer - {GOLD}WYPTE Metro
+- id: 1344
+  vehicle: br_141
+  profile: default
+  livery: wypte verona
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 47
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1344_br_141_default_wypte_verona_train.gnml
+  identifier: br_141_default_wypte_verona_train
+  name_string: str_br_141_default_wypte_verona_train_name
+  strings:
+    str_br_141_default_wypte_verona_train_name: Class 141 Pacer - {GOLD}WYPTE Verona
+- id: 1345
+  vehicle: br_140
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 52
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1345_br_140_default_br_blue_train.gnml
+  identifier: br_140_default_br_blue_train
+  name_string: str_br_140_default_br_blue_train_name
+  strings:
+    str_br_140_default_br_blue_train_name: Class 140 Pacer Prototype - {GOLD}BR Blue
+- id: 1346
+  vehicle: br_142
+  profile: default
+  livery: br provincial
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1346_br_142_default_br_provincial_train.gnml
+  identifier: br_142_default_br_provincial_train
+  name_string: str_br_142_default_br_provincial_train_name
+  strings:
+    str_br_142_default_br_provincial_train_name: Class 142 Pacer - {GOLD}BR Provincial
+- id: 1347
+  vehicle: br_142
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1347_br_142_default_regional_railways_train.gnml
+  identifier: br_142_default_regional_railways_train
+  name_string: str_br_142_default_regional_railways_train_name
+  strings:
+    str_br_142_default_regional_railways_train_name: Class 142 Pacer - {GOLD}Regional
+      Railways
+- id: 1348
+  vehicle: br_142
+  profile: default
+  livery: northern rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1348_br_142_default_northern_rail_train.gnml
+  identifier: br_142_default_northern_rail_train
+  name_string: str_br_142_default_northern_rail_train_name
+  strings:
+    str_br_142_default_northern_rail_train_name: Class 142 Pacer - {GOLD}Northern
+      Rail
+- id: 1349
+  vehicle: br_142
+  profile: default
+  livery: northern spirit
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1349_br_142_default_northern_spirit_train.gnml
+  identifier: br_142_default_northern_spirit_train
+  name_string: str_br_142_default_northern_spirit_train_name
+  strings:
+    str_br_142_default_northern_spirit_train_name: Class 142 Pacer - {GOLD}Northern
+      Spirit
+- id: 1350
+  vehicle: br_142
+  profile: default
+  livery: arriva trains wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1350_br_142_default_arriva_trains_wales_train.gnml
+  identifier: br_142_default_arriva_trains_wales_train
+  name_string: str_br_142_default_arriva_trains_wales_train_name
+  strings:
+    str_br_142_default_arriva_trains_wales_train_name: Class 142 Pacer - {GOLD}Arriva
+      Trains Wales
+- id: 1351
+  vehicle: br_142
+  profile: default
+  livery: north western trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1351_br_142_default_north_western_trains_train.gnml
+  identifier: br_142_default_north_western_trains_train
+  name_string: str_br_142_default_north_western_trains_train_name
+  strings:
+    str_br_142_default_north_western_trains_train_name: Class 142 Pacer - {GOLD}North
+      Western Trains
+- id: 1352
+  vehicle: br_142
+  profile: default
+  livery: merseyrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1352_br_142_default_merseyrail_train.gnml
+  identifier: br_142_default_merseyrail_train
+  name_string: str_br_142_default_merseyrail_train_name
+  strings:
+    str_br_142_default_merseyrail_train_name: Class 142 Pacer - {GOLD}Merseyrail
+- id: 1353
+  vehicle: br_142
+  profile: default
+  livery: wypte metro
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1353_br_142_default_wypte_metro_train.gnml
+  identifier: br_142_default_wypte_metro_train
+  name_string: str_br_142_default_wypte_metro_train_name
+  strings:
+    str_br_142_default_wypte_metro_train_name: Class 142 Pacer - {GOLD}WYPTE Metro
+- id: 1354
+  vehicle: br_102
+  profile: '1022'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 128
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1354_br_102_1022_br_blue_train.gnml
+  identifier: br_102_1022_br_blue_train
+  name_string: str_br_102_1022_br_blue_train_name
+  strings:
+    str_br_102_1022_br_blue_train_name: Class 102 - {SILVER}2-Car{BLACK} - {GOLD}BR
+      Blue
+- id: 1355
+  vehicle: br_102
+  profile: '1022'
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 128
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1355_br_102_1022_regional_railways_train.gnml
+  identifier: br_102_1022_regional_railways_train
+  name_string: str_br_102_1022_regional_railways_train_name
+  strings:
+    str_br_102_1022_regional_railways_train_name: Class 102 - {SILVER}2-Car{BLACK}
+      - {GOLD}Regional Railways
+- id: 1356
+  vehicle: br_102
+  profile: '1023'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1356_br_102_1023_network_south_east_train.gnml
+  identifier: br_102_1023_network_south_east_train
+  name_string: str_br_102_1023_network_south_east_train_name
+  strings:
+    str_br_102_1023_network_south_east_train_name: Class 102 - {SILVER}3-Car{BLACK}
+      - {GOLD}Network South East
+- id: 1357
+  vehicle: br_102
+  profile: '1023'
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1357_br_102_1023_br_blue_grey_train.gnml
+  identifier: br_102_1023_br_blue_grey_train
+  name_string: str_br_102_1023_br_blue_grey_train_name
+  strings:
+    str_br_102_1023_br_blue_grey_train_name: Class 102 - {SILVER}3-Car{BLACK} - {GOLD}BR
+      Blue Grey
+- id: 1358
+  vehicle: br_102
+  profile: '1023'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1358_br_102_1023_br_green_train.gnml
+  identifier: br_102_1023_br_green_train
+  name_string: str_br_102_1023_br_green_train_name
+  strings:
+    str_br_102_1023_br_green_train_name: Class 102 - {SILVER}3-Car{BLACK} - {GOLD}BR
+      Green
+- id: 1359
+  vehicle: br_102
+  profile: '1023'
+  livery: br green (yellow front)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1359_br_102_1023_br_green__yellow_front__train.gnml
+  identifier: br_102_1023_br_green__yellow_front__train
+  name_string: str_br_102_1023_br_green__yellow_front__train_name
+  strings:
+    str_br_102_1023_br_green__yellow_front__train_name: Class 102 - {SILVER}3-Car{BLACK}
+      - {GOLD}BR Green Yellow Front
+- id: 1360
+  vehicle: br_102
+  profile: '1023'
+  livery: br green (headlamp)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 192
+    articulated_count: 3
+    lengths:
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/1360_br_102_1023_br_green__headlamp__train.gnml
+  identifier: br_102_1023_br_green__headlamp__train
+  name_string: str_br_102_1023_br_green__headlamp__train_name
+  strings:
+    str_br_102_1023_br_green__headlamp__train_name: Class 102 - {SILVER}3-Car{BLACK}
+      - {GOLD}BR Green Headlamp

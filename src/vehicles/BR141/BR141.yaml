@@ -1,0 +1,56 @@
+special_tags:
+  - subclass/141
+
+info:
+  identifier: br_141
+  # Split out of the `br_pacer` candidate on Jon's instruction (2026-09-27); see
+  # `BR140/BR140.yaml` for the reason. `STR_NAME_BR141: BR Class 141 "Pacer" (2-car)`.
+  name: 'Class 141 Pacer'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 141 Pacer
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_BR141`'s own whole-consist figures, 410 hp / 26 t (oddity 6).
+  length: 7
+  speed: 75
+  power: 410
+  weight: 26
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 22
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1984-04-21
+
+profiles:
+  # One two-car formation, as the Class 140's: front at `position_in_articulated_veh % 2` 0,
+  # rear at 1.
+  - identifier: DEFAULT
+    num_vehicles: 2
+    # Per-part: the legacy callback is `return(94 * param_pax / 2)`, i.e. 47. The item's own
+    # `cargo_capacity` property reads 50 and the shared `sw_Turbostar_cargo_capacity` gives
+    # per-position figures no single BRBuild `capacity` can express (oddity 5).
+    capacity: 47
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/141
+
+liveries:
+  # The legacy `sw_BR141_cargo_subtype_text` order 0..2, which is also the composite's row
+  # order. Subtype 0's text string is `str_BRPrototype` while its graphics switch draws
+  # `sw_BR141_BRBlue` (the 141's own non-PTE blue at `x=0, y=133/153`); imported as `BR Blue`
+  # under the drawing's own naming, with the mismatch recorded as oddity 11.
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'WYPTE Metro'
+    special_tags: [operator/West Yorkshire PTE]
+  - name: 'WYPTE Verona'
+    special_tags: [operator/West Yorkshire PTE]

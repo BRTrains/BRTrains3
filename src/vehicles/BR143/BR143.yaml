@@ -1,0 +1,65 @@
+special_tags:
+  - subclass/143
+
+info:
+  identifier: br_143
+  # Split out of the `br_pacer` candidate on Jon's instruction (2026-09-27); see
+  # `BR140/BR140.yaml` for the reason. `STR_NAME_BR143: BR Class 143 "Pacer" (2-car)`.
+  name: 'Class 143 Pacer'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 143 Pacer
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_BR143`'s own whole-consist figures, 250 hp / 24 t (oddity 6).
+  length: 7
+  speed: 75
+  power: 250
+  weight: 24
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 22
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1985-04-21
+
+profiles:
+  # One two-car formation, as the Class 140's: `sw_BR143_<livery>` draws front at
+  # `position_in_articulated_veh % 2` 0 and rear at 1. The class is a symmetrical Pacer DMU
+  # and `item_BR143` declares no `VEHICLE_FLAG_TRAIN_HAS_CAB`, so `has_cab` stays unset
+  # (oddity 7).
+  - identifier: DEFAULT
+    num_vehicles: 2
+    # Per-part: the legacy callback is `return(112 * param_pax / 2)`, i.e. 56. The item's own
+    # `cargo_capacity` property reads 62 (oddity 5).
+    capacity: 56
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/143
+
+liveries:
+  # The legacy `sw_BR143_cargo_subtype_text` order 0..5, which is also the composite's row
+  # order: Regional, Valley Lines, WYPTE Metro, Wessex York, Northern Rail, GWR Green. The
+  # import had WYPTE Metro first, which disagreed with the legacy switch, so the split
+  # restores the legacy's own order. Oddity 3 records the relabelled names (Regional ->
+  # Regional Railways, Wessex Trains - York -> Wessex Trains York, GWR - Green -> Great
+  # Western Railway Green).
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]
+  - name: 'Valley Lines'
+    special_tags: [operator/Valley Lines]
+  - name: 'WYPTE Metro'
+    special_tags: [operator/West Yorkshire PTE]
+  - name: 'Wessex Trains York'
+    special_tags: [operator/Wessex Trains]
+  - name: 'Northern Rail'
+    special_tags: [operator/Northern Rail]
+  - name: 'Great Western Railway Green'
+    special_tags: [operator/Great Western Railway]

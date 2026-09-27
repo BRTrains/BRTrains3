@@ -1,12 +1,21 @@
 special_tags:
   - subclass/101
-  - subclass/102
 
 info:
   identifier: br_101
-  name: 'Class 101/102'
+  # Split from the `Class 101/102` candidate on Jon's instruction (2026-09-27): the Class 102
+  # is a separate unit, not a sub-class, and was only filed here as the `102_2` / `102_3`
+  # profiles because the two are very similar and share the artist's strip. The Class 101
+  # keeps its identifier, so its variants keep their registry ids; the Class 102 is now its
+  # own candidate (`br_102`, `src/vehicles/BR102/`) with its own copy of the drawings.
+  #
+  # The 101 and 102 are commissioned artwork with no BRTrains2 `.pnml` unit: the objective
+  # source is the artist's combined strip, kept as `BR101/ingested/BR101.png`, and the row
+  # inventory recorded in `BRTrains3-artwork-tools/compose_101_901.py` and in the notes
+  # ("Class 101/102 and Class 901", 2026-09-21).
+  name: 'Class 101'
   sub_name: First-generation diesel multiple unit
-  based_on: British Rail Classes 101 and 102
+  based_on: British Rail Class 101
 
 stats:
   vehicle_type: train
@@ -25,8 +34,12 @@ dates:
   introduction_date: 1956-01-01
 
 profiles:
+  # Each profile is one formation and consumes consecutive rows off the sheet: the two-car
+  # groups take two rows, the three-car groups three, so no `sprite_override` is needed.
+  # The composite packs them in the order these profiles and liveries declare
+  # (`compose_101_901.py`'s `GROUPS`).
   - identifier: 101_2
-    name: 'Class 101 2-Car'
+    name: '2-Car'
     num_vehicles: 2
     weight: 65
     capacity: 128
@@ -34,51 +47,36 @@ profiles:
       - formation/2-car
       - subclass/101
   - identifier: 101_3
-    name: 'Class 101 3-Car'
+    name: '3-Car'
     num_vehicles: 3
     weight: 90
     capacity: 192
     special_tags:
       - formation/3-car
       - subclass/101
-  - identifier: 102_2
-    name: 'Class 102 2-Car'
-    num_vehicles: 2
-    weight: 65
-    capacity: 128
-    sprite_group: 101_2
-    special_tags:
-      - formation/2-car
-      - subclass/102
-  - identifier: 102_3
-    name: 'Class 102 3-Car'
-    num_vehicles: 3
-    weight: 90
-    capacity: 192
-    sprite_group: 101_3
-    special_tags:
-      - formation/3-car
-      - subclass/102
 
 liveries:
+  # The artist's strip order, restricted per formation exactly as before the split: the two
+  # two-car liveries first, then the five three-car ones. The Class 102 offers the same
+  # seven, so this list is repeated in `BR102/BR102.yaml` with the `102_*` profiles.
   - name: 'BR Blue'
     special_tags: [operator/BR]
-    profiles: [101_2, 102_2]
-  - name: 'Network South East'
-    special_tags: [operator/Network SouthEast]
-    profiles: [101_3, 102_3]
+    profiles: [101_2]
   - name: 'Regional Railways'
     special_tags: [operator/Regional Railways]
-    profiles: [101_2, 102_2]
+    profiles: [101_2]
+  - name: 'Network South East'
+    special_tags: [operator/Network SouthEast]
+    profiles: [101_3]
   - name: 'BR Blue Grey'
     special_tags: [operator/BR]
-    profiles: [101_3, 102_3]
+    profiles: [101_3]
   - name: 'BR Green'
     special_tags: [operator/BR]
-    profiles: [101_3, 102_3]
+    profiles: [101_3]
   - name: 'BR Green (Yellow Front)'
     special_tags: [operator/BR]
-    profiles: [101_3, 102_3]
+    profiles: [101_3]
   - name: 'BR Green (Headlamp)'
     special_tags: [operator/BR]
-    profiles: [101_3, 102_3]
+    profiles: [101_3]

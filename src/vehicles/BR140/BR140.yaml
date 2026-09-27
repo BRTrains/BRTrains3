@@ -1,0 +1,63 @@
+special_tags:
+  - subclass/140
+
+info:
+  identifier: br_140
+  # Split out of the `br_pacer` candidate on Jon's instruction (2026-09-27): the four Pacer
+  # classes are separate units, not sub-classes of one, and were only filed together
+  # because the legacy set puts all four under one `variant_group: header_Pacer` on one
+  # sheet. Each class is now its own candidate with its own sheet
+  # (`BRTrains3-artwork-tools/compose_pacer_sheet.py` writes one per class), so the class
+  # designation appears once in a displayed name instead of twice (the old candidate read
+  # `Class 140/141/142/143 Pacer - Class 140 - BR Blue` - oddity 1).
+  #
+  # The Class 140 is the prototype unit; the legacy name string is
+  # `STR_NAME_BR140: BR Class 140 "Pacer" Prototype (2-car)`.
+  name: 'Class 140 Pacer Prototype'
+  sub_name: Diesel multiple unit
+  based_on: British Rail Class 140 Pacer
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # BRBuild's power and weight are per-part; `item_BR140` (BRTrains2
+  # `src/trains/diesel_mu/Pacer/BR140.pnml`) carries the whole-consist figures 410 hp / 23 t,
+  # which is what the import took (oddity 6).
+  length: 7
+  speed: 75
+  power: 410
+  weight: 23
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+loading_speed: 22
+cargo_age_period: 185
+
+dates:
+  # `item_BR140`'s own `date(1981, 4, 21)` (oddity 8).
+  introduction_date: 1981-04-21
+
+profiles:
+  # One two-car formation: `switch_articulated_BR140` adds one part and `sw_BR140_BRBlue`
+  # draws front at `position_in_articulated_veh % 2` 0 and rear at 1, so the class's group
+  # is two rows and `sprite_override: [1, 2]` is the identity pattern over them.
+  - identifier: DEFAULT
+    num_vehicles: 2
+    # Per-part: the legacy callback is `return(104 * param_pax / 2)`, i.e. 52 (oddity 5).
+    capacity: 52
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/140
+
+liveries:
+  # The legacy's only `cargo_subtype` (0) is `str_BRPrototype` ("BR - Prototype"), drawn
+  # from `spriteset_BR140_front/rear_Blue` at `x=0, y=13/33`; imported as `BR Blue` for the
+  # graphics switch's own naming, the same judgement as the Class 141's subtype 0 (oddity 11).
+  # The 140's drawing is a distinct darker blue/grey scheme on the same body, not a copy of
+  # the 141's (oddities 4 and 12).
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
