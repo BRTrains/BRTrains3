@@ -1,6 +1,7 @@
 project:
   name: BRTrains3
   build: true
+  docs: true
   target_folders:
     - src/vehicles
   grf_folder: src/grf
