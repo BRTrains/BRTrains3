@@ -31320,3 +31320,50 @@ variants:
   name_string: str_br_805_default_hitachi___white_train_name
   strings:
     str_br_805_default_hitachi___white_train_name: Class 805 - {GOLD}Hitachi - White
+- id: 2361
+  vehicle: br_756
+  profile: '756_3'
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 55
+    articulated_count: 4
+    lengths:
+    - 7
+    - 7
+    - 6
+    - 5
+  archive: generated_variants/2361_br_756_756_3_transport_for_wales_train.gnml
+  identifier: br_756_756_3_transport_for_wales_train
+  name_string: str_br_756_756_3_transport_for_wales_train_name
+  strings:
+    str_br_756_756_3_transport_for_wales_train_name: Class 756 - {SILVER}756/0 3-Car
+      with Power Pack{BLACK} - {GOLD}Transport for Wales
+- id: 2362
+  vehicle: br_756
+  profile: '756_4'
+  livery: transport for wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 57
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 5
+    - 5
+    - 6
+  archive: generated_variants/2362_br_756_756_4_transport_for_wales_train.gnml
+  identifier: br_756_756_4_transport_for_wales_train
+  name_string: str_br_756_756_4_transport_for_wales_train_name
+  strings:
+    str_br_756_756_4_transport_for_wales_train_name: Class 756 - {SILVER}756/1 4-Car
+      with Power Pack{BLACK} - {GOLD}Transport for Wales

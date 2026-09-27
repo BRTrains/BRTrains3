@@ -1,0 +1,64 @@
+info:
+  identifier: br_756
+  name: 'Class 756'
+  sub_name: Diesel-electric multiple unit
+  based_on: Stadler FLIRT UK Class 756
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 94.8
+  length: 7
+  power: 3500
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+    - electric
+  # The legacy items declare `track_type: RAIL` (self-powered) and switch their power and
+  # particle effects on `tile_powers_railtype("ELRL")`, so the unit runs on the wires and off
+  # them; both are declared rather than inferred from `power_type`, as for the Class 769/810.
+  track_type:
+    - RAIL
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 15
+
+dates:
+  introduction_date: 2019-07-29
+
+profiles:
+  - identifier: '756_3'
+    name: '756/0 (3-Car with Power Pack)'
+    num_vehicles: 4
+    capacity: 55.67
+    # `switch_br_756_3_spriteset` (BRTrains2 `src/trains/multimode_mu/756-3.pnml`) draws
+    # `position_in_articulated_veh % 4`: 0 = front, 1 = the pantograph car, 2 = the 24px
+    # trailer, 3 = the rear car. The values are the four drawings the livery's own row group
+    # holds, packed in this order.
+    sprite_override: [1, 4, 3, 2]
+    special_tags:
+      - formation/4-car
+      - subclass/756_0
+  - identifier: '756_4'
+    name: '756/1 (4-Car with Power Pack)'
+    num_vehicles: 5
+    capacity: 57.25
+    # `switch_br_756_4_spriteset` draws `position_in_articulated_veh % 5`: 0 = front,
+    # 1 = the 24px trailer, 2 = the pantograph car, 3 = the double-door car, 4 = the rear car.
+    # Values 3 and 4 are the four drawings the livery's row group holds, so the doubledoor
+    # drawing is reused at the fourth position (the legacy reads the doubledoor spriteset
+    # there; only its row count has to fit the group).
+    sprite_override: [1, 2, 3, 3, 4]
+    special_tags:
+      - formation/5-car
+      - subclass/756_1
+
+liveries:
+  - name: 'Transport for Wales'
+    special_tags: [operator/Transport for Wales]
+    profiles:
+      - '756_3'
+      - '756_4'
