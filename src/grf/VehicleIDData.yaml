@@ -27639,3 +27639,208 @@ variants:
   strings:
     str_br_745_745_greater_anglia_stansted_express_train_name: Class 745/0/1 "FLIRT"
       - {SILVER}12-Car{BLACK} - {GOLD}Greater Anglia Stansted Express
+- id: 2197
+  vehicle: br_421
+  profile: '421_4'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2197_br_421_421_4_br_green_train.gnml
+  identifier: br_421_421_4_br_green_train
+  name_string: str_br_421_421_4_br_green_train_name
+  strings:
+    str_br_421_421_4_br_green_train_name: Class 421 "4-CIG" - {SILVER}421_4{BLACK}
+      - {GOLD}BR Green
+- id: 2198
+  vehicle: br_421
+  profile: '421_4'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2198_br_421_421_4_br_blue_and_grey_train.gnml
+  identifier: br_421_421_4_br_blue_and_grey_train
+  name_string: str_br_421_421_4_br_blue_and_grey_train_name
+  strings:
+    str_br_421_421_4_br_blue_and_grey_train_name: Class 421 "4-CIG" - {SILVER}421_4{BLACK}
+      - {GOLD}BR Blue and Grey
+- id: 2199
+  vehicle: br_421
+  profile: '421_4'
+  livery: london and south east - jaffa cake
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2199_br_421_421_4_london_and_south_east___jaffa_cake_train.gnml
+  identifier: br_421_421_4_london_and_south_east___jaffa_cake_train
+  name_string: str_br_421_421_4_london_and_south_east___jaffa_cake_train_name
+  strings:
+    str_br_421_421_4_london_and_south_east___jaffa_cake_train_name: Class 421 "4-CIG"
+      - {SILVER}421_4{BLACK} - {GOLD}London and South East - Jaffa Cake
+- id: 2200
+  vehicle: br_421
+  profile: '421_4'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2200_br_421_421_4_network_south_east_train.gnml
+  identifier: br_421_421_4_network_south_east_train
+  name_string: str_br_421_421_4_network_south_east_train_name
+  strings:
+    str_br_421_421_4_network_south_east_train_name: Class 421 "4-CIG" - {SILVER}421_4{BLACK}
+      - {GOLD}Network South East
+- id: 2201
+  vehicle: br_421
+  profile: '421_4'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2201_br_421_421_4_south_west_trains_train.gnml
+  identifier: br_421_421_4_south_west_trains_train
+  name_string: str_br_421_421_4_south_west_trains_train_name
+  strings:
+    str_br_421_421_4_south_west_trains_train_name: Class 421 "4-CIG" - {SILVER}421_4{BLACK}
+      - {GOLD}South West Trains
+- id: 2202
+  vehicle: br_421
+  profile: '421_4'
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2202_br_421_421_4_connex_train.gnml
+  identifier: br_421_421_4_connex_train
+  name_string: str_br_421_421_4_connex_train_name
+  strings:
+    str_br_421_421_4_connex_train_name: Class 421 "4-CIG" - {SILVER}421_4{BLACK} -
+      {GOLD}Connex
+- id: 2203
+  vehicle: br_421
+  profile: '421_4'
+  livery: southern
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2203_br_421_421_4_southern_train.gnml
+  identifier: br_421_421_4_southern_train
+  name_string: str_br_421_421_4_southern_train_name
+  strings:
+    str_br_421_421_4_southern_train_name: Class 421 "4-CIG" - {SILVER}421_4{BLACK}
+      - {GOLD}Southern
+- id: 2204
+  vehicle: br_421
+  profile: '421_7'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2204_br_421_421_7_network_south_east_train.gnml
+  identifier: br_421_421_7_network_south_east_train
+  name_string: str_br_421_421_7_network_south_east_train_name
+  strings:
+    str_br_421_421_7_network_south_east_train_name: Class 421 "4-CIG" - {SILVER}421_7{BLACK}
+      - {GOLD}Network South East
+- id: 2205
+  vehicle: br_421
+  profile: '421_7'
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2205_br_421_421_7_connex_train.gnml
+  identifier: br_421_421_7_connex_train
+  name_string: str_br_421_421_7_connex_train_name
+  strings:
+    str_br_421_421_7_connex_train_name: Class 421 "4-CIG" - {SILVER}421_7{BLACK} -
+      {GOLD}Connex

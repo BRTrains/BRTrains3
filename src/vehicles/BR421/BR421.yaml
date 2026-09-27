@@ -1,0 +1,68 @@
+info:
+  identifier: br_421
+  name: 'Class 421 "4-CIG"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 421
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 158
+  power: 1000
+  length: 8
+  speed: 90
+  tractive_effort: 0.07
+  power_type:
+    - electric
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1964-04-21
+
+profiles:
+  - identifier: '421_4'
+    num_vehicles: 4
+    capacity: 54
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/421_4
+
+  - identifier: '421_7'
+    num_vehicles: 3
+    capacity: 54
+    weight: 126
+    introduction_date: 1997-04-21
+    sprite_override: [1, 2, 3]
+    special_tags:
+      - formation/3-car
+      - subclass/421_7
+
+liveries:
+  - name: 'BR Green'
+    profiles: ['421_4']
+    special_tags: [operator/BR]
+  - name: 'BR Blue and Grey'
+    profiles: ['421_4']
+    special_tags: [operator/BR]
+  - name: 'London and South East - Jaffa Cake'
+    profiles: ['421_4']
+    special_tags: [operator/BR]
+  - name: 'Network South East'
+    profiles: ['421_4', '421_7']
+    special_tags: [operator/Network SouthEast]
+  - name: 'South West Trains'
+    profiles: ['421_4']
+    special_tags: [operator/South West Trains]
+  - name: 'Connex'
+    profiles: ['421_4', '421_7']
+    special_tags: [operator/Connex]
+  - name: 'Southern'
+    profiles: ['421_4']
+    special_tags: [operator/Southern]
