@@ -27537,3 +27537,23 @@ variants:
   strings:
     str_lner_a3_default_br_brunswick_green_train_name: LNER Gresley Class A3 4-6-2
       - {GOLD}BR Brunswick Green
+- id: 2193
+  vehicle: br_mk5
+  profile: sleeper
+  livery: caledonian sleeper
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 9
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2193_br_mk5_sleeper_caledonian_sleeper_train.gnml
+  identifier: br_mk5_sleeper_caledonian_sleeper_train
+  name_string: str_br_mk5_sleeper_caledonian_sleeper_train_name
+  strings:
+    str_br_mk5_sleeper_caledonian_sleeper_train_name: Mk5 Coach - {SILVER}Sleeper{BLACK}
+      - {GOLD}Caledonian Sleeper
