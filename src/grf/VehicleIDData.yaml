@@ -33118,3 +33118,63 @@ variants:
   strings:
     str_br_vga_default_br_grey___exhibition_train_name: BR VGA Wagon - {GOLD}BR Grey
       - Exhibition
+- id: 2449
+  vehicle: br_vga
+  profile: vka
+  livery: br grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2449_br_vga_vka_br_grey_train.gnml
+  identifier: br_vga_vka_br_grey_train
+  name_string: str_br_vga_vka_br_grey_train_name
+  strings:
+    str_br_vga_vka_br_grey_train_name: BR VGA Wagon - {SILVER}VKA Covered Van{BLACK}
+      - {GOLD}BR Grey
+- id: 2450
+  vehicle: br_vga
+  profile: vka
+  livery: br grey - speedlink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2450_br_vga_vka_br_grey___speedlink_train.gnml
+  identifier: br_vga_vka_br_grey___speedlink_train
+  name_string: str_br_vga_vka_br_grey___speedlink_train_name
+  strings:
+    str_br_vga_vka_br_grey___speedlink_train_name: BR VGA Wagon - {SILVER}VKA Covered
+      Van{BLACK} - {GOLD}BR Grey - Speedlink
+- id: 2451
+  vehicle: br_vga
+  profile: vka
+  livery: br grey - exhibition
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 35
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2451_br_vga_vka_br_grey___exhibition_train.gnml
+  identifier: br_vga_vka_br_grey___exhibition_train
+  name_string: str_br_vga_vka_br_grey___exhibition_train_name
+  strings:
+    str_br_vga_vka_br_grey___exhibition_train_name: BR VGA Wagon - {SILVER}VKA Covered
+      Van{BLACK} - {GOLD}BR Grey - Exhibition

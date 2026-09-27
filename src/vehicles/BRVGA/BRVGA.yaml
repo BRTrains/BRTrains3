@@ -28,6 +28,16 @@ profiles:
       - formation/1-car
       - subclass/vga
 
+  - identifier: vka
+    name: 'VKA Covered Van'
+    num_vehicles: 1
+    capacity: 35
+    introduction_date: 1983-01-01
+    sprite_group: 'DEFAULT'
+    special_tags:
+      - formation/1-car
+      - subclass/vka
+
 liveries:
   - name: 'BR Grey'
     special_tags: [operator/BR]
