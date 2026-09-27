@@ -27944,3 +27944,83 @@ variants:
   strings:
     str_lner_gresley_616tk_default_br_blue_train_name: LNER Gresley 61' 6" TK - {GOLD}BR
       Blue
+- id: 2211
+  vehicle: lner_gresley_616bck
+  profile: default
+  livery: lner "teak"
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 36
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2211_lner_gresley_616bck_default_lner__teak__train.gnml
+  identifier: lner_gresley_616bck_default_lner__teak__train
+  name_string: str_lner_gresley_616bck_default_lner__teak__train_name
+  strings:
+    str_lner_gresley_616bck_default_lner__teak__train_name: LNER Gresley 61' 6" BCK
+      - {GOLD}LNER "Teak"
+- id: 2212
+  vehicle: lner_gresley_616bck
+  profile: default
+  livery: lner "blood and custard"
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 36
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2212_lner_gresley_616bck_default_lner__blood_and_custard__train.gnml
+  identifier: lner_gresley_616bck_default_lner__blood_and_custard__train
+  name_string: str_lner_gresley_616bck_default_lner__blood_and_custard__train_name
+  strings:
+    str_lner_gresley_616bck_default_lner__blood_and_custard__train_name: LNER Gresley
+      61' 6" BCK - {GOLD}LNER "Blood and Custard"
+- id: 2213
+  vehicle: lner_gresley_616bck
+  profile: default
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 36
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2213_lner_gresley_616bck_default_br_maroon_train.gnml
+  identifier: lner_gresley_616bck_default_br_maroon_train
+  name_string: str_lner_gresley_616bck_default_br_maroon_train_name
+  strings:
+    str_lner_gresley_616bck_default_br_maroon_train_name: LNER Gresley 61' 6" BCK
+      - {GOLD}BR Maroon
+- id: 2214
+  vehicle: lner_gresley_616bck
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 36
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2214_lner_gresley_616bck_default_br_blue_train.gnml
+  identifier: lner_gresley_616bck_default_br_blue_train
+  name_string: str_lner_gresley_616bck_default_br_blue_train_name
+  strings:
+    str_lner_gresley_616bck_default_br_blue_train_name: LNER Gresley 61' 6" BCK -
+      {GOLD}BR Blue

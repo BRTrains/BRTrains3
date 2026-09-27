@@ -1,0 +1,39 @@
+info:
+  identifier: lner_gresley_616bck
+  name: "LNER Gresley 61' 6\" BCK"
+  sub_name: Passenger coach
+  based_on: "LNER Gresley 61' 6\" BCK"
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 38
+  length: 8
+  power: 0
+  speed: 100
+  tractive_effort: 0
+
+cargo: passenger
+
+dates:
+  # The legacy `item_LNER_Gresley_616BCK` (702) declares `date(1926,1,1)` directly, so the
+  # candidate's own date is that figure rather than a family fallback.
+  introduction_date: 1926-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 36
+    special_tags:
+      - formation/1-car
+      - subclass/gresley_616bck
+
+liveries:
+  - name: 'LNER "Teak"'
+    special_tags: [operator/LNER]
+  - name: 'LNER "Blood and Custard"'
+    special_tags: [operator/BR]
+  - name: 'BR Maroon'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
