@@ -1,0 +1,67 @@
+info:
+  identifier: br_745
+  # One candidate for the two legacy items' single item (`BRTrains2/src/trains/electric_mu/745-0-1.pnml`,
+  # item 449, `variant_group: header_Flirt`) - the Class 745/0 InterCity and the Class 745/1
+  # Stansted Express sets are the same twelve-car EMU with the same four drawings on the same
+  # sheet (`gfx/BR745.png`), differing only in livery and in the seating figure, so they are two
+  # liveries of one formation rather than two candidates (the Class 390 precedent for two
+  # formations under one name, and the `sw_BR745_cargo_subtype_text` 0..1 livery order).
+  name: 'Class 745/0/1 "FLIRT"'
+  sub_name: Electric multiple unit
+  based_on: Stadler FLIRT UK Class 745
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # `item_br_745`'s own whole-consist figures: 440 ton, 5200 kW (6975 hp), 100 mph,
+  # `tractive_effort_coefficient` 0.3, `length` 7.
+  weight: 440
+  power: 6975
+  length: 7
+  speed: 100
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - ELRL
+
+cargo: passenger
+
+loading_speed: 15
+
+dates:
+  introduction_date: 2020-01-08
+
+profiles:
+  # One twelve-car formation. The legacy `switch_br_745_articulated` adds parts 1..11 to
+  # `item_br_745`, so the unit is twelve vehicles, and `switch_br_745_0_spriteset` draws them by
+  # `position_in_articulated_veh % 12`: 0 = `spriteset_br745a` (the root `default:` drawing, the
+  # leading car), 10 = `spriteset_br745d` (its 1px-lower roof line is the raised pantograph),
+  # 11 = `spriteset_br745b` (the rear car) and the plain `spriteset_br745c` elsewhere. The
+  # pattern therefore has the pantograph at position 10 and the rear cab at position 11, which
+  # `sprite_override` states explicitly: BRBuild's `num_vehicles: 12` path would otherwise assign
+  # `[1..12]` (one drawing per position) and its `standard_pattern` would put the pantograph on
+  # the last but one *middle* car, so the legacy order is written out. It needs four rows
+  # (`max(pattern)`), one group of four per livery.
+  - identifier: '745'
+    name: 12-Car
+    num_vehicles: 12
+    sprite_override: [1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 2]
+    # The legacy `switch_br_745_capacity`: `757/12` per part both liveries (`767/12` for
+    # Stansted divides to the same 63). BRBuild's `capacity` is per-part, and the legacy
+    # expression is already per-part, so the quotient is carried rather than the dividend.
+    capacity: 63.08
+    special_tags:
+      - formation/12-car
+      - subclass/745
+
+liveries:
+  # `sw_BR745_subtype_text` order 0..1: `STR_LIVERY_BR_745_REGULAR` "Greater Anglia
+  # \"InterCity\"" and `STR_LIVERY_BR_745_STANSTED` "Greater Anglia \"Stansted Express\"".
+  # Both draw the same four `spriteset_br745*` rows (`switch_br_745_spriteset` selects only the
+  # same-position switch per subtype), so the sheet carries the four drawings twice, once per
+  # (profile, livery) group, in the allocator's consumption order.
+  - name: 'Greater Anglia InterCity'
+    special_tags: [operator/Greater Anglia]
+  - name: 'Greater Anglia Stansted Express'
+    special_tags: [operator/Greater Anglia]

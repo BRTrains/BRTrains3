@@ -27577,3 +27577,65 @@ variants:
   strings:
     str_lner_thompson_63tk_default_lner__teak__train_name: LNER Thompson 63' TK -
       {GOLD}LNER "Teak"
+- id: 2195
+  vehicle: br_745
+  profile: '745'
+  livery: greater anglia intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 63
+    articulated_count: 12
+    lengths:
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/2195_br_745_745_greater_anglia_intercity_train.gnml
+  identifier: br_745_745_greater_anglia_intercity_train
+  name_string: str_br_745_745_greater_anglia_intercity_train_name
+  strings:
+    str_br_745_745_greater_anglia_intercity_train_name: Class 745/0/1 "FLIRT" - {SILVER}12-Car{BLACK}
+      - {GOLD}Greater Anglia InterCity
+- id: 2196
+  vehicle: br_745
+  profile: '745'
+  livery: greater anglia stansted express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 63
+    articulated_count: 12
+    lengths:
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+  archive: generated_variants/2196_br_745_745_greater_anglia_stansted_express_train.gnml
+  identifier: br_745_745_greater_anglia_stansted_express_train
+  name_string: str_br_745_745_greater_anglia_stansted_express_train_name
+  strings:
+    str_br_745_745_greater_anglia_stansted_express_train_name: Class 745/0/1 "FLIRT"
+      - {SILVER}12-Car{BLACK} - {GOLD}Greater Anglia Stansted Express
