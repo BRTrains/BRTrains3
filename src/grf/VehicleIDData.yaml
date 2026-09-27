@@ -28230,3 +28230,47 @@ variants:
   strings:
     str_wd_austerity_tank_default_wartime_black_train_name: WD Austerity Tank 0-6-0ST
       - {GOLD}Wartime Black
+- id: 2224
+  vehicle: lud78
+  profile: default
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2224_lud78_default_london_underground_train.gnml
+  identifier: lud78_default_london_underground_train
+  name_string: str_lud78_default_london_underground_train_name
+  strings:
+    str_lud78_default_london_underground_train_name: London Underground D78 Stock
+      - {GOLD}London Underground
+- id: 2225
+  vehicle: lud78
+  profile: default
+  livery: london underground - pre-refurbishment
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2225_lud78_default_london_underground___pre_refurbishment_train.gnml
+  identifier: lud78_default_london_underground___pre_refurbishment_train
+  name_string: str_lud78_default_london_underground___pre_refurbishment_train_name
+  strings:
+    str_lud78_default_london_underground___pre_refurbishment_train_name: London Underground
+      D78 Stock - {GOLD}London Underground - Pre-Refurbishment
