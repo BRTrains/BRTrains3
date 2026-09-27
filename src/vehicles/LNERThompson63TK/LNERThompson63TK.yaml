@@ -1,0 +1,46 @@
+info:
+  identifier: lner_thompson_63tk
+  name: "LNER Thompson 63' TK"
+  sub_name: Passenger coach
+  based_on: "LNER Thompson 63' TK"
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 33
+  length: 8
+  power: 0
+  speed: 100
+  tractive_effort: 0
+
+cargo: passenger
+
+dates:
+  # The legacy `item_LNER_Thompson_63TK` (670) declares `date(1946,1,1)` directly, so the
+  # candidate's own date is that figure rather than a family fallback.
+  introduction_date: 1946-01-01
+
+profiles:
+  # One single-car profile; the one drawing it needs is the candidate's own sheet.
+  #
+  # The legacy `sw_LNER_Thompson_63TK` reads exactly one spriteset for `cargo_subtype` 0
+  # (`spriteset_LNER_Thompson_63TK_Teak`, `template_train32px(0, 13)`), so the candidate has
+  # no articulated parts and needs no `sprite_override`. The source sheet also draws a second
+  # band at y=39 that no spriteset references - it is a duplicate of the y=13 drawing, not a
+  # rear/front pair (see the oddities entry) - so only y=13 is imported.
+  #
+  # `capacity` is the legacy callback `return(42 * param_pax)`, already per-part, and the
+  # legacy weight is 33 ton (carried on the vehicle). `loading_speed` is deliberately not set:
+  # the legacy item declares 10, but every BRTrains3 coach so far has left it unset.
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 42
+    special_tags:
+      - formation/1-car
+      - subclass/lner_thompson_63tk
+
+liveries:
+  # `sw_LNER_Thompson_63TK_cargo_subtype_text` names a single subtype, 0 -> `str_LNERFauxTeak`
+  # "(LNER - \"Teak\")"; the item's own `str_LNER_Thompson_63TK_liveries` says `LNER "Teak"`.
+  - name: 'LNER "Teak"'
+    special_tags: [operator/LNER]

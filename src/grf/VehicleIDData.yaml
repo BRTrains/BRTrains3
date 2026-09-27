@@ -27557,3 +27557,23 @@ variants:
   strings:
     str_br_mk5_sleeper_caledonian_sleeper_train_name: Mk5 Coach - {SILVER}Sleeper{BLACK}
       - {GOLD}Caledonian Sleeper
+- id: 2194
+  vehicle: lner_thompson_63tk
+  profile: default
+  livery: lner "teak"
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2194_lner_thompson_63tk_default_lner__teak__train.gnml
+  identifier: lner_thompson_63tk_default_lner__teak__train
+  name_string: str_lner_thompson_63tk_default_lner__teak__train_name
+  strings:
+    str_lner_thompson_63tk_default_lner__teak__train_name: LNER Thompson 63' TK -
+      {GOLD}LNER "Teak"
