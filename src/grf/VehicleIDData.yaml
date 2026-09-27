@@ -29755,3 +29755,57 @@ variants:
     str_lu_1986_1986_2_london_underground___blue__experimental__train_name: London
       Underground 1986 Stock - {SILVER}2-Car{BLACK} - {GOLD}London Underground - Blue
       Experimental
+- id: 2294
+  vehicle: lu_1938
+  profile: default
+  livery: london underground (red roof)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2294_lu_1938_default_london_underground__red_roof__train.gnml
+  identifier: lu_1938_default_london_underground__red_roof__train
+  name_string: str_lu_1938_default_london_underground__red_roof__train_name
+  strings:
+    str_lu_1938_default_london_underground__red_roof__train_name: London Underground
+      1938 Stock - {GOLD}London Underground Red Roof
+- id: 2295
+  vehicle: lu_1938
+  profile: default
+  livery: london underground (grey roof)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2295_lu_1938_default_london_underground__grey_roof__train.gnml
+  identifier: lu_1938_default_london_underground__grey_roof__train
+  name_string: str_lu_1938_default_london_underground__grey_roof__train_name
+  strings:
+    str_lu_1938_default_london_underground__grey_roof__train_name: London Underground
+      1938 Stock - {GOLD}London Underground Grey Roof
