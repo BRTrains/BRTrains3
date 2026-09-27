@@ -27089,3 +27089,285 @@ variants:
   strings:
     str_br_mk3_truk_blue_pullman_train_name: Mk3 Coach - {SILVER}Trailer Kitchen{BLACK}
       - {GOLD}Blue Pullman
+- id: 2172
+  vehicle: br_508
+  profile: '508_0'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2172_br_508_508_0_br_blue_train.gnml
+  identifier: br_508_508_0_br_blue_train
+  name_string: str_br_508_508_0_br_blue_train_name
+  strings:
+    str_br_508_508_0_br_blue_train_name: Class 508 - {SILVER}508_0{BLACK} - {GOLD}BR
+      Blue
+- id: 2173
+  vehicle: br_508
+  profile: '508_1'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2173_br_508_508_1_br_blue_train.gnml
+  identifier: br_508_508_1_br_blue_train
+  name_string: str_br_508_508_1_br_blue_train_name
+  strings:
+    str_br_508_508_1_br_blue_train_name: Class 508 - {SILVER}508_1{BLACK} - {GOLD}BR
+      Blue
+- id: 2174
+  vehicle: br_508
+  profile: '508_1'
+  livery: merseyrail - old
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2174_br_508_508_1_merseyrail___old_train.gnml
+  identifier: br_508_508_1_merseyrail___old_train
+  name_string: str_br_508_508_1_merseyrail___old_train_name
+  strings:
+    str_br_508_508_1_merseyrail___old_train_name: Class 508 - {SILVER}508_1{BLACK}
+      - {GOLD}Merseyrail - Old
+- id: 2175
+  vehicle: br_508
+  profile: '508_1'
+  livery: silverlink
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2175_br_508_508_1_silverlink_train.gnml
+  identifier: br_508_508_1_silverlink_train
+  name_string: str_br_508_508_1_silverlink_train_name
+  strings:
+    str_br_508_508_1_silverlink_train_name: Class 508 - {SILVER}508_1{BLACK} - {GOLD}Silverlink
+- id: 2176
+  vehicle: br_508
+  profile: '508_1'
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2176_br_508_508_1_connex_train.gnml
+  identifier: br_508_508_1_connex_train
+  name_string: str_br_508_508_1_connex_train_name
+  strings:
+    str_br_508_508_1_connex_train_name: Class 508 - {SILVER}508_1{BLACK} - {GOLD}Connex
+- id: 2177
+  vehicle: br_508
+  profile: '508_1'
+  livery: southeastern - yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2177_br_508_508_1_southeastern___yellow_train.gnml
+  identifier: br_508_508_1_southeastern___yellow_train
+  name_string: str_br_508_508_1_southeastern___yellow_train_name
+  strings:
+    str_br_508_508_1_southeastern___yellow_train_name: Class 508 - {SILVER}508_1{BLACK}
+      - {GOLD}Southeastern - Yellow
+- id: 2178
+  vehicle: br_508
+  profile: '508_1'
+  livery: southeastern - blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2178_br_508_508_1_southeastern___blue_train.gnml
+  identifier: br_508_508_1_southeastern___blue_train
+  name_string: str_br_508_508_1_southeastern___blue_train_name
+  strings:
+    str_br_508_508_1_southeastern___blue_train_name: Class 508 - {SILVER}508_1{BLACK}
+      - {GOLD}Southeastern - Blue
+- id: 2179
+  vehicle: br_508
+  profile: '508_1'
+  livery: merseyrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2179_br_508_508_1_merseyrail_train.gnml
+  identifier: br_508_508_1_merseyrail_train
+  name_string: str_br_508_508_1_merseyrail_train_name
+  strings:
+    str_br_508_508_1_merseyrail_train_name: Class 508 - {SILVER}508_1{BLACK} - {GOLD}Merseyrail
+- id: 2180
+  vehicle: br_508
+  profile: '508_1'
+  livery: merseyrail - good communications
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2180_br_508_508_1_merseyrail___good_communications_train.gnml
+  identifier: br_508_508_1_merseyrail___good_communications_train
+  name_string: str_br_508_508_1_merseyrail___good_communications_train_name
+  strings:
+    str_br_508_508_1_merseyrail___good_communications_train_name: Class 508 - {SILVER}508_1{BLACK}
+      - {GOLD}Merseyrail - Good Communications
+- id: 2181
+  vehicle: br_507
+  profile: '507'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2181_br_507_507_br_blue_train.gnml
+  identifier: br_507_507_br_blue_train
+  name_string: str_br_507_507_br_blue_train_name
+  strings:
+    str_br_507_507_br_blue_train_name: Class 507 - {SILVER}507{BLACK} - {GOLD}BR Blue
+- id: 2182
+  vehicle: br_507
+  profile: '507'
+  livery: merseyrail - old
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2182_br_507_507_merseyrail___old_train.gnml
+  identifier: br_507_507_merseyrail___old_train
+  name_string: str_br_507_507_merseyrail___old_train_name
+  strings:
+    str_br_507_507_merseyrail___old_train_name: Class 507 - {SILVER}507{BLACK} - {GOLD}Merseyrail
+      - Old
+- id: 2183
+  vehicle: br_507
+  profile: '507'
+  livery: merseyrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2183_br_507_507_merseyrail_train.gnml
+  identifier: br_507_507_merseyrail_train
+  name_string: str_br_507_507_merseyrail_train_name
+  strings:
+    str_br_507_507_merseyrail_train_name: Class 507 - {SILVER}507{BLACK} - {GOLD}Merseyrail
+- id: 2184
+  vehicle: br_507
+  profile: '507'
+  livery: merseyrail - good communications
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 74
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2184_br_507_507_merseyrail___good_communications_train.gnml
+  identifier: br_507_507_merseyrail___good_communications_train
+  name_string: str_br_507_507_merseyrail___good_communications_train_name
+  strings:
+    str_br_507_507_merseyrail___good_communications_train_name: Class 507 - {SILVER}507{BLACK}
+      - {GOLD}Merseyrail - Good Communications
