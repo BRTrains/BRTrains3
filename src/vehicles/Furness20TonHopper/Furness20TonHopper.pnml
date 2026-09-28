@@ -1,0 +1,10 @@
+// The legacy graphics switch distinguishes cargo types that BRTrains3 does not
+// expose as a project cargo table. Keep the covered drawing as the stable default
+// while retaining all five source rows in the published sheet.
+spriteset(spriteset_furness_20t_hopper_covered, "Furness20TonHopper.png") {
+    tmpl_train_3(0, 16)
+}
+
+switch(FEAT_TRAINS, SELF, sw_furness_20t_hopper, cargo_type_in_veh) {
+    spriteset_furness_20t_hopper_covered;
+}

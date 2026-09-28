@@ -33642,3 +33642,23 @@ variants:
   strings:
     str_lner_gresley_616tpo_default_br_blue_train_name: LNER Gresley 61' 6" TPO -
       {GOLD}BR Blue
+- id: 2476
+  vehicle: furness_20t_hopper
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 20
+    articulated_count: 1
+    lengths:
+    - 3
+  archive: generated_variants/2476_furness_20t_hopper_default_default_train.gnml
+  identifier: furness_20t_hopper_default_default_train
+  name_string: str_furness_20t_hopper_default_default_train_name
+  strings:
+    str_furness_20t_hopper_default_default_train_name: Furness Railway 20-ton Hopper
+      Wagon
