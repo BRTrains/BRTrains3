@@ -1,0 +1,19 @@
+// The legacy cargo-count switch has no direct BRBuild cargo-table equivalent.
+// Preserve all three source rows while selecting the matching state by cargo count.
+spriteset(spriteset_furness_lumber_wagon_empty, "FurnessLumberWagon.png") {
+    tmpl_train_5(0, 0)
+}
+
+spriteset(spriteset_furness_lumber_wagon_half, "FurnessLumberWagon.png") {
+    tmpl_train_5(0, 20)
+}
+
+spriteset(spriteset_furness_lumber_wagon_full, "FurnessLumberWagon.png") {
+    tmpl_train_5(0, 40)
+}
+
+switch(FEAT_TRAINS, SELF, sw_furness_lumber_wagon_cargo, cargo_count) {
+    0 .. 19: spriteset_furness_lumber_wagon_empty;
+    20 .. 75: spriteset_furness_lumber_wagon_half;
+    spriteset_furness_lumber_wagon_full;
+}

@@ -33662,3 +33662,22 @@ variants:
   strings:
     str_furness_20t_hopper_default_default_train_name: Furness Railway 20-ton Hopper
       Wagon
+- id: 2477
+  vehicle: furness_lumber_wagon
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 20
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2477_furness_lumber_wagon_default_default_train.gnml
+  identifier: furness_lumber_wagon_default_default_train
+  name_string: str_furness_lumber_wagon_default_default_train_name
+  strings:
+    str_furness_lumber_wagon_default_default_train_name: Furness Railway Lumber Wagon

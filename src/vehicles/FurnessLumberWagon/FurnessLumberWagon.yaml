@@ -1,0 +1,34 @@
+info:
+  identifier: furness_lumber_wagon
+  name: 'Furness Railway Lumber Wagon'
+  sub_name: Lumber wagon
+  based_on: Furness Railway lumber wagon
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 9
+  length: 5
+  power: 0
+  tractive_effort: 0.08
+
+cargo: containerised
+autorefit: true
+loading_speed: 15
+
+nml_override:
+  default: sw_furness_lumber_wagon_cargo
+
+dates:
+  introduction_date: 1840-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 20
+    special_tags:
+      - formation/1-car
+      - subclass/furness_lumber_wagon
+
+liveries:
+  - name: Default
