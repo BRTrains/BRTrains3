@@ -33681,3 +33681,83 @@ variants:
   name_string: str_furness_lumber_wagon_default_default_train_name
   strings:
     str_furness_lumber_wagon_default_default_train_name: Furness Railway Lumber Wagon
+- id: 2478
+  vehicle: furness_goods_van
+  profile: default
+  livery: furness grey open
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 22
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2478_furness_goods_van_default_furness_grey_open_train.gnml
+  identifier: furness_goods_van_default_furness_grey_open_train
+  name_string: str_furness_goods_van_default_furness_grey_open_train_name
+  strings:
+    str_furness_goods_van_default_furness_grey_open_train_name: Furness Railway Goods
+      Van - {GOLD}Furness Grey Open
+- id: 2479
+  vehicle: furness_goods_van
+  profile: default
+  livery: furness grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 22
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2479_furness_goods_van_default_furness_grey_train.gnml
+  identifier: furness_goods_van_default_furness_grey_train
+  name_string: str_furness_goods_van_default_furness_grey_train_name
+  strings:
+    str_furness_goods_van_default_furness_grey_train_name: Furness Railway Goods Van
+      - {GOLD}Furness Grey
+- id: 2480
+  vehicle: furness_goods_van
+  profile: default
+  livery: furness brown open
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 22
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2480_furness_goods_van_default_furness_brown_open_train.gnml
+  identifier: furness_goods_van_default_furness_brown_open_train
+  name_string: str_furness_goods_van_default_furness_brown_open_train_name
+  strings:
+    str_furness_goods_van_default_furness_brown_open_train_name: Furness Railway Goods
+      Van - {GOLD}Furness Brown Open
+- id: 2481
+  vehicle: furness_goods_van
+  profile: default
+  livery: furness brown
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 22
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2481_furness_goods_van_default_furness_brown_train.gnml
+  identifier: furness_goods_van_default_furness_brown_train
+  name_string: str_furness_goods_van_default_furness_brown_train_name
+  strings:
+    str_furness_goods_van_default_furness_brown_train_name: Furness Railway Goods
+      Van - {GOLD}Furness Brown
