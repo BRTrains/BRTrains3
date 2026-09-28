@@ -1,0 +1,32 @@
+info:
+  identifier: rs_swb_hopper
+  name: 'LNER Standard Medium Hopper'
+  sub_name: Hopper wagon
+  based_on: LNER Standard Medium Hopper
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 20
+  length: 5
+  power: 0
+  tractive_effort: 0.08
+
+cargo: bulk
+autorefit: true
+loading_speed: 20
+
+dates:
+  introduction_date: 1881-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 40
+    special_tags:
+      - formation/1-car
+      - subclass/rs_swb_hopper
+
+liveries:
+  - name: Grey
+  - name: Brown

@@ -33761,3 +33761,41 @@ variants:
   strings:
     str_furness_goods_van_default_furness_brown_train_name: Furness Railway Goods
       Van - {GOLD}Furness Brown
+- id: 2482
+  vehicle: rs_swb_hopper
+  profile: default
+  livery: grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2482_rs_swb_hopper_default_grey_train.gnml
+  identifier: rs_swb_hopper_default_grey_train
+  name_string: str_rs_swb_hopper_default_grey_train_name
+  strings:
+    str_rs_swb_hopper_default_grey_train_name: LNER Standard Medium Hopper - {GOLD}Grey
+- id: 2483
+  vehicle: rs_swb_hopper
+  profile: default
+  livery: brown
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2483_rs_swb_hopper_default_brown_train.gnml
+  identifier: rs_swb_hopper_default_brown_train
+  name_string: str_rs_swb_hopper_default_brown_train_name
+  strings:
+    str_rs_swb_hopper_default_brown_train_name: LNER Standard Medium Hopper - {GOLD}Brown
