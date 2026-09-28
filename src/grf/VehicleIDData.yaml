@@ -34195,3 +34195,23 @@ variants:
   strings:
     str_blackpool_brush_mail_royal_mail_tram_name: Blackpool Brush Railcoach - {SILVER}Mail{BLACK}
       - {GOLD}Royal Mail
+- id: 2502
+  vehicle: blackpool_standard147
+  profile: default
+  livery: blackpool transport
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 100
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2502_blackpool_standard147_default_blackpool_transport_tram.gnml
+  identifier: blackpool_standard147_default_blackpool_transport_tram
+  name_string: str_blackpool_standard147_default_blackpool_transport_tram_name
+  strings:
+    str_blackpool_standard147_default_blackpool_transport_tram_name: Blackpool Trams
+      1920s "Standard" Double Decker - {GOLD}Blackpool Transport
