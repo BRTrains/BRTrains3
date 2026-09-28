@@ -1,0 +1,32 @@
+info:
+  identifier: furness_tank_wagon
+  name: 'Furness Railway Rectangular Tanker Wagon'
+  sub_name: Tank wagon
+  based_on: Furness Railway rectangular tank wagon
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 20
+  length: 5
+  power: 0
+  speed: 60
+  tractive_effort: 0.08
+
+cargo: liquid
+autorefit: true
+loading_speed: 15
+
+dates:
+  introduction_date: 1840-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 35
+    special_tags:
+      - formation/1-car
+      - subclass/furness_tank_wagon
+
+liveries:
+  - name: Grey
