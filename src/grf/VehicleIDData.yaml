@@ -34215,3 +34215,23 @@ variants:
   strings:
     str_blackpool_standard147_default_blackpool_transport_tram_name: Blackpool Trams
       1920s "Standard" Double Decker - {GOLD}Blackpool Transport
+- id: 2503
+  vehicle: bolton_66
+  profile: default
+  livery: bolton corporation
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 90
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2503_bolton_66_default_bolton_corporation_tram.gnml
+  identifier: bolton_66_default_bolton_corporation_tram
+  name_string: str_bolton_66_default_bolton_corporation_tram_name
+  strings:
+    str_bolton_66_default_bolton_corporation_tram_name: Bolton Corporation Electric
+      Tram Double Decker - {GOLD}Bolton Corporation
