@@ -33523,3 +33523,42 @@ variants:
   strings:
     str_furness_tank_wagon_default_grey_train_name: Furness Railway Rectangular Tanker
       Wagon - {GOLD}Grey
+- id: 2470
+  vehicle: gwr_mink_g
+  profile: default
+  livery: gwr grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 20
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2470_gwr_mink_g_default_gwr_grey_train.gnml
+  identifier: gwr_mink_g_default_gwr_grey_train
+  name_string: str_gwr_mink_g_default_gwr_grey_train_name
+  strings:
+    str_gwr_mink_g_default_gwr_grey_train_name: GWR Mink G Goods Van - {GOLD}GWR Grey
+- id: 2471
+  vehicle: gwr_mink_g
+  profile: default
+  livery: br bauxite
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 20
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2471_gwr_mink_g_default_br_bauxite_train.gnml
+  identifier: gwr_mink_g_default_br_bauxite_train
+  name_string: str_gwr_mink_g_default_br_bauxite_train_name
+  strings:
+    str_gwr_mink_g_default_br_bauxite_train_name: GWR Mink G Goods Van - {GOLD}BR
+      Bauxite

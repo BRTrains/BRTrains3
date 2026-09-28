@@ -1,0 +1,35 @@
+info:
+  identifier: gwr_mink_g
+  name: 'GWR Mink G Goods Van'
+  sub_name: Freight wagon
+  based_on: Great Western Railway Mink G goods van
+
+stats:
+  vehicle_type: train
+  train_type: wagon
+  weight: 20
+  length: 5
+  power: 0
+  speed: 50
+  tractive_effort: 0.08
+
+cargo: containerised
+autorefit: true
+loading_speed: 25
+
+dates:
+  introduction_date: 1930-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 20
+    special_tags:
+      - formation/1-car
+      - subclass/gwr_mink_g
+
+liveries:
+  - name: 'GWR Grey'
+    special_tags: [operator/GWR]
+  - name: 'BR Bauxite'
+    special_tags: [operator/BR]
