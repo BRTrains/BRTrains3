@@ -33934,3 +33934,60 @@ variants:
   strings:
     str_furness_k2_default_furness_red_train_name: Furness K2 Class 4-4-0 - {GOLD}Furness
       Red
+- id: 2490
+  vehicle: tgv
+  profile: default
+  livery: la poste
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 100
+    articulated_count: 10
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2490_tgv_default_la_poste_train.gnml
+  identifier: tgv_default_la_poste_train
+  name_string: str_tgv_default_la_poste_train_name
+  strings:
+    str_tgv_default_la_poste_train_name: SNCF TGV "La Poste" - {GOLD}La Poste
+- id: 2491
+  vehicle: tgv
+  profile: default
+  livery: royal mail (fictional)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 100
+    articulated_count: 10
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2491_tgv_default_royal_mail__fictional__train.gnml
+  identifier: tgv_default_royal_mail__fictional__train
+  name_string: str_tgv_default_royal_mail__fictional__train_name
+  strings:
+    str_tgv_default_royal_mail__fictional__train_name: SNCF TGV "La Poste" - {GOLD}Royal
+      Mail Fictional

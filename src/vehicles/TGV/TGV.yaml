@@ -1,0 +1,43 @@
+info:
+  identifier: tgv
+  name: 'SNCF TGV "La Poste"'
+  sub_name: Electric multiple unit
+  based_on: SNCF TGV La Poste
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 345
+  length: 8
+  power: 9119
+  speed: 168
+  tractive_effort: 0.3
+  power_type:
+    - electric
+  track_type:
+    - ELRL
+
+cargo: mail
+
+loading_speed: 10
+
+dates:
+  introduction_date: 2019-09-16
+
+profiles:
+  - identifier: DEFAULT
+    name: 10-Car
+    num_vehicles: 10
+    capacity: 100
+    special_tags:
+      - formation/10-car
+      - subclass/tgv
+
+liveries:
+  - name: 'La Poste'
+    special_tags: [operator/La Poste]
+    sprite_override: [1, 2, 3, 4, 3, 4, 3, 4, 2, 5]
+  - name: 'Royal Mail (Fictional)'
+    special_tags: [operator/Royal Mail]
+    profiles: [DEFAULT]
+    sprite_override: [1, 2, 3, 3, 3, 3, 3, 3, 2, 4]
