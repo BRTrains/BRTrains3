@@ -34308,3 +34308,26 @@ variants:
   strings:
     str_lu_s7s8_s8_london_underground_train_name: London Underground S7/S8 Stock -
       {SILVER}8-Car{BLACK} - {GOLD}London Underground
+- id: 2507
+  vehicle: dlr_p86
+  profile: default
+  livery: dlr blue
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 5
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/2507_dlr_p86_default_dlr_blue_tram.gnml
+  identifier: dlr_p86_default_dlr_blue_tram
+  name_string: str_dlr_p86_default_dlr_blue_tram_name
+  strings:
+    str_dlr_p86_default_dlr_blue_tram_name: Docklands Light Railway P86 - {GOLD}DLR
+      Blue
