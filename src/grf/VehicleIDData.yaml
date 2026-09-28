@@ -34011,3 +34011,27 @@ variants:
   strings:
     str_furness_115_default_furness_red_train_name: Furness Railway 115 Class - {GOLD}Furness
       Red
+- id: 2493
+  vehicle: edinburgh_urbos
+  profile: default
+  livery: edinburgh trams
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 2
+  archive: generated_variants/2493_edinburgh_urbos_default_edinburgh_trams_tram.gnml
+  identifier: edinburgh_urbos_default_edinburgh_trams_tram
+  name_string: str_edinburgh_urbos_default_edinburgh_trams_tram_name
+  strings:
+    str_edinburgh_urbos_default_edinburgh_trams_tram_name: Edinburgh Trams Urbos 3
+      - {GOLD}Edinburgh Trams

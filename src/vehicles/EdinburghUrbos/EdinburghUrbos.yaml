@@ -1,0 +1,38 @@
+info:
+  identifier: edinburgh_urbos
+  name: 'Edinburgh Trams Urbos 3'
+  sub_name: Articulated tram
+  based_on: CAF Urbos 3 Edinburgh Trams
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 50
+  length: 5
+  power: 600
+  speed: 43
+  tractive_effort: 0.08
+  power_type:
+    - electric
+
+cargo: passenger
+loading_speed: 29
+cargo_age_period: 185
+
+dates:
+  introduction_date: 2014-04-01
+
+profiles:
+  - identifier: DEFAULT
+    name: 5-Part Set
+    num_vehicles: 5
+    capacity: 50
+    sprite_override: [1, 2, 3, 4, 5]
+    types: [tram]
+    special_tags:
+      - formation/5-part
+      - subclass/edinburgh_urbos
+
+liveries:
+  - name: 'Edinburgh Trams'
+    special_tags: [operator/Edinburgh Trams]
