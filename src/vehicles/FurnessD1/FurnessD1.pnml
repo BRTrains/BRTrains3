@@ -3,11 +3,11 @@ spriteset(spriteset_furness_d1_purchase, "FurnessD1.png") {
 }
 
 spriteset(spriteset_furness_d1_loco, "FurnessD1.png") {
-    tmpl_train_5(0, 13)
+    tmpl_train_5(0, 0)
 }
 
 spriteset(spriteset_furness_d1_tender, "FurnessD1.png") {
-    tmpl_train_4(0, 34)
+    tmpl_train_4(0, 20)
 }
 
 switch(FEAT_TRAINS, SELF, sw_furness_d1, position_in_articulated_veh) {
