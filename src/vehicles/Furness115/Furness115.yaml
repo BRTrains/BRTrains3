@@ -1,0 +1,35 @@
+info:
+  identifier: furness_115
+  name: 'Furness Railway 115 Class'
+  sub_name: Steam locomotive
+  based_on: Furness Railway 115 Class
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 93
+  length: 8
+  power: 1000
+  speed: 75
+  tractive_effort: 0.110
+  power_type:
+    - steam
+
+cargo: containerised
+autorefit: true
+loading_speed: 3
+
+dates:
+  introduction_date: 1920-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags:
+      - formation/1-car
+      - subclass/furness_115
+
+liveries:
+  - name: 'Furness Red'
+    special_tags: [operator/Furness Railway]

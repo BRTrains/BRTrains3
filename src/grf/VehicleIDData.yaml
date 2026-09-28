@@ -33991,3 +33991,23 @@ variants:
   strings:
     str_tgv_default_royal_mail__fictional__train_name: SNCF TGV "La Poste" - {GOLD}Royal
       Mail Fictional
+- id: 2492
+  vehicle: furness_115
+  profile: default
+  livery: furness red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2492_furness_115_default_furness_red_train.gnml
+  identifier: furness_115_default_furness_red_train
+  name_string: str_furness_115_default_furness_red_train_name
+  strings:
+    str_furness_115_default_furness_red_train_name: Furness Railway 115 Class - {GOLD}Furness
+      Red
