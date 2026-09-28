@@ -34331,3 +34331,137 @@ variants:
   strings:
     str_dlr_p86_default_dlr_blue_tram_name: Docklands Light Railway P86 - {GOLD}DLR
       Blue
+    str_dlr_p86_default_dlr_blue_tram_group_name: '{BLACK}Docklands Light Railway
+      P86'
+    str_dlr_p86_default_dlr_blue_tram_nested_name: '{BLACK}Docklands Light Railway
+      P86 - {GOLD}DLR Blue'
+- id: 2511
+  vehicle: br_320
+  profile: 320_x
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2511_br_320_320_x_scotrail_saltire_train.gnml
+  identifier: br_320_320_x_scotrail_saltire_train
+  name_string: str_br_320_320_x_scotrail_saltire_train_name
+  strings:
+    str_br_320_320_x_scotrail_saltire_train_name: Class 320/3 - {SILVER}3-Car 320/1/3/4{BLACK}
+      - {GOLD}ScotRail Saltire
+    str_br_320_320_x_scotrail_saltire_train_group_name: '{BLACK}Class 320/3 - {SILVER}3-Car
+      320/1/3/4'
+    str_br_320_320_x_scotrail_saltire_train_nested_name: '{BLACK}3-Car 320/1/3/4 -
+      {GOLD}ScotRail Saltire'
+- id: 2512
+  vehicle: br_320
+  profile: 320_x
+  livery: strathclyde pte carmine & cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2512_br_320_320_x_strathclyde_pte_carmine___cream_train.gnml
+  identifier: br_320_320_x_strathclyde_pte_carmine___cream_train
+  name_string: str_br_320_320_x_strathclyde_pte_carmine___cream_train_name
+  strings:
+    str_br_320_320_x_scotrail_saltire_train_group_name: '{BLACK}Class 320/3 - {SILVER}3-Car
+      320/1/3/4'
+    str_br_320_320_x_strathclyde_pte_carmine___cream_train_name: Class 320/3 - {SILVER}3-Car
+      320/1/3/4{BLACK} - {GOLD}Strathclyde PTE Carmine & Cream
+    str_br_320_320_x_strathclyde_pte_carmine___cream_train_nested_name: '{BLACK}3-Car
+      320/1/3/4 - {GOLD}Strathclyde PTE Carmine & Cream'
+- id: 2508
+  vehicle: br_320
+  profile: '320_0'
+  livery: scotrail saltire
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2508_br_320_320_0_scotrail_saltire_train.gnml
+  identifier: br_320_320_0_scotrail_saltire_train
+  name_string: str_br_320_320_0_scotrail_saltire_train_name
+  strings:
+    str_br_320_320_0_scotrail_saltire_train_name: Class 320/3 - {SILVER}3-Car 320/0{BLACK}
+      - {GOLD}ScotRail Saltire
+    str_br_320_320_0_scotrail_saltire_train_group_name: '{BLACK}Class 320/3 - {SILVER}3-Car
+      320/0'
+    str_br_320_320_0_scotrail_saltire_train_nested_name: '{BLACK}3-Car 320/0 - {GOLD}ScotRail
+      Saltire'
+- id: 2509
+  vehicle: br_320
+  profile: '320_0'
+  livery: strathclyde pte carmine & cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2509_br_320_320_0_strathclyde_pte_carmine___cream_train.gnml
+  identifier: br_320_320_0_strathclyde_pte_carmine___cream_train
+  name_string: str_br_320_320_0_strathclyde_pte_carmine___cream_train_name
+  strings:
+    str_br_320_320_0_scotrail_saltire_train_group_name: '{BLACK}Class 320/3 - {SILVER}3-Car
+      320/0'
+    str_br_320_320_0_strathclyde_pte_carmine___cream_train_name: Class 320/3 - {SILVER}3-Car
+      320/0{BLACK} - {GOLD}Strathclyde PTE Carmine & Cream
+    str_br_320_320_0_strathclyde_pte_carmine___cream_train_nested_name: '{BLACK}3-Car
+      320/0 - {GOLD}Strathclyde PTE Carmine & Cream'
+- id: 2510
+  vehicle: br_320
+  profile: '320_0'
+  livery: strathclyde pte orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2510_br_320_320_0_strathclyde_pte_orange_train.gnml
+  identifier: br_320_320_0_strathclyde_pte_orange_train
+  name_string: str_br_320_320_0_strathclyde_pte_orange_train_name
+  strings:
+    str_br_320_320_0_scotrail_saltire_train_group_name: '{BLACK}Class 320/3 - {SILVER}3-Car
+      320/0'
+    str_br_320_320_0_strathclyde_pte_orange_train_name: Class 320/3 - {SILVER}3-Car
+      320/0{BLACK} - {GOLD}Strathclyde PTE Orange
+    str_br_320_320_0_strathclyde_pte_orange_train_nested_name: '{BLACK}3-Car 320/0
+      - {GOLD}Strathclyde PTE Orange'

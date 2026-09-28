@@ -46,11 +46,38 @@ profiles:
     special_tags:
       - formation/3-car
       - subclass/320_3_post2010
+  - identifier: '320_0'
+    name: 3-Car (320/0)
+    introduction_date: 1990-03-17
+    sprite_group: 320_3_pre2010
+    sprite_override: [1, 4, 2]
+    num_vehicles: 3
+    capacity: 71
+    speed: 75
+    design_speed: 90
+    special_tags:
+      - formation/3-car
+      - subclass/320_0
+  - identifier: 320_X
+    name: 3-Car (320/1/3/4)
+    introduction_date: 1990-03-17
+    sprite_group: 320_3_pre2010
+    sprite_override: [1, 4, 2]
+    num_vehicles: 3
+    capacity: 71
+    speed: 90
+    design_speed: 90
+    special_tags:
+      - formation/3-car
+      - subclass/320_X
 
 liveries:
   - name: 'ScotRail Saltire'
+    profiles: [320_3_pre2010, 320_3_post2010, 320_0, 320_X]
     special_tags: [operator/ScotRail]
   - name: 'Strathclyde PTE Carmine & Cream'
+    profiles: [320_3_pre2010, 320_3_post2010, 320_0, 320_X]
     special_tags: [operator/Strathclyde PTE]
   - name: 'Strathclyde PTE Orange'
+    profiles: [320_3_pre2010, 320_3_post2010, 320_0]
     special_tags: [operator/Strathclyde PTE]
