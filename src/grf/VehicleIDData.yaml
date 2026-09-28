@@ -33799,3 +33799,24 @@ variants:
   name_string: str_rs_swb_hopper_default_brown_train_name
   strings:
     str_rs_swb_hopper_default_brown_train_name: LNER Standard Medium Hopper - {GOLD}Brown
+- id: 2484
+  vehicle: furness_d1
+  profile: default
+  livery: furness red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 5
+    - 4
+  archive: generated_variants/2484_furness_d1_default_furness_red_train.gnml
+  identifier: furness_d1_default_furness_red_train
+  name_string: str_furness_d1_default_furness_red_train_name
+  strings:
+    str_furness_d1_default_furness_red_train_name: Furness Sharp D1 Class 0-6-0 "Sharpie"
+      - {GOLD}Furness Red

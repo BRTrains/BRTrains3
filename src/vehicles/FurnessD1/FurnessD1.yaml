@@ -1,0 +1,38 @@
+info:
+  identifier: furness_d1
+  name: 'Furness Sharp D1 Class 0-6-0 "Sharpie"'
+  sub_name: Steam locomotive
+  based_on: Furness Sharp D1 Class 0-6-0
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 72
+  length: 8
+  power: 650
+  speed: 40
+  tractive_effort: 0.122
+  power_type:
+    - steam
+
+cargo: none
+loading_speed: 3
+
+nml_override:
+  default: sw_furness_d1
+
+dates:
+  introduction_date: 1866-02-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/furness_d1
+
+liveries:
+  - name: 'Furness Red'
+    special_tags: [operator/Furness Railway]
