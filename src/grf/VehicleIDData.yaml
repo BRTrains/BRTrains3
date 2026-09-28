@@ -33913,3 +33913,24 @@ variants:
   strings:
     str_br_222_222_1_hull_trains_train_name: Class 222 Meridian - {SILVER}4-Car "Pioneer"{BLACK}
       - {GOLD}Hull Trains
+- id: 2489
+  vehicle: furness_k2
+  profile: default
+  livery: furness red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 5
+    - 3
+  archive: generated_variants/2489_furness_k2_default_furness_red_train.gnml
+  identifier: furness_k2_default_furness_red_train
+  name_string: str_furness_k2_default_furness_red_train_name
+  strings:
+    str_furness_k2_default_furness_red_train_name: Furness K2 Class 4-4-0 - {GOLD}Furness
+      Red

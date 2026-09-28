@@ -1,0 +1,16 @@
+spriteset(spriteset_furness_k2_purchase, "FurnessK2.png") {
+    tmpl_purchase(0, 0)
+}
+
+spriteset(spriteset_furness_k2_loco, "FurnessK2.png") {
+    tmpl_train_5(0, 13)
+}
+
+spriteset(spriteset_furness_k2_tender, "FurnessK2.png") {
+    tmpl_train_3(0, 20)
+}
+
+switch(FEAT_TRAINS, SELF, sw_furness_k2, position_in_articulated_veh) {
+    0: spriteset_furness_k2_loco;
+    1: spriteset_furness_k2_tender;
+}
