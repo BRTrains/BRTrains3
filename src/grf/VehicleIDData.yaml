@@ -34255,3 +34255,56 @@ variants:
   strings:
     str_glasgow_wooden_default_glasgow_corporation_tram_name: Glasgow Corporation
       Wooden Tram - {GOLD}Glasgow Corporation
+- id: 2505
+  vehicle: lu_s7s8
+  profile: s7
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2505_lu_s7s8_s7_london_underground_train.gnml
+  identifier: lu_s7s8_s7_london_underground_train
+  name_string: str_lu_s7s8_s7_london_underground_train_name
+  strings:
+    str_lu_s7s8_s7_london_underground_train_name: London Underground S7/S8 Stock -
+      {SILVER}7-Car{BLACK} - {GOLD}London Underground
+- id: 2506
+  vehicle: lu_s7s8
+  profile: s8
+  livery: london underground
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2506_lu_s7s8_s8_london_underground_train.gnml
+  identifier: lu_s7s8_s8_london_underground_train
+  name_string: str_lu_s7s8_s8_london_underground_train_name
+  strings:
+    str_lu_s7s8_s8_london_underground_train_name: London Underground S7/S8 Stock -
+      {SILVER}8-Car{BLACK} - {GOLD}London Underground
