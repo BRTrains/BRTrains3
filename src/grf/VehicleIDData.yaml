@@ -33820,3 +33820,96 @@ variants:
   strings:
     str_furness_d1_default_furness_red_train_name: Furness Sharp D1 Class 0-6-0 "Sharpie"
       - {GOLD}Furness Red
+- id: 2485
+  vehicle: br_222
+  profile: '222_1'
+  livery: east midlands trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2485_br_222_222_1_east_midlands_trains_train.gnml
+  identifier: br_222_222_1_east_midlands_trains_train
+  name_string: str_br_222_222_1_east_midlands_trains_train_name
+  strings:
+    str_br_222_222_1_east_midlands_trains_train_name: Class 222 Meridian - {SILVER}4-Car
+      "Pioneer"{BLACK} - {GOLD}East Midlands Trains
+- id: 2486
+  vehicle: br_222
+  profile: '222_1'
+  livery: east midlands railway maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2486_br_222_222_1_east_midlands_railway_maroon_train.gnml
+  identifier: br_222_222_1_east_midlands_railway_maroon_train
+  name_string: str_br_222_222_1_east_midlands_railway_maroon_train_name
+  strings:
+    str_br_222_222_1_east_midlands_railway_maroon_train_name: Class 222 Meridian -
+      {SILVER}4-Car "Pioneer"{BLACK} - {GOLD}East Midlands Railway Maroon
+- id: 2487
+  vehicle: br_222
+  profile: '222_1'
+  livery: east midlands railway maroon and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2487_br_222_222_1_east_midlands_railway_maroon_and_white_train.gnml
+  identifier: br_222_222_1_east_midlands_railway_maroon_and_white_train
+  name_string: str_br_222_222_1_east_midlands_railway_maroon_and_white_train_name
+  strings:
+    str_br_222_222_1_east_midlands_railway_maroon_and_white_train_name: Class 222
+      Meridian - {SILVER}4-Car "Pioneer"{BLACK} - {GOLD}East Midlands Railway Maroon
+      and White
+- id: 2488
+  vehicle: br_222
+  profile: '222_1'
+  livery: hull trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2488_br_222_222_1_hull_trains_train.gnml
+  identifier: br_222_222_1_hull_trains_train
+  name_string: str_br_222_222_1_hull_trains_train_name
+  strings:
+    str_br_222_222_1_hull_trains_train_name: Class 222 Meridian - {SILVER}4-Car "Pioneer"{BLACK}
+      - {GOLD}Hull Trains

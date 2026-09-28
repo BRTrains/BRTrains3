@@ -66,23 +66,35 @@ profiles:
     special_tags:
       - formation/6-car
       - subclass/222_6
+  - identifier: '222_1'
+    name: '4-Car "Pioneer"'
+    num_vehicles: 4
+    capacity: 44
+    power: 3000
+    weight: 283
+    introduction_date: 2005-04-21
+    sprite_group: '222_7'
+    sprite_override: [1, 2, 2, 3]
+    special_tags:
+      - formation/4-car
+      - subclass/222_1
 
 liveries:
   - name: 'East Midlands Trains'
     special_tags: [operator/East Midlands Trains]
-    profiles: ['222_7', '222_5', '222_4']
+    profiles: ['222_7', '222_5', '222_4', '222_1']
   - name: 'Midland Mainline'
     special_tags: [operator/Midland Mainline]
     profiles: ['222_7']
   - name: 'East Midlands Railway Maroon'
     special_tags: [operator/East Midlands Railway]
-    profiles: ['222_7', '222_5', '222_4']
+    profiles: ['222_7', '222_5', '222_4', '222_1']
   - name: 'East Midlands Railway Maroon and White'
     special_tags: [operator/East Midlands Railway]
-    profiles: ['222_7', '222_5', '222_4']
+    profiles: ['222_7', '222_5', '222_4', '222_1']
   - name: 'Hull Trains'
     special_tags: [operator/Hull Trains]
-    profiles: ['222_4']
+    profiles: ['222_4', '222_1']
   - name: 'Lumo Blue'
     special_tags: [operator/Lumo]
     profiles: ['222_6']
