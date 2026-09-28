@@ -27,6 +27,7 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 50
+    types: [train, tram]
     special_tags:
       - formation/1-car
       - subclass/139

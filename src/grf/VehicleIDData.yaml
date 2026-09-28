@@ -34035,3 +34035,103 @@ variants:
   strings:
     str_edinburgh_urbos_default_edinburgh_trams_tram_name: Edinburgh Trams Urbos 3
       - {GOLD}Edinburgh Trams
+- id: 2494
+  vehicle: br_139
+  profile: default
+  livery: london midland
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2494_br_139_default_london_midland_tram.gnml
+  identifier: br_139_default_london_midland_tram
+  name_string: str_br_139_default_london_midland_tram_name
+  strings:
+    str_br_139_default_london_midland_tram_name: Class 139 "Parry People Mover" -
+      {GOLD}London Midland
+- id: 2495
+  vehicle: br_139
+  profile: default
+  livery: west midlands railway
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2495_br_139_default_west_midlands_railway_tram.gnml
+  identifier: br_139_default_west_midlands_railway_tram
+  name_string: str_br_139_default_west_midlands_railway_tram_name
+  strings:
+    str_br_139_default_west_midlands_railway_tram_name: Class 139 "Parry People Mover"
+      - {GOLD}West Midlands Railway
+- id: 2496
+  vehicle: br_139
+  profile: default
+  livery: parry people mover - prototype
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2496_br_139_default_parry_people_mover___prototype_tram.gnml
+  identifier: br_139_default_parry_people_mover___prototype_tram
+  name_string: str_br_139_default_parry_people_mover___prototype_tram_name
+  strings:
+    str_br_139_default_parry_people_mover___prototype_tram_name: Class 139 "Parry
+      People Mover" - {GOLD}Parry People Mover - Prototype
+- id: 2497
+  vehicle: br_139
+  profile: default
+  livery: bristol electric - prototype
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2497_br_139_default_bristol_electric___prototype_tram.gnml
+  identifier: br_139_default_bristol_electric___prototype_tram
+  name_string: str_br_139_default_bristol_electric___prototype_tram_name
+  strings:
+    str_br_139_default_bristol_electric___prototype_tram_name: Class 139 "Parry People
+      Mover" - {GOLD}Bristol Electric - Prototype
+- id: 2498
+  vehicle: br_139
+  profile: default
+  livery: go coperative
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2498_br_139_default_go_coperative_tram.gnml
+  identifier: br_139_default_go_coperative_tram
+  name_string: str_br_139_default_go_coperative_tram_name
+  strings:
+    str_br_139_default_go_coperative_tram_name: Class 139 "Parry People Mover" - {GOLD}Go
+      Coperative
