@@ -1,0 +1,58 @@
+info:
+  identifier: br_411
+  name: 'Class 411 "4-COR"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 411
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 142
+  power: 1000
+  length: 8
+  speed: 90
+  tractive_effort: 0.08
+  power_type:
+    - electric
+  track_type:
+    - THIRD
+
+cargo: passenger
+
+loading_speed: 25
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1956-04-21
+
+profiles:
+  - identifier: '411_4'
+    num_vehicles: 4
+    capacity: 56
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/411_4
+
+liveries:
+  - name: 'BR Green'
+    profiles: ['411_4']
+    special_tags: [operator/BR]
+  - name: 'BR Blue and Grey'
+    profiles: ['411_4']
+    special_tags: [operator/BR]
+  - name: 'London and South East - Jaffa Cake'
+    profiles: ['411_4']
+    special_tags: [operator/BR]
+  - name: 'Network South East'
+    profiles: ['411_4']
+    special_tags: [operator/Network SouthEast]
+  - name: 'South West Trains'
+    profiles: ['411_4']
+    special_tags: [operator/South West Trains]
+  - name: 'Connex'
+    profiles: ['411_4']
+    special_tags: [operator/Connex]
+  - name: 'Ex-South West Trains'
+    profiles: ['411_4']
+    special_tags: [operator/South West Trains]
