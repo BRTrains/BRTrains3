@@ -39605,3 +39605,54 @@ variants:
       - {GOLD}Ex-South West Trains
     str_br_411_411_4_ex_south_west_trains_train_nested_name: '{BLACK}411_4 - {GOLD}Ex-South
       West Trains'
+- id: 2520
+  vehicle: br_411
+  profile: '411_9'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2520_br_411_411_9_network_south_east_train.gnml
+  identifier: br_411_411_9_network_south_east_train
+  name_string: str_br_411_411_9_network_south_east_train_name
+  strings:
+    str_br_411_411_9_network_south_east_train_name: Class 411 "4-COR" - {SILVER}3-CEP{BLACK}
+      - {GOLD}Network South East
+    str_br_411_411_9_network_south_east_train_group_name: '{BLACK}Class 411 "4-COR"
+      - {SILVER}3-CEP'
+    str_br_411_411_9_network_south_east_train_nested_name: '{BLACK}3-CEP - {GOLD}Network
+      South East'
+- id: 2521
+  vehicle: br_411
+  profile: '411_9'
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2521_br_411_411_9_connex_train.gnml
+  identifier: br_411_411_9_connex_train
+  name_string: str_br_411_411_9_connex_train_name
+  strings:
+    str_br_411_411_9_network_south_east_train_group_name: '{BLACK}Class 411 "4-COR"
+      - {SILVER}3-CEP'
+    str_br_411_411_9_connex_train_name: Class 411 "4-COR" - {SILVER}3-CEP{BLACK} -
+      {GOLD}Connex
+    str_br_411_411_9_connex_train_nested_name: '{BLACK}3-CEP - {GOLD}Connex'
