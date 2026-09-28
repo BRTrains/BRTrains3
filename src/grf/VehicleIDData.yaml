@@ -34135,3 +34135,63 @@ variants:
   strings:
     str_br_139_default_go_coperative_tram_name: Class 139 "Parry People Mover" - {GOLD}Go
       Coperative
+- id: 2499
+  vehicle: blackpool_brush
+  profile: passenger
+  livery: blackpool transport
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2499_blackpool_brush_passenger_blackpool_transport_tram.gnml
+  identifier: blackpool_brush_passenger_blackpool_transport_tram
+  name_string: str_blackpool_brush_passenger_blackpool_transport_tram_name
+  strings:
+    str_blackpool_brush_passenger_blackpool_transport_tram_name: Blackpool Brush Railcoach
+      - {SILVER}Passenger{BLACK} - {GOLD}Blackpool Transport
+- id: 2500
+  vehicle: blackpool_brush
+  profile: mail
+  livery: royal mail boards
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2500_blackpool_brush_mail_royal_mail_boards_tram.gnml
+  identifier: blackpool_brush_mail_royal_mail_boards_tram
+  name_string: str_blackpool_brush_mail_royal_mail_boards_tram_name
+  strings:
+    str_blackpool_brush_mail_royal_mail_boards_tram_name: Blackpool Brush Railcoach
+      - {SILVER}Mail{BLACK} - {GOLD}Royal Mail Boards
+- id: 2501
+  vehicle: blackpool_brush
+  profile: mail
+  livery: royal mail
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/2501_blackpool_brush_mail_royal_mail_tram.gnml
+  identifier: blackpool_brush_mail_royal_mail_tram
+  name_string: str_blackpool_brush_mail_royal_mail_tram_name
+  strings:
+    str_blackpool_brush_mail_royal_mail_tram_name: Blackpool Brush Railcoach - {SILVER}Mail{BLACK}
+      - {GOLD}Royal Mail
