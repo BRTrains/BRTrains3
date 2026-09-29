@@ -1,0 +1,27 @@
+info:
+  identifier: br_mpv_single
+  name: 'BR MPV Single'
+  sub_name: Multi-purpose vehicle
+  based_on: British Rail MPV Single
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 14
+  length: 8
+  power: 355
+  speed: 75
+  tractive_effort: 0.3
+  power_type: [diesel]
+cargo: none
+dates:
+  introduction_date: 1999-01-01
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags: [formation/1-car, subclass/mpv_single]
+liveries:
+  - name: 'Network Rail Yellow Open'
+  - name: 'Network Rail Yellow Geometry'
+  - name: 'Network Rail Blue Open'
+  - name: 'Network Rail Blue Geometry'

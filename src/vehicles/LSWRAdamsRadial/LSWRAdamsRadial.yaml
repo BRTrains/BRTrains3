@@ -1,0 +1,25 @@
+info:
+  identifier: lswr_adams_radial
+  name: 'LSWR Adams Radial'
+  sub_name: Steam locomotive
+  based_on: LSWR Adams Radial
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 56
+  length: 6
+  power: 500
+  speed: 50
+  tractive_effort: 0.117
+  power_type:
+    - steam
+cargo: none
+dates:
+  introduction_date: 1882-01-01
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags: [formation/1-car, subclass/lswr_adams_radial]
+liveries:
+  - name: 'Sage Green'

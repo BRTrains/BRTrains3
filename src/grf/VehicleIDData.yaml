@@ -42417,3 +42417,259 @@ variants:
       - {GOLD}BR Brunswick Green
     str_lner_a4_default_br_brunswick_green_train_nested_name: '{BLACK}LNER Gresley
       Class A4 4-6-2 - {GOLD}BR Brunswick Green'
+- id: 2634
+  vehicle: sr_z_class
+  profile: default
+  livery: sr black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/2634_sr_z_class_default_sr_black_train.gnml
+  identifier: sr_z_class_default_sr_black_train
+  name_string: str_sr_z_class_default_sr_black_train_name
+  strings:
+    str_sr_z_class_default_sr_black_train_name: SR Z Class - {GOLD}SR Black
+    str_sr_z_class_default_sr_black_train_group_name: '{BLACK}SR Z Class'
+    str_sr_z_class_default_sr_black_train_nested_name: '{BLACK}SR Z Class - {GOLD}SR
+      Black'
+- id: 2635
+  vehicle: sr_z_class
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/2635_sr_z_class_default_br_black_train.gnml
+  identifier: sr_z_class_default_br_black_train
+  name_string: str_sr_z_class_default_br_black_train_name
+  strings:
+    str_sr_z_class_default_sr_black_train_group_name: '{BLACK}SR Z Class'
+    str_sr_z_class_default_br_black_train_name: SR Z Class - {GOLD}BR Black
+    str_sr_z_class_default_br_black_train_nested_name: '{BLACK}SR Z Class - {GOLD}BR
+      Black'
+- id: 2636
+  vehicle: sr_z_class
+  profile: default
+  livery: br lion
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/2636_sr_z_class_default_br_lion_train.gnml
+  identifier: sr_z_class_default_br_lion_train
+  name_string: str_sr_z_class_default_br_lion_train_name
+  strings:
+    str_sr_z_class_default_sr_black_train_group_name: '{BLACK}SR Z Class'
+    str_sr_z_class_default_br_lion_train_name: SR Z Class - {GOLD}BR Lion
+    str_sr_z_class_default_br_lion_train_nested_name: '{BLACK}SR Z Class - {GOLD}BR
+      Lion'
+- id: 2637
+  vehicle: br_mpv_single
+  profile: default
+  livery: network rail yellow open
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2637_br_mpv_single_default_network_rail_yellow_open_train.gnml
+  identifier: br_mpv_single_default_network_rail_yellow_open_train
+  name_string: str_br_mpv_single_default_network_rail_yellow_open_train_name
+  strings:
+    str_br_mpv_single_default_network_rail_yellow_open_train_name: BR MPV Single -
+      {GOLD}Network Rail Yellow Open
+    str_br_mpv_single_default_network_rail_yellow_open_train_group_name: '{BLACK}BR
+      MPV Single'
+    str_br_mpv_single_default_network_rail_yellow_open_train_nested_name: '{BLACK}BR
+      MPV Single - {GOLD}Network Rail Yellow Open'
+- id: 2638
+  vehicle: br_mpv_single
+  profile: default
+  livery: network rail yellow geometry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2638_br_mpv_single_default_network_rail_yellow_geometry_train.gnml
+  identifier: br_mpv_single_default_network_rail_yellow_geometry_train
+  name_string: str_br_mpv_single_default_network_rail_yellow_geometry_train_name
+  strings:
+    str_br_mpv_single_default_network_rail_yellow_open_train_group_name: '{BLACK}BR
+      MPV Single'
+    str_br_mpv_single_default_network_rail_yellow_geometry_train_name: BR MPV Single
+      - {GOLD}Network Rail Yellow Geometry
+    str_br_mpv_single_default_network_rail_yellow_geometry_train_nested_name: '{BLACK}BR
+      MPV Single - {GOLD}Network Rail Yellow Geometry'
+- id: 2639
+  vehicle: br_mpv_single
+  profile: default
+  livery: network rail blue open
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2639_br_mpv_single_default_network_rail_blue_open_train.gnml
+  identifier: br_mpv_single_default_network_rail_blue_open_train
+  name_string: str_br_mpv_single_default_network_rail_blue_open_train_name
+  strings:
+    str_br_mpv_single_default_network_rail_yellow_open_train_group_name: '{BLACK}BR
+      MPV Single'
+    str_br_mpv_single_default_network_rail_blue_open_train_name: BR MPV Single - {GOLD}Network
+      Rail Blue Open
+    str_br_mpv_single_default_network_rail_blue_open_train_nested_name: '{BLACK}BR
+      MPV Single - {GOLD}Network Rail Blue Open'
+- id: 2640
+  vehicle: br_mpv_single
+  profile: default
+  livery: network rail blue geometry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2640_br_mpv_single_default_network_rail_blue_geometry_train.gnml
+  identifier: br_mpv_single_default_network_rail_blue_geometry_train
+  name_string: str_br_mpv_single_default_network_rail_blue_geometry_train_name
+  strings:
+    str_br_mpv_single_default_network_rail_yellow_open_train_group_name: '{BLACK}BR
+      MPV Single'
+    str_br_mpv_single_default_network_rail_blue_geometry_train_name: BR MPV Single
+      - {GOLD}Network Rail Blue Geometry
+    str_br_mpv_single_default_network_rail_blue_geometry_train_nested_name: '{BLACK}BR
+      MPV Single - {GOLD}Network Rail Blue Geometry'
+- id: 2641
+  vehicle: lu_c_stock
+  profile: default
+  livery: tfl
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2641_lu_c_stock_default_tfl_train.gnml
+  identifier: lu_c_stock_default_tfl_train
+  name_string: str_lu_c_stock_default_tfl_train_name
+  strings:
+    str_lu_c_stock_default_tfl_train_name: LU C Stock - {GOLD}TfL
+    str_lu_c_stock_default_tfl_train_group_name: '{BLACK}LU C Stock'
+    str_lu_c_stock_default_tfl_train_nested_name: '{BLACK}LU C Stock - {GOLD}TfL'
+- id: 2642
+  vehicle: lu_a_stock
+  profile: default
+  livery: tfl
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2642_lu_a_stock_default_tfl_train.gnml
+  identifier: lu_a_stock_default_tfl_train
+  name_string: str_lu_a_stock_default_tfl_train_name
+  strings:
+    str_lu_a_stock_default_tfl_train_name: LU A Stock - {GOLD}TfL
+    str_lu_a_stock_default_tfl_train_group_name: '{BLACK}LU A Stock'
+    str_lu_a_stock_default_tfl_train_nested_name: '{BLACK}LU A Stock - {GOLD}TfL'
+- id: 2643
+  vehicle: lu_a_stock
+  profile: default
+  livery: tfl unpainted
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2643_lu_a_stock_default_tfl_unpainted_train.gnml
+  identifier: lu_a_stock_default_tfl_unpainted_train
+  name_string: str_lu_a_stock_default_tfl_unpainted_train_name
+  strings:
+    str_lu_a_stock_default_tfl_train_group_name: '{BLACK}LU A Stock'
+    str_lu_a_stock_default_tfl_unpainted_train_name: LU A Stock - {GOLD}TfL Unpainted
+    str_lu_a_stock_default_tfl_unpainted_train_nested_name: '{BLACK}LU A Stock - {GOLD}TfL
+      Unpainted'
+- id: 2644
+  vehicle: lswr_adams_radial
+  profile: default
+  livery: sage green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/2644_lswr_adams_radial_default_sage_green_train.gnml
+  identifier: lswr_adams_radial_default_sage_green_train
+  name_string: str_lswr_adams_radial_default_sage_green_train_name
+  strings:
+    str_lswr_adams_radial_default_sage_green_train_name: LSWR Adams Radial - {GOLD}Sage
+      Green
+    str_lswr_adams_radial_default_sage_green_train_group_name: '{BLACK}LSWR Adams
+      Radial'
+    str_lswr_adams_radial_default_sage_green_train_nested_name: '{BLACK}LSWR Adams
+      Radial - {GOLD}Sage Green'

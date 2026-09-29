@@ -1,0 +1,26 @@
+info:
+  identifier: sr_z_class
+  name: 'SR Z Class'
+  sub_name: Steam locomotive
+  based_on: Southern Railway Z Class
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 73
+  length: 6
+  power: 1300
+  speed: 50
+  tractive_effort: 0.179
+  power_type: [steam]
+cargo: none
+dates:
+  introduction_date: 1929-01-01
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    special_tags: [formation/1-car, subclass/sr_z_class]
+liveries:
+  - name: 'SR Black'
+  - name: 'BR Black'
+  - name: 'BR Lion'
