@@ -2690,12 +2690,12 @@ variants:
   identifier: lu_1992_1992_4_network_southeast_train
   name_string: str_lu_1992_1992_4_network_southeast_train_name
   strings:
+    str_br_413_413_4_network_southeast_train_nested_name: '{BLACK}4-Car - {GOLD}Network
+      SouthEast'
     str_lu_1992_1992_4_london_underground_train_group_name: '{BLACK}London Underground
       1992 Stock - {SILVER}4-Car'
     str_lu_1992_1992_4_network_southeast_train_name: London Underground 1992 Stock
       - {SILVER}4-Car{BLACK} - {GOLD}Network SouthEast
-    str_lu_1992_1992_4_network_southeast_train_nested_name: '{BLACK}4-Car - {GOLD}Network
-      SouthEast'
 - id: 1006
   vehicle: lu_1992
   profile: '1992_8'
@@ -26173,11 +26173,11 @@ variants:
   identifier: br_315_315_4_br_blue_and_grey_train
   name_string: str_br_315_315_4_br_blue_and_grey_train_name
   strings:
+    str_br_413_413_4_br_blue_and_grey_train_nested_name: '{BLACK}4-Car - {GOLD}BR
+      Blue and Grey'
     str_br_315_315_4_br_blue_and_grey_train_name: Class 315 - {SILVER}4-Car{BLACK}
       - {GOLD}BR Blue and Grey
     str_br_315_315_4_br_blue_and_grey_train_group_name: '{BLACK}Class 315 - {SILVER}4-Car'
-    str_br_315_315_4_br_blue_and_grey_train_nested_name: '{BLACK}4-Car - {GOLD}BR
-      Blue and Grey'
 - id: 2001
   vehicle: br_315
   profile: '315_4'
@@ -26199,7 +26199,7 @@ variants:
   identifier: br_315_315_4_network_southeast_train
   name_string: str_br_315_315_4_network_southeast_train_name
   strings:
-    str_lu_1992_1992_4_network_southeast_train_nested_name: '{BLACK}4-Car - {GOLD}Network
+    str_br_413_413_4_network_southeast_train_nested_name: '{BLACK}4-Car - {GOLD}Network
       SouthEast'
     str_br_315_315_4_br_blue_and_grey_train_group_name: '{BLACK}Class 315 - {SILVER}4-Car'
     str_br_315_315_4_network_southeast_train_name: Class 315 - {SILVER}4-Car{BLACK}
@@ -35004,7 +35004,7 @@ variants:
   identifier: br_415_1_415_1_network_southeast_train
   name_string: str_br_415_1_415_1_network_southeast_train_name
   strings:
-    str_lu_1992_1992_4_network_southeast_train_nested_name: '{BLACK}4-Car - {GOLD}Network
+    str_br_413_413_4_network_southeast_train_nested_name: '{BLACK}4-Car - {GOLD}Network
       SouthEast'
     str_br_415_1_415_1_br_green_train_group_name: '{BLACK}Class 415/1 "4-EPB" - {SILVER}4-Car'
     str_br_415_1_415_1_network_southeast_train_name: Class 415/1 "4-EPB" - {SILVER}4-Car{BLACK}
@@ -39759,3 +39759,57 @@ variants:
       - {GOLD}South West Trains
     str_br_412_412_4_south_west_trains_train_nested_name: '{BLACK}412_4 - {GOLD}South
       West Trains'
+- id: 2526
+  vehicle: br_413
+  profile: '413_4'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2526_br_413_413_4_br_blue_and_grey_train.gnml
+  identifier: br_413_413_4_br_blue_and_grey_train
+  name_string: str_br_413_413_4_br_blue_and_grey_train_name
+  strings:
+    str_br_413_413_4_br_blue_and_grey_train_name: Class 413 "4-CAP" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Blue and Grey
+    str_br_413_413_4_br_blue_and_grey_train_group_name: '{BLACK}Class 413 "4-CAP"
+      - {SILVER}4-Car'
+    str_br_413_413_4_br_blue_and_grey_train_nested_name: '{BLACK}4-Car - {GOLD}BR
+      Blue and Grey'
+- id: 2527
+  vehicle: br_413
+  profile: '413_4'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2527_br_413_413_4_network_southeast_train.gnml
+  identifier: br_413_413_4_network_southeast_train
+  name_string: str_br_413_413_4_network_southeast_train_name
+  strings:
+    str_br_413_413_4_br_blue_and_grey_train_group_name: '{BLACK}Class 413 "4-CAP"
+      - {SILVER}4-Car'
+    str_br_413_413_4_network_southeast_train_name: Class 413 "4-CAP" - {SILVER}4-Car{BLACK}
+      - {GOLD}Network SouthEast
+    str_br_413_413_4_network_southeast_train_nested_name: '{BLACK}4-Car - {GOLD}Network
+      SouthEast'

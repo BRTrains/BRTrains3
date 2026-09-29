@@ -1,0 +1,41 @@
+info:
+  identifier: br_413
+  name: 'Class 413 "4-CAP"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 413 4-CAP
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 70
+  length: 8
+  power: 500
+  speed: 90
+  tractive_effort: 0.08
+  track_type:
+    - THIRD
+  power_type:
+    - electric
+
+cargo: passenger
+loading_speed: 25
+cargo_age_period: 205
+
+dates:
+  introduction_date: 1982-04-21
+
+profiles:
+  - identifier: '413_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 69
+    sprite_override: [1, 2, 3, 4]
+    special_tags:
+      - formation/4-car
+      - subclass/413
+
+liveries:
+  - name: 'BR Blue and Grey'
+    special_tags: [operator/BR]
+  - name: Network SouthEast
+    special_tags: [operator/Network SouthEast]
