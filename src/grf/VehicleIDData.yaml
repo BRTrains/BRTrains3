@@ -40737,3 +40737,105 @@ variants:
       South East
     str_br_432_default_network_south_east_train_nested_name: '{BLACK}Class 432 "4-REP"
       - {GOLD}Network South East'
+- id: 2564
+  vehicle: br_438
+  profile: '438_4'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2564_br_438_438_4_br_blue_and_grey_train.gnml
+  identifier: br_438_438_4_br_blue_and_grey_train
+  name_string: str_br_438_438_4_br_blue_and_grey_train_name
+  strings:
+    str_br_438_438_4_br_blue_and_grey_train_name: Class 438 - {SILVER}4-TC{BLACK}
+      - {GOLD}BR Blue and Grey
+    str_br_438_438_4_br_blue_and_grey_train_group_name: '{BLACK}Class 438 - {SILVER}4-TC'
+    str_br_438_438_4_br_blue_and_grey_train_nested_name: '{BLACK}4-TC - {GOLD}BR Blue
+      and Grey'
+- id: 2565
+  vehicle: br_438
+  profile: '438_4'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2565_br_438_438_4_network_south_east_train.gnml
+  identifier: br_438_438_4_network_south_east_train
+  name_string: str_br_438_438_4_network_south_east_train_name
+  strings:
+    str_br_438_438_4_br_blue_and_grey_train_group_name: '{BLACK}Class 438 - {SILVER}4-TC'
+    str_br_438_438_4_network_south_east_train_name: Class 438 - {SILVER}4-TC{BLACK}
+      - {GOLD}Network South East
+    str_br_438_438_4_network_south_east_train_nested_name: '{BLACK}4-TC - {GOLD}Network
+      South East'
+- id: 2566
+  vehicle: br_438
+  profile: '438_3'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2566_br_438_438_3_br_blue_and_grey_train.gnml
+  identifier: br_438_438_3_br_blue_and_grey_train
+  name_string: str_br_438_438_3_br_blue_and_grey_train_name
+  strings:
+    str_br_438_438_3_br_blue_and_grey_train_name: Class 438 - {SILVER}3-TC{BLACK}
+      - {GOLD}BR Blue and Grey
+    str_br_438_438_3_br_blue_and_grey_train_group_name: '{BLACK}Class 438 - {SILVER}3-TC'
+    str_br_438_438_3_br_blue_and_grey_train_nested_name: '{BLACK}3-TC - {GOLD}BR Blue
+      and Grey'
+- id: 2567
+  vehicle: br_438
+  profile: '438_3'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2567_br_438_438_3_network_south_east_train.gnml
+  identifier: br_438_438_3_network_south_east_train
+  name_string: str_br_438_438_3_network_south_east_train_name
+  strings:
+    str_br_438_438_3_br_blue_and_grey_train_group_name: '{BLACK}Class 438 - {SILVER}3-TC'
+    str_br_438_438_3_network_south_east_train_name: Class 438 - {SILVER}3-TC{BLACK}
+      - {GOLD}Network South East
+    str_br_438_438_3_network_south_east_train_nested_name: '{BLACK}3-TC - {GOLD}Network
+      South East'
