@@ -40839,3 +40839,62 @@ variants:
       - {GOLD}Network South East
     str_br_438_438_3_network_south_east_train_nested_name: '{BLACK}3-TC - {GOLD}Network
       South East'
+- id: 2568
+  vehicle: br_423
+  profile: '480_8'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2568_br_423_480_8_br_blue_train.gnml
+  identifier: br_423_480_8_br_blue_train
+  name_string: str_br_423_480_8_br_blue_train_name
+  strings:
+    str_br_423_480_8_br_blue_train_name: Class 423 "4-VEP" - {SILVER}8-VAB{BLACK}
+      - {GOLD}BR Blue
+    str_br_423_480_8_br_blue_train_group_name: '{BLACK}Class 423 "4-VEP" - {SILVER}8-VAB'
+    str_br_423_480_8_br_blue_train_nested_name: '{BLACK}8-VAB - {GOLD}BR Blue'
+- id: 2569
+  vehicle: br_423
+  profile: '480_8'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 62
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2569_br_423_480_8_br_blue_and_grey_train.gnml
+  identifier: br_423_480_8_br_blue_and_grey_train
+  name_string: str_br_423_480_8_br_blue_and_grey_train_name
+  strings:
+    str_br_423_480_8_br_blue_train_group_name: '{BLACK}Class 423 "4-VEP" - {SILVER}8-VAB'
+    str_br_423_480_8_br_blue_and_grey_train_name: Class 423 "4-VEP" - {SILVER}8-VAB{BLACK}
+      - {GOLD}BR Blue and Grey
+    str_br_423_480_8_br_blue_and_grey_train_nested_name: '{BLACK}8-VAB - {GOLD}BR
+      Blue and Grey'

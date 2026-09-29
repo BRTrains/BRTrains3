@@ -53,16 +53,26 @@ profiles:
     special_tags:
       - formation/4-car
       - subclass/423_9
+  - identifier: '480_8'
+    name: '8-VAB'
+    num_vehicles: 8
+    capacity: 62
+    power: 3000
+    weight: 323
+    sprite_override: [1, 2, 3, 1, 2, 4, 2, 3]
+    special_tags:
+      - formation/8-car
+      - subclass/480
 
 liveries:
   - name: 'BR Blue'
-    profiles: ['DEFAULT']
+    profiles: ['DEFAULT', '480_8']
     special_tags: [operator/BR]
   - name: 'BR Blue (Yellow Front)'
     profiles: ['DEFAULT']
     special_tags: [operator/BR]
   - name: 'BR Blue and Grey'
-    profiles: ['DEFAULT']
+    profiles: ['DEFAULT', '480_8']
     special_tags: [operator/BR]
   - name: 'Network South East'
     profiles: ['DEFAULT']
