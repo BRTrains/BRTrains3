@@ -40177,3 +40177,121 @@ variants:
     str_br_415_2_415_2_br_green_train_group_name: '{BLACK}Class 415/2 "4-EPB" - {SILVER}4-Car'
     str_br_415_2_415_2_network_southeast_train_name: Class 415/2 "4-EPB" - {SILVER}4-Car{BLACK}
       - {GOLD}Network SouthEast
+- id: 2543
+  vehicle: br_416_1
+  profile: '416_1'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2543_br_416_1_416_1_br_green_train.gnml
+  identifier: br_416_1_416_1_br_green_train
+  name_string: str_br_416_1_416_1_br_green_train_name
+  strings:
+    str_br_504_504_2_br_green_train_nested_name: '{BLACK}2-Car - {GOLD}BR Green'
+    str_br_416_1_416_1_br_green_train_name: Class 416/1 "2-EPB" - {SILVER}2-Car{BLACK}
+      - {GOLD}BR Green
+    str_br_416_1_416_1_br_green_train_group_name: '{BLACK}Class 416/1 "2-EPB" - {SILVER}2-Car'
+- id: 2544
+  vehicle: br_416_1
+  profile: '416_1'
+  livery: br green yellow front
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2544_br_416_1_416_1_br_green_yellow_front_train.gnml
+  identifier: br_416_1_416_1_br_green_yellow_front_train
+  name_string: str_br_416_1_416_1_br_green_yellow_front_train_name
+  strings:
+    str_br_414_414_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
+      Green Yellow Front'
+    str_br_416_1_416_1_br_green_train_group_name: '{BLACK}Class 416/1 "2-EPB" - {SILVER}2-Car'
+    str_br_416_1_416_1_br_green_yellow_front_train_name: Class 416/1 "2-EPB" - {SILVER}2-Car{BLACK}
+      - {GOLD}BR Green Yellow Front
+- id: 2545
+  vehicle: br_416_1
+  profile: '416_1'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2545_br_416_1_416_1_br_blue_train.gnml
+  identifier: br_416_1_416_1_br_blue_train
+  name_string: str_br_416_1_416_1_br_blue_train_name
+  strings:
+    str_br_504_504_2_br_blue_train_nested_name: '{BLACK}2-Car - {GOLD}BR Blue'
+    str_br_416_1_416_1_br_green_train_group_name: '{BLACK}Class 416/1 "2-EPB" - {SILVER}2-Car'
+    str_br_416_1_416_1_br_blue_train_name: Class 416/1 "2-EPB" - {SILVER}2-Car{BLACK}
+      - {GOLD}BR Blue
+- id: 2546
+  vehicle: br_416_1
+  profile: '416_1'
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2546_br_416_1_416_1_br_blue_grey_train.gnml
+  identifier: br_416_1_416_1_br_blue_grey_train
+  name_string: str_br_416_1_416_1_br_blue_grey_train_name
+  strings:
+    str_br_416_1_416_1_br_green_train_group_name: '{BLACK}Class 416/1 "2-EPB" - {SILVER}2-Car'
+    str_br_416_1_416_1_br_blue_grey_train_name: Class 416/1 "2-EPB" - {SILVER}2-Car{BLACK}
+      - {GOLD}BR Blue Grey
+    str_br_416_1_416_1_br_blue_grey_train_nested_name: '{BLACK}2-Car - {GOLD}BR Blue
+      Grey'
+- id: 2547
+  vehicle: br_416_1
+  profile: '416_1'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2547_br_416_1_416_1_network_southeast_train.gnml
+  identifier: br_416_1_416_1_network_southeast_train
+  name_string: str_br_416_1_416_1_network_southeast_train_name
+  strings:
+    str_br_158_158_2_network_southeast_train_nested_name: '{BLACK}2-Car - {GOLD}Network
+      SouthEast'
+    str_br_416_1_416_1_br_green_train_group_name: '{BLACK}Class 416/1 "2-EPB" - {SILVER}2-Car'
+    str_br_416_1_416_1_network_southeast_train_name: Class 416/1 "2-EPB" - {SILVER}2-Car{BLACK}
+      - {GOLD}Network SouthEast

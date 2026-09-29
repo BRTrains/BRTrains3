@@ -1,0 +1,49 @@
+info:
+  identifier: br_416_1
+  name: 'Class 416/1 "2-EPB"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 416/1 2-EPB
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 135
+  length: 8
+  power: 1000
+  speed: 75
+  tractive_effort: 0.08
+  track_type:
+    - THIRD
+  power_type:
+    - electric
+
+cargo: passenger
+
+loading_speed: 25
+
+cargo_age_period: 185
+
+dates:
+  introduction_date: 1953-04-21
+
+profiles:
+  - identifier: '416_1'
+    name: 2-Car
+    num_vehicles: 2
+    capacity: 82
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/416_1
+
+liveries:
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Green Yellow Front'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Blue Grey'
+    special_tags: [operator/BR]
+  - name: 'Network SouthEast'
+    special_tags: [operator/Network SouthEast]
