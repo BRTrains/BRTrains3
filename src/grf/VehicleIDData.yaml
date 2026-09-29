@@ -42673,3 +42673,53 @@ variants:
       Radial'
     str_lswr_adams_radial_default_sage_green_train_nested_name: '{BLACK}LSWR Adams
       Radial - {GOLD}Sage Green'
+- id: 2645
+  vehicle: br_mpv_dualfreight
+  profile: default
+  livery: network rail yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2645_br_mpv_dualfreight_default_network_rail_yellow_train.gnml
+  identifier: br_mpv_dualfreight_default_network_rail_yellow_train
+  name_string: str_br_mpv_dualfreight_default_network_rail_yellow_train_name
+  strings:
+    str_br_mpv_dualfreight_default_network_rail_yellow_train_name: BR MPV Dual Freight
+      - {GOLD}Network Rail Yellow
+    str_br_mpv_dualfreight_default_network_rail_yellow_train_group_name: '{BLACK}BR
+      MPV Dual Freight'
+    str_br_mpv_dualfreight_default_network_rail_yellow_train_nested_name: '{BLACK}BR
+      MPV Dual Freight - {GOLD}Network Rail Yellow'
+- id: 2646
+  vehicle: br_mpv_dualfreight
+  profile: default
+  livery: network rail blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2646_br_mpv_dualfreight_default_network_rail_blue_train.gnml
+  identifier: br_mpv_dualfreight_default_network_rail_blue_train
+  name_string: str_br_mpv_dualfreight_default_network_rail_blue_train_name
+  strings:
+    str_br_mpv_dualfreight_default_network_rail_yellow_train_group_name: '{BLACK}BR
+      MPV Dual Freight'
+    str_br_mpv_dualfreight_default_network_rail_blue_train_name: BR MPV Dual Freight
+      - {GOLD}Network Rail Blue
+    str_br_mpv_dualfreight_default_network_rail_blue_train_nested_name: '{BLACK}BR
+      MPV Dual Freight - {GOLD}Network Rail Blue'
