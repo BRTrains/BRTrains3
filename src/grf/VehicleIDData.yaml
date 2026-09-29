@@ -42217,3 +42217,53 @@ variants:
     str_gwr_6700_default_preserved_train_name: GWR Collett 6700 Class 0-6-0PT - {GOLD}Preserved
     str_gwr_6700_default_preserved_train_nested_name: '{BLACK}GWR Collett 6700 Class
       0-6-0PT - {GOLD}Preserved'
+- id: 2626
+  vehicle: gwr_hall
+  profile: default
+  livery: gwr green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2626_gwr_hall_default_gwr_green_train.gnml
+  identifier: gwr_hall_default_gwr_green_train
+  name_string: str_gwr_hall_default_gwr_green_train_name
+  strings:
+    str_gwr_hall_default_gwr_green_train_name: GWR Collett 4900 Class 4-6-0 "Hall"
+      - {GOLD}GWR Green
+    str_gwr_hall_default_gwr_green_train_group_name: '{BLACK}GWR Collett 4900 Class
+      4-6-0 "Hall"'
+    str_gwr_hall_default_gwr_green_train_nested_name: '{BLACK}GWR Collett 4900 Class
+      4-6-0 "Hall" - {GOLD}GWR Green'
+- id: 2627
+  vehicle: gwr_hall
+  profile: default
+  livery: hogwarts express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2627_gwr_hall_default_hogwarts_express_train.gnml
+  identifier: gwr_hall_default_hogwarts_express_train
+  name_string: str_gwr_hall_default_hogwarts_express_train_name
+  strings:
+    str_gwr_hall_default_gwr_green_train_group_name: '{BLACK}GWR Collett 4900 Class
+      4-6-0 "Hall"'
+    str_gwr_hall_default_hogwarts_express_train_name: GWR Collett 4900 Class 4-6-0
+      "Hall" - {GOLD}Hogwarts Express
+    str_gwr_hall_default_hogwarts_express_train_nested_name: '{BLACK}GWR Collett 4900
+      Class 4-6-0 "Hall" - {GOLD}Hogwarts Express'
