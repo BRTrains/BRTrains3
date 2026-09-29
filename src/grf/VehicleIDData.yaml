@@ -40685,3 +40685,55 @@ variants:
       {GOLD}Connex
     str_br_423_423_9_connex_train_group_name: '{BLACK}Class 423 "4-VEP" - {SILVER}4-VOP'
     str_br_423_423_9_connex_train_nested_name: '{BLACK}4-VOP - {GOLD}Connex'
+- id: 2562
+  vehicle: br_432
+  profile: default
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2562_br_432_default_br_blue_and_grey_train.gnml
+  identifier: br_432_default_br_blue_and_grey_train
+  name_string: str_br_432_default_br_blue_and_grey_train_name
+  strings:
+    str_br_432_default_br_blue_and_grey_train_name: Class 432 "4-REP" - {GOLD}BR Blue
+      and Grey
+    str_br_432_default_br_blue_and_grey_train_group_name: '{BLACK}Class 432 "4-REP"'
+    str_br_432_default_br_blue_and_grey_train_nested_name: '{BLACK}Class 432 "4-REP"
+      - {GOLD}BR Blue and Grey'
+- id: 2563
+  vehicle: br_432
+  profile: default
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2563_br_432_default_network_south_east_train.gnml
+  identifier: br_432_default_network_south_east_train
+  name_string: str_br_432_default_network_south_east_train_name
+  strings:
+    str_br_432_default_br_blue_and_grey_train_group_name: '{BLACK}Class 432 "4-REP"'
+    str_br_432_default_network_south_east_train_name: Class 432 "4-REP" - {GOLD}Network
+      South East
+    str_br_432_default_network_south_east_train_nested_name: '{BLACK}Class 432 "4-REP"
+      - {GOLD}Network South East'
