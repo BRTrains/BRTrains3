@@ -1,0 +1,43 @@
+info:
+  identifier: gwr_6700
+  name: 'GWR Collett 6700 Class 0-6-0PT'
+  sub_name: Steam locomotive
+  based_on: GWR Collett 6700 Class 0-6-0PT
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 47
+  length: 4
+  power: 350
+  speed: 45
+  tractive_effort: 0.217
+  power_type:
+    - steam
+
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1929-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+    sprite_override: [1]
+    special_tags:
+      - formation/1-car
+      - subclass/gwr_6700
+
+liveries:
+  - name: 'GWR Green 1929'
+    special_tags: [operator/GWR]
+  - name: 'GWR Green 1934'
+    special_tags: [operator/GWR]
+  - name: 'GWR Green 1942'
+    special_tags: [operator/GWR]
+  - name: 'BR Tram'
+    special_tags: [operator/BR]
+  - name: 'Preserved'
+    special_tags: [operator/GWR]

@@ -41979,3 +41979,241 @@ variants:
       Green
     str_gnr_a1_default_lner_green_train_nested_name: '{BLACK}GNR Gresley Class A1
       4-6-2 - {GOLD}LNER Green'
+- id: 2616
+  vehicle: gwr_5700
+  profile: default
+  livery: gwr green 1929
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2616_gwr_5700_default_gwr_green_1929_train.gnml
+  identifier: gwr_5700_default_gwr_green_1929_train
+  name_string: str_gwr_5700_default_gwr_green_1929_train_name
+  strings:
+    str_gwr_5700_default_gwr_green_1929_train_name: GWR Collett 5700 Class 0-6-0PT
+      - {GOLD}GWR Green 1929
+    str_gwr_5700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 5700
+      Class 0-6-0PT'
+    str_gwr_5700_default_gwr_green_1929_train_nested_name: '{BLACK}GWR Collett 5700
+      Class 0-6-0PT - {GOLD}GWR Green 1929'
+- id: 2617
+  vehicle: gwr_5700
+  profile: default
+  livery: gwr green 1934
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2617_gwr_5700_default_gwr_green_1934_train.gnml
+  identifier: gwr_5700_default_gwr_green_1934_train
+  name_string: str_gwr_5700_default_gwr_green_1934_train_name
+  strings:
+    str_gwr_5700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 5700
+      Class 0-6-0PT'
+    str_gwr_5700_default_gwr_green_1934_train_name: GWR Collett 5700 Class 0-6-0PT
+      - {GOLD}GWR Green 1934
+    str_gwr_5700_default_gwr_green_1934_train_nested_name: '{BLACK}GWR Collett 5700
+      Class 0-6-0PT - {GOLD}GWR Green 1934'
+- id: 2618
+  vehicle: gwr_5700
+  profile: default
+  livery: gwr green 1942
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2618_gwr_5700_default_gwr_green_1942_train.gnml
+  identifier: gwr_5700_default_gwr_green_1942_train
+  name_string: str_gwr_5700_default_gwr_green_1942_train_name
+  strings:
+    str_gwr_5700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 5700
+      Class 0-6-0PT'
+    str_gwr_5700_default_gwr_green_1942_train_name: GWR Collett 5700 Class 0-6-0PT
+      - {GOLD}GWR Green 1942
+    str_gwr_5700_default_gwr_green_1942_train_nested_name: '{BLACK}GWR Collett 5700
+      Class 0-6-0PT - {GOLD}GWR Green 1942'
+- id: 2619
+  vehicle: gwr_5700
+  profile: default
+  livery: br tram
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2619_gwr_5700_default_br_tram_train.gnml
+  identifier: gwr_5700_default_br_tram_train
+  name_string: str_gwr_5700_default_br_tram_train_name
+  strings:
+    str_gwr_5700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 5700
+      Class 0-6-0PT'
+    str_gwr_5700_default_br_tram_train_name: GWR Collett 5700 Class 0-6-0PT - {GOLD}BR
+      Tram
+    str_gwr_5700_default_br_tram_train_nested_name: '{BLACK}GWR Collett 5700 Class
+      0-6-0PT - {GOLD}BR Tram'
+- id: 2620
+  vehicle: gwr_5700
+  profile: default
+  livery: preserved
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2620_gwr_5700_default_preserved_train.gnml
+  identifier: gwr_5700_default_preserved_train
+  name_string: str_gwr_5700_default_preserved_train_name
+  strings:
+    str_gwr_5700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 5700
+      Class 0-6-0PT'
+    str_gwr_5700_default_preserved_train_name: GWR Collett 5700 Class 0-6-0PT - {GOLD}Preserved
+    str_gwr_5700_default_preserved_train_nested_name: '{BLACK}GWR Collett 5700 Class
+      0-6-0PT - {GOLD}Preserved'
+- id: 2621
+  vehicle: gwr_6700
+  profile: default
+  livery: gwr green 1929
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2621_gwr_6700_default_gwr_green_1929_train.gnml
+  identifier: gwr_6700_default_gwr_green_1929_train
+  name_string: str_gwr_6700_default_gwr_green_1929_train_name
+  strings:
+    str_gwr_6700_default_gwr_green_1929_train_name: GWR Collett 6700 Class 0-6-0PT
+      - {GOLD}GWR Green 1929
+    str_gwr_6700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 6700
+      Class 0-6-0PT'
+    str_gwr_6700_default_gwr_green_1929_train_nested_name: '{BLACK}GWR Collett 6700
+      Class 0-6-0PT - {GOLD}GWR Green 1929'
+- id: 2622
+  vehicle: gwr_6700
+  profile: default
+  livery: gwr green 1934
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2622_gwr_6700_default_gwr_green_1934_train.gnml
+  identifier: gwr_6700_default_gwr_green_1934_train
+  name_string: str_gwr_6700_default_gwr_green_1934_train_name
+  strings:
+    str_gwr_6700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 6700
+      Class 0-6-0PT'
+    str_gwr_6700_default_gwr_green_1934_train_name: GWR Collett 6700 Class 0-6-0PT
+      - {GOLD}GWR Green 1934
+    str_gwr_6700_default_gwr_green_1934_train_nested_name: '{BLACK}GWR Collett 6700
+      Class 0-6-0PT - {GOLD}GWR Green 1934'
+- id: 2623
+  vehicle: gwr_6700
+  profile: default
+  livery: gwr green 1942
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2623_gwr_6700_default_gwr_green_1942_train.gnml
+  identifier: gwr_6700_default_gwr_green_1942_train
+  name_string: str_gwr_6700_default_gwr_green_1942_train_name
+  strings:
+    str_gwr_6700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 6700
+      Class 0-6-0PT'
+    str_gwr_6700_default_gwr_green_1942_train_name: GWR Collett 6700 Class 0-6-0PT
+      - {GOLD}GWR Green 1942
+    str_gwr_6700_default_gwr_green_1942_train_nested_name: '{BLACK}GWR Collett 6700
+      Class 0-6-0PT - {GOLD}GWR Green 1942'
+- id: 2624
+  vehicle: gwr_6700
+  profile: default
+  livery: br tram
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2624_gwr_6700_default_br_tram_train.gnml
+  identifier: gwr_6700_default_br_tram_train
+  name_string: str_gwr_6700_default_br_tram_train_name
+  strings:
+    str_gwr_6700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 6700
+      Class 0-6-0PT'
+    str_gwr_6700_default_br_tram_train_name: GWR Collett 6700 Class 0-6-0PT - {GOLD}BR
+      Tram
+    str_gwr_6700_default_br_tram_train_nested_name: '{BLACK}GWR Collett 6700 Class
+      0-6-0PT - {GOLD}BR Tram'
+- id: 2625
+  vehicle: gwr_6700
+  profile: default
+  livery: preserved
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/2625_gwr_6700_default_preserved_train.gnml
+  identifier: gwr_6700_default_preserved_train
+  name_string: str_gwr_6700_default_preserved_train_name
+  strings:
+    str_gwr_6700_default_gwr_green_1929_train_group_name: '{BLACK}GWR Collett 6700
+      Class 0-6-0PT'
+    str_gwr_6700_default_preserved_train_name: GWR Collett 6700 Class 0-6-0PT - {GOLD}Preserved
+    str_gwr_6700_default_preserved_train_nested_name: '{BLACK}GWR Collett 6700 Class
+      0-6-0PT - {GOLD}Preserved'
