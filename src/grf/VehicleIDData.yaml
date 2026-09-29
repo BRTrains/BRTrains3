@@ -41885,3 +41885,49 @@ variants:
       - {GOLD}First ScotRail
     str_br_mk2_buffet_first_scotrail_train_nested_name: '{BLACK}Restaurant Buffet
       - {GOLD}First ScotRail'
+- id: 2612
+  vehicle: br_mk5a
+  profile: default
+  livery: transpennine express
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2612_br_mk5a_default_transpennine_express_train.gnml
+  identifier: br_mk5a_default_transpennine_express_train
+  name_string: str_br_mk5a_default_transpennine_express_train_name
+  strings:
+    str_br_mk5a_default_transpennine_express_train_name: Mk5a Coach - {GOLD}TransPennine
+      Express
+    str_br_mk5a_default_transpennine_express_train_group_name: '{BLACK}Mk5a Coach'
+    str_br_mk5a_default_transpennine_express_train_nested_name: '{BLACK}Mk5a Coach
+      - {GOLD}TransPennine Express'
+- id: 2613
+  vehicle: br_mk5a
+  profile: default
+  livery: chiltern - blue 2 tone
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2613_br_mk5a_default_chiltern___blue_2_tone_train.gnml
+  identifier: br_mk5a_default_chiltern___blue_2_tone_train
+  name_string: str_br_mk5a_default_chiltern___blue_2_tone_train_name
+  strings:
+    str_br_mk5a_default_transpennine_express_train_group_name: '{BLACK}Mk5a Coach'
+    str_br_mk5a_default_chiltern___blue_2_tone_train_name: Mk5a Coach - {GOLD}Chiltern
+      - Blue 2 Tone
+    str_br_mk5a_default_chiltern___blue_2_tone_train_nested_name: '{BLACK}Mk5a Coach
+      - {GOLD}Chiltern - Blue 2 Tone'

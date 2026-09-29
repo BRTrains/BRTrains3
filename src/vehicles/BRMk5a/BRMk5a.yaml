@@ -1,0 +1,34 @@
+info:
+  identifier: br_mk5a
+  name: 'Mk5a Coach'
+  sub_name: Passenger coach
+  based_on: British Rail Mk5a
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 40
+  length: 8
+  power: 0
+  tractive_effort: 0
+
+cargo: passenger
+loading_speed: 14
+
+dates:
+  introduction_date: 2019-08-04
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 60
+    speed: 125
+    special_tags:
+      - formation/1-car
+      - subclass/mk5a
+
+liveries:
+  - name: 'TransPennine Express'
+    special_tags: [operator/TransPennine Express]
+  - name: 'Chiltern - Blue 2 Tone'
+    special_tags: [operator/Chiltern Railways]
