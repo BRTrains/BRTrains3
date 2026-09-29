@@ -41556,3 +41556,332 @@ variants:
       - {GOLD}First ScotRail
     str_br_mk2_bfo_first_scotrail_train_nested_name: '{BLACK}Brake First Class - {GOLD}First
       ScotRail'
+- id: 2598
+  vehicle: br_mk2
+  profile: buffet
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2598_br_mk2_buffet_br_blue_train.gnml
+  identifier: br_mk2_buffet_br_blue_train
+  name_string: str_br_mk2_buffet_br_blue_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}BR Blue
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_br_blue_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}BR
+      Blue'
+- id: 2599
+  vehicle: br_mk2
+  profile: buffet
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2599_br_mk2_buffet_network_south_east_train.gnml
+  identifier: br_mk2_buffet_network_south_east_train
+  name_string: str_br_mk2_buffet_network_south_east_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_network_south_east_train_name: Mk2 Coach - {SILVER}Restaurant
+      Buffet{BLACK} - {GOLD}Network South East
+    str_br_mk2_buffet_network_south_east_train_nested_name: '{BLACK}Restaurant Buffet
+      - {GOLD}Network South East'
+- id: 2600
+  vehicle: br_mk2
+  profile: buffet
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2600_br_mk2_buffet_regional_railways_train.gnml
+  identifier: br_mk2_buffet_regional_railways_train
+  name_string: str_br_mk2_buffet_regional_railways_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_regional_railways_train_name: Mk2 Coach - {SILVER}Restaurant
+      Buffet{BLACK} - {GOLD}Regional Railways
+    str_br_mk2_buffet_regional_railways_train_nested_name: '{BLACK}Restaurant Buffet
+      - {GOLD}Regional Railways'
+- id: 2601
+  vehicle: br_mk2
+  profile: buffet
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2601_br_mk2_buffet_scotrail_train.gnml
+  identifier: br_mk2_buffet_scotrail_train
+  name_string: str_br_mk2_buffet_scotrail_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_scotrail_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}ScotRail
+    str_br_mk2_buffet_scotrail_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}ScotRail'
+- id: 2602
+  vehicle: br_mk2
+  profile: buffet
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2602_br_mk2_buffet_anglia_train.gnml
+  identifier: br_mk2_buffet_anglia_train
+  name_string: str_br_mk2_buffet_anglia_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_anglia_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}Anglia
+    str_br_mk2_buffet_anglia_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}Anglia'
+- id: 2603
+  vehicle: br_mk2
+  profile: buffet
+  livery: west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2603_br_mk2_buffet_west_coast_train.gnml
+  identifier: br_mk2_buffet_west_coast_train
+  name_string: str_br_mk2_buffet_west_coast_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_west_coast_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}West Coast
+    str_br_mk2_buffet_west_coast_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}West
+      Coast'
+- id: 2604
+  vehicle: br_mk2
+  profile: buffet
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2604_br_mk2_buffet_one_train.gnml
+  identifier: br_mk2_buffet_one_train
+  name_string: str_br_mk2_buffet_one_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_one_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}One
+    str_br_mk2_buffet_one_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}One'
+- id: 2605
+  vehicle: br_mk2
+  profile: buffet
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2605_br_mk2_buffet_intercity_train.gnml
+  identifier: br_mk2_buffet_intercity_train
+  name_string: str_br_mk2_buffet_intercity_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_intercity_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}InterCity
+    str_br_mk2_buffet_intercity_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}InterCity'
+- id: 2606
+  vehicle: br_mk2
+  profile: buffet
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2606_br_mk2_buffet_network_rail_train.gnml
+  identifier: br_mk2_buffet_network_rail_train
+  name_string: str_br_mk2_buffet_network_rail_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_network_rail_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}Network Rail
+    str_br_mk2_buffet_network_rail_train_nested_name: '{BLACK}Restaurant Buffet -
+      {GOLD}Network Rail'
+- id: 2607
+  vehicle: br_mk2
+  profile: buffet
+  livery: arriva wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2607_br_mk2_buffet_arriva_wales_train.gnml
+  identifier: br_mk2_buffet_arriva_wales_train
+  name_string: str_br_mk2_buffet_arriva_wales_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_arriva_wales_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}Arriva Wales
+    str_br_mk2_buffet_arriva_wales_train_nested_name: '{BLACK}Restaurant Buffet -
+      {GOLD}Arriva Wales'
+- id: 2608
+  vehicle: br_mk2
+  profile: buffet
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2608_br_mk2_buffet_drs_train.gnml
+  identifier: br_mk2_buffet_drs_train
+  name_string: str_br_mk2_buffet_drs_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_drs_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}DRS
+    str_br_mk2_buffet_drs_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}DRS'
+- id: 2609
+  vehicle: br_mk2
+  profile: buffet
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2609_br_mk2_buffet_virgin_train.gnml
+  identifier: br_mk2_buffet_virgin_train
+  name_string: str_br_mk2_buffet_virgin_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_virgin_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}Virgin
+    str_br_mk2_buffet_virgin_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}Virgin'
+- id: 2610
+  vehicle: br_mk2
+  profile: buffet
+  livery: fgw
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2610_br_mk2_buffet_fgw_train.gnml
+  identifier: br_mk2_buffet_fgw_train
+  name_string: str_br_mk2_buffet_fgw_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_fgw_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}FGW
+    str_br_mk2_buffet_fgw_train_nested_name: '{BLACK}Restaurant Buffet - {GOLD}FGW'
+- id: 2611
+  vehicle: br_mk2
+  profile: buffet
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2611_br_mk2_buffet_first_scotrail_train.gnml
+  identifier: br_mk2_buffet_first_scotrail_train
+  name_string: str_br_mk2_buffet_first_scotrail_train_name
+  strings:
+    str_br_mk2_buffet_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Restaurant
+      Buffet'
+    str_br_mk2_buffet_first_scotrail_train_name: Mk2 Coach - {SILVER}Restaurant Buffet{BLACK}
+      - {GOLD}First ScotRail
+    str_br_mk2_buffet_first_scotrail_train_nested_name: '{BLACK}Restaurant Buffet
+      - {GOLD}First ScotRail'
