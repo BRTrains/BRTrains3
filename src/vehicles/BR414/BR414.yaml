@@ -1,0 +1,58 @@
+info:
+  identifier: br_414
+  name: 'Class 414 "2-HAP"'
+  sub_name: Electric multiple unit
+  based_on: British Rail Class 414 2-HAP
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 72
+  length: 8
+  power: 500
+  speed: 75
+  tractive_effort: 0.08
+  track_type:
+    - THIRD
+  power_type:
+    - electric
+
+cargo: passenger
+loading_speed: 25
+cargo_age_period: 205
+
+dates:
+  introduction_date: 1957-04-21
+
+profiles:
+  - identifier: '414_1'
+    name: 2-Car
+    num_vehicles: 2
+    capacity: 56
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/414_1
+  - identifier: '414_2'
+    name: 2-Car
+    num_vehicles: 2
+    capacity: 69
+    weight: 70
+    speed: 90
+    introduction_date: 1959-04-21
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/2-car
+      - subclass/414_2
+
+liveries:
+  - name: 'BR Green'
+    special_tags: [operator/BR]
+  - name: 'BR Green Yellow Front'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Blue and Grey'
+    special_tags: [operator/BR]
+  - name: 'Network SouthEast'
+    special_tags: [operator/Network SouthEast]
