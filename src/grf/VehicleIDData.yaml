@@ -40531,3 +40531,132 @@ variants:
     str_br_418_1_418_1_br_green_train_group_name: '{BLACK}Class 418 "2-SAP" - {SILVER}2-Car'
     str_br_418_1_418_1_network_southeast_train_name: Class 418 "2-SAP" - {SILVER}2-Car{BLACK}
       - {GOLD}Network SouthEast
+- id: 2558
+  vehicle: br_422
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2558_br_422_default_br_green_train.gnml
+  identifier: br_422_default_br_green_train
+  name_string: str_br_422_default_br_green_train_name
+  strings:
+    str_br_422_default_br_green_train_name: Class 422 "4-BIG" - {GOLD}BR Green
+    str_br_422_default_br_green_train_group_name: '{BLACK}Class 422 "4-BIG"'
+    str_br_422_default_br_green_train_nested_name: '{BLACK}Class 422 "4-BIG" - {GOLD}BR
+      Green'
+- id: null
+  vehicle: br_422
+  profile: default
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2559_br_422_default_br_blue_and_grey_train.gnml
+  identifier: br_422_default_br_blue_and_grey_train
+  name_string: str_br_422_default_br_blue_and_grey_train_name
+  strings:
+    str_br_422_default_br_green_train_group_name: '{BLACK}Class 422 "4-SUB"'
+    str_br_422_default_br_blue_and_grey_train_name: Class 422 "4-SUB" - {GOLD}BR Blue
+      and Grey
+    str_br_422_default_br_blue_and_grey_train_nested_name: '{BLACK}Class 422 "4-SUB"
+      - {GOLD}BR Blue and Grey'
+- id: null
+  vehicle: br_422
+  profile: default
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2560_br_422_default_network_south_east_train.gnml
+  identifier: br_422_default_network_south_east_train
+  name_string: str_br_422_default_network_south_east_train_name
+  strings:
+    str_br_422_default_br_green_train_group_name: '{BLACK}Class 422 "4-SUB"'
+    str_br_422_default_network_south_east_train_name: Class 422 "4-SUB" - {GOLD}Network
+      South East
+    str_br_422_default_network_south_east_train_nested_name: '{BLACK}Class 422 "4-SUB"
+      - {GOLD}Network South East'
+- id: 2559
+  vehicle: br_422
+  profile: default
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2559_br_422_default_br_blue_grey_train.gnml
+  identifier: br_422_default_br_blue_grey_train
+  name_string: str_br_422_default_br_blue_grey_train_name
+  strings:
+    str_br_422_default_br_green_train_group_name: '{BLACK}Class 422 "4-BIG"'
+    str_br_422_default_br_blue_grey_train_name: Class 422 "4-BIG" - {GOLD}BR Blue
+      Grey
+    str_br_422_default_br_blue_grey_train_nested_name: '{BLACK}Class 422 "4-BIG" -
+      {GOLD}BR Blue Grey'
+- id: 2560
+  vehicle: br_422
+  profile: default
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2560_br_422_default_network_southeast_train.gnml
+  identifier: br_422_default_network_southeast_train
+  name_string: str_br_422_default_network_southeast_train_name
+  strings:
+    str_br_422_default_br_green_train_group_name: '{BLACK}Class 422 "4-BIG"'
+    str_br_422_default_network_southeast_train_name: Class 422 "4-BIG" - {GOLD}Network
+      SouthEast
+    str_br_422_default_network_southeast_train_nested_name: '{BLACK}Class 422 "4-BIG"
+      - {GOLD}Network SouthEast'
