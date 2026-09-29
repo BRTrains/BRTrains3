@@ -39855,11 +39855,11 @@ variants:
   identifier: br_414_414_1_br_green_yellow_front_train
   name_string: str_br_414_414_1_br_green_yellow_front_train_name
   strings:
+    str_br_418_1_418_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
+      Green Yellow Front'
     str_br_414_414_1_br_green_train_group_name: '{BLACK}Class 414 "2-HAP" - {SILVER}2-Car'
     str_br_414_414_1_br_green_yellow_front_train_name: Class 414 "2-HAP" - {SILVER}2-Car{BLACK}
       - {GOLD}BR Green Yellow Front
-    str_br_414_414_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
-      Green Yellow Front'
 - id: 2530
   vehicle: br_414
   profile: '414_1'
@@ -39973,9 +39973,9 @@ variants:
   identifier: br_414_414_2_br_green_yellow_front_train
   name_string: str_br_414_414_2_br_green_yellow_front_train_name
   strings:
-    str_br_414_414_1_br_green_train_group_name: '{BLACK}Class 414 "2-HAP" - {SILVER}2-Car'
-    str_br_414_414_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
+    str_br_418_1_418_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
       Green Yellow Front'
+    str_br_414_414_1_br_green_train_group_name: '{BLACK}Class 414 "2-HAP" - {SILVER}2-Car'
     str_br_414_414_2_br_green_yellow_front_train_name: Class 414 "2-HAP" - {SILVER}2-Car{BLACK}
       - {GOLD}BR Green Yellow Front
 - id: 2535
@@ -40219,7 +40219,7 @@ variants:
   identifier: br_416_1_416_1_br_green_yellow_front_train
   name_string: str_br_416_1_416_1_br_green_yellow_front_train_name
   strings:
-    str_br_414_414_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
+    str_br_418_1_418_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
       Green Yellow Front'
     str_br_416_1_416_1_br_green_train_group_name: '{BLACK}Class 416/1 "2-EPB" - {SILVER}2-Car'
     str_br_416_1_416_1_br_green_yellow_front_train_name: Class 416/1 "2-EPB" - {SILVER}2-Car{BLACK}
@@ -40266,11 +40266,11 @@ variants:
   identifier: br_416_1_416_1_br_blue_grey_train
   name_string: str_br_416_1_416_1_br_blue_grey_train_name
   strings:
+    str_br_418_1_418_1_br_blue_grey_train_nested_name: '{BLACK}2-Car - {GOLD}BR Blue
+      Grey'
     str_br_416_1_416_1_br_green_train_group_name: '{BLACK}Class 416/1 "2-EPB" - {SILVER}2-Car'
     str_br_416_1_416_1_br_blue_grey_train_name: Class 416/1 "2-EPB" - {SILVER}2-Car{BLACK}
       - {GOLD}BR Blue Grey
-    str_br_416_1_416_1_br_blue_grey_train_nested_name: '{BLACK}2-Car - {GOLD}BR Blue
-      Grey'
 - id: 2547
   vehicle: br_416_1
   profile: '416_1'
@@ -40337,7 +40337,7 @@ variants:
   identifier: br_416_2_416_2_br_green_yellow_front_train
   name_string: str_br_416_2_416_2_br_green_yellow_front_train_name
   strings:
-    str_br_414_414_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
+    str_br_418_1_418_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
       Green Yellow Front'
     str_br_416_2_416_2_br_green_train_group_name: '{BLACK}Class 416/2 "2-EPB" - {SILVER}2-Car'
     str_br_416_2_416_2_br_green_yellow_front_train_name: Class 416/2 "2-EPB" - {SILVER}2-Car{BLACK}
@@ -40384,7 +40384,7 @@ variants:
   identifier: br_416_2_416_2_br_blue_grey_train
   name_string: str_br_416_2_416_2_br_blue_grey_train_name
   strings:
-    str_br_416_1_416_1_br_blue_grey_train_nested_name: '{BLACK}2-Car - {GOLD}BR Blue
+    str_br_418_1_418_1_br_blue_grey_train_nested_name: '{BLACK}2-Car - {GOLD}BR Blue
       Grey'
     str_br_416_2_416_2_br_green_train_group_name: '{BLACK}Class 416/2 "2-EPB" - {SILVER}2-Car'
     str_br_416_2_416_2_br_blue_grey_train_name: Class 416/2 "2-EPB" - {SILVER}2-Car{BLACK}
@@ -40412,4 +40412,122 @@ variants:
       SouthEast'
     str_br_416_2_416_2_br_green_train_group_name: '{BLACK}Class 416/2 "2-EPB" - {SILVER}2-Car'
     str_br_416_2_416_2_network_southeast_train_name: Class 416/2 "2-EPB" - {SILVER}2-Car{BLACK}
+      - {GOLD}Network SouthEast
+- id: 2553
+  vehicle: br_418_1
+  profile: '418_1'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2553_br_418_1_418_1_br_green_train.gnml
+  identifier: br_418_1_418_1_br_green_train
+  name_string: str_br_418_1_418_1_br_green_train_name
+  strings:
+    str_br_504_504_2_br_green_train_nested_name: '{BLACK}2-Car - {GOLD}BR Green'
+    str_br_418_1_418_1_br_green_train_name: Class 418 "2-SAP" - {SILVER}2-Car{BLACK}
+      - {GOLD}BR Green
+    str_br_418_1_418_1_br_green_train_group_name: '{BLACK}Class 418 "2-SAP" - {SILVER}2-Car'
+- id: 2554
+  vehicle: br_418_1
+  profile: '418_1'
+  livery: br green yellow front
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2554_br_418_1_418_1_br_green_yellow_front_train.gnml
+  identifier: br_418_1_418_1_br_green_yellow_front_train
+  name_string: str_br_418_1_418_1_br_green_yellow_front_train_name
+  strings:
+    str_br_418_1_418_1_br_green_train_group_name: '{BLACK}Class 418 "2-SAP" - {SILVER}2-Car'
+    str_br_418_1_418_1_br_green_yellow_front_train_name: Class 418 "2-SAP" - {SILVER}2-Car{BLACK}
+      - {GOLD}BR Green Yellow Front
+    str_br_418_1_418_1_br_green_yellow_front_train_nested_name: '{BLACK}2-Car - {GOLD}BR
+      Green Yellow Front'
+- id: 2555
+  vehicle: br_418_1
+  profile: '418_1'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2555_br_418_1_418_1_br_blue_train.gnml
+  identifier: br_418_1_418_1_br_blue_train
+  name_string: str_br_418_1_418_1_br_blue_train_name
+  strings:
+    str_br_504_504_2_br_blue_train_nested_name: '{BLACK}2-Car - {GOLD}BR Blue'
+    str_br_418_1_418_1_br_green_train_group_name: '{BLACK}Class 418 "2-SAP" - {SILVER}2-Car'
+    str_br_418_1_418_1_br_blue_train_name: Class 418 "2-SAP" - {SILVER}2-Car{BLACK}
+      - {GOLD}BR Blue
+- id: 2556
+  vehicle: br_418_1
+  profile: '418_1'
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2556_br_418_1_418_1_br_blue_grey_train.gnml
+  identifier: br_418_1_418_1_br_blue_grey_train
+  name_string: str_br_418_1_418_1_br_blue_grey_train_name
+  strings:
+    str_br_418_1_418_1_br_green_train_group_name: '{BLACK}Class 418 "2-SAP" - {SILVER}2-Car'
+    str_br_418_1_418_1_br_blue_grey_train_name: Class 418 "2-SAP" - {SILVER}2-Car{BLACK}
+      - {GOLD}BR Blue Grey
+    str_br_418_1_418_1_br_blue_grey_train_nested_name: '{BLACK}2-Car - {GOLD}BR Blue
+      Grey'
+- id: 2557
+  vehicle: br_418_1
+  profile: '418_1'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 69
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/2557_br_418_1_418_1_network_southeast_train.gnml
+  identifier: br_418_1_418_1_network_southeast_train
+  name_string: str_br_418_1_418_1_network_southeast_train_name
+  strings:
+    str_br_158_158_2_network_southeast_train_nested_name: '{BLACK}2-Car - {GOLD}Network
+      SouthEast'
+    str_br_418_1_418_1_br_green_train_group_name: '{BLACK}Class 418 "2-SAP" - {SILVER}2-Car'
+    str_br_418_1_418_1_network_southeast_train_name: Class 418 "2-SAP" - {SILVER}2-Car{BLACK}
       - {GOLD}Network SouthEast
