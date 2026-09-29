@@ -40898,3 +40898,661 @@ variants:
       - {GOLD}BR Blue and Grey
     str_br_423_480_8_br_blue_and_grey_train_nested_name: '{BLACK}8-VAB - {GOLD}BR
       Blue and Grey'
+- id: 2570
+  vehicle: br_mk2
+  profile: bso
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2570_br_mk2_bso_br_blue_train.gnml
+  identifier: br_mk2_bso_br_blue_train
+  name_string: str_br_mk2_bso_br_blue_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}BR Blue
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_br_blue_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}BR
+      Blue'
+- id: 2571
+  vehicle: br_mk2
+  profile: bso
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2571_br_mk2_bso_network_south_east_train.gnml
+  identifier: br_mk2_bso_network_south_east_train
+  name_string: str_br_mk2_bso_network_south_east_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_network_south_east_train_name: Mk2 Coach - {SILVER}Brake Standard
+      Class{BLACK} - {GOLD}Network South East
+    str_br_mk2_bso_network_south_east_train_nested_name: '{BLACK}Brake Standard Class
+      - {GOLD}Network South East'
+- id: 2572
+  vehicle: br_mk2
+  profile: bso
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2572_br_mk2_bso_regional_railways_train.gnml
+  identifier: br_mk2_bso_regional_railways_train
+  name_string: str_br_mk2_bso_regional_railways_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_regional_railways_train_name: Mk2 Coach - {SILVER}Brake Standard
+      Class{BLACK} - {GOLD}Regional Railways
+    str_br_mk2_bso_regional_railways_train_nested_name: '{BLACK}Brake Standard Class
+      - {GOLD}Regional Railways'
+- id: 2573
+  vehicle: br_mk2
+  profile: bso
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2573_br_mk2_bso_scotrail_train.gnml
+  identifier: br_mk2_bso_scotrail_train
+  name_string: str_br_mk2_bso_scotrail_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_scotrail_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}ScotRail
+    str_br_mk2_bso_scotrail_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}ScotRail'
+- id: 2574
+  vehicle: br_mk2
+  profile: bso
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2574_br_mk2_bso_anglia_train.gnml
+  identifier: br_mk2_bso_anglia_train
+  name_string: str_br_mk2_bso_anglia_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_anglia_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}Anglia
+    str_br_mk2_bso_anglia_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}Anglia'
+- id: 2575
+  vehicle: br_mk2
+  profile: bso
+  livery: west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2575_br_mk2_bso_west_coast_train.gnml
+  identifier: br_mk2_bso_west_coast_train
+  name_string: str_br_mk2_bso_west_coast_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_west_coast_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}West Coast
+    str_br_mk2_bso_west_coast_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}West
+      Coast'
+- id: 2576
+  vehicle: br_mk2
+  profile: bso
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2576_br_mk2_bso_one_train.gnml
+  identifier: br_mk2_bso_one_train
+  name_string: str_br_mk2_bso_one_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_one_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}One
+    str_br_mk2_bso_one_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}One'
+- id: 2577
+  vehicle: br_mk2
+  profile: bso
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2577_br_mk2_bso_intercity_train.gnml
+  identifier: br_mk2_bso_intercity_train
+  name_string: str_br_mk2_bso_intercity_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_intercity_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}InterCity
+    str_br_mk2_bso_intercity_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}InterCity'
+- id: 2578
+  vehicle: br_mk2
+  profile: bso
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2578_br_mk2_bso_network_rail_train.gnml
+  identifier: br_mk2_bso_network_rail_train
+  name_string: str_br_mk2_bso_network_rail_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_network_rail_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}Network Rail
+    str_br_mk2_bso_network_rail_train_nested_name: '{BLACK}Brake Standard Class -
+      {GOLD}Network Rail'
+- id: 2579
+  vehicle: br_mk2
+  profile: bso
+  livery: arriva wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2579_br_mk2_bso_arriva_wales_train.gnml
+  identifier: br_mk2_bso_arriva_wales_train
+  name_string: str_br_mk2_bso_arriva_wales_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_arriva_wales_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}Arriva Wales
+    str_br_mk2_bso_arriva_wales_train_nested_name: '{BLACK}Brake Standard Class -
+      {GOLD}Arriva Wales'
+- id: 2580
+  vehicle: br_mk2
+  profile: bso
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2580_br_mk2_bso_drs_train.gnml
+  identifier: br_mk2_bso_drs_train
+  name_string: str_br_mk2_bso_drs_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_drs_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}DRS
+    str_br_mk2_bso_drs_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}DRS'
+- id: 2581
+  vehicle: br_mk2
+  profile: bso
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2581_br_mk2_bso_virgin_train.gnml
+  identifier: br_mk2_bso_virgin_train
+  name_string: str_br_mk2_bso_virgin_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_virgin_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}Virgin
+    str_br_mk2_bso_virgin_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}Virgin'
+- id: 2582
+  vehicle: br_mk2
+  profile: bso
+  livery: fgw
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2582_br_mk2_bso_fgw_train.gnml
+  identifier: br_mk2_bso_fgw_train
+  name_string: str_br_mk2_bso_fgw_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_fgw_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}FGW
+    str_br_mk2_bso_fgw_train_nested_name: '{BLACK}Brake Standard Class - {GOLD}FGW'
+- id: 2583
+  vehicle: br_mk2
+  profile: bso
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2583_br_mk2_bso_first_scotrail_train.gnml
+  identifier: br_mk2_bso_first_scotrail_train
+  name_string: str_br_mk2_bso_first_scotrail_train_name
+  strings:
+    str_br_mk2_bso_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake Standard
+      Class'
+    str_br_mk2_bso_first_scotrail_train_name: Mk2 Coach - {SILVER}Brake Standard Class{BLACK}
+      - {GOLD}First ScotRail
+    str_br_mk2_bso_first_scotrail_train_nested_name: '{BLACK}Brake Standard Class
+      - {GOLD}First ScotRail'
+- id: 2584
+  vehicle: br_mk2
+  profile: bfo
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2584_br_mk2_bfo_br_blue_train.gnml
+  identifier: br_mk2_bfo_br_blue_train
+  name_string: str_br_mk2_bfo_br_blue_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}BR Blue
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_br_blue_train_nested_name: '{BLACK}Brake First Class - {GOLD}BR
+      Blue'
+- id: 2585
+  vehicle: br_mk2
+  profile: bfo
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2585_br_mk2_bfo_network_south_east_train.gnml
+  identifier: br_mk2_bfo_network_south_east_train
+  name_string: str_br_mk2_bfo_network_south_east_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_network_south_east_train_name: Mk2 Coach - {SILVER}Brake First
+      Class{BLACK} - {GOLD}Network South East
+    str_br_mk2_bfo_network_south_east_train_nested_name: '{BLACK}Brake First Class
+      - {GOLD}Network South East'
+- id: 2586
+  vehicle: br_mk2
+  profile: bfo
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2586_br_mk2_bfo_regional_railways_train.gnml
+  identifier: br_mk2_bfo_regional_railways_train
+  name_string: str_br_mk2_bfo_regional_railways_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_regional_railways_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}Regional Railways
+    str_br_mk2_bfo_regional_railways_train_nested_name: '{BLACK}Brake First Class
+      - {GOLD}Regional Railways'
+- id: 2587
+  vehicle: br_mk2
+  profile: bfo
+  livery: scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2587_br_mk2_bfo_scotrail_train.gnml
+  identifier: br_mk2_bfo_scotrail_train
+  name_string: str_br_mk2_bfo_scotrail_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_scotrail_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}ScotRail
+    str_br_mk2_bfo_scotrail_train_nested_name: '{BLACK}Brake First Class - {GOLD}ScotRail'
+- id: 2588
+  vehicle: br_mk2
+  profile: bfo
+  livery: anglia
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2588_br_mk2_bfo_anglia_train.gnml
+  identifier: br_mk2_bfo_anglia_train
+  name_string: str_br_mk2_bfo_anglia_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_anglia_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}Anglia
+    str_br_mk2_bfo_anglia_train_nested_name: '{BLACK}Brake First Class - {GOLD}Anglia'
+- id: 2589
+  vehicle: br_mk2
+  profile: bfo
+  livery: west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2589_br_mk2_bfo_west_coast_train.gnml
+  identifier: br_mk2_bfo_west_coast_train
+  name_string: str_br_mk2_bfo_west_coast_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_west_coast_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}West Coast
+    str_br_mk2_bfo_west_coast_train_nested_name: '{BLACK}Brake First Class - {GOLD}West
+      Coast'
+- id: 2590
+  vehicle: br_mk2
+  profile: bfo
+  livery: one
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2590_br_mk2_bfo_one_train.gnml
+  identifier: br_mk2_bfo_one_train
+  name_string: str_br_mk2_bfo_one_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_one_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK} -
+      {GOLD}One
+    str_br_mk2_bfo_one_train_nested_name: '{BLACK}Brake First Class - {GOLD}One'
+- id: 2591
+  vehicle: br_mk2
+  profile: bfo
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2591_br_mk2_bfo_intercity_train.gnml
+  identifier: br_mk2_bfo_intercity_train
+  name_string: str_br_mk2_bfo_intercity_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_intercity_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}InterCity
+    str_br_mk2_bfo_intercity_train_nested_name: '{BLACK}Brake First Class - {GOLD}InterCity'
+- id: 2592
+  vehicle: br_mk2
+  profile: bfo
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2592_br_mk2_bfo_network_rail_train.gnml
+  identifier: br_mk2_bfo_network_rail_train
+  name_string: str_br_mk2_bfo_network_rail_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_network_rail_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}Network Rail
+    str_br_mk2_bfo_network_rail_train_nested_name: '{BLACK}Brake First Class - {GOLD}Network
+      Rail'
+- id: 2593
+  vehicle: br_mk2
+  profile: bfo
+  livery: arriva wales
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2593_br_mk2_bfo_arriva_wales_train.gnml
+  identifier: br_mk2_bfo_arriva_wales_train
+  name_string: str_br_mk2_bfo_arriva_wales_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_arriva_wales_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}Arriva Wales
+    str_br_mk2_bfo_arriva_wales_train_nested_name: '{BLACK}Brake First Class - {GOLD}Arriva
+      Wales'
+- id: 2594
+  vehicle: br_mk2
+  profile: bfo
+  livery: drs
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2594_br_mk2_bfo_drs_train.gnml
+  identifier: br_mk2_bfo_drs_train
+  name_string: str_br_mk2_bfo_drs_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_drs_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK} -
+      {GOLD}DRS
+    str_br_mk2_bfo_drs_train_nested_name: '{BLACK}Brake First Class - {GOLD}DRS'
+- id: 2595
+  vehicle: br_mk2
+  profile: bfo
+  livery: virgin
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2595_br_mk2_bfo_virgin_train.gnml
+  identifier: br_mk2_bfo_virgin_train
+  name_string: str_br_mk2_bfo_virgin_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_virgin_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}Virgin
+    str_br_mk2_bfo_virgin_train_nested_name: '{BLACK}Brake First Class - {GOLD}Virgin'
+- id: 2596
+  vehicle: br_mk2
+  profile: bfo
+  livery: fgw
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2596_br_mk2_bfo_fgw_train.gnml
+  identifier: br_mk2_bfo_fgw_train
+  name_string: str_br_mk2_bfo_fgw_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_fgw_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK} -
+      {GOLD}FGW
+    str_br_mk2_bfo_fgw_train_nested_name: '{BLACK}Brake First Class - {GOLD}FGW'
+- id: 2597
+  vehicle: br_mk2
+  profile: bfo
+  livery: first scotrail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2597_br_mk2_bfo_first_scotrail_train.gnml
+  identifier: br_mk2_bfo_first_scotrail_train
+  name_string: str_br_mk2_bfo_first_scotrail_train_name
+  strings:
+    str_br_mk2_bfo_br_blue_train_group_name: '{BLACK}Mk2 Coach - {SILVER}Brake First
+      Class'
+    str_br_mk2_bfo_first_scotrail_train_name: Mk2 Coach - {SILVER}Brake First Class{BLACK}
+      - {GOLD}First ScotRail
+    str_br_mk2_bfo_first_scotrail_train_nested_name: '{BLACK}Brake First Class - {GOLD}First
+      ScotRail'

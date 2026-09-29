@@ -48,6 +48,26 @@ profiles:
       - formation/1-car
       - subclass/mk2_fo
 
+  - identifier: bso
+    name: 'Brake Standard Class'
+    num_vehicles: 1
+    capacity: 31
+    cargo_age_period: 185
+    spritesheet: BRMk2Brake.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk2_bso
+
+  - identifier: bfo
+    name: 'Brake First Class'
+    num_vehicles: 1
+    capacity: 32
+    cargo_age_period: 185
+    spritesheet: BRMk2Brake.png
+    special_tags:
+      - formation/1-car
+      - subclass/mk2_bfo
+
   - identifier: early_so
     name: 'Early Standard Class'
     num_vehicles: 1
