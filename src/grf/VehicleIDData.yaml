@@ -40660,3 +40660,28 @@ variants:
       SouthEast
     str_br_422_default_network_southeast_train_nested_name: '{BLACK}Class 422 "4-BIG"
       - {GOLD}Network SouthEast'
+- id: 2561
+  vehicle: br_423
+  profile: '423_9'
+  livery: connex
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 70
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2561_br_423_423_9_connex_train.gnml
+  identifier: br_423_423_9_connex_train
+  name_string: str_br_423_423_9_connex_train_name
+  strings:
+    str_br_423_423_9_connex_train_name: Class 423 "4-VEP" - {SILVER}4-VOP{BLACK} -
+      {GOLD}Connex
+    str_br_423_423_9_connex_train_group_name: '{BLACK}Class 423 "4-VEP" - {SILVER}4-VOP'
+    str_br_423_423_9_connex_train_nested_name: '{BLACK}4-VOP - {GOLD}Connex'

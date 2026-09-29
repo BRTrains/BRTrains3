@@ -44,21 +44,38 @@ profiles:
     special_tags:
       - formation/4-car
       - subclass/423
+  - identifier: '423_9'
+    name: '4-VOP'
+    num_vehicles: 4
+    capacity: 70
+    sprite_override: [1, 2, 3, 4]
+    introduction_date: 1999-04-21
+    special_tags:
+      - formation/4-car
+      - subclass/423_9
 
 liveries:
   - name: 'BR Blue'
+    profiles: ['DEFAULT']
     special_tags: [operator/BR]
   - name: 'BR Blue (Yellow Front)'
+    profiles: ['DEFAULT']
     special_tags: [operator/BR]
   - name: 'BR Blue and Grey'
+    profiles: ['DEFAULT']
     special_tags: [operator/BR]
   - name: 'Network South East'
+    profiles: ['DEFAULT']
     special_tags: [operator/Network SouthEast]
   - name: 'South West Trains'
+    profiles: ['DEFAULT']
     special_tags: [operator/South West Trains]
   - name: 'Connex'
+    profiles: ['DEFAULT', '423_9']
     special_tags: [operator/Connex]
   - name: 'Southern'
+    profiles: ['DEFAULT']
     special_tags: [operator/Southern]
   - name: 'South West Trains - Heritage'
+    profiles: ['DEFAULT']
     special_tags: [operator/South West Trains]
