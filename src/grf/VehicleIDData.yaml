@@ -42267,3 +42267,153 @@ variants:
       "Hall" - {GOLD}Hogwarts Express
     str_gwr_hall_default_hogwarts_express_train_nested_name: '{BLACK}GWR Collett 4900
       Class 4-6-0 "Hall" - {GOLD}Hogwarts Express'
+- id: 2628
+  vehicle: lner_a4
+  profile: default
+  livery: lner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2628_lner_a4_default_lner_green_train.gnml
+  identifier: lner_a4_default_lner_green_train
+  name_string: str_lner_a4_default_lner_green_train_name
+  strings:
+    str_lner_a4_default_lner_green_train_name: LNER Gresley Class A4 4-6-2 - {GOLD}LNER
+      Green
+    str_lner_a4_default_lner_green_train_group_name: '{BLACK}LNER Gresley Class A4
+      4-6-2'
+    str_lner_a4_default_lner_green_train_nested_name: '{BLACK}LNER Gresley Class A4
+      4-6-2 - {GOLD}LNER Green'
+- id: 2629
+  vehicle: lner_a4
+  profile: default
+  livery: lner corridor tender
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2629_lner_a4_default_lner_corridor_tender_train.gnml
+  identifier: lner_a4_default_lner_corridor_tender_train
+  name_string: str_lner_a4_default_lner_corridor_tender_train_name
+  strings:
+    str_lner_a4_default_lner_green_train_group_name: '{BLACK}LNER Gresley Class A4
+      4-6-2'
+    str_lner_a4_default_lner_corridor_tender_train_name: LNER Gresley Class A4 4-6-2
+      - {GOLD}LNER Corridor Tender
+    str_lner_a4_default_lner_corridor_tender_train_nested_name: '{BLACK}LNER Gresley
+      Class A4 4-6-2 - {GOLD}LNER Corridor Tender'
+- id: 2630
+  vehicle: lner_a4
+  profile: default
+  livery: lner wartime black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2630_lner_a4_default_lner_wartime_black_train.gnml
+  identifier: lner_a4_default_lner_wartime_black_train
+  name_string: str_lner_a4_default_lner_wartime_black_train_name
+  strings:
+    str_lner_a4_default_lner_green_train_group_name: '{BLACK}LNER Gresley Class A4
+      4-6-2'
+    str_lner_a4_default_lner_wartime_black_train_name: LNER Gresley Class A4 4-6-2
+      - {GOLD}LNER Wartime Black
+    str_lner_a4_default_lner_wartime_black_train_nested_name: '{BLACK}LNER Gresley
+      Class A4 4-6-2 - {GOLD}LNER Wartime Black'
+- id: 2631
+  vehicle: lner_a4
+  profile: default
+  livery: br apple green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2631_lner_a4_default_br_apple_green_train.gnml
+  identifier: lner_a4_default_br_apple_green_train
+  name_string: str_lner_a4_default_br_apple_green_train_name
+  strings:
+    str_lner_a4_default_lner_green_train_group_name: '{BLACK}LNER Gresley Class A4
+      4-6-2'
+    str_lner_a4_default_br_apple_green_train_name: LNER Gresley Class A4 4-6-2 - {GOLD}BR
+      Apple Green
+    str_lner_a4_default_br_apple_green_train_nested_name: '{BLACK}LNER Gresley Class
+      A4 4-6-2 - {GOLD}BR Apple Green'
+- id: 2632
+  vehicle: lner_a4
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2632_lner_a4_default_br_blue_train.gnml
+  identifier: lner_a4_default_br_blue_train
+  name_string: str_lner_a4_default_br_blue_train_name
+  strings:
+    str_lner_a4_default_lner_green_train_group_name: '{BLACK}LNER Gresley Class A4
+      4-6-2'
+    str_lner_a4_default_br_blue_train_name: LNER Gresley Class A4 4-6-2 - {GOLD}BR
+      Blue
+    str_lner_a4_default_br_blue_train_nested_name: '{BLACK}LNER Gresley Class A4 4-6-2
+      - {GOLD}BR Blue'
+- id: 2633
+  vehicle: lner_a4
+  profile: default
+  livery: br brunswick green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2633_lner_a4_default_br_brunswick_green_train.gnml
+  identifier: lner_a4_default_br_brunswick_green_train
+  name_string: str_lner_a4_default_br_brunswick_green_train_name
+  strings:
+    str_lner_a4_default_lner_green_train_group_name: '{BLACK}LNER Gresley Class A4
+      4-6-2'
+    str_lner_a4_default_br_brunswick_green_train_name: LNER Gresley Class A4 4-6-2
+      - {GOLD}BR Brunswick Green
+    str_lner_a4_default_br_brunswick_green_train_nested_name: '{BLACK}LNER Gresley
+      Class A4 4-6-2 - {GOLD}BR Brunswick Green'

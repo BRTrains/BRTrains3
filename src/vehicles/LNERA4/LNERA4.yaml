@@ -1,0 +1,45 @@
+info:
+  identifier: lner_a4
+  name: 'LNER Gresley Class A4 4-6-2'
+  sub_name: Steam locomotive
+  based_on: LNER Gresley Class A4
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 170
+  length: 8
+  power: 1750
+  speed: 100
+  tractive_effort: 0.095
+  power_type:
+    - steam
+
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1928-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/lner_a4
+
+liveries:
+  - name: 'LNER Green'
+    special_tags: [operator/LNER]
+  - name: 'LNER Corridor Tender'
+    special_tags: [operator/LNER]
+  - name: 'LNER Wartime Black'
+    special_tags: [operator/LNER, operator/BR]
+  - name: 'BR Apple Green'
+    special_tags: [operator/BR]
+  - name: 'BR Blue'
+    special_tags: [operator/BR]
+  - name: 'BR Brunswick Green'
+    special_tags: [operator/BR]
