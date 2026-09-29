@@ -41931,3 +41931,51 @@ variants:
       - Blue 2 Tone
     str_br_mk5a_default_chiltern___blue_2_tone_train_nested_name: '{BLACK}Mk5a Coach
       - {GOLD}Chiltern - Blue 2 Tone'
+- id: 2614
+  vehicle: gnr_a1
+  profile: default
+  livery: gnr green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2614_gnr_a1_default_gnr_green_train.gnml
+  identifier: gnr_a1_default_gnr_green_train
+  name_string: str_gnr_a1_default_gnr_green_train_name
+  strings:
+    str_gnr_a1_default_gnr_green_train_name: GNR Gresley Class A1 4-6-2 - {GOLD}GNR
+      Green
+    str_gnr_a1_default_gnr_green_train_group_name: '{BLACK}GNR Gresley Class A1 4-6-2'
+    str_gnr_a1_default_gnr_green_train_nested_name: '{BLACK}GNR Gresley Class A1 4-6-2
+      - {GOLD}GNR Green'
+- id: 2615
+  vehicle: gnr_a1
+  profile: default
+  livery: lner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2615_gnr_a1_default_lner_green_train.gnml
+  identifier: gnr_a1_default_lner_green_train
+  name_string: str_gnr_a1_default_lner_green_train_name
+  strings:
+    str_gnr_a1_default_gnr_green_train_group_name: '{BLACK}GNR Gresley Class A1 4-6-2'
+    str_gnr_a1_default_lner_green_train_name: GNR Gresley Class A1 4-6-2 - {GOLD}LNER
+      Green
+    str_gnr_a1_default_lner_green_train_nested_name: '{BLACK}GNR Gresley Class A1
+      4-6-2 - {GOLD}LNER Green'

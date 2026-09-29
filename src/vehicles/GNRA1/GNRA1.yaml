@@ -1,0 +1,36 @@
+info:
+  identifier: gnr_a1
+  name: 'GNR Gresley Class A1 4-6-2'
+  sub_name: Steam locomotive
+  based_on: GNR Gresley Class A1 4-6-2
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 150
+  length: 8
+  power: 1600
+  speed: 100
+  tractive_effort: 0.0885
+  power_type:
+    - steam
+
+cargo: none
+loading_speed: 3
+
+dates:
+  introduction_date: 1922-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+    sprite_override: [1, 2]
+    special_tags:
+      - formation/loco+tender
+      - subclass/gnr_a1
+
+liveries:
+  - name: 'GNR Green'
+  - name: 'LNER Green'
+    special_tags: [operator/LNER]
