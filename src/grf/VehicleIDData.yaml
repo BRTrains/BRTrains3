@@ -40049,3 +40049,131 @@ variants:
     str_br_414_414_1_br_green_train_group_name: '{BLACK}Class 414 "2-HAP" - {SILVER}2-Car'
     str_br_414_414_2_network_southeast_train_name: Class 414 "2-HAP" - {SILVER}2-Car{BLACK}
       - {GOLD}Network SouthEast
+- id: 2538
+  vehicle: br_415_2
+  profile: '415_2'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2538_br_415_2_415_2_br_green_train.gnml
+  identifier: br_415_2_415_2_br_green_train
+  name_string: str_br_415_2_415_2_br_green_train_name
+  strings:
+    str_br_415_1_415_1_br_green_train_nested_name: '{BLACK}4-Car - {GOLD}BR Green'
+    str_br_415_2_415_2_br_green_train_name: Class 415/2 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Green
+    str_br_415_2_415_2_br_green_train_group_name: '{BLACK}Class 415/2 "4-EPB" - {SILVER}4-Car'
+- id: 2539
+  vehicle: br_415_2
+  profile: '415_2'
+  livery: br green yellow front
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2539_br_415_2_415_2_br_green_yellow_front_train.gnml
+  identifier: br_415_2_415_2_br_green_yellow_front_train
+  name_string: str_br_415_2_415_2_br_green_yellow_front_train_name
+  strings:
+    str_br_415_1_415_1_br_green_yellow_front_train_nested_name: '{BLACK}4-Car - {GOLD}BR
+      Green Yellow Front'
+    str_br_415_2_415_2_br_green_train_group_name: '{BLACK}Class 415/2 "4-EPB" - {SILVER}4-Car'
+    str_br_415_2_415_2_br_green_yellow_front_train_name: Class 415/2 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Green Yellow Front
+- id: 2540
+  vehicle: br_415_2
+  profile: '415_2'
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2540_br_415_2_415_2_br_blue_train.gnml
+  identifier: br_415_2_415_2_br_blue_train
+  name_string: str_br_415_2_415_2_br_blue_train_name
+  strings:
+    str_br_415_1_415_1_br_blue_train_nested_name: '{BLACK}4-Car - {GOLD}BR Blue'
+    str_br_415_2_415_2_br_green_train_group_name: '{BLACK}Class 415/2 "4-EPB" - {SILVER}4-Car'
+    str_br_415_2_415_2_br_blue_train_name: Class 415/2 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Blue
+- id: 2541
+  vehicle: br_415_2
+  profile: '415_2'
+  livery: br blue grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2541_br_415_2_415_2_br_blue_grey_train.gnml
+  identifier: br_415_2_415_2_br_blue_grey_train
+  name_string: str_br_415_2_415_2_br_blue_grey_train_name
+  strings:
+    str_br_415_1_415_1_br_blue_grey_train_nested_name: '{BLACK}4-Car - {GOLD}BR Blue
+      Grey'
+    str_br_415_2_415_2_br_green_train_group_name: '{BLACK}Class 415/2 "4-EPB" - {SILVER}4-Car'
+    str_br_415_2_415_2_br_blue_grey_train_name: Class 415/2 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}BR Blue Grey
+- id: 2542
+  vehicle: br_415_2
+  profile: '415_2'
+  livery: network southeast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 82
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2542_br_415_2_415_2_network_southeast_train.gnml
+  identifier: br_415_2_415_2_network_southeast_train
+  name_string: str_br_415_2_415_2_network_southeast_train_name
+  strings:
+    str_br_413_413_4_network_southeast_train_nested_name: '{BLACK}4-Car - {GOLD}Network
+      SouthEast'
+    str_br_415_2_415_2_br_green_train_group_name: '{BLACK}Class 415/2 "4-EPB" - {SILVER}4-Car'
+    str_br_415_2_415_2_network_southeast_train_name: Class 415/2 "4-EPB" - {SILVER}4-Car{BLACK}
+      - {GOLD}Network SouthEast
