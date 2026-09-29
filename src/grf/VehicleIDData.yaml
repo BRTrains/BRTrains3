@@ -39656,3 +39656,106 @@ variants:
     str_br_411_411_9_connex_train_name: Class 411 "4-COR" - {SILVER}3-CEP{BLACK} -
       {GOLD}Connex
     str_br_411_411_9_connex_train_nested_name: '{BLACK}3-CEP - {GOLD}Connex'
+- id: 2522
+  vehicle: br_412
+  profile: '412_4'
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2522_br_412_412_4_br_green_train.gnml
+  identifier: br_412_412_4_br_green_train
+  name_string: str_br_412_412_4_br_green_train_name
+  strings:
+    str_br_412_412_4_br_green_train_name: Class 412 "4-BEP" - {SILVER}412_4{BLACK}
+      - {GOLD}BR Green
+    str_br_412_412_4_br_green_train_group_name: '{BLACK}Class 412 "4-BEP" - {SILVER}412_4'
+    str_br_412_412_4_br_green_train_nested_name: '{BLACK}412_4 - {GOLD}BR Green'
+- id: 2523
+  vehicle: br_412
+  profile: '412_4'
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2523_br_412_412_4_br_blue_and_grey_train.gnml
+  identifier: br_412_412_4_br_blue_and_grey_train
+  name_string: str_br_412_412_4_br_blue_and_grey_train_name
+  strings:
+    str_br_412_412_4_br_green_train_group_name: '{BLACK}Class 412 "4-BEP" - {SILVER}412_4'
+    str_br_412_412_4_br_blue_and_grey_train_name: Class 412 "4-BEP" - {SILVER}412_4{BLACK}
+      - {GOLD}BR Blue and Grey
+    str_br_412_412_4_br_blue_and_grey_train_nested_name: '{BLACK}412_4 - {GOLD}BR
+      Blue and Grey'
+- id: 2524
+  vehicle: br_412
+  profile: '412_4'
+  livery: network south east
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2524_br_412_412_4_network_south_east_train.gnml
+  identifier: br_412_412_4_network_south_east_train
+  name_string: str_br_412_412_4_network_south_east_train_name
+  strings:
+    str_br_412_412_4_br_green_train_group_name: '{BLACK}Class 412 "4-BEP" - {SILVER}412_4'
+    str_br_412_412_4_network_south_east_train_name: Class 412 "4-BEP" - {SILVER}412_4{BLACK}
+      - {GOLD}Network South East
+    str_br_412_412_4_network_south_east_train_nested_name: '{BLACK}412_4 - {GOLD}Network
+      South East'
+- id: 2525
+  vehicle: br_412
+  profile: '412_4'
+  livery: south west trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 56
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/2525_br_412_412_4_south_west_trains_train.gnml
+  identifier: br_412_412_4_south_west_trains_train
+  name_string: str_br_412_412_4_south_west_trains_train_name
+  strings:
+    str_br_412_412_4_br_green_train_group_name: '{BLACK}Class 412 "4-BEP" - {SILVER}412_4'
+    str_br_412_412_4_south_west_trains_train_name: Class 412 "4-BEP" - {SILVER}412_4{BLACK}
+      - {GOLD}South West Trains
+    str_br_412_412_4_south_west_trains_train_nested_name: '{BLACK}412_4 - {GOLD}South
+      West Trains'
