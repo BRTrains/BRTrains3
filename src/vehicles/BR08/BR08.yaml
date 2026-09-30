@@ -2,7 +2,8 @@
 
 info:
   identifier: br_08
-  name: 'Class 08 "Gronk"'
+  name: "Class 08"
+  nickname: "Gronk"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_168_123
-  name: 'Class 168/1-3 "Clubman"'
+  name: "Class 168/1-3"
+  nickname: "Clubman"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_82
-  name: 'Class 82 "AL2"'
+  name: "Class 82"
+  nickname: "AL2"
 
 stats:
   vehicle_type: train

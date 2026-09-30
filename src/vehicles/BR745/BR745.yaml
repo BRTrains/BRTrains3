@@ -6,7 +6,8 @@ info:
   # sheet (`gfx/BR745.png`), differing only in livery and in the seating figure, so they are two
   # liveries of one formation rather than two candidates (the Class 390 precedent for two
   # formations under one name, and the `sw_BR745_cargo_subtype_text` 0..1 livery order).
-  name: 'Class 745/0/1 "FLIRT"'
+  name: "Class 745/0/1"
+  nickname: "FLIRT"
 
 stats:
   vehicle_type: train

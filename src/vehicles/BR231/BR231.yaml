@@ -1,6 +1,7 @@
 info:
   identifier: br_231
-  name: 'Class 231/0 "FLIRT"'
+  name: "Class 231/0"
+  nickname: "FLIRT"
 
 stats:
   vehicle_type: train

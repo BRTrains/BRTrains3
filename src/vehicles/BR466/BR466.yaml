@@ -1,6 +1,7 @@
 info:
   identifier: br_466
-  name: 'Class 466 "Networker"'
+  name: "Class 466"
+  nickname: "Networker"
 
 stats:
   vehicle_type: train

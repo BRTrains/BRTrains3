@@ -1,6 +1,7 @@
 info:
   identifier: br_360_1
-  name: 'Class 360/1 "Desiro"'
+  name: "Class 360/1"
+  nickname: "Desiro"
 
 stats:
   vehicle_type: train

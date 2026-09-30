@@ -1,6 +1,7 @@
 info:
   identifier: br_89
-  name: 'Class 89 "Badger"'
+  name: "Class 89"
+  nickname: "Badger"
 
 stats:
   vehicle_type: train

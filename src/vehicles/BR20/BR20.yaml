@@ -1,6 +1,7 @@
 info:
   identifier: br_20
-  name: 'Class 20 "Chopper"'
+  name: "Class 20"
+  nickname: "Chopper"
 
 stats:
   vehicle_type: train

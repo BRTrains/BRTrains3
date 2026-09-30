@@ -1,6 +1,7 @@
 info:
   identifier: br_170
-  name: 'Class 170 "Turbostar"'
+  name: "Class 170"
+  nickname: "Turbostar"
 
 stats:
   vehicle_type: train

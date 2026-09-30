@@ -1,6 +1,7 @@
 info:
   identifier: br_414
-  name: 'Class 414 "2-HAP"'
+  name: "Class 414"
+  nickname: "2-HAP"
 
 stats:
   vehicle_type: train

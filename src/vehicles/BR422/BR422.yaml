@@ -1,6 +1,7 @@
 info:
   identifier: br_422
-  name: 'Class 422 "4-BIG"'
+  name: "Class 422"
+  nickname: "4-BIG"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_411
-  name: 'Class 411 "4-COR"'
+  name: "Class 411"
+  nickname: "4-COR"
 
 stats:
   vehicle_type: train

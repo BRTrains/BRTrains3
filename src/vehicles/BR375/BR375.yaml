@@ -1,6 +1,7 @@
 info:
   identifier: br_375
-  name: 'Class 375 Electrostar'
+  name: "Class 375"
+  nickname: "Electrostar"
 
 stats:
   vehicle_type: train

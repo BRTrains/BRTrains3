@@ -1,6 +1,7 @@
 info:
   identifier: br_55
-  name: 'Class 55 "Deltic"'
+  name: "Class 55"
+  nickname: "Deltic"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_153
-  name: 'Class 153 "Super Sprinter"'
+  name: "Class 153"
+  nickname: "Super Sprinter"
 
 stats:
   vehicle_type: train

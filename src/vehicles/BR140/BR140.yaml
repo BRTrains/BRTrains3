@@ -11,7 +11,8 @@ info:
   #
   # The Class 140 is the prototype unit; the legacy name string is
   # `STR_NAME_BR140: BR Class 140 "Pacer" Prototype (2-car)`.
-  name: 'Class 140 Pacer Prototype'
+  name: "Class 140"
+  nickname: "Pacer Prototype"
 
 stats:
   vehicle_type: train

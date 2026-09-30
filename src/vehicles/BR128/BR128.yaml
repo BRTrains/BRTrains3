@@ -2,7 +2,8 @@
 
 info:
   identifier: br_128
-  name: 'Class 128 "Post Office Motor Parcels Van"'
+  name: "Class 128"
+  nickname: "Post Office Motor Parcels Van"
 
 stats:
   vehicle_type: train

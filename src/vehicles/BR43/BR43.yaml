@@ -1,6 +1,7 @@
 info:
   identifier: br_43
-  name: 'Class 43 "HST"'
+  name: "Class 43"
+  nickname: "HST"
 
 stats:
   vehicle_type: train

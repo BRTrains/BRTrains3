@@ -1,6 +1,7 @@
 info:
   identifier: furness_d1
-  name: 'Furness Sharp D1 Class 0-6-0 "Sharpie"'
+  name: "Furness Sharp D1 Class 0-6-0"
+  nickname: "Sharpie"
 
 stats:
   vehicle_type: train

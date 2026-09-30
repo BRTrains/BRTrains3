@@ -1,6 +1,7 @@
 info:
   identifier: br_58
-  name: 'Class 58 "Bone"'
+  name: "Class 58"
+  nickname: "Bone"
 
 stats:
   vehicle_type: train

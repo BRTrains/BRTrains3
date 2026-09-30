@@ -1,6 +1,7 @@
 info:
   identifier: br_397
-  name: 'Class 397 "Civity"'
+  name: "Class 397"
+  nickname: "Civity"
 
 stats:
   vehicle_type: train

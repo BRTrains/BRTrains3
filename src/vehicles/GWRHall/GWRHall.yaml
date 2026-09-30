@@ -1,6 +1,7 @@
 info:
   identifier: gwr_hall
-  name: 'GWR Collett 4900 Class 4-6-0 "Hall"'
+  name: "GWR Collett 4900 Class 4-6-0"
+  nickname: "Hall"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_302
-  name: 'Class 302 "AM-2"'
+  name: "Class 302"
+  nickname: "AM-2"
 
 stats:
   vehicle_type: train

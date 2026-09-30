@@ -3,7 +3,8 @@ info:
   # The legacy item's own name string: `STR_NAME_BR395` =
   # `BR Class 395 "Javelin" (6-car, Dual Voltage)` (`BRTrains2/lang/partial/train_details.plng`
   # line 951); the parenthetical is the formation/voltage note rather than part of the name.
-  name: 'Class 395 "Javelin"'
+  name: "Class 395"
+  nickname: "Javelin"
 
 stats:
   vehicle_type: train

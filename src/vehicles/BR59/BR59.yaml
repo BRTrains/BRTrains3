@@ -1,6 +1,7 @@
 info:
   identifier: br_59
-  name: 'Class 59 "Super Shed"'
+  name: "Class 59"
+  nickname: "Super Shed"
 
 stats:
   vehicle_type: train

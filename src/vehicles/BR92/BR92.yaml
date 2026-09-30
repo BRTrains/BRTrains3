@@ -1,6 +1,7 @@
 info:
   identifier: br_92
-  name: 'Class 92 "Dyson"'
+  name: "Class 92"
+  nickname: "Dyson"
 
 stats:
   vehicle_type: train

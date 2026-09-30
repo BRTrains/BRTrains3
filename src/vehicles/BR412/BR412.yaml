@@ -1,6 +1,7 @@
 info:
   identifier: br_412
-  name: 'Class 412 "4-BEP"'
+  name: "Class 412"
+  nickname: "4-BEP"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_423
-  name: 'Class 423 "4-VEP"'
+  name: "Class 423"
+  nickname: "4-VEP"
 
 stats:
   vehicle_type: train

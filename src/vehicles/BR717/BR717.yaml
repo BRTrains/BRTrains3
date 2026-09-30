@@ -1,6 +1,7 @@
 info:
   identifier: br_717
-  name: 'Class 717 "Desiro City"'
+  name: "Class 717"
+  nickname: "Desiro City"
 
 stats:
   vehicle_type: train

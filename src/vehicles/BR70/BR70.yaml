@@ -1,6 +1,7 @@
 info:
   identifier: br_70
-  name: 'Class 70 "Powerhaul"'
+  name: "Class 70"
+  nickname: "Powerhaul"
 
 stats:
   vehicle_type: train

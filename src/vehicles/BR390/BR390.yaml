@@ -1,6 +1,7 @@
 info:
   identifier: br_390
-  name: Class 390 Pendolino
+  name: "Class 390"
+  nickname: "Pendolino"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_31
-  name: 'Class 31 "Gurgler"'
+  name: "Class 31"
+  nickname: "Gurgler"
 
 stats:
   vehicle_type: train

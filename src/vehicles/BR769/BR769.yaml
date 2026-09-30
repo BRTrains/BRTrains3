@@ -1,6 +1,7 @@
 info:
   identifier: br_769
-  name: 'Class 769/0/3/4/5/9 "Flex"'
+  name: "Class 769/0/3/4/5/9"
+  nickname: "Flex"
 
 stats:
   vehicle_type: train

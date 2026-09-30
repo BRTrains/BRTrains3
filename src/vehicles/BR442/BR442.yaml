@@ -1,6 +1,7 @@
 info:
   identifier: br_442
-  name: 'Class 442 "Wessex Electric"'
+  name: "Class 442"
+  nickname: "Wessex Electric"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_305
-  name: 'Class 305 "AM-5"'
+  name: "Class 305"
+  nickname: "AM-5"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_221
-  name: 'Class 221 Voyager'
+  name: "Class 221"
+  nickname: "Voyager"
 
 stats:
   vehicle_type: train

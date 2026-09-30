@@ -1,6 +1,7 @@
 info:
   identifier: br_28
-  name: 'Class 28 "Metrovick"'
+  name: "Class 28"
+  nickname: "Metrovick"
 
 stats:
   vehicle_type: train

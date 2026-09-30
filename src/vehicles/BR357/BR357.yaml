@@ -1,6 +1,7 @@
 info:
   identifier: br_357
-  name: 'Class 357 Electrostar'
+  name: "Class 357"
+  nickname: "Electrostar"
 
 stats:
   vehicle_type: train

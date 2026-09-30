@@ -1,6 +1,7 @@
 info:
   identifier: br_331
-  name: 'Class 331 "Civity"'
+  name: "Class 331"
+  nickname: "Civity"
 
 stats:
   vehicle_type: train

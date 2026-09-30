@@ -3,7 +3,8 @@ info:
   # The legacy item (`BRTrains2/src/trains/electric_mu/BR374.pnml`, `item_BR374` 88) is named
   # `STR_NAME_BR374` = "BR Class 374 \"Velaro\" (16-car)"; the formation is carried by the
   # profile name instead, as for the Class 373 and the Class 158 imports.
-  name: 'Class 374 "Velaro"'
+  name: "Class 374"
+  nickname: "Velaro"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_321
-  name: 'Class 321 "Dusty Bin"'
+  name: "Class 321"
+  nickname: "Dusty Bin"
 
 stats:
   vehicle_type: train

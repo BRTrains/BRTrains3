@@ -1,6 +1,7 @@
 info:
   identifier: br_413
-  name: 'Class 413 "4-CAP"'
+  name: "Class 413"
+  nickname: "4-CAP"
 
 stats:
   vehicle_type: train

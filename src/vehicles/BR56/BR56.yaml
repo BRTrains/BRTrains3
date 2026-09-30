@@ -1,6 +1,7 @@
 info:
   identifier: br_56
-  name: 'Class 56 "Gridiron"'
+  name: "Class 56"
+  nickname: "Gridiron"
 
 stats:
   vehicle_type: train

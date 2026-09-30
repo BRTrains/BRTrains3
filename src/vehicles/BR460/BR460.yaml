@@ -1,6 +1,7 @@
 info:
   identifier: br_460
-  name: 'Class 460 "8-GAT"'
+  name: "Class 460"
+  nickname: "8-GAT"
 stats:
   vehicle_type: train
   train_type: multiple_unit

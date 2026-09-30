@@ -1,6 +1,7 @@
 info:
   identifier: br_175
-  name: 'Class 175 "Coradia"'
+  name: "Class 175"
+  nickname: "Coradia"
 
 stats:
   vehicle_type: train

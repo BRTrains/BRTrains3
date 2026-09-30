@@ -1,7 +1,8 @@
 
 info:
   identifier: br_197
-  name: Class 197 Civity
+  name: "Class 197"
+  nickname: "Civity"
 
 stats:
   vehicle_type: train

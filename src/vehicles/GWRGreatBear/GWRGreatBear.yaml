@@ -1,6 +1,7 @@
 info:
   identifier: gwr_great_bear
-  name: 'GWR Churchward 111 4-6-2 "The Great Bear"'
+  name: "GWR Churchward 111 4-6-2"
+  nickname: "The Great Bear"
 
 stats:
   vehicle_type: train

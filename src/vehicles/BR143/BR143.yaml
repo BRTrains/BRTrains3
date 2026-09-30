@@ -1,7 +1,8 @@
 
 info:
   identifier: br_143
-  name: 'Class 143 Pacer'
+  name: "Class 143"
+  nickname: "Pacer"
 
 stats:
   vehicle_type: train

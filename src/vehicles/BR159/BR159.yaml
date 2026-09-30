@@ -1,6 +1,7 @@
 info:
   identifier: br_159
-  name: 'Class 159 "South Western Turbo"'
+  name: "Class 159"
+  nickname: "South Western Turbo"
 
 stats:
   vehicle_type: train

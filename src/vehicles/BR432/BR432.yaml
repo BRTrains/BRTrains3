@@ -1,6 +1,7 @@
 info:
   identifier: br_432
-  name: 'Class 432 "4-REP"'
+  name: "Class 432"
+  nickname: "4-REP"
 
 stats:
   vehicle_type: train

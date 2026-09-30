@@ -1,6 +1,7 @@
 info:
   identifier: br_37
-  name: 'Class 37 "Tractor"'
+  name: "Class 37"
+  nickname: "Tractor"
 
 stats:
   vehicle_type: train

@@ -1,7 +1,8 @@
 
 info:
   identifier: caledonian_single
-  name: 'Caledonian Single 4-2-2 "No. 123"'
+  name: "Caledonian Single 4-2-2"
+  nickname: "No. 123"
 
 stats:
   vehicle_type: train

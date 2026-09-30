@@ -1,6 +1,7 @@
 info:
   identifier: lms_black_5
-  name: 'LMS Stanier Class 5MT 4-6-0 "Black Five"'
+  name: "LMS Stanier Class 5MT 4-6-0"
+  nickname: "Black Five"
 
 stats:
   vehicle_type: train

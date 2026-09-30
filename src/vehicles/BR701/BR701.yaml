@@ -1,6 +1,7 @@
 info:
   identifier: br_701
-  name: 'Class 701 "Aventra"'
+  name: "Class 701"
+  nickname: "Aventra"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_33
-  name: 'Class 33 "Cromptons"'
+  name: "Class 33"
+  nickname: "Cromptons"
 
 stats:
   vehicle_type: train

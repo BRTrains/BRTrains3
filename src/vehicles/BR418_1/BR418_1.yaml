@@ -1,6 +1,7 @@
 info:
   identifier: br_418_1
-  name: 'Class 418 "2-SAP"'
+  name: "Class 418"
+  nickname: "2-SAP"
 
 stats:
   vehicle_type: train

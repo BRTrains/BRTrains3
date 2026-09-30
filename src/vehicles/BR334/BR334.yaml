@@ -1,6 +1,7 @@
 info:
   identifier: br_334
-  name: 'Class 334 "Juniper"'
+  name: "Class 334"
+  nickname: "Juniper"
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_416_1
-  name: 'Class 416/1 "2-EPB"'
+  name: "Class 416/1"
+  nickname: "2-EPB"
 
 stats:
   vehicle_type: train

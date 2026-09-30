@@ -1,6 +1,7 @@
 info:
   identifier: br_421
-  name: 'Class 421 "4-CIG"'
+  name: "Class 421"
+  nickname: "4-CIG"
 
 stats:
   vehicle_type: train

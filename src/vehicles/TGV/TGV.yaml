@@ -1,6 +1,7 @@
 info:
   identifier: tgv
-  name: 'SNCF TGV "La Poste"'
+  name: "SNCF TGV"
+  nickname: "La Poste"
 
 stats:
   vehicle_type: train

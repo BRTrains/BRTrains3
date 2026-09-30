@@ -1,6 +1,7 @@
 info:
   identifier: br_165
-  name: 'Class 165 "Turbo"'
+  name: "Class 165"
+  nickname: "Turbo"
 
 stats:
   vehicle_type: train

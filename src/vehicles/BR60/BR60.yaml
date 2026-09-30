@@ -1,6 +1,7 @@
 info:
   identifier: br_60
-  name: 'Class 60 "Tug"'
+  name: "Class 60"
+  nickname: "Tug"
 
 stats:
   vehicle_type: train

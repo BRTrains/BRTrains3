@@ -1,6 +1,7 @@
 info:
   identifier: br_180
-  name: 'Class 180 "Adelante"'
+  name: "Class 180"
+  nickname: "Adelante"
 
 stats:
   vehicle_type: train

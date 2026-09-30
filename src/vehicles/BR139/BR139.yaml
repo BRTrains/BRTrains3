@@ -1,6 +1,7 @@
 info:
   identifier: br_139
-  name: 'Class 139 "Parry People Mover"'
+  name: "Class 139"
+  nickname: "Parry People Mover"
 
 stats:
   vehicle_type: train

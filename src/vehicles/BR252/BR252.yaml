@@ -1,6 +1,7 @@
 info:
   identifier: br_252
-  name: 'Class 41 "HST Prototype"'
+  name: "Class 41"
+  nickname: "HST Prototype"
 
 stats:
   vehicle_type: train

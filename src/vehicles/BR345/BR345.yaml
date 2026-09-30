@@ -1,6 +1,7 @@
 info:
   identifier: br_345
-  name: 'Class 345 "Aventra"'
+  name: "Class 345"
+  nickname: "Aventra"
 
 stats:
   vehicle_type: train

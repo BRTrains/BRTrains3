@@ -1,6 +1,7 @@
 info:
   identifier: br_373
-  name: 'Class 373 "Eurostar"'
+  name: "Class 373"
+  nickname: "Eurostar"
 
 stats:
   vehicle_type: train
