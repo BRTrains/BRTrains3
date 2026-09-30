@@ -26,6 +26,7 @@ profiles:
   - identifier: '68_6Mk3'
     name: 'Mk3 Set'
     num_vehicles: 8
+    formation: 6-car
     capacity: 51
     weight: 299
     speed: 100
@@ -38,6 +39,7 @@ profiles:
   - identifier: '68_5a'
     name: 'Mk5a Set'
     num_vehicles: 6
+    formation: 5-car
     capacity: 48
     weight: 299
     speed: 100

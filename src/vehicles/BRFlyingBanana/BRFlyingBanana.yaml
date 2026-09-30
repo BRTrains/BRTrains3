@@ -22,6 +22,7 @@ profiles:
   - identifier: DEFAULT
     name: 7-Car
     num_vehicles: 7
+    formation: 5-car
     capacity: 44
 
 liveries:
