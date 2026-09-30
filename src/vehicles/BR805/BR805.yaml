@@ -48,7 +48,6 @@ profiles:
     # `switch_BR805_5car_spriteset_Avanti_normal` draws `position_in_articulated_veh % 5`:
     # 0 = front, 1 = middle3, 2 = middle2, 3 = middle, 4 = rear. The values are the five
     # drawings the Avanti livery's row group holds, packed in this order.
-    sprite_override: [1, 2, 3, 4, 5]
     special_tags:
       - formation/5-car
 
@@ -57,7 +56,6 @@ liveries:
   # 1 = `str_HitachiWhite` "(Hitachi - White)". Each scheme consumes a different number of
   # rows, so the pattern sits on the livery rather than the profile (as on the Class 807).
   - name: 'Avanti West Coast'
-    sprite_override: [1, 2, 3, 4, 5]
     special_tags: [operator/Avanti West Coast]
 
   # The white scheme is the unit's own as delivered by Hitachi, not an operator livery.

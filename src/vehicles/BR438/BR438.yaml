@@ -36,7 +36,6 @@ profiles:
     name: 3-TC
     num_vehicles: 3
     capacity: 64
-    sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
 

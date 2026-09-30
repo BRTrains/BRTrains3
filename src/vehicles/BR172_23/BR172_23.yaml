@@ -38,7 +38,6 @@ profiles:
     power: 1440
     weight: 123
     introduction_date: 1998-04-21
-    sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
 

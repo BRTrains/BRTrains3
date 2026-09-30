@@ -25,7 +25,6 @@ profiles:
     name: 5-Part Set
     num_vehicles: 5
     capacity: 50
-    sprite_override: [1, 2, 3, 4, 5]
     types: [tram]
     special_tags:
       - formation/5-part

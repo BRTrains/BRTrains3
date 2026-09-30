@@ -27,7 +27,6 @@ profiles:
   - identifier: '412_4'
     num_vehicles: 4
     capacity: 56
-    sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
 

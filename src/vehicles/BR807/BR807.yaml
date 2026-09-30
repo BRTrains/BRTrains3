@@ -39,7 +39,6 @@ profiles:
     # `switch_BR807_7car_spriteset_Avanti` draws `position_in_articulated_veh % 7`: 0 = front,
     # 1 = middle3, 2 = middle2, 3 = middle, 4 = middle3, 5 = middle2, 6 = rear. The values are
     # the five drawings the livery's row group holds, packed in this order.
-    sprite_override: [1, 2, 3, 4, 2, 3, 5]
     special_tags:
       - formation/7-car
 

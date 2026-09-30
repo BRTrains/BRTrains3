@@ -37,7 +37,6 @@ profiles:
     power: 1350
     weight: 147
     sprite_group: '175_2car'
-    sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
 

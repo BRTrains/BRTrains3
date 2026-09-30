@@ -27,7 +27,6 @@ profiles:
     name: 2-Car
     num_vehicles: 2
     capacity: 56
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
   - identifier: '414_2'
@@ -37,7 +36,6 @@ profiles:
     weight: 70
     speed: 90
     introduction_date: 1959-04-21
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
 

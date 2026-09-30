@@ -37,7 +37,6 @@ profiles:
     capacity: 94
     power: 800
     weight: 118
-    sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
 
@@ -47,7 +46,6 @@ profiles:
     capacity: 80
     power: 800
     weight: 149
-    sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
 

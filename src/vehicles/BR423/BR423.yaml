@@ -38,14 +38,12 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 4
     capacity: 62
-    sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
   - identifier: '423_9'
     name: '4-VOP'
     num_vehicles: 4
     capacity: 70
-    sprite_override: [1, 2, 3, 4]
     introduction_date: 1999-04-21
     special_tags:
       - formation/4-car

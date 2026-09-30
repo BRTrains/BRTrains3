@@ -26,7 +26,6 @@ profiles:
     name: Bi-Mode
     num_vehicles: 1
     capacity: 0
-    sprite_override: [1]
     special_tags:
       - formation/1-car
 

@@ -42,7 +42,6 @@ profiles:
     power: 2400
     weight: 151
     capacity: 169
-    sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
 
@@ -59,7 +58,6 @@ profiles:
     track_type:
       - THIRD
       - ELRL
-    sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
 

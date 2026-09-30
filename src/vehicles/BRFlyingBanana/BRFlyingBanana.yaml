@@ -23,7 +23,6 @@ profiles:
     name: 7-Car
     num_vehicles: 7
     capacity: 44
-    sprite_override: [1, 2, 3, 4, 5, 6, 7]
     special_tags:
       - formation/7-car
 

@@ -28,7 +28,6 @@ profiles:
     capacity: 84
     weight: 145
     introduction_date: 1982-01-01
-    sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
 
@@ -37,7 +36,6 @@ profiles:
     capacity: 84
     weight: 143
     introduction_date: 1984-01-01
-    sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
 
@@ -47,7 +45,6 @@ profiles:
     weight: 143
     introduction_date: 1984-01-01
     sprite_group: '455_7'
-    sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
 

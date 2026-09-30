@@ -27,7 +27,6 @@ profiles:
     capacity: 141
     power: 2500
     weight: 197
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
 

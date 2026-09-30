@@ -27,7 +27,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 3
     capacity: 78
-    sprite_override: [1, 2, 3]
     types: [train, tram]
     special_tags:
       - formation/3-car

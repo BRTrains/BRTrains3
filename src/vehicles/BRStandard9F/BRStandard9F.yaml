@@ -25,7 +25,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 0
-    sprite_override: [1, 2]
     special_tags:
       - formation/loco+tender
 

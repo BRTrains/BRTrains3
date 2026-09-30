@@ -20,7 +20,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 50
-    sprite_override: [1]
     special_tags:
       - formation/1-car
 

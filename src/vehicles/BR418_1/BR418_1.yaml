@@ -27,7 +27,6 @@ profiles:
     name: 2-Car
     num_vehicles: 2
     capacity: 69
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
 

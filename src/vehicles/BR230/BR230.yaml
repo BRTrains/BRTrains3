@@ -24,7 +24,6 @@ profiles:
     num_vehicles: 2
     capacity: 86
     power: 800
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
   - identifier: 3car

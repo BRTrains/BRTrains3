@@ -46,7 +46,6 @@ profiles:
     name: 3-Car (320/0)
     introduction_date: 1990-03-17
     sprite_group: 320_3_pre2010
-    sprite_override: [1, 4, 2]
     num_vehicles: 3
     capacity: 71
     speed: 75

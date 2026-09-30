@@ -48,28 +48,24 @@ profiles:
     name: 'Articulated Coach (BT + KT)'
     num_vehicles: 2
     capacity: 21
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
   - identifier: '713'
     name: 'Articulated Coach (OF + OF)'
     num_vehicles: 2
     capacity: 24
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
   - identifier: '714'
     name: 'Articulated Coach (OT + KT)'
     num_vehicles: 2
     capacity: 18
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
   - identifier: '715'
     name: 'Articulated Coach (OT + BT)'
     num_vehicles: 2
     capacity: 33
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
   - identifier: '716'
@@ -82,7 +78,6 @@ profiles:
     name: 'Articulated Coach (OT + OT)'
     num_vehicles: 2
     capacity: 30
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
 

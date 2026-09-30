@@ -41,7 +41,6 @@ profiles:
     num_vehicles: 2
     # Per-part: the legacy callback is `return(104 * param_pax / 2)`, i.e. 52 (oddity 5).
     capacity: 52
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
 

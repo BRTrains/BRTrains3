@@ -33,7 +33,6 @@ profiles:
     # Per-part: the legacy callback is `return(112 * param_pax / 2)`, i.e. 56. The item's own
     # `cargo_capacity` property reads 62 (oddity 5).
     capacity: 56
-    sprite_override: [1, 2]
     special_tags:
       - formation/2-car
 
