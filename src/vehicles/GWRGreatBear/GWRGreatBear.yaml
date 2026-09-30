@@ -1,8 +1,6 @@
 info:
   identifier: gwr_great_bear
   name: 'GWR Churchward 111 4-6-2 "The Great Bear"'
-  sub_name: Steam locomotive
-  based_on: GWR Churchward 111 "The Great Bear"
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/loco+tender
-      - subclass/gwr_great_bear
 
 liveries:
   - name: 'GWR Green'

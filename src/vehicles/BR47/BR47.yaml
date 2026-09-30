@@ -1,8 +1,6 @@
 info:
   identifier: br_47
   name: Class 47
-  sub_name: Mixed traffic diesel locomotive
-  based_on: British Rail Class 47
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/47
 
 liveries:
   # Row order comes from the sheet's own artwork (see compose_br47_sheet.py): the legacy

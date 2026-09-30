@@ -4,8 +4,6 @@ sound_effect: SOUND_DEPARTURE_STEAM
 info:
   identifier: br_standard_9f
   name: 'Standard Class 9F'
-  sub_name: Steam locomotive
-  based_on: British Railways Standard Class 9F
 
 stats:
   vehicle_type: train
@@ -30,7 +28,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/loco+tender
-      - subclass/standard_9f
 
 liveries:
   - name: 'BR Black Unnamed'

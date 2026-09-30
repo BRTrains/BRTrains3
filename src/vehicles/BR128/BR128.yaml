@@ -1,12 +1,8 @@
 
-special_tags:
-  - subclass/128
 
 info:
   identifier: br_128
   name: 'Class 128 "Post Office Motor Parcels Van"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 128
 
 stats:
   vehicle_type: train
@@ -30,7 +26,6 @@ profiles:
     capacity: 35
     special_tags:
       - formation/1-car
-      - subclass/128
 
 liveries:
   - name: 'BR Green'

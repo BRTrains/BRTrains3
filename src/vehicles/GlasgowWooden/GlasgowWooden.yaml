@@ -1,8 +1,6 @@
 info:
   identifier: glasgow_wooden
   name: 'Glasgow Corporation Wooden Tram'
-  sub_name: Double-decker tram
-  based_on: Glasgow Corporation Wooden Tram
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
     types: [tram]
     special_tags:
       - formation/1-car
-      - subclass/glasgow_wooden
 
 liveries:
   - name: 'Glasgow Corporation'

@@ -1,8 +1,6 @@
 info:
   identifier: br_31
   name: 'Class 31 "Gurgler"'
-  sub_name: Express passenger diesel locomotive
-  based_on: British Rail Class 31
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/31
 
 liveries:
   - name: 'BR Green'

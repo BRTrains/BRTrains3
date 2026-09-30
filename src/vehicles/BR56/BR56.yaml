@@ -1,8 +1,6 @@
 info:
   identifier: br_56
   name: 'Class 56 "Gridiron"'
-  sub_name: Heavy freight diesel locomotive
-  based_on: British Rail Class 56
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/56
 
 liveries:
   - name: 'BR Blue'

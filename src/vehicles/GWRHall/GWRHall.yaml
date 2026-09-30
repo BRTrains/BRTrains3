@@ -1,8 +1,6 @@
 info:
   identifier: gwr_hall
   name: 'GWR Collett 4900 Class 4-6-0 "Hall"'
-  sub_name: Steam locomotive
-  based_on: GWR Collett 4900 Class 4-6-0 "Hall"
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/loco+tender
-      - subclass/gwr_hall
 
 liveries:
   - name: 'GWR Green'

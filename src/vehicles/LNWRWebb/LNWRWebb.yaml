@@ -1,12 +1,8 @@
 
-special_tags:
-  - subclass/lnwr_webb
 
 info:
   identifier: lnwr_webb
   name: 'LNWR Webb Coal Tank 0-6-2T'
-  sub_name: Steam locomotive
-  based_on: LNWR Webb Coal Tank
 
 stats:
   vehicle_type: train

@@ -1,8 +1,6 @@
 info:
   identifier: br_707
   name: 'Class 707 "Desiro City"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 707 Desiro City
 
 stats:
   vehicle_type: train
@@ -36,7 +34,6 @@ profiles:
     sprite_override: [1, 2, 3, 3, 4]
     special_tags:
       - formation/5-car
-      - subclass/707
 
 liveries:
   - name: 'South West Trains'

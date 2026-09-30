@@ -1,8 +1,6 @@
 info:
   identifier: br_mk3
   name: 'Mk3 Coach'
-  sub_name: Passenger coach
-  based_on: British Rail Mk3
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     introduction_date: 1982-01-01
     special_tags:
       - formation/1-car
-      - subclass/mk3_sleeper
 
   - identifier: dvt
     name: 'DVT'
@@ -40,7 +37,6 @@ profiles:
     spritesheet: BRMk3DVT.png
     special_tags:
       - formation/1-car
-      - subclass/mk3_dvt
 
   - identifier: ts
     name: 'Trailer Second'
@@ -50,7 +46,6 @@ profiles:
     spritesheet: BRMk3TS.png
     special_tags:
       - formation/1-car
-      - subclass/mk3_ts
 
   - identifier: tf
     name: 'Trailer First'
@@ -60,7 +55,6 @@ profiles:
     spritesheet: BRMk3TF.png
     special_tags:
       - formation/1-car
-      - subclass/mk3_tf
 
   - identifier: tgs
     name: 'Trailer Guard Second'
@@ -70,7 +64,6 @@ profiles:
     spritesheet: BRMk3TGS.png
     special_tags:
       - formation/1-car
-      - subclass/mk3_tgs
 
   - identifier: trsb
     name: 'Trailer Buffet Second'
@@ -80,7 +73,6 @@ profiles:
     spritesheet: BRMk3TRSB.png
     special_tags:
       - formation/1-car
-      - subclass/mk3_trsb
 
   - identifier: trub
     name: 'Trailer Buffet Unclassified'
@@ -90,7 +82,6 @@ profiles:
     spritesheet: BRMk3TRUB.png
     special_tags:
       - formation/1-car
-      - subclass/mk3_trub
 
   - identifier: truk
     name: 'Trailer Kitchen'
@@ -100,7 +91,6 @@ profiles:
     spritesheet: BRMk3TRUK.png
     special_tags:
       - formation/1-car
-      - subclass/mk3_truk
 
 liveries:
   - name: 'BR Blue'

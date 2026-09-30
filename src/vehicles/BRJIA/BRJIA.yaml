@@ -1,8 +1,6 @@
 info:
   identifier: br_jia
   name: 'BR JIA Polybulk Wagon'
-  sub_name: Covered hopper wagon
-  based_on: British Rail JIA Polybulk wagon
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 58
     special_tags:
       - formation/1-car
-      - subclass/jia
 
 liveries:
   - name: 'TSL Polybulk'

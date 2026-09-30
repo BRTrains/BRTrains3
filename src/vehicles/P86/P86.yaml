@@ -1,8 +1,6 @@
 info:
   identifier: dlr_p86
   name: 'Docklands Light Railway P86'
-  sub_name: Double Unit tram
-  based_on: Docklands Light Railway P86 (2-car Single Unit)
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     sprite_override: [1, 2, 1, 2]
     special_tags:
       - formation/4-car
-      - subclass/dlr_p86
 
 liveries:
   - name: 'DLR Blue'

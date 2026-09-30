@@ -1,8 +1,6 @@
 info:
   identifier: br_90
   name: 'Class 90'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: British Rail Class 90
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/90
 
 liveries:
   - name: 'InterCity Swallow'

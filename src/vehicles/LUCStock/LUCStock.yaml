@@ -1,8 +1,6 @@
 info:
   identifier: lu_c_stock
   name: 'LU C Stock'
-  sub_name: London Underground electric multiple unit
-  based_on: London Underground C Stock
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -22,6 +20,6 @@ profiles:
     num_vehicles: 3
     capacity: 205
     sprite_override: [1, 2, 3]
-    special_tags: [formation/3-car, subclass/lu_c_stock]
+    special_tags: [formation/3-car]
 liveries:
   - name: 'TfL'

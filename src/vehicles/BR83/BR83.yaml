@@ -1,8 +1,6 @@
 info:
   identifier: br_83
   name: 'Class 83 "AL3"'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: British Rail Class 83
 
 stats:
   vehicle_type: train
@@ -30,7 +28,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/83
 
 liveries:
   - name: 'BR Blue'

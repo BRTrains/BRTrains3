@@ -1,8 +1,6 @@
 info:
   identifier: br_92
   name: 'Class 92 "Dyson"'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: British Rail Class 92
 
 stats:
   vehicle_type: train
@@ -35,7 +33,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/92
 
 liveries:
   - name: 'Railfreight Grey'

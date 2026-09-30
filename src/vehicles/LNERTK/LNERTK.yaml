@@ -1,8 +1,6 @@
 info:
   identifier: lner_gresley_tk
   name: 'LNER Gresley TK'
-  sub_name: Passenger coach
-  based_on: 'LNER Gresley Third Corridor'
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     capacity: 56
     special_tags:
       - formation/1-car
-      - subclass/gresley_tk
 
 liveries:
   # `sw_LNERTK` subtype order 0..2, named from the item's own list string

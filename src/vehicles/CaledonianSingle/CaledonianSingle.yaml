@@ -1,11 +1,7 @@
-special_tags:
-  - subclass/caledonian_single
 
 info:
   identifier: caledonian_single
   name: 'Caledonian Single 4-2-2 "No. 123"'
-  sub_name: Steam locomotive
-  based_on: Caledonian Railway Single
 
 stats:
   vehicle_type: train

@@ -1,8 +1,6 @@
 info:
   identifier: furness_lumber_wagon
   name: 'Furness Railway Lumber Wagon'
-  sub_name: Lumber wagon
-  based_on: Furness Railway lumber wagon
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     capacity: 20
     special_tags:
       - formation/1-car
-      - subclass/furness_lumber_wagon
 
 liveries:
   - name: Default

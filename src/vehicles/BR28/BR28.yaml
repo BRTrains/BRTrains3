@@ -1,8 +1,6 @@
 info:
   identifier: br_28
   name: 'Class 28 "Metrovick"'
-  sub_name: Diesel-electric locomotive
-  based_on: British Rail Class 28
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/28
 
 liveries:
   - name: 'BR Green'

@@ -1,8 +1,6 @@
 info:
   identifier: br_52
   name: 'Class 52 "Western"'
-  sub_name: Mixed traffic diesel-hydraulic locomotive
-  based_on: British Rail Class 52
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/52
 
 liveries:
   - name: 'BR Blue'

@@ -3,8 +3,6 @@ model_life: 0
 info:
   identifier: lu_1992
   name: 'London Underground 1992 Stock'
-  sub_name: Deep-level multiple unit
-  based_on: London Underground 1992 Stock
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     sprite_override: [1, 2, 2, 3]
     special_tags:
       - formation/4-car
-      - subclass/1992_4
   - identifier: '1992_8'
     name: 8-Car
     num_vehicles: 8
@@ -41,7 +38,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/8-car
-      - subclass/1992_8
 
 liveries:
   - name: 'London Underground'

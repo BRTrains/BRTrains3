@@ -7,8 +7,6 @@ info:
   # liveries of one formation rather than two candidates (the Class 390 precedent for two
   # formations under one name, and the `sw_BR745_cargo_subtype_text` 0..1 livery order).
   name: 'Class 745/0/1 "FLIRT"'
-  sub_name: Electric multiple unit
-  based_on: Stadler FLIRT UK Class 745
 
 stats:
   vehicle_type: train
@@ -53,7 +51,6 @@ profiles:
     capacity: 63.08
     special_tags:
       - formation/12-car
-      - subclass/745
 
 liveries:
   # `sw_BR745_subtype_text` order 0..1: `STR_LIVERY_BR_745_REGULAR` "Greater Anglia

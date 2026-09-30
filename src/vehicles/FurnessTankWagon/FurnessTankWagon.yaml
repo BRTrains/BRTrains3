@@ -1,8 +1,6 @@
 info:
   identifier: furness_tank_wagon
   name: 'Furness Railway Rectangular Tanker Wagon'
-  sub_name: Tank wagon
-  based_on: Furness Railway rectangular tank wagon
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 35
     special_tags:
       - formation/1-car
-      - subclass/furness_tank_wagon
 
 liveries:
   - name: Grey

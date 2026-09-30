@@ -3,8 +3,6 @@
 info:
   identifier: br_mpv_dualtrack
   name: 'British Rail MPV Dual-Track'
-  sub_name: Departmental multiple unit
-  based_on: British Rail Multi-Purpose Vehicle
 
 stats:
   vehicle_type: train
@@ -30,7 +28,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/dualtrack
 
 liveries:
   - name: 'Network Rail Yellow Empty'

@@ -1,8 +1,6 @@
 info:
   identifier: br_87
   name: 'Class 87'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: British Rail Class 87
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/87
 
 liveries:
   - name: 'BR Blue'

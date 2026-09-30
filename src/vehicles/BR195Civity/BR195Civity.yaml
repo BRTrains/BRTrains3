@@ -2,8 +2,6 @@
 info:
   identifier: br_195
   name: Class 195 Civity
-  sub_name: Diesel multiple unit
-  based_on: Siemens Desiro City / Civity
 
 stats:
   vehicle_type: train

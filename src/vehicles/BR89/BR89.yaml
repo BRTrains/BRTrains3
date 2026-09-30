@@ -1,8 +1,6 @@
 info:
   identifier: br_89
   name: 'Class 89 "Badger"'
-  sub_name: Electric express passenger locomotive
-  based_on: British Rail Class 89
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/89
 
 liveries:
   - name: 'InterCity Swallow'

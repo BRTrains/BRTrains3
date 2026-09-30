@@ -1,8 +1,6 @@
 info:
   identifier: lner_coronation
   name: 'LNER Coronation Set'
-  sub_name: Articulated streamliner set
-  based_on: LNER Coronation
 
 stats:
   vehicle_type: train
@@ -46,7 +44,6 @@ profiles:
     sprite_override: [1, 2, 3, 4, 5, 6, 7, 8]
     special_tags:
       - formation/9-car
-      - subclass/coronation
   - identifier: '712'
     name: 'Articulated Coach (BT + KT)'
     num_vehicles: 2
@@ -54,7 +51,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/coronation
   - identifier: '713'
     name: 'Articulated Coach (OF + OF)'
     num_vehicles: 2
@@ -62,7 +58,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/coronation
   - identifier: '714'
     name: 'Articulated Coach (OT + KT)'
     num_vehicles: 2
@@ -70,7 +65,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/coronation
   - identifier: '715'
     name: 'Articulated Coach (OT + BT)'
     num_vehicles: 2
@@ -78,14 +72,12 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/coronation
   - identifier: '716'
     name: 'Observation Coach'
     num_vehicles: 1
     capacity: 16
     special_tags:
       - formation/1-car
-      - subclass/coronation
   - identifier: '717'
     name: 'Articulated Coach (OT + OT)'
     num_vehicles: 2
@@ -93,7 +85,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/coronation
 
 liveries:
   # The item's own list string, `str_LNER_CorSet_liveries` = "LNER Coronation Garter Blue,

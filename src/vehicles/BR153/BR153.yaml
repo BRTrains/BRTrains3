@@ -1,8 +1,6 @@
 info:
   identifier: br_153
   name: 'Class 153 "Super Sprinter"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 153
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     capacity: 72
     special_tags:
       - formation/1-car
-      - subclass/153
 
 liveries:
   - name: 'Regional Railways'

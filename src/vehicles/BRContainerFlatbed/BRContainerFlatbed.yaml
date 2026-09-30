@@ -1,8 +1,6 @@
 info:
   identifier: br_container
   name: 'FEA Container Flat Wagon'
-  sub_name: Intermodal flat wagon
-  based_on: FEA bogie container flat wagon (Marcroft/Greenbrier, 2003-2007)
 
 stats:
   vehicle_type: train
@@ -34,7 +32,6 @@ profiles:
     capacity: 72
     special_tags:
       - formation/1-car
-      - subclass/container
 
 liveries:
   - name: Default

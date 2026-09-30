@@ -1,8 +1,6 @@
 info:
   identifier: br_121
   name: Class 121
-  sub_name: Diesel multiple unit ("Bubble Car")
-  based_on: British Rail Class 121
 
 stats:
   vehicle_type: train

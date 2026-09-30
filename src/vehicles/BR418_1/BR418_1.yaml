@@ -1,8 +1,6 @@
 info:
   identifier: br_418_1
   name: 'Class 418 "2-SAP"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 418 2-SAP
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/418_1
 
 liveries:
   - name: 'BR Green'

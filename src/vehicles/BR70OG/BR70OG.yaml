@@ -1,8 +1,6 @@
 info:
   identifier: br_70og
   name: 'Class 70 (Southern Railway Class CC)'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: Southern Railway Class CC
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/70
 
 liveries:
   - name: 'BR Green'

@@ -1,8 +1,6 @@
 info:
   identifier: br_mk2
   name: 'Mk2 Coach'
-  sub_name: Passenger coach
-  based_on: British Rail Mk2
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     spritesheet: BRMk2DBSO.png
     special_tags:
       - formation/1-car
-      - subclass/mk2_dbso
 
   - identifier: so
     name: 'D-F Standard Class'
@@ -37,7 +34,6 @@ profiles:
     spritesheet: BRMk2Late.png
     special_tags:
       - formation/1-car
-      - subclass/mk2_so
   - identifier: fo
     name: 'D-F First Class'
     num_vehicles: 1
@@ -46,7 +42,6 @@ profiles:
     spritesheet: BRMk2Late.png
     special_tags:
       - formation/1-car
-      - subclass/mk2_fo
 
   - identifier: buffet
     name: 'Restaurant Buffet'
@@ -56,7 +51,6 @@ profiles:
     spritesheet: BRMk2Buffet.png
     special_tags:
       - formation/1-car
-      - subclass/mk2_buffet
 
   - identifier: bso
     name: 'Brake Standard Class'
@@ -66,7 +60,6 @@ profiles:
     spritesheet: BRMk2Brake.png
     special_tags:
       - formation/1-car
-      - subclass/mk2_bso
 
   - identifier: bfo
     name: 'Brake First Class'
@@ -76,7 +69,6 @@ profiles:
     spritesheet: BRMk2Brake.png
     special_tags:
       - formation/1-car
-      - subclass/mk2_bfo
 
   - identifier: early_so
     name: 'Early Standard Class'
@@ -86,7 +78,6 @@ profiles:
     spritesheet: BRMk2Early.png
     special_tags:
       - formation/1-car
-      - subclass/mk2_early_so
 
   - identifier: early_fo
     name: 'Early First Class'
@@ -96,7 +87,6 @@ profiles:
     spritesheet: BRMk2Early.png
     special_tags:
       - formation/1-car
-      - subclass/mk2_early_fo
 
 liveries:
   - name: 'BR Blue'

@@ -1,12 +1,8 @@
 
-special_tags:
-  - subclass/kestrel
 
 info:
   identifier: br_kestrel
   name: 'Kestrel'
-  sub_name: Type 5 prototype
-  based_on: British Rail HS4000 Kestrel
 
 stats:
   vehicle_type: train
@@ -29,7 +25,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/kestrel
 
 liveries:
   - name: 'Kestrel Black and Yellow'

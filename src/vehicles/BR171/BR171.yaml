@@ -1,8 +1,6 @@
 info:
   identifier: br_171
   name: 'Class 171 "Turbostar"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 171 Turbostar
 
 stats:
   vehicle_type: train

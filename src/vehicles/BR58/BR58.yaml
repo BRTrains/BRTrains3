@@ -1,8 +1,6 @@
 info:
   identifier: br_58
   name: 'Class 58 "Bone"'
-  sub_name: Heavy freight diesel locomotive
-  based_on: British Rail Class 58
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/58
 
 liveries:
   - name: 'Railfreight 2 Tone Grey'

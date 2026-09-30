@@ -1,8 +1,6 @@
 info:
   identifier: gwr_5700
   name: 'GWR Collett 5700 Class 0-6-0PT'
-  sub_name: Steam locomotive
-  based_on: GWR Collett 5700 Class 0-6-0PT
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     sprite_override: [1]
     special_tags:
       - formation/1-car
-      - subclass/gwr_5700
 
 liveries:
   - name: 'GWR Green 1929'

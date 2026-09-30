@@ -1,8 +1,6 @@
 info:
   identifier: br_377
   name: 'Class 377 Electrostar'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 377 Electrostar
 
 stats:
   vehicle_type: train
@@ -37,7 +35,6 @@ profiles:
     sprite_override: [1, 3, 4, 2]
     special_tags:
       - formation/4-car
-      - subclass/377_4
   - identifier: '377_3'
     name: 3-Car
     num_vehicles: 3
@@ -49,7 +46,6 @@ profiles:
     sprite_override: [1, 3, 2]
     special_tags:
       - formation/3-car
-      - subclass/377_3
   - identifier: '377_5'
     name: 5-Car
     num_vehicles: 5
@@ -61,7 +57,6 @@ profiles:
     sprite_override: [1, 3, 4, 4, 2]
     special_tags:
       - formation/5-car
-      - subclass/377_5
   # Dual voltage: third rail or overhead electric.
   - identifier: '377_4_dv'
     name: 4-Car (Dual Voltage)
@@ -76,7 +71,6 @@ profiles:
     sprite_override: [1, 3, 4, 2]
     special_tags:
       - formation/4-car
-      - subclass/377_4_dv
   - identifier: '377_5_dv'
     name: 5-Car (Dual Voltage)
     num_vehicles: 5
@@ -92,7 +86,6 @@ profiles:
     sprite_override: [1, 3, 4, 4, 2]
     special_tags:
       - formation/5-car
-      - subclass/377_5_dv
 
 liveries:
   - name: 'Southern'

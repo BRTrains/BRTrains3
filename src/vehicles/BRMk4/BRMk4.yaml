@@ -1,8 +1,6 @@
 info:
   identifier: br_mk4
   name: 'Mk4 Coach'
-  sub_name: Passenger coach
-  based_on: British Rail Mk4
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     spritesheet: BRMk4DVT.png
     special_tags:
       - formation/1-car
-      - subclass/mk4_dvt
 
   - identifier: tsoe
     name: 'Trailer Standard Open End'
@@ -37,7 +34,7 @@ profiles:
     capacity: 76
     introduction_date: 1989-04-21
     spritesheet: BRMk4DVT.png
-    special_tags: [formation/1-car, subclass/mk4_tsoe]
+    special_tags: [formation/1-car]
 
   - identifier: tso
     name: 'Trailer Standard Open'
@@ -45,7 +42,7 @@ profiles:
     capacity: 76
     introduction_date: 1989-04-21
     spritesheet: BRMk4DVT.png
-    special_tags: [formation/1-car, subclass/mk4_tso]
+    special_tags: [formation/1-car]
 
   - identifier: tsod
     name: 'Trailer Standard Open Disabled'
@@ -53,7 +50,7 @@ profiles:
     capacity: 72
     introduction_date: 1989-04-21
     spritesheet: BRMk4DVT.png
-    special_tags: [formation/1-car, subclass/mk4_tsod]
+    special_tags: [formation/1-car]
 
   - identifier: rfm
     name: 'Trailer Restaurant First'
@@ -61,7 +58,7 @@ profiles:
     capacity: 30
     introduction_date: 1989-04-21
     spritesheet: BRMk4DVT.png
-    special_tags: [formation/1-car, subclass/mk4_rfm]
+    special_tags: [formation/1-car]
 
   - identifier: fo
     name: 'First Open'
@@ -69,7 +66,7 @@ profiles:
     capacity: 43
     introduction_date: 1989-04-21
     spritesheet: BRMk4DVT.png
-    special_tags: [formation/1-car, subclass/mk4_fo]
+    special_tags: [formation/1-car]
 
 liveries:
   - name: 'InterCity Swallow'

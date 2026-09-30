@@ -4,8 +4,6 @@ info:
   # `BR Class 395 "Javelin" (6-car, Dual Voltage)` (`BRTrains2/lang/partial/train_details.plng`
   # line 951); the parenthetical is the formation/voltage note rather than part of the name.
   name: 'Class 395 "Javelin"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 395 Javelin
 
 stats:
   vehicle_type: train
@@ -54,7 +52,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 3]
     special_tags:
       - formation/6-car
-      - subclass/395
 
 liveries:
   - name: 'Southeastern'

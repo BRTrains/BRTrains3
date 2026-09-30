@@ -2,8 +2,6 @@
 info:
   identifier: br_13
   name: 'Class 13'
-  sub_name: Shunter
-  based_on: British Rail Class 13
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/13
 
 liveries:
   - name: 'BR Green'

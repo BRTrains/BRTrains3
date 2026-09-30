@@ -1,8 +1,6 @@
 info:
   identifier: br_416_2
   name: 'Class 416/2 "2-EPB"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 416/2 2-EPB
 
 stats:
   vehicle_type: train
@@ -34,7 +32,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/416_2
 
 liveries:
   - name: 'BR Green'

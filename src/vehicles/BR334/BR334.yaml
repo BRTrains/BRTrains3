@@ -1,8 +1,6 @@
 info:
   identifier: br_334
   name: 'Class 334 "Juniper"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 334 Juniper
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
     sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
-      - subclass/334
 
 liveries:
   - name: 'Carmine and Cream'

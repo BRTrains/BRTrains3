@@ -1,8 +1,6 @@
 info:
   identifier: tgv
   name: 'SNCF TGV "La Poste"'
-  sub_name: Electric multiple unit
-  based_on: SNCF TGV La Poste
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
     capacity: 100
     special_tags:
       - formation/10-car
-      - subclass/tgv
 
 liveries:
   - name: 'La Poste'

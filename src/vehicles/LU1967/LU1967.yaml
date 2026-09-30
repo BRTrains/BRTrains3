@@ -3,8 +3,6 @@ model_life: 0
 info:
   identifier: lu_1967
   name: 'London Underground 1967 Stock'
-  sub_name: Deep-level multiple unit
-  based_on: London Underground 1967 Stock
 
 stats:
   vehicle_type: train
@@ -35,7 +33,6 @@ profiles:
     sprite_override: [1, 3, 3, 3, 3, 3, 3, 2]
     special_tags:
       - formation/8-car
-      - subclass/1967_8
 
 liveries:
   - name: 'London Underground'

@@ -3,8 +3,6 @@ info:
   # The legacy `item_BR810_5car` (579) is the only 810 item, so the candidate is named for
   # the class and the single formation is a profile, as for the Class 801/807.
   name: 'Class 810'
-  sub_name: Bi-mode multiple unit
-  based_on: British Rail Class 810
 
 stats:
   vehicle_type: train
@@ -52,7 +50,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
       - formation/5-car
-      - subclass/810
 
 liveries:
   # `switch_BR810_5car_subtype_text` order: 0 = `str_EMRMaroon` "(EMR - Maroon)",

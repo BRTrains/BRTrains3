@@ -3,8 +3,6 @@ model_life: 0
 info:
   identifier: lud78
   name: 'London Underground D78 Stock'
-  sub_name: Sub-surface multiple unit
-  based_on: London Underground D78 Stock
 
 stats:
   vehicle_type: train
@@ -42,7 +40,6 @@ profiles:
     sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
-      - subclass/d78
 
 liveries:
   # Order is the legacy `sw_LUDStock_cargo_subtype_text` order (0 then 1), which is also the

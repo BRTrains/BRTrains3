@@ -1,8 +1,6 @@
 info:
   identifier: br_68
   name: 'Class 68'
-  sub_name: Mixed traffic diesel locomotive
-  based_on: British Rail Class 68
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/68
 
   - identifier: '68_6Mk3'
     name: 'Mk3 Set'
@@ -42,7 +39,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/8-car
-      - subclass/68_6Mk3
 
   - identifier: '68_5a'
     name: 'Mk5a Set'
@@ -57,7 +53,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 3]
     special_tags:
       - formation/6-car
-      - subclass/68_5a
 
 liveries:
   - name: DRS

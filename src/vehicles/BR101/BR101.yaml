@@ -1,11 +1,7 @@
-special_tags:
-  - subclass/101
 
 info:
   identifier: br_101
   name: 'Class 101'
-  sub_name: First-generation diesel multiple unit
-  based_on: British Rail Class 101
 
 stats:
   vehicle_type: train
@@ -31,7 +27,6 @@ profiles:
     capacity: 128
     special_tags:
       - formation/2-car
-      - subclass/101
   - identifier: 101_3
     name: '3-Car'
     num_vehicles: 3
@@ -39,7 +34,6 @@ profiles:
     capacity: 192
     special_tags:
       - formation/3-car
-      - subclass/101
 
 liveries:
   - name: 'BR Blue'

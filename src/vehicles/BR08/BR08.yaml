@@ -1,12 +1,8 @@
 
-special_tags:
-  - subclass/08
 
 info:
   identifier: br_08
   name: 'Class 08 "Gronk"'
-  sub_name: Shunter
-  based_on: British Rail Class 08
 
 stats:
   vehicle_type: train
@@ -31,7 +27,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/08
 
 liveries:
   - name: 'BR Green'

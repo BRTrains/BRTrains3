@@ -1,8 +1,6 @@
 info:
   identifier: br_59
   name: 'Class 59 "Super Shed"'
-  sub_name: Heavy freight diesel locomotive
-  based_on: British Rail Class 59
 
 stats:
   vehicle_type: train
@@ -30,7 +28,6 @@ profiles:
     introduction_date: 1986-02-17
     special_tags:
       - formation/1-car
-      - subclass/59_0_1
   - identifier: '59_2'
     name: '59/2'
     num_vehicles: 1
@@ -39,7 +36,6 @@ profiles:
     introduction_date: 1994-02-17
     special_tags:
       - formation/1-car
-      - subclass/59_2
 
 liveries:
   - name: 'Foster Yeoman Grey'

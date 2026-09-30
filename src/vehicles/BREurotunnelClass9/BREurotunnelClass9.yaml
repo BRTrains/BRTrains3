@@ -1,8 +1,6 @@
 info:
   identifier: br_eurotunnel_class9
   name: 'Eurotunnel Class 9'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: Eurotunnel Class 9
 
 stats:
   vehicle_type: train
@@ -30,7 +28,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/9
 
 liveries:
   - name: 'Eurotunnel Blue and Grey'

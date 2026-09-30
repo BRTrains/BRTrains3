@@ -1,8 +1,6 @@
 info:
   identifier: br_413
   name: 'Class 413 "4-CAP"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 413 4-CAP
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
     sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
-      - subclass/413
 
 liveries:
   - name: 'BR Blue and Grey'

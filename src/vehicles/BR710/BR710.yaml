@@ -1,8 +1,6 @@
 info:
   identifier: br_710
   name: 'Class 710 "Aventra"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 710 Aventra
 
 stats:
   vehicle_type: train
@@ -47,7 +45,6 @@ profiles:
     sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
-      - subclass/710_1
 
   # The parentheses the Class 378/377 profiles spell "4-Car (Dual Voltage)" with do not survive
   # into the generated name (`nml_str` drops them), so the name here is authored without them —
@@ -65,7 +62,6 @@ profiles:
     sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
-      - subclass/710_2
 
   - identifier: '710_5car'
     name: 5-Car
@@ -80,7 +76,6 @@ profiles:
     sprite_override: [1, 2, 3, 3, 4]
     special_tags:
       - formation/5-car
-      - subclass/710_3
 
 liveries:
   - name: 'London Overground'

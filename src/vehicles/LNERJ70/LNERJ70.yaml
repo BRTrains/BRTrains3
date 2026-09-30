@@ -1,12 +1,8 @@
 
-special_tags:
-  - subclass/j70
 
 info:
   identifier: ger_class_c53
   name: 'GER Class C53 0-6-0T'
-  sub_name: LNER Class J70
-  based_on: Great Eastern Railway Class C53 (LNER J70)
 
 stats:
   vehicle_type: train

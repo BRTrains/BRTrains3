@@ -1,8 +1,6 @@
 info:
   identifier: br_vga
   name: 'BR VGA Wagon'
-  sub_name: Covered van
-  based_on: British Rail VGA covered van
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 28
     special_tags:
       - formation/1-car
-      - subclass/vga
 
   - identifier: vka
     name: 'VKA Covered Van'
@@ -36,7 +33,6 @@ profiles:
     sprite_group: 'DEFAULT'
     special_tags:
       - formation/1-car
-      - subclass/vka
 
 liveries:
   - name: 'BR Grey'

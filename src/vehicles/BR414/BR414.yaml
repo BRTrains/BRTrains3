@@ -1,8 +1,6 @@
 info:
   identifier: br_414
   name: 'Class 414 "2-HAP"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 414 2-HAP
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/414_1
   - identifier: '414_2'
     name: 2-Car
     num_vehicles: 2
@@ -43,7 +40,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/414_2
 
 liveries:
   - name: 'BR Green'

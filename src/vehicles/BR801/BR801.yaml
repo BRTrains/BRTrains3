@@ -8,8 +8,6 @@ info:
   # from `gfx/BR80X.png`, and neither declares a `cargo_subtype`/livery switch, so the LNER
   # "Azuma" scheme is the only livery the item can select.
   name: 'Class 801'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 801
 
 stats:
   vehicle_type: train
@@ -49,7 +47,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
       - formation/5-car
-      - subclass/801_1
 
   - identifier: '801_2'
     name: 9-Car
@@ -68,7 +65,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/9-car
-      - subclass/801_2
 
 liveries:
   # `STR_LIVERY_BR800_LNER` "LNER \"Azuma\"" (from `lang/partial/livery_prebuilt_strings.plng`),

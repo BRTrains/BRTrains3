@@ -1,8 +1,6 @@
 info:
   identifier: br_444
   name: 'Class 444 "Desiro"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 444 Desiro
 
 stats:
   vehicle_type: train
@@ -38,7 +36,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
       - formation/5-car
-      - subclass/444
 
 liveries:
   - name: 'South West Trains'

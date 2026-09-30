@@ -1,8 +1,6 @@
 info:
   identifier: lms_jubilee
   name: 'LMS Stanier Jubilee Class 4-6-0'
-  sub_name: Steam locomotive
-  based_on: LMS Stanier Jubilee Class
 
 stats:
   vehicle_type: train

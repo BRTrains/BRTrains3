@@ -1,8 +1,6 @@
 info:
   identifier: br_350
   name: 'Class 350 "Desiro"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 350 Desiro
 
 stats:
   vehicle_type: train

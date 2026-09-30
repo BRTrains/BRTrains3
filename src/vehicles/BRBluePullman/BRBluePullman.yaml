@@ -1,8 +1,6 @@
 info:
   identifier: br_blue_pullman
   name: Blue Pullman
-  sub_name: Diesel multiple unit ("Blue Pullman")
-  based_on: British Rail Blue Pullman
 
 stats:
   vehicle_type: train

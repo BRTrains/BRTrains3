@@ -1,8 +1,6 @@
 info:
   identifier: br_373
   name: 'Class 373 "Eurostar"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 373 Eurostar
 
 stats:
   vehicle_type: train
@@ -34,7 +32,6 @@ profiles:
     sprite_override: [1, 2, 3, 4, 5, 6, 7, 6, 7, 6, 7, 6, 5, 3, 4, 3, 4, 2, 1, 8]
     special_tags:
       - formation/20-car
-      - subclass/373_1
 
 liveries:
   - name: 'Eurostar'

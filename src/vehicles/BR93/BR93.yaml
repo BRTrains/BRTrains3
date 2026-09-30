@@ -1,8 +1,6 @@
 info:
   identifier: br_93
   name: 'Class 93'
-  sub_name: Tri-mode mixed-traffic locomotive
-  based_on: Stadler UKLight Class 93
 
 # The real unit is a genuine tri-mode (25 kV overhead, diesel engine, traction battery),
 # which is what the legacy item's own name says ("BR Class 93 (Tri-Mode)"). BRBuild counts
@@ -35,7 +33,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/93
 
 liveries:
   - name: 'DRS'

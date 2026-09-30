@@ -1,8 +1,6 @@
 info:
   identifier: br_777
   name: 'Class 777 METRO'
-  sub_name: Electric multiple unit / tram
-  based_on: Stadler METRO Class 777
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     types: [train, tram]
     special_tags:
       - formation/4-car
-      - subclass/777
 
 liveries:
   - name: 'Merseyrail'

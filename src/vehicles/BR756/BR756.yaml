@@ -1,8 +1,6 @@
 info:
   identifier: br_756
   name: 'Class 756'
-  sub_name: Diesel-electric multiple unit
-  based_on: Stadler FLIRT UK Class 756
 
 stats:
   vehicle_type: train
@@ -41,7 +39,6 @@ profiles:
     sprite_override: [1, 4, 3, 2]
     special_tags:
       - formation/4-car
-      - subclass/756_0
   - identifier: '756_4'
     name: '756/1 (4-Car with Power Pack)'
     num_vehicles: 5
@@ -54,7 +51,6 @@ profiles:
     sprite_override: [1, 2, 3, 3, 4]
     special_tags:
       - formation/5-car
-      - subclass/756_1
 
 liveries:
   - name: 'Transport for Wales'

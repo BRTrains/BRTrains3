@@ -1,8 +1,6 @@
 info:
   identifier: lner_gresley_bck
   name: 'LNER Gresley BCK'
-  sub_name: Passenger coach
-  based_on: 'LNER Gresley Brake Composite Corridor'
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
     capacity: 40
     special_tags:
       - formation/1-car
-      - subclass/gresley_bck
 
 liveries:
   # `sw_LNERBCK_cargo_subtype_text` order 0..2, named from the item's own list string

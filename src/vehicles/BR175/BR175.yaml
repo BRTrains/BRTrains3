@@ -1,8 +1,6 @@
 info:
   identifier: br_175
   name: 'Class 175 "Coradia"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 175 Coradia
 
 stats:
   vehicle_type: train

@@ -1,8 +1,6 @@
 info:
   identifier: br_455
   name: 'Class 455'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 455
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
-      - subclass/455_8
 
   - identifier: '455_7'
     num_vehicles: 4
@@ -43,7 +40,6 @@ profiles:
     sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
-      - subclass/455_7
 
   - identifier: '455_9'
     num_vehicles: 4
@@ -54,7 +50,6 @@ profiles:
     sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
-      - subclass/455_9
 
 liveries:
   - name: 'BR Blue and Grey'

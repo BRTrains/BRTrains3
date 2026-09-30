@@ -1,8 +1,6 @@
 info:
   identifier: br_231
   name: 'Class 231/0 "FLIRT"'
-  sub_name: Diesel-electric multiple unit
-  based_on: Stadler FLIRT UK Class 231
 
 stats:
   vehicle_type: train
@@ -45,7 +43,6 @@ profiles:
     sprite_override: [1, 2, 3, 4, 5]
     special_tags:
       - formation/5-car
-      - subclass/231_0
 
 liveries:
   - name: 'Transport for Wales'

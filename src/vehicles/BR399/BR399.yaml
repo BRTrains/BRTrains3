@@ -1,8 +1,6 @@
 info:
   identifier: br_399
   name: 'Class 399 "Sheffield Citylink" tram-train (3-car Single Unit)'
-  sub_name: Tram-train
-  based_on: British Rail Class 399 Citylink
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     types: [train, tram]
     special_tags:
       - formation/3-car
-      - subclass/399
 
 liveries:
   - name: 'Stagecoach Blue'

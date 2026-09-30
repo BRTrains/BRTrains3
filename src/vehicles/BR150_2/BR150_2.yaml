@@ -1,8 +1,6 @@
 info:
   identifier: br_150_2
   name: 'Class 150/2 "Sprinter"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 150
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/150_2
 
 liveries:
   - name: 'Regional Railways'

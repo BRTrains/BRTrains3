@@ -1,8 +1,6 @@
 info:
   identifier: lner_thompson_63tk
   name: "LNER Thompson 63' TK"
-  sub_name: Passenger coach
-  based_on: "LNER Thompson 63' TK"
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 42
     special_tags:
       - formation/1-car
-      - subclass/lner_thompson_63tk
 
 liveries:
   - name: 'LNER "Teak"'

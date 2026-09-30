@@ -1,8 +1,6 @@
 info:
   identifier: br_180
   name: 'Class 180 "Adelante"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 180 Adelante
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
       - formation/5-car
-      - subclass/180
 
 liveries:
   - name: 'First Great Western'

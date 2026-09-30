@@ -1,8 +1,6 @@
 info:
   identifier: edinburgh_urbos
   name: 'Edinburgh Trams Urbos 3'
-  sub_name: Articulated tram
-  based_on: CAF Urbos 3 Edinburgh Trams
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
     types: [tram]
     special_tags:
       - formation/5-part
-      - subclass/edinburgh_urbos
 
 liveries:
   - name: 'Edinburgh Trams'

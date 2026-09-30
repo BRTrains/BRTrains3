@@ -1,8 +1,6 @@
 info:
   identifier: lner_gresley_616bg
   name: "LNER Gresley 61' 6\" BG"
-  sub_name: Sorting van
-  based_on: "LNER Gresley 61' 6\" BG"
 
 stats:
   vehicle_type: train
@@ -25,7 +23,6 @@ profiles:
     sprite_override: [1]
     special_tags:
       - formation/1-car
-      - subclass/gresley_616bg
 
 liveries:
   - name: 'LNER Teak'

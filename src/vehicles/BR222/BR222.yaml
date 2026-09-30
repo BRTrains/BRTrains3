@@ -1,8 +1,6 @@
 info:
   identifier: br_222
   name: 'Class 222 Meridian'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 222 Meridian
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/7-car
-      - subclass/222_7
   - identifier: '222_5'
     name: '5-Car'
     num_vehicles: 5
@@ -43,7 +40,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
       - formation/5-car
-      - subclass/222_5
   - identifier: '222_4'
     name: '4-Car'
     num_vehicles: 4
@@ -54,7 +50,6 @@ profiles:
     sprite_override: [1, 2, 2, 3]
     special_tags:
       - formation/4-car
-      - subclass/222_4
   - identifier: '222_6'
     name: '6-Car'
     num_vehicles: 6
@@ -65,7 +60,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 3]
     special_tags:
       - formation/6-car
-      - subclass/222_6
   - identifier: '222_1'
     name: '4-Car "Pioneer"'
     num_vehicles: 4
@@ -77,7 +71,6 @@ profiles:
     sprite_override: [1, 2, 2, 3]
     special_tags:
       - formation/4-car
-      - subclass/222_1
 
 liveries:
   - name: 'East Midlands Trains'

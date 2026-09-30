@@ -1,11 +1,8 @@
 
-special_tags:
-  - subclass/met_g
 
 info:
   identifier: metropolitan_g_class
   name: 'Metropolitan Railway G Class 0-6-4T'
-  based_on: Metropolitan Railway G Class
 
 stats:
   vehicle_type: train

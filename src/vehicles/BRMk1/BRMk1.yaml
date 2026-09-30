@@ -1,8 +1,6 @@
 info:
   identifier: br_mk1
   name: 'Mk1 Coach'
-  sub_name: Passenger coach
-  based_on: British Rail Mk1
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     introduction_date: 1952-04-21
     special_tags:
       - formation/1-car
-      - subclass/mk1_tso
 
   # The Standard Corridor reads `template_train32px(0, 0)` of the five per-livery sheets, per
   # `spriteset_BRMk1SK_*` in BRTrains2
@@ -46,7 +43,6 @@ profiles:
     sprite_group: 'tso'
     special_tags:
       - formation/1-car
-      - subclass/mk1_sk
 
   - identifier: so
     name: 'Standard Open'
@@ -57,7 +53,6 @@ profiles:
     sprite_group: 'tso'
     special_tags:
       - formation/1-car
-      - subclass/mk1_so
 
   - identifier: rmb
     name: 'Restaurant Buffet'
@@ -68,7 +63,6 @@ profiles:
     spritesheet: BRMk1RMB.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_rmb
 
   # The Brake Standard Corridor reads y=104 of those same five sheets, per the
   # `spriteset_BRMk1BSK_*` declarations in BRTrains2
@@ -84,7 +78,6 @@ profiles:
     spritesheet: BRMk1BSK.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_bsk
 
   - identifier: bso
     name: 'Brake Standard Open'
@@ -95,7 +88,6 @@ profiles:
     sprite_group: 'bsk'
     special_tags:
       - formation/1-car
-      - subclass/mk1_bso
 
   - identifier: bsot
     name: 'Brake Standard Open Mini-Buffet'
@@ -106,7 +98,6 @@ profiles:
     sprite_group: 'bsk'
     special_tags:
       - formation/1-car
-      - subclass/mk1_bsot
 
   - identifier: ck
     name: 'Composite Corridor'
@@ -117,7 +108,6 @@ profiles:
     spritesheet: BRMk1CK.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_ck
 
   - identifier: fo
     name: 'First Open'
@@ -128,7 +118,6 @@ profiles:
     spritesheet: BRMk1FO.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_fo
 
   - identifier: fk
     name: 'First Corridor'
@@ -139,7 +128,6 @@ profiles:
     spritesheet: BRMk1FK.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_fk
 
   - identifier: bck
     name: 'Brake Composite Corridor'
@@ -150,7 +138,6 @@ profiles:
     spritesheet: BRMk1BCK.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_bck
 
   - identifier: bfk
     name: 'Brake First Corridor'
@@ -161,7 +148,6 @@ profiles:
     spritesheet: BRMk1BFK.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_bfk
 
   # The Restaurant Kitchen reads y=208 of the five per-livery sheets, per the
   # `spriteset_BRMk1RK_*` declarations in BRTrains2
@@ -177,7 +163,6 @@ profiles:
     spritesheet: BRMk1RK.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_rk
 
   # The Brake Gangwayed reads y=182 of the five per-livery sheets, per the
   # `spriteset_BRMk1BG_*` declarations in BRTrains2
@@ -196,7 +181,6 @@ profiles:
     spritesheet: BRMk1BG.png
     special_tags:
       - formation/1-car
-      - subclass/mk1_bg
 
 liveries:
   - name: 'BR Carmine and Cream'

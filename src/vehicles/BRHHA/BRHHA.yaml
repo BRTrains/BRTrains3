@@ -1,8 +1,6 @@
 info:
   identifier: br_hha
   name: 'BR HHA Hopper Wagon'
-  sub_name: Hopper wagon
-  based_on: British Rail HHA hopper wagon
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     capacity: 72
     special_tags:
       - formation/1-car
-      - subclass/hha
 
 liveries:
   - name: Freightliner

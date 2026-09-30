@@ -3,8 +3,6 @@ model_life: 0
 info:
   identifier: lu_s7s8
   name: 'London Underground S7/S8 Stock'
-  sub_name: Sub-surface multiple unit
-  based_on: London Underground S7/S8 Stock
 
 stats:
   vehicle_type: train
@@ -34,7 +32,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/7-car
-      - subclass/S7
 
   - identifier: 'S8'
     name: 8-Car
@@ -46,7 +43,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/8-car
-      - subclass/S8
 
 liveries:
   - name: 'London Underground'

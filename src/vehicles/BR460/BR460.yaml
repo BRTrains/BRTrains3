@@ -1,8 +1,6 @@
 info:
   identifier: br_460
   name: 'Class 460 "8-GAT"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 460 (Gatwick Express)
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -36,7 +34,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/8-car
-      - subclass/460_8
 
 liveries:
   - name: 'Gatwick Express'

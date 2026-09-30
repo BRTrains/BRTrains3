@@ -1,8 +1,6 @@
 info:
   identifier: br_504
   name: 'Class 504'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 504
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/504_2
 
 liveries:
   - name: 'BR Blue'

@@ -1,8 +1,6 @@
 info:
   identifier: blackpool_brush
   name: 'Blackpool Brush Railcoach'
-  sub_name: Passenger / mail tram
-  based_on: Blackpool Brush Railcoach
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
     types: [tram]
     special_tags:
       - formation/1-car
-      - subclass/blackpool_brush_passenger
 
   - identifier: mail
     name: Mail
@@ -41,7 +38,6 @@ profiles:
     types: [tram]
     special_tags:
       - formation/1-car
-      - subclass/blackpool_brush_mail
 
 liveries:
   - name: 'Blackpool Transport'

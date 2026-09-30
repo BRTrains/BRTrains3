@@ -1,12 +1,8 @@
 
-special_tags:
-  - subclass/8f
 
 info:
   identifier: lms_stanier_8f
   name: 'LMS Stanier Class 8F 2-8-0'
-  sub_name: Steam locomotive
-  based_on: LMS Stanier Class 8F
 
 stats:
   vehicle_type: train

@@ -1,8 +1,6 @@
 info:
   identifier: br_86
   name: 'Class 86 "AL6"'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: British Rail Class 86
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/86
 
 liveries:
   - name: 'BR Blue'

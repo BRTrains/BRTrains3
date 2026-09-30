@@ -1,8 +1,6 @@
 info:
   identifier: br_319
   name: 'Class 319'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 319
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     capacity: 80
     special_tags:
       - formation/4-car
-      - subclass/319
 
 liveries:
   - name: 'Network South East'

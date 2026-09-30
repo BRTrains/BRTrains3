@@ -1,8 +1,6 @@
 info:
   identifier: lms_stanier_p3_bg
   name: 'LMS Stanier Period III 50ft BG'
-  sub_name: Passenger coach
-  based_on: 'LMS Stanier Period III 50ft Brake Gangwayed (BG)'
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 50
     special_tags:
       - formation/1-car
-      - subclass/lms_stanier_p3_bg
 
 liveries:
   - name: 'LMS Red'

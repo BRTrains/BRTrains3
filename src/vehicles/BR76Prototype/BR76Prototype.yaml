@@ -1,8 +1,6 @@
 info:
   identifier: br_76_prototype
   name: 'Class 76 Prototype (LNER Gresley "EM1")'
-  sub_name: Experimental electric locomotive
-  based_on: LNER Gresley EM1 / British Rail Class 76 prototype "Tommy"
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     sprite_override: [1]
     special_tags:
       - formation/1-loco
-      - subclass/76_prototype
 
 liveries:
   - name: 'LNER Green'

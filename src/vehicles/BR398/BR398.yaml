@@ -1,8 +1,6 @@
 info:
   identifier: br_398
   name: 'Class 398 Citylink'
-  sub_name: Tram-train
-  based_on: British Rail Class 398 Citylink
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
     types: [train, tram]
     special_tags:
       - formation/3-car
-      - subclass/398
 
 liveries:
   - name: 'Transport for Wales - Yellow Cab End'

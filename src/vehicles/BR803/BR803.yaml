@@ -3,8 +3,6 @@ info:
   # The legacy `item_BR803_5car` (547) is the only 803 item, so the candidate is named for
   # the class and its single formation is a profile, as for the Class 801/807.
   name: 'Class 803'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 803
 
 stats:
   vehicle_type: train
@@ -48,7 +46,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
       - formation/5-car
-      - subclass/803
 
 liveries:
   # The item declares no `cargo_subtype`/livery switch, so its `default:

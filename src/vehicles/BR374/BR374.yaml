@@ -4,8 +4,6 @@ info:
   # `STR_NAME_BR374` = "BR Class 374 \"Velaro\" (16-car)"; the formation is carried by the
   # profile name instead, as for the Class 373 and the Class 158 imports.
   name: 'Class 374 "Velaro"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 374 Velaro
 
 stats:
   vehicle_type: train
@@ -51,7 +49,6 @@ profiles:
     sprite_override: [1, 2, 3, 2, 2, 3, 2, 3, 3, 4, 3, 4, 4, 3, 4, 5]
     special_tags:
       - formation/16-car
-      - subclass/374
 
 liveries:
   # `sw_BR374_cargo_subtype_text`: subtype 0 = `str_Eurostar` " (Eurostar)"; subtype 1 =

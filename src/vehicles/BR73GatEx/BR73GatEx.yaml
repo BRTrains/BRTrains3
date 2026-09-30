@@ -1,8 +1,6 @@
 info:
   identifier: br_73_gatex
   name: 'Class 73 "Gatwick Express" set (9 car + locomotive)'
-  sub_name: Electro-diesel locomotive with its Gatwick Express carriage set
-  based_on: British Rail Class 73
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -31,7 +29,6 @@ profiles:
     sprite_override: [1, 2, 3, 3, 3, 3, 3, 3, 4]
     special_tags:
       - formation/9-car
-      - subclass/73_gatex_9
 
 liveries:
   - name: 'Gatwick Express'

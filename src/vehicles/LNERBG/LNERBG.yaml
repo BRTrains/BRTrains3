@@ -1,8 +1,6 @@
 info:
   identifier: lner_gresley_bg
   name: 'LNER Gresley BG'
-  sub_name: Passenger coach
-  based_on: 'LNER Gresley Full Brake Van'
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
     capacity: 40
     special_tags:
       - formation/1-car
-      - subclass/gresley_bg
 
 liveries:
   # `sw_LNERBG_cargo_subtype_text` order 0..2, named from the item's own list string

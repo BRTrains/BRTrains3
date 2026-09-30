@@ -3,8 +3,6 @@
 info:
   identifier: br_conflat_a
   name: 'Conflat A Container Wagon'
-  sub_name: Freight wagon
-  based_on: British Rail Conflat A
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     capacity: 25
     special_tags:
       - formation/1-car
-      - subclass/conflat_a
 
 liveries:
   - name: Default

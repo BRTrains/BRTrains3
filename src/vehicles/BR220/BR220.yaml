@@ -1,8 +1,6 @@
 info:
   identifier: br_220
   name: 'Class 220 Voyager'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 220 Voyager
 
 stats:
   vehicle_type: train

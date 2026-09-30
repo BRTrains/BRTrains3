@@ -1,8 +1,6 @@
 info:
   identifier: br_305
   name: 'Class 305 "AM-5"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 305
 
 stats:
   vehicle_type: train
@@ -42,7 +40,6 @@ profiles:
     sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
-      - subclass/305_1
 
   - identifier: '305_2'
     name: '305/2'
@@ -53,7 +50,6 @@ profiles:
     sprite_override: [1, 2, 3, 4]
     special_tags:
       - formation/4-car
-      - subclass/305_2
 
 liveries:
   - name: 'BR Green'

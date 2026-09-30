@@ -1,8 +1,6 @@
 info:
   identifier: br_483
   name: 'Class 483 (LU 1938 Stock)'
-  sub_name: Electric multiple unit
-  based_on: London Underground 1938 Stock
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/483
 
 liveries:
   # Order is the legacy `sw_BR483_cargo_subtype_text` order (0 then 1), which is also the

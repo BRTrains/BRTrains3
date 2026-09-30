@@ -1,8 +1,6 @@
 info:
   identifier: br_701
   name: 'Class 701 "Aventra"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 701 Aventra
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/10-car
-      - subclass/701_0
 
   - identifier: '701_5'
     name: '5-Car'
@@ -45,7 +42,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
       - formation/5-car
-      - subclass/701_5
 
 liveries:
   - name: 'South Western Railway'

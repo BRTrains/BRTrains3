@@ -1,8 +1,6 @@
 info:
   identifier: br_flying_banana
   name: 'Flying Banana'
-  sub_name: New Measurement Train (HST departmental unit)
-  based_on: Network Rail New Measurement Train
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     sprite_override: [1, 2, 3, 4, 5, 6, 7]
     special_tags:
       - formation/7-car
-      - subclass/flying_banana
 
 liveries:
   - name: 'Network Rail'

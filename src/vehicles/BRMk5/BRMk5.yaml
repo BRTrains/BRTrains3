@@ -1,8 +1,6 @@
 info:
   identifier: br_mk5
   name: 'Mk5 Coach'
-  sub_name: Passenger coach
-  based_on: British Rail Mk5a
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     spritesheet: BRMk5DVT.png
     special_tags:
       - formation/1-car
-      - subclass/mk5_dvt
 
   - identifier: sleeper
     name: 'Sleeper'
@@ -40,7 +37,6 @@ profiles:
     spritesheet: BRMk5Sleeper.png
     special_tags:
       - formation/1-car
-      - subclass/mk5_sleeper
 
 liveries:
   - name: 'Transpennine Express'

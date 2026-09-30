@@ -1,8 +1,6 @@
 info:
   identifier: br_81
   name: 'Class 81 "AL1"'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: British Rail Class 81
 
 stats:
   vehicle_type: train
@@ -30,7 +28,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/81
 
 liveries:
   - name: 'BR Blue'

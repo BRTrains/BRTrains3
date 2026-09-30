@@ -1,8 +1,6 @@
 info:
   identifier: br_155
   name: 'Class 155 "Super Sprinter"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 155
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/155
 
 liveries:
   - name: 'Regional Railways'

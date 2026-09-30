@@ -1,8 +1,6 @@
 info:
   identifier: br_168_123
   name: 'Class 168/1-3 "Clubman"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 168/1-3 Clubman
 
 stats:
   vehicle_type: train

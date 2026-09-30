@@ -1,8 +1,6 @@
 info:
   identifier: br_37
   name: 'Class 37 "Tractor"'
-  sub_name: Mixed traffic diesel locomotive
-  based_on: British Rail Class 37
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/37
 
 liveries:
   - name: 'BR Green'

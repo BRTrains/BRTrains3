@@ -1,8 +1,6 @@
 info:
   identifier: br_390
   name: Class 390 Pendolino
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 390 Pendolino
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
 
     special_tags:
       - formation/9-car
-      - subclass/390_9
   - identifier: '390_11'
     name: 11-Car
     num_vehicles: 11
@@ -42,7 +39,6 @@ profiles:
 
     special_tags:
       - formation/11-car
-      - subclass/390_11
 
 liveries:
   - name: Virgin Trains (9-car)

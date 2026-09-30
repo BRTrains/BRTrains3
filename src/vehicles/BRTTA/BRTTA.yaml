@@ -1,8 +1,6 @@
 info:
   identifier: br_tta
   name: 'BR TTA Tank Wagon'
-  sub_name: Tank wagon
-  based_on: British Rail TTA tank wagon
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 72
     special_tags:
       - formation/1-car
-      - subclass/tta
 
 liveries:
   - name: Mobil

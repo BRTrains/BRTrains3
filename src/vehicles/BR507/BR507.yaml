@@ -1,8 +1,6 @@
 info:
   identifier: br_507
   name: 'Class 507'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 507
 
 stats:
   vehicle_type: train
@@ -36,7 +34,6 @@ profiles:
     sprite_override: [1, 3, 2]
     special_tags:
       - formation/3-car
-      - subclass/507
 
 liveries:
   - name: 'BR Blue'

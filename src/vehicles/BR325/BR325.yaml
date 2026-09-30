@@ -1,8 +1,6 @@
 info:
   identifier: br_325
   name: 'Class 325'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 325
 
 stats:
   vehicle_type: train
@@ -36,7 +34,6 @@ profiles:
     capacity: 98
     special_tags:
       - formation/4-car
-      - subclass/325
 
 liveries:
   - name: 'Royal Mail Striped'

@@ -3,8 +3,6 @@
 info:
   identifier: br_320
   name: 'Class 320/3'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 320/3
 
 stats:
   vehicle_type: train
@@ -33,7 +31,6 @@ profiles:
     design_speed: 90
     special_tags:
       - formation/3-car
-      - subclass/320_3_pre2010
   - identifier: 320_3_post2010
     name: 3-Car (90 mph)
     introduction_date: 2010-01-01
@@ -45,7 +42,6 @@ profiles:
     design_speed: 90
     special_tags:
       - formation/3-car
-      - subclass/320_3_post2010
   - identifier: '320_0'
     name: 3-Car (320/0)
     introduction_date: 1990-03-17
@@ -57,7 +53,6 @@ profiles:
     design_speed: 90
     special_tags:
       - formation/3-car
-      - subclass/320_0
   - identifier: 320_X
     name: 3-Car (320/1/3/4)
     introduction_date: 1990-03-17
@@ -69,7 +64,6 @@ profiles:
     design_speed: 90
     special_tags:
       - formation/3-car
-      - subclass/320_X
 
 liveries:
   - name: 'ScotRail Saltire'

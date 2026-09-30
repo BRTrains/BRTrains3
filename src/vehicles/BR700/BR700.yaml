@@ -1,8 +1,6 @@
 info:
   identifier: br_700
   name: 'Class 700 "Desiro City"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 700 Desiro City
 
 stats:
   vehicle_type: train
@@ -41,7 +39,6 @@ profiles:
     sprite_override: [1, 2, 4, 4, 4, 4, 4, 4, 4, 4, 3]
     special_tags:
       - formation/12-car
-      - subclass/700_1
 
   - identifier: 'br_700_8'
     name: '8-Car'
@@ -54,7 +51,6 @@ profiles:
     sprite_override: [1, 2, 4, 4, 4, 4, 4, 3]
     special_tags:
       - formation/8-car
-      - subclass/700_0
 
 liveries:
   - name: 'Govia Thameslink'

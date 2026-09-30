@@ -1,8 +1,6 @@
 info:
   identifier: rs_swb_hopper
   name: 'LNER Standard Medium Hopper'
-  sub_name: Hopper wagon
-  based_on: LNER Standard Medium Hopper
 
 stats:
   vehicle_type: train
@@ -25,7 +23,6 @@ profiles:
     capacity: 40
     special_tags:
       - formation/1-car
-      - subclass/rs_swb_hopper
 
 liveries:
   - name: Grey

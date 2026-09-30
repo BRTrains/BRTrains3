@@ -1,8 +1,6 @@
 info:
   identifier: furness_goods_van
   name: 'Furness Railway Goods Van'
-  sub_name: Goods van
-  based_on: Furness Railway goods van
 
 stats:
   vehicle_type: train
@@ -25,7 +23,6 @@ profiles:
     capacity: 22
     special_tags:
       - formation/1-car
-      - subclass/furness_goods_van
 
 liveries:
   - name: 'Furness Grey Open'

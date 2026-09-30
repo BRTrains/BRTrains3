@@ -1,8 +1,6 @@
 info:
   identifier: br_82
   name: 'Class 82 "AL2"'
-  sub_name: Electric mixed-traffic locomotive
-  based_on: British Rail Class 82
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/82
 
 liveries:
   - name: 'BR Blue'

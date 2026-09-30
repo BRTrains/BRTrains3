@@ -1,8 +1,6 @@
 info:
   identifier: br_66
   name: 'Class 66'
-  sub_name: Heavy freight diesel locomotive
-  based_on: British Rail Class 66
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/66
   - identifier: '66_6'
     name: '66/6'
     num_vehicles: 1
@@ -39,7 +36,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/66_6
 
 liveries:
   - name: 'Freightliner'

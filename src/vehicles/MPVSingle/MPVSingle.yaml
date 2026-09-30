@@ -1,8 +1,6 @@
 info:
   identifier: br_mpv_single
   name: 'BR MPV Single'
-  sub_name: Multi-purpose vehicle
-  based_on: British Rail MPV Single
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -19,7 +17,7 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 0
-    special_tags: [formation/1-car, subclass/mpv_single]
+    special_tags: [formation/1-car]
 liveries:
   - name: 'Network Rail Yellow Open'
   - name: 'Network Rail Yellow Geometry'

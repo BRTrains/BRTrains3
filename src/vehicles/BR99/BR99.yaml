@@ -1,8 +1,6 @@
 info:
   identifier: br_99
   name: 'Class 99'
-  sub_name: Bi-mode mixed-traffic locomotive
-  based_on: Stadler Class 99
 
 stats:
   vehicle_type: train
@@ -37,7 +35,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/99
 
 liveries:
   - name: 'GBRf Blue'

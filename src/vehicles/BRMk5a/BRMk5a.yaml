@@ -1,8 +1,6 @@
 info:
   identifier: br_mk5a
   name: 'Mk5a Coach'
-  sub_name: Passenger coach
-  based_on: British Rail Mk5a
 
 stats:
   vehicle_type: train
@@ -25,7 +23,6 @@ profiles:
     speed: 125
     special_tags:
       - formation/1-car
-      - subclass/mk5a
 
 liveries:
   - name: 'TransPennine Express'

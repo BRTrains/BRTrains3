@@ -1,8 +1,6 @@
 info:
   identifier: brt_covhop
   name: 'BRT Covered Hopper'
-  sub_name: Covered hopper wagon
-  based_on: British Rail Polybulk covered hopper
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 35
     special_tags:
       - formation/1-car
-      - subclass/covhop
 
 liveries:
   - name: Polybulk

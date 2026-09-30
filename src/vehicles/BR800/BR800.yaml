@@ -5,8 +5,6 @@ info:
   # drawing the same drawings and the same five liveries, so the two formations are two
   # profiles of one candidate, as for the Class 801.
   name: 'Class 800'
-  sub_name: Bi-mode multiple unit
-  based_on: British Rail Class 800
 
 stats:
   vehicle_type: train
@@ -50,7 +48,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 3]
     special_tags:
       - formation/5-car
-      - subclass/800
 
   - identifier: '800_9'
     name: 9-Car
@@ -64,7 +61,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/9-car
-      - subclass/800_9
 
 # Each livery is listed once per formation and restricted with `profiles:`, because a
 # livery with no restriction applies to every profile and the allocator consumes one row

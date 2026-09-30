@@ -3,8 +3,6 @@ model_life: 0
 info:
   identifier: lu_2024
   name: 'London Underground 2024 Stock'
-  sub_name: Deep-level multiple unit
-  based_on: London Underground 2024 Stock
 
 stats:
   vehicle_type: train
@@ -34,7 +32,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
     special_tags:
       - formation/9-car
-      - subclass/2024_9
 
 liveries:
   - name: 'London Underground'

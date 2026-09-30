@@ -1,12 +1,9 @@
 special_tags:
-  - subclass/901
   - operator/Network Rail
 
 info:
   identifier: br_901
   name: 'Class 901'
-  sub_name: Network Rail departmental DMU
-  based_on: British Rail Class 901 (formerly Class 960, ex-Class 101)
 
 stats:
   vehicle_type: train
@@ -31,7 +28,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/2-car
-      - subclass/901
 
 liveries:
   - name: 'Network Rail'

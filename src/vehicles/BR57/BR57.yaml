@@ -1,8 +1,6 @@
 info:
   identifier: br_57
   name: 'Class 57'
-  sub_name: 'Thunderbird rescue locomotive'
-  based_on: British Rail Class 57
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/57
 
 liveries:
   - name: 'West Coast Railway'

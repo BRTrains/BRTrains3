@@ -1,8 +1,6 @@
 info:
   identifier: br_230
   name: Class 230 'D-Train'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 230
 
 stats:
   vehicle_type: train

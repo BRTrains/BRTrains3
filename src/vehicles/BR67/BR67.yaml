@@ -1,8 +1,6 @@
 info:
   identifier: br_67
   name: 'Class 67'
-  sub_name: Mixed traffic diesel locomotive
-  based_on: British Rail Class 67
 
 stats:
   vehicle_type: train
@@ -27,7 +25,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/67
 
 liveries:
   # Ordered by the legacy `sw_BR67`/`sw_BR67_cargo_subtype_text` cargo-subtype switch

@@ -1,8 +1,6 @@
 info:
   identifier: br_442
   name: 'Class 442 "Wessex Electric"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 442
 
 stats:
   vehicle_type: train
@@ -38,7 +36,6 @@ profiles:
     sprite_override: [1, 2, 3, 4, 5]
     special_tags:
       - formation/5-car
-      - subclass/442
 
 liveries:
   - name: 'Network South East'

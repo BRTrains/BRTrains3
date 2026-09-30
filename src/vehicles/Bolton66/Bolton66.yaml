@@ -1,8 +1,6 @@
 info:
   identifier: bolton_66
   name: 'Bolton Corporation Electric Tram (Double Decker)'
-  sub_name: Double-decker tram
-  based_on: Bolton Corporation Electric Tram (Double Decker)
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
     types: [tram]
     special_tags:
       - formation/1-car
-      - subclass/bolton_66
 
 liveries:
   - name: 'Bolton Corporation'

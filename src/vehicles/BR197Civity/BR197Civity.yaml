@@ -2,8 +2,6 @@
 info:
   identifier: br_197
   name: Class 197 Civity
-  sub_name: Diesel multiple unit
-  based_on: Siemens Civity
 
 stats:
   vehicle_type: train

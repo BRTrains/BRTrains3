@@ -1,8 +1,6 @@
 info:
   identifier: br_139
   name: 'Class 139 "Parry People Mover"'
-  sub_name: Railcar
-  based_on: Parry People Mover Class 139
 
 stats:
   vehicle_type: train
@@ -30,7 +28,6 @@ profiles:
     types: [train, tram]
     special_tags:
       - formation/1-car
-      - subclass/139
 
 # Order is the legacy `switch(FEAT_TRAINS, SELF, sw_BR139, cargo_subtype)` (0..4), whose
 # `sw_BR139_cargo_subtype_text` names each subtype, and each band's own pixels were

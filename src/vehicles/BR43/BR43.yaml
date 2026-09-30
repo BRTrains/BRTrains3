@@ -1,8 +1,6 @@
 info:
   identifier: br_43
   name: 'Class 43 "HST"'
-  sub_name: High Speed Train power car
-  based_on: British Rail Class 43 (HST)
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     sprite_override: [1]
     special_tags:
       - formation/1-car
-      - subclass/43
 
 liveries:
   - name: 'BR Blue'

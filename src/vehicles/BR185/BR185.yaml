@@ -1,8 +1,6 @@
 info:
   identifier: br_185
   name: 'Class 185 "Desiro"'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 185 Desiro
 
 stats:
   vehicle_type: train
@@ -34,7 +32,6 @@ profiles:
     sprite_override: [1, 2, 3]
     special_tags:
       - formation/3-car
-      - subclass/185
 
 liveries:
   # Names from BRTrains2's `sw_BR185_cargo_subtype_text` (subtype order 0..2) expanded

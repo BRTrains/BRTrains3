@@ -1,8 +1,6 @@
 info:
   identifier: lner_gresley_616bck
   name: "LNER Gresley 61' 6\" BCK"
-  sub_name: Passenger coach
-  based_on: "LNER Gresley 61' 6\" BCK"
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 36
     special_tags:
       - formation/1-car
-      - subclass/gresley_616bck
 
 liveries:
   - name: 'LNER "Teak"'

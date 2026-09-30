@@ -1,8 +1,6 @@
 info:
   identifier: lner_v2
   name: 'LNER Gresley Class V2 2-6-2'
-  sub_name: Steam locomotive
-  based_on: LNER Gresley Class V2
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/loco+tender
-      - subclass/lner_v2
 
 liveries:
   # The legacy item (BRTrains2 `src/trains/steam_loco/LNER/LNERV2.pnml`, item `item_LNERV2`

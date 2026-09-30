@@ -1,8 +1,6 @@
 info:
   identifier: br_555
   name: 'Class 555 Metro'
-  sub_name: Electric multiple unit / tram
-  based_on: Stadler Metro Tyne and Wear Metro Class 555
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     types: [train, tram]
     special_tags:
       - formation/5-car
-      - subclass/555
 
 liveries:
   - name: 'Tyne and Wear Metro'

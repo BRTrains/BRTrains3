@@ -1,8 +1,6 @@
 info:
   identifier: furness_115
   name: 'Furness Railway 115 Class'
-  sub_name: Steam locomotive
-  based_on: Furness Railway 115 Class
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/furness_115
 
 liveries:
   - name: 'Furness Red'

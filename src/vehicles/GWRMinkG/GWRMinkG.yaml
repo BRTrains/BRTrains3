@@ -1,8 +1,6 @@
 info:
   identifier: gwr_mink_g
   name: 'GWR Mink G Goods Van'
-  sub_name: Freight wagon
-  based_on: Great Western Railway Mink G goods van
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 20
     special_tags:
       - formation/1-car
-      - subclass/gwr_mink_g
 
 liveries:
   - name: 'GWR Grey'

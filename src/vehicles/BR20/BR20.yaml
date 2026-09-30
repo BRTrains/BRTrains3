@@ -1,8 +1,6 @@
 info:
   identifier: br_20
   name: 'Class 20 "Chopper"'
-  sub_name: Light freight diesel locomotive
-  based_on: British Rail Class 20
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 0
     special_tags:
       - formation/1-car
-      - subclass/20
 
 liveries:
   - name: 'BR Blue'

@@ -1,8 +1,6 @@
 info:
   identifier: lner_thompson_61fk
   name: "LNER Thompson 61' FK"
-  sub_name: Passenger coach
-  based_on: "LNER Thompson 61' FK"
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 38
     special_tags:
       - formation/1-car
-      - subclass/lner_thompson_61fk
 
 liveries:
   - name: 'LNER "Teak"'

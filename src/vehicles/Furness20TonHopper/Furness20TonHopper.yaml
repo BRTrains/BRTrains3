@@ -1,8 +1,6 @@
 info:
   identifier: furness_20t_hopper
   name: 'Furness Railway 20-ton Hopper Wagon'
-  sub_name: Hopper wagon
-  based_on: Furness Railway 20-ton hopper wagon
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     capacity: 20
     special_tags:
       - formation/1-car
-      - subclass/furness_20t_hopper
 
 liveries:
   - name: Default

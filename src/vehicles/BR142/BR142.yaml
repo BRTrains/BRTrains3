@@ -1,11 +1,7 @@
-special_tags:
-  - subclass/142
 
 info:
   identifier: br_142
   name: 'Class 142 Pacer'
-  sub_name: Diesel multiple unit
-  based_on: British Rail Class 142 Pacer
 
 stats:
   vehicle_type: train
@@ -37,7 +33,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/142
 
 liveries:
   # The legacy `sw_BR142_cargo_subtype_text` order 0..7, which is also the composite's row

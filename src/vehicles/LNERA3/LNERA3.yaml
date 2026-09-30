@@ -1,8 +1,6 @@
 info:
   identifier: lner_a3
   name: 'LNER Gresley Class A3 4-6-2'
-  sub_name: Steam locomotive
-  based_on: LNER Gresley Class A3
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/loco+tender
-      - subclass/lner_a3
 
 liveries:
   # Ordered by the two legacy graphics switches `sw_LNERA3` (locomotive) and `sw_LNERA3T`

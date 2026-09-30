@@ -1,8 +1,6 @@
 info:
   identifier: br_mpv_dualfreight
   name: 'BR MPV Dual Freight'
-  sub_name: Departmental diesel multiple unit
-  based_on: British Rail Multi-Purpose Vehicle Dual Freight
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/2-car
-      - subclass/mpv_dualfreight
 
 liveries:
   - name: 'Network Rail Yellow'

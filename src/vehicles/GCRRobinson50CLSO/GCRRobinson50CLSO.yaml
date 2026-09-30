@@ -1,8 +1,6 @@
 info:
   identifier: gcr_robinson_50_clso
   name: 'GCR Robinson 50ft Semi-Corridor Lavatory Composite'
-  sub_name: Passenger coach
-  based_on: 'GCR Robinson 50ft CLSO'
 
 stats:
   vehicle_type: train
@@ -26,7 +24,6 @@ profiles:
     capacity: 40
     special_tags:
       - formation/1-car
-      - subclass/gcr_robinson_50_clso
 
 liveries:
   # The legacy item has one subtype only: `cargo_subtype` 0 -> `spriteset_..._Teak`, whose

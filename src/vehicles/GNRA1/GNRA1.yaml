@@ -1,8 +1,6 @@
 info:
   identifier: gnr_a1
   name: 'GNR Gresley Class A1 4-6-2'
-  sub_name: Steam locomotive
-  based_on: GNR Gresley Class A1 4-6-2
 
 stats:
   vehicle_type: train
@@ -28,7 +26,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/loco+tender
-      - subclass/gnr_a1
 
 liveries:
   - name: 'GNR Green'

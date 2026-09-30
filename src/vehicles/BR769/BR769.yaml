@@ -1,8 +1,6 @@
 info:
   identifier: br_769
   name: 'Class 769/0/3/4/5/9 "Flex"'
-  sub_name: Bi-mode multiple unit
-  based_on: British Rail Class 769 Flex
 
 stats:
   vehicle_type: train
@@ -36,21 +34,18 @@ profiles:
     capacity: 76
     special_tags:
       - formation/4-car
-      - subclass/769_0
   - identifier: '769_5'
     name: '769/5'
     num_vehicles: 4
     capacity: 75
     special_tags:
       - formation/4-car
-      - subclass/769_5
   - identifier: '769_9'
     name: '769/9'
     num_vehicles: 4
     capacity: 75
     special_tags:
       - formation/4-car
-      - subclass/769_9
 
 liveries:
   - name: 'Transport for Wales'

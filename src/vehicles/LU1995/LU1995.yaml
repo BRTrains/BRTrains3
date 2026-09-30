@@ -3,8 +3,6 @@ model_life: 0
 info:
   identifier: lu_1995
   name: 'London Underground 1995 Stock'
-  sub_name: Deep-level multiple unit
-  based_on: London Underground 1995 Stock
 
 stats:
   vehicle_type: train
@@ -32,7 +30,6 @@ profiles:
     sprite_override: [1, 2, 2, 2, 2, 3]
     special_tags:
       - formation/6-car
-      - subclass/1995_6
 
 liveries:
   - name: 'London Underground'

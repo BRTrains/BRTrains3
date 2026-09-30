@@ -1,8 +1,6 @@
 info:
   identifier: br_397
   name: 'Class 397 "Civity"'
-  sub_name: Electric multiple unit
-  based_on: British Rail Class 397
 
 stats:
   vehicle_type: train
@@ -34,7 +32,6 @@ profiles:
     sprite_override: [1, 2, 2, 3, 4]
     special_tags:
       - formation/5-car
-      - subclass/397
 
 liveries:
   - name: 'TransPennine Express'

@@ -1,12 +1,8 @@
 
-special_tags:
-  - subclass/wd_austerity
 
 info:
   identifier: wd_austerity_tank
   name: 'WD Austerity Tank 0-6-0ST'
-  sub_name: Steam locomotive
-  based_on: WD Austerity 0-6-0ST
 
 stats:
   vehicle_type: train

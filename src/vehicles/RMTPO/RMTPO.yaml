@@ -1,8 +1,6 @@
 info:
   identifier: rm_tpo
   name: 'Royal Mail TPO'
-  sub_name: Travelling Post Office
-  based_on: British Rail Mark 1 TPO / Propelling Control Vehicle
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
       default: sw_rm_tpo_root
     special_tags:
       - formation/1-car
-      - subclass/rm_tpo
 
   - identifier: pcv
     name: 'PCV'
@@ -43,7 +40,6 @@ profiles:
     spritesheet: RMTPOPCV.png
     special_tags:
       - formation/1-car
-      - subclass/rm_pcv
 
 liveries:
   - name: 'Royal Mail'

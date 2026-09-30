@@ -1,8 +1,6 @@
 info:
   identifier: lner_gresley_pv
   name: 'LNER Gresley PV'
-  sub_name: Parcels van
-  based_on: 'LNER Gresley Parcel Van'
 
 stats:
   vehicle_type: train
@@ -30,7 +28,6 @@ profiles:
     capacity: 20
     special_tags:
       - formation/1-car
-      - subclass/gresley_pv
 
 liveries:
   # `sw_LNERPV` subtype order 0..2, named from the item's own list string

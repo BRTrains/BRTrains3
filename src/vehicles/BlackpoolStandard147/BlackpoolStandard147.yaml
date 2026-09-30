@@ -1,8 +1,6 @@
 info:
   identifier: blackpool_standard147
   name: 'Blackpool Trams 1920s "Standard" (Double Decker)'
-  sub_name: Double-decker tram
-  based_on: Blackpool Trams 1920s "Standard" (Double Decker)
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     types: [tram]
     special_tags:
       - formation/1-car
-      - subclass/blackpool_standard147
 
 liveries:
   - name: 'Blackpool Transport'

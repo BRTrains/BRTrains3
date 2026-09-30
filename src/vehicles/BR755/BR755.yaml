@@ -3,8 +3,6 @@
 info:
   identifier: br_755
   name: 'Class 755 FLIRT'
-  sub_name: Diesel-electric multiple unit
-  based_on: Stadler FLIRT UK Class 755
 
 stats:
   vehicle_type: train
@@ -31,7 +29,6 @@ profiles:
     sprite_override: [1, 5, 4, 2]
     special_tags:
       - formation/4-car
-      - subclass/755_3
   - identifier: 755_4
     name: '755/4 (5-Car with Power Pack)'
     num_vehicles: 5
@@ -39,7 +36,6 @@ profiles:
     sprite_override: [1, 3, 5, 4, 2]
     special_tags:
       - formation/5-car
-      - subclass/755_4
 
 liveries:
   - name: 'Greater Anglia'

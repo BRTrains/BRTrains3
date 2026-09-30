@@ -1,8 +1,6 @@
 info:
   identifier: br_apt_e
   name: 'APT-E'
-  sub_name: Experimental gas turbine multiple unit
-  based_on: British Rail APT-E
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     capacity: 37
     special_tags:
       - formation/4-car
-      - subclass/apt_e
 
 liveries:
   - name: BR Blue

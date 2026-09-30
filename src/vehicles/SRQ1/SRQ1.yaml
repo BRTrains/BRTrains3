@@ -1,8 +1,6 @@
 info:
   identifier: sr_q1
   name: 'SR Bulleid Q1 Class 0-6-0'
-  sub_name: Steam locomotive
-  based_on: 'SR Q1 Class'
 
 stats:
   vehicle_type: train
@@ -29,7 +27,6 @@ profiles:
     sprite_override: [1, 2]
     special_tags:
       - formation/loco+tender
-      - subclass/sr_q1
 
 liveries:
   # Ordered by the two legacy graphics switches `sw_SR_Q1_Loco` and `sw_SR_Q1_tender`, which

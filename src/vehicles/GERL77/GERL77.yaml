@@ -1,12 +1,8 @@
 
-special_tags:
-  - subclass/l77
 
 info:
   identifier: ger_class_l77
   name: 'GER Class L77 0-6-2T'
-  sub_name: LNER Class N7
-  based_on: Great Eastern Railway Class L77 (LNER N7)
 
 stats:
   vehicle_type: train
