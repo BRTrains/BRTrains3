@@ -28,8 +28,6 @@ profiles:
     name: 2-Car
     num_vehicles: 2
     capacity: 130
-    special_tags:
-      - formation/2-car
 
 liveries:
   # `sw_LU1986_cargo_subtype_text` order 0..2: the drawing the subtype reads is named

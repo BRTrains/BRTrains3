@@ -22,8 +22,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 0
-    special_tags:
-      - formation/loco+tender
 
 liveries:
   # The legacy item (BRTrains2 `src/trains/steam_loco/LNER/LNERV2.pnml`, item `item_LNERV2`

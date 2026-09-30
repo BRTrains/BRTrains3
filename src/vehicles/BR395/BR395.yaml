@@ -47,8 +47,6 @@ profiles:
     num_vehicles: 6
     capacity: 50
     sprite_override: [1, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/6-car
 
 liveries:
   - name: 'Southeastern'

@@ -44,8 +44,6 @@ profiles:
     # 113 (DFb) for the `Eurostar` livery, and y 138 (DF), 38, 63, 88, 163 (DFb) for
     # `Eurostar - Olympics` — the Olympics fit redraws only the two driving cars.
     sprite_override: [1, 2, 3, 2, 2, 3, 2, 3, 3, 4, 3, 4, 4, 3, 4, 5]
-    special_tags:
-      - formation/16-car
 
 liveries:
   # `sw_BR374_cargo_subtype_text`: subtype 0 = `str_Eurostar` " (Eurostar)"; subtype 1 =

@@ -22,8 +22,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 0
-    special_tags:
-      - formation/1-car
 
   - identifier: '68_6Mk3'
     name: 'Mk3 Set'
@@ -36,8 +34,6 @@ profiles:
     introduction_date: 2019-08-04
     spritesheet: BR68_6Mk3.png
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/8-car
 
   - identifier: '68_5a'
     name: 'Mk5a Set'
@@ -50,8 +46,6 @@ profiles:
     introduction_date: 2019-08-04
     spritesheet: BR68_5a.png
     sprite_override: [1, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/6-car
 
 liveries:
   - name: DRS

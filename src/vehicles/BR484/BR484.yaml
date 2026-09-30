@@ -32,8 +32,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 141
-    special_tags:
-      - formation/2-car
 
 liveries:
   # Order is the legacy `sw_BR484_cargo_subtype_text` order (0 then 1), which is also the

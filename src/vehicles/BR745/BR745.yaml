@@ -47,8 +47,6 @@ profiles:
     # Stansted divides to the same 63). BRBuild's `capacity` is per-part, and the legacy
     # expression is already per-part, so the quotient is carried rather than the dividend.
     capacity: 63.08
-    special_tags:
-      - formation/12-car
 
 liveries:
   # `sw_BR745_subtype_text` order 0..1: `STR_LIVERY_BR_745_REGULAR` "Greater Anglia

@@ -27,15 +27,11 @@ profiles:
     num_vehicles: 4
     capacity: 55.67
     sprite_override: [1, 5, 4, 2]
-    special_tags:
-      - formation/4-car
   - identifier: 755_4
     name: '755/4 (5-Car with Power Pack)'
     num_vehicles: 5
     capacity: 57.25
     sprite_override: [1, 3, 5, 4, 2]
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'Greater Anglia'

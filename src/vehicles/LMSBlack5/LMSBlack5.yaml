@@ -22,8 +22,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 0
-    special_tags:
-      - formation/loco+tender
 
 liveries:
   # Ordered by the two legacy graphics switches `sw_LMSBlack5Loco` and `sw_LMSBlack5Tender`,

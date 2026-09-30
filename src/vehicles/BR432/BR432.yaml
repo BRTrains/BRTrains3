@@ -24,8 +24,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 4
     capacity: 64
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'BR Blue and Grey'

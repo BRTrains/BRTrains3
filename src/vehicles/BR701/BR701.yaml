@@ -26,8 +26,6 @@ profiles:
     weight: 330
     capacity: 55
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/10-car
 
   - identifier: '701_5'
     name: '5-Car'
@@ -37,8 +35,6 @@ profiles:
     weight: 120
     capacity: 54
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'South Western Railway'

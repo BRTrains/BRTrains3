@@ -24,8 +24,6 @@ profiles:
     num_vehicles: 5
     capacity: 59
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'First Great Western'

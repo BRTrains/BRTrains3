@@ -25,8 +25,6 @@ profiles:
     num_vehicles: 3
     capacity: 84
     types: [train, tram]
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: 'Transport for Wales - Yellow Cab End'

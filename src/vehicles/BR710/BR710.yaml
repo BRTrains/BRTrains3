@@ -39,8 +39,6 @@ profiles:
     power: 2400
     weight: 151
     capacity: 169
-    special_tags:
-      - formation/4-car
 
   # The parentheses the Class 378/377 profiles spell "4-Car (Dual Voltage)" with do not survive
   # into the generated name (`nml_str` drops them), so the name here is authored without them —
@@ -55,8 +53,6 @@ profiles:
     track_type:
       - THIRD
       - ELRL
-    special_tags:
-      - formation/4-car
 
   - identifier: '710_5car'
     name: 5-Car
@@ -69,8 +65,6 @@ profiles:
       - THIRD
       - ELRL
     sprite_override: [1, 2, 3, 3, 4]
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'London Overground'

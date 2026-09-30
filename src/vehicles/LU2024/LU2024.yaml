@@ -28,8 +28,6 @@ profiles:
     num_vehicles: 9
     capacity: 119
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/9-car
 
 liveries:
   - name: 'London Underground'

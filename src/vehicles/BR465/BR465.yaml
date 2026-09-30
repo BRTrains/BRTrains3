@@ -25,8 +25,6 @@ profiles:
     num_vehicles: 4
     capacity: 21
     sprite_override: [1, 2, 2, 3]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'Network South East'

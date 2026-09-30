@@ -34,8 +34,6 @@ profiles:
     # per part — a query, the same one the Class 700 and Class 707 entries record.
     capacity: 56
     sprite_override: [1, 3, 4, 4, 4, 2]
-    special_tags:
-      - formation/6-car
 
 # Names from BRTrains2's `sw_BR717_cargo_subtype_text` (subtype 0 only), expanded through
 # `lang/partial/livery_prebuilt_strings.plng`: `str_GreatNorthern` "(Govia Great Northern)".

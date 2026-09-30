@@ -43,8 +43,6 @@ profiles:
     # `switch_BR801_5car_spriteset` draws `position_in_articulated_veh % 5`: 0 = front,
     # 4 = rear, the rest the middle car.
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
 
   - identifier: '801_2'
     name: 9-Car
@@ -61,8 +59,6 @@ profiles:
     # `switch_BR801_9car_spriteset` draws `position_in_articulated_veh % 9`: 0 = front,
     # 8 = rear, the rest the middle car.
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/9-car
 
 liveries:
   # `STR_LIVERY_BR800_LNER` "LNER \"Azuma\"" (from `lang/partial/livery_prebuilt_strings.plng`),

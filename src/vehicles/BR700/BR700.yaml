@@ -34,8 +34,6 @@ profiles:
     # cannot express per part — a query.
     capacity: 83
     sprite_override: [1, 2, 4, 4, 4, 4, 4, 4, 4, 4, 3]
-    special_tags:
-      - formation/12-car
 
   - identifier: 'br_700_8'
     name: '8-Car'
@@ -46,8 +44,6 @@ profiles:
     capacity: 56
     sprite_group: 'br_700_12'
     sprite_override: [1, 2, 4, 4, 4, 4, 4, 3]
-    special_tags:
-      - formation/8-car
 
 liveries:
   - name: 'Govia Thameslink'

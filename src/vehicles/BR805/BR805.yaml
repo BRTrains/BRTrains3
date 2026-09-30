@@ -46,8 +46,6 @@ profiles:
     # `switch_BR805_5car_spriteset_Avanti_normal` draws `position_in_articulated_veh % 5`:
     # 0 = front, 1 = middle3, 2 = middle2, 3 = middle, 4 = rear. The values are the five
     # drawings the Avanti livery's row group holds, packed in this order.
-    special_tags:
-      - formation/5-car
 
 liveries:
   # `switch_BR805_5car_subtype_text` order: 0 = `str_AvantiWestCoast` "(Avanti West Coast)",

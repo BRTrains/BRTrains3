@@ -24,8 +24,6 @@ profiles:
     num_vehicles: 2
     capacity: 86
     power: 800
-    special_tags:
-      - formation/2-car
   - identifier: 3car
     name: 3-Car
     num_vehicles: 3
@@ -34,8 +32,6 @@ profiles:
     introduction_date: 2021-01-01
     spritesheet: BR230_3car.png
     sprite_override: [1, 3, 2]
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: 'VivaRail'

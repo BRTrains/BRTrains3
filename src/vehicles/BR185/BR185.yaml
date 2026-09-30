@@ -26,8 +26,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 3
     capacity: 18
-    special_tags:
-      - formation/3-car
 
 liveries:
   # Names from BRTrains2's `sw_BR185_cargo_subtype_text` (subtype order 0..2) expanded

@@ -24,16 +24,12 @@ profiles:
     num_vehicles: 6
     capacity: 68
     sprite_override: [1, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/6-car
   - identifier: 8car
     name: 8-Car
     num_vehicles: 8
     capacity: 68
     sprite_group: 6car
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/8-car
 
 liveries:
   - name: 'Blue Pullman (Warning Panels)'

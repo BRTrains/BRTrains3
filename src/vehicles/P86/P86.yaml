@@ -27,8 +27,6 @@ profiles:
     capacity: 84
     types: [tram]
     sprite_override: [1, 2, 1, 2]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'DLR Blue'

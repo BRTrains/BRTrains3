@@ -27,8 +27,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 40
-    special_tags:
-      - formation/1-car
 
 liveries:
   # `sw_LNERBG_cargo_subtype_text` order 0..2, named from the item's own list string

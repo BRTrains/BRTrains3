@@ -22,8 +22,6 @@ profiles:
     num_vehicles: 1
     capacity: 64
     introduction_date: 1952-04-21
-    special_tags:
-      - formation/1-car
 
   # The Standard Corridor reads `template_train32px(0, 0)` of the five per-livery sheets, per
   # `spriteset_BRMk1SK_*` in BRTrains2
@@ -40,8 +38,6 @@ profiles:
     weight: 32
     introduction_date: 1951-04-21
     sprite_group: 'tso'
-    special_tags:
-      - formation/1-car
 
   - identifier: so
     name: 'Standard Open'
@@ -50,8 +46,6 @@ profiles:
     weight: 32
     introduction_date: 1963-04-21
     sprite_group: 'tso'
-    special_tags:
-      - formation/1-car
 
   - identifier: rmb
     name: 'Restaurant Buffet'
@@ -60,8 +54,6 @@ profiles:
     weight: 35
     introduction_date: 1957-04-21
     spritesheet: BRMk1RMB.png
-    special_tags:
-      - formation/1-car
 
   # The Brake Standard Corridor reads y=104 of those same five sheets, per the
   # `spriteset_BRMk1BSK_*` declarations in BRTrains2
@@ -75,8 +67,6 @@ profiles:
     weight: 36
     introduction_date: 1951-04-21
     spritesheet: BRMk1BSK.png
-    special_tags:
-      - formation/1-car
 
   - identifier: bso
     name: 'Brake Standard Open'
@@ -85,8 +75,6 @@ profiles:
     weight: 34
     introduction_date: 1955-04-21
     sprite_group: 'bsk'
-    special_tags:
-      - formation/1-car
 
   - identifier: bsot
     name: 'Brake Standard Open Mini-Buffet'
@@ -95,8 +83,6 @@ profiles:
     weight: 35
     introduction_date: 1952-04-21
     sprite_group: 'bsk'
-    special_tags:
-      - formation/1-car
 
   - identifier: ck
     name: 'Composite Corridor'
@@ -105,8 +91,6 @@ profiles:
     weight: 32
     introduction_date: 1952-04-21
     spritesheet: BRMk1CK.png
-    special_tags:
-      - formation/1-car
 
   - identifier: fo
     name: 'First Open'
@@ -115,8 +99,6 @@ profiles:
     weight: 33
     introduction_date: 1951-04-21
     spritesheet: BRMk1FO.png
-    special_tags:
-      - formation/1-car
 
   - identifier: fk
     name: 'First Corridor'
@@ -125,8 +107,6 @@ profiles:
     weight: 32
     introduction_date: 1951-04-21
     spritesheet: BRMk1FK.png
-    special_tags:
-      - formation/1-car
 
   - identifier: bck
     name: 'Brake Composite Corridor'
@@ -135,8 +115,6 @@ profiles:
     weight: 36
     introduction_date: 1952-04-21
     spritesheet: BRMk1BCK.png
-    special_tags:
-      - formation/1-car
 
   - identifier: bfk
     name: 'Brake First Corridor'
@@ -145,8 +123,6 @@ profiles:
     weight: 36
     introduction_date: 1951-04-21
     spritesheet: BRMk1BFK.png
-    special_tags:
-      - formation/1-car
 
   # The Restaurant Kitchen reads y=208 of the five per-livery sheets, per the
   # `spriteset_BRMk1RK_*` declarations in BRTrains2
@@ -160,8 +136,6 @@ profiles:
     weight: 36
     introduction_date: 1951-04-21
     spritesheet: BRMk1RK.png
-    special_tags:
-      - formation/1-car
 
   # The Brake Gangwayed reads y=182 of the five per-livery sheets, per the
   # `spriteset_BRMk1BG_*` declarations in BRTrains2
@@ -178,8 +152,6 @@ profiles:
     introduction_date: 1951-04-21
     cargo: mail
     spritesheet: BRMk1BG.png
-    special_tags:
-      - formation/1-car
 
 liveries:
   - name: 'BR Carmine and Cream'

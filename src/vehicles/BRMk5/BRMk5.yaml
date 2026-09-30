@@ -24,8 +24,6 @@ profiles:
     introduction_date: 2019-08-04
     has_cab: true
     spritesheet: BRMk5DVT.png
-    special_tags:
-      - formation/1-car
 
   - identifier: sleeper
     name: 'Sleeper'
@@ -34,8 +32,6 @@ profiles:
     speed: 100
     introduction_date: 2016-01-01
     spritesheet: BRMk5Sleeper.png
-    special_tags:
-      - formation/1-car
 
 liveries:
   - name: 'Transpennine Express'

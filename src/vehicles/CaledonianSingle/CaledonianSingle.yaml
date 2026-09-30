@@ -23,8 +23,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 0
-    special_tags:
-      - formation/loco+tender
 
 liveries:
   - name: 'Furness Red'

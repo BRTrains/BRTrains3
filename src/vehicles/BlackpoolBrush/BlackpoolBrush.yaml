@@ -24,8 +24,6 @@ profiles:
     num_vehicles: 1
     capacity: 48
     types: [tram]
-    special_tags:
-      - formation/1-car
 
   - identifier: mail
     name: Mail
@@ -33,8 +31,6 @@ profiles:
     capacity: 30
     cargo: mail
     types: [tram]
-    special_tags:
-      - formation/1-car
 
 liveries:
   - name: 'Blackpool Transport'

@@ -24,8 +24,6 @@ profiles:
     capacity: 141
     power: 2500
     weight: 197
-    special_tags:
-      - formation/2-car
 
 liveries:
   # Order is the legacy `sw_BR483_cargo_subtype_text` order (0 then 1), which is also the

@@ -27,8 +27,6 @@ profiles:
     # `cargo_capacity` property reads 50 and the shared `sw_Turbostar_cargo_capacity` gives
     # per-position figures no single BRBuild `capacity` can express (oddity 5).
     capacity: 47
-    special_tags:
-      - formation/2-car
 
 liveries:
   # The legacy `sw_BR141_cargo_subtype_text` order 0..2, which is also the composite's row

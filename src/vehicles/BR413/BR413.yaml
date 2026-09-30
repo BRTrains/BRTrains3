@@ -25,8 +25,6 @@ profiles:
     name: 4-Car
     num_vehicles: 4
     capacity: 69
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'BR Blue and Grey'

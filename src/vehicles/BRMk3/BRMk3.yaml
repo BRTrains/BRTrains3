@@ -23,8 +23,6 @@ profiles:
     capacity: 26
     speed: 125
     introduction_date: 1982-01-01
-    special_tags:
-      - formation/1-car
 
   - identifier: dvt
     name: 'DVT'
@@ -34,8 +32,6 @@ profiles:
     introduction_date: 1989-01-01
     has_cab: true
     spritesheet: BRMk3DVT.png
-    special_tags:
-      - formation/1-car
 
   - identifier: ts
     name: 'Trailer Second'
@@ -43,8 +39,6 @@ profiles:
     capacity: 72
     introduction_date: 1975-04-21
     spritesheet: BRMk3TS.png
-    special_tags:
-      - formation/1-car
 
   - identifier: tf
     name: 'Trailer First'
@@ -52,8 +46,6 @@ profiles:
     capacity: 48
     introduction_date: 1975-04-21
     spritesheet: BRMk3TF.png
-    special_tags:
-      - formation/1-car
 
   - identifier: tgs
     name: 'Trailer Guard Second'
@@ -61,8 +53,6 @@ profiles:
     capacity: 59
     introduction_date: 1975-04-21
     spritesheet: BRMk3TGS.png
-    special_tags:
-      - formation/1-car
 
   - identifier: trsb
     name: 'Trailer Buffet Second'
@@ -70,8 +60,6 @@ profiles:
     capacity: 34
     introduction_date: 1975-04-21
     spritesheet: BRMk3TRSB.png
-    special_tags:
-      - formation/1-car
 
   - identifier: trub
     name: 'Trailer Buffet Unclassified'
@@ -79,8 +67,6 @@ profiles:
     capacity: 34
     introduction_date: 1975-04-21
     spritesheet: BRMk3TRUB.png
-    special_tags:
-      - formation/1-car
 
   - identifier: truk
     name: 'Trailer Kitchen'
@@ -88,8 +74,6 @@ profiles:
     capacity: 34
     introduction_date: 1975-04-21
     spritesheet: BRMk3TRUK.png
-    special_tags:
-      - formation/1-car
 
 liveries:
   - name: 'BR Blue'

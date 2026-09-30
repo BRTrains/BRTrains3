@@ -24,8 +24,6 @@ profiles:
     power: 844
     weight: 90
     sprite_override: [1, 3]
-    special_tags:
-      - formation/2-car
 
   - identifier: '3car'
     name: '3-Car'
@@ -33,8 +31,6 @@ profiles:
     capacity: 50
     power: 1266
     weight: 135
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: 'Midland Mainline'

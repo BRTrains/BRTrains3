@@ -36,8 +36,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 3
     capacity: 205
-    special_tags:
-      - formation/3-car
 
 liveries:
   # Order is the legacy `sw_LUDStock_cargo_subtype_text` order (0 then 1), which is also the

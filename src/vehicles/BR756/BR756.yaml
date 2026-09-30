@@ -35,8 +35,6 @@ profiles:
     # trailer, 3 = the rear car. The values are the four drawings the livery's own row group
     # holds, packed in this order.
     sprite_override: [1, 4, 3, 2]
-    special_tags:
-      - formation/4-car
   - identifier: '756_4'
     name: '756/1 (4-Car with Power Pack)'
     num_vehicles: 5
@@ -47,8 +45,6 @@ profiles:
     # drawing is reused at the fourth position (the legacy reads the doubledoor spriteset
     # there; only its row count has to fit the group).
     sprite_override: [1, 2, 3, 3, 4]
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'Transport for Wales'

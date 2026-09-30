@@ -24,14 +24,10 @@ profiles:
     name: 2-Car
     num_vehicles: 2
     capacity: 62
-    special_tags:
-      - formation/2-car
   - identifier: 197_1
     name: 3-Car
     num_vehicles: 3
     capacity: 68
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: TfW Rail

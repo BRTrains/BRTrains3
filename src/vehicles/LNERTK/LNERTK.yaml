@@ -22,8 +22,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 56
-    special_tags:
-      - formation/1-car
 
 liveries:
   # `sw_LNERTK` subtype order 0..2, named from the item's own list string

@@ -23,8 +23,6 @@ profiles:
     num_vehicles: 1
     capacity: 50
     types: [train, tram]
-    special_tags:
-      - formation/1-car
 
 # Order is the legacy `switch(FEAT_TRAINS, SELF, sw_BR139, cargo_subtype)` (0..4), whose
 # `sw_BR139_cargo_subtype_text` names each subtype, and each band's own pixels were

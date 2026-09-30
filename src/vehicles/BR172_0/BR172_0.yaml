@@ -30,8 +30,6 @@ profiles:
     num_vehicles: 2
     capacity: 50
     sprite_override: [1, 3]
-    special_tags:
-      - formation/2-car
 
 liveries:
   # Order is the composite's row order (`BRTrains3-artwork-tools/compose_br172_0_sheet.py`),

@@ -26,8 +26,6 @@ profiles:
     num_vehicles: 4
     capacity: 68
     sprite_override: [1, 4, 3, 2]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'c2c White'

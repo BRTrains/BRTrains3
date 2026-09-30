@@ -27,14 +27,10 @@ profiles:
     capacity: 64
     weight: 134
     sprite_override: [1, 2, 2, 3]
-    special_tags:
-      - formation/4-car
   - identifier: '438_3'
     name: 3-TC
     num_vehicles: 3
     capacity: 64
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: 'BR Blue and Grey'

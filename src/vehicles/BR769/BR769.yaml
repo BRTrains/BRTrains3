@@ -30,20 +30,14 @@ profiles:
     name: '769/0/3/4'
     num_vehicles: 4
     capacity: 76
-    special_tags:
-      - formation/4-car
   - identifier: '769_5'
     name: '769/5'
     num_vehicles: 4
     capacity: 75
-    special_tags:
-      - formation/4-car
   - identifier: '769_9'
     name: '769/9'
     num_vehicles: 4
     capacity: 75
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'Transport for Wales'

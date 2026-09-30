@@ -34,8 +34,6 @@ profiles:
     num_vehicles: 8
     capacity: 141
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/8-car
 
 liveries:
   # Order is the composite's row order and the legacy's own declaration order: the sheet packs

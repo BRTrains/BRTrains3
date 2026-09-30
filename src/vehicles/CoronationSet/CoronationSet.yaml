@@ -41,44 +41,30 @@ profiles:
     num_vehicles: 9
     capacity: 26
     sprite_override: [1, 2, 3, 4, 5, 6, 7, 8]
-    special_tags:
-      - formation/9-car
   - identifier: '712'
     name: 'Articulated Coach (BT + KT)'
     num_vehicles: 2
     capacity: 21
-    special_tags:
-      - formation/2-car
   - identifier: '713'
     name: 'Articulated Coach (OF + OF)'
     num_vehicles: 2
     capacity: 24
-    special_tags:
-      - formation/2-car
   - identifier: '714'
     name: 'Articulated Coach (OT + KT)'
     num_vehicles: 2
     capacity: 18
-    special_tags:
-      - formation/2-car
   - identifier: '715'
     name: 'Articulated Coach (OT + BT)'
     num_vehicles: 2
     capacity: 33
-    special_tags:
-      - formation/2-car
   - identifier: '716'
     name: 'Observation Coach'
     num_vehicles: 1
     capacity: 16
-    special_tags:
-      - formation/1-car
   - identifier: '717'
     name: 'Articulated Coach (OT + OT)'
     num_vehicles: 2
     capacity: 30
-    special_tags:
-      - formation/2-car
 
 liveries:
   # The item's own list string, `str_LNER_CorSet_liveries` = "LNER Coronation Garter Blue,

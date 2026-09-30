@@ -26,8 +26,6 @@ profiles:
     name: 2-Car
     num_vehicles: 2
     capacity: 0
-    special_tags:
-      - formation/2-car
 
 liveries:
   - name: 'Network Rail'

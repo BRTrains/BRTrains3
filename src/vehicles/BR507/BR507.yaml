@@ -29,8 +29,6 @@ profiles:
     # express (the legacy 3-car seats 74 + 82 + 74 = 230, this import reads 222 -- a query).
     capacity: 74
     sprite_override: [1, 3, 2]
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: 'BR Blue'

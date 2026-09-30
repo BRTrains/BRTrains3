@@ -23,8 +23,6 @@ profiles:
     name: 7-Car
     num_vehicles: 7
     capacity: 44
-    special_tags:
-      - formation/7-car
 
 liveries:
   - name: 'Network Rail'

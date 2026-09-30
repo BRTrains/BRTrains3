@@ -29,8 +29,6 @@ profiles:
     weight: 213
     introduction_date: 2012-04-21
     sprite_override: [1, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/7-car
 
   - identifier: 'S8'
     name: 8-Car
@@ -40,8 +38,6 @@ profiles:
     weight: 242
     sprite_group: 'S7'
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/8-car
 
 liveries:
   - name: 'London Underground'

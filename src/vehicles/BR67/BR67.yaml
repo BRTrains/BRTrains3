@@ -22,8 +22,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 0
-    special_tags:
-      - formation/1-car
 
 liveries:
   # Ordered by the legacy `sw_BR67`/`sw_BR67_cargo_subtype_text` cargo-subtype switch

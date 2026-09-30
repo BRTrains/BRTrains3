@@ -24,15 +24,11 @@ profiles:
     capacity: 69
     power: 700
     weight: 76
-    special_tags:
-      - formation/2-car
   - identifier: '158_3'
     name: '3-Car'
     num_vehicles: 3
     capacity: 69
     sprite_override: [1, 3, 2]
-    special_tags:
-      - formation/3-car
 
 # The two formations carry different livery sets, as the legacy's own `sw_BR158_2car` and
 # `sw_BR158_3car` switches do, so each livery is restricted to the profiles that offer it.

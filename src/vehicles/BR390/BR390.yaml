@@ -28,8 +28,6 @@ profiles:
     power: 6840
     weight: 466
 
-    special_tags:
-      - formation/9-car
   - identifier: '390_11'
     name: 11-Car
     num_vehicles: 11
@@ -37,8 +35,6 @@ profiles:
     power: 7980
     weight: 567
 
-    special_tags:
-      - formation/11-car
 
 liveries:
   - name: Virgin Trains (9-car)

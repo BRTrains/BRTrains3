@@ -30,8 +30,6 @@ profiles:
     # BRBuild's single-item callback cannot express per part -- a query.
     capacity: 56
     sprite_override: [1, 2, 3, 3, 4]
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'South West Trains'

@@ -24,8 +24,6 @@ profiles:
     power: 844
     weight: 90
     sprite_override: [1, 3]
-    special_tags:
-      - formation/2-car
 
   - identifier: '171_4car'
     name: '4-Car'
@@ -35,8 +33,6 @@ profiles:
     weight: 135
     sprite_group: '171_2car'
     sprite_override: [1, 2, 2, 3]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'Southern'

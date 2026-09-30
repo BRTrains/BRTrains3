@@ -30,8 +30,6 @@ profiles:
     # d 66, e 50), which BRBuild cannot express: the callback sits on the single item all
     # articulated parts reference. See the oddities note.
     capacity: 50
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'Network South East'

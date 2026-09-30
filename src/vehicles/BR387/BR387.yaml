@@ -27,8 +27,6 @@ profiles:
     num_vehicles: 4
     capacity: 60
     sprite_override: [1, 3, 4, 2]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'Govia Thameslink'

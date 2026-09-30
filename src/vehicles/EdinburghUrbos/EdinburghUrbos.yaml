@@ -24,8 +24,6 @@ profiles:
     num_vehicles: 5
     capacity: 50
     types: [tram]
-    special_tags:
-      - formation/5-part
 
 liveries:
   - name: 'Edinburgh Trams'

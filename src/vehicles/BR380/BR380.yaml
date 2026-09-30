@@ -37,16 +37,12 @@ profiles:
     capacity: 63
     sprite_group: '380_0'
     sprite_override: [1, 3, 4]
-    special_tags:
-      - formation/3-car
 
   - identifier: '380_1'
     name: '380/1'
     num_vehicles: 4
     capacity: 63
     sprite_group: '380_0'
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'ScotRail Saltire'

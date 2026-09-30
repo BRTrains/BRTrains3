@@ -24,8 +24,6 @@ profiles:
     power: 900
     weight: 100
     sprite_override: [1, 3]
-    special_tags:
-      - formation/2-car
 
   - identifier: '175_3car'
     name: '3-Car'
@@ -34,8 +32,6 @@ profiles:
     power: 1350
     weight: 147
     sprite_group: '175_2car'
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: 'Arriva Ghost'

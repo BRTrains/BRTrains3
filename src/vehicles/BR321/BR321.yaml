@@ -26,8 +26,6 @@ profiles:
     power: 1600
     weight: 137
     sprite_override: [1, 4, 3, 2]
-    special_tags:
-      - formation/4-car
 
   - identifier: '321_freight'
     name: 4-Car Freight
@@ -39,8 +37,6 @@ profiles:
     introduction_date: 2022-10-10
     cargo: parcels
     sprite_override: [1, 4, 3, 2]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'Network South East'

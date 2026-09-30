@@ -24,8 +24,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 79
-    special_tags:
-      - formation/2-car
 
 liveries:
   - name: 'Network South East'

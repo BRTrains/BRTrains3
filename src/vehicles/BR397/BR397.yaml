@@ -28,8 +28,6 @@ profiles:
     num_vehicles: 5
     capacity: 57
     sprite_override: [1, 2, 2, 3, 4]
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'TransPennine Express'

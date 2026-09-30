@@ -27,8 +27,6 @@ profiles:
     num_vehicles: 20
     capacity: 105
     sprite_override: [1, 2, 3, 4, 5, 6, 7, 6, 7, 6, 7, 6, 5, 3, 4, 3, 4, 2, 1, 8]
-    special_tags:
-      - formation/20-car
 
 liveries:
   - name: 'Eurostar'

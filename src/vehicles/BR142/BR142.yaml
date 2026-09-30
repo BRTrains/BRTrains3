@@ -27,8 +27,6 @@ profiles:
     # Per-part: the legacy callback is `return(112 * param_pax / 2)`, i.e. 56. The item's own
     # `cargo_capacity` property reads 62 (oddity 5).
     capacity: 56
-    special_tags:
-      - formation/2-car
 
 liveries:
   # The legacy `sw_BR142_cargo_subtype_text` order 0..7, which is also the composite's row

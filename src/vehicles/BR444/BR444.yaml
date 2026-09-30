@@ -31,8 +31,6 @@ profiles:
     # single item every articulated part references. See the oddities entry.
     capacity: 62
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
 
 liveries:
   - name: 'South West Trains'

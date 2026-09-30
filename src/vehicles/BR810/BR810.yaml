@@ -46,8 +46,6 @@ profiles:
     # 0 = front, 4 = rear, every other car the middle. The values are the three drawings the
     # livery's own row group holds, packed in this order.
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
 
 liveries:
   # `switch_BR810_5car_subtype_text` order: 0 = `str_EMRMaroon` "(EMR - Maroon)",

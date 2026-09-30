@@ -24,8 +24,6 @@ profiles:
     introduction_date: 1989-01-01
     has_cab: true
     spritesheet: BRMk4DVT.png
-    special_tags:
-      - formation/1-car
 
   - identifier: tsoe
     name: 'Trailer Standard Open End'

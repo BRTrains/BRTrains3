@@ -22,8 +22,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 0
-    special_tags:
-      - formation/loco+tender
 
 liveries:
   # Ordered by the two legacy graphics switches `sw_SR_Q1_Loco` and `sw_SR_Q1_tender`, which

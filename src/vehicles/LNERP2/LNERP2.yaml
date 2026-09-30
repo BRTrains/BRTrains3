@@ -22,14 +22,10 @@ profiles:
   - identifier: p2
     num_vehicles: 2
     capacity: 0
-    special_tags:
-      - formation/loco+tender
   - identifier: p2_streamlined
     num_vehicles: 2
     capacity: 0
     power: 2200
-    special_tags:
-      - formation/loco+tender
 
 liveries:
   - name: 'LNER Green'

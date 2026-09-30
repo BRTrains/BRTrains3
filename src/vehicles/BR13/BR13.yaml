@@ -22,8 +22,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 0
-    special_tags:
-      - formation/2-car
 
 liveries:
   - name: 'BR Green'

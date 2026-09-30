@@ -26,8 +26,6 @@ profiles:
     power: 5250
     weight: 395
     sprite_override: [1, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/7-car
   - identifier: '222_5'
     name: '5-Car'
     num_vehicles: 5
@@ -35,8 +33,6 @@ profiles:
     power: 3750
     sprite_group: '222_7'
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
   - identifier: '222_4'
     name: '4-Car'
     num_vehicles: 4
@@ -45,8 +41,6 @@ profiles:
     introduction_date: 2005-04-21
     sprite_group: '222_7'
     sprite_override: [1, 2, 2, 3]
-    special_tags:
-      - formation/4-car
   - identifier: '222_6'
     name: '6-Car'
     num_vehicles: 6
@@ -55,8 +49,6 @@ profiles:
     introduction_date: 2026-05-01
     sprite_group: '222_7'
     sprite_override: [1, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/6-car
   - identifier: '222_1'
     name: '4-Car "Pioneer"'
     num_vehicles: 4
@@ -66,8 +58,6 @@ profiles:
     introduction_date: 2005-04-21
     sprite_group: '222_7'
     sprite_override: [1, 2, 2, 3]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'East Midlands Trains'

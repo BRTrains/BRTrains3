@@ -30,8 +30,6 @@ profiles:
     num_vehicles: 8
     capacity: 54
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/8-car
 
 liveries:
   - name: 'Gatwick Express'

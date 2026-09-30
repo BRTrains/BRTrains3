@@ -24,8 +24,6 @@ profiles:
     capacity: 54
     power: 2000
     weight: 147
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: 'Carmine and Cream'

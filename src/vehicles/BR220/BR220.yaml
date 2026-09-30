@@ -24,8 +24,6 @@ profiles:
     num_vehicles: 4
     capacity: 42
     sprite_override: [1, 2, 2, 3]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'Virgin Trains'

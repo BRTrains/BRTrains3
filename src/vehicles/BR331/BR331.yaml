@@ -25,16 +25,12 @@ profiles:
     name: '331/0'
     num_vehicles: 3
     capacity: 68
-    special_tags:
-      - formation/3-car
 
   - identifier: '331_1'
     name: '331/1'
     num_vehicles: 4
     capacity: 71
     weight: 169
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: 'Northern'

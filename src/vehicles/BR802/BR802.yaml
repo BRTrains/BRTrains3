@@ -45,8 +45,6 @@ profiles:
     # 4 = rear, the rest the middle car. The Hull Trains livery overrides position 2 with
     # its own dedicated middle drawing (see its `sprite_override`).
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
 
   - identifier: '802_1'
     name: 9-Car
@@ -57,8 +55,6 @@ profiles:
     capacity: 71
     # `switch_BR802_9car_spriteset_*`: 0 = front, 8 = rear, the rest the middle car.
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/9-car
 
 # Each livery is restricted with `profiles:` because a livery with no restriction applies
 # to every profile and the allocator consumes one row group per (profile, livery) pair off

@@ -44,8 +44,6 @@ profiles:
     # 4 = rear, every other car the middle. The values are the three drawings the livery's
     # own row group holds, packed in this order.
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
 
   - identifier: '800_9'
     name: 9-Car
@@ -57,8 +55,6 @@ profiles:
     capacity: 67
     # `switch_BR800_9car_spriteset_*`: 0 = front, 8 = rear, the rest the middle car.
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 2, 3]
-    special_tags:
-      - formation/9-car
 
 # Each livery is listed once per formation and restricted with `profiles:`, because a
 # livery with no restriction applies to every profile and the allocator consumes one row

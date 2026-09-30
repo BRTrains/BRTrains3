@@ -20,8 +20,6 @@ profiles:
     num_vehicles: 1
     capacity: 60
     speed: 125
-    special_tags:
-      - formation/1-car
 
 liveries:
   - name: 'TransPennine Express'

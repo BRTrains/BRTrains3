@@ -22,63 +22,47 @@ profiles:
     introduction_date: 1964-04-21
     has_cab: true
     spritesheet: BRMk2DBSO.png
-    special_tags:
-      - formation/1-car
 
   - identifier: so
     name: 'D-F Standard Class'
     num_vehicles: 1
     capacity: 64
     spritesheet: BRMk2Late.png
-    special_tags:
-      - formation/1-car
   - identifier: fo
     name: 'D-F First Class'
     num_vehicles: 1
     capacity: 42
     spritesheet: BRMk2Late.png
-    special_tags:
-      - formation/1-car
 
   - identifier: buffet
     name: 'Restaurant Buffet'
     num_vehicles: 1
     capacity: 31
     spritesheet: BRMk2Buffet.png
-    special_tags:
-      - formation/1-car
 
   - identifier: bso
     name: 'Brake Standard Class'
     num_vehicles: 1
     capacity: 31
     spritesheet: BRMk2Brake.png
-    special_tags:
-      - formation/1-car
 
   - identifier: bfo
     name: 'Brake First Class'
     num_vehicles: 1
     capacity: 32
     spritesheet: BRMk2Brake.png
-    special_tags:
-      - formation/1-car
 
   - identifier: early_so
     name: 'Early Standard Class'
     num_vehicles: 1
     capacity: 64
     spritesheet: BRMk2Early.png
-    special_tags:
-      - formation/1-car
 
   - identifier: early_fo
     name: 'Early First Class'
     num_vehicles: 1
     capacity: 42
     spritesheet: BRMk2Early.png
-    special_tags:
-      - formation/1-car
 
 liveries:
   - name: 'BR Blue'

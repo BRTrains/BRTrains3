@@ -26,8 +26,6 @@ profiles:
     power: 3100
     weight: 264
     sprite_override: [1, 2, 2, 2, 2, 3, 4]
-    special_tags:
-      - formation/7-car
   - identifier: '345_9'
     name: 9-Car
     num_vehicles: 9
@@ -37,8 +35,6 @@ profiles:
     weight: 264
     introduction_date: 2021-06-02
     sprite_override: [1, 2, 2, 2, 2, 2, 2, 3, 4]
-    special_tags:
-      - formation/9-car
 
 liveries:
   - name: 'Transport for London'

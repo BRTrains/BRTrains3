@@ -25,15 +25,11 @@ profiles:
     num_vehicles: 2
     capacity: 62
     sprite_group: 196_1
-    special_tags:
-      - formation/2-car
   - identifier: 196_1
     name: 4-Car
     num_vehicles: 4
     capacity: 71
     sprite_override: [1, 3, 3, 2]
-    special_tags:
-      - formation/4-car
 
 liveries:
   - name: West Midlands Railway

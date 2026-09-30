@@ -25,15 +25,11 @@ profiles:
     num_vehicles: 2
     weight: 65
     capacity: 128
-    special_tags:
-      - formation/2-car
   - identifier: 102_3
     name: '3-Car'
     num_vehicles: 3
     weight: 90
     capacity: 192
-    special_tags:
-      - formation/3-car
 
 liveries:
   - name: 'BR Blue'

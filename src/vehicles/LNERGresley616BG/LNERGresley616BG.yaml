@@ -20,8 +20,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 1
     capacity: 50
-    special_tags:
-      - formation/1-car
 
 liveries:
   - name: 'LNER Teak'

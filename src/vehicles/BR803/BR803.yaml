@@ -42,8 +42,6 @@ profiles:
     # (`spriteset_BR80X_{front,middle,rear}_Lumo`, bands y 150/175/200) the livery's row
     # group holds, packed in this order.
     sprite_override: [1, 2, 2, 2, 3]
-    special_tags:
-      - formation/5-car
 
 liveries:
   # The item declares no `cargo_subtype`/livery switch, so its `default:

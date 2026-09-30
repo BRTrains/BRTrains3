@@ -20,8 +20,6 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 3
     capacity: 57
-    special_tags:
-      - formation/3-car
 
 # Names from BRTrains2's `sw_BR150_0_cargo_subtype_text` (subtype order 0..7, the shared
 # livery strings resolved from `lang/partial/livery_prebuilt_strings.plng`); that case order
