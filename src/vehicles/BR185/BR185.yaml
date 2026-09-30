@@ -19,9 +19,6 @@ stats:
 
 cargo: passenger
 
-loading_speed: 20
-cargo_age_period: 215
-
 dates:
   introduction_date: 2005-04-21
 

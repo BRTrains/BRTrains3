@@ -16,7 +16,6 @@ stats:
     - FOURTH
 
 cargo: passenger
-loading_speed: 40
 
 dates:
   introduction_date: 2010-04-21

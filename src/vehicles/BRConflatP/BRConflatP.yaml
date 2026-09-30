@@ -13,7 +13,6 @@ stats:
 
 cargo: containerised
 autorefit: true
-loading_speed: 25
 
 nml_override:
   default: sw_br_conflat_p

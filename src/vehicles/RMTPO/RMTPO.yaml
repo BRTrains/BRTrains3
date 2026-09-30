@@ -12,8 +12,6 @@ stats:
 
 cargo: parcels
 autorefit: true
-loading_speed: 10
-cargo_age_period: 185
 
 dates:
   introduction_date: 1963-04-21

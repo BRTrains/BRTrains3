@@ -14,7 +14,6 @@ stats:
     - diesel
 
 cargo: none
-loading_speed: 3
 
 dates:
   introduction_date: 1986-02-17

@@ -12,7 +12,6 @@ stats:
   power_type: [electric]
   track_type: [FOURTH]
 cargo: passenger
-loading_speed: 40
 dates:
   introduction_date: 1970-01-01
 profiles:

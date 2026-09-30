@@ -12,7 +12,6 @@ stats:
   tractive_effort: 0
 
 cargo: passenger
-loading_speed: 10
 
 dates:
   # The legacy `item_GWR_254_Comp_SY` (735) declares `date(1871,1,1)` directly.

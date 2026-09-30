@@ -13,7 +13,6 @@ stats:
 
 cargo: [containerised, CC_ARMOURED]
 autorefit: true
-loading_speed: 25
 
 dates:
   introduction_date: 1981-01-01

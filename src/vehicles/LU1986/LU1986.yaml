@@ -19,9 +19,6 @@ stats:
 
 cargo: passenger
 
-loading_speed: 25
-cargo_age_period: 185
-
 dates:
   # The legacy `item_LU1986` (510) declares `date(1986,1,1)` directly.
   introduction_date: 1986-01-01

@@ -29,9 +29,6 @@ stats:
 
 cargo: passenger
 
-loading_speed: 22
-cargo_age_period: 185
-
 dates:
   # `item_BR140`'s own `date(1981, 4, 21)` (oddity 8).
   introduction_date: 1981-04-21

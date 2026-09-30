@@ -10,7 +10,6 @@ stats:
   power: 0
   tractive_effort: 0
 cargo: passenger
-loading_speed: 10
 
 dates:
   introduction_date: 1964-04-21
@@ -30,7 +29,6 @@ profiles:
     name: 'D-F Standard Class'
     num_vehicles: 1
     capacity: 64
-    cargo_age_period: 185
     spritesheet: BRMk2Late.png
     special_tags:
       - formation/1-car
@@ -38,7 +36,6 @@ profiles:
     name: 'D-F First Class'
     num_vehicles: 1
     capacity: 42
-    cargo_age_period: 250
     spritesheet: BRMk2Late.png
     special_tags:
       - formation/1-car
@@ -47,7 +44,6 @@ profiles:
     name: 'Restaurant Buffet'
     num_vehicles: 1
     capacity: 31
-    cargo_age_period: 185
     spritesheet: BRMk2Buffet.png
     special_tags:
       - formation/1-car
@@ -56,7 +52,6 @@ profiles:
     name: 'Brake Standard Class'
     num_vehicles: 1
     capacity: 31
-    cargo_age_period: 185
     spritesheet: BRMk2Brake.png
     special_tags:
       - formation/1-car
@@ -65,7 +60,6 @@ profiles:
     name: 'Brake First Class'
     num_vehicles: 1
     capacity: 32
-    cargo_age_period: 185
     spritesheet: BRMk2Brake.png
     special_tags:
       - formation/1-car
@@ -74,7 +68,6 @@ profiles:
     name: 'Early Standard Class'
     num_vehicles: 1
     capacity: 64
-    cargo_age_period: 185
     spritesheet: BRMk2Early.png
     special_tags:
       - formation/1-car
@@ -83,7 +76,6 @@ profiles:
     name: 'Early First Class'
     num_vehicles: 1
     capacity: 42
-    cargo_age_period: 250
     spritesheet: BRMk2Early.png
     special_tags:
       - formation/1-car

@@ -13,7 +13,6 @@ stats:
 
 cargo: liquid
 autorefit: true
-loading_speed: 20
 
 dates:
   introduction_date: 1966-01-01

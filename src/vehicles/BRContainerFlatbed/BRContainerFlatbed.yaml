@@ -15,8 +15,6 @@ stats:
 cargo: containerised
 autorefit: true
 
-loading_speed: 25
-
 # The wagon's graphics depend on how loaded it is and pick one of eleven container
 # liveries at random, which the YAML model cannot express. BRContainerFlatbed.pnml
 # supplies that chain; this points the item's `default` callback at its entry switch.

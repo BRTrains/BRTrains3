@@ -15,8 +15,6 @@ stats:
 
 cargo: passenger
 
-loading_speed: 29
-
 dates:
   introduction_date: 2014-04-01
 

@@ -16,7 +16,6 @@ stats:
     - electric
 
 cargo: none
-loading_speed: 3
 
 dates:
   introduction_date: 1973-01-01

@@ -20,7 +20,6 @@ stats:
 # `cargo_allow_refit: [GOOD, FOOD]` / `default_cargo_type: GOOD` pair states the
 # opposite and is not expressed - recorded in the import oddities file.
 cargo: none
-loading_speed: 3
 
 dates:
   introduction_date: 1940-01-01

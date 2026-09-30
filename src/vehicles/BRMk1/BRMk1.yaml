@@ -12,7 +12,6 @@ stats:
   tractive_effort: 0
 
 cargo: passenger
-loading_speed: 10
 
 dates:
   introduction_date: 1952-04-21

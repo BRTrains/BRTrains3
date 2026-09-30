@@ -21,8 +21,6 @@ stats:
 
 cargo: passenger
 
-loading_speed: 25
-
 model_life: 0
 
 dates:

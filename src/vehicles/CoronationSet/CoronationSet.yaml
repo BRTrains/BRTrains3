@@ -16,7 +16,6 @@ stats:
   speed: 110
 
 cargo: passenger
-loading_speed: 10
 
 dates:
   introduction_date: 1937-07-05

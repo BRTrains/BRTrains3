@@ -12,7 +12,6 @@ stats:
 
 cargo: containerised
 autorefit: true
-loading_speed: 15
 
 dates:
   introduction_date: 1840-04-21

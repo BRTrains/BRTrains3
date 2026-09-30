@@ -12,7 +12,6 @@ stats:
   tractive_effort: 0
 
 cargo: passenger
-loading_speed: 12
 
 dates:
   # The legacy `item_LMS_StanierP3_50BG` (668) declares `date(1933,4,1)` directly.

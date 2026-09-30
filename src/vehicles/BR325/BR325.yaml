@@ -21,9 +21,6 @@ stats:
 
 cargo: parcels
 
-loading_speed: 30
-cargo_age_period: 185
-
 dates:
   introduction_date: 1995-01-01
 

@@ -15,9 +15,6 @@ stats:
   track_type:
     - ELRL
 
-loading_speed: 35
-cargo_age_period: 185
-
 dates:
   introduction_date: 1937-04-01
 

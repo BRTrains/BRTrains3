@@ -14,8 +14,6 @@ stats:
     - electric
 
 cargo: passenger
-loading_speed: 29
-cargo_age_period: 185
 
 dates:
   introduction_date: 1924-04-01

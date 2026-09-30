@@ -12,7 +12,6 @@ stats:
   tractive_effort: 0
 
 cargo: passenger
-loading_speed: 10
 
 # A coach carries no lamps, and the detector otherwise reads this sheet's cream band
 # (palette 0x45) as a lamp pair; the sibling BCK takes the same setting. See the oddities

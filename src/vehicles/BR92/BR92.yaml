@@ -22,8 +22,6 @@ stats:
 
 cargo: none
 
-loading_speed: 3
-
 dates:
   introduction_date: 1993-01-01
 

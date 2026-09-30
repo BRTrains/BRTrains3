@@ -11,7 +11,6 @@ stats:
   tractive_effort: 0
 
 cargo: passenger
-loading_speed: 14
 
 dates:
   introduction_date: 2019-08-04

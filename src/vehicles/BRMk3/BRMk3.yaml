@@ -11,7 +11,6 @@ stats:
   tractive_effort: 0
 
 cargo: passenger
-loading_speed: 14
 
 dates:
   # Fallback only: both profiles carry the date their own vehicle entered service.

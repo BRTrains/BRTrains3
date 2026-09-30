@@ -25,8 +25,6 @@ stats:
 
 cargo: passenger
 
-loading_speed: 15
-
 dates:
   introduction_date: 2019-07-29
 

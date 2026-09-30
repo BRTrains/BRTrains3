@@ -17,8 +17,6 @@ stats:
 
 cargo: mail
 
-loading_speed: 10
-
 dates:
   introduction_date: 2019-09-16
 

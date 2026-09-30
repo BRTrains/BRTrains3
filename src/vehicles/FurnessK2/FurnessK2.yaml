@@ -14,7 +14,6 @@ stats:
     - steam
 
 cargo: none
-loading_speed: 3
 
 nml_override:
   default: sw_furness_k2

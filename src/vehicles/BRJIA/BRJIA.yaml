@@ -13,7 +13,6 @@ stats:
 
 cargo: bulk
 autorefit: true
-loading_speed: 25
 
 dates:
   introduction_date: 1974-01-01

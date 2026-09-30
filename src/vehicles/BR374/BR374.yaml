@@ -24,9 +24,6 @@ stats:
 
 cargo: passenger
 
-loading_speed: 14
-cargo_age_period: 250
-
 dates:
   # Every item declares `date(2015,4,21)`.
   introduction_date: 2015-04-21

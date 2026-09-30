@@ -12,7 +12,6 @@ stats:
   tractive_effort: 0
 
 cargo: passenger
-loading_speed: 10
 
 dates:
   # The legacy `item_LNERTK` (8) declares `date(1840,4,21)` - carried verbatim, as for the

@@ -15,7 +15,6 @@ stats:
 # the preset that means exactly that class is the right one here - not `parcels`, which also
 # admits express and armoured.
 cargo: mail
-loading_speed: 10
 
 dates:
   # The legacy `item_LNERPV` (9) declares `date(1840,4,21)` - carried verbatim, as for the

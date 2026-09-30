@@ -13,7 +13,6 @@ stats:
 
 cargo: bulk
 autorefit: true
-loading_speed: 20
 
 nml_override:
   default: sw_br_hha_cargo

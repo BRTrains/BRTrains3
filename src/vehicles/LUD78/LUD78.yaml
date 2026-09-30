@@ -28,7 +28,6 @@ cargo: passenger
 
 # The legacy root item declares both; the two articulated items declare only the loading
 # speed. No `cargo_age_period` is declared anywhere in the file, so none was invented.
-loading_speed: 40
 
 dates:
   introduction_date: 1978-04-21
