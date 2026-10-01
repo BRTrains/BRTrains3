@@ -1,0 +1,29 @@
+info:
+  identifier: furness_coppernob
+  name: 'Furness A2 Class 0-4-0'
+  nickname: 'Old Coppernob'
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 19
+  length: 5
+  power: 300
+  speed: 40
+  tractive_effort: 0.18
+  power_type:
+    - steam
+
+cargo: none
+
+dates:
+  introduction_date: 1848-04-21
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+
+liveries:
+  - name: 'Furness Red'
+    special_tags: [operator/Furness Railway]

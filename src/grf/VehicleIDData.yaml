@@ -38279,12 +38279,12 @@ variants:
   identifier: caledonian_single_default_furness_red_train
   name_string: str_caledonian_single_default_furness_red_train_name
   strings:
+    str_furness_coppernob_default_furness_red_train_nested_name: '{SILVER}Engine +
+      Tender{BLACK} - {GOLD}Furness Red'
     str_caledonian_single_default_furness_red_train_name: Caledonian Single 4-2-2
       "No. 123" - {SILVER}Engine + Tender{BLACK} - {GOLD}Furness Red
     str_caledonian_single_default_furness_red_train_group_name: Caledonian Single
       4-2-2 "No. 123" - {SILVER}Engine + Tender{BLACK} - {GOLD}Furness Red
-    str_caledonian_single_default_furness_red_train_nested_name: '{SILVER}Engine +
-      Tender{BLACK} - {GOLD}Furness Red'
 - id: 2429
   vehicle: br_mk1
   profile: so
@@ -39618,7 +39618,7 @@ variants:
   identifier: furness_d1_default_furness_red_train
   name_string: str_furness_d1_default_furness_red_train_name
   strings:
-    str_caledonian_single_default_furness_red_train_nested_name: '{SILVER}Engine +
+    str_furness_coppernob_default_furness_red_train_nested_name: '{SILVER}Engine +
       Tender{BLACK} - {GOLD}Furness Red'
     str_furness_d1_default_furness_red_train_name: Furness Sharp D1 Class 0-6-0 "Sharpie"
       - {SILVER}Engine + Tender{BLACK} - {GOLD}Furness Red
@@ -39752,7 +39752,7 @@ variants:
   identifier: furness_k2_default_furness_red_train
   name_string: str_furness_k2_default_furness_red_train_name
   strings:
-    str_caledonian_single_default_furness_red_train_nested_name: '{SILVER}Engine +
+    str_furness_coppernob_default_furness_red_train_nested_name: '{SILVER}Engine +
       Tender{BLACK} - {GOLD}Furness Red'
     str_furness_k2_default_furness_red_train_name: Furness K2 Class 4-4-0 - {SILVER}Engine
       + Tender{BLACK} - {GOLD}Furness Red
@@ -44051,3 +44051,28 @@ variants:
       - {SILVER}Engine + Tender{BLACK} - {GOLD}Teak
     str_stephenson_planet_default_teak_train_nested_name: '{SILVER}Engine + Tender{BLACK}
       - {GOLD}Teak'
+- id: 2649
+  vehicle: furness_coppernob
+  profile: default
+  livery: furness red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 5
+    - 3
+  archive: generated_variants/2649_furness_coppernob_default_furness_red_train.gnml
+  identifier: furness_coppernob_default_furness_red_train
+  name_string: str_furness_coppernob_default_furness_red_train_name
+  strings:
+    str_furness_coppernob_default_furness_red_train_name: Furness A2 Class 0-4-0 "Old
+      Coppernob" - {SILVER}Engine + Tender{BLACK} - {GOLD}Furness Red
+    str_furness_coppernob_default_furness_red_train_group_name: Furness A2 Class 0-4-0
+      "Old Coppernob" - {SILVER}Engine + Tender{BLACK} - {GOLD}Furness Red
+    str_furness_coppernob_default_furness_red_train_nested_name: '{SILVER}Engine +
+      Tender{BLACK} - {GOLD}Furness Red'
