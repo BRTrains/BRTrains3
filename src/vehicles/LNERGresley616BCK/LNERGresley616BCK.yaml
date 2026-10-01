@@ -1,6 +1,7 @@
 info:
   identifier: lner_gresley_616bck
   name: "LNER Gresley 61' 6\" BCK"
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train

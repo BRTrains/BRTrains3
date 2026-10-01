@@ -1,6 +1,7 @@
 info:
   identifier: gcr_robinson_50_clso
   name: 'GCR Robinson 50ft Semi-Corridor Lavatory Composite'
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train

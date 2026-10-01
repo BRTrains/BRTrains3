@@ -1,6 +1,7 @@
 info:
   identifier: br_mk4
   name: 'Mk4 Coach'
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train
@@ -18,6 +19,7 @@ dates:
 profiles:
   - identifier: dvt
     name: 'DVT'
+    sub_name: 'DVT'
     num_vehicles: 1
     capacity: 0
     speed: 140
@@ -27,6 +29,7 @@ profiles:
 
   - identifier: tsoe
     name: 'Trailer Standard Open End'
+    sub_name: 'Trailer Standard Open End'
     num_vehicles: 1
     capacity: 76
     introduction_date: 1989-04-21
@@ -35,6 +38,7 @@ profiles:
 
   - identifier: tso
     name: 'Trailer Standard Open'
+    sub_name: 'Trailer Standard Open'
     num_vehicles: 1
     capacity: 76
     introduction_date: 1989-04-21
@@ -43,6 +47,7 @@ profiles:
 
   - identifier: tsod
     name: 'Trailer Standard Open Disabled'
+    sub_name: 'Trailer Standard Open Disabled'
     num_vehicles: 1
     capacity: 72
     introduction_date: 1989-04-21
@@ -51,6 +56,7 @@ profiles:
 
   - identifier: rfm
     name: 'Trailer Restaurant First'
+    sub_name: 'Trailer Restaurant First'
     num_vehicles: 1
     capacity: 30
     introduction_date: 1989-04-21
@@ -59,6 +65,7 @@ profiles:
 
   - identifier: fo
     name: 'First Open'
+    sub_name: 'First Open'
     num_vehicles: 1
     capacity: 43
     introduction_date: 1989-04-21

@@ -1,6 +1,7 @@
 info:
   identifier: lner_gresley_bg
   name: 'LNER Gresley BG'
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train

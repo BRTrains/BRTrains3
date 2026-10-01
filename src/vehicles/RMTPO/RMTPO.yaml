@@ -1,6 +1,7 @@
 info:
   identifier: rm_tpo
   name: 'Royal Mail TPO'
+  sub_name: Travelling Post Office
 
 stats:
   vehicle_type: train
@@ -28,6 +29,7 @@ profiles:
 
   - identifier: pcv
     name: 'PCV'
+    sub_name: 'PCV'
     num_vehicles: 1
     capacity: 0
     cargo: none

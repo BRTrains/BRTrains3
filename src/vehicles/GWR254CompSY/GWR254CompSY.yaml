@@ -1,6 +1,7 @@
 info:
   identifier: gwr_254_comp_sy
   name: 'GWR Dean 25ft 4 Compartment Second Class (SY)'
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train

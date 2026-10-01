@@ -1,6 +1,7 @@
 info:
   identifier: lner_gresley_pv
   name: 'LNER Gresley PV'
+  sub_name: Parcels van
 
 stats:
   vehicle_type: train

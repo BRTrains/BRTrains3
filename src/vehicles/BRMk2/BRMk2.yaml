@@ -1,6 +1,7 @@
 info:
   identifier: br_mk2
   name: 'Mk2 Coach'
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train
@@ -17,6 +18,7 @@ dates:
 profiles:
   - identifier: dbso
     name: 'DBSO'
+    sub_name: 'DBSO'
     num_vehicles: 1
     capacity: 32
     introduction_date: 1964-04-21
@@ -25,41 +27,48 @@ profiles:
 
   - identifier: so
     name: 'D-F Standard Class'
+    sub_name: 'D-F Standard Class'
     num_vehicles: 1
     capacity: 64
     spritesheet: BRMk2Late.png
   - identifier: fo
     name: 'D-F First Class'
+    sub_name: 'D-F First Class'
     num_vehicles: 1
     capacity: 42
     spritesheet: BRMk2Late.png
 
   - identifier: buffet
     name: 'Restaurant Buffet'
+    sub_name: 'Restaurant Buffet'
     num_vehicles: 1
     capacity: 31
     spritesheet: BRMk2Buffet.png
 
   - identifier: bso
     name: 'Brake Standard Class'
+    sub_name: 'Brake Standard Class'
     num_vehicles: 1
     capacity: 31
     spritesheet: BRMk2Brake.png
 
   - identifier: bfo
     name: 'Brake First Class'
+    sub_name: 'Brake First Class'
     num_vehicles: 1
     capacity: 32
     spritesheet: BRMk2Brake.png
 
   - identifier: early_so
     name: 'Early Standard Class'
+    sub_name: 'Early Standard Class'
     num_vehicles: 1
     capacity: 64
     spritesheet: BRMk2Early.png
 
   - identifier: early_fo
     name: 'Early First Class'
+    sub_name: 'Early First Class'
     num_vehicles: 1
     capacity: 42
     spritesheet: BRMk2Early.png

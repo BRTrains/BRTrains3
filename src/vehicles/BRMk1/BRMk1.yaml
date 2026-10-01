@@ -1,6 +1,7 @@
 info:
   identifier: br_mk1
   name: 'Mk1 Coach'
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train
@@ -19,6 +20,7 @@ dates:
 profiles:
   - identifier: tso
     name: 'Tourist Standard Open'
+    sub_name: 'Tourist Standard Open'
     num_vehicles: 1
     capacity: 64
     introduction_date: 1952-04-21
@@ -33,6 +35,7 @@ profiles:
   # See the oddities file for the query.
   - identifier: sk
     name: 'Standard Corridor'
+    sub_name: 'Standard Corridor'
     num_vehicles: 1
     capacity: 48
     weight: 32
@@ -41,6 +44,7 @@ profiles:
 
   - identifier: so
     name: 'Standard Open'
+    sub_name: 'Standard Open'
     num_vehicles: 1
     capacity: 48
     weight: 32
@@ -49,6 +53,7 @@ profiles:
 
   - identifier: rmb
     name: 'Restaurant Buffet'
+    sub_name: 'Restaurant Buffet'
     num_vehicles: 1
     capacity: 44
     weight: 35
@@ -62,6 +67,7 @@ profiles:
   # The same band is read by the BSO and BSOT in the legacy (query on the type's own entry).
   - identifier: bsk
     name: 'Brake Standard Corridor'
+    sub_name: 'Brake Standard Corridor'
     num_vehicles: 1
     capacity: 32
     weight: 36
@@ -70,6 +76,7 @@ profiles:
 
   - identifier: bso
     name: 'Brake Standard Open'
+    sub_name: 'Brake Standard Open'
     num_vehicles: 1
     capacity: 39
     weight: 34
@@ -78,6 +85,7 @@ profiles:
 
   - identifier: bsot
     name: 'Brake Standard Open Mini-Buffet'
+    sub_name: 'Brake Standard Open Mini-Buffet'
     num_vehicles: 1
     capacity: 31
     weight: 35
@@ -86,6 +94,7 @@ profiles:
 
   - identifier: ck
     name: 'Composite Corridor'
+    sub_name: 'Composite Corridor'
     num_vehicles: 1
     capacity: 48
     weight: 32
@@ -94,6 +103,7 @@ profiles:
 
   - identifier: fo
     name: 'First Open'
+    sub_name: 'First Open'
     num_vehicles: 1
     capacity: 42
     weight: 33
@@ -102,6 +112,7 @@ profiles:
 
   - identifier: fk
     name: 'First Corridor'
+    sub_name: 'First Corridor'
     num_vehicles: 1
     capacity: 42
     weight: 32
@@ -110,6 +121,7 @@ profiles:
 
   - identifier: bck
     name: 'Brake Composite Corridor'
+    sub_name: 'Brake Composite Corridor'
     num_vehicles: 1
     capacity: 24
     weight: 36
@@ -118,6 +130,7 @@ profiles:
 
   - identifier: bfk
     name: 'Brake First Corridor'
+    sub_name: 'Brake First Corridor'
     num_vehicles: 1
     capacity: 24
     weight: 36
@@ -131,6 +144,7 @@ profiles:
   # `BRTrains3-artwork-tools/compose_br_mk1_type_sheet.py 208 BRMk1RK.png`.
   - identifier: rk
     name: 'Restaurant Kitchen'
+    sub_name: 'Restaurant Kitchen'
     num_vehicles: 1
     capacity: 0
     weight: 36
@@ -146,6 +160,7 @@ profiles:
   # `default_cargo_type: MAIL`), so the profile states the mail preset.
   - identifier: bg
     name: 'Brake Gangwayed'
+    sub_name: 'Brake Gangwayed'
     num_vehicles: 1
     capacity: 10
     weight: 32

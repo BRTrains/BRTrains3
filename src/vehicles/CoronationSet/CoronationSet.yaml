@@ -1,6 +1,7 @@
 info:
   identifier: lner_coronation
   name: 'LNER Coronation Set'
+  sub_name: Articulated streamliner set
 
 stats:
   vehicle_type: train
@@ -35,6 +36,7 @@ profiles:
   # made.
   - identifier: DEFAULT
     name: '9-Car Set'
+    sub_name: '9-Car Set'
     # part 0 = the leading brake third, 1..7 the articulated cars, 8 the open brake van
     # (sw_Coronation_Set_CorBlue's position_in_articulated_veh order: BT, KT, OF, OF, OT,
     # KT, OT, BT, OBV)
@@ -43,26 +45,32 @@ profiles:
     sprite_override: [1, 2, 3, 4, 5, 6, 7, 8]
   - identifier: '712'
     name: 'Articulated Coach (BT + KT)'
+    sub_name: 'Articulated Coach (BT + KT)'
     num_vehicles: 2
     capacity: 21
   - identifier: '713'
     name: 'Articulated Coach (OF + OF)'
+    sub_name: 'Articulated Coach (OF + OF)'
     num_vehicles: 2
     capacity: 24
   - identifier: '714'
     name: 'Articulated Coach (OT + KT)'
+    sub_name: 'Articulated Coach (OT + KT)'
     num_vehicles: 2
     capacity: 18
   - identifier: '715'
     name: 'Articulated Coach (OT + BT)'
+    sub_name: 'Articulated Coach (OT + BT)'
     num_vehicles: 2
     capacity: 33
   - identifier: '716'
     name: 'Observation Coach'
+    sub_name: 'Observation Coach'
     num_vehicles: 1
     capacity: 16
   - identifier: '717'
     name: 'Articulated Coach (OT + OT)'
+    sub_name: 'Articulated Coach (OT + OT)'
     num_vehicles: 2
     capacity: 30
 

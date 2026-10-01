@@ -1,6 +1,7 @@
 info:
   identifier: lner_thompson_61fk
   name: "LNER Thompson 61' FK"
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train

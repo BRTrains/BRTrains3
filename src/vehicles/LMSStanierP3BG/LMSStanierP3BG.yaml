@@ -1,6 +1,7 @@
 info:
   identifier: lms_stanier_p3_bg
   name: 'LMS Stanier Period III 50ft BG'
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train

@@ -1,6 +1,7 @@
 info:
   identifier: br_mk5a
   name: 'Mk5a Coach'
+  sub_name: Passenger coach
 
 stats:
   vehicle_type: train
