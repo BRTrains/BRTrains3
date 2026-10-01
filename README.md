@@ -12,13 +12,13 @@ This repository is initialised with a minimal BRBuild project and temporary smok
 # Use Python 3.10+; BRBuild uses modern type-annotation syntax.
 uv venv --python 3.14 .venv
 uv pip install --python .venv/bin/python pillow pyyaml nml
-.venv/bin/python build.py --log
+.venv/bin/python build.py --log --docs
 ```
 
 The project-local launcher is the simplest path:
 
 ```bash
-.venv/bin/python build.py --log
+.venv/bin/python build.py --log --docs
 ```
 
 It can also be built from the BRBuild checkout:
