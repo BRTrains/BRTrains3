@@ -26,7 +26,7 @@ profiles:
     num_vehicles: 4
     capacity: 64
     weight: 134
-    sprite_override: [1, 2, 2, 3]
+    sprite_override: [1, 2, 3, 4]
   - identifier: '438_3'
     name: 3-TC
     num_vehicles: 3

@@ -36817,8 +36817,8 @@ variants:
     - 7
     - 6
     - 5
-    - 5
     - 6
+    - 7
   archive: generated_variants/2362_br_756_756_4_transport_for_wales_train.gnml
   identifier: br_756_756_4_transport_for_wales_train
   name_string: str_br_756_756_4_transport_for_wales_train_name

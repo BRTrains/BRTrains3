@@ -44,7 +44,7 @@ profiles:
     # Values 3 and 4 are the four drawings the livery's row group holds, so the doubledoor
     # drawing is reused at the fourth position (the legacy reads the doubledoor spriteset
     # there; only its row count has to fit the group).
-    sprite_override: [1, 2, 3, 3, 4]
+    sprite_override: [1, 2, 3, 4, 5]
 
 liveries:
   - name: 'Transport for Wales'

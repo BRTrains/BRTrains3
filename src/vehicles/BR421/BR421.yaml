@@ -25,12 +25,15 @@ profiles:
   - identifier: '421_4'
     num_vehicles: 4
     capacity: 54
+    # Legacy chain is front, sw_mbs (c), sw_ts (b), rear.
+    sprite_override: [1, 2, 3, 4]
 
   - identifier: '421_7'
     num_vehicles: 3
     capacity: 54
     weight: 126
     introduction_date: 1997-04-21
+    sprite_override: [1, 2, 3]
 
 liveries:
   - name: 'BR Green'
