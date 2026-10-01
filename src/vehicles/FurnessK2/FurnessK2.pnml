@@ -3,7 +3,7 @@ spriteset(spriteset_furness_k2_purchase, "FurnessK2.png") {
 }
 
 spriteset(spriteset_furness_k2_loco, "FurnessK2.png") {
-    tmpl_train_5(0, 13)
+    tmpl_train_5(0, 0)
 }
 
 spriteset(spriteset_furness_k2_tender, "FurnessK2.png") {
