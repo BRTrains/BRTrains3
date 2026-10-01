@@ -1,0 +1,28 @@
+info:
+  identifier: stephenson_planet
+  name: 'L&MR Stephenson 2-2-0'
+  nickname: 'Planet'
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 14
+  length: 4
+  power: 175
+  speed: 30
+  tractive_effort: 0.13
+  power_type:
+    - steam
+
+cargo: none
+
+dates:
+  introduction_date: 1830-09-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 2
+    capacity: 0
+
+liveries:
+  - name: 'Teak'

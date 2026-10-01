@@ -29297,9 +29297,9 @@ variants:
   name_string: str_br_399_default_stagecoach_blue_train_name
   strings:
     str_br_399_default_stagecoach_blue_train_name: Class 399 "Sheffield Citylink"
-      tram-train 3-car Single Unit - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
     str_br_399_default_stagecoach_blue_train_group_name: Class 399 "Sheffield Citylink"
-      tram-train 3-car Single Unit - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
     str_br_399_default_stagecoach_blue_train_nested_name: '{SILVER}3-car{BLACK} -
       {GOLD}Stagecoach Blue'
 - id: 2069
@@ -29323,11 +29323,11 @@ variants:
   name_string: str_br_399_default_stagecoach_blue_tram_name
   strings:
     str_br_399_default_stagecoach_blue_train_group_name: Class 399 "Sheffield Citylink"
-      tram-train 3-car Single Unit - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
     str_br_399_default_stagecoach_blue_train_nested_name: '{SILVER}3-car{BLACK} -
       {GOLD}Stagecoach Blue'
-    str_br_399_default_stagecoach_blue_tram_name: Class 399 "Sheffield Citylink" tram-train
-      3-car Single Unit - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_br_399_default_stagecoach_blue_tram_name: Class 399 "Sheffield Citylink" -
+      {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
 - id: 2070
   vehicle: br_mk3
   profile: ts
@@ -44026,3 +44026,28 @@ variants:
       Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
     str_blackpool_flexity_default_blackpool_transport_tram_nested_name: '{SILVER}Locomotive{BLACK}
       - {GOLD}Blackpool Transport'
+- id: 2648
+  vehicle: stephenson_planet
+  profile: default
+  livery: teak
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
+    - 3
+  archive: generated_variants/2648_stephenson_planet_default_teak_train.gnml
+  identifier: stephenson_planet_default_teak_train
+  name_string: str_stephenson_planet_default_teak_train_name
+  strings:
+    str_stephenson_planet_default_teak_train_name: L&MR Stephenson 2-2-0 "Planet"
+      - {SILVER}Engine + Tender{BLACK} - {GOLD}Teak
+    str_stephenson_planet_default_teak_train_group_name: L&MR Stephenson 2-2-0 "Planet"
+      - {SILVER}Engine + Tender{BLACK} - {GOLD}Teak
+    str_stephenson_planet_default_teak_train_nested_name: '{SILVER}Engine + Tender{BLACK}
+      - {GOLD}Teak'
