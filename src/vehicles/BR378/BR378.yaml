@@ -1,6 +1,7 @@
 info:
   identifier: br_378
-  name: 'Class 378 Capitalstar'
+  name: 'Class 378'
+  nickname: Capitalstar
 
 stats:
   vehicle_type: train

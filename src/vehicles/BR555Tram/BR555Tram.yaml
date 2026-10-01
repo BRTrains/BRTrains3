@@ -1,6 +1,7 @@
 info:
   identifier: br_555
-  name: 'Class 555 Metro'
+  name: 'Class 555'
+  nickname: Metro
 
 stats:
   vehicle_type: train

@@ -3860,10 +3860,10 @@ variants:
   identifier: br_555_default_tyne_and_wear_metro_train_v2
   name_string: str_br_555_default_tyne_and_wear_metro_train_v2_name
   strings:
-    str_br_555_default_tyne_and_wear_metro_train_v2_name: Class 555 Metro - {SILVER}5-car{BLACK}
+    str_br_555_default_tyne_and_wear_metro_train_v2_name: Class 555 "Metro" - {SILVER}5-car{BLACK}
       - {GOLD}Tyne and Wear Metro
-    str_br_555_default_tyne_and_wear_metro_train_v2_group_name: Class 555 Metro -
-      {SILVER}5-car{BLACK} - {GOLD}Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_train_v2_group_name: Class 555 "Metro"
+      - {SILVER}5-car{BLACK} - {GOLD}Tyne and Wear Metro
     str_br_555_default_tyne_and_wear_metro_train_v2_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}Tyne and Wear Metro'
 - id: 1096
@@ -3888,11 +3888,11 @@ variants:
   identifier: br_555_default_tyne_and_wear_metro_tram_v2
   name_string: str_br_555_default_tyne_and_wear_metro_tram_v2_name
   strings:
-    str_br_555_default_tyne_and_wear_metro_train_v2_group_name: Class 555 Metro -
-      {SILVER}5-car{BLACK} - {GOLD}Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_train_v2_group_name: Class 555 "Metro"
+      - {SILVER}5-car{BLACK} - {GOLD}Tyne and Wear Metro
     str_br_555_default_tyne_and_wear_metro_train_v2_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}Tyne and Wear Metro'
-    str_br_555_default_tyne_and_wear_metro_tram_v2_name: Class 555 Metro - {SILVER}5-car{BLACK}
+    str_br_555_default_tyne_and_wear_metro_tram_v2_name: Class 555 "Metro" - {SILVER}5-car{BLACK}
       - {GOLD}Tyne and Wear Metro
 - id: 1097
   vehicle: br_777
@@ -3915,9 +3915,9 @@ variants:
   identifier: br_777_default_merseyrail_train_v2
   name_string: str_br_777_default_merseyrail_train_v2_name
   strings:
-    str_br_777_default_merseyrail_train_v2_name: Class 777 METRO - {SILVER}4-car{BLACK}
+    str_br_777_default_merseyrail_train_v2_name: Class 777 "Metro" - {SILVER}4-car{BLACK}
       - {GOLD}Merseyrail
-    str_br_777_default_merseyrail_train_v2_group_name: Class 777 METRO - {SILVER}4-car{BLACK}
+    str_br_777_default_merseyrail_train_v2_group_name: Class 777 "Metro" - {SILVER}4-car{BLACK}
       - {GOLD}Merseyrail
     str_br_777_default_merseyrail_train_v2_nested_name: '{SILVER}4-car{BLACK} - {GOLD}Merseyrail'
 - id: 1098
@@ -3941,10 +3941,10 @@ variants:
   identifier: br_777_default_merseyrail_tram
   name_string: str_br_777_default_merseyrail_tram_name
   strings:
-    str_br_777_default_merseyrail_train_v2_group_name: Class 777 METRO - {SILVER}4-car{BLACK}
+    str_br_777_default_merseyrail_train_v2_group_name: Class 777 "Metro" - {SILVER}4-car{BLACK}
       - {GOLD}Merseyrail
     str_br_777_default_merseyrail_train_v2_nested_name: '{SILVER}4-car{BLACK} - {GOLD}Merseyrail'
-    str_br_777_default_merseyrail_tram_name: Class 777 METRO - {SILVER}4-car{BLACK}
+    str_br_777_default_merseyrail_tram_name: Class 777 "Metro" - {SILVER}4-car{BLACK}
       - {GOLD}Merseyrail
 - id: 1099
   vehicle: br_container
@@ -4500,10 +4500,10 @@ variants:
   identifier: br_378_378_4_london_overground_train
   name_string: str_br_378_378_4_london_overground_train_name
   strings:
-    str_br_378_378_4_london_overground_train_name: Class 378 Capitalstar - {SILVER}4-car{BLACK}
+    str_br_378_378_4_london_overground_train_name: Class 378 "Capitalstar" - {SILVER}4-car{BLACK}
       - {GOLD}London Overground
-    str_br_378_378_4_london_overground_train_group_name: Class 378 Capitalstar - {SILVER}4-car{BLACK}
-      - {GOLD}London Overground
+    str_br_378_378_4_london_overground_train_group_name: Class 378 "Capitalstar" -
+      {SILVER}4-car{BLACK} - {GOLD}London Overground
     str_br_378_378_4_london_overground_train_nested_name: '{SILVER}4-car{BLACK} -
       {GOLD}London Overground'
 - id: 1119
@@ -5120,10 +5120,10 @@ variants:
   identifier: br_378_378_3_london_overground_train
   name_string: str_br_378_378_3_london_overground_train_name
   strings:
-    str_br_378_378_3_london_overground_train_name: Class 378 Capitalstar - {SILVER}3-car{BLACK}
+    str_br_378_378_3_london_overground_train_name: Class 378 "Capitalstar" - {SILVER}3-car{BLACK}
       - {GOLD}London Overground
-    str_br_378_378_3_london_overground_train_group_name: Class 378 Capitalstar - {SILVER}3-car{BLACK}
-      - {GOLD}London Overground
+    str_br_378_378_3_london_overground_train_group_name: Class 378 "Capitalstar" -
+      {SILVER}3-car{BLACK} - {GOLD}London Overground
     str_br_378_378_3_london_overground_train_nested_name: '{SILVER}3-car{BLACK} -
       {GOLD}London Overground'
 - id: 1142
@@ -5147,11 +5147,11 @@ variants:
   identifier: br_378_378_4_dv_london_overground_train
   name_string: str_br_378_378_4_dv_london_overground_train_name
   strings:
-    str_br_378_378_4_london_overground_train_group_name: Class 378 Capitalstar - {SILVER}4-car{BLACK}
-      - {GOLD}London Overground
+    str_br_378_378_4_london_overground_train_group_name: Class 378 "Capitalstar" -
+      {SILVER}4-car{BLACK} - {GOLD}London Overground
     str_br_378_378_4_london_overground_train_nested_name: '{SILVER}4-car{BLACK} -
       {GOLD}London Overground'
-    str_br_378_378_4_dv_london_overground_train_name: Class 378 Capitalstar - {SILVER}4-car{BLACK}
+    str_br_378_378_4_dv_london_overground_train_name: Class 378 "Capitalstar" - {SILVER}4-car{BLACK}
       - {GOLD}London Overground
 - id: 1143
   vehicle: br_378
@@ -5175,10 +5175,10 @@ variants:
   identifier: br_378_378_5_london_overground_train
   name_string: str_br_378_378_5_london_overground_train_name
   strings:
-    str_br_378_378_5_london_overground_train_name: Class 378 Capitalstar - {SILVER}5-car{BLACK}
+    str_br_378_378_5_london_overground_train_name: Class 378 "Capitalstar" - {SILVER}5-car{BLACK}
       - {GOLD}London Overground
-    str_br_378_378_5_london_overground_train_group_name: Class 378 Capitalstar - {SILVER}5-car{BLACK}
-      - {GOLD}London Overground
+    str_br_378_378_5_london_overground_train_group_name: Class 378 "Capitalstar" -
+      {SILVER}5-car{BLACK} - {GOLD}London Overground
     str_br_378_378_5_london_overground_train_nested_name: '{SILVER}5-car{BLACK} -
       {GOLD}London Overground'
 - id: 1144
@@ -5203,10 +5203,10 @@ variants:
   identifier: br_378_378_5_london_overground_5_car_celebration_train
   name_string: str_br_378_378_5_london_overground_5_car_celebration_train_name
   strings:
-    str_br_378_378_5_london_overground_5_car_celebration_train_name: Class 378 Capitalstar
+    str_br_378_378_5_london_overground_5_car_celebration_train_name: Class 378 "Capitalstar"
       - {SILVER}5-car{BLACK} - {GOLD}London Overground 5-Car Celebration
     str_br_378_378_5_london_overground_5_car_celebration_train_group_name: Class 378
-      Capitalstar - {SILVER}5-car{BLACK} - {GOLD}London Overground 5-Car Celebration
+      "Capitalstar" - {SILVER}5-car{BLACK} - {GOLD}London Overground 5-Car Celebration
     str_br_378_378_5_london_overground_5_car_celebration_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}London Overground 5-Car Celebration'
 - id: 1145
@@ -5231,9 +5231,9 @@ variants:
   identifier: br_378_378_5_london_overground_fake_aventra_train
   name_string: str_br_378_378_5_london_overground_fake_aventra_train_name
   strings:
-    str_br_378_378_5_london_overground_fake_aventra_train_name: Class 378 Capitalstar
+    str_br_378_378_5_london_overground_fake_aventra_train_name: Class 378 "Capitalstar"
       - {SILVER}5-car{BLACK} - {GOLD}London Overground Fake Aventra
-    str_br_378_378_5_london_overground_fake_aventra_train_group_name: Class 378 Capitalstar
+    str_br_378_378_5_london_overground_fake_aventra_train_group_name: Class 378 "Capitalstar"
       - {SILVER}5-car{BLACK} - {GOLD}London Overground Fake Aventra
     str_br_378_378_5_london_overground_fake_aventra_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}London Overground Fake Aventra'
@@ -5259,9 +5259,9 @@ variants:
   identifier: br_378_378_5_london_overground_pride_train
   name_string: str_br_378_378_5_london_overground_pride_train_name
   strings:
-    str_br_378_378_5_london_overground_pride_train_name: Class 378 Capitalstar - {SILVER}5-car{BLACK}
-      - {GOLD}London Overground Pride
-    str_br_378_378_5_london_overground_pride_train_group_name: Class 378 Capitalstar
+    str_br_378_378_5_london_overground_pride_train_name: Class 378 "Capitalstar" -
+      {SILVER}5-car{BLACK} - {GOLD}London Overground Pride
+    str_br_378_378_5_london_overground_pride_train_group_name: Class 378 "Capitalstar"
       - {SILVER}5-car{BLACK} - {GOLD}London Overground Pride
     str_br_378_378_5_london_overground_pride_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}London Overground Pride'
@@ -5287,11 +5287,11 @@ variants:
   identifier: br_378_378_5_dv_london_overground_train
   name_string: str_br_378_378_5_dv_london_overground_train_name
   strings:
-    str_br_378_378_5_london_overground_train_group_name: Class 378 Capitalstar - {SILVER}5-car{BLACK}
-      - {GOLD}London Overground
+    str_br_378_378_5_london_overground_train_group_name: Class 378 "Capitalstar" -
+      {SILVER}5-car{BLACK} - {GOLD}London Overground
     str_br_378_378_5_london_overground_train_nested_name: '{SILVER}5-car{BLACK} -
       {GOLD}London Overground'
-    str_br_378_378_5_dv_london_overground_train_name: Class 378 Capitalstar - {SILVER}5-car{BLACK}
+    str_br_378_378_5_dv_london_overground_train_name: Class 378 "Capitalstar" - {SILVER}5-car{BLACK}
       - {GOLD}London Overground
 - id: 1148
   vehicle: br_378
@@ -5316,11 +5316,11 @@ variants:
   name_string: str_br_378_378_5_dv_london_overground_5_car_celebration_train_name
   strings:
     str_br_378_378_5_london_overground_5_car_celebration_train_group_name: Class 378
-      Capitalstar - {SILVER}5-car{BLACK} - {GOLD}London Overground 5-Car Celebration
+      "Capitalstar" - {SILVER}5-car{BLACK} - {GOLD}London Overground 5-Car Celebration
     str_br_378_378_5_london_overground_5_car_celebration_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}London Overground 5-Car Celebration'
     str_br_378_378_5_dv_london_overground_5_car_celebration_train_name: Class 378
-      Capitalstar - {SILVER}5-car{BLACK} - {GOLD}London Overground 5-Car Celebration
+      "Capitalstar" - {SILVER}5-car{BLACK} - {GOLD}London Overground 5-Car Celebration
 - id: 1149
   vehicle: br_378
   profile: 378_5_dv
@@ -5343,11 +5343,11 @@ variants:
   identifier: br_378_378_5_dv_london_overground_fake_aventra_train
   name_string: str_br_378_378_5_dv_london_overground_fake_aventra_train_name
   strings:
-    str_br_378_378_5_london_overground_fake_aventra_train_group_name: Class 378 Capitalstar
+    str_br_378_378_5_london_overground_fake_aventra_train_group_name: Class 378 "Capitalstar"
       - {SILVER}5-car{BLACK} - {GOLD}London Overground Fake Aventra
     str_br_378_378_5_london_overground_fake_aventra_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}London Overground Fake Aventra'
-    str_br_378_378_5_dv_london_overground_fake_aventra_train_name: Class 378 Capitalstar
+    str_br_378_378_5_dv_london_overground_fake_aventra_train_name: Class 378 "Capitalstar"
       - {SILVER}5-car{BLACK} - {GOLD}London Overground Fake Aventra
 - id: 1150
   vehicle: br_378
@@ -5371,11 +5371,11 @@ variants:
   identifier: br_378_378_5_dv_london_overground_pride_train
   name_string: str_br_378_378_5_dv_london_overground_pride_train_name
   strings:
-    str_br_378_378_5_london_overground_pride_train_group_name: Class 378 Capitalstar
+    str_br_378_378_5_london_overground_pride_train_group_name: Class 378 "Capitalstar"
       - {SILVER}5-car{BLACK} - {GOLD}London Overground Pride
     str_br_378_378_5_london_overground_pride_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}London Overground Pride'
-    str_br_378_378_5_dv_london_overground_pride_train_name: Class 378 Capitalstar
+    str_br_378_378_5_dv_london_overground_pride_train_name: Class 378 "Capitalstar"
       - {SILVER}5-car{BLACK} - {GOLD}London Overground Pride
 - id: 1151
   vehicle: br_377
@@ -9139,10 +9139,10 @@ variants:
   identifier: br_222_222_7_east_midlands_trains_train
   name_string: str_br_222_222_7_east_midlands_trains_train_name
   strings:
-    str_br_222_222_7_east_midlands_trains_train_name: Class 222 Meridian - {SILVER}7-car{BLACK}
+    str_br_222_222_7_east_midlands_trains_train_name: Class 222 "Meridian" - {SILVER}7-car{BLACK}
       - {GOLD}East Midlands Trains
-    str_br_222_222_7_east_midlands_trains_train_group_name: Class 222 Meridian - {SILVER}7-car{BLACK}
-      - {GOLD}East Midlands Trains
+    str_br_222_222_7_east_midlands_trains_train_group_name: Class 222 "Meridian" -
+      {SILVER}7-car{BLACK} - {GOLD}East Midlands Trains
     str_br_222_222_7_east_midlands_trains_train_nested_name: '{SILVER}7-car{BLACK}
       - {GOLD}East Midlands Trains'
 - id: 1298
@@ -9169,9 +9169,9 @@ variants:
   identifier: br_222_222_7_midland_mainline_train
   name_string: str_br_222_222_7_midland_mainline_train_name
   strings:
-    str_br_222_222_7_midland_mainline_train_name: Class 222 Meridian - {SILVER}7-car{BLACK}
+    str_br_222_222_7_midland_mainline_train_name: Class 222 "Meridian" - {SILVER}7-car{BLACK}
       - {GOLD}Midland Mainline
-    str_br_222_222_7_midland_mainline_train_group_name: Class 222 Meridian - {SILVER}7-car{BLACK}
+    str_br_222_222_7_midland_mainline_train_group_name: Class 222 "Meridian" - {SILVER}7-car{BLACK}
       - {GOLD}Midland Mainline
     str_br_222_222_7_midland_mainline_train_nested_name: '{SILVER}7-car{BLACK} - {GOLD}Midland
       Mainline'
@@ -9199,9 +9199,9 @@ variants:
   identifier: br_222_222_7_east_midlands_railway_maroon_train
   name_string: str_br_222_222_7_east_midlands_railway_maroon_train_name
   strings:
-    str_br_222_222_7_east_midlands_railway_maroon_train_name: Class 222 Meridian -
-      {SILVER}7-car{BLACK} - {GOLD}East Midlands Railway Maroon
-    str_br_222_222_7_east_midlands_railway_maroon_train_group_name: Class 222 Meridian
+    str_br_222_222_7_east_midlands_railway_maroon_train_name: Class 222 "Meridian"
+      - {SILVER}7-car{BLACK} - {GOLD}East Midlands Railway Maroon
+    str_br_222_222_7_east_midlands_railway_maroon_train_group_name: Class 222 "Meridian"
       - {SILVER}7-car{BLACK} - {GOLD}East Midlands Railway Maroon
     str_br_222_222_7_east_midlands_railway_maroon_train_nested_name: '{SILVER}7-car{BLACK}
       - {GOLD}East Midlands Railway Maroon'
@@ -9230,9 +9230,9 @@ variants:
   name_string: str_br_222_222_7_east_midlands_railway_maroon_and_white_train_name
   strings:
     str_br_222_222_7_east_midlands_railway_maroon_and_white_train_name: Class 222
-      Meridian - {SILVER}7-car{BLACK} - {GOLD}East Midlands Railway Maroon and White
+      "Meridian" - {SILVER}7-car{BLACK} - {GOLD}East Midlands Railway Maroon and White
     str_br_222_222_7_east_midlands_railway_maroon_and_white_train_group_name: Class
-      222 Meridian - {SILVER}7-car{BLACK} - {GOLD}East Midlands Railway Maroon and
+      222 "Meridian" - {SILVER}7-car{BLACK} - {GOLD}East Midlands Railway Maroon and
       White
     str_br_222_222_7_east_midlands_railway_maroon_and_white_train_nested_name: '{SILVER}7-car{BLACK}
       - {GOLD}East Midlands Railway Maroon and White'
@@ -9258,10 +9258,10 @@ variants:
   identifier: br_222_222_5_east_midlands_trains_train
   name_string: str_br_222_222_5_east_midlands_trains_train_name
   strings:
-    str_br_222_222_5_east_midlands_trains_train_name: Class 222 Meridian - {SILVER}5-car{BLACK}
+    str_br_222_222_5_east_midlands_trains_train_name: Class 222 "Meridian" - {SILVER}5-car{BLACK}
       - {GOLD}East Midlands Trains
-    str_br_222_222_5_east_midlands_trains_train_group_name: Class 222 Meridian - {SILVER}5-car{BLACK}
-      - {GOLD}East Midlands Trains
+    str_br_222_222_5_east_midlands_trains_train_group_name: Class 222 "Meridian" -
+      {SILVER}5-car{BLACK} - {GOLD}East Midlands Trains
     str_br_222_222_5_east_midlands_trains_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}East Midlands Trains'
 - id: 1302
@@ -9286,9 +9286,9 @@ variants:
   identifier: br_222_222_5_east_midlands_railway_maroon_train
   name_string: str_br_222_222_5_east_midlands_railway_maroon_train_name
   strings:
-    str_br_222_222_5_east_midlands_railway_maroon_train_name: Class 222 Meridian -
-      {SILVER}5-car{BLACK} - {GOLD}East Midlands Railway Maroon
-    str_br_222_222_5_east_midlands_railway_maroon_train_group_name: Class 222 Meridian
+    str_br_222_222_5_east_midlands_railway_maroon_train_name: Class 222 "Meridian"
+      - {SILVER}5-car{BLACK} - {GOLD}East Midlands Railway Maroon
+    str_br_222_222_5_east_midlands_railway_maroon_train_group_name: Class 222 "Meridian"
       - {SILVER}5-car{BLACK} - {GOLD}East Midlands Railway Maroon
     str_br_222_222_5_east_midlands_railway_maroon_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}East Midlands Railway Maroon'
@@ -9317,9 +9317,9 @@ variants:
     str_br_180_180_5car_east_midlands_railway_maroon_and_white_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}East Midlands Railway Maroon and White'
     str_br_222_222_5_east_midlands_railway_maroon_and_white_train_name: Class 222
-      Meridian - {SILVER}5-car{BLACK} - {GOLD}East Midlands Railway Maroon and White
+      "Meridian" - {SILVER}5-car{BLACK} - {GOLD}East Midlands Railway Maroon and White
     str_br_222_222_5_east_midlands_railway_maroon_and_white_train_group_name: Class
-      222 Meridian - {SILVER}5-car{BLACK} - {GOLD}East Midlands Railway Maroon and
+      222 "Meridian" - {SILVER}5-car{BLACK} - {GOLD}East Midlands Railway Maroon and
       White
 - id: 1304
   vehicle: br_222
@@ -9342,10 +9342,10 @@ variants:
   identifier: br_222_222_4_east_midlands_trains_train
   name_string: str_br_222_222_4_east_midlands_trains_train_name
   strings:
-    str_br_222_222_4_east_midlands_trains_train_name: Class 222 Meridian - {SILVER}4-car{BLACK}
+    str_br_222_222_4_east_midlands_trains_train_name: Class 222 "Meridian" - {SILVER}4-car{BLACK}
       - {GOLD}East Midlands Trains
-    str_br_222_222_4_east_midlands_trains_train_group_name: Class 222 Meridian - {SILVER}4-car{BLACK}
-      - {GOLD}East Midlands Trains
+    str_br_222_222_4_east_midlands_trains_train_group_name: Class 222 "Meridian" -
+      {SILVER}4-car{BLACK} - {GOLD}East Midlands Trains
     str_br_222_222_4_east_midlands_trains_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}East Midlands Trains'
 - id: 1305
@@ -9369,9 +9369,9 @@ variants:
   identifier: br_222_222_4_east_midlands_railway_maroon_train
   name_string: str_br_222_222_4_east_midlands_railway_maroon_train_name
   strings:
-    str_br_222_222_4_east_midlands_railway_maroon_train_name: Class 222 Meridian -
-      {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon
-    str_br_222_222_4_east_midlands_railway_maroon_train_group_name: Class 222 Meridian
+    str_br_222_222_4_east_midlands_railway_maroon_train_name: Class 222 "Meridian"
+      - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon
+    str_br_222_222_4_east_midlands_railway_maroon_train_group_name: Class 222 "Meridian"
       - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon
     str_br_222_222_4_east_midlands_railway_maroon_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}East Midlands Railway Maroon'
@@ -9397,9 +9397,9 @@ variants:
   name_string: str_br_222_222_4_east_midlands_railway_maroon_and_white_train_name
   strings:
     str_br_222_222_4_east_midlands_railway_maroon_and_white_train_name: Class 222
-      Meridian - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon and White
+      "Meridian" - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon and White
     str_br_222_222_4_east_midlands_railway_maroon_and_white_train_group_name: Class
-      222 Meridian - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon and
+      222 "Meridian" - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon and
       White
     str_br_222_222_4_east_midlands_railway_maroon_and_white_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}East Midlands Railway Maroon and White'
@@ -9424,9 +9424,9 @@ variants:
   identifier: br_222_222_4_hull_trains_train
   name_string: str_br_222_222_4_hull_trains_train_name
   strings:
-    str_br_222_222_4_hull_trains_train_name: Class 222 Meridian - {SILVER}4-car{BLACK}
+    str_br_222_222_4_hull_trains_train_name: Class 222 "Meridian" - {SILVER}4-car{BLACK}
       - {GOLD}Hull Trains
-    str_br_222_222_4_hull_trains_train_group_name: Class 222 Meridian - {SILVER}4-car{BLACK}
+    str_br_222_222_4_hull_trains_train_group_name: Class 222 "Meridian" - {SILVER}4-car{BLACK}
       - {GOLD}Hull Trains
     str_br_222_222_4_hull_trains_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}Hull
       Trains'
@@ -9453,9 +9453,9 @@ variants:
   identifier: br_222_222_6_lumo_blue_train
   name_string: str_br_222_222_6_lumo_blue_train_name
   strings:
-    str_br_222_222_6_lumo_blue_train_name: Class 222 Meridian - {SILVER}6-car{BLACK}
+    str_br_222_222_6_lumo_blue_train_name: Class 222 "Meridian" - {SILVER}6-car{BLACK}
       - {GOLD}Lumo Blue
-    str_br_222_222_6_lumo_blue_train_group_name: Class 222 Meridian - {SILVER}6-car{BLACK}
+    str_br_222_222_6_lumo_blue_train_group_name: Class 222 "Meridian" - {SILVER}6-car{BLACK}
       - {GOLD}Lumo Blue
     str_br_222_222_6_lumo_blue_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}Lumo
       Blue'
@@ -36762,9 +36762,9 @@ variants:
   name_string: str_br_398_default_transport_for_wales___yellow_cab_end_train_name
   strings:
     str_br_398_default_transport_for_wales___yellow_cab_end_train_name: Class 398
-      Citylink - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab End
+      "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab End
     str_br_398_default_transport_for_wales___yellow_cab_end_train_group_name: Class
-      398 Citylink - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab
+      398 "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab
       End
     str_br_398_default_transport_for_wales___yellow_cab_end_train_nested_name: '{SILVER}3-car{BLACK}
       - {GOLD}Transport for Wales - Yellow Cab End'
@@ -36789,11 +36789,11 @@ variants:
   name_string: str_br_398_default_transport_for_wales___yellow_cab_end_tram_name
   strings:
     str_br_398_default_transport_for_wales___yellow_cab_end_train_group_name: Class
-      398 Citylink - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab
+      398 "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab
       End
     str_br_398_default_transport_for_wales___yellow_cab_end_train_nested_name: '{SILVER}3-car{BLACK}
       - {GOLD}Transport for Wales - Yellow Cab End'
-    str_br_398_default_transport_for_wales___yellow_cab_end_tram_name: Class 398 Citylink
+    str_br_398_default_transport_for_wales___yellow_cab_end_tram_name: Class 398 "Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab End
 - id: 2365
   vehicle: br_398
@@ -36815,10 +36815,11 @@ variants:
   identifier: br_398_default_transport_for_wales___grey_cab_end_train
   name_string: str_br_398_default_transport_for_wales___grey_cab_end_train_name
   strings:
-    str_br_398_default_transport_for_wales___grey_cab_end_train_name: Class 398 Citylink
+    str_br_398_default_transport_for_wales___grey_cab_end_train_name: Class 398 "Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab End
     str_br_398_default_transport_for_wales___grey_cab_end_train_group_name: Class
-      398 Citylink - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab End
+      398 "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab
+      End
     str_br_398_default_transport_for_wales___grey_cab_end_train_nested_name: '{SILVER}3-car{BLACK}
       - {GOLD}Transport for Wales - Grey Cab End'
 - id: 2366
@@ -36842,10 +36843,11 @@ variants:
   name_string: str_br_398_default_transport_for_wales___grey_cab_end_tram_name
   strings:
     str_br_398_default_transport_for_wales___grey_cab_end_train_group_name: Class
-      398 Citylink - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab End
+      398 "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab
+      End
     str_br_398_default_transport_for_wales___grey_cab_end_train_nested_name: '{SILVER}3-car{BLACK}
       - {GOLD}Transport for Wales - Grey Cab End'
-    str_br_398_default_transport_for_wales___grey_cab_end_tram_name: Class 398 Citylink
+    str_br_398_default_transport_for_wales___grey_cab_end_tram_name: Class 398 "Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab End
 - id: 2367
   vehicle: br_252
@@ -39643,11 +39645,11 @@ variants:
   identifier: br_222_222_1_east_midlands_trains_train
   name_string: str_br_222_222_1_east_midlands_trains_train_name
   strings:
-    str_br_222_222_4_east_midlands_trains_train_group_name: Class 222 Meridian - {SILVER}4-car{BLACK}
-      - {GOLD}East Midlands Trains
+    str_br_222_222_4_east_midlands_trains_train_group_name: Class 222 "Meridian" -
+      {SILVER}4-car{BLACK} - {GOLD}East Midlands Trains
     str_br_222_222_4_east_midlands_trains_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}East Midlands Trains'
-    str_br_222_222_1_east_midlands_trains_train_name: Class 222 Meridian - {SILVER}4-car{BLACK}
+    str_br_222_222_1_east_midlands_trains_train_name: Class 222 "Meridian" - {SILVER}4-car{BLACK}
       - {GOLD}East Midlands Trains
 - id: 2486
   vehicle: br_222
@@ -39670,12 +39672,12 @@ variants:
   identifier: br_222_222_1_east_midlands_railway_maroon_train
   name_string: str_br_222_222_1_east_midlands_railway_maroon_train_name
   strings:
-    str_br_222_222_4_east_midlands_railway_maroon_train_group_name: Class 222 Meridian
+    str_br_222_222_4_east_midlands_railway_maroon_train_group_name: Class 222 "Meridian"
       - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon
     str_br_222_222_4_east_midlands_railway_maroon_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}East Midlands Railway Maroon'
-    str_br_222_222_1_east_midlands_railway_maroon_train_name: Class 222 Meridian -
-      {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon
+    str_br_222_222_1_east_midlands_railway_maroon_train_name: Class 222 "Meridian"
+      - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon
 - id: 2487
   vehicle: br_222
   profile: '222_1'
@@ -39698,12 +39700,12 @@ variants:
   name_string: str_br_222_222_1_east_midlands_railway_maroon_and_white_train_name
   strings:
     str_br_222_222_4_east_midlands_railway_maroon_and_white_train_group_name: Class
-      222 Meridian - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon and
+      222 "Meridian" - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon and
       White
     str_br_222_222_4_east_midlands_railway_maroon_and_white_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}East Midlands Railway Maroon and White'
     str_br_222_222_1_east_midlands_railway_maroon_and_white_train_name: Class 222
-      Meridian - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon and White
+      "Meridian" - {SILVER}4-car{BLACK} - {GOLD}East Midlands Railway Maroon and White
 - id: 2488
   vehicle: br_222
   profile: '222_1'
@@ -39725,11 +39727,11 @@ variants:
   identifier: br_222_222_1_hull_trains_train
   name_string: str_br_222_222_1_hull_trains_train_name
   strings:
-    str_br_222_222_4_hull_trains_train_group_name: Class 222 Meridian - {SILVER}4-car{BLACK}
+    str_br_222_222_4_hull_trains_train_group_name: Class 222 "Meridian" - {SILVER}4-car{BLACK}
       - {GOLD}Hull Trains
     str_br_222_222_4_hull_trains_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}Hull
       Trains'
-    str_br_222_222_1_hull_trains_train_name: Class 222 Meridian - {SILVER}4-car{BLACK}
+    str_br_222_222_1_hull_trains_train_name: Class 222 "Meridian" - {SILVER}4-car{BLACK}
       - {GOLD}Hull Trains
 - id: 2489
   vehicle: furness_k2

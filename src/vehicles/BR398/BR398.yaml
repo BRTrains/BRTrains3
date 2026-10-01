@@ -1,6 +1,7 @@
 info:
   identifier: br_398
-  name: 'Class 398 Citylink'
+  name: 'Class 398'
+  nickname: Citylink
 
 stats:
   vehicle_type: train

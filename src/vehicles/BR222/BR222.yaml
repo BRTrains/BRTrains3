@@ -1,6 +1,7 @@
 info:
   identifier: br_222
-  name: 'Class 222 Meridian'
+  name: 'Class 222'
+  nickname: Meridian
 
 stats:
   vehicle_type: train

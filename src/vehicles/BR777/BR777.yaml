@@ -1,6 +1,7 @@
 info:
   identifier: br_777
-  name: 'Class 777 METRO'
+  name: 'Class 777'
+  nickname: Metro
 
 stats:
   vehicle_type: train
