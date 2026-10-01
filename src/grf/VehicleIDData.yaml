@@ -36788,9 +36788,9 @@ variants:
     articulated_count: 4
     lengths:
     - 7
-    - 7
     - 6
     - 5
+    - 7
   archive: generated_variants/2361_br_756_756_3_transport_for_wales_train.gnml
   identifier: br_756_756_3_transport_for_wales_train
   name_string: str_br_756_756_3_transport_for_wales_train_name
