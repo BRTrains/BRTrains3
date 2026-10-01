@@ -26,5 +26,5 @@ profiles:
     capacity: 0
 
 liveries:
-  - name: 'Furness Red'
-    special_tags: [operator/Furness Railway]
+  - name: 'Caledonian Blue'
+    special_tags: [operator/Caledonian Railway]
