@@ -25,7 +25,8 @@ profiles:
   - identifier: DEFAULT
     num_vehicles: 2
     capacity: 41
-    sprite_override: [2, 3]
+    # Legacy item_BR466 is cab + trailing cab: source rows a then c.
+    sprite_override: [1, 3]
 
 liveries:
   - name: 'Network South East'

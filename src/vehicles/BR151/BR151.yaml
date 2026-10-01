@@ -29,7 +29,8 @@ profiles:
     capacity: 77
 
 liveries:
-  - name: 'Regional Railways'
-    special_tags: [operator/Regional Railways]
+  # Legacy subtype order: BR Prototype (0), Regional Railways (1).
   - name: 'BR Prototype'
     special_tags: [operator/BR]
+  - name: 'Regional Railways'
+    special_tags: [operator/Regional Railways]

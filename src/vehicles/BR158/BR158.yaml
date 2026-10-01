@@ -25,6 +25,7 @@ profiles:
     capacity: 69
     power: 700
     weight: 76
+    sprite_override: [1, 2]
   - identifier: '158_3'
     name: '3-Car'
     num_vehicles: 3
