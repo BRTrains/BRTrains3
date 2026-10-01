@@ -3,7 +3,7 @@ info:
   name: 'Blackpool Brush Railcoach'
 
 stats:
-  vehicle_type: train
+  vehicle_type: tram
   train_type: multiple_unit
   weight: 9
   length: 5

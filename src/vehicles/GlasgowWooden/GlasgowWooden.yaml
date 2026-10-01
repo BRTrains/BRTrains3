@@ -3,7 +3,7 @@ info:
   name: 'Glasgow Corporation Wooden Tram'
 
 stats:
-  vehicle_type: train
+  vehicle_type: tram
   train_type: multiple_unit
   weight: 1
   length: 5
