@@ -38,36 +38,36 @@ profiles:
 
 
 liveries:
-  - name: Virgin Trains (9-car)
+  - name: Virgin Trains
     profiles: ['390_9']
     sprite_override: [1, 2, 3, 2, 2, 2, 4, 2, 5]
     special_tags: [operator/Virgin Trains]
-  - name: Virgin Trains Silk (9-car)
+  - name: Virgin Trains Silk
     profiles: ['390_9']
     sprite_override: [1, 2, 3, 2, 2, 2, 4, 2, 5]
     special_tags: [operator/Virgin Trains]
-  - name: Virgin Trains Pride (9-car)
+  - name: Virgin Trains Pride
     profiles: ['390_9']
     sprite_override: [1, 2, 3, 2, 2, 2, 4, 2, 5]
     special_tags: [operator/Virgin Trains]
-  - name: Avanti West Coast (9-car)
+  - name: Avanti West Coast
     profiles: ['390_9']
     special_tags: [operator/Avanti West Coast]
-  - name: Virgin Trains (11-car)
+  - name: Virgin Trains
     profiles: ['390_11']
     sprite_override: [1, 2, 3, 2, 2, 2, 2, 2, 4, 2, 5]
     special_tags: [operator/Virgin Trains]
-  - name: Virgin Trains Silk (11-car)
+  - name: Virgin Trains Silk
     profiles: ['390_11']
     sprite_override: [1, 2, 3, 2, 2, 2, 2, 2, 4, 2, 5]
     special_tags: [operator/Virgin Trains]
-  - name: Virgin Trains Pride (11-car)
+  - name: Virgin Trains Pride
     profiles: ['390_11']
     sprite_override: [1, 2, 3, 2, 2, 2, 2, 2, 4, 2, 5]
     special_tags: [operator/Virgin Trains]
-  - name: Avanti West Coast (11-car)
+  - name: Avanti West Coast
     profiles: ['390_11']
     special_tags: [operator/Avanti West Coast]
-  - name: Avanti West Coast Pride (11-car)
+  - name: Avanti West Coast Pride
     profiles: ['390_11']
     special_tags: [operator/Avanti West Coast]

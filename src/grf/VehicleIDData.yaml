@@ -3442,14 +3442,14 @@ variants:
       - {SILVER}8-car{BLACK} - {GOLD}London Underground
     str_lu_2009_2009_8_london_underground_train_group_name: London Underground 2009
       Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground
-- id: 1061
+- id: null
   vehicle: br_390
   profile: '390_9'
   livery: virgin trains (9-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -3474,14 +3474,14 @@ variants:
       - {SILVER}9-car{BLACK} - {GOLD}Virgin Trains 9-car
     str_br_390_390_9_virgin_trains__9_car__train_nested_name: '{SILVER}9-car{BLACK}
       - {GOLD}Virgin Trains 9-car'
-- id: 1062
+- id: null
   vehicle: br_390
   profile: '390_9'
   livery: virgin trains silk (9-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -3506,14 +3506,14 @@ variants:
       - {SILVER}9-car{BLACK} - {GOLD}Virgin Trains Silk 9-car
     str_br_390_390_9_virgin_trains_silk__9_car__train_nested_name: '{SILVER}9-car{BLACK}
       - {GOLD}Virgin Trains Silk 9-car'
-- id: 1063
+- id: null
   vehicle: br_390
   profile: '390_9'
   livery: virgin trains pride (9-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -3538,14 +3538,14 @@ variants:
       - {SILVER}9-car{BLACK} - {GOLD}Virgin Trains Pride 9-car
     str_br_390_390_9_virgin_trains_pride__9_car__train_nested_name: '{SILVER}9-car{BLACK}
       - {GOLD}Virgin Trains Pride 9-car'
-- id: 1064
+- id: null
   vehicle: br_390
   profile: '390_9'
   livery: avanti west coast (9-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 50
@@ -3570,14 +3570,14 @@ variants:
       - {SILVER}9-car{BLACK} - {GOLD}Avanti West Coast 9-car
     str_br_390_390_9_avanti_west_coast__9_car__train_nested_name: '{SILVER}9-car{BLACK}
       - {GOLD}Avanti West Coast 9-car'
-- id: 1065
+- id: null
   vehicle: br_390
   profile: '390_11'
   livery: virgin trains (11-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 54
@@ -3604,14 +3604,14 @@ variants:
       - {SILVER}11-car{BLACK} - {GOLD}Virgin Trains 11-car
     str_br_390_390_11_virgin_trains__11_car__train_nested_name: '{SILVER}11-car{BLACK}
       - {GOLD}Virgin Trains 11-car'
-- id: 1066
+- id: null
   vehicle: br_390
   profile: '390_11'
   livery: virgin trains silk (11-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 54
@@ -3638,14 +3638,14 @@ variants:
       - {SILVER}11-car{BLACK} - {GOLD}Virgin Trains Silk 11-car
     str_br_390_390_11_virgin_trains_silk__11_car__train_nested_name: '{SILVER}11-car{BLACK}
       - {GOLD}Virgin Trains Silk 11-car'
-- id: 1067
+- id: null
   vehicle: br_390
   profile: '390_11'
   livery: virgin trains pride (11-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 54
@@ -3672,14 +3672,14 @@ variants:
       - {SILVER}11-car{BLACK} - {GOLD}Virgin Trains Pride 11-car
     str_br_390_390_11_virgin_trains_pride__11_car__train_nested_name: '{SILVER}11-car{BLACK}
       - {GOLD}Virgin Trains Pride 11-car'
-- id: 1068
+- id: null
   vehicle: br_390
   profile: '390_11'
   livery: avanti west coast (11-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 54
@@ -3706,14 +3706,14 @@ variants:
       - {SILVER}11-car{BLACK} - {GOLD}Avanti West Coast 11-car
     str_br_390_390_11_avanti_west_coast__11_car__train_nested_name: '{SILVER}11-car{BLACK}
       - {GOLD}Avanti West Coast 11-car'
-- id: 1069
+- id: null
   vehicle: br_390
   profile: '390_11'
   livery: avanti west coast pride (11-car)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 54
@@ -43700,3 +43700,301 @@ variants:
       Freight - {SILVER}2-car{BLACK} - {GOLD}Network Rail Blue
     str_br_mpv_dualfreight_default_network_rail_blue_train_nested_name: '{SILVER}2-car{BLACK}
       - {GOLD}Network Rail Blue'
+- id: 1061
+  vehicle: br_390
+  profile: '390_9'
+  livery: virgin trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1061_br_390_390_9_virgin_trains_train.gnml
+  identifier: br_390_390_9_virgin_trains_train
+  name_string: str_br_390_390_9_virgin_trains_train_name
+  strings:
+    str_br_390_390_9_virgin_trains_train_name: Class 390 "Pendolino" - {SILVER}9-car{BLACK}
+      - {GOLD}Virgin Trains
+    str_br_390_390_9_virgin_trains_train_group_name: Class 390 "Pendolino" - {SILVER}9-car{BLACK}
+      - {GOLD}Virgin Trains
+    str_br_390_390_9_virgin_trains_train_nested_name: '{SILVER}9-car{BLACK} - {GOLD}Virgin
+      Trains'
+- id: 1062
+  vehicle: br_390
+  profile: '390_9'
+  livery: virgin trains silk
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1062_br_390_390_9_virgin_trains_silk_train.gnml
+  identifier: br_390_390_9_virgin_trains_silk_train
+  name_string: str_br_390_390_9_virgin_trains_silk_train_name
+  strings:
+    str_br_390_390_9_virgin_trains_silk_train_name: Class 390 "Pendolino" - {SILVER}9-car{BLACK}
+      - {GOLD}Virgin Trains Silk
+    str_br_390_390_9_virgin_trains_silk_train_group_name: Class 390 "Pendolino" -
+      {SILVER}9-car{BLACK} - {GOLD}Virgin Trains Silk
+    str_br_390_390_9_virgin_trains_silk_train_nested_name: '{SILVER}9-car{BLACK} -
+      {GOLD}Virgin Trains Silk'
+- id: 1063
+  vehicle: br_390
+  profile: '390_9'
+  livery: virgin trains pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1063_br_390_390_9_virgin_trains_pride_train.gnml
+  identifier: br_390_390_9_virgin_trains_pride_train
+  name_string: str_br_390_390_9_virgin_trains_pride_train_name
+  strings:
+    str_br_390_390_9_virgin_trains_pride_train_name: Class 390 "Pendolino" - {SILVER}9-car{BLACK}
+      - {GOLD}Virgin Trains Pride
+    str_br_390_390_9_virgin_trains_pride_train_group_name: Class 390 "Pendolino" -
+      {SILVER}9-car{BLACK} - {GOLD}Virgin Trains Pride
+    str_br_390_390_9_virgin_trains_pride_train_nested_name: '{SILVER}9-car{BLACK}
+      - {GOLD}Virgin Trains Pride'
+- id: 1064
+  vehicle: br_390
+  profile: '390_9'
+  livery: avanti west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 9
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1064_br_390_390_9_avanti_west_coast_train.gnml
+  identifier: br_390_390_9_avanti_west_coast_train
+  name_string: str_br_390_390_9_avanti_west_coast_train_name
+  strings:
+    str_br_390_390_9_avanti_west_coast_train_name: Class 390 "Pendolino" - {SILVER}9-car{BLACK}
+      - {GOLD}Avanti West Coast
+    str_br_390_390_9_avanti_west_coast_train_group_name: Class 390 "Pendolino" - {SILVER}9-car{BLACK}
+      - {GOLD}Avanti West Coast
+    str_br_390_390_9_avanti_west_coast_train_nested_name: '{SILVER}9-car{BLACK} -
+      {GOLD}Avanti West Coast'
+- id: 1065
+  vehicle: br_390
+  profile: '390_11'
+  livery: virgin trains
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1065_br_390_390_11_virgin_trains_train.gnml
+  identifier: br_390_390_11_virgin_trains_train
+  name_string: str_br_390_390_11_virgin_trains_train_name
+  strings:
+    str_br_390_390_11_virgin_trains_train_name: Class 390 "Pendolino" - {SILVER}11-car{BLACK}
+      - {GOLD}Virgin Trains
+    str_br_390_390_11_virgin_trains_train_group_name: Class 390 "Pendolino" - {SILVER}11-car{BLACK}
+      - {GOLD}Virgin Trains
+    str_br_390_390_11_virgin_trains_train_nested_name: '{SILVER}11-car{BLACK} - {GOLD}Virgin
+      Trains'
+- id: 1066
+  vehicle: br_390
+  profile: '390_11'
+  livery: virgin trains silk
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1066_br_390_390_11_virgin_trains_silk_train.gnml
+  identifier: br_390_390_11_virgin_trains_silk_train
+  name_string: str_br_390_390_11_virgin_trains_silk_train_name
+  strings:
+    str_br_390_390_11_virgin_trains_silk_train_name: Class 390 "Pendolino" - {SILVER}11-car{BLACK}
+      - {GOLD}Virgin Trains Silk
+    str_br_390_390_11_virgin_trains_silk_train_group_name: Class 390 "Pendolino" -
+      {SILVER}11-car{BLACK} - {GOLD}Virgin Trains Silk
+    str_br_390_390_11_virgin_trains_silk_train_nested_name: '{SILVER}11-car{BLACK}
+      - {GOLD}Virgin Trains Silk'
+- id: 1067
+  vehicle: br_390
+  profile: '390_11'
+  livery: virgin trains pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1067_br_390_390_11_virgin_trains_pride_train.gnml
+  identifier: br_390_390_11_virgin_trains_pride_train
+  name_string: str_br_390_390_11_virgin_trains_pride_train_name
+  strings:
+    str_br_390_390_11_virgin_trains_pride_train_name: Class 390 "Pendolino" - {SILVER}11-car{BLACK}
+      - {GOLD}Virgin Trains Pride
+    str_br_390_390_11_virgin_trains_pride_train_group_name: Class 390 "Pendolino"
+      - {SILVER}11-car{BLACK} - {GOLD}Virgin Trains Pride
+    str_br_390_390_11_virgin_trains_pride_train_nested_name: '{SILVER}11-car{BLACK}
+      - {GOLD}Virgin Trains Pride'
+- id: 1068
+  vehicle: br_390
+  profile: '390_11'
+  livery: avanti west coast
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1068_br_390_390_11_avanti_west_coast_train.gnml
+  identifier: br_390_390_11_avanti_west_coast_train
+  name_string: str_br_390_390_11_avanti_west_coast_train_name
+  strings:
+    str_br_390_390_11_avanti_west_coast_train_name: Class 390 "Pendolino" - {SILVER}11-car{BLACK}
+      - {GOLD}Avanti West Coast
+    str_br_390_390_11_avanti_west_coast_train_group_name: Class 390 "Pendolino" -
+      {SILVER}11-car{BLACK} - {GOLD}Avanti West Coast
+    str_br_390_390_11_avanti_west_coast_train_nested_name: '{SILVER}11-car{BLACK}
+      - {GOLD}Avanti West Coast'
+- id: 1069
+  vehicle: br_390
+  profile: '390_11'
+  livery: avanti west coast pride
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 54
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1069_br_390_390_11_avanti_west_coast_pride_train.gnml
+  identifier: br_390_390_11_avanti_west_coast_pride_train
+  name_string: str_br_390_390_11_avanti_west_coast_pride_train_name
+  strings:
+    str_br_390_390_11_avanti_west_coast_pride_train_name: Class 390 "Pendolino" -
+      {SILVER}11-car{BLACK} - {GOLD}Avanti West Coast Pride
+    str_br_390_390_11_avanti_west_coast_pride_train_group_name: Class 390 "Pendolino"
+      - {SILVER}11-car{BLACK} - {GOLD}Avanti West Coast Pride
+    str_br_390_390_11_avanti_west_coast_pride_train_nested_name: '{SILVER}11-car{BLACK}
+      - {GOLD}Avanti West Coast Pride'
