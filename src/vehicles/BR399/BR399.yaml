@@ -1,6 +1,7 @@
 info:
   identifier: br_399
-  name: 'Class 399 "Sheffield Citylink" tram-train (3-car Single Unit)'
+  name: "Class 399"
+  nickname: "Sheffield Citylink"
 
 stats:
   vehicle_type: train
