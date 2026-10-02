@@ -23600,7 +23600,7 @@ variants:
     articulated_count: 2
     lengths:
     - 8
-    - 8
+    - 5
   archive: generated_variants/1872_lner_p2_p2_lner_green_train.gnml
   identifier: lner_p2_p2_lner_green_train
   name_string: str_lner_p2_p2_lner_green_train_name
@@ -23625,7 +23625,7 @@ variants:
     articulated_count: 2
     lengths:
     - 8
-    - 8
+    - 5
   archive: generated_variants/1873_lner_p2_p2_lner_wartime_black_train.gnml
   identifier: lner_p2_p2_lner_wartime_black_train
   name_string: str_lner_p2_p2_lner_wartime_black_train_name
@@ -23650,7 +23650,7 @@ variants:
     articulated_count: 2
     lengths:
     - 8
-    - 8
+    - 5
   archive: generated_variants/1874_lner_p2_p2_streamlined_lner_green_train.gnml
   identifier: lner_p2_p2_streamlined_lner_green_train
   name_string: str_lner_p2_p2_streamlined_lner_green_train_name
@@ -23675,7 +23675,7 @@ variants:
     articulated_count: 2
     lengths:
     - 8
-    - 8
+    - 5
   archive: generated_variants/1875_lner_p2_p2_streamlined_lner_wartime_black_train.gnml
   identifier: lner_p2_p2_streamlined_lner_wartime_black_train
   name_string: str_lner_p2_p2_streamlined_lner_wartime_black_train_name
