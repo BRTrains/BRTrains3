@@ -24,15 +24,17 @@ profiles:
     capacity: 0
 
 liveries:
-  - name: 'LNER Green'
+  - name: 'LNER Apple Green'
     special_tags: [operator/LNER]
-  - name: 'LNER Corridor Tender'
+  - name: 'LNER Garter Blue (Pre-War)'
     special_tags: [operator/LNER]
   - name: 'LNER Wartime Black'
     special_tags: [operator/LNER, operator/BR]
-  - name: 'BR Apple Green'
+  - name: 'LNER Garter Blue (Post-War)'
+    special_tags: [operator/LNER]
+  - name: 'BR Experimental Ultramarine Blue'
     special_tags: [operator/BR]
-  - name: 'BR Blue'
+  - name: 'BR Express Passenger Blue'
     special_tags: [operator/BR]
   - name: 'BR Brunswick Green'
     special_tags: [operator/BR]

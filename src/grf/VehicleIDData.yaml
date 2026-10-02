@@ -32196,12 +32196,12 @@ variants:
   identifier: lner_a3_default_lner_corridor_tender_train
   name_string: str_lner_a3_default_lner_corridor_tender_train_name
   strings:
-    str_lner_a4_default_lner_corridor_tender_train_nested_name: '{SILVER}Engine +
-      Tender{BLACK} - {GOLD}LNER Corridor Tender'
     str_lner_a3_default_lner_corridor_tender_train_name: LNER Gresley Class A3 4-6-2
       - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Corridor Tender
     str_lner_a3_default_lner_corridor_tender_train_group_name: LNER Gresley Class
       A3 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Corridor Tender
+    str_lner_a3_default_lner_corridor_tender_train_nested_name: '{SILVER}Engine +
+      Tender{BLACK} - {GOLD}LNER Corridor Tender'
 - id: 2189
   vehicle: lner_a3
   profile: default
@@ -32246,12 +32246,12 @@ variants:
   identifier: lner_a3_default_br_apple_green_train
   name_string: str_lner_a3_default_br_apple_green_train_name
   strings:
-    str_lner_a4_default_br_apple_green_train_nested_name: '{SILVER}Engine + Tender{BLACK}
-      - {GOLD}BR Apple Green'
     str_lner_a3_default_br_apple_green_train_name: LNER Gresley Class A3 4-6-2 - {SILVER}Engine
       + Tender{BLACK} - {GOLD}BR Apple Green
     str_lner_a3_default_br_apple_green_train_group_name: LNER Gresley Class A3 4-6-2
       - {SILVER}Engine + Tender{BLACK} - {GOLD}BR Apple Green
+    str_lner_a3_default_br_apple_green_train_nested_name: '{SILVER}Engine + Tender{BLACK}
+      - {GOLD}BR Apple Green'
 - id: 2191
   vehicle: lner_a3
   profile: default
@@ -43400,14 +43400,14 @@ variants:
       4-6-0 "Hall" - {SILVER}Engine + Tender{BLACK} - {GOLD}Hogwarts Express
     str_gwr_hall_default_hogwarts_express_train_nested_name: '{SILVER}Engine + Tender{BLACK}
       - {GOLD}Hogwarts Express'
-- id: 2628
+- id: null
   vehicle: lner_a4
   profile: default
   livery: lner green
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -43425,14 +43425,14 @@ variants:
       + Tender{BLACK} - {GOLD}LNER Green
     str_lner_a4_default_lner_green_train_group_name: LNER Gresley Class A4 4-6-2 -
       {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Green
-- id: 2629
+- id: null
   vehicle: lner_a4
   profile: default
   livery: lner corridor tender
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -43475,14 +43475,14 @@ variants:
       - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Wartime Black
     str_lner_a4_default_lner_wartime_black_train_group_name: LNER Gresley Class A4
       4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Wartime Black
-- id: 2631
+- id: null
   vehicle: lner_a4
   profile: default
   livery: br apple green
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -43500,14 +43500,14 @@ variants:
       - {SILVER}Engine + Tender{BLACK} - {GOLD}BR Apple Green
     str_lner_a4_default_br_apple_green_train_nested_name: '{SILVER}Engine + Tender{BLACK}
       - {GOLD}BR Apple Green'
-- id: 2632
+- id: null
   vehicle: lner_a4
   profile: default
   livery: br blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 0
@@ -44267,3 +44267,130 @@ variants:
       4-2-2 "No. 123" - {SILVER}Engine + Tender{BLACK} - {GOLD}Caledonian Blue
     str_caledonian_single_default_caledonian_blue_train_nested_name: '{SILVER}Engine
       + Tender{BLACK} - {GOLD}Caledonian Blue'
+- id: 2628
+  vehicle: lner_a4
+  profile: default
+  livery: lner apple green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2628_lner_a4_default_lner_apple_green_train.gnml
+  identifier: lner_a4_default_lner_apple_green_train
+  name_string: str_lner_a4_default_lner_apple_green_train_name
+  strings:
+    str_lner_a4_default_lner_apple_green_train_name: LNER Gresley Class A4 4-6-2 -
+      {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Apple Green
+    str_lner_a4_default_lner_apple_green_train_group_name: LNER Gresley Class A4 4-6-2
+      - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Apple Green
+    str_lner_a4_default_lner_apple_green_train_nested_name: '{SILVER}Engine + Tender{BLACK}
+      - {GOLD}LNER Apple Green'
+- id: 2629
+  vehicle: lner_a4
+  profile: default
+  livery: lner garter blue (pre-war)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2629_lner_a4_default_lner_garter_blue__pre_war__train.gnml
+  identifier: lner_a4_default_lner_garter_blue__pre_war__train
+  name_string: str_lner_a4_default_lner_garter_blue__pre_war__train_name
+  strings:
+    str_lner_a4_default_lner_garter_blue__pre_war__train_name: LNER Gresley Class
+      A4 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Garter Blue Pre-War
+    str_lner_a4_default_lner_garter_blue__pre_war__train_group_name: LNER Gresley
+      Class A4 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Garter Blue Pre-War
+    str_lner_a4_default_lner_garter_blue__pre_war__train_nested_name: '{SILVER}Engine
+      + Tender{BLACK} - {GOLD}LNER Garter Blue Pre-War'
+- id: 2631
+  vehicle: lner_a4
+  profile: default
+  livery: lner garter blue (post-war)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2631_lner_a4_default_lner_garter_blue__post_war__train.gnml
+  identifier: lner_a4_default_lner_garter_blue__post_war__train
+  name_string: str_lner_a4_default_lner_garter_blue__post_war__train_name
+  strings:
+    str_lner_a4_default_lner_garter_blue__post_war__train_name: LNER Gresley Class
+      A4 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Garter Blue Post-War
+    str_lner_a4_default_lner_garter_blue__post_war__train_group_name: LNER Gresley
+      Class A4 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}LNER Garter Blue Post-War
+    str_lner_a4_default_lner_garter_blue__post_war__train_nested_name: '{SILVER}Engine
+      + Tender{BLACK} - {GOLD}LNER Garter Blue Post-War'
+- id: 2632
+  vehicle: lner_a4
+  profile: default
+  livery: br experimental ultramarine blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2632_lner_a4_default_br_experimental_ultramarine_blue_train.gnml
+  identifier: lner_a4_default_br_experimental_ultramarine_blue_train
+  name_string: str_lner_a4_default_br_experimental_ultramarine_blue_train_name
+  strings:
+    str_lner_a4_default_br_experimental_ultramarine_blue_train_name: LNER Gresley
+      Class A4 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}BR Experimental Ultramarine
+      Blue
+    str_lner_a4_default_br_experimental_ultramarine_blue_train_group_name: LNER Gresley
+      Class A4 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}BR Experimental Ultramarine
+      Blue
+    str_lner_a4_default_br_experimental_ultramarine_blue_train_nested_name: '{SILVER}Engine
+      + Tender{BLACK} - {GOLD}BR Experimental Ultramarine Blue'
+- id: 2650
+  vehicle: lner_a4
+  profile: default
+  livery: br express passenger blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 5
+  archive: generated_variants/2650_lner_a4_default_br_express_passenger_blue_train.gnml
+  identifier: lner_a4_default_br_express_passenger_blue_train
+  name_string: str_lner_a4_default_br_express_passenger_blue_train_name
+  strings:
+    str_lner_a4_default_br_express_passenger_blue_train_name: LNER Gresley Class A4
+      4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}BR Express Passenger Blue
+    str_lner_a4_default_br_express_passenger_blue_train_group_name: LNER Gresley Class
+      A4 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}BR Express Passenger Blue
+    str_lner_a4_default_br_express_passenger_blue_train_nested_name: '{SILVER}Engine
+      + Tender{BLACK} - {GOLD}BR Express Passenger Blue'
