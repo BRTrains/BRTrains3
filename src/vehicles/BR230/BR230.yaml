@@ -14,6 +14,7 @@ stats:
     - diesel
 
 usage: [PASSENGER, REGIONAL]
+doors: multiple
 
 cargo: passenger
 

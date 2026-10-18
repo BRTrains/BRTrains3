@@ -287,3 +287,11 @@ The supplied research distinguishes door arrangement from service pattern and wa
 Classes 395, 745, 755 and 230 are deliberately not forced into an existing door enum because the supplied material identifies them as exceptions or unusual layouts. Classes absent from BRTrains3 were not added.
 
 Reference supplied for this update: UK passenger multiple-unit door-layout classification citing Fandom, Wikipedia, GB Trains and Hitachi Rail material.
+
+
+## Follow-up exception assignments
+
+- Class 230: `multiple` — single-leaf sliding doors derived from London Underground D78 stock.
+- Class 484: `multiple` — London Underground-derived single-leaf sliding doors.
+- Class 395: `intercity` — narrow single-leaf doors, despite being positioned around thirds.
+- Classes 745 and 755: `commuter_single` — one wide double-leaf doorway per side of each passenger carriage; this category uses the same loading-speed baseline as `commuter_double` because the shorter coaches give a comparable door-to-coach-length ratio.

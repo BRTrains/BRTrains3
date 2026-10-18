@@ -31,6 +31,7 @@ stats:
     - ELRL
 
 usage: [PASSENGER, REGIONAL]
+doors: intercity
 
 cargo: passenger
 
