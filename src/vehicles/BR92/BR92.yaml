@@ -21,6 +21,8 @@ stats:
     - THIRD
     - ELRL
 
+usage: [PASSENGER, INTERCITY]
+
 cargo: none
 
 dates:

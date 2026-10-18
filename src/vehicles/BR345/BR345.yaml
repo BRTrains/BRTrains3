@@ -13,6 +13,9 @@ stats:
   track_type:
     - ELRL
 
+usage: [PASSENGER, COMMUTER, LOCAL]
+doors: commuter_triple
+
 cargo: passenger
 
 dates:

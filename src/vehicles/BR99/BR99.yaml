@@ -22,6 +22,8 @@ stats:
   power_type:
     - diesel
     - electric
+usage: [FREIGHT]
+
 cargo: none
 
 dates:

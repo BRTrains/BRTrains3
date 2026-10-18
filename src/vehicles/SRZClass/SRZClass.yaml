@@ -10,6 +10,8 @@ stats:
   speed: 50
   tractive_effort: 0.179
   power_type: [steam]
+usage: [FREIGHT]
+
 cargo: none
 dates:
   introduction_date: 1929-01-01

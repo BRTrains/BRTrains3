@@ -19,6 +19,8 @@ stats:
     - THIRD
     - ELRL
 
+usage: [MAIL]
+
 cargo: parcels
 
 dates:

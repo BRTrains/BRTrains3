@@ -26,6 +26,9 @@ stats:
     - RAIL
     - ELRL
 
+usage: [PASSENGER, INTERCITY, HIGH_SPEED]
+doors: intercity
+
 cargo: passenger
 
 dates:

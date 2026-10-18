@@ -17,6 +17,8 @@ stats:
     - THIRD
     - ELRL
 
+usage: [PASSENGER, INTERCITY, HIGH_SPEED]
+
 cargo: passenger
 
 dates:

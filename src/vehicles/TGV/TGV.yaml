@@ -16,6 +16,8 @@ stats:
   track_type:
     - ELRL
 
+usage: [MAIL]
+
 cargo: mail
 
 dates:

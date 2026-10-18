@@ -21,6 +21,8 @@ stats:
     - electric
     - battery
 
+usage: [PASSENGER, INTERCITY, PROTOTYPE]
+
 cargo: none
 
 dates:

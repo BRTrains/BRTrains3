@@ -11,6 +11,8 @@ stats:
   speed: 60
   tractive_effort: 0.08
 
+usage: [FREIGHT]
+
 cargo: bulk
 autorefit: true
 

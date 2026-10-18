@@ -11,6 +11,8 @@ stats:
   power: 0
   tractive_effort: 0
 
+usage: [MAIL]
+
 cargo: parcels
 autorefit: true
 

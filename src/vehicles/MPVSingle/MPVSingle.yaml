@@ -10,6 +10,8 @@ stats:
   speed: 75
   tractive_effort: 0.3
   power_type: [diesel]
+usage: [DEPARTMENTAL, UTILITY]
+
 cargo: none
 dates:
   introduction_date: 1999-01-01

@@ -15,6 +15,9 @@ stats:
   power_type:
     - steam
 
+usage: [FREIGHT]
+doors: slam
+
 cargo: none
 dates:
   introduction_date: 1903-01-01

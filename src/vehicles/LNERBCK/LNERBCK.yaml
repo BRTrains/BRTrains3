@@ -12,6 +12,9 @@ stats:
   speed: 90
   tractive_effort: 0
 
+usage: [PASSENGER, INTERCITY]
+doors: slam
+
 cargo: passenger
 
 # A coach carries no lamps, and the detector otherwise reads this sheet's cream band

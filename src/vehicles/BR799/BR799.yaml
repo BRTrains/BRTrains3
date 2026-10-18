@@ -19,6 +19,8 @@ stats:
   power_type:
     - hydrogen
 
+usage: [PASSENGER, REGIONAL, PROTOTYPE]
+
 cargo: passenger
 
 dates:

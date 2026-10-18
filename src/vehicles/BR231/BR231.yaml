@@ -24,6 +24,8 @@ stats:
   # `track_type` is left unset, as on the rest of the diesel fleet — see the oddities file
   # for the per-position `switch_br_231_particles` effect the schema cannot express.
 
+usage: [PASSENGER, REGIONAL]
+
 cargo: passenger
 
 dates:

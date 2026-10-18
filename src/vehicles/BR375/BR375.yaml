@@ -13,6 +13,8 @@ stats:
   track_type:
     - THIRD
 
+usage: [PASSENGER, COMMUTER, LOCAL]
+
 cargo: passenger
 
 dates:

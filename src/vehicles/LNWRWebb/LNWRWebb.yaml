@@ -14,6 +14,8 @@ stats:
   tractive_effort: 0.165
   power_type:
     - steam
+usage: [FREIGHT]
+
 cargo: none
 
 dates:

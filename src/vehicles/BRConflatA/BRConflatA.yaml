@@ -13,6 +13,8 @@ stats:
   speed: 40
   tractive_effort: 0.08
 
+usage: [FREIGHT]
+
 cargo: containerised
 autorefit: true
 

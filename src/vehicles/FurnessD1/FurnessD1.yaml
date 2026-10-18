@@ -14,6 +14,8 @@ stats:
   power_type:
     - steam
 
+usage: [FREIGHT]
+
 cargo: none
 
 nml_override:

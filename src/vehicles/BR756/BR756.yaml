@@ -20,6 +20,8 @@ stats:
     - RAIL
     - ELRL
 
+usage: [PASSENGER, COMMUTER, LOCAL]
+
 cargo: passenger
 
 dates:

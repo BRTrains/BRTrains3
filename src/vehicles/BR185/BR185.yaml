@@ -18,6 +18,8 @@ stats:
   # (`air_drag_coefficient: 0.1` and the articulated parts' `TRAIN_FLAG_NO_BREAKDOWN_SMOKE`
   # are legacy fields the BRBuild schema does not express.)
 
+usage: [PASSENGER, REGIONAL]
+
 cargo: passenger
 
 dates:

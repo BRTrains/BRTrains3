@@ -13,6 +13,8 @@ stats:
   tractive_effort: 0.3
   power_type:
     - diesel
+usage: [PASSENGER, REGIONAL]
+
 cargo: passenger
 
 dates:

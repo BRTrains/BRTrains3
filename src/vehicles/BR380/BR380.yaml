@@ -20,6 +20,8 @@ stats:
   track_type:
     - ELRL
 
+usage: [PASSENGER, REGIONAL]
+
 cargo: passenger
 
 model_life: 0

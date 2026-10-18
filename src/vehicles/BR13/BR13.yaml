@@ -13,6 +13,8 @@ stats:
   tractive_effort: 0.26046
   power_type:
     - diesel
+usage: [DEPARTMENTAL, UTILITY]
+
 cargo: none
 
 dates:

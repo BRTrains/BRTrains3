@@ -19,6 +19,8 @@ stats:
 # callback returning 0, so cargo: none states the effective behaviour. Its
 # `cargo_allow_refit: [GOOD, FOOD]` / `default_cargo_type: GOOD` pair states the
 # opposite and is not expressed - recorded in the import oddities file.
+usage: [FREIGHT]
+
 cargo: none
 
 dates:

@@ -17,6 +17,8 @@ stats:
   power_type:
     - diesel
 
+usage: [DEPARTMENTAL, UTILITY]
+
 cargo: none
 
 dates:

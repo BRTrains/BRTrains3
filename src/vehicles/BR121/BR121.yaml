@@ -13,6 +13,9 @@ stats:
   power_type:
     - diesel
 
+usage: [PASSENGER, REGIONAL]
+doors: slam
+
 cargo: passenger
 
 dates:

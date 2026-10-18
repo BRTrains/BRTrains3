@@ -16,6 +16,9 @@ stats:
   power_type:
     - electric
 
+usage: [PASSENGER, INTERCITY, HIGH_SPEED]
+doors: intercity
+
 cargo: passenger
 
 dates:

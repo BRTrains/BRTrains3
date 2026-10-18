@@ -14,6 +14,8 @@ stats:
   power_type:
     - diesel
 
+usage: [PASSENGER, INTERCITY]
+
 cargo: passenger
 
 dates:

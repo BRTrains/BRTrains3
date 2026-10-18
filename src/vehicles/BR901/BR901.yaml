@@ -16,6 +16,8 @@ stats:
   power_type:
     - diesel
 
+usage: [PROTOTYPE]
+
 cargo: none
 
 dates:

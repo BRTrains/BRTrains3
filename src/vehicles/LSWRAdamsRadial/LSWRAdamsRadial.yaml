@@ -11,6 +11,8 @@ stats:
   tractive_effort: 0.117
   power_type:
     - steam
+usage: [FREIGHT]
+
 cargo: none
 dates:
   introduction_date: 1882-01-01

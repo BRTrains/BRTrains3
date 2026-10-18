@@ -23,6 +23,8 @@ stats:
   track_type:
     - ELRL
 
+usage: [PASSENGER, INTERCITY, HIGH_SPEED]
+
 cargo: passenger
 
 dates:

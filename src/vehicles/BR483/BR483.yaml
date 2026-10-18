@@ -13,6 +13,9 @@ stats:
   track_type:
     - THIRD
 
+usage: [PASSENGER, UNDERGROUND, METRO, LOCAL]
+doors: multiple
+
 cargo: passenger
 
 dates:

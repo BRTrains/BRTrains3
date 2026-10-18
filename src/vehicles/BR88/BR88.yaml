@@ -16,6 +16,8 @@ stats:
     - diesel
     - electric
 
+usage: [PROTOTYPE]
+
 cargo: none
 
 dates:

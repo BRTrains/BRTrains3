@@ -13,6 +13,8 @@ stats:
   power_type:
     - electric
 
+usage: [PASSENGER, UNDERGROUND, LOCAL]
+
 cargo: passenger
 
 dates:

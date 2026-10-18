@@ -16,6 +16,8 @@ stats:
     - diesel
     - electric
 
+usage: [PASSENGER, COMMUTER, LOCAL]
+
 cargo: passenger
 
 dates:

@@ -17,6 +17,8 @@ stats:
     - THIRD
     - ELRL
 
+usage: [PASSENGER, REGIONAL]
+
 cargo: passenger
 
 dates:

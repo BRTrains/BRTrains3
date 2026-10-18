@@ -15,6 +15,8 @@ stats:
   track_type:
     - THIRD
 
+usage: [PASSENGER, COMMUTER, LOCAL]
+
 cargo: passenger
 
 model_life: 0

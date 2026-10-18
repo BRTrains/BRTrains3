@@ -16,6 +16,8 @@ stats:
   track_type:
     - RAIL
 
+usage: [PASSENGER, INTERCITY]
+
 cargo: passenger
 
 dates:

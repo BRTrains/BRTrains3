@@ -13,6 +13,8 @@ stats:
   power_type:
     - gas_turbine
 
+usage: [PROTOTYPE]
+
 cargo: none
 
 dates:

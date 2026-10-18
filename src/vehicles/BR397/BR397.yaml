@@ -16,6 +16,8 @@ stats:
   track_type:
     - ELRL
 
+usage: [PASSENGER, INTERCITY]
+
 cargo: passenger
 
 model_life: 0

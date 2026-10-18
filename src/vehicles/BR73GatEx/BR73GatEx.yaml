@@ -14,6 +14,8 @@ stats:
   track_type:
     - THIRD
 
+usage: [PASSENGER, REGIONAL]
+
 cargo: passenger
 
 dates:

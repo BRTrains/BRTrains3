@@ -11,6 +11,9 @@ stats:
   power: 0
   tractive_effort: 0
 
+usage: [PASSENGER, INTERCITY]
+doors: intercity
+
 cargo: passenger
 
 dates:

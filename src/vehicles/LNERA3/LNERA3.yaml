@@ -12,6 +12,8 @@ stats:
   tractive_effort: 0.095
   power_type:
     - steam
+usage: [PASSENGER, INTERCITY]
+
 cargo: none
 
 dates:

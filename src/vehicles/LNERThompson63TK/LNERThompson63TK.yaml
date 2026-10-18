@@ -12,6 +12,9 @@ stats:
   speed: 100
   tractive_effort: 0
 
+usage: [PASSENGER, INTERCITY]
+doors: slam
+
 cargo: passenger
 
 dates:

@@ -20,6 +20,8 @@ stats:
   power_type:
     - diesel
 
+usage: [PASSENGER, REGIONAL]
+
 cargo: passenger
 
 dates:
