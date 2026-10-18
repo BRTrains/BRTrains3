@@ -16,7 +16,6 @@ stats:
     - steam
 
 usage: [FREIGHT]
-doors: slam
 
 cargo: none
 dates:

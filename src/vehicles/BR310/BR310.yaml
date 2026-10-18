@@ -15,6 +15,8 @@ stats:
 
 usage: [PASSENGER, COMMUTER, LOCAL]
 
+doors: slam
+
 cargo: passenger
 
 dates:

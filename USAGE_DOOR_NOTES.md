@@ -246,7 +246,7 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `LNERGresley616BG` (LNER Gresley 61' 6" BG): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
 - `LNERGresley616TK` (LNER Gresley 61' 6" TK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
 - `LNERGresley616TPO` (LNER Gresley 61' 6" TPO): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
-- `LNERJ70` (GER Class C53 0-6-0T): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback); doors `slam` (confident).
+- `LNERJ70` (GER Class C53 0-6-0T): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `LNERP2` (LNER Gresley Class P2 2-8-2): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
 - `LNERPV` (LNER Gresley PV): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
 - `LNERTK` (LNER Gresley TK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
@@ -265,3 +265,12 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `StephensonPlanet` (L&MR Stephenson 2-2-0): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
 - `TGV` (SNCF TGV): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
 - `WDAusterityTank` (WD Austerity Tank 0-6-0ST): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
+
+
+## Follow-up from the slam-door train reference
+
+The Wikipedia slam-door train article explicitly identifies the Class 101–129 DMU family as slam-door stock, the Eastern Region Class 302–312 family as slam-door except Classes 303, 306 and 311, and the Southern 4-CIG/4-CEP/4-VEP families as slam-door. It also identifies the Mark 1/Mark 2 association used by the initial pass. On that basis, these additional vehicle-level assignments were applied: `BR302`, `BR305`, `BR310`, `BR411`, `BR412`, `BR413`, `BR414`, `BR415_1`, `BR415_2`, `BR416_1`, `BR416_2`, `BR418_1`, `BR421`, `BR422`, `BR423`, `BR432`, and `BR438` → `doors: slam`.
+
+`LNERJ70` was corrected to remove an erroneous door assignment: it is a locomotive, not passenger stock.
+
+Source: https://en.wikipedia.org/wiki/Slam-door_train
