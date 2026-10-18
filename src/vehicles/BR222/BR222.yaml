@@ -15,6 +15,7 @@ stats:
     - diesel
 
 usage: [PASSENGER, INTERCITY]
+doors: intercity
 
 cargo: passenger
 

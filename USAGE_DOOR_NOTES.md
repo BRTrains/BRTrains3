@@ -33,9 +33,9 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 ## Per-vehicle record
 
 - `BR08` (Class 08): usage `['DEPARTMENTAL', 'UTILITY']` (medium; departmental/engineering or non-standard support stock). Door type not assigned; infer from usage.
-- `BR101` (Class 101): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family); doors `slam` (confident).
-- `BR102` (Class 102): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family); doors `slam` (confident).
-- `BR121` (Class 121): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family); doors `slam` (confident).
+- `BR101` (Class 101): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family); doors `slam` (high confidence from the supplied door-layout classification).
+- `BR102` (Class 102): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family); doors `slam` (high confidence from the supplied door-layout classification).
+- `BR121` (Class 121): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family); doors `slam` (high confidence from the supplied door-layout classification).
 - `BR128` (Class 128): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
 - `BR13` (Class 13): usage `['DEPARTMENTAL', 'UTILITY']` (medium; departmental/engineering or non-standard support stock). Door type not assigned; infer from usage.
 - `BR140` (Class 140): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family). Door type not assigned; infer from usage.
@@ -90,7 +90,7 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `BR332` (Class 332): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR333` (Class 333): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR334` (Class 334): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
-- `BR345` (Class 345): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family); doors `commuter_triple` (confident).
+- `BR345` (Class 345): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family); doors `commuter_triple` (high confidence from the supplied door-layout classification).
 - `BR350` (Class 350): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR357` (Class 357): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR360` (Class 360/1): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
@@ -105,7 +105,7 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `BR379` (Class 379): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR380` (Class 380): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family). Door type not assigned; infer from usage.
 - `BR387` (Class 387): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family). Door type not assigned; infer from usage.
-- `BR390` (Class 390): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (confident).
+- `BR390` (Class 390): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (high confidence from the supplied door-layout classification).
 - `BR395` (Class 395): usage `['PASSENGER', 'REGIONAL']` (high; regional passenger multiple unit or coach family). Door type not assigned; infer from usage.
 - `BR397` (Class 397): usage `['PASSENGER', 'INTERCITY']` (high; named high-speed/intercity passenger stock). Door type not assigned; infer from usage.
 - `BR411` (Class 411): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
@@ -134,8 +134,8 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `BR466` (Class 466): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR47` (Class 47): usage `['DEPARTMENTAL']` (medium; departmental/engineering or non-standard support stock). Door type not assigned; infer from usage.
 - `BR48` (Class 48): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
-- `BR483` (Class 483 (LU 1938 Stock)): usage `['PASSENGER', 'UNDERGROUND', 'METRO', 'LOCAL']` (high; Underground/metro stock); doors `multiple` (confident).
-- `BR484` (Class 484 (LU D Stock)): usage `['PASSENGER', 'UNDERGROUND', 'METRO', 'LOCAL']` (high; Underground/metro stock); doors `multiple` (confident).
+- `BR483` (Class 483 (LU 1938 Stock)): usage `['PASSENGER', 'UNDERGROUND', 'METRO', 'LOCAL']` (high; Underground/metro stock); doors `multiple` (high confidence from the supplied door-layout classification).
+- `BR484` (Class 484 (LU D Stock)): usage `['PASSENGER', 'UNDERGROUND', 'METRO', 'LOCAL']` (high; Underground/metro stock); doors `multiple` (high confidence from the supplied door-layout classification).
 - `BR50` (Class 50): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
 - `BR504` (Class 504): usage `['PASSENGER', 'UNDERGROUND', 'LOCAL']` (high; Underground stock). Door type not assigned; infer from usage.
 - `BR507` (Class 507): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
@@ -152,13 +152,13 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `BR68` (Class 68): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
 - `BR69` (Class 69): usage `['DEPARTMENTAL', 'UTILITY']` (medium; departmental/engineering or non-standard support stock). Door type not assigned; infer from usage.
 - `BR70` (Class 70): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
-- `BR700` (Class 700): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family); doors `commuter_double` (confident).
+- `BR700` (Class 700): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family); doors `commuter_double` (high confidence from the supplied door-layout classification).
 - `BR701` (Class 701): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR707` (Class 707): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR70OG` (Class 70 (Southern Railway Class CC)): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `BR71` (Class 71): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `BR710` (Class 710): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
-- `BR717` (Class 717): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family); doors `commuter_double` (confident).
+- `BR717` (Class 717): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family); doors `commuter_double` (high confidence from the supplied door-layout classification).
 - `BR720` (Class 720): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR730` (Class 730): usage `['PASSENGER', 'COMMUTER', 'LOCAL']` (high; commuter/suburban multiple unit family). Door type not assigned; infer from usage.
 - `BR73GatEx` (Class 73 "Gatwick Express" set (9 car + locomotive)): usage `['PASSENGER', 'REGIONAL']` (medium; passenger role; service category inferred from available identity). Door type not assigned; infer from usage.
@@ -170,14 +170,14 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `BR76Prototype` (Class 76 Prototype (LNER Gresley "EM1")): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
 - `BR799` (Class 799 Hydrogen Prototype): usage `['PASSENGER', 'REGIONAL', 'PROTOTYPE']` (high; regional passenger multiple unit or coach family). Door type not assigned; infer from usage.
 - `BR80` (Class 80 (25kV Prototype)): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
-- `BR800` (Class 800): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (confident).
-- `BR801` (Class 801): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (confident).
-- `BR802` (Class 802): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (confident).
-- `BR803` (Class 803): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (confident).
-- `BR805` (Class 805): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (confident).
-- `BR807` (Class 807): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (confident).
+- `BR800` (Class 800): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (high confidence from the supplied door-layout classification).
+- `BR801` (Class 801): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (high confidence from the supplied door-layout classification).
+- `BR802` (Class 802): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (high confidence from the supplied door-layout classification).
+- `BR803` (Class 803): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (high confidence from the supplied door-layout classification).
+- `BR805` (Class 805): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (high confidence from the supplied door-layout classification).
+- `BR807` (Class 807): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (high confidence from the supplied door-layout classification).
 - `BR81` (Class 81): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
-- `BR810` (Class 810): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (confident).
+- `BR810` (Class 810): usage `['PASSENGER', 'INTERCITY', 'HIGH_SPEED']` (high; named high-speed/intercity passenger stock); doors `intercity` (high confidence from the supplied door-layout classification).
 - `BR82` (Class 82): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
 - `BR83` (Class 83): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
 - `BR84` (Class 84): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
@@ -205,10 +205,10 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `BRKestrel` (Kestrel): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
 - `BRMPVDualFreight` (BR MPV Dual Freight): usage `['DEPARTMENTAL', 'UTILITY', 'FREIGHT']` (medium; departmental/engineering or non-standard support stock). Door type not assigned; infer from usage.
 - `BRMPVDualTrack` (British Rail MPV Dual-Track): usage `['DEPARTMENTAL', 'UTILITY']` (medium; departmental/engineering or non-standard support stock). Door type not assigned; infer from usage.
-- `BRMk1` (Mk1 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
-- `BRMk2` (Mk2 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
-- `BRMk3` (Mk3 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `intercity` (confident).
-- `BRMk4` (Mk4 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `intercity` (confident).
+- `BRMk1` (Mk1 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
+- `BRMk2` (Mk2 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
+- `BRMk3` (Mk3 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `intercity` (high confidence from the supplied door-layout classification).
+- `BRMk4` (Mk4 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `intercity` (high confidence from the supplied door-layout classification).
 - `BRMk5` (Mk5 Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock). Door type not assigned; infer from usage.
 - `BRMk5a` (Mk5a Coach): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock). Door type not assigned; infer from usage.
 - `BRStandard9F` (Standard Class 9F): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
@@ -216,7 +216,7 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `BRTTA` (BR TTA Tank Wagon): usage `['FREIGHT']` (high; non-passenger wagon cargo from YAML). Door type not assigned; infer from usage.
 - `BRVGA` (BR VGA Wagon): usage `['FREIGHT']` (high; non-passenger wagon cargo from YAML). Door type not assigned; infer from usage.
 - `CaledonianSingle` (Caledonian Single 4-2-2): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
-- `CoronationSet` (LNER Coronation Set): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
+- `CoronationSet` (LNER Coronation Set): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
 - `Furness115` (Furness Railway 115 Class): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `Furness20TonHopper` (Furness Railway 20-ton Hopper Wagon): usage `['FREIGHT']` (high; non-passenger wagon cargo from YAML). Door type not assigned; infer from usage.
 - `FurnessCoppernob` (Furness A2 Class 0-4-0): usage `['PROTOTYPE']` (high; prototype/experimental identity). Door type not assigned; infer from usage.
@@ -225,10 +225,10 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `FurnessK2` (Furness K2 Class 4-4-0): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `FurnessLumberWagon` (Furness Railway Lumber Wagon): usage `['FREIGHT']` (high; non-passenger wagon cargo from YAML). Door type not assigned; infer from usage.
 - `FurnessTankWagon` (Furness Railway Rectangular Tanker Wagon): usage `['FREIGHT']` (high; non-passenger wagon cargo from YAML). Door type not assigned; infer from usage.
-- `GCRRobinson50CLSO` (GCR Robinson 50ft Semi-Corridor Lavatory Composite): usage `['PASSENGER', 'REGIONAL']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
+- `GCRRobinson50CLSO` (GCR Robinson 50ft Semi-Corridor Lavatory Composite): usage `['PASSENGER', 'REGIONAL']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
 - `GERL77` (GER Class L77 0-6-2T): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `GNRA1` (GNR Gresley Class A1 4-6-2): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
-- `GWR254CompSY` (GWR Dean 25ft 4 Compartment Second Class (SY)): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
+- `GWR254CompSY` (GWR Dean 25ft 4 Compartment Second Class (SY)): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
 - `GWR5700` (GWR Collett 5700 Class 0-6-0PT): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `GWR6700` (GWR Collett 6700 Class 0-6-0PT): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `GWRGreatBear` (GWR Churchward 111 4-6-2): usage `['PASSENGER', 'INTERCITY', 'PROTOTYPE']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
@@ -237,26 +237,26 @@ This note records the vehicle-level assignments made on 2026-10-18. Profiles and
 - `LMS8F` (LMS Stanier Class 8F 2-8-0): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `LMSBlack5` (LMS Stanier Class 5MT 4-6-0): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
 - `LMSJubilee` (LMS Stanier Jubilee Class 4-6-0): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
-- `LMSStanierP3BG` (LMS Stanier Period III 50ft BG): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
+- `LMSStanierP3BG` (LMS Stanier Period III 50ft BG): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
 - `LNERA3` (LNER Gresley Class A3 4-6-2): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
 - `LNERA4` (LNER Gresley Class A4 4-6-2): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
-- `LNERBCK` (LNER Gresley BCK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
-- `LNERBG` (LNER Gresley BG): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
-- `LNERGresley616BCK` (LNER Gresley 61' 6" BCK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
+- `LNERBCK` (LNER Gresley BCK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
+- `LNERBG` (LNER Gresley BG): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
+- `LNERGresley616BCK` (LNER Gresley 61' 6" BCK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
 - `LNERGresley616BG` (LNER Gresley 61' 6" BG): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
-- `LNERGresley616TK` (LNER Gresley 61' 6" TK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
+- `LNERGresley616TK` (LNER Gresley 61' 6" TK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
 - `LNERGresley616TPO` (LNER Gresley 61' 6" TPO): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
 - `LNERJ70` (GER Class C53 0-6-0T): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `LNERP2` (LNER Gresley Class P2 2-8-2): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
 - `LNERPV` (LNER Gresley PV): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
-- `LNERTK` (LNER Gresley TK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
-- `LNERThompson61FK` (LNER Thompson 61' FK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
-- `LNERThompson63TK` (LNER Thompson 63' TK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (confident).
+- `LNERTK` (LNER Gresley TK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
+- `LNERThompson61FK` (LNER Thompson 61' FK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
+- `LNERThompson63TK` (LNER Thompson 63' TK): usage `['PASSENGER', 'INTERCITY']` (medium; coach service role inferred from historical/InterCity stock); doors `slam` (high confidence from the supplied door-layout classification).
 - `LNERV2` (LNER Gresley Class V2 2-6-2): usage `['PASSENGER', 'INTERCITY']` (medium; passenger express locomotive role). Door type not assigned; infer from usage.
 - `LNWRWebb` (LNWR Webb Coal Tank 0-6-2T): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
 - `LSWRAdamsRadial` (LSWR Adams Radial): usage `['FREIGHT']` (medium; locomotive with no passenger role in YAML; freight is best operational fallback). Door type not assigned; infer from usage.
-- `LUAStock` (LU A Stock): usage `['PASSENGER', 'UNDERGROUND', 'METRO', 'LOCAL']` (high; Underground/metro stock); doors `multiple` (confident).
-- `LUCStock` (LU C Stock): usage `['PASSENGER', 'UNDERGROUND', 'METRO', 'LOCAL']` (high; Underground/metro stock); doors `multiple` (confident).
+- `LUAStock` (LU A Stock): usage `['PASSENGER', 'UNDERGROUND', 'METRO', 'LOCAL']` (high; Underground/metro stock); doors `multiple` (high confidence from the supplied door-layout classification).
+- `LUCStock` (LU C Stock): usage `['PASSENGER', 'UNDERGROUND', 'METRO', 'LOCAL']` (high; Underground/metro stock); doors `multiple` (high confidence from the supplied door-layout classification).
 - `MPVSingle` (BR MPV Single): usage `['DEPARTMENTAL', 'UTILITY']` (medium; departmental/engineering or non-standard support stock). Door type not assigned; infer from usage.
 - `RMTPO` (Royal Mail TPO): usage `['MAIL']` (high; mail/parcels role from YAML/candidate identity). Door type not assigned; infer from usage.
 - `RS_SWB_Hopper` (LNER Standard Medium Hopper): usage `['FREIGHT']` (high; non-passenger wagon cargo from YAML). Door type not assigned; infer from usage.
@@ -274,3 +274,16 @@ The Wikipedia slam-door train article explicitly identifies the Class 101–129 
 `LNERJ70` was corrected to remove an erroneous door assignment: it is a locomotive, not passenger stock.
 
 Source: https://en.wikipedia.org/wiki/Slam-door_train
+
+## Door-layout classification incorporated
+
+The supplied research distinguishes door arrangement from service pattern and was applied at vehicle scope:
+
+- `intercity`: narrow, generally single-leaf doors near carriage ends. Applied to Classes 153, 155, 156, 158, 159, 175, 180, 220, 221, 222, 373, 374, 390, 397, 442, 444, 800, 801, 802, 803, 805, 807 and 810.
+- `commuter_double`: wider doors positioned around thirds or quarters. Applied to the listed BRTrains3 classes in the supplied commuter-style grouping, including 141/142/143, 150/151, 165/166, 168/170/171/172, 185, 195/196/197, 303/311, 313/314/315/317/318/319/320/321/322/323, 332/333/334, 350/357/360/365/375/376/377/378/379/380/385/387, 450/455/456/458/460/465/466, 700/701/707/710/717/720/730, 756, 769 and 231.
+- `commuter_triple`: Class 345 remains explicitly assigned as the three-doorway commuter case.
+- `multiple`: retained for London Underground-derived or otherwise unusual multiple-unit arrangements such as Classes 483 and 484; these are not treated as conventional intercity or commuter layouts.
+
+Classes 395, 745, 755 and 230 are deliberately not forced into an existing door enum because the supplied material identifies them as exceptions or unusual layouts. Classes absent from BRTrains3 were not added.
+
+Reference supplied for this update: UK passenger multiple-unit door-layout classification citing Fandom, Wikipedia, GB Trains and Hitachi Rail material.

@@ -21,6 +21,7 @@ stats:
     - ELRL
 
 usage: [PASSENGER, COMMUTER, LOCAL]
+doors: commuter_double
 
 cargo: passenger
 

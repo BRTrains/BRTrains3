@@ -19,6 +19,7 @@ stats:
   # are legacy fields the BRBuild schema does not express.)
 
 usage: [PASSENGER, REGIONAL]
+doors: commuter_double
 
 cargo: passenger
 

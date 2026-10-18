@@ -16,6 +16,7 @@ stats:
     - THIRD
 
 usage: [PASSENGER, REGIONAL]
+doors: commuter_double
 
 cargo: passenger
 

@@ -25,6 +25,7 @@ stats:
   # for the per-position `switch_br_231_particles` effect the schema cannot express.
 
 usage: [PASSENGER, REGIONAL]
+doors: commuter_double
 
 cargo: passenger
 
