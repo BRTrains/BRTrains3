@@ -43718,14 +43718,14 @@ variants:
       Single - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Blue Geometry
     str_br_mpv_single_default_network_rail_blue_geometry_train_nested_name: '{SILVER}Locomotive{BLACK}
       - {GOLD}Network Rail Blue Geometry'
-- id: 2641
+- id: null
   vehicle: lu_c_stock
   profile: default
   livery: tfl
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 205
@@ -43742,14 +43742,14 @@ variants:
     str_lu_c_stock_default_tfl_train_group_name: LU C Stock - {SILVER}3-car{BLACK}
       - {GOLD}TfL
     str_lu_c_stock_default_tfl_train_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
-- id: 2642
+- id: null
   vehicle: lu_a_stock
   profile: default
   livery: tfl
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 205
@@ -43766,14 +43766,14 @@ variants:
     str_lu_a_stock_default_tfl_train_name: LU A Stock - {SILVER}3-car{BLACK} - {GOLD}TfL
     str_lu_a_stock_default_tfl_train_group_name: LU A Stock - {SILVER}3-car{BLACK}
       - {GOLD}TfL
-- id: 2643
+- id: null
   vehicle: lu_a_stock
   profile: default
   livery: tfl unpainted
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 205
