@@ -9,9 +9,9 @@ stats:
   train_type: locomotive
   weight: 130
   length: 5
-  power: 1800
+  power: 11400
   speed: 50
-  tractive_effort: 0.28
+  tractive_effort: 144
   power_type:
     - steam
 
