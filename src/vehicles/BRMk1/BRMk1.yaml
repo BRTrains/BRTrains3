@@ -27,6 +27,7 @@ profiles:
     num_vehicles: 1
     capacity: 64
     introduction_date: 1952-04-21
+    years_available: 8
 
   - identifier: tso_100
     name: 'Tourist Standard Open (100 mph)'
@@ -35,6 +36,7 @@ profiles:
     capacity: 64
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'tso'
 
   # The Standard Corridor reads `template_train32px(0, 0)` of the five per-livery sheets, per
@@ -52,6 +54,7 @@ profiles:
     capacity: 48
     weight: 32
     introduction_date: 1951-04-21
+    years_available: 9
     sprite_group: 'tso'
 
   - identifier: sk_100
@@ -62,6 +65,7 @@ profiles:
     weight: 32
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'sk'
 
   - identifier: so
@@ -81,6 +85,7 @@ profiles:
     capacity: 44
     weight: 35
     introduction_date: 1957-04-21
+    years_available: 3
     spritesheet: BRMk1RMB.png
 
   - identifier: rmb_100
@@ -91,6 +96,7 @@ profiles:
     weight: 35
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'rmb'
 
   # The Brake Standard Corridor reads y=104 of those same five sheets, per the
@@ -105,6 +111,7 @@ profiles:
     capacity: 32
     weight: 36
     introduction_date: 1951-04-21
+    years_available: 9
     spritesheet: BRMk1BSK.png
 
   - identifier: bsk_100
@@ -115,6 +122,7 @@ profiles:
     weight: 36
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'bsk'
 
   - identifier: bso
@@ -124,6 +132,7 @@ profiles:
     capacity: 39
     weight: 34
     introduction_date: 1955-04-21
+    years_available: 5
     sprite_group: 'bsk'
 
   - identifier: bso_100
@@ -134,6 +143,7 @@ profiles:
     weight: 34
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'bso'
 
   - identifier: bsot
@@ -143,6 +153,7 @@ profiles:
     capacity: 31
     weight: 35
     introduction_date: 1952-04-21
+    years_available: 8
     sprite_group: 'bsk'
 
   - identifier: bsot_100
@@ -153,6 +164,7 @@ profiles:
     weight: 35
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'bsot'
 
   - identifier: ck
@@ -162,6 +174,7 @@ profiles:
     capacity: 48
     weight: 32
     introduction_date: 1952-04-21
+    years_available: 8
     spritesheet: BRMk1CK.png
 
   - identifier: ck_100
@@ -172,6 +185,7 @@ profiles:
     weight: 32
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'ck'
 
   - identifier: fo
@@ -181,6 +195,7 @@ profiles:
     capacity: 42
     weight: 33
     introduction_date: 1951-04-21
+    years_available: 9
     spritesheet: BRMk1FO.png
 
   - identifier: fo_100
@@ -191,6 +206,7 @@ profiles:
     weight: 33
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'fo'
 
   - identifier: fk
@@ -200,6 +216,7 @@ profiles:
     capacity: 42
     weight: 32
     introduction_date: 1951-04-21
+    years_available: 9
     spritesheet: BRMk1FK.png
 
   - identifier: fk_100
@@ -210,6 +227,7 @@ profiles:
     weight: 32
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'fk'
 
   - identifier: bck
@@ -219,6 +237,7 @@ profiles:
     capacity: 24
     weight: 36
     introduction_date: 1952-04-21
+    years_available: 8
     spritesheet: BRMk1BCK.png
 
   - identifier: bck_100
@@ -229,6 +248,7 @@ profiles:
     weight: 36
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'bck'
 
   - identifier: bfk
@@ -238,6 +258,7 @@ profiles:
     capacity: 24
     weight: 36
     introduction_date: 1951-04-21
+    years_available: 9
     spritesheet: BRMk1BFK.png
 
   - identifier: bfk_100
@@ -248,6 +269,7 @@ profiles:
     weight: 36
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'bfk'
 
   # The Restaurant Kitchen reads y=208 of the five per-livery sheets, per the
@@ -262,6 +284,7 @@ profiles:
     capacity: 0
     weight: 36
     introduction_date: 1951-04-21
+    years_available: 9
     spritesheet: BRMk1RK.png
 
   - identifier: rk_100
@@ -272,6 +295,7 @@ profiles:
     weight: 36
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     sprite_group: 'rk'
 
   # The Brake Gangwayed reads y=182 of the five per-livery sheets, per the
@@ -288,6 +312,7 @@ profiles:
     capacity: 10
     weight: 32
     introduction_date: 1951-04-21
+    years_available: 9
     cargo: mail
     spritesheet: BRMk1BG.png
 
@@ -299,6 +324,7 @@ profiles:
     weight: 32
     speed: 100
     introduction_date: 1961-04-21
+    vehicle_life: 30
     cargo: mail
     sprite_group: 'bg'
 
