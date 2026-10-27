@@ -22,11 +22,20 @@ dates:
 
 profiles:
   - identifier: tso
-    name: 'Tourist Standard Open'
-    sub_name: 'Tourist Standard Open'
+    name: 'Tourist Standard Open (90 mph)'
+    sub_name: 'Tourist Standard Open (90 mph)'
     num_vehicles: 1
     capacity: 64
     introduction_date: 1952-04-21
+
+  - identifier: tso_100
+    name: 'Tourist Standard Open (100 mph)'
+    sub_name: 'Tourist Standard Open (100 mph)'
+    num_vehicles: 1
+    capacity: 64
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'tso'
 
   # The Standard Corridor reads `template_train32px(0, 0)` of the five per-livery sheets, per
   # `spriteset_BRMk1SK_*` in BRTrains2
@@ -37,31 +46,52 @@ profiles:
   # a spare band; the corridor coach therefore draws the open-coach artwork in BRTrains2 too.
   # See the oddities file for the query.
   - identifier: sk
-    name: 'Standard Corridor'
-    sub_name: 'Standard Corridor'
+    name: 'Standard Corridor (90 mph)'
+    sub_name: 'Standard Corridor (90 mph)'
     num_vehicles: 1
     capacity: 48
     weight: 32
     introduction_date: 1951-04-21
     sprite_group: 'tso'
 
-  - identifier: so
-    name: 'Standard Open'
-    sub_name: 'Standard Open'
+  - identifier: sk_100
+    name: 'Standard Corridor (100 mph)'
+    sub_name: 'Standard Corridor (100 mph)'
     num_vehicles: 1
     capacity: 48
+    weight: 32
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'sk'
+
+  - identifier: so
+    name: 'Standard Open (100 mph)'
+    sub_name: 'Standard Open (100 mph)'
+    num_vehicles: 1
+    capacity: 48
+    speed: 100
     weight: 32
     introduction_date: 1963-04-21
     sprite_group: 'tso'
 
   - identifier: rmb
-    name: 'Restaurant Buffet'
-    sub_name: 'Restaurant Buffet'
+    name: 'Restaurant Buffet (90 mph)'
+    sub_name: 'Restaurant Buffet (90 mph)'
     num_vehicles: 1
     capacity: 44
     weight: 35
     introduction_date: 1957-04-21
     spritesheet: BRMk1RMB.png
+
+  - identifier: rmb_100
+    name: 'Restaurant Buffet (100 mph)'
+    sub_name: 'Restaurant Buffet (100 mph)'
+    num_vehicles: 1
+    capacity: 44
+    weight: 35
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'rmb'
 
   # The Brake Standard Corridor reads y=104 of those same five sheets, per the
   # `spriteset_BRMk1BSK_*` declarations in BRTrains2
@@ -69,76 +99,156 @@ profiles:
   # `BRMk1BSK.png`, composed by `BRTrains3-artwork-tools/compose_br_mk1_type_sheet.py 104`.
   # The same band is read by the BSO and BSOT in the legacy (query on the type's own entry).
   - identifier: bsk
-    name: 'Brake Standard Corridor'
-    sub_name: 'Brake Standard Corridor'
+    name: 'Brake Standard Corridor (90 mph)'
+    sub_name: 'Brake Standard Corridor (90 mph)'
     num_vehicles: 1
     capacity: 32
     weight: 36
     introduction_date: 1951-04-21
     spritesheet: BRMk1BSK.png
 
+  - identifier: bsk_100
+    name: 'Brake Standard Corridor (100 mph)'
+    sub_name: 'Brake Standard Corridor (100 mph)'
+    num_vehicles: 1
+    capacity: 32
+    weight: 36
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'bsk'
+
   - identifier: bso
-    name: 'Brake Standard Open'
-    sub_name: 'Brake Standard Open'
+    name: 'Brake Standard Open (90 mph)'
+    sub_name: 'Brake Standard Open (90 mph)'
     num_vehicles: 1
     capacity: 39
     weight: 34
     introduction_date: 1955-04-21
     sprite_group: 'bsk'
 
+  - identifier: bso_100
+    name: 'Brake Standard Open (100 mph)'
+    sub_name: 'Brake Standard Open (100 mph)'
+    num_vehicles: 1
+    capacity: 39
+    weight: 34
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'bso'
+
   - identifier: bsot
-    name: 'Brake Standard Open Mini-Buffet'
-    sub_name: 'Brake Standard Open Mini-Buffet'
+    name: 'Brake Standard Open Mini-Buffet (90 mph)'
+    sub_name: 'Brake Standard Open Mini-Buffet (90 mph)'
     num_vehicles: 1
     capacity: 31
     weight: 35
     introduction_date: 1952-04-21
     sprite_group: 'bsk'
 
+  - identifier: bsot_100
+    name: 'Brake Standard Open Mini-Buffet (100 mph)'
+    sub_name: 'Brake Standard Open Mini-Buffet (100 mph)'
+    num_vehicles: 1
+    capacity: 31
+    weight: 35
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'bsot'
+
   - identifier: ck
-    name: 'Composite Corridor'
-    sub_name: 'Composite Corridor'
+    name: 'Composite Corridor (90 mph)'
+    sub_name: 'Composite Corridor (90 mph)'
     num_vehicles: 1
     capacity: 48
     weight: 32
     introduction_date: 1952-04-21
     spritesheet: BRMk1CK.png
 
+  - identifier: ck_100
+    name: 'Composite Corridor (100 mph)'
+    sub_name: 'Composite Corridor (100 mph)'
+    num_vehicles: 1
+    capacity: 48
+    weight: 32
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'ck'
+
   - identifier: fo
-    name: 'First Open'
-    sub_name: 'First Open'
+    name: 'First Open (90 mph)'
+    sub_name: 'First Open (90 mph)'
     num_vehicles: 1
     capacity: 42
     weight: 33
     introduction_date: 1951-04-21
     spritesheet: BRMk1FO.png
 
+  - identifier: fo_100
+    name: 'First Open (100 mph)'
+    sub_name: 'First Open (100 mph)'
+    num_vehicles: 1
+    capacity: 42
+    weight: 33
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'fo'
+
   - identifier: fk
-    name: 'First Corridor'
-    sub_name: 'First Corridor'
+    name: 'First Corridor (90 mph)'
+    sub_name: 'First Corridor (90 mph)'
     num_vehicles: 1
     capacity: 42
     weight: 32
     introduction_date: 1951-04-21
     spritesheet: BRMk1FK.png
 
+  - identifier: fk_100
+    name: 'First Corridor (100 mph)'
+    sub_name: 'First Corridor (100 mph)'
+    num_vehicles: 1
+    capacity: 42
+    weight: 32
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'fk'
+
   - identifier: bck
-    name: 'Brake Composite Corridor'
-    sub_name: 'Brake Composite Corridor'
+    name: 'Brake Composite Corridor (90 mph)'
+    sub_name: 'Brake Composite Corridor (90 mph)'
     num_vehicles: 1
     capacity: 24
     weight: 36
     introduction_date: 1952-04-21
     spritesheet: BRMk1BCK.png
 
+  - identifier: bck_100
+    name: 'Brake Composite Corridor (100 mph)'
+    sub_name: 'Brake Composite Corridor (100 mph)'
+    num_vehicles: 1
+    capacity: 24
+    weight: 36
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'bck'
+
   - identifier: bfk
-    name: 'Brake First Corridor'
-    sub_name: 'Brake First Corridor'
+    name: 'Brake First Corridor (90 mph)'
+    sub_name: 'Brake First Corridor (90 mph)'
     num_vehicles: 1
     capacity: 24
     weight: 36
     introduction_date: 1951-04-21
     spritesheet: BRMk1BFK.png
+
+  - identifier: bfk_100
+    name: 'Brake First Corridor (100 mph)'
+    sub_name: 'Brake First Corridor (100 mph)'
+    num_vehicles: 1
+    capacity: 24
+    weight: 36
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'bfk'
 
   # The Restaurant Kitchen reads y=208 of the five per-livery sheets, per the
   # `spriteset_BRMk1RK_*` declarations in BRTrains2
@@ -146,13 +256,23 @@ profiles:
   # band, so it keeps a sheet of its own, composed by
   # `BRTrains3-artwork-tools/compose_br_mk1_type_sheet.py 208 BRMk1RK.png`.
   - identifier: rk
-    name: 'Restaurant Kitchen'
-    sub_name: 'Restaurant Kitchen'
+    name: 'Restaurant Kitchen (90 mph)'
+    sub_name: 'Restaurant Kitchen (90 mph)'
     num_vehicles: 1
     capacity: 0
     weight: 36
     introduction_date: 1951-04-21
     spritesheet: BRMk1RK.png
+
+  - identifier: rk_100
+    name: 'Restaurant Kitchen (100 mph)'
+    sub_name: 'Restaurant Kitchen (100 mph)'
+    num_vehicles: 1
+    capacity: 0
+    weight: 36
+    speed: 100
+    introduction_date: 1961-04-21
+    sprite_group: 'rk'
 
   # The Brake Gangwayed reads y=182 of the five per-livery sheets, per the
   # `spriteset_BRMk1BG_*` declarations in BRTrains2
@@ -162,14 +282,25 @@ profiles:
   # The legacy item refits to MAIL only (`cargo_allow_refit: [MAIL]`,
   # `default_cargo_type: MAIL`), so the profile states the mail preset.
   - identifier: bg
-    name: 'Brake Gangwayed'
-    sub_name: 'Brake Gangwayed'
+    name: 'Brake Gangwayed (90 mph)'
+    sub_name: 'Brake Gangwayed (90 mph)'
     num_vehicles: 1
     capacity: 10
     weight: 32
     introduction_date: 1951-04-21
     cargo: mail
     spritesheet: BRMk1BG.png
+
+  - identifier: bg_100
+    name: 'Brake Gangwayed (100 mph)'
+    sub_name: 'Brake Gangwayed (100 mph)'
+    num_vehicles: 1
+    capacity: 10
+    weight: 32
+    speed: 100
+    introduction_date: 1961-04-21
+    cargo: mail
+    sprite_group: 'bg'
 
 liveries:
   - name: 'BR Carmine and Cream'

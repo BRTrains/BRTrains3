@@ -10983,12 +10983,12 @@ variants:
   identifier: br_730_730_0_3car_west_midlands_railway_train
   name_string: str_br_730_730_0_3car_west_midlands_railway_train_name
   strings:
-    str_br_730_730_0_3car_west_midlands_railway_train_name: Class 730 "Aventra" -
-      {SILVER}3-car{BLACK} - {GOLD}West Midlands Railway
-    str_br_730_730_0_3car_west_midlands_railway_train_group_name: Class 730 "Aventra"
-      - {SILVER}3-car{BLACK} - {GOLD}West Midlands Railway
-    str_br_730_730_0_3car_west_midlands_railway_train_nested_name: '{SILVER}3-car{BLACK}
+    str_br_196_1961_west_midlands_railway_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}West Midlands Railway'
+    str_br_730_730_0_3car_west_midlands_railway_train_name: Class 730 "Aventra" -
+      {SILVER}4-car{BLACK} - {GOLD}West Midlands Railway
+    str_br_730_730_0_3car_west_midlands_railway_train_group_name: Class 730 "Aventra"
+      - {SILVER}4-car{BLACK} - {GOLD}West Midlands Railway
 - id: 1371
   vehicle: br_730
   profile: 730_2_5car
@@ -18252,12 +18252,12 @@ variants:
   identifier: br_172_23_3car_west_midlands_railway_train
   name_string: str_br_172_23_3car_west_midlands_railway_train_name
   strings:
-    str_br_730_730_0_3car_west_midlands_railway_train_nested_name: '{SILVER}3-car{BLACK}
-      - {GOLD}West Midlands Railway'
     str_br_172_23_3car_west_midlands_railway_train_name: Class 172/2/3 "Turbostar"
       - {SILVER}3-car{BLACK} - {GOLD}West Midlands Railway
     str_br_172_23_3car_west_midlands_railway_train_group_name: Class 172/2/3 "Turbostar"
       - {SILVER}3-car{BLACK} - {GOLD}West Midlands Railway
+    str_br_172_23_3car_west_midlands_railway_train_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}West Midlands Railway'
 - id: 1667
   vehicle: br_172_23
   profile: 3car
@@ -19004,7 +19004,7 @@ variants:
   identifier: br_170_3car_west_midlands_railway_train
   name_string: str_br_170_3car_west_midlands_railway_train_name
   strings:
-    str_br_730_730_0_3car_west_midlands_railway_train_nested_name: '{SILVER}3-car{BLACK}
+    str_br_172_23_3car_west_midlands_railway_train_nested_name: '{SILVER}3-car{BLACK}
       - {GOLD}West Midlands Railway'
     str_br_170_3car_west_midlands_railway_train_name: Class 170 "Turbostar" - {SILVER}3-car{BLACK}
       - {GOLD}West Midlands Railway
@@ -21911,9 +21911,9 @@ variants:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
     str_br_mk1_tso_br_carmine_and_cream_train_name: Mk1 Coach Tourist Standard Open
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_tso_br_carmine_and_cream_train_group_name: Mk1 Coach Tourist Standard
-      Open - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      Open 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1811
   vehicle: br_mk1
   profile: tso
@@ -21933,9 +21933,9 @@ variants:
   name_string: str_br_mk1_tso_br_chocolate_and_cream_train_name
   strings:
     str_br_mk1_tso_br_chocolate_and_cream_train_name: Mk1 Coach Tourist Standard Open
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_tso_br_chocolate_and_cream_train_group_name: Mk1 Coach Tourist Standard
-      Open - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      Open 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
 - id: 1812
@@ -21957,9 +21957,9 @@ variants:
   name_string: str_br_mk1_tso_br_malachite_green_train_name
   strings:
     str_br_mk1_tso_br_malachite_green_train_name: Mk1 Coach Tourist Standard Open
-      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
     str_br_mk1_tso_br_malachite_green_train_group_name: Mk1 Coach Tourist Standard
-      Open - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      Open 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
 - id: 1813
@@ -21982,10 +21982,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_tso_br_maroon_train_name: Mk1 Coach Tourist Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
-    str_br_mk1_tso_br_maroon_train_group_name: Mk1 Coach Tourist Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
+    str_br_mk1_tso_br_maroon_train_name: Mk1 Coach Tourist Standard Open 90 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_tso_br_maroon_train_group_name: Mk1 Coach Tourist Standard Open 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 1814
   vehicle: br_mk1
   profile: tso
@@ -22004,10 +22004,10 @@ variants:
   identifier: br_mk1_tso_br_blue_and_grey_train
   name_string: str_br_mk1_tso_br_blue_and_grey_train_name
   strings:
-    str_br_mk1_tso_br_blue_and_grey_train_name: Mk1 Coach Tourist Standard Open -
-      {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_tso_br_blue_and_grey_train_name: Mk1 Coach Tourist Standard Open 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
     str_br_mk1_tso_br_blue_and_grey_train_group_name: Mk1 Coach Tourist Standard Open
-      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
 - id: 1815
@@ -22427,10 +22427,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
-    str_br_mk1_rmb_br_carmine_and_cream_train_name: Mk1 Coach Restaurant Buffet -
-      {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_rmb_br_carmine_and_cream_train_name: Mk1 Coach Restaurant Buffet 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_rmb_br_carmine_and_cream_train_group_name: Mk1 Coach Restaurant Buffet
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1687
   vehicle: br_mk1
   profile: rmb
@@ -22452,9 +22452,9 @@ variants:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
     str_br_mk1_rmb_br_chocolate_and_cream_train_name: Mk1 Coach Restaurant Buffet
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_rmb_br_chocolate_and_cream_train_group_name: Mk1 Coach Restaurant Buffet
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1688
   vehicle: br_mk1
   profile: rmb
@@ -22475,10 +22475,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_rmb_br_malachite_green_train_name: Mk1 Coach Restaurant Buffet - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
-    str_br_mk1_rmb_br_malachite_green_train_group_name: Mk1 Coach Restaurant Buffet
+    str_br_mk1_rmb_br_malachite_green_train_name: Mk1 Coach Restaurant Buffet 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_rmb_br_malachite_green_train_group_name: Mk1 Coach Restaurant Buffet
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1690
   vehicle: br_mk1
   profile: rmb
@@ -22499,10 +22499,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_rmb_br_maroon_train_name: Mk1 Coach Restaurant Buffet - {SILVER}coach{BLACK}
+    str_br_mk1_rmb_br_maroon_train_name: Mk1 Coach Restaurant Buffet 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_rmb_br_maroon_train_group_name: Mk1 Coach Restaurant Buffet - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
+    str_br_mk1_rmb_br_maroon_train_group_name: Mk1 Coach Restaurant Buffet 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 1697
   vehicle: br_mk1
   profile: rmb
@@ -22523,10 +22523,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_rmb_br_blue_and_grey_train_name: Mk1 Coach Restaurant Buffet - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
-    str_br_mk1_rmb_br_blue_and_grey_train_group_name: Mk1 Coach Restaurant Buffet
+    str_br_mk1_rmb_br_blue_and_grey_train_name: Mk1 Coach Restaurant Buffet 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_rmb_br_blue_and_grey_train_group_name: Mk1 Coach Restaurant Buffet
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1830
   vehicle: br_170
   profile: 2car
@@ -23117,9 +23117,9 @@ variants:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
     str_br_mk1_bsk_br_carmine_and_cream_train_name: Mk1 Coach Brake Standard Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_bsk_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Standard
-      Corridor - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      Corridor 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1853
   vehicle: br_mk1
   profile: bsk
@@ -23141,9 +23141,9 @@ variants:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
     str_br_mk1_bsk_br_chocolate_and_cream_train_name: Mk1 Coach Brake Standard Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_bsk_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Standard
-      Corridor - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      Corridor 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1854
   vehicle: br_mk1
   profile: bsk
@@ -23165,9 +23165,9 @@ variants:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
     str_br_mk1_bsk_br_malachite_green_train_name: Mk1 Coach Brake Standard Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
     str_br_mk1_bsk_br_malachite_green_train_group_name: Mk1 Coach Brake Standard Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1855
   vehicle: br_mk1
   profile: bsk
@@ -23188,10 +23188,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_bsk_br_maroon_train_name: Mk1 Coach Brake Standard Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
-    str_br_mk1_bsk_br_maroon_train_group_name: Mk1 Coach Brake Standard Corridor -
-      {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_bsk_br_maroon_train_name: Mk1 Coach Brake Standard Corridor 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_bsk_br_maroon_train_group_name: Mk1 Coach Brake Standard Corridor 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 1856
   vehicle: br_mk1
   profile: bsk
@@ -23213,9 +23213,9 @@ variants:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
     str_br_mk1_bsk_br_blue_and_grey_train_name: Mk1 Coach Brake Standard Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
     str_br_mk1_bsk_br_blue_and_grey_train_group_name: Mk1 Coach Brake Standard Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1857
   vehicle: br_mk1
   profile: ck
@@ -23236,10 +23236,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
-    str_br_mk1_ck_br_carmine_and_cream_train_name: Mk1 Coach Composite Corridor -
-      {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_ck_br_carmine_and_cream_train_name: Mk1 Coach Composite Corridor 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_ck_br_carmine_and_cream_train_group_name: Mk1 Coach Composite Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1858
   vehicle: br_mk1
   profile: ck
@@ -23261,9 +23261,9 @@ variants:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
     str_br_mk1_ck_br_chocolate_and_cream_train_name: Mk1 Coach Composite Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_ck_br_chocolate_and_cream_train_group_name: Mk1 Coach Composite Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1859
   vehicle: br_mk1
   profile: ck
@@ -23284,10 +23284,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_ck_br_malachite_green_train_name: Mk1 Coach Composite Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
-    str_br_mk1_ck_br_malachite_green_train_group_name: Mk1 Coach Composite Corridor
+    str_br_mk1_ck_br_malachite_green_train_name: Mk1 Coach Composite Corridor 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_ck_br_malachite_green_train_group_name: Mk1 Coach Composite Corridor
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1860
   vehicle: br_mk1
   profile: ck
@@ -23308,10 +23308,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_ck_br_maroon_train_name: Mk1 Coach Composite Corridor - {SILVER}coach{BLACK}
+    str_br_mk1_ck_br_maroon_train_name: Mk1 Coach Composite Corridor 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_ck_br_maroon_train_group_name: Mk1 Coach Composite Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
+    str_br_mk1_ck_br_maroon_train_group_name: Mk1 Coach Composite Corridor 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 1861
   vehicle: br_mk1
   profile: ck
@@ -23332,10 +23332,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_ck_br_blue_and_grey_train_name: Mk1 Coach Composite Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
-    str_br_mk1_ck_br_blue_and_grey_train_group_name: Mk1 Coach Composite Corridor
+    str_br_mk1_ck_br_blue_and_grey_train_name: Mk1 Coach Composite Corridor 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_ck_br_blue_and_grey_train_group_name: Mk1 Coach Composite Corridor
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1862
   vehicle: br_484
   profile: default
@@ -23706,10 +23706,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
-    str_br_mk1_fo_br_carmine_and_cream_train_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
+    str_br_mk1_fo_br_carmine_and_cream_train_name: Mk1 Coach First Open 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream
-    str_br_mk1_fo_br_carmine_and_cream_train_group_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Carmine and Cream
+    str_br_mk1_fo_br_carmine_and_cream_train_group_name: Mk1 Coach First Open 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1877
   vehicle: br_mk1
   profile: fo
@@ -23730,10 +23730,10 @@ variants:
   strings:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
-    str_br_mk1_fo_br_chocolate_and_cream_train_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Chocolate and Cream
-    str_br_mk1_fo_br_chocolate_and_cream_train_group_name: Mk1 Coach First Open -
+    str_br_mk1_fo_br_chocolate_and_cream_train_name: Mk1 Coach First Open 90 mph -
       {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_fo_br_chocolate_and_cream_train_group_name: Mk1 Coach First Open 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1878
   vehicle: br_mk1
   profile: fo
@@ -23754,10 +23754,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_fo_br_malachite_green_train_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
+    str_br_mk1_fo_br_malachite_green_train_name: Mk1 Coach First Open 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Malachite Green
-    str_br_mk1_fo_br_malachite_green_train_group_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
+    str_br_mk1_fo_br_malachite_green_train_group_name: Mk1 Coach First Open 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1879
   vehicle: br_mk1
   profile: fo
@@ -23778,9 +23778,9 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_fo_br_maroon_train_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
+    str_br_mk1_fo_br_maroon_train_name: Mk1 Coach First Open 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_fo_br_maroon_train_group_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
+    str_br_mk1_fo_br_maroon_train_group_name: Mk1 Coach First Open 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
 - id: 1880
   vehicle: br_mk1
@@ -23802,10 +23802,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_fo_br_blue_and_grey_train_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
+    str_br_mk1_fo_br_blue_and_grey_train_name: Mk1 Coach First Open 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Blue and Grey
-    str_br_mk1_fo_br_blue_and_grey_train_group_name: Mk1 Coach First Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
+    str_br_mk1_fo_br_blue_and_grey_train_group_name: Mk1 Coach First Open 90 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1881
   vehicle: br_mk1
   profile: fk
@@ -23826,10 +23826,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
-    str_br_mk1_fk_br_carmine_and_cream_train_name: Mk1 Coach First Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Carmine and Cream
-    str_br_mk1_fk_br_carmine_and_cream_train_group_name: Mk1 Coach First Corridor
+    str_br_mk1_fk_br_carmine_and_cream_train_name: Mk1 Coach First Corridor 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_fk_br_carmine_and_cream_train_group_name: Mk1 Coach First Corridor
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1882
   vehicle: br_mk1
   profile: fk
@@ -23850,10 +23850,10 @@ variants:
   strings:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
-    str_br_mk1_fk_br_chocolate_and_cream_train_name: Mk1 Coach First Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Chocolate and Cream
-    str_br_mk1_fk_br_chocolate_and_cream_train_group_name: Mk1 Coach First Corridor
+    str_br_mk1_fk_br_chocolate_and_cream_train_name: Mk1 Coach First Corridor 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_fk_br_chocolate_and_cream_train_group_name: Mk1 Coach First Corridor
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1883
   vehicle: br_mk1
   profile: fk
@@ -23874,10 +23874,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_fk_br_malachite_green_train_name: Mk1 Coach First Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
-    str_br_mk1_fk_br_malachite_green_train_group_name: Mk1 Coach First Corridor -
+    str_br_mk1_fk_br_malachite_green_train_name: Mk1 Coach First Corridor 90 mph -
       {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_fk_br_malachite_green_train_group_name: Mk1 Coach First Corridor 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1884
   vehicle: br_mk1
   profile: fk
@@ -23898,9 +23898,9 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_fk_br_maroon_train_name: Mk1 Coach First Corridor - {SILVER}coach{BLACK}
+    str_br_mk1_fk_br_maroon_train_name: Mk1 Coach First Corridor 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_fk_br_maroon_train_group_name: Mk1 Coach First Corridor - {SILVER}coach{BLACK}
+    str_br_mk1_fk_br_maroon_train_group_name: Mk1 Coach First Corridor 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
 - id: 1885
   vehicle: br_mk1
@@ -23922,10 +23922,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_fk_br_blue_and_grey_train_name: Mk1 Coach First Corridor - {SILVER}coach{BLACK}
+    str_br_mk1_fk_br_blue_and_grey_train_name: Mk1 Coach First Corridor 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Blue and Grey
-    str_br_mk1_fk_br_blue_and_grey_train_group_name: Mk1 Coach First Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
+    str_br_mk1_fk_br_blue_and_grey_train_group_name: Mk1 Coach First Corridor 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1886
   vehicle: br_319
   profile: '319_4'
@@ -24183,9 +24183,9 @@ variants:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
     str_br_mk1_bso_br_carmine_and_cream_train_name: Mk1 Coach Brake Standard Open
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_bso_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Standard
-      Open - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      Open 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1896
   vehicle: br_mk1
   profile: bso
@@ -24207,9 +24207,9 @@ variants:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
     str_br_mk1_bso_br_chocolate_and_cream_train_name: Mk1 Coach Brake Standard Open
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_bso_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Standard
-      Open - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      Open 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1897
   vehicle: br_mk1
   profile: bso
@@ -24230,10 +24230,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_bso_br_malachite_green_train_name: Mk1 Coach Brake Standard Open -
-      {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bso_br_malachite_green_train_name: Mk1 Coach Brake Standard Open 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
     str_br_mk1_bso_br_malachite_green_train_group_name: Mk1 Coach Brake Standard Open
-      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1898
   vehicle: br_mk1
   profile: bso
@@ -24254,10 +24254,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_bso_br_maroon_train_name: Mk1 Coach Brake Standard Open - {SILVER}coach{BLACK}
+    str_br_mk1_bso_br_maroon_train_name: Mk1 Coach Brake Standard Open 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_bso_br_maroon_train_group_name: Mk1 Coach Brake Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
+    str_br_mk1_bso_br_maroon_train_group_name: Mk1 Coach Brake Standard Open 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 1899
   vehicle: br_mk1
   profile: bso
@@ -24278,10 +24278,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_bso_br_blue_and_grey_train_name: Mk1 Coach Brake Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
-    str_br_mk1_bso_br_blue_and_grey_train_group_name: Mk1 Coach Brake Standard Open
+    str_br_mk1_bso_br_blue_and_grey_train_name: Mk1 Coach Brake Standard Open 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_bso_br_blue_and_grey_train_group_name: Mk1 Coach Brake Standard Open
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1900
   vehicle: br_mk1
   profile: bsot
@@ -24303,9 +24303,9 @@ variants:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
     str_br_mk1_bsot_br_carmine_and_cream_train_name: Mk1 Coach Brake Standard Open
-      Mini-Buffet - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      Mini-Buffet 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_bsot_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Standard
-      Open Mini-Buffet - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      Open Mini-Buffet 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1901
   vehicle: br_mk1
   profile: bsot
@@ -24327,9 +24327,9 @@ variants:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
     str_br_mk1_bsot_br_chocolate_and_cream_train_name: Mk1 Coach Brake Standard Open
-      Mini-Buffet - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      Mini-Buffet 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_bsot_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Standard
-      Open Mini-Buffet - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      Open Mini-Buffet 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1902
   vehicle: br_mk1
   profile: bsot
@@ -24351,9 +24351,9 @@ variants:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
     str_br_mk1_bsot_br_malachite_green_train_name: Mk1 Coach Brake Standard Open Mini-Buffet
-      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
     str_br_mk1_bsot_br_malachite_green_train_group_name: Mk1 Coach Brake Standard
-      Open Mini-Buffet - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      Open Mini-Buffet 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1903
   vehicle: br_mk1
   profile: bsot
@@ -24375,9 +24375,9 @@ variants:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
     str_br_mk1_bsot_br_maroon_train_name: Mk1 Coach Brake Standard Open Mini-Buffet
-      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
     str_br_mk1_bsot_br_maroon_train_group_name: Mk1 Coach Brake Standard Open Mini-Buffet
-      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 1904
   vehicle: br_mk1
   profile: bsot
@@ -24399,9 +24399,9 @@ variants:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
     str_br_mk1_bsot_br_blue_and_grey_train_name: Mk1 Coach Brake Standard Open Mini-Buffet
-      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
     str_br_mk1_bsot_br_blue_and_grey_train_group_name: Mk1 Coach Brake Standard Open
-      Mini-Buffet - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+      Mini-Buffet 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1905
   vehicle: br_305
   profile: '305_1'
@@ -26139,9 +26139,9 @@ variants:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
     str_br_mk1_bck_br_carmine_and_cream_train_name: Mk1 Coach Brake Composite Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_bck_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Composite
-      Corridor - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      Corridor 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1970
   vehicle: br_mk1
   profile: bck
@@ -26163,9 +26163,9 @@ variants:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
     str_br_mk1_bck_br_chocolate_and_cream_train_name: Mk1 Coach Brake Composite Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_bck_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Composite
-      Corridor - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      Corridor 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1971
   vehicle: br_mk1
   profile: bck
@@ -26187,9 +26187,9 @@ variants:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
     str_br_mk1_bck_br_malachite_green_train_name: Mk1 Coach Brake Composite Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
     str_br_mk1_bck_br_malachite_green_train_group_name: Mk1 Coach Brake Composite
-      Corridor - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      Corridor 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1972
   vehicle: br_mk1
   profile: bck
@@ -26210,10 +26210,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_bck_br_maroon_train_name: Mk1 Coach Brake Composite Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
-    str_br_mk1_bck_br_maroon_train_group_name: Mk1 Coach Brake Composite Corridor
+    str_br_mk1_bck_br_maroon_train_name: Mk1 Coach Brake Composite Corridor 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_bck_br_maroon_train_group_name: Mk1 Coach Brake Composite Corridor
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 1973
   vehicle: br_mk1
   profile: bck
@@ -26235,9 +26235,9 @@ variants:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
     str_br_mk1_bck_br_blue_and_grey_train_name: Mk1 Coach Brake Composite Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
     str_br_mk1_bck_br_blue_and_grey_train_group_name: Mk1 Coach Brake Composite Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1974
   vehicle: br_380
   profile: '380_0'
@@ -26589,11 +26589,11 @@ variants:
   identifier: br_700_br_700_12_govia_thameslink_train
   name_string: str_br_700_br_700_12_govia_thameslink_train_name
   strings:
-    str_br_700_br_700_12_govia_thameslink_train_name: Class 700 "Desiro City" - {SILVER}12-car{BLACK}
+    str_br_700_br_700_12_govia_thameslink_train_name: Class 700 "Desiro City" - {SILVER}11-car{BLACK}
       - {GOLD}Govia Thameslink
     str_br_700_br_700_12_govia_thameslink_train_group_name: Class 700 "Desiro City"
-      - {SILVER}12-car{BLACK} - {GOLD}Govia Thameslink
-    str_br_700_br_700_12_govia_thameslink_train_nested_name: '{SILVER}12-car{BLACK}
+      - {SILVER}11-car{BLACK} - {GOLD}Govia Thameslink
+    str_br_700_br_700_12_govia_thameslink_train_nested_name: '{SILVER}11-car{BLACK}
       - {GOLD}Govia Thameslink'
 - id: 1987
   vehicle: br_700
@@ -26624,10 +26624,10 @@ variants:
   name_string: str_br_700_br_700_12_govia_thameslink_pride_train_name
   strings:
     str_br_700_br_700_12_govia_thameslink_pride_train_name: Class 700 "Desiro City"
-      - {SILVER}12-car{BLACK} - {GOLD}Govia Thameslink Pride
+      - {SILVER}11-car{BLACK} - {GOLD}Govia Thameslink Pride
     str_br_700_br_700_12_govia_thameslink_pride_train_group_name: Class 700 "Desiro
-      City" - {SILVER}12-car{BLACK} - {GOLD}Govia Thameslink Pride
-    str_br_700_br_700_12_govia_thameslink_pride_train_nested_name: '{SILVER}12-car{BLACK}
+      City" - {SILVER}11-car{BLACK} - {GOLD}Govia Thameslink Pride
+    str_br_700_br_700_12_govia_thameslink_pride_train_nested_name: '{SILVER}11-car{BLACK}
       - {GOLD}Govia Thameslink Pride'
 - id: 1988
   vehicle: br_700
@@ -26767,9 +26767,9 @@ variants:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
     str_br_mk1_bfk_br_carmine_and_cream_train_name: Mk1 Coach Brake First Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_bfk_br_carmine_and_cream_train_group_name: Mk1 Coach Brake First Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 1993
   vehicle: br_mk1
   profile: bfk
@@ -26791,9 +26791,9 @@ variants:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
     str_br_mk1_bfk_br_chocolate_and_cream_train_name: Mk1 Coach Brake First Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_bfk_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake First
-      Corridor - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      Corridor 90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 1994
   vehicle: br_mk1
   profile: bfk
@@ -26814,10 +26814,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_bfk_br_malachite_green_train_name: Mk1 Coach Brake First Corridor -
-      {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bfk_br_malachite_green_train_name: Mk1 Coach Brake First Corridor 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
     str_br_mk1_bfk_br_malachite_green_train_group_name: Mk1 Coach Brake First Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 1995
   vehicle: br_mk1
   profile: bfk
@@ -26838,10 +26838,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_bfk_br_maroon_train_name: Mk1 Coach Brake First Corridor - {SILVER}coach{BLACK}
+    str_br_mk1_bfk_br_maroon_train_name: Mk1 Coach Brake First Corridor 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_bfk_br_maroon_train_group_name: Mk1 Coach Brake First Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
+    str_br_mk1_bfk_br_maroon_train_group_name: Mk1 Coach Brake First Corridor 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 1996
   vehicle: br_mk1
   profile: bfk
@@ -26862,10 +26862,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_bfk_br_blue_and_grey_train_name: Mk1 Coach Brake First Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
+    str_br_mk1_bfk_br_blue_and_grey_train_name: Mk1 Coach Brake First Corridor 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
     str_br_mk1_bfk_br_blue_and_grey_train_group_name: Mk1 Coach Brake First Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 1997
   vehicle: br_717
   profile: default
@@ -34230,10 +34230,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
-    str_br_mk1_rk_br_carmine_and_cream_train_name: Mk1 Coach Restaurant Kitchen -
-      {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_rk_br_carmine_and_cream_train_name: Mk1 Coach Restaurant Kitchen 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_rk_br_carmine_and_cream_train_group_name: Mk1 Coach Restaurant Kitchen
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 2268
   vehicle: br_mk1
   profile: rk
@@ -34255,9 +34255,9 @@ variants:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
     str_br_mk1_rk_br_chocolate_and_cream_train_name: Mk1 Coach Restaurant Kitchen
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_rk_br_chocolate_and_cream_train_group_name: Mk1 Coach Restaurant Kitchen
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 2269
   vehicle: br_mk1
   profile: rk
@@ -34278,10 +34278,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_rk_br_malachite_green_train_name: Mk1 Coach Restaurant Kitchen - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
-    str_br_mk1_rk_br_malachite_green_train_group_name: Mk1 Coach Restaurant Kitchen
+    str_br_mk1_rk_br_malachite_green_train_name: Mk1 Coach Restaurant Kitchen 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_rk_br_malachite_green_train_group_name: Mk1 Coach Restaurant Kitchen
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 2270
   vehicle: br_mk1
   profile: rk
@@ -34302,10 +34302,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_rk_br_maroon_train_name: Mk1 Coach Restaurant Kitchen - {SILVER}coach{BLACK}
+    str_br_mk1_rk_br_maroon_train_name: Mk1 Coach Restaurant Kitchen 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_rk_br_maroon_train_group_name: Mk1 Coach Restaurant Kitchen - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
+    str_br_mk1_rk_br_maroon_train_group_name: Mk1 Coach Restaurant Kitchen 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 2271
   vehicle: br_mk1
   profile: rk
@@ -34326,10 +34326,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_rk_br_blue_and_grey_train_name: Mk1 Coach Restaurant Kitchen - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
-    str_br_mk1_rk_br_blue_and_grey_train_group_name: Mk1 Coach Restaurant Kitchen
+    str_br_mk1_rk_br_blue_and_grey_train_name: Mk1 Coach Restaurant Kitchen 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_rk_br_blue_and_grey_train_group_name: Mk1 Coach Restaurant Kitchen
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 2272
   vehicle: br_mk1
   profile: bg
@@ -34350,10 +34350,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
-    str_br_mk1_bg_br_carmine_and_cream_train_name: Mk1 Coach Brake Gangwayed - {SILVER}coach{BLACK}
-      - {GOLD}BR Carmine and Cream
-    str_br_mk1_bg_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Gangwayed
+    str_br_mk1_bg_br_carmine_and_cream_train_name: Mk1 Coach Brake Gangwayed 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_bg_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Gangwayed
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 2273
   vehicle: br_mk1
   profile: bg
@@ -34374,10 +34374,10 @@ variants:
   strings:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
-    str_br_mk1_bg_br_chocolate_and_cream_train_name: Mk1 Coach Brake Gangwayed - {SILVER}coach{BLACK}
-      - {GOLD}BR Chocolate and Cream
+    str_br_mk1_bg_br_chocolate_and_cream_train_name: Mk1 Coach Brake Gangwayed 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_bg_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Gangwayed
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 2274
   vehicle: br_mk1
   profile: bg
@@ -34398,10 +34398,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_bg_br_malachite_green_train_name: Mk1 Coach Brake Gangwayed - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
-    str_br_mk1_bg_br_malachite_green_train_group_name: Mk1 Coach Brake Gangwayed -
-      {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bg_br_malachite_green_train_name: Mk1 Coach Brake Gangwayed 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bg_br_malachite_green_train_group_name: Mk1 Coach Brake Gangwayed 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 2275
   vehicle: br_mk1
   profile: bg
@@ -34422,9 +34422,9 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_bg_br_maroon_train_name: Mk1 Coach Brake Gangwayed - {SILVER}coach{BLACK}
+    str_br_mk1_bg_br_maroon_train_name: Mk1 Coach Brake Gangwayed 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_bg_br_maroon_train_group_name: Mk1 Coach Brake Gangwayed - {SILVER}coach{BLACK}
+    str_br_mk1_bg_br_maroon_train_group_name: Mk1 Coach Brake Gangwayed 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
 - id: 2276
   vehicle: br_mk1
@@ -34446,10 +34446,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_bg_br_blue_and_grey_train_name: Mk1 Coach Brake Gangwayed - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
-    str_br_mk1_bg_br_blue_and_grey_train_group_name: Mk1 Coach Brake Gangwayed - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
+    str_br_mk1_bg_br_blue_and_grey_train_name: Mk1 Coach Brake Gangwayed 90 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_bg_br_blue_and_grey_train_group_name: Mk1 Coach Brake Gangwayed 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 2277
   vehicle: lms_stanier_p3_bg
   profile: default
@@ -35014,10 +35014,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
-    str_br_mk1_sk_br_carmine_and_cream_train_name: Mk1 Coach Standard Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Carmine and Cream
+    str_br_mk1_sk_br_carmine_and_cream_train_name: Mk1 Coach Standard Corridor 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
     str_br_mk1_sk_br_carmine_and_cream_train_group_name: Mk1 Coach Standard Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 2297
   vehicle: br_mk1
   profile: sk
@@ -35038,10 +35038,10 @@ variants:
   strings:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
-    str_br_mk1_sk_br_chocolate_and_cream_train_name: Mk1 Coach Standard Corridor -
-      {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_sk_br_chocolate_and_cream_train_name: Mk1 Coach Standard Corridor 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
     str_br_mk1_sk_br_chocolate_and_cream_train_group_name: Mk1 Coach Standard Corridor
-      - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 2298
   vehicle: br_mk1
   profile: sk
@@ -35062,10 +35062,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_sk_br_malachite_green_train_name: Mk1 Coach Standard Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
-    str_br_mk1_sk_br_malachite_green_train_group_name: Mk1 Coach Standard Corridor
+    str_br_mk1_sk_br_malachite_green_train_name: Mk1 Coach Standard Corridor 90 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_sk_br_malachite_green_train_group_name: Mk1 Coach Standard Corridor
+      90 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 2299
   vehicle: br_mk1
   profile: sk
@@ -35086,10 +35086,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_sk_br_maroon_train_name: Mk1 Coach Standard Corridor - {SILVER}coach{BLACK}
+    str_br_mk1_sk_br_maroon_train_name: Mk1 Coach Standard Corridor 90 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_sk_br_maroon_train_group_name: Mk1 Coach Standard Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Maroon
+    str_br_mk1_sk_br_maroon_train_group_name: Mk1 Coach Standard Corridor 90 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Maroon
 - id: 2300
   vehicle: br_mk1
   profile: sk
@@ -35110,10 +35110,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_sk_br_blue_and_grey_train_name: Mk1 Coach Standard Corridor - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
-    str_br_mk1_sk_br_blue_and_grey_train_group_name: Mk1 Coach Standard Corridor -
-      {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_sk_br_blue_and_grey_train_name: Mk1 Coach Standard Corridor 90 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_sk_br_blue_and_grey_train_group_name: Mk1 Coach Standard Corridor 90
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 2301
   vehicle: br_374
   profile: default
@@ -36139,7 +36139,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 60
+    capacity: 65
     articulated_count: 5
     lengths:
     - 8
@@ -36195,7 +36195,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 60
+    capacity: 65
     articulated_count: 5
     lengths:
     - 8
@@ -36283,7 +36283,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 67
+    capacity: 72
     articulated_count: 9
     lengths:
     - 8
@@ -36347,7 +36347,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 67
+    capacity: 72
     articulated_count: 9
     lengths:
     - 8
@@ -36464,7 +36464,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 68
+    capacity: 65
     articulated_count: 5
     lengths:
     - 8
@@ -36576,7 +36576,7 @@ variants:
   active: true
   deprecated: false
   compatibility:
-    capacity: 68
+    capacity: 65
     articulated_count: 5
     lengths:
     - 8
@@ -38435,10 +38435,10 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Carmine and Cream'
-    str_br_mk1_so_br_carmine_and_cream_train_name: Mk1 Coach Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Carmine and Cream
-    str_br_mk1_so_br_carmine_and_cream_train_group_name: Mk1 Coach Standard Open -
-      {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_so_br_carmine_and_cream_train_name: Mk1 Coach Standard Open 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_so_br_carmine_and_cream_train_group_name: Mk1 Coach Standard Open 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
 - id: 2430
   vehicle: br_mk1
   profile: so
@@ -38459,10 +38459,10 @@ variants:
   strings:
     str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Chocolate and Cream'
-    str_br_mk1_so_br_chocolate_and_cream_train_name: Mk1 Coach Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Chocolate and Cream
-    str_br_mk1_so_br_chocolate_and_cream_train_group_name: Mk1 Coach Standard Open
+    str_br_mk1_so_br_chocolate_and_cream_train_name: Mk1 Coach Standard Open 100 mph
       - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_so_br_chocolate_and_cream_train_group_name: Mk1 Coach Standard Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
 - id: 2431
   vehicle: br_mk1
   profile: so
@@ -38483,10 +38483,10 @@ variants:
   strings:
     str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Malachite Green'
-    str_br_mk1_so_br_malachite_green_train_name: Mk1 Coach Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
-    str_br_mk1_so_br_malachite_green_train_group_name: Mk1 Coach Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Malachite Green
+    str_br_mk1_so_br_malachite_green_train_name: Mk1 Coach Standard Open 100 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_so_br_malachite_green_train_group_name: Mk1 Coach Standard Open 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
 - id: 2432
   vehicle: br_mk1
   profile: so
@@ -38507,9 +38507,9 @@ variants:
   strings:
     str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
       - {GOLD}BR Maroon'
-    str_br_mk1_so_br_maroon_train_name: Mk1 Coach Standard Open - {SILVER}coach{BLACK}
+    str_br_mk1_so_br_maroon_train_name: Mk1 Coach Standard Open 100 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
-    str_br_mk1_so_br_maroon_train_group_name: Mk1 Coach Standard Open - {SILVER}coach{BLACK}
+    str_br_mk1_so_br_maroon_train_group_name: Mk1 Coach Standard Open 100 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Maroon
 - id: 2433
   vehicle: br_mk1
@@ -38531,10 +38531,10 @@ variants:
   strings:
     str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
       Blue and Grey'
-    str_br_mk1_so_br_blue_and_grey_train_name: Mk1 Coach Standard Open - {SILVER}coach{BLACK}
+    str_br_mk1_so_br_blue_and_grey_train_name: Mk1 Coach Standard Open 100 mph - {SILVER}coach{BLACK}
       - {GOLD}BR Blue and Grey
-    str_br_mk1_so_br_blue_and_grey_train_group_name: Mk1 Coach Standard Open - {SILVER}coach{BLACK}
-      - {GOLD}BR Blue and Grey
+    str_br_mk1_so_br_blue_and_grey_train_group_name: Mk1 Coach Standard Open 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
 - id: 2434
   vehicle: br_321
   profile: 321_freight
@@ -44394,3 +44394,1563 @@ variants:
       A4 4-6-2 - {SILVER}Engine + Tender{BLACK} - {GOLD}BR Express Passenger Blue
     str_lner_a4_default_br_express_passenger_blue_train_nested_name: '{SILVER}Engine
       + Tender{BLACK} - {GOLD}BR Express Passenger Blue'
+- id: 1004
+  vehicle: br_mk1
+  profile: tso_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1004_br_mk1_tso_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_tso_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_tso_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_tso_100_br_carmine_and_cream_train_name: Mk1 Coach Tourist Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_tso_100_br_carmine_and_cream_train_group_name: Mk1 Coach Tourist Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 1005
+  vehicle: br_mk1
+  profile: tso_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1005_br_mk1_tso_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_tso_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_tso_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_tso_100_br_chocolate_and_cream_train_name: Mk1 Coach Tourist Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_tso_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Tourist
+      Standard Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 1006
+  vehicle: br_mk1
+  profile: tso_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1006_br_mk1_tso_100_br_malachite_green_train.gnml
+  identifier: br_mk1_tso_100_br_malachite_green_train
+  name_string: str_br_mk1_tso_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_tso_100_br_malachite_green_train_name: Mk1 Coach Tourist Standard Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_tso_100_br_malachite_green_train_group_name: Mk1 Coach Tourist Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 1007
+  vehicle: br_mk1
+  profile: tso_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1007_br_mk1_tso_100_br_maroon_train.gnml
+  identifier: br_mk1_tso_100_br_maroon_train
+  name_string: str_br_mk1_tso_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_tso_100_br_maroon_train_name: Mk1 Coach Tourist Standard Open 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_tso_100_br_maroon_train_group_name: Mk1 Coach Tourist Standard Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 1034
+  vehicle: br_mk1
+  profile: tso_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 64
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1034_br_mk1_tso_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_tso_100_br_blue_and_grey_train
+  name_string: str_br_mk1_tso_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_tso_100_br_blue_and_grey_train_name: Mk1 Coach Tourist Standard Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_tso_100_br_blue_and_grey_train_group_name: Mk1 Coach Tourist Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 1093
+  vehicle: br_mk1
+  profile: sk_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1093_br_mk1_sk_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_sk_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_sk_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_sk_100_br_carmine_and_cream_train_name: Mk1 Coach Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_sk_100_br_carmine_and_cream_train_group_name: Mk1 Coach Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 1096
+  vehicle: br_mk1
+  profile: sk_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1096_br_mk1_sk_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_sk_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_sk_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_sk_100_br_chocolate_and_cream_train_name: Mk1 Coach Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_sk_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Standard
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 1097
+  vehicle: br_mk1
+  profile: sk_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1097_br_mk1_sk_100_br_malachite_green_train.gnml
+  identifier: br_mk1_sk_100_br_malachite_green_train
+  name_string: str_br_mk1_sk_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_sk_100_br_malachite_green_train_name: Mk1 Coach Standard Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_sk_100_br_malachite_green_train_group_name: Mk1 Coach Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 1098
+  vehicle: br_mk1
+  profile: sk_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1098_br_mk1_sk_100_br_maroon_train.gnml
+  identifier: br_mk1_sk_100_br_maroon_train
+  name_string: str_br_mk1_sk_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_sk_100_br_maroon_train_name: Mk1 Coach Standard Corridor 100 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_sk_100_br_maroon_train_group_name: Mk1 Coach Standard Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 1168
+  vehicle: br_mk1
+  profile: sk_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1168_br_mk1_sk_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_sk_100_br_blue_and_grey_train
+  name_string: str_br_mk1_sk_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_sk_100_br_blue_and_grey_train_name: Mk1 Coach Standard Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_sk_100_br_blue_and_grey_train_group_name: Mk1 Coach Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 1169
+  vehicle: br_mk1
+  profile: rmb_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1169_br_mk1_rmb_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_rmb_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_rmb_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_rmb_100_br_carmine_and_cream_train_name: Mk1 Coach Restaurant Buffet
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_rmb_100_br_carmine_and_cream_train_group_name: Mk1 Coach Restaurant
+      Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 1170
+  vehicle: br_mk1
+  profile: rmb_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1170_br_mk1_rmb_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_rmb_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_rmb_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_rmb_100_br_chocolate_and_cream_train_name: Mk1 Coach Restaurant Buffet
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_rmb_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Restaurant
+      Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 1171
+  vehicle: br_mk1
+  profile: rmb_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1171_br_mk1_rmb_100_br_malachite_green_train.gnml
+  identifier: br_mk1_rmb_100_br_malachite_green_train
+  name_string: str_br_mk1_rmb_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_rmb_100_br_malachite_green_train_name: Mk1 Coach Restaurant Buffet
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_rmb_100_br_malachite_green_train_group_name: Mk1 Coach Restaurant Buffet
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 1789
+  vehicle: br_mk1
+  profile: rmb_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1789_br_mk1_rmb_100_br_maroon_train.gnml
+  identifier: br_mk1_rmb_100_br_maroon_train
+  name_string: str_br_mk1_rmb_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_rmb_100_br_maroon_train_name: Mk1 Coach Restaurant Buffet 100 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_rmb_100_br_maroon_train_group_name: Mk1 Coach Restaurant Buffet 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 1790
+  vehicle: br_mk1
+  profile: rmb_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1790_br_mk1_rmb_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_rmb_100_br_blue_and_grey_train
+  name_string: str_br_mk1_rmb_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_rmb_100_br_blue_and_grey_train_name: Mk1 Coach Restaurant Buffet 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_rmb_100_br_blue_and_grey_train_group_name: Mk1 Coach Restaurant Buffet
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 1791
+  vehicle: br_mk1
+  profile: bsk_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1791_br_mk1_bsk_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bsk_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_bsk_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_bsk_100_br_carmine_and_cream_train_name: Mk1 Coach Brake Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_bsk_100_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Standard
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 1792
+  vehicle: br_mk1
+  profile: bsk_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1792_br_mk1_bsk_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bsk_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bsk_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_bsk_100_br_chocolate_and_cream_train_name: Mk1 Coach Brake Standard
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_bsk_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Standard
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 1793
+  vehicle: br_mk1
+  profile: bsk_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1793_br_mk1_bsk_100_br_malachite_green_train.gnml
+  identifier: br_mk1_bsk_100_br_malachite_green_train
+  name_string: str_br_mk1_bsk_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_bsk_100_br_malachite_green_train_name: Mk1 Coach Brake Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bsk_100_br_malachite_green_train_group_name: Mk1 Coach Brake Standard
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 1937
+  vehicle: br_mk1
+  profile: bsk_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1937_br_mk1_bsk_100_br_maroon_train.gnml
+  identifier: br_mk1_bsk_100_br_maroon_train
+  name_string: str_br_mk1_bsk_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_bsk_100_br_maroon_train_name: Mk1 Coach Brake Standard Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_bsk_100_br_maroon_train_group_name: Mk1 Coach Brake Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 1998
+  vehicle: br_mk1
+  profile: bsk_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1998_br_mk1_bsk_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bsk_100_br_blue_and_grey_train
+  name_string: str_br_mk1_bsk_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_bsk_100_br_blue_and_grey_train_name: Mk1 Coach Brake Standard Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_bsk_100_br_blue_and_grey_train_group_name: Mk1 Coach Brake Standard
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 1999
+  vehicle: br_mk1
+  profile: bso_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1999_br_mk1_bso_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bso_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_bso_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_bso_100_br_carmine_and_cream_train_name: Mk1 Coach Brake Standard Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_bso_100_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2052
+  vehicle: br_mk1
+  profile: bso_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2052_br_mk1_bso_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bso_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bso_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_bso_100_br_chocolate_and_cream_train_name: Mk1 Coach Brake Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_bso_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2068
+  vehicle: br_mk1
+  profile: bso_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2068_br_mk1_bso_100_br_malachite_green_train.gnml
+  identifier: br_mk1_bso_100_br_malachite_green_train
+  name_string: str_br_mk1_bso_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_bso_100_br_malachite_green_train_name: Mk1 Coach Brake Standard Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bso_100_br_malachite_green_train_group_name: Mk1 Coach Brake Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2069
+  vehicle: br_mk1
+  profile: bso_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2069_br_mk1_bso_100_br_maroon_train.gnml
+  identifier: br_mk1_bso_100_br_maroon_train
+  name_string: str_br_mk1_bso_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_bso_100_br_maroon_train_name: Mk1 Coach Brake Standard Open 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_bso_100_br_maroon_train_group_name: Mk1 Coach Brake Standard Open 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 2224
+  vehicle: br_mk1
+  profile: bso_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 39
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2224_br_mk1_bso_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bso_100_br_blue_and_grey_train
+  name_string: str_br_mk1_bso_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_bso_100_br_blue_and_grey_train_name: Mk1 Coach Brake Standard Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_bso_100_br_blue_and_grey_train_group_name: Mk1 Coach Brake Standard
+      Open 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 2225
+  vehicle: br_mk1
+  profile: bsot_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2225_br_mk1_bsot_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bsot_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_bsot_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_bsot_100_br_carmine_and_cream_train_name: Mk1 Coach Brake Standard
+      Open Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_bsot_100_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Standard
+      Open Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2291
+  vehicle: br_mk1
+  profile: bsot_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2291_br_mk1_bsot_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bsot_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bsot_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_bsot_100_br_chocolate_and_cream_train_name: Mk1 Coach Brake Standard
+      Open Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_bsot_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Standard
+      Open Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2292
+  vehicle: br_mk1
+  profile: bsot_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2292_br_mk1_bsot_100_br_malachite_green_train.gnml
+  identifier: br_mk1_bsot_100_br_malachite_green_train
+  name_string: str_br_mk1_bsot_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_bsot_100_br_malachite_green_train_name: Mk1 Coach Brake Standard Open
+      Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bsot_100_br_malachite_green_train_group_name: Mk1 Coach Brake Standard
+      Open Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2293
+  vehicle: br_mk1
+  profile: bsot_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2293_br_mk1_bsot_100_br_maroon_train.gnml
+  identifier: br_mk1_bsot_100_br_maroon_train
+  name_string: str_br_mk1_bsot_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_bsot_100_br_maroon_train_name: Mk1 Coach Brake Standard Open Mini-Buffet
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_bsot_100_br_maroon_train_group_name: Mk1 Coach Brake Standard Open
+      Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 2294
+  vehicle: br_mk1
+  profile: bsot_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 31
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2294_br_mk1_bsot_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bsot_100_br_blue_and_grey_train
+  name_string: str_br_mk1_bsot_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_bsot_100_br_blue_and_grey_train_name: Mk1 Coach Brake Standard Open
+      Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_bsot_100_br_blue_and_grey_train_group_name: Mk1 Coach Brake Standard
+      Open Mini-Buffet 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 2295
+  vehicle: br_mk1
+  profile: ck_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2295_br_mk1_ck_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_ck_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_ck_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_ck_100_br_carmine_and_cream_train_name: Mk1 Coach Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_ck_100_br_carmine_and_cream_train_group_name: Mk1 Coach Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2363
+  vehicle: br_mk1
+  profile: ck_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2363_br_mk1_ck_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_ck_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_ck_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_ck_100_br_chocolate_and_cream_train_name: Mk1 Coach Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_ck_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Composite
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2364
+  vehicle: br_mk1
+  profile: ck_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2364_br_mk1_ck_100_br_malachite_green_train.gnml
+  identifier: br_mk1_ck_100_br_malachite_green_train
+  name_string: str_br_mk1_ck_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_ck_100_br_malachite_green_train_name: Mk1 Coach Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_ck_100_br_malachite_green_train_group_name: Mk1 Coach Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2365
+  vehicle: br_mk1
+  profile: ck_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2365_br_mk1_ck_100_br_maroon_train.gnml
+  identifier: br_mk1_ck_100_br_maroon_train
+  name_string: str_br_mk1_ck_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_ck_100_br_maroon_train_name: Mk1 Coach Composite Corridor 100 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_ck_100_br_maroon_train_group_name: Mk1 Coach Composite Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 2366
+  vehicle: br_mk1
+  profile: ck_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 48
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2366_br_mk1_ck_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_ck_100_br_blue_and_grey_train
+  name_string: str_br_mk1_ck_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_ck_100_br_blue_and_grey_train_name: Mk1 Coach Composite Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_ck_100_br_blue_and_grey_train_group_name: Mk1 Coach Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 2368
+  vehicle: br_mk1
+  profile: fo_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2368_br_mk1_fo_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_fo_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_fo_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_fo_100_br_carmine_and_cream_train_name: Mk1 Coach First Open 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_fo_100_br_carmine_and_cream_train_group_name: Mk1 Coach First Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2493
+  vehicle: br_mk1
+  profile: fo_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2493_br_mk1_fo_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_fo_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_fo_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_fo_100_br_chocolate_and_cream_train_name: Mk1 Coach First Open 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_fo_100_br_chocolate_and_cream_train_group_name: Mk1 Coach First Open
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2494
+  vehicle: br_mk1
+  profile: fo_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2494_br_mk1_fo_100_br_malachite_green_train.gnml
+  identifier: br_mk1_fo_100_br_malachite_green_train
+  name_string: str_br_mk1_fo_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_fo_100_br_malachite_green_train_name: Mk1 Coach First Open 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_fo_100_br_malachite_green_train_group_name: Mk1 Coach First Open 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2495
+  vehicle: br_mk1
+  profile: fo_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2495_br_mk1_fo_100_br_maroon_train.gnml
+  identifier: br_mk1_fo_100_br_maroon_train
+  name_string: str_br_mk1_fo_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_fo_100_br_maroon_train_name: Mk1 Coach First Open 100 mph - {SILVER}coach{BLACK}
+      - {GOLD}BR Maroon
+    str_br_mk1_fo_100_br_maroon_train_group_name: Mk1 Coach First Open 100 mph - {SILVER}coach{BLACK}
+      - {GOLD}BR Maroon
+- id: 2496
+  vehicle: br_mk1
+  profile: fo_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2496_br_mk1_fo_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_fo_100_br_blue_and_grey_train
+  name_string: str_br_mk1_fo_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_fo_100_br_blue_and_grey_train_name: Mk1 Coach First Open 100 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_fo_100_br_blue_and_grey_train_group_name: Mk1 Coach First Open 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 2497
+  vehicle: br_mk1
+  profile: fk_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2497_br_mk1_fk_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_fk_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_fk_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_fk_100_br_carmine_and_cream_train_name: Mk1 Coach First Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_fk_100_br_carmine_and_cream_train_group_name: Mk1 Coach First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2498
+  vehicle: br_mk1
+  profile: fk_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2498_br_mk1_fk_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_fk_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_fk_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_fk_100_br_chocolate_and_cream_train_name: Mk1 Coach First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_fk_100_br_chocolate_and_cream_train_group_name: Mk1 Coach First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2499
+  vehicle: br_mk1
+  profile: fk_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2499_br_mk1_fk_100_br_malachite_green_train.gnml
+  identifier: br_mk1_fk_100_br_malachite_green_train
+  name_string: str_br_mk1_fk_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_fk_100_br_malachite_green_train_name: Mk1 Coach First Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_fk_100_br_malachite_green_train_group_name: Mk1 Coach First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2500
+  vehicle: br_mk1
+  profile: fk_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2500_br_mk1_fk_100_br_maroon_train.gnml
+  identifier: br_mk1_fk_100_br_maroon_train
+  name_string: str_br_mk1_fk_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_fk_100_br_maroon_train_name: Mk1 Coach First Corridor 100 mph - {SILVER}coach{BLACK}
+      - {GOLD}BR Maroon
+    str_br_mk1_fk_100_br_maroon_train_group_name: Mk1 Coach First Corridor 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 2501
+  vehicle: br_mk1
+  profile: fk_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 42
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2501_br_mk1_fk_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_fk_100_br_blue_and_grey_train
+  name_string: str_br_mk1_fk_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_fk_100_br_blue_and_grey_train_name: Mk1 Coach First Corridor 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_fk_100_br_blue_and_grey_train_group_name: Mk1 Coach First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 2502
+  vehicle: br_mk1
+  profile: bck_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2502_br_mk1_bck_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bck_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_bck_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_bck_100_br_carmine_and_cream_train_name: Mk1 Coach Brake Composite
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_bck_100_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Composite
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2503
+  vehicle: br_mk1
+  profile: bck_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2503_br_mk1_bck_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bck_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bck_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_bck_100_br_chocolate_and_cream_train_name: Mk1 Coach Brake Composite
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_bck_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Composite
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2504
+  vehicle: br_mk1
+  profile: bck_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2504_br_mk1_bck_100_br_malachite_green_train.gnml
+  identifier: br_mk1_bck_100_br_malachite_green_train
+  name_string: str_br_mk1_bck_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_bck_100_br_malachite_green_train_name: Mk1 Coach Brake Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bck_100_br_malachite_green_train_group_name: Mk1 Coach Brake Composite
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2505
+  vehicle: br_mk1
+  profile: bck_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2505_br_mk1_bck_100_br_maroon_train.gnml
+  identifier: br_mk1_bck_100_br_maroon_train
+  name_string: str_br_mk1_bck_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_bck_100_br_maroon_train_name: Mk1 Coach Brake Composite Corridor 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_bck_100_br_maroon_train_group_name: Mk1 Coach Brake Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 2506
+  vehicle: br_mk1
+  profile: bck_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2506_br_mk1_bck_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bck_100_br_blue_and_grey_train
+  name_string: str_br_mk1_bck_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_bck_100_br_blue_and_grey_train_name: Mk1 Coach Brake Composite Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_bck_100_br_blue_and_grey_train_group_name: Mk1 Coach Brake Composite
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 2507
+  vehicle: br_mk1
+  profile: bfk_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2507_br_mk1_bfk_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bfk_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_bfk_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_bfk_100_br_carmine_and_cream_train_name: Mk1 Coach Brake First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_bfk_100_br_carmine_and_cream_train_group_name: Mk1 Coach Brake First
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2641
+  vehicle: br_mk1
+  profile: bfk_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2641_br_mk1_bfk_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bfk_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bfk_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_bfk_100_br_chocolate_and_cream_train_name: Mk1 Coach Brake First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_bfk_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake First
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2642
+  vehicle: br_mk1
+  profile: bfk_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2642_br_mk1_bfk_100_br_malachite_green_train.gnml
+  identifier: br_mk1_bfk_100_br_malachite_green_train
+  name_string: str_br_mk1_bfk_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_bfk_100_br_malachite_green_train_name: Mk1 Coach Brake First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bfk_100_br_malachite_green_train_group_name: Mk1 Coach Brake First
+      Corridor 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2643
+  vehicle: br_mk1
+  profile: bfk_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2643_br_mk1_bfk_100_br_maroon_train.gnml
+  identifier: br_mk1_bfk_100_br_maroon_train
+  name_string: str_br_mk1_bfk_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_bfk_100_br_maroon_train_name: Mk1 Coach Brake First Corridor 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_bfk_100_br_maroon_train_group_name: Mk1 Coach Brake First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 2647
+  vehicle: br_mk1
+  profile: bfk_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 24
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2647_br_mk1_bfk_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bfk_100_br_blue_and_grey_train
+  name_string: str_br_mk1_bfk_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_bfk_100_br_blue_and_grey_train_name: Mk1 Coach Brake First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_bfk_100_br_blue_and_grey_train_group_name: Mk1 Coach Brake First Corridor
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 2651
+  vehicle: br_mk1
+  profile: rk_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2651_br_mk1_rk_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_rk_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_rk_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_rk_100_br_carmine_and_cream_train_name: Mk1 Coach Restaurant Kitchen
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_rk_100_br_carmine_and_cream_train_group_name: Mk1 Coach Restaurant
+      Kitchen 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2652
+  vehicle: br_mk1
+  profile: rk_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2652_br_mk1_rk_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_rk_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_rk_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_rk_100_br_chocolate_and_cream_train_name: Mk1 Coach Restaurant Kitchen
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_rk_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Restaurant
+      Kitchen 100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2653
+  vehicle: br_mk1
+  profile: rk_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2653_br_mk1_rk_100_br_malachite_green_train.gnml
+  identifier: br_mk1_rk_100_br_malachite_green_train
+  name_string: str_br_mk1_rk_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_rk_100_br_malachite_green_train_name: Mk1 Coach Restaurant Kitchen
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_rk_100_br_malachite_green_train_group_name: Mk1 Coach Restaurant Kitchen
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2654
+  vehicle: br_mk1
+  profile: rk_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2654_br_mk1_rk_100_br_maroon_train.gnml
+  identifier: br_mk1_rk_100_br_maroon_train
+  name_string: str_br_mk1_rk_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_rk_100_br_maroon_train_name: Mk1 Coach Restaurant Kitchen 100 mph -
+      {SILVER}coach{BLACK} - {GOLD}BR Maroon
+    str_br_mk1_rk_100_br_maroon_train_group_name: Mk1 Coach Restaurant Kitchen 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 2655
+  vehicle: br_mk1
+  profile: rk_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2655_br_mk1_rk_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_rk_100_br_blue_and_grey_train
+  name_string: str_br_mk1_rk_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_rk_100_br_blue_and_grey_train_name: Mk1 Coach Restaurant Kitchen 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_rk_100_br_blue_and_grey_train_group_name: Mk1 Coach Restaurant Kitchen
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+- id: 2656
+  vehicle: br_mk1
+  profile: bg_100
+  livery: br carmine and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2656_br_mk1_bg_100_br_carmine_and_cream_train.gnml
+  identifier: br_mk1_bg_100_br_carmine_and_cream_train
+  name_string: str_br_mk1_bg_100_br_carmine_and_cream_train_name
+  strings:
+    str_lner_gresley_pv_default_br_carmine_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Carmine and Cream'
+    str_br_mk1_bg_100_br_carmine_and_cream_train_name: Mk1 Coach Brake Gangwayed 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+    str_br_mk1_bg_100_br_carmine_and_cream_train_group_name: Mk1 Coach Brake Gangwayed
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Carmine and Cream
+- id: 2657
+  vehicle: br_mk1
+  profile: bg_100
+  livery: br chocolate and cream
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2657_br_mk1_bg_100_br_chocolate_and_cream_train.gnml
+  identifier: br_mk1_bg_100_br_chocolate_and_cream_train
+  name_string: str_br_mk1_bg_100_br_chocolate_and_cream_train_name
+  strings:
+    str_br_mk1_tso_br_chocolate_and_cream_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Chocolate and Cream'
+    str_br_mk1_bg_100_br_chocolate_and_cream_train_name: Mk1 Coach Brake Gangwayed
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+    str_br_mk1_bg_100_br_chocolate_and_cream_train_group_name: Mk1 Coach Brake Gangwayed
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Chocolate and Cream
+- id: 2658
+  vehicle: br_mk1
+  profile: bg_100
+  livery: br malachite green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2658_br_mk1_bg_100_br_malachite_green_train.gnml
+  identifier: br_mk1_bg_100_br_malachite_green_train
+  name_string: str_br_mk1_bg_100_br_malachite_green_train_name
+  strings:
+    str_br_mk1_tso_br_malachite_green_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Malachite Green'
+    str_br_mk1_bg_100_br_malachite_green_train_name: Mk1 Coach Brake Gangwayed 100
+      mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+    str_br_mk1_bg_100_br_malachite_green_train_group_name: Mk1 Coach Brake Gangwayed
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Malachite Green
+- id: 2659
+  vehicle: br_mk1
+  profile: bg_100
+  livery: br maroon
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2659_br_mk1_bg_100_br_maroon_train.gnml
+  identifier: br_mk1_bg_100_br_maroon_train
+  name_string: str_br_mk1_bg_100_br_maroon_train_name
+  strings:
+    str_lner_gresley_pv_default_br_maroon_train_nested_name: '{SILVER}coach{BLACK}
+      - {GOLD}BR Maroon'
+    str_br_mk1_bg_100_br_maroon_train_name: Mk1 Coach Brake Gangwayed 100 mph - {SILVER}coach{BLACK}
+      - {GOLD}BR Maroon
+    str_br_mk1_bg_100_br_maroon_train_group_name: Mk1 Coach Brake Gangwayed 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Maroon
+- id: 2660
+  vehicle: br_mk1
+  profile: bg_100
+  livery: br blue and grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 10
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/2660_br_mk1_bg_100_br_blue_and_grey_train.gnml
+  identifier: br_mk1_bg_100_br_blue_and_grey_train
+  name_string: str_br_mk1_bg_100_br_blue_and_grey_train_name
+  strings:
+    str_br_mk1_tso_br_blue_and_grey_train_nested_name: '{SILVER}coach{BLACK} - {GOLD}BR
+      Blue and Grey'
+    str_br_mk1_bg_100_br_blue_and_grey_train_name: Mk1 Coach Brake Gangwayed 100 mph
+      - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
+    str_br_mk1_bg_100_br_blue_and_grey_train_group_name: Mk1 Coach Brake Gangwayed
+      100 mph - {SILVER}coach{BLACK} - {GOLD}BR Blue and Grey
