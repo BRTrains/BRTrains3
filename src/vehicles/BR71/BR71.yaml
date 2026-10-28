@@ -5,17 +5,17 @@ info:
 stats:
   vehicle_type: train
   train_type: locomotive
-  weight: 100
+  weight: 78.24
   length: 8
-  power: 2252
-  speed: 75
-  tractive_effort: 0.31
+  power: 2552
+  speed: 90
+  tractive_effort: 195
   track_type:
     - THIRD
   power_type:
     - electric
 
-usage: [FREIGHT]
+usage: [PASSENGER, FREIGHT]
 
 cargo: none
 
