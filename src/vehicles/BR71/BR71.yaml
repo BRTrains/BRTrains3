@@ -31,3 +31,6 @@ liveries:
   - name: BR Green
     special_tags:
       - operator/BR
+  - name: BR Blue
+    special_tags:
+      - operator/BR
